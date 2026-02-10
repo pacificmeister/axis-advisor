@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "source": "AXIS Riders Facebook Group",
+    "last_updated": "2026-02-10",
+    "total_posts": 7
+  },
+  "weight_based_recommendations": [
+    {
+      "weight_lbs": 187,
+      "foil": "SURGE 890",
+      "use_case": "prone_waves",
+      "notes": "Overhead waves, using with FoilDrive"
+    },
+    {
+      "weight_lbs": 198,
+      "foil": "SURGE 950",
+      "use_case": "wing_and_prone",
+      "notes": "Considering 890 vs 950 for wing and prone"
+    }
+  ],
+  "foil_feedback": {
+    "PNG 1310": {
+      "mentions": 1,
+      "use_cases": ["learning", "dock_start", "wing"],
+      "feedback": "Great for learning, responsive and maneuverable despite large size",
+      "sentiment": "positive"
+    },
+    "SURGE 890": {
+      "mentions": 1,
+      "use_cases": ["prone_waves", "overhead"],
+      "feedback": "Good for head-high to plus sessions, can feel overfoiled in bigger waves",
+      "recommended_weight_range": "180-195 lbs",
+      "sentiment": "positive"
+    },
+    "SURGE 830": {
+      "mentions": 1,
+      "use_cases": ["prone_waves", "overhead_plus"],
+      "feedback": "Better choice for bigger overhead waves, less overfoiled",
+      "recommended_weight_range": "180-195 lbs",
+      "sentiment": "positive"
+    }
+  },
+  "common_progressions": [
+    {
+      "from": "PNG 1310",
+      "to": "Advanced fuselage",
+      "notes": "More responsive and maneuverable with Advanced fuselage"
+    }
+  ]
+}

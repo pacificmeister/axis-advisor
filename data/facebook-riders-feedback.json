@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "scraped_at": "2026-02-10T19:20:55.030171",
+    "source": "https://www.facebook.com/groups/axisfoilriders",
+    "version": "stealth-1.0"
+  },
+  "posts": [
+    {
+      "id": "post_0",
+      "text": "Danny Perez\nLearned on PNG 1310 & 1300. Went from standard to +Advanced and it made the foils so much more responsive and maneuverable for such large spans & volumes.\nIt took 3-4 sessions to adjust, I kept on trying to force the movements and had to learn to be more balanced.\n3d\nLike\nReply",
+      "foils_mentioned": [
+        "PNG 1310"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:12.412357"
+    },
+    {
+      "id": "post_1",
+      "text": "Shaun Henderson\nTop contributor\nSame weight and 1150 is what I learnt to wing and dock start with. Advance is much better for pumping. But it did take me a session or two to get use to it.\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:12.416554"
+    },
+    {
+      "id": "post_2",
+      "text": "Mark Shinn\nTop contributor\nHi Hiroki, I think your wish list is exactly what the Surge is designed to do! RIP waves and be easy to pump back out too. The 950 is probably the size for size comparison to the 999 but the Surge has a lot more lift and glide and I suspect you will fi\u2026 See more\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:19.176755"
+    },
+    {
+      "id": "post_3",
+      "text": "Sean Richardson\nTop contributor\nWhoa! Sounds like a pretty serious injury/accident\u2026 \n Awesome that you\u2019re getting back into it after what I can only imagine would have been devastating\u2026\nIn my experience\u2026 to have the most fun riding swell - Surge for sure. I do wingfoil upwind/dow\u2026 See more\n3d\nLike\nReply\n2",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:21:24.511498"
+    },
+    {
+      "id": "post_4",
+      "text": "Charles Chandler\nI would like to know how the mast drag of the Ultra PRO mast compares with the Fatty when riding high on the mast, say with 1/3 of mast in the water. I see that Yvon is doing very well with the Ultra Pro mast on some of the bigger wings, It's probably\u2026 See more\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:38.695262"
+    },
+    {
+      "id": "post_5",
+      "text": "Paul Shapiro\nRising contributor\nBeen riding Surge 890 -mostly head high to plus sessions- but I get a bit overfoiled on it riding bigger (overhead) waves. I think\nSurge 830 might be more comfortable. I'm 85kg, using with FoilDrive.\n10w\nLike\nReply\nEdited",
+      "foils_mentioned": [
+        "SURGE 890",
+        "SURGE 830"
+      ],
+      "rider_weight": 187,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:45.767332"
+    },
+    {
+      "id": "post_6",
+      "text": "Will Hansen\nI'm tossing up between the 950 and 890 at 90 kg to replace my 900 Spitfire for wing and prone. Thinking I might be able to get away with the 890 given the low end but just don't want to lose too much pump for prone wave linking! Is the 950 span too muc\u2026 See more\n10w\nLike\nReply\n4",
+      "foils_mentioned": [],
+      "rider_weight": 198,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:21:45.770151"
+    }
+  ],
+  "statistics": {
+    "total_posts": 7,
+    "foil_mentions": {
+      "PNG 1310": 1,
+      "SURGE 890": 1,
+      "SURGE 830": 1
+    },
+    "weight_recommendations": [
+      {
+        "weight": 187,
+        "foil": "SURGE 890",
+        "use_case": null,
+        "sentiment": "neutral"
+      }
+    ],
+    "use_case_feedback": {}
+  }
+}
