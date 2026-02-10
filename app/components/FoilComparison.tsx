@@ -1,10 +1,13 @@
 interface Product {
   id: number;
+  handle?: string;
   title: string;
-  description: string;
-  image: string;
-  price: string;
+  description?: string;
+  image?: string;
+  price?: string;
   specs: {
+    name: string;
+    product_type: string;
     area?: number;
     series?: string;
   };
@@ -64,13 +67,13 @@ export default function FoilComparison({ foils }: FoilComparisonProps) {
                 </div>
                 <div className="flex justify-between border-b pb-2">
                   <span className="text-gray-600">Price</span>
-                  <span className="font-bold text-red-600">${foil.price}</span>
+                  <span className="font-bold text-red-600">{foil.price ? `$${foil.price}` : 'N/A'}</span>
                 </div>
               </div>
               
               {/* Description */}
               <div className="text-xs text-gray-600 leading-relaxed">
-                {stripHtml(foil.description)}
+                {foil.description ? stripHtml(foil.description) : 'No description available'}
               </div>
               
               {/* CTA */}
