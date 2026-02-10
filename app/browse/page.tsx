@@ -2,88 +2,242 @@
 
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
+import Link from 'next/link';
 
-interface FoilSpecs {
+interface SeriesInfo {
   name: string;
-  product_type: string;
-  area: number;
-  series: string;
-  aspectRatio?: number;
-  wingspan?: number;
-}
-
-interface Foil {
-  id: number;
-  handle: string;
-  title: string;
+  displayName: string;
+  category: 'current' | 'legacy' | 'rear' | 'fuselage';
   description: string;
-  image: string;
-  price: string;
-  available: boolean;
-  url: string;
-  specs: FoilSpecs;
-  tags: string[];
-}
-
-interface SeriesGroup {
-  name: string;
-  foils: Foil[];
-  isLegacy: boolean;
+  foilCount?: number;
+  image?: string;
 }
 
 export default function BrowsePage() {
-  const [seriesGroups, setSeriesGroups] = useState<SeriesGroup[]>([]);
-  const [expandedSeries, setExpandedSeries] = useState<string | null>(null);
+  const [foilData, setFoilData] = useState<any[]>([]);
 
   useEffect(() => {
     fetch('/data/axis-products.json')
       .then(res => res.json())
       .then(data => {
         const foils = data.collections['front-wings'].products;
-        
-        // Define current vs legacy series
-        const currentSeries = ['Spitfire', 'ART v2', 'Fireball', 'PNG', 'Surge', 'Tempo'];
-        const legacySeries = ['ART', 'BSC', 'HPS', 'SP'];
-        
-        // Group by series
-        const grouped: { [key: string]: Foil[] } = {};
-        foils.forEach((foil: Foil) => {
-          const series = foil.specs.series || 'Other';
-          if (!grouped[series]) grouped[series] = [];
-          grouped[series].push(foil);
-        });
-
-        // Sort foils within each series by area (descending)
-        Object.keys(grouped).forEach(series => {
-          grouped[series].sort((a, b) => b.specs.area - a.specs.area);
-        });
-
-        // Create series groups with legacy flag
-        const groups: SeriesGroup[] = Object.keys(grouped).map(series => ({
-          name: series,
-          foils: grouped[series],
-          isLegacy: legacySeries.includes(series),
-        }));
-
-        // Sort: current series first (alphabetically), then legacy series (alphabetically)
-        groups.sort((a, b) => {
-          if (a.isLegacy !== b.isLegacy) {
-            return a.isLegacy ? 1 : -1;
-          }
-          return a.name.localeCompare(b.name);
-        });
-
-        setSeriesGroups(groups);
-        
-        // Auto-expand first series
-        if (groups.length > 0) {
-          setExpandedSeries(groups[0].name);
-        }
+        setFoilData(foils);
       });
   }, []);
 
-  const toggleSeries = (seriesName: string) => {
-    setExpandedSeries(expandedSeries === seriesName ? null : seriesName);
+  // Define series with order and descriptions
+  const seriesDatabase: SeriesInfo[] = [
+    // CURRENT / NEWER FRONT WINGS (newest to oldest)
+    {
+      name: 'Surge',
+      displayName: 'Surge',
+      category: 'current',
+      description: 'High-performance wings for speed and efficiency',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Surge-Complete-table.jpg'
+    },
+    {
+      name: 'Tempo',
+      displayName: 'Tempo',
+      category: 'current',
+      description: 'All-around performance for versatile riding',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Tempo-Complete-table.jpg'
+    },
+    {
+      name: 'ART v2',
+      displayName: 'ART v2',
+      category: 'current',
+      description: 'Next-gen high-aspect with improved stability',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/ARTv2-table_665cd809-d9eb-4a81-9d87-c1e5171d06fd.jpg'
+    },
+    {
+      name: 'Fireball',
+      displayName: 'Fireball',
+      category: 'current',
+      description: 'Speed demon for strong wind and waves',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Fireball-Complete-table.jpg'
+    },
+    {
+      name: 'Spitfire',
+      displayName: 'Spitfire',
+      category: 'current',
+      description: 'Freestyle specialist for aggressive riding',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Family---table_1024x1024.png'
+    },
+    {
+      name: 'PNG',
+      displayName: 'PNG v2',
+      category: 'current',
+      description: 'Pump and glide king for dock starts',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/PNG-Complete-table.jpg'
+    },
+
+    // LEGACY FRONT WINGS
+    {
+      name: 'ART',
+      displayName: 'ART (Legacy)',
+      category: 'legacy',
+      description: 'Original high-aspect research series',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/ART_Front-wing-tables_bb05daa3-372e-489e-9d0a-4ca4defc055c_2048x2048.jpg'
+    },
+    {
+      name: 'BSC',
+      displayName: 'BSC',
+      category: 'legacy',
+      description: 'Beginner Series - forgiving and stable',
+    },
+    {
+      name: 'HPS',
+      displayName: 'HPS',
+      category: 'legacy',
+      description: 'High Performance Series - speed focused',
+    },
+    {
+      name: 'SP',
+      displayName: 'SP',
+      category: 'legacy',
+      description: 'Surf Performance - carving specialist',
+    },
+
+    // REAR WINGS
+    {
+      name: 'Skinny Link',
+      displayName: 'Skinny Link',
+      category: 'rear',
+      description: 'Modular titanium link rear wing system',
+    },
+    {
+      name: 'Surf Skinny',
+      displayName: 'Surf Skinny',
+      category: 'rear',
+      description: 'Surf-specific skinny rear wings',
+    },
+    {
+      name: 'Skinny',
+      displayName: 'Skinny',
+      category: 'rear',
+      description: 'High aspect rear wings for speed',
+    },
+    {
+      name: 'Progressive',
+      displayName: 'Progressive',
+      category: 'rear',
+      description: 'Balanced all-around rear wings',
+    },
+    {
+      name: 'Speed',
+      displayName: 'Speed',
+      category: 'rear',
+      description: 'Maximum speed rear stabilizers',
+    },
+    {
+      name: 'Freeride',
+      displayName: 'Freeride',
+      category: 'rear',
+      description: 'Stable freeride rear wings',
+    },
+    {
+      name: 'Pump',
+      displayName: 'Pump',
+      category: 'rear',
+      description: 'Optimized for pumping efficiency',
+    },
+
+    // FUSELAGES
+    {
+      name: 'Ti Link',
+      displayName: 'Ti Link',
+      category: 'fuselage',
+      description: 'Titanium modular fuselage system',
+    },
+    {
+      name: 'Black Advance+ FATTY',
+      displayName: 'Black Advance+ FATTY',
+      category: 'fuselage',
+      description: 'Heavy-duty thick fuselage',
+    },
+    {
+      name: 'Black Advance+',
+      displayName: 'Black Advance+',
+      category: 'fuselage',
+      description: 'Premium carbon fuselage',
+    },
+    {
+      name: 'Black Advance 20',
+      displayName: 'Black Advance 20',
+      category: 'fuselage',
+      description: '20-inch fuselage length',
+    },
+    {
+      name: 'Red Advance',
+      displayName: 'Red Advance',
+      category: 'fuselage',
+      description: 'Mid-tier carbon fuselage',
+    },
+    {
+      name: 'Red',
+      displayName: 'Red',
+      category: 'fuselage',
+      description: 'Standard aluminum fuselage',
+    },
+  ];
+
+  // Count foils per series from actual data
+  const getSeriesCount = (seriesName: string) => {
+    return foilData.filter(f => f.specs.series === seriesName).length;
+  };
+
+  const currentSeries = seriesDatabase.filter(s => s.category === 'current');
+  const legacySeries = seriesDatabase.filter(s => s.category === 'legacy');
+  const rearSeries = seriesDatabase.filter(s => s.category === 'rear');
+  const fuselageSeries = seriesDatabase.filter(s => s.category === 'fuselage');
+
+  const SeriesCard = ({ series }: { series: SeriesInfo }) => {
+    const count = getSeriesCount(series.name);
+    const hasData = count > 0;
+
+    return (
+      <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-red-600 hover:shadow-lg transition group">
+        {series.image && (
+          <div className="aspect-video bg-gray-50 relative overflow-hidden">
+            <img
+              src={series.image}
+              alt={series.displayName}
+              className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        )}
+        
+        <div className="p-6">
+          <div className="flex items-start justify-between mb-3">
+            <h3 className="text-2xl font-black text-gray-900">
+              {series.displayName}
+            </h3>
+            {hasData && (
+              <span className="px-2 py-1 bg-red-100 text-red-700 text-xs font-bold rounded">
+                {count} foils
+              </span>
+            )}
+          </div>
+          
+          <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+            {series.description}
+          </p>
+
+          {hasData ? (
+            <Link
+              href={`/series/${series.name.toLowerCase().replace(/\s+/g, '-')}`}
+              className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition text-sm"
+            >
+              View Models →
+            </Link>
+          ) : (
+            <span className="inline-block bg-gray-200 text-gray-500 font-bold py-2 px-6 rounded-lg text-sm cursor-not-allowed">
+              Coming Soon
+            </span>
+          )}
+        </div>
+      </div>
+    );
   };
 
   return (
@@ -93,119 +247,70 @@ export default function BrowsePage() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-4xl font-black text-gray-900 mb-4">
-            Browse by Series
+            Browse AXIS Product Line
           </h1>
           <p className="text-lg text-gray-600">
-            Explore all AXIS front wings organized by family
+            Explore by series - from newest innovations to proven classics
           </p>
         </div>
 
-        <div className="space-y-4">
-          {seriesGroups.map(group => (
-            <div
-              key={group.name}
-              className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden"
-            >
-              {/* Series Header */}
-              <button
-                onClick={() => toggleSeries(group.name)}
-                className="w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition"
-              >
-                <div className="flex items-center gap-3">
-                  <h2 className="text-2xl font-black text-gray-900">
-                    {group.name}
-                  </h2>
-                  {group.isLegacy && (
-                    <span className="px-2 py-1 text-xs font-bold bg-gray-200 text-gray-600 rounded">
-                      LEGACY
-                    </span>
-                  )}
-                  <span className="text-sm text-gray-500">
-                    {group.foils.length} foils
-                  </span>
-                </div>
-                <svg
-                  className={`w-6 h-6 text-gray-400 transition-transform ${
-                    expandedSeries === group.name ? 'rotate-180' : ''
-                  }`}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
+        {/* CURRENT FRONT WINGS */}
+        <section className="mb-12">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-3xl font-black text-gray-900">
+              Current Front Wings
+            </h2>
+            <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full">
+              NEWEST
+            </span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {currentSeries.map(series => (
+              <SeriesCard key={series.name} series={series} />
+            ))}
+          </div>
+        </section>
 
-              {/* Series Foils */}
-              {expandedSeries === group.name && (
-                <div className="border-t border-gray-200">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
-                    {group.foils.map(foil => (
-                      <div
-                        key={foil.id}
-                        className="border border-gray-200 rounded-lg overflow-hidden hover:border-red-600 transition"
-                      >
-                        {/* Foil Image */}
-                        <div className="aspect-video bg-gray-100 relative">
-                          <img
-                            src={foil.image}
-                            alt={foil.title}
-                            className="w-full h-full object-contain p-4"
-                          />
-                          {!foil.available && (
-                            <div className="absolute top-2 right-2 px-2 py-1 bg-red-600 text-white text-xs font-bold rounded">
-                              OUT OF STOCK
-                            </div>
-                          )}
-                        </div>
+        {/* LEGACY FRONT WINGS */}
+        <section className="mb-12">
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-3xl font-black text-gray-900">
+              Legacy Front Wings
+            </h2>
+            <span className="px-3 py-1 bg-gray-200 text-gray-600 text-xs font-bold rounded-full">
+              PROVEN
+            </span>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {legacySeries.map(series => (
+              <SeriesCard key={series.name} series={series} />
+            ))}
+          </div>
+        </section>
 
-                        {/* Foil Info */}
-                        <div className="p-4">
-                          <h3 className="text-xl font-black text-gray-900 mb-2">
-                            {foil.specs.series} {foil.specs.area}
-                          </h3>
-                          
-                          <div className="space-y-1 mb-4 text-sm text-gray-600">
-                            <div className="flex justify-between">
-                              <span>Surface Area:</span>
-                              <span className="font-semibold">{foil.specs.area} cm²</span>
-                            </div>
-                            {foil.specs.aspectRatio && (
-                              <div className="flex justify-between">
-                                <span>Aspect Ratio:</span>
-                                <span className="font-semibold">{foil.specs.aspectRatio}</span>
-                              </div>
-                            )}
-                            {foil.specs.wingspan && (
-                              <div className="flex justify-between">
-                                <span>Wingspan:</span>
-                                <span className="font-semibold">{foil.specs.wingspan} mm</span>
-                              </div>
-                            )}
-                          </div>
+        {/* REAR WINGS */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">
+            Rear Wings
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {rearSeries.map(series => (
+              <SeriesCard key={series.name} series={series} />
+            ))}
+          </div>
+        </section>
 
-                          <div className="flex items-center justify-between">
-                            <div className="text-2xl font-black text-red-600">
-                              ${foil.price}
-                            </div>
-                            <a
-                              href={foil.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition"
-                            >
-                              View →
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+        {/* FUSELAGES */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">
+            Fuselages
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {fuselageSeries.map(series => (
+              <SeriesCard key={series.name} series={series} />
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   );
