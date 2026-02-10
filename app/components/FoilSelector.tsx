@@ -1,12 +1,16 @@
 interface Product {
   id: number;
+  handle?: string;
   title: string;
-  image: string;
+  description?: string;
+  image?: string;
+  price?: string;
   specs: {
+    name: string;
+    product_type: string;
     area?: number;
     series?: string;
   };
-  price: string;
 }
 
 interface FoilSelectorProps {

@@ -7,11 +7,11 @@ import Header from './components/Header';
 
 interface Product {
   id: number;
-  handle: string;
+  handle?: string;
   title: string;
-  description: string;
-  image: string;
-  price: string;
+  description?: string;
+  image?: string;
+  price?: string;
   specs: {
     name: string;
     product_type: string;
