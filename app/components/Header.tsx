@@ -24,6 +24,9 @@ export default function Header() {
         </Link>
         
         <nav className="flex items-center gap-6">
+          <Link href="/search" className="text-sm font-semibold text-white hover:text-red-400 transition">
+            Search & Filter
+          </Link>
           <Link href="/browse" className="text-sm font-semibold text-white hover:text-red-400 transition">
             Browse by Series
           </Link>
