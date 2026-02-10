@@ -1,26 +1,18 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Header() {
   return (
     <header className="axis-gradient border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-          <Image 
-            src="/logos/axis-circle.png" 
-            alt="AXIS Foils" 
-            width={40} 
-            height={40}
-            className="rounded-full"
-          />
-          <div className="flex flex-col">
-            <span className="text-lg font-black text-white leading-tight">
-              AXIS FOILS
-            </span>
-            <span className="text-xs font-semibold text-red-400 leading-tight">
-              Comparison Tool
+        <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition group">
+          <div className="bg-red-600 px-4 py-2 rounded group-hover:bg-red-700 transition">
+            <span className="text-xl font-black text-white tracking-tight" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
+              AXIS FOILS<sup className="text-xs">®</sup>
             </span>
           </div>
+          <span className="text-sm font-semibold text-red-400">
+            Comparison Tool
+          </span>
         </Link>
         
         <nav className="flex items-center gap-6">
