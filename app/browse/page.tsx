@@ -7,7 +7,7 @@ import Link from 'next/link';
 interface SeriesInfo {
   name: string;
   displayName: string;
-  category: 'current' | 'legacy' | 'rear' | 'fuselage';
+  category: 'current' | 'legacy' | 'rear' | 'fuselage' | 'mast';
   description: string;
   foilCount?: number;
   image?: string;
@@ -179,6 +179,44 @@ export default function BrowsePage() {
       category: 'fuselage',
       description: 'Standard aluminum fuselage',
     },
+
+    // MASTS
+    {
+      name: 'Carbon Integrated Foil Drive',
+      displayName: 'Carbon Integrated Foil Drive',
+      category: 'mast',
+      description: 'Integrated carbon mast for Foil Drive system',
+    },
+    {
+      name: 'PRO Ultra High Modulus Carbon',
+      displayName: 'PRO Ultra High Modulus Carbon',
+      category: 'mast',
+      description: 'Ultimate performance carbon mast',
+    },
+    {
+      name: 'Power Carbon High Modulus',
+      displayName: 'Power Carbon High Modulus',
+      category: 'mast',
+      description: 'Premium high-modulus carbon mast',
+    },
+    {
+      name: 'Power Carbon',
+      displayName: 'Power Carbon',
+      category: 'mast',
+      description: 'Standard carbon performance mast',
+    },
+    {
+      name: 'Power Carbon FATTY',
+      displayName: 'Power Carbon FATTY',
+      category: 'mast',
+      description: 'Thick carbon mast for heavy riders',
+    },
+    {
+      name: '19mm Aluminium',
+      displayName: '19mm Aluminium',
+      category: 'mast',
+      description: 'Durable aluminum mast',
+    },
   ];
 
   // Count foils per series from actual data
@@ -190,6 +228,7 @@ export default function BrowsePage() {
   const legacySeries = seriesDatabase.filter(s => s.category === 'legacy');
   const rearSeries = seriesDatabase.filter(s => s.category === 'rear');
   const fuselageSeries = seriesDatabase.filter(s => s.category === 'fuselage');
+  const mastSeries = seriesDatabase.filter(s => s.category === 'mast');
 
   const SeriesCard = ({ series }: { series: SeriesInfo }) => {
     const count = getSeriesCount(series.name);
@@ -307,6 +346,18 @@ export default function BrowsePage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {fuselageSeries.map(series => (
+              <SeriesCard key={series.name} series={series} />
+            ))}
+          </div>
+        </section>
+
+        {/* MASTS */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-black text-gray-900 mb-6">
+            Masts
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {mastSeries.map(series => (
               <SeriesCard key={series.name} series={series} />
             ))}
           </div>
