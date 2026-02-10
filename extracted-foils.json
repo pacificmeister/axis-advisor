@@ -1,0 +1,412 @@
+[
+  {
+    "series": "TEMPO",
+    "size": "1090",
+    "name": "AXIS TEMPO 1090 Ultra High Modulus Carbon Hydrofoil wing",
+    "price": 1237.0,
+    "surface_area_cm2": 746.0,
+    "aspect_ratio": 15.92627345844504,
+    "chord_mm": 68.44036697247707,
+    "item_code": "AXTEMPO1090"
+  },
+  {
+    "series": "TEMPO",
+    "size": "1020",
+    "name": "AXIS TEMPO 1020 Ultra High Modulus Carbon Hydrofoil wing",
+    "price": 1167.0,
+    "surface_area_cm2": 653.0,
+    "aspect_ratio": 15.93261868300153,
+    "chord_mm": 64.01960784313725,
+    "item_code": "AXTEMPO1020"
+  },
+  {
+    "series": "TEMPO",
+    "size": "960",
+    "name": "AXIS TEMPO 960 Ultra High Modulus Carbon Hydrofoil wing",
+    "price": 1110.0,
+    "surface_area_cm2": 578.0,
+    "aspect_ratio": 15.944636678200691,
+    "chord_mm": 60.20833333333333,
+    "item_code": "AXTEMPO960"
+  },
+  {
+    "series": "TEMPO",
+    "size": "920",
+    "name": "AXIS TEMPO 920 Ultra High Modulus Carbon Hydrofoil wing",
+    "price": 1057.0,
+    "surface_area_cm2": 528.0,
+    "aspect_ratio": 16.03030303030303,
+    "chord_mm": 57.391304347826086,
+    "item_code": "AXTEMPO920"
+  },
+  {
+    "series": "TEMPO",
+    "size": "890",
+    "name": "AXIS TEMPO 890 Ultra High Modulus Carbon Hydrofoil wing",
+    "price": 1006.0,
+    "surface_area_cm2": 495.44,
+    "aspect_ratio": 15.99781875467049,
+    "chord_mm": 55.63258426966292,
+    "item_code": "AXTEMPO890"
+  },
+  {
+    "series": "Surge",
+    "size": "1010",
+    "name": "AXIS SURGE 1010 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 823.0,
+    "surface_area_cm2": 1076.0,
+    "aspect_ratio": 9.489302325581395,
+    "chord_mm": 106.43564356435644,
+    "item_code": "AXSURGE1010"
+  },
+  {
+    "series": "Surge",
+    "size": "950",
+    "name": "AXIS SURGE 950 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 774.0,
+    "surface_area_cm2": 949.0,
+    "aspect_ratio": 9.520042194092827,
+    "chord_mm": 99.78947368421053,
+    "item_code": "AXSURGE950"
+  },
+  {
+    "series": "Surge",
+    "size": "890",
+    "name": "AXIS SURGE 890 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 728.0,
+    "surface_area_cm2": 835.0,
+    "aspect_ratio": 9.497601918465227,
+    "chord_mm": 93.70786516853933,
+    "item_code": "AXSURGE890"
+  },
+  {
+    "series": "Surge",
+    "size": "830",
+    "name": "AXIS SURGE 830 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 685.0,
+    "surface_area_cm2": 728.0,
+    "aspect_ratio": 9.475928473177442,
+    "chord_mm": 87.59036144578313,
+    "item_code": "AXSURGE830"
+  },
+  {
+    "series": "Surge",
+    "size": "780",
+    "name": "AXIS SURGE 780 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 644.0,
+    "surface_area_cm2": 643.0,
+    "aspect_ratio": 9.476635514018692,
+    "chord_mm": 82.3076923076923,
+    "item_code": "AXSURGE780"
+  },
+  {
+    "series": "Surge",
+    "size": "740",
+    "name": "AXIS SURGE 740 Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 606.0,
+    "surface_area_cm2": 590.0,
+    "aspect_ratio": 9.297113752122241,
+    "chord_mm": 79.5945945945946,
+    "item_code": "AXSURGE740"
+  },
+  {
+    "series": "Fireball",
+    "size": "1750",
+    "name": "AXIS FIREBALL 1750 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1620.0,
+    "surface_area_cm2": 1525.0,
+    "aspect_ratio": 20.12,
+    "chord_mm": 81.1,
+    "item_code": "AXFIREBALL1750"
+  },
+  {
+    "series": "Fireball",
+    "size": "1500",
+    "name": "AXIS FIREBALL 1500 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1296.0,
+    "surface_area_cm2": 1313.0,
+    "aspect_ratio": 17.15,
+    "chord_mm": 87.0,
+    "item_code": "AXFIREBALL1500"
+  },
+  {
+    "series": "Fireball",
+    "size": "1350",
+    "name": "AXIS FIREBALL 1350 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1178.0,
+    "surface_area_cm2": 1308.78,
+    "aspect_ratio": 13.934977749912072,
+    "chord_mm": 96.8785185185185,
+    "item_code": "AXFIREBALL1350"
+  },
+  {
+    "series": "Fireball",
+    "size": "1250",
+    "name": "AXIS FIREBALL 1250 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1121.0,
+    "surface_area_cm2": 1132.58,
+    "aspect_ratio": 13.805808600687419,
+    "chord_mm": 90.5416,
+    "item_code": "AXFIREBALL1250"
+  },
+  {
+    "series": "Fireball",
+    "size": "1160",
+    "name": "AXIS FIREBALL 1160 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1067.0,
+    "surface_area_cm2": 996.29,
+    "aspect_ratio": 13.515739568894514,
+    "chord_mm": 85.82586206896552,
+    "item_code": "AXFIREBALL1160"
+  },
+  {
+    "series": "Fireball",
+    "size": "1070",
+    "name": "AXIS FIREBALL 1070 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 1016.0,
+    "surface_area_cm2": 877.0,
+    "aspect_ratio": 13.069634703196346,
+    "chord_mm": 81.86915887850468,
+    "item_code": "AXFIREBALL1070"
+  },
+  {
+    "series": "Fireball",
+    "size": "1000",
+    "name": "AXIS FIREBALL 1000 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 997.0,
+    "surface_area_cm2": 773.0,
+    "aspect_ratio": 12.953367875647668,
+    "chord_mm": 77.2,
+    "item_code": "AXFIREBALL1000"
+  },
+  {
+    "series": "Fireball",
+    "size": "940",
+    "name": "AXIS FIREBALL 940 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 974.0,
+    "surface_area_cm2": 689.0,
+    "aspect_ratio": 12.843023255813954,
+    "chord_mm": 73.19148936170212,
+    "item_code": "AXFIREBALL940"
+  },
+  {
+    "series": "Fireball",
+    "size": "880",
+    "name": "AXIS FIREBALL 880 - ULTRA High Mod Carbon Hydrofoil wing",
+    "price": 951.0,
+    "surface_area_cm2": 604.0,
+    "aspect_ratio": 12.821192052980132,
+    "chord_mm": 68.63636363636364,
+    "item_code": "AXFIREBALL880"
+  },
+  {
+    "series": "ART v2",
+    "size": "1099",
+    "name": "AXIS ART V2 1099 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 783.0,
+    "surface_area_cm2": 1197.0,
+    "aspect_ratio": 10.280373831775702,
+    "chord_mm": 107.0,
+    "item_code": "AXARTV21099"
+  },
+  {
+    "series": "ART v2",
+    "size": "999",
+    "name": "AXIS ART V2 999 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 718.0,
+    "surface_area_cm2": 1026.0,
+    "aspect_ratio": 9.900990099009901,
+    "chord_mm": 101.0,
+    "item_code": "AXARTV2999"
+  },
+  {
+    "series": "ART v2",
+    "size": "939",
+    "name": "AXIS ART V2 939 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 697.0,
+    "surface_area_cm2": 900.0,
+    "aspect_ratio": 9.995475113122172,
+    "chord_mm": 94.04255319148936,
+    "item_code": "AXARTV2939"
+  },
+  {
+    "series": "ART v2",
+    "size": "879",
+    "name": "AXIS ART V2 879 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 677.0,
+    "surface_area_cm2": 790.0,
+    "aspect_ratio": 9.97938144329897,
+    "chord_mm": 88.18181818181819,
+    "item_code": "AXARTV2879"
+  },
+  {
+    "series": "ART v2",
+    "size": "879",
+    "name": "AXIS ART V2 819 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 657.0,
+    "surface_area_cm2": 674.0,
+    "aspect_ratio": 9.97626112759644,
+    "chord_mm": 82.0,
+    "item_code": "AXARTV2819"
+  },
+  {
+    "series": "PNG",
+    "size": "1400",
+    "name": "AXIS PNG V2 1400 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 998.0,
+    "surface_area_cm2": 1786.0,
+    "aspect_ratio": 10.986547085201794,
+    "chord_mm": 127.42857142857143,
+    "item_code": "AXPNGV21400"
+  },
+  {
+    "series": "PNG",
+    "size": "1300",
+    "name": "AXIS PNG V2 1300 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 887.0,
+    "surface_area_cm2": 1632.0,
+    "aspect_ratio": 10.361741263028817,
+    "chord_mm": 125.46153846153847,
+    "item_code": "AXPNGV21300"
+  },
+  {
+    "series": "PNG",
+    "size": "1200",
+    "name": "AXIS PNG V2 1200 - Ultra High Mod Reinforced Carbon Hydrofoil wing",
+    "price": 862.0,
+    "surface_area_cm2": 1803.0,
+    "aspect_ratio": 7.995558023320378,
+    "chord_mm": 150.08333333333331,
+    "item_code": "AXPNGV21200"
+  },
+  {
+    "series": "Spitfire",
+    "size": "1180",
+    "name": "AXIS SPITFIRE 1180 - Carbon Hydrofoil Wing",
+    "price": 861.0,
+    "surface_area_cm2": 1554.0,
+    "aspect_ratio": 9.13,
+    "chord_mm": 129.24,
+    "item_code": "AXSPITFIRE1180"
+  },
+  {
+    "series": "Spitfire",
+    "size": "1100",
+    "name": "AXIS SPITFIRE 1100 - Carbon Hydrofoil Wing",
+    "price": 812.0,
+    "surface_area_cm2": 1423.0,
+    "aspect_ratio": 8.6552217453505,
+    "chord_mm": 127.090909090909,
+    "item_code": "AXSPITFIRE1100"
+  },
+  {
+    "series": "Spitfire",
+    "size": "1030",
+    "name": "AXIS SPITFIRE 1030 - Carbon Hydrofoil Wing",
+    "price": 780.0,
+    "surface_area_cm2": 1308.0,
+    "aspect_ratio": 8.25603112840467,
+    "chord_mm": 124.757281553398,
+    "item_code": "AXSPITFIRE1030"
+  },
+  {
+    "series": "Spitfire",
+    "size": "960",
+    "name": "AXIS SPITFIRE 960 - Carbon Hydrofoil Wing",
+    "price": 749.0,
+    "surface_area_cm2": 1196.0,
+    "aspect_ratio": 7.84340425531915,
+    "chord_mm": 122.395833333333,
+    "item_code": "AXSPITFIRE960"
+  },
+  {
+    "series": "Spitfire",
+    "size": "900",
+    "name": "AXIS SPITFIRE 900 - Carbon Hydrofoil Wing",
+    "price": 720.0,
+    "surface_area_cm2": 1080.0,
+    "aspect_ratio": 7.5,
+    "chord_mm": 120.0,
+    "item_code": "AXSPITFIRE900"
+  },
+  {
+    "series": "Spitfire",
+    "size": "840",
+    "name": "AXIS SPITFIRE 840 - Carbon Hydrofoil Wing",
+    "price": 684.0,
+    "surface_area_cm2": 1006.0,
+    "aspect_ratio": 7.1417004048583,
+    "chord_mm": 117.619047619048,
+    "item_code": "AXSPITFIRE840"
+  },
+  {
+    "series": "Spitfire",
+    "size": "780",
+    "name": "AXIS SPITFIRE 780 - Carbon Hydrofoil Wing",
+    "price": 650.0,
+    "surface_area_cm2": 902.0,
+    "aspect_ratio": 6.86681715575621,
+    "chord_mm": 113.589743589744,
+    "item_code": "AXSPITFIRE780"
+  },
+  {
+    "series": "Spitfire",
+    "size": "720",
+    "name": "AXIS SPITFIRE 720 - Carbon Hydrofoil Wing",
+    "price": 624.0,
+    "surface_area_cm2": 815.0,
+    "aspect_ratio": 6.47191011235955,
+    "chord_mm": 111.25,
+    "item_code": "AXSPITFIRE720"
+  },
+  {
+    "series": "Spitfire",
+    "size": "670",
+    "name": "AXIS SPITFIRE 670 - Carbon Hydrofoil Wing",
+    "price": 606.0,
+    "surface_area_cm2": 721.0,
+    "aspect_ratio": 6.34,
+    "chord_mm": 105.671641791045,
+    "item_code": "AXSPITFIRE670"
+  },
+  {
+    "series": "Spitfire",
+    "size": "620",
+    "name": "AXIS SPITFIRE 620 - Carbon Hydrofoil Wing",
+    "price": 588.0,
+    "surface_area_cm2": 628.0,
+    "aspect_ratio": 6.12,
+    "chord_mm": 101.290322580645,
+    "item_code": "AXSPITFIRE620"
+  },
+  {
+    "series": "BSC",
+    "size": "1120",
+    "name": "AXIS BSC 1120 - Carbon Hydrofoil wing",
+    "price": 718.0,
+    "surface_area_cm2": 2102.0,
+    "aspect_ratio": 6.25,
+    "chord_mm": 179.16,
+    "item_code": "AX22BSC1120"
+  },
+  {
+    "series": "BSC",
+    "size": "1060",
+    "name": "AXIS BSC 1060 - Carbon Hydrofoil wing",
+    "price": 697.0,
+    "surface_area_cm2": 1802.22,
+    "aspect_ratio": 6.51,
+    "chord_mm": 162.83,
+    "item_code": "AX22BSC1060"
+  },
+  {
+    "series": "BSC",
+    "size": "970",
+    "name": "AXIS BSC 970 - Carbon Hydrofoil wing",
+    "price": 652.0,
+    "surface_area_cm2": 1572.0,
+    "aspect_ratio": 6.27,
+    "chord_mm": 154.73,
+    "item_code": "AX22BSC970"
+  }
+]

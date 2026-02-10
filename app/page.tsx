@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import FoilComparison from './components/FoilComparison';
 import FoilSelector from './components/FoilSelector';
 import Header from './components/Header';
+import SpecFilters, { FilterState } from '../src/components/SpecFilters';
 
 interface Product {
   id: number;
@@ -12,11 +13,15 @@ interface Product {
   description?: string;
   image?: string;
   price?: string;
+  retailPrice?: number;
   specs: {
     name: string;
     product_type: string;
     area?: number;
     series?: string;
+    aspectRatio?: number;
+    surfaceArea?: number;
+    chord?: number;
   };
 }
 
@@ -36,6 +41,7 @@ export default function Home() {
   const [data, setData] = useState<AxisData | null>(null);
   const [selectedFoils, setSelectedFoils] = useState<Product[]>([]);
   const [viewMode, setViewMode] = useState<'select' | 'compare'>('select');
+  const [filters, setFilters] = useState<FilterState | null>(null);
 
   useEffect(() => {
     // Load the data
@@ -45,7 +51,50 @@ export default function Home() {
       .catch(console.error);
   }, []);
 
-  const frontWings = data?.collections['front-wings']?.products || [];
+  const allFrontWings = data?.collections['front-wings']?.products || [];
+  
+  // Apply filters
+  const frontWings = allFrontWings.filter(foil => {
+    if (!filters) return true;
+    
+    const specs = foil.specs;
+    const price = foil.retailPrice || 0;
+    
+    // Filter by series if any selected
+    if (filters.series.length > 0 && !filters.series.includes(specs.series || '')) {
+      return false;
+    }
+    
+    // Filter by aspect ratio
+    if (specs.aspectRatio) {
+      if (specs.aspectRatio < filters.aspectRatioMin || specs.aspectRatio > filters.aspectRatioMax) {
+        return false;
+      }
+    }
+    
+    // Filter by surface area
+    if (specs.surfaceArea) {
+      if (specs.surfaceArea < filters.surfaceAreaMin || specs.surfaceArea > filters.surfaceAreaMax) {
+        return false;
+      }
+    }
+    
+    // Filter by chord
+    if (specs.chord) {
+      if (specs.chord < filters.chordMin || specs.chord > filters.chordMax) {
+        return false;
+      }
+    }
+    
+    // Filter by price
+    if (price > 0) {
+      if (price < filters.priceMin || price > filters.priceMax) {
+        return false;
+      }
+    }
+    
+    return true;
+  });
 
   const handleSelectFoil = (foil: Product) => {
     if (selectedFoils.find(f => f.id === foil.id)) {
@@ -77,7 +126,15 @@ export default function Home() {
               <p className="text-lg text-gray-600 mb-6">
                 Select 2-4 front wings to compare side-by-side
               </p>
-              
+            </div>
+            
+            {/* Spec Filters */}
+            <SpecFilters
+              products={allFrontWings}
+              onFilterChange={setFilters}
+            />
+            
+            <div className="mb-8">
               {selectedFoils.length > 0 && (
                 <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 mb-6">
                   <div className="flex items-center justify-between mb-4">

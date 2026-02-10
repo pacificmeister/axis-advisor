@@ -418,7 +418,11 @@
             "name": "BSC 1120 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1120,
-            "series": "BSC"
+            "series": "BSC",
+            "surfaceArea": 2102.0,
+            "aspectRatio": 6.25,
+            "chord": 179.2,
+            "itemCode": "AX22BSC1120"
           },
           "tags": [
             "broad spectrum carve",
@@ -435,7 +439,8 @@
             "wing"
           ],
           "created_at": "2020-12-08T11:45:44-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 718.0
         },
         {
           "id": 6118797443271,
@@ -452,7 +457,11 @@
             "name": "BSC 1060 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1060,
-            "series": "BSC"
+            "series": "BSC",
+            "surfaceArea": 1802.22,
+            "aspectRatio": 6.51,
+            "chord": 162.8,
+            "itemCode": "AX22BSC1060"
           },
           "tags": [
             "broad spectrum carve",
@@ -469,7 +478,8 @@
             "wing"
           ],
           "created_at": "2020-12-08T12:21:57-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 697.0
         },
         {
           "id": 6118798557383,
@@ -486,7 +496,11 @@
             "name": "BSC 970 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 970,
-            "series": "BSC"
+            "series": "BSC",
+            "surfaceArea": 1572.0,
+            "aspectRatio": 6.27,
+            "chord": 154.7,
+            "itemCode": "AX22BSC970"
           },
           "tags": [
             "broad spectrum carve",
@@ -502,7 +516,8 @@
             "wing"
           ],
           "created_at": "2020-12-08T12:24:14-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 652.0
         },
         {
           "id": 6118798917831,
@@ -661,7 +676,11 @@
             "name": "PNG 1300 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1300,
-            "series": "PNG"
+            "series": "PNG",
+            "surfaceArea": 1632.0,
+            "aspectRatio": 10.36,
+            "chord": 125.5,
+            "itemCode": "AXPNGV21300"
           },
           "tags": [
             "1300",
@@ -685,7 +704,8 @@
             "wing"
           ],
           "created_at": "2020-09-30T11:30:27-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 887.0
         },
         {
           "id": 4475714109551,
@@ -1017,11 +1037,16 @@
             "name": "AXIS FIREBALL 1070 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1070,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 877.0,
+            "aspectRatio": 13.07,
+            "chord": 81.9,
+            "itemCode": "AXFIREBALL1070"
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1016.0
         },
         {
           "id": 8640710967537,
@@ -1038,11 +1063,16 @@
             "name": "AXIS FIREBALL 1000 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1000,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 773.0,
+            "aspectRatio": 12.95,
+            "chord": 77.2,
+            "itemCode": "AXFIREBALL1000"
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 997.0
         },
         {
           "id": 8640712868081,
@@ -1059,11 +1089,16 @@
             "name": "AXIS FIREBALL 940 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 940,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 689.0,
+            "aspectRatio": 12.84,
+            "chord": 73.2,
+            "itemCode": "AXFIREBALL940"
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 974.0
         },
         {
           "id": 8640714342641,
@@ -1080,11 +1115,16 @@
             "name": "AXIS FIREBALL 880 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 880,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 604.0,
+            "aspectRatio": 12.82,
+            "chord": 68.6,
+            "itemCode": "AXFIREBALL880"
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 951.0
         },
         {
           "id": 8640722632945,
@@ -1101,11 +1141,16 @@
             "name": "AXIS PNG V2 1300 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1300,
-            "series": "PNG"
+            "series": "PNG",
+            "surfaceArea": 1632.0,
+            "aspectRatio": 10.36,
+            "chord": 125.5,
+            "itemCode": "AXPNGV21300"
           },
           "tags": [],
           "created_at": "2024-09-18T23:53:14-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 887.0
         },
         {
           "id": 8726643114225,
@@ -1122,11 +1167,16 @@
             "name": "AXIS FIREBALL 1160 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1160,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 996.29,
+            "aspectRatio": 13.52,
+            "chord": 85.8,
+            "itemCode": "AXFIREBALL1160"
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1067.0
         },
         {
           "id": 8726643933425,
@@ -1143,11 +1193,16 @@
             "name": "AXIS FIREBALL 1250 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1250,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 1132.58,
+            "aspectRatio": 13.81,
+            "chord": 90.5,
+            "itemCode": "AXFIREBALL1250"
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1121.0
         },
         {
           "id": 8726645178609,
@@ -1164,11 +1219,16 @@
             "name": "AXIS FIREBALL 1350 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1350,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 1308.78,
+            "aspectRatio": 13.93,
+            "chord": 96.9,
+            "itemCode": "AXFIREBALL1350"
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1178.0
         },
         {
           "id": 8793109659889,
@@ -1185,11 +1245,16 @@
             "name": "AXIS PNG V2 1200 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1200,
-            "series": "PNG"
+            "series": "PNG",
+            "surfaceArea": 1803.0,
+            "aspectRatio": 8.0,
+            "chord": 150.1,
+            "itemCode": "AXPNGV21200"
           },
           "tags": [],
           "created_at": "2025-04-22T04:09:11-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 862.0
         },
         {
           "id": 8793115918577,
@@ -1206,11 +1271,16 @@
             "name": "AXIS PNG V2 1400 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1400,
-            "series": "PNG"
+            "series": "PNG",
+            "surfaceArea": 1786.0,
+            "aspectRatio": 10.99,
+            "chord": 127.4,
+            "itemCode": "AXPNGV21400"
           },
           "tags": [],
           "created_at": "2025-04-22T04:25:15-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 998.0
         },
         {
           "id": 9319663993073,
@@ -1227,7 +1297,11 @@
             "name": "AXIS TEMPO 1090 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1090,
-            "series": "Tempo"
+            "series": "Tempo",
+            "surfaceArea": 746.0,
+            "aspectRatio": 15.93,
+            "chord": 68.4,
+            "itemCode": "AXTEMPO1090"
           },
           "tags": [
             "surf",
@@ -1236,7 +1310,8 @@
             "wing"
           ],
           "created_at": "2025-10-01T11:48:31-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1237.0
         },
         {
           "id": 9319665500401,
@@ -1253,7 +1328,11 @@
             "name": "AXIS TEMPO 1020 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1020,
-            "series": "Tempo"
+            "series": "Tempo",
+            "surfaceArea": 653.0,
+            "aspectRatio": 15.93,
+            "chord": 64.0,
+            "itemCode": "AXTEMPO1020"
           },
           "tags": [
             "surf",
@@ -1262,7 +1341,8 @@
             "wing"
           ],
           "created_at": "2025-10-01T11:54:06-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1167.0
         },
         {
           "id": 9319675560177,
@@ -1279,7 +1359,11 @@
             "name": "AXIS TEMPO 960 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 960,
-            "series": "Tempo"
+            "series": "Tempo",
+            "surfaceArea": 578.0,
+            "aspectRatio": 15.94,
+            "chord": 60.2,
+            "itemCode": "AXTEMPO960"
           },
           "tags": [
             "surf",
@@ -1288,7 +1372,8 @@
             "wing"
           ],
           "created_at": "2025-10-01T11:59:32-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1110.0
         },
         {
           "id": 9319680213233,
@@ -1305,7 +1390,11 @@
             "name": "AXIS TEMPO 920 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 920,
-            "series": "Tempo"
+            "series": "Tempo",
+            "surfaceArea": 528.0,
+            "aspectRatio": 16.03,
+            "chord": 57.4,
+            "itemCode": "AXTEMPO920"
           },
           "tags": [
             "surf",
@@ -1314,7 +1403,8 @@
             "wing"
           ],
           "created_at": "2025-10-01T12:04:18-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1057.0
         },
         {
           "id": 9319680606449,
@@ -1331,7 +1421,11 @@
             "name": "AXIS TEMPO 890 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 890,
-            "series": "Tempo"
+            "series": "Tempo",
+            "surfaceArea": 495.44,
+            "aspectRatio": 16.0,
+            "chord": 55.6,
+            "itemCode": "AXTEMPO890"
           },
           "tags": [
             "surf",
@@ -1340,7 +1434,8 @@
             "wing"
           ],
           "created_at": "2025-10-01T12:06:13-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1006.0
         },
         {
           "id": 9323952963825,
@@ -1357,11 +1452,16 @@
             "name": "AXIS FIREBALL 1500 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1500,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 1313.0,
+            "aspectRatio": 17.15,
+            "chord": 87.0,
+            "itemCode": "AXFIREBALL1500"
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1296.0
         },
         {
           "id": 9323965743345,
@@ -1378,11 +1478,16 @@
             "name": "AXIS FIREBALL 1750 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1750,
-            "series": "Fireball"
+            "series": "Fireball",
+            "surfaceArea": 1525.0,
+            "aspectRatio": 20.12,
+            "chord": 81.1,
+            "itemCode": "AXFIREBALL1750"
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 1620.0
         },
         {
           "id": 9367574905073,
@@ -1399,11 +1504,16 @@
             "name": "AXIS SURGE 740 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 740,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 590.0,
+            "aspectRatio": 9.3,
+            "chord": 79.6,
+            "itemCode": "AXSURGE740"
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 606.0
         },
         {
           "id": 9367576576241,
@@ -1420,11 +1530,16 @@
             "name": "AXIS SURGE 780 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 780,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 643.0,
+            "aspectRatio": 9.48,
+            "chord": 82.3,
+            "itemCode": "AXSURGE780"
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 644.0
         },
         {
           "id": 9367587324145,
@@ -1441,11 +1556,16 @@
             "name": "AXIS SURGE 830 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 830,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 728.0,
+            "aspectRatio": 9.48,
+            "chord": 87.6,
+            "itemCode": "AXSURGE830"
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 685.0
         },
         {
           "id": 9367589585137,
@@ -1462,11 +1582,16 @@
             "name": "AXIS SURGE 890 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 890,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 835.0,
+            "aspectRatio": 9.5,
+            "chord": 93.7,
+            "itemCode": "AXSURGE890"
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 728.0
         },
         {
           "id": 9367592009969,
@@ -1483,11 +1608,16 @@
             "name": "AXIS SURGE 950 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 950,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 949.0,
+            "aspectRatio": 9.52,
+            "chord": 99.8,
+            "itemCode": "AXSURGE950"
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 774.0
         },
         {
           "id": 9367593517297,
@@ -1504,11 +1634,16 @@
             "name": "AXIS SURGE 1010 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1010,
-            "series": "Surge"
+            "series": "Surge",
+            "surfaceArea": 1076.0,
+            "aspectRatio": 9.49,
+            "chord": 106.4,
+            "itemCode": "AXSURGE1010"
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
-          "updated_at": "2026-02-10T10:26:20-08:00"
+          "updated_at": "2026-02-10T10:26:20-08:00",
+          "retailPrice": 823.0
         },
         {
           "id": 8114990416113,
@@ -1525,11 +1660,16 @@
             "name": "Spitfire 1180",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1180
+            "area": 1180,
+            "surfaceArea": 1554.0,
+            "aspectRatio": 9.13,
+            "chord": 129.2,
+            "itemCode": "AXSPITFIRE1180"
           },
           "tags": [],
           "created_at": "2024-02-06T00:32:29-08:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 861.0
         },
         {
           "id": 7957955379441,
@@ -1546,11 +1686,16 @@
             "name": "Spitfire 1100",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1100
+            "area": 1100,
+            "surfaceArea": 1423.0,
+            "aspectRatio": 8.66,
+            "chord": 127.1,
+            "itemCode": "AXSPITFIRE1100"
           },
           "tags": [],
           "created_at": "2023-06-20T20:14:34-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 812.0
         },
         {
           "id": 7957956002033,
@@ -1567,11 +1712,16 @@
             "name": "Spitfire 1030",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1030
+            "area": 1030,
+            "surfaceArea": 1308.0,
+            "aspectRatio": 8.26,
+            "chord": 124.8,
+            "itemCode": "AXSPITFIRE1030"
           },
           "tags": [],
           "created_at": "2023-06-20T20:16:30-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 780.0
         },
         {
           "id": 7957956329713,
@@ -1588,11 +1738,16 @@
             "name": "Spitfire 960",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 960
+            "area": 960,
+            "surfaceArea": 1196.0,
+            "aspectRatio": 7.84,
+            "chord": 122.4,
+            "itemCode": "AXSPITFIRE960"
           },
           "tags": [],
           "created_at": "2023-06-20T20:17:26-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 749.0
         },
         {
           "id": 7957956854001,
@@ -1609,11 +1764,16 @@
             "name": "Spitfire 900",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 900
+            "area": 900,
+            "surfaceArea": 1080.0,
+            "aspectRatio": 7.5,
+            "chord": 120.0,
+            "itemCode": "AXSPITFIRE900"
           },
           "tags": [],
           "created_at": "2023-06-20T20:18:59-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 720.0
         },
         {
           "id": 7957956952305,
@@ -1630,11 +1790,16 @@
             "name": "Spitfire 840",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 840
+            "area": 840,
+            "surfaceArea": 1006.0,
+            "aspectRatio": 7.14,
+            "chord": 117.6,
+            "itemCode": "AXSPITFIRE840"
           },
           "tags": [],
           "created_at": "2023-06-20T20:19:51-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 684.0
         },
         {
           "id": 7957957116145,
@@ -1651,11 +1816,16 @@
             "name": "Spitfire 780",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 780
+            "area": 780,
+            "surfaceArea": 902.0,
+            "aspectRatio": 6.87,
+            "chord": 113.6,
+            "itemCode": "AXSPITFIRE780"
           },
           "tags": [],
           "created_at": "2023-06-20T20:20:42-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 650.0
         },
         {
           "id": 7987016270065,
@@ -1672,11 +1842,16 @@
             "name": "Spitfire 720",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 720
+            "area": 720,
+            "surfaceArea": 815.0,
+            "aspectRatio": 6.47,
+            "chord": 111.2,
+            "itemCode": "AXSPITFIRE720"
           },
           "tags": [],
           "created_at": "2023-08-24T00:14:18-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 624.0
         },
         {
           "id": 8304205627633,
@@ -1693,11 +1868,16 @@
             "name": "Spitfire 670",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 670
+            "area": 670,
+            "surfaceArea": 721.0,
+            "aspectRatio": 6.34,
+            "chord": 105.7,
+            "itemCode": "AXSPITFIRE670"
           },
           "tags": [],
           "created_at": "2024-04-28T15:20:01-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 606.0
         },
         {
           "id": 8304207036657,
@@ -1714,11 +1894,16 @@
             "name": "Spitfire 620",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 620
+            "area": 620,
+            "surfaceArea": 628.0,
+            "aspectRatio": 6.12,
+            "chord": 101.3,
+            "itemCode": "AXSPITFIRE620"
           },
           "tags": [],
           "created_at": "2024-04-28T15:26:41-07:00",
-          "updated_at": "2026-02-10T12:07:52-08:00"
+          "updated_at": "2026-02-10T12:07:52-08:00",
+          "retailPrice": 588.0
         },
         {
           "id": 8687344943345,
@@ -1735,7 +1920,11 @@
             "name": "ART v2 1099",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 1099
+            "area": 1099,
+            "surfaceArea": 1197.0,
+            "aspectRatio": 10.28,
+            "chord": 107.0,
+            "itemCode": "AXARTV21099"
           },
           "tags": [
             "2024",
@@ -1748,7 +1937,8 @@
             "high aspect"
           ],
           "created_at": "2024-11-22T15:13:41-08:00",
-          "updated_at": "2026-02-10T12:12:08-08:00"
+          "updated_at": "2026-02-10T12:12:08-08:00",
+          "retailPrice": 783.0
         },
         {
           "id": 8432279912689,
@@ -1765,7 +1955,11 @@
             "name": "ART v2 999",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 999
+            "area": 999,
+            "surfaceArea": 1026.0,
+            "aspectRatio": 9.9,
+            "chord": 101.0,
+            "itemCode": "AXARTV2999"
           },
           "tags": [
             "2024",
@@ -1778,7 +1972,8 @@
             "high aspect"
           ],
           "created_at": "2024-06-26T17:28:35-07:00",
-          "updated_at": "2026-02-10T12:12:08-08:00"
+          "updated_at": "2026-02-10T12:12:08-08:00",
+          "retailPrice": 718.0
         },
         {
           "id": 8432280633585,
@@ -1795,7 +1990,11 @@
             "name": "ART v2 939",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 939
+            "area": 939,
+            "surfaceArea": 900.0,
+            "aspectRatio": 10.0,
+            "chord": 94.0,
+            "itemCode": "AXARTV2939"
           },
           "tags": [
             "2024",
@@ -1808,7 +2007,8 @@
             "high aspect"
           ],
           "created_at": "2024-06-26T17:29:18-07:00",
-          "updated_at": "2026-02-10T12:12:08-08:00"
+          "updated_at": "2026-02-10T12:12:08-08:00",
+          "retailPrice": 697.0
         },
         {
           "id": 8432283910385,
@@ -1825,7 +2025,11 @@
             "name": "ART v2 879",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 879
+            "area": 879,
+            "surfaceArea": 674.0,
+            "aspectRatio": 9.98,
+            "chord": 82.0,
+            "itemCode": "AXARTV2819"
           },
           "tags": [
             "2024",
@@ -1838,7 +2042,8 @@
             "high aspect"
           ],
           "created_at": "2024-06-26T17:32:43-07:00",
-          "updated_at": "2026-02-10T12:12:08-08:00"
+          "updated_at": "2026-02-10T12:12:08-08:00",
+          "retailPrice": 657.0
         },
         {
           "id": 8687298052337,
