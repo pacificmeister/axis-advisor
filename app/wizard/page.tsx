@@ -92,6 +92,68 @@ export default function WizardPage() {
           reasoning: 'High-speed performance, great for strong wind days.',
         });
       }
+    } else if (formData.useCase === 'parawing') {
+      // Parawing uses similar foils to kiting - high aspect for speed and efficiency
+      if (formData.skillLevel === 'beginner') {
+        recs.push({
+          model: 'BSC 1060',
+          series: 'BSC',
+          area: 1060,
+          score: 95,
+          reasoning: 'Great starter for parawing. Forgiving, easy to control, handles gusts well.',
+        });
+        recs.push({
+          model: 'HPS 1080',
+          series: 'HPS',
+          area: 1080,
+          score: 90,
+          reasoning: 'Stable high aspect intro. Good speed range for learning wind control.',
+        });
+      } else if (formData.skillLevel === 'intermediate') {
+        recs.push({
+          model: 'HPS 880',
+          series: 'HPS',
+          area: 880,
+          score: 95,
+          reasoning: 'Perfect parawing foil. Fast, efficient, great upwind performance.',
+        });
+        recs.push({
+          model: 'ART 899',
+          series: 'ART',
+          area: 899,
+          score: 93,
+          reasoning: 'Excellent glide for light wind days. Pumps through lulls easily.',
+        });
+        recs.push({
+          model: 'HPS 780',
+          series: 'HPS',
+          area: 780,
+          score: 88,
+          reasoning: 'High-wind weapon. Super fast and efficient in strong wind.',
+        });
+      } else if (formData.skillLevel === 'advanced') {
+        recs.push({
+          model: 'ART 799',
+          series: 'ART',
+          area: 799,
+          score: 95,
+          reasoning: 'Ultimate parawing speed machine. Unreal glide and upwind ability.',
+        });
+        recs.push({
+          model: 'ARTPRO 879',
+          series: 'ARTPRO',
+          area: 879,
+          score: 93,
+          reasoning: 'Next-gen speed. Even faster than ART with better low-end.',
+        });
+        recs.push({
+          model: 'HPS 730',
+          series: 'HPS',
+          area: 730,
+          score: 90,
+          reasoning: 'Small and fast for strong wind days. Maximum efficiency.',
+        });
+      }
     } else if (formData.useCase === 'prone') {
       if (formData.skillLevel === 'beginner') {
         recs.push({
@@ -311,6 +373,7 @@ export default function WizardPage() {
                 <div className="grid grid-cols-2 gap-3">
                   {[
                     { value: 'wing', label: 'Wing Foiling' },
+                    { value: 'parawing', label: 'Parawing' },
                     { value: 'prone', label: 'Prone Surf' },
                     { value: 'sup', label: 'SUP Foiling' },
                     { value: 'downwind', label: 'Downwind' },
