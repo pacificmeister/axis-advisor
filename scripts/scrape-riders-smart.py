@@ -191,19 +191,30 @@ async def scrape_with_stealth():
             print("✅ On group page!\n")
             
             # Scroll naturally and collect posts
-            print("📜 Scrolling and collecting posts (human-like)...")
+            print("📜 DEEP SCRAPE: Scrolling through entire group history (human-like)...")
+            print("    This will take 10-15 minutes to collect all posts...")
             
             seen_texts = set()  # Deduplicate
             scroll_count = 0
-            max_scrolls = 15  # More scrolls, but slower
+            max_scrolls = 200  # Deep scrape - go back as far as possible
+            no_new_articles_count = 0  # Track consecutive scrolls with no new articles at all
+            last_article_count = 0
             
-            while scroll_count < max_scrolls:
+            while scroll_count < max_scrolls and no_new_articles_count < 10:
                 # Scroll down gradually
                 await page.evaluate(f"window.scrollBy(0, {random.randint(300, 600)})")
                 await human_delay(1500, 3000)  # Slower scrolling
                 
                 # Extract visible posts
                 articles = await page.query_selector_all('[role="article"]')
+                current_article_count = len(articles)
+                
+                # Check if we're getting new articles (not just new relevant posts)
+                if current_article_count == last_article_count:
+                    no_new_articles_count += 1
+                else:
+                    no_new_articles_count = 0
+                    last_article_count = current_article_count
                 
                 for article in articles:
                     try:
@@ -256,8 +267,8 @@ async def scrape_with_stealth():
                         continue
                 
                 scroll_count += 1
-                if scroll_count % 3 == 0:
-                    print(f"   Collected {len(data['posts'])} relevant posts so far...")
+                if scroll_count % 10 == 0:
+                    print(f"   Scrolled {scroll_count} times, collected {len(data['posts'])} relevant posts...")
             
             data["statistics"]["total_posts"] = len(data["posts"])
             

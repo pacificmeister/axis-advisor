@@ -20,6 +20,10 @@ interface FoilSelectorProps {
 }
 
 export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: FoilSelectorProps) {
+  // Define current vs legacy series
+  const currentSeries = ['ART v2', 'Spitfire', 'Fireball', 'PNG', 'Surge', 'Tempo'];
+  const legacySeries = ['ART', 'BSC', 'HPS', 'SP'];
+  
   // Group by series
   const seriesGroups = foils.reduce((acc, foil) => {
     const series = foil.specs.series || 'Other';
@@ -35,19 +39,28 @@ export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: Foi
     );
   });
 
-  const seriesOrder = ['ARTPRO', 'ART', 'HPS', 'BSC', 'PNG', 'SP', 'Spitfire', 'Fireball', 'Surge', 'Tempo'];
+  // Categorize series
+  const currentSeriesData = currentSeries.filter(s => seriesGroups[s]);
+  const legacySeriesData = legacySeries.filter(s => seriesGroups[s]);
 
-  return (
-    <div className="space-y-8">
-      {seriesOrder.map(series => {
-        const seriesFoils = seriesGroups[series];
-        if (!seriesFoils) return null;
+  const renderSeriesGroup = (seriesList: string[], title: string, bgColor: string) => (
+    <div className="space-y-6">
+      <div className={`${bgColor} rounded-lg px-6 py-4 border-l-4 border-red-600`}>
+        <h2 className="text-2xl font-black text-gray-900">
+          {title}
+        </h2>
+      </div>
+      
+      <div className="space-y-6">
+        {seriesList.map(series => {
+          const seriesFoils = seriesGroups[series];
+          if (!seriesFoils) return null;
 
-        return (
-          <div key={series} className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-            <h2 className="text-2xl font-black text-gray-900 mb-4 border-b pb-3">
-              {series} Series
-            </h2>
+          return (
+            <div key={series} className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 border-b pb-3">
+                {series} Series
+              </h3>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
               {seriesFoils.map(foil => {
@@ -100,6 +113,21 @@ export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: Foi
           </div>
         );
       })}
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="space-y-12">
+      {/* Current / Newer Wings */}
+      {renderSeriesGroup(currentSeriesData, 'Current / Newer Front Wings', 'bg-gradient-to-r from-red-50 to-orange-50')}
+      
+      {/* Legacy / Older Wings */}
+      {legacySeriesData.length > 0 && (
+        <div className="pt-8 border-t-2 border-gray-200">
+          {renderSeriesGroup(legacySeriesData, 'Legacy / Older Front Wings', 'bg-gray-50')}
+        </div>
+      )}
     </div>
   );
 }
