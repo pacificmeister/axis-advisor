@@ -156,10 +156,12 @@ export default function WizardPage() {
 
         // Series match (most important)
         if (!preferredSeries.includes(effectiveSeries)) {
-          score -= 50; // Heavy penalty for wrong series
+          // Heavy penalty for wrong series (stricter for advanced)
+          score -= skillLevel === 'advanced' ? 70 : 50;
         } else {
           const seriesIndex = preferredSeries.indexOf(effectiveSeries);
-          score -= seriesIndex * 5; // Prefer earlier series in list
+          // Bonus for being in preferred list, bigger bonus for top choices
+          score += (5 - seriesIndex * 2); // +5 for 1st choice, +3 for 2nd, +1 for 3rd, -1 for 4th
         }
 
         // Area match (critical for safety and performance)
@@ -201,7 +203,10 @@ export default function WizardPage() {
         const sizeDesc = area > baseArea * 1.1 ? 'larger' : area < baseArea * 0.9 ? 'smaller' : 'ideal';
         
         if (useCase === 'parawing') {
-          if (effectiveSeries === 'PNG V2') reasoning = `High-aspect speed and efficiency. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'More stable, easier' : 'Faster, more responsive'} for your weight.`;
+          if (effectiveSeries === 'Fireball') reasoning = `${skillLevel === 'advanced' ? 'Fast and responsive' : 'Balanced speed and control'}. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'More stable' : 'Maximum speed'} for ${weight}lbs parawinger.`;
+          else if (effectiveSeries === 'Tempo') reasoning = `High-performance glide machine. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Easier to ride' : 'Advanced speed'} for experienced riders.`;
+          else if (effectiveSeries === 'Surge') reasoning = `Versatile performer with great pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'More lift' : 'Faster pace'} all-rounder.`;
+          else if (effectiveSeries === 'PNG V2') reasoning = `High-aspect speed and efficiency. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'More stable, easier' : 'Faster, more responsive'} for your weight.`;
           else if (effectiveSeries === 'Spitfire') reasoning = `Race-proven speed machine. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'More power' : 'Maximum speed'} for ${weight}lbs.`;
           else if (effectiveSeries === 'ART v2') reasoning = `Next-gen glide and pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier to ride' : 'High performance'} choice.`;
           else if (effectiveSeries === 'ART') reasoning = `Legendary glide. ${sizeDesc === 'ideal' ? 'Well-matched' : sizeDesc === 'larger' ? 'More forgiving' : 'Advanced option'} for your level.`;
@@ -225,25 +230,37 @@ export default function WizardPage() {
           reasoning = `${sizeDesc === 'ideal' ? 'Good match' : sizeDesc === 'larger' ? 'More stable' : 'Faster option'} for your weight and skill.`;
         }
 
+        // Cap score at 100%
+        const finalScore = Math.min(Math.max(score, 0), 100);
+
         return {
           product,
-          score,
+          score: finalScore,
           reasoning,
           fbFeedback: fbFeedback.length > 0 ? fbFeedback : undefined,
         };
       })
       .filter(rec => rec.score > 30) // Filter out really bad matches
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 3);
+      .sort((a, b) => b.score - a.score);
 
-    setRecommendations(scored);
+    // Deduplicate by product ID (in case of data issues)
+    const seen = new Set<string>();
+    const unique = scored.filter(rec => {
+      if (seen.has(rec.product.id)) return false;
+      seen.add(rec.product.id);
+      return true;
+    });
+
+    const topThree = unique.slice(0, 3);
+
+    setRecommendations(topThree);
     setStep(4);
 
     // Generate pros/cons for each recommendation
     setLoadingProsCons(true);
     try {
       const recsWithProsCons = await Promise.all(
-        scored.map(async rec => {
+        topThree.map(async rec => {
           const effectiveSeries = rec.product.specs.series === 'PNG' && rec.product.title.includes('V2') 
             ? 'PNG V2' 
             : rec.product.specs.series;
