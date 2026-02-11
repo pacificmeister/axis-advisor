@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "scraped_at": "2026-02-10T19:39:04.272851",
+    "source": "https://www.facebook.com/groups/axisfoilriders",
+    "version": "stealth-1.0"
+  },
+  "posts": [
+    {
+      "id": "post_0",
+      "text": "Danny Perez\nLearned on PNG 1310 & 1300. Went from standard to +Advanced and it made the foils so much more responsive and maneuverable for such large spans & volumes.\nIt took 3-4 sessions to adjust, I kept on trying to force the movements and had to learn to be more balanced.\n3d\nLike\nReply",
+      "foils_mentioned": [
+        "PNG 1310"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:19.345504"
+    },
+    {
+      "id": "post_1",
+      "text": "Shaun Henderson\nTop contributor\nSame weight and 1150 is what I learnt to wing and dock start with. Advance is much better for pumping. But it did take me a session or two to get use to it.\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:19.349579"
+    },
+    {
+      "id": "post_2",
+      "text": "Mark Shinn\nTop contributor\nHi Hiroki, I think your wish list is exactly what the Surge is designed to do! RIP waves and be easy to pump back out too. The 950 is probably the size for size comparison to the 999 but the Surge has a lot more lift and glide and I suspect you will fi\u2026 See more\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:24.597045"
+    },
+    {
+      "id": "post_3",
+      "text": "Sean Richardson\nTop contributor\nWhoa! Sounds like a pretty serious injury/accident\u2026 \n Awesome that you\u2019re getting back into it after what I can only imagine would have been devastating\u2026\nIn my experience\u2026 to have the most fun riding swell - Surge for sure. I do wingfoil upwind/dow\u2026 See more\n3d\nLike\nReply\n2",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:39:29.700087"
+    },
+    {
+      "id": "post_4",
+      "text": "Charles Chandler\nI would like to know how the mast drag of the Ultra PRO mast compares with the Fatty when riding high on the mast, say with 1/3 of mast in the water. I see that Yvon is doing very well with the Ultra Pro mast on some of the bigger wings, It's probably\u2026 See more\n3d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:43.206369"
+    },
+    {
+      "id": "post_5",
+      "text": "Paul Shapiro\nRising contributor\nBeen riding Surge 890 -mostly head high to plus sessions- but I get a bit overfoiled on it riding bigger (overhead) waves. I think\nSurge 830 might be more comfortable. I'm 85kg, using with FoilDrive.\n10w\nLike\nReply\nEdited",
+      "foils_mentioned": [
+        "SURGE 890",
+        "SURGE 830"
+      ],
+      "rider_weight": 187,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:49.882092"
+    },
+    {
+      "id": "post_6",
+      "text": "Will Hansen\nI'm tossing up between the 950 and 890 at 90 kg to replace my 900 Spitfire for wing and prone. Thinking I might be able to get away with the 890 given the low end but just don't want to lose too much pump for prone wave linking! Is the 950 span too muc\u2026 See more\n10w\nLike\nReply\n4",
+      "foils_mentioned": [],
+      "rider_weight": 198,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:39:49.885177"
+    },
+    {
+      "id": "post_7",
+      "text": "Jonathan Robert\nTop contributor\nI\u2019m similar weight and learning K wing Plume, borrowed a friends 950 Surge recently in about 17 knots and felt way over foiled. I find my Spitfire 840 is super easy but obviously lacks the glide of the Surge or Fireball. Guessing the 890 Surge could be\u2026 See more\n3d\nLike\nReply\n2",
+      "foils_mentioned": [
+        "SPITFIRE 840"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:04.211116"
+    },
+    {
+      "id": "post_8",
+      "text": "Jimmy Jam Foils\nGroup expert\n\u00a0\n \u00b7 \nFollow\nSurge 1010\u2026. Great Low end , surfy , and great glide. Same with surge 950. I\u2019d probably go with one of those two.\n4d\nLike\nReply\n2",
+      "foils_mentioned": [
+        "SURGE 950",
+        "SURGE 1010"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:40:04.214382"
+    },
+    {
+      "id": "post_9",
+      "text": "Duncan Wallace\nGreat Question and Answers. Part 2 of this could be what is the easiest wing to foot switch on? I have been winging for quite a while and my foot switches are horrible low percentage. I assumed bigger wing give more time to switch. Like my HPS1050 or S\u2026 See more\n5d\nLike\nReply",
+      "foils_mentioned": [
+        "HPS 1050"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:40:20.025804"
+    },
+    {
+      "id": "post_10",
+      "text": "Mark Shinn\nTop contributor\nHi Jim Finnigan, Sounds like good progress! I don't think we can class the SF 960 as a \"small\" foil especially for a 75kg rider. Also you don't mention the stab you are using which can also make a large difference.\nIn this case I suspect the largest pa\u2026 See more\n6d\nLike\nReply\n4",
+      "foils_mentioned": [],
+      "rider_weight": 165,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:20.030067"
+    },
+    {
+      "id": "post_11",
+      "text": "Eric Dornbush\nThe dock start group is loaded with this\u2014 but people are usually learning on a 460v2 at the very beginning then moving to a 55, 45, and from what I hear, generally like to get down to a 35. People report ones smaller than 35 being the point some people\u2026 See more\n4d\nLike\nReply\n2",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:22.142845"
+    },
+    {
+      "id": "post_12",
+      "text": "Bo Hindulak Schatschneider\nJust chop it. It'll turn better and you won't lose much pump if any at all. I chopped my OG ART 999 down to a 899 and it worked way better. Just dremel out the core and fill with epoxy. Done.\n5d\nLike\nReply\n2",
+      "foils_mentioned": [
+        "ART 999"
+      ],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:24.380608"
+    },
+    {
+      "id": "post_13",
+      "text": "Justin Binfet\n2 dude and a pump should be your next title\n5d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:29.564506"
+    },
+    {
+      "id": "post_14",
+      "text": "Mickie Williams\nMate I\u2019m the same weight and when I started I was in a 105L board.\nThat\u2019s with a full ocean sports background and with out blowing my own trumpet a decent ocean athlete\n1w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:51.538124"
+    },
+    {
+      "id": "post_15",
+      "text": "Jim Finnigan\nI am 75kg, started on a 120ltr board and after 18 months moved to a 90ltr Froth. Was a good progression for me. I am also in NZ. Are you in the \"NZ Wingfoil buy and sell Facebook group\"? There is heaps of beginners kit for sale.\n6d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": 165,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:51.541514"
+    },
+    {
+      "id": "post_16",
+      "text": "Jon McCabe\nwhat tail shim and fuse are you preferring for dw?\n6d\nLike\nReply\nEdited",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:40:58.696029"
+    },
+    {
+      "id": "post_17",
+      "text": "Thomas Roberts\nTop contributor\nI'm partial to the Fireball 1070. Great glide, turns well, fun to ride in general\n1w\nLike\nReply\n2",
+      "foils_mentioned": [
+        "FIREBALL 1070"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:41:03.483137"
+    },
+    {
+      "id": "post_18",
+      "text": "Sean Richardson\nTop contributor\nI\u2019m from Vancouver (live in Australia now), but have ridden Squamish, gorge, Nit Nat and Maui for all wind sports - windsurf, kite, foil.\nI\u2019m 86kg and advanced wingfoiler now.\u2026 See more\n1w\nLike\nReply\nEdited\n8",
+      "foils_mentioned": [],
+      "rider_weight": 189,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:19.351765"
+    },
+    {
+      "id": "post_19",
+      "text": "Danny Perez\n939v2 for FOilDrive/ wing. 325P then 50 skinny, now liking 320 Surf.\nThat sounds like the problem I had with the smaller skinnies. Different low end and different top end. If I was slow (light wind wing, chop FD) it\u2019d porpoise and buck. High speed on\u2026 See more\n1w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:30.678302"
+    },
+    {
+      "id": "post_20",
+      "text": "Tim Stockman\nThe 360x45 skinny would tame those foils. I've got that and the 300x45 surf and found the smaller front wings get really loose with the 300, put the 360 and now tamed! Larger surges and spitfires like the 300 stab. I guess it's all progression. Nice ho\u2026 See more\n1w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:30.681490"
+    },
+    {
+      "id": "post_21",
+      "text": "Ian Sloan\nTop contributor\n1180\\350\\AUS for light wind and 1099\\55\\AS for windy. Though realistically these setups aren't that different in the range they will excel in. Unless you weigh 100kg+ your strong wind setup could be a lot smaller.\n1h\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": 220,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:33.439494"
+    },
+    {
+      "id": "post_22",
+      "text": "Jeremy Byrom\nHow does the lift compare to Spitfires of similar wingspan\n5d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:40.636869"
+    },
+    {
+      "id": "post_23",
+      "text": "Mark Shinn\nTop contributor\nThis is an interesting chat as I have a similar feeling on the 1750 for paddling up (and I AM using the fatty mast!) It is very hard to correct your direction when paddling due to the span.... which is not very surprising when standing on a wing that i\u2026 See more\n6d\nLike\nReply\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:47.940485"
+    },
+    {
+      "id": "post_24",
+      "text": "Albert Hajas\nRising contributor\n@80kg I find both v1 and v2 pairs well with the skinny 45-50. That is the sweet spot for me. 55 skinny is a bit too much for me. When having a good day even a 40 works. Shimming can fine tune those tails\n6d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": 176,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:56.587832"
+    },
+    {
+      "id": "post_25",
+      "text": "Brad Gordon\nTop contributor\nAt 96kg, Wing foiling La Ventana past ten days, love love 830, with new ultrashort fuse, and surf stab 320, on 75 liter Blast, is killer combo. You'll be one of the fastest, carvest craft on the water.\nTook me three sessions to find the perfect mas\u2026 See more\n1w\nLike\nReply\nEdited\n7",
+      "foils_mentioned": [],
+      "rider_weight": 211,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:41:59.163013"
+    },
+    {
+      "id": "post_26",
+      "text": "John Morrissey\n85kg. Tried them all. I use the 830 for winging and 1010 for parawing both on the 320ss. For winging I liked going smaller to get more speed and radical turning. For parawing I found the bigger the better. Easy getup and crazy low stall speed increase\u2026 See more\n1w\nLike\nReply\n4",
+      "foils_mentioned": [],
+      "rider_weight": 187,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:41:59.165810"
+    },
+    {
+      "id": "post_27",
+      "text": "Eric Lemay\n240lb wingfoil, spitfire 1180 with ultrashort Advance+, I was using progressive 375 but now on skinny 365/55 since a few months, last week tried -0,5\u00b0 shim= perfect!!!\nWaiting for wind to try my brand new surf skinny 320/48 with the 1180.\n1w\nLike\nReply\n2",
+      "foils_mentioned": [
+        "SPITFIRE 1180"
+      ],
+      "rider_weight": 240,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:42:05.867828"
+    },
+    {
+      "id": "post_28",
+      "text": "Shaun Henderson\nTop contributor\nFor the last few months I have been really enjoying that same setup (except HM mast) with the advance+20 ultrashort. I previously was on black ultrashort. I tried the +60 ultrashort which I use for Dockstart but didn\u2019t like it winging. But most others \u2026 See more\n1w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:05.871004"
+    },
+    {
+      "id": "post_29",
+      "text": "Adrian Roper\nGroup expert\nAll-star contributor\nmissed a few key points that would help, what fuselage did you use the BSC 890 on? What rear wing did you use on the 890 BSC and what rear on the Surge 890?\n1w\nLike\nReply",
+      "foils_mentioned": [
+        "SURGE 890",
+        "BSC 890"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:16.449842"
+    },
+    {
+      "id": "post_30",
+      "text": "Jock Harcourt\nTop contributor\nYouve gone from a slow foil that's nearly 1300 sq cm with an aspect ratio of 6.43 to a fast surfing/DW foil thats 835 sq cm and aspect ratio of 9.5 its probably going to feel different. I know Adrian says you shouldn't consider AR and area as much t\u2026 See more\n1w\nLike\nReply\nEdited",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:16.453128"
+    },
+    {
+      "id": "post_31",
+      "text": "Adrian Roper\nGroup expert\nAll-star contributor\nThe main thing that you have to avoid is bottoming the screw out. If you did this and carried on winding it would destroy the mast completely by splitting it. Most people would feel this and stop screwing but not everyone has engineering nouse. So we w\u2026 See more\n49w\nLike\nReply\n9",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:22.039093"
+    },
+    {
+      "id": "post_32",
+      "text": "Jim Finnigan\nDo you wing foil or just wake? If you wing, is it any good for light winds, say 5knots of breeze?\n1w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:27.866649"
+    },
+    {
+      "id": "post_33",
+      "text": "Adam Botica\nAgree with the guru. I started on BSC1060 with 440 Freeride and Short Red fuse. Then I went to ART 1099 on Black Short Advance + Fuse with 375 Progressive.\nI really love the advance + Fuse it feels like you can go down in stabiliser size quite easily.\u2026 See more\n1w\nLike\nReply\n3",
+      "foils_mentioned": [
+        "BSC 1060",
+        "ART 1099"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:42:38.010777"
+    },
+    {
+      "id": "post_34",
+      "text": "Adrian Roper\nGroup expert\nAll-star contributor\nAs foiling has evolved the requirements of the fuselage have changed. Wings have become thinner. This is why we added the Black fuselage and now the new Titanium. The red is not being discontinued but it is very unlikely that new wings going forward wi\u2026 See more\n1w\nLike\nReply\n15",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:40.133002"
+    },
+    {
+      "id": "post_35",
+      "text": "Taylor Gautier\nYeah. After 6 months of riding fireballs I can say my synopsis of them is that they are \u201ctechnical\u201d. They require precise input and definitely do not like chaotic water. I put on a surge 830 several weeks ago and haven\u2019t looked back.\n2w\nLike\nReply\n3",
+      "foils_mentioned": [
+        "SURGE 830"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:48.173966"
+    },
+    {
+      "id": "post_36",
+      "text": "Duncan Wallace\nSorry if this is a hijack. But if i ride SF 900 when its windy (over 20kts up to 30)and the wind swell is waist to chest high what is the surge equivalent. I'm about 85kg. Is the surge better for downwinding than SF? Main goal is to carve swell but a l\u2026 See more\n2w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": 187,
+      "use_case": "downwind",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:48.176722"
+    },
+    {
+      "id": "post_37",
+      "text": "Shannon Stent\nGroup expert\nAll-star contributor\nAt your weight you\u2019d be better off sizing down your front and rear wing. At 70kg I\u2019d be using the 819 front wing and either the 275 Progressive rear, Skinny 30 or ideally the new 280 Surf Skinny. With shims, if you\u2019re asking \u201cwhat shim do I need\u201d then \u2026 See more\n14w\nLike\nReply\n3",
+      "foils_mentioned": [],
+      "rider_weight": 154,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:42:57.377615"
+    },
+    {
+      "id": "post_38",
+      "text": "Jimmy Jam Foils\nGroup expert\n\u00a0\n \u00b7 \nFollow\nYeah Jason that runs foil fever Foil Feverand rides axis is on really short fuses like the silly and psycho and ripping Turns on them. Not for everyone and I\u2019d say probably better in smaller surf such as most prone spots.\nFor big tow in I use the \u2026 See more\n1w\nLike\nReply\nEdited\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:01.879545"
+    },
+    {
+      "id": "post_39",
+      "text": "Jimmy Jam Foils\nGroup expert\n\u00a0\n \u00b7 \nFollow\nWay better low end on the surge foils and better wing tip breaching on the v2 art.. I use a stiff mast for the 1099 and at first it took a while to dial in. U want to turn more with a hip to shoulder rotation (twist \u2026point ur front hand over back hi\u2026 See more\n1w\nLike\nReply\nEdited\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:04.044447"
+    },
+    {
+      "id": "post_40",
+      "text": "Andrew Mitchell\nAgree with Tim - I\u2019m 90kgs and love the 1010 in small bumps for a surfy feel. Got mates that live the big fireballs though in the same conditions for more easy glide and less pumping .\n2w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": 198,
+      "use_case": "pump",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:43:22.084595"
+    },
+    {
+      "id": "post_41",
+      "text": "Matt Dill\nRising contributor\nCareful with those LF boards. I bet I could snap them in one pump session\n2w\nLike\nReply\n2",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:31.878725"
+    },
+    {
+      "id": "post_42",
+      "text": "Alexander James Lewis-Hughes\nNothing wrong with Slingshot, arguably could be credited with being responsible for popularising and growing foiling/ kitefoiling in the early days alongside Naish.\nNeither have been particularly forward thinking or progressive in the race to better \u2026 See more\n2w\nLike\nReply\n6",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:31.881761"
+    },
+    {
+      "id": "post_43",
+      "text": "Sean Adorno\nHi Chris\nI\u2019ve had the spitfires since they came out and probably spent the most sessions on the 1180 (100+).\nThe new Surge 1010 I just received has replaced all of five of my Spitfires. (I also have an 890 but haven\u2019t used it yet)\u2026 See more\n2w\nLike\nReply\n2",
+      "foils_mentioned": [
+        "SURGE 1010"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:36.408608"
+    },
+    {
+      "id": "post_44",
+      "text": "Chris Torckler\nRising contributor\nAt 85kg on a 100l axis hybrid I have used 1010/950/890 surge.. Still progressing on para but all the are brilliant depending on wind strength for early lift.. nimble and kook proof! Bonus is the pump... You can ease them through any lull and they keep \u2026 See more\n2w\nLike\nReply\n2",
+      "foils_mentioned": [],
+      "rider_weight": 187,
+      "use_case": "pump",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:36.411500"
+    },
+    {
+      "id": "post_45",
+      "text": "David Donovan Bunn\nRising contributor\nWhat will you be doing ? Wing? Wake behind boat? Dock start ?\n2w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:40.462590"
+    },
+    {
+      "id": "post_46",
+      "text": "Adrian Roper\nGroup expert\nAll-star contributor\nAdvance was plus 40mm (forward of the original position) Advance + is plus 60mm. Advance + is way better suited for use with the Surge wings\n5w\nLike\nReply\n7",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:53.989856"
+    },
+    {
+      "id": "post_47",
+      "text": "Paul McDonnell\nTop contributor\nI\u2019d go with the proven V2 PNG 1300. That way you can paddle up on the way out, paddle up before you even get on a wave, and keep amused in between sets paddling up/pumping in circles. \n2w\nLike\nReply\n2",
+      "foils_mentioned": [
+        "PNG 1300"
+      ],
+      "rider_weight": null,
+      "use_case": "sup",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:43:58.334571"
+    },
+    {
+      "id": "post_48",
+      "text": "Jimmy Jam Foils\nGroup expert\n\u00a0\n \u00b7 \nFollow\nPaul McDonnell got good advice. 1300 or wait for bigger surge to drop.\nThe 1010 is great but I\u2019m using a 40-50L with foildrive. Might want more foil for the paddle up. 1300 be best to hone your paddle up skills and flat water pumping and connect\u2026 See more\n2w\nLike\nReply\nEdited\n2",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "sup",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:43:58.338318"
+    },
+    {
+      "id": "post_49",
+      "text": "Troy Martyn\nRising contributor\nBsc 890\n2w\nLike\nReply",
+      "foils_mentioned": [
+        "BSC 890"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:44:00.433963"
+    },
+    {
+      "id": "post_50",
+      "text": "Alex Koutzoukis\nRobert Sellar I\u2019m currently using the ART999 for prone at 1038cm sq. And can pump and link waves pretty well on that. I have tried to prone my ART899 at 850cm and can barely pump it at all. Have you ridden these older foils and how do they compare to \u2026 See more\n4w\nLike\nReply",
+      "foils_mentioned": [
+        "ART 999",
+        "ART 899"
+      ],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:44:02.484435"
+    },
+    {
+      "id": "post_51",
+      "text": "Dave Kissane\nRising contributor\nI can\u2019t wait to get my Surge foils. Did a couple of DW on demo surge foils. They were awesome \n3w\nLike\nReply\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:44:25.424704"
+    },
+    {
+      "id": "post_52",
+      "text": "Bruce Kropelin\nRising contributor\nTitle of your post suggests a comparison of Surge890 to Code 850, then comments relate to 939V2??\n3w\nLike\nReply\n3",
+      "foils_mentioned": [
+        "SURGE 890"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:44:57.351437"
+    },
+    {
+      "id": "post_53",
+      "text": "Paul Shapiro\nRising contributor\nI use both of these foils with FD (Surge 890 and 939v2). I agree with your comments. I think 939v2 is faster and perhaps has higher top end. 939v2 was my \"go to\" for foiling waves... but I am really enjoying Surge 890.... but thinking I may get Surge 830 for bigger days.\n3w\nLike\nReply\nEdited",
+      "foils_mentioned": [
+        "SURGE 890",
+        "SURGE 830"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:44:57.354207"
+    },
+    {
+      "id": "post_54",
+      "text": "Danny Cruz\nBeen looking at those. I would like a 6'0\" 80L or perhaps the 6'2\" 90L (for parawing.)\n2w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:45:12.862428"
+    },
+    {
+      "id": "post_55",
+      "text": "Jimmy Jam Foils\nGroup expert\n\u00a0\n \u00b7 \nFollow\nThe one with less surface area drag and volume \u2026. The smallest hps probably will have higher top end speed than the largest spitfire. That make sense?\nSpitfires are thinner and have less chord length and surface area for the relative wingspan .. al\u2026 See more\n3w\nLike\nReply\nEdited\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:45:40.471269"
+    },
+    {
+      "id": "post_56",
+      "text": "Marc Masters\nAuthor\nThanks all. The reason I ask is that I currently only have HPS 1050 and 930, using 1050 only on very light days. I'm shopping for Spitfires because I read somewhere they handle tip breaches better. I'm enjoying carving now so if Spitfires can turn bett\u2026 See more\n3w\nLike\nReply\n2",
+      "foils_mentioned": [
+        "HPS 1050"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:45:40.515221"
+    },
+    {
+      "id": "post_57",
+      "text": "Deon Aumaier\nRising contributor\nPeter, You are going to be disappointed with the performance of the Alloy mast and FB1350. There is a reason that Axis just dropped the FATTY Mast and FATTY Fuse.\nI own both FB 1350 and FB 1750 wings.\nThe Axis FATTY kit are game changer.\n3w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:45:43.205333"
+    },
+    {
+      "id": "post_58",
+      "text": "Taylor Gautier\nYes. \n I have a spitfire 840 fireball 880 and 940 and I will be selling them all after purchasing and riding a surge 830.\n3w\nLike\nReply\n6",
+      "foils_mentioned": [
+        "SPITFIRE 840",
+        "FIREBALL 880",
+        "SURGE 830"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:45:45.248905"
+    },
+    {
+      "id": "post_59",
+      "text": "Thomas Boyce\nTop contributor\nHow good is Manu Bay for Parawinging onto waves? I was there way back in 1997 to windsurf and from memory the waves were great.\n3w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:45:57.204007"
+    },
+    {
+      "id": "post_60",
+      "text": "Ben Mcalpine\nTop contributor\nAwesome! What VMG into wind did you get? Just wondering because we planning a havelock to picton wing this summer and the first leg will be tacking all day\n3w\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:45:57.206640"
+    },
+    {
+      "id": "post_61",
+      "text": "Deon Aumaier\nRising contributor\nWonderful Posts!\n68yrs 80kg\nI just got my Production versions of FB1750/ 80cm Fatty Mast/ Fatty Ultra Short Fuse 640mm/ Surf Skinny 320/58 stab\u2026 See more\n3w\nLike\nReply\nEdited",
+      "foils_mentioned": [],
+      "rider_weight": 176,
+      "use_case": null,
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:46:16.497997"
+    },
+    {
+      "id": "post_62",
+      "text": "Bruce Kropelin\nRising contributor\nAdrian R posted couple months ago that they\u2019re due out med Feb.\nLive2Kite in California (major Axis distributor) just lost their business to devastating \n. That\u2019s going to have an impact on Axis as well unfortunately.\n3w\nLike\nReply\nEdited",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "kite",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-10T19:46:29.019744"
+    },
+    {
+      "id": "post_63",
+      "text": "Steven Floyd\nTop contributor\nNot released to general public yet\u2026. Due January..\nMy 830 is awesome gets on foil easily winging. \u2026 See more\n8w\nLike\nReply\n3",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-10T19:46:31.436679"
+    }
+  ],
+  "statistics": {
+    "total_posts": 64,
+    "foil_mentions": {
+      "PNG 1310": 1,
+      "SURGE 890": 4,
+      "SURGE 830": 4,
+      "SPITFIRE 840": 2,
+      "SURGE 950": 1,
+      "SURGE 1010": 2,
+      "HPS 1050": 2,
+      "ART 999": 2,
+      "FIREBALL 1070": 1,
+      "SPITFIRE 1180": 1,
+      "BSC 890": 2,
+      "BSC 1060": 1,
+      "ART 1099": 1,
+      "PNG 1300": 1,
+      "ART 899": 1,
+      "FIREBALL 880": 1
+    },
+    "weight_recommendations": [
+      {
+        "weight": 187,
+        "foil": "SURGE 890",
+        "use_case": null,
+        "sentiment": "neutral"
+      },
+      {
+        "weight": 240,
+        "foil": "SPITFIRE 1180",
+        "use_case": "wing",
+        "sentiment": "positive"
+      }
+    ],
+    "use_case_feedback": {
+      "wing": [
+        "SPITFIRE 840",
+        "HPS 1050",
+        "SPITFIRE 1180",
+        "SURGE 890",
+        "BSC 890"
+      ],
+      "pump": [
+        "ART 999"
+      ],
+      "sup": [
+        "PNG 1300"
+      ],
+      "prone": [
+        "ART 999",
+        "ART 899"
+      ]
+    }
+  }
+}

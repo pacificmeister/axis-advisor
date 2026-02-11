@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
+import { generateProsCons } from '@/lib/geminiService';
 
 interface Product {
   id: string;
@@ -14,21 +15,37 @@ interface Product {
   description?: string;
 }
 
+interface ProsCons {
+  pros: string[];
+  cons: string[];
+}
+
 interface Recommendation {
   product: Product;
   score: number;
   reasoning: string;
+  prosCons?: ProsCons;
+  fbFeedback?: string[];
+}
+
+interface FBPost {
+  text: string;
+  foils_mentioned: string[];
+  rider_weight: number | null;
+  use_case: string | null;
 }
 
 export default function WizardPage() {
   const [step, setStep] = useState(1);
   const [products, setProducts] = useState<Product[]>([]);
+  const [fbData, setFbData] = useState<FBPost[]>([]);
   const [formData, setFormData] = useState({
     weight: '',
     skillLevel: '',
     useCase: '',
   });
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
+  const [loadingProsCons, setLoadingProsCons] = useState(false);
 
   // Load product data
   useEffect(() => {
@@ -39,13 +56,44 @@ export default function WizardPage() {
         setProducts(frontWings);
       })
       .catch(err => console.error('Failed to load products:', err));
+
+    // Load FB feedback data
+    fetch('/data/facebook-riders-feedback.json')
+      .then(r => r.json())
+      .then(data => {
+        setFbData(data.posts || []);
+      })
+      .catch(err => console.warn('FB data not available:', err));
   }, []);
 
   const handleChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  const generateRecommendations = () => {
+  // Match FB feedback to a foil
+  const matchFBFeedback = (foilName: string): string[] => {
+    const feedback: string[] = [];
+    const normalized = foilName.toUpperCase().replace(/\s+/g, ' ');
+
+    for (const post of fbData) {
+      // Check if this post mentions this foil
+      const mentioned = post.foils_mentioned.some(f => 
+        normalized.includes(f.toUpperCase().replace(/\s+/g, ' '))
+      );
+
+      if (mentioned && post.text.length > 50) {
+        // Extract relevant excerpt
+        const excerpt = post.text.split('\n').slice(0, 3).join(' ').substring(0, 200);
+        feedback.push(excerpt);
+        
+        if (feedback.length >= 3) break; // Max 3 excerpts
+      }
+    }
+
+    return feedback;
+  };
+
+  const generateRecommendations = async () => {
     const weight = parseInt(formData.weight) || 175;
     const { skillLevel, useCase } = formData;
 
@@ -126,6 +174,14 @@ export default function WizardPage() {
           score -= 20;
         }
 
+        // Match FB feedback
+        const fbFeedback = matchFBFeedback(`${effectiveSeries} ${area}`);
+        
+        // Boost score if there's positive FB feedback
+        if (fbFeedback.length > 0) {
+          score += 5;
+        }
+
         // Generate reasoning
         let reasoning = '';
         const sizeDesc = area > baseArea * 1.1 ? 'larger' : area < baseArea * 0.9 ? 'smaller' : 'ideal';
@@ -159,6 +215,7 @@ export default function WizardPage() {
           product,
           score,
           reasoning,
+          fbFeedback: fbFeedback.length > 0 ? fbFeedback : undefined,
         };
       })
       .filter(rec => rec.score > 30) // Filter out really bad matches
@@ -167,6 +224,36 @@ export default function WizardPage() {
 
     setRecommendations(scored);
     setStep(4);
+
+    // Generate pros/cons for each recommendation
+    setLoadingProsCons(true);
+    try {
+      const recsWithProsCons = await Promise.all(
+        scored.map(async rec => {
+          const effectiveSeries = rec.product.specs.series === 'PNG' && rec.product.title.includes('V2') 
+            ? 'PNG V2' 
+            : rec.product.specs.series;
+
+          const prosCons = await generateProsCons({
+            foilName: `${effectiveSeries} ${rec.product.specs.area}`,
+            foilArea: rec.product.specs.area,
+            foilSeries: effectiveSeries,
+            userWeight: weight,
+            userSkill: skillLevel,
+            userDiscipline: useCase,
+            fbFeedback: rec.fbFeedback,
+          });
+
+          return { ...rec, prosCons };
+        })
+      );
+
+      setRecommendations(recsWithProsCons);
+    } catch (error) {
+      console.error('Failed to generate pros/cons:', error);
+    } finally {
+      setLoadingProsCons(false);
+    }
   };
 
   const resetWizard = () => {
@@ -374,13 +461,13 @@ export default function WizardPage() {
                 </p>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-6">
                 {recommendations.map((rec, index) => (
                   <div
                     key={rec.product.id}
                     className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-red-600 transition"
                   >
-                    <div className="flex items-start justify-between mb-3">
+                    <div className="flex items-start justify-between mb-4">
                       <div>
                         <div className="text-sm font-bold text-red-600 mb-1">
                           #{index + 1} RECOMMENDATION
@@ -398,6 +485,60 @@ export default function WizardPage() {
                     </div>
 
                     <p className="text-gray-700 mb-4">{rec.reasoning}</p>
+
+                    {/* Pros/Cons */}
+                    {loadingProsCons && !rec.prosCons && (
+                      <div className="bg-gray-50 rounded-lg p-4 mb-4 animate-pulse">
+                        <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+                        <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+                      </div>
+                    )}
+
+                    {rec.prosCons && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                        {/* Pros */}
+                        <div className="bg-green-50 rounded-lg p-4 border border-green-100">
+                          <h4 className="text-xs font-bold text-green-800 uppercase tracking-widest mb-2">
+                            ✓ Why This Works
+                          </h4>
+                          <ul className="space-y-1">
+                            {rec.prosCons.pros.map((pro, i) => (
+                              <li key={i} className="text-sm text-green-900 leading-relaxed">
+                                • {pro}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* Cons */}
+                        <div className="bg-orange-50 rounded-lg p-4 border border-orange-100">
+                          <h4 className="text-xs font-bold text-orange-800 uppercase tracking-widest mb-2">
+                            ⚠ Consider
+                          </h4>
+                          <ul className="space-y-1">
+                            {rec.prosCons.cons.map((con, i) => (
+                              <li key={i} className="text-sm text-orange-900 leading-relaxed">
+                                • {con}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* FB Feedback Badge */}
+                    {rec.fbFeedback && rec.fbFeedback.length > 0 && (
+                      <div className="bg-blue-50 rounded-lg p-3 mb-4 border border-blue-100">
+                        <div className="flex items-center gap-2 mb-2">
+                          <span className="text-xs font-bold text-blue-800 uppercase tracking-widest">
+                            👥 Real Rider Feedback
+                          </span>
+                        </div>
+                        <p className="text-xs text-blue-900 italic">
+                          "{rec.fbFeedback[0].substring(0, 150)}..."
+                        </p>
+                      </div>
+                    )}
 
                     <a
                       href={`https://axisfoils.com/products/${rec.product.id}`}
