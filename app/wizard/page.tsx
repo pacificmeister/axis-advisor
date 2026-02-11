@@ -126,26 +126,41 @@ export default function WizardPage() {
       baseArea *= disciplineAdjustments[useCase] || 1.0;
     }
 
-    // Define preferred series for each discipline
+    // Define preferred series for each discipline (CURRENT/NEWER ONLY)
     const disciplineSeries: Record<string, string[]> = {
-      wing: skillLevel === 'beginner' ? ['BSC'] : skillLevel === 'intermediate' ? ['BSC', 'HPS', 'ART'] : ['ART', 'ART v2', 'HPS', 'Spitfire'],
-      // Parawing series change by skill level (expert-validated)
+      wing: skillLevel === 'beginner' 
+        ? ['Surge', 'Tempo', 'ART v2'] 
+        : skillLevel === 'intermediate' 
+          ? ['ART v2', 'Surge', 'Tempo', 'Spitfire'] 
+          : ['ART v2', 'Spitfire', 'Tempo', 'Fireball'],
+      // Parawing series change by skill level (expert-validated, current only)
       parawing: skillLevel === 'beginner' 
-        ? ['PNG V2', 'PNG', 'BSC'] 
+        ? ['PNG V2', 'Surge', 'Tempo'] 
         : skillLevel === 'intermediate' 
           ? ['Fireball', 'ART v2', 'Surge', 'PNG V2'] 
           : ['Fireball', 'Tempo', 'ART v2', 'Spitfire'],
-      kite: skillLevel === 'beginner' ? ['BSC', 'HPS'] : ['Spitfire', 'ART v2', 'PNG V2', 'ART', 'HPS'],
-      prone: ['BSC', 'SP', 'HPS'],
-      sup: ['PNG', 'PNG V2', 'BSC', 'Surge'],
-      downwind: ['PNG', 'PNG V2', 'ART', 'ART v2', 'HPS', 'Surge'],
-      pump: ['PNG', 'PNG V2', 'Tempo', 'Surge'],
+      kite: skillLevel === 'beginner' 
+        ? ['Surge', 'Tempo'] 
+        : ['Spitfire', 'ART v2', 'PNG V2', 'Fireball'],
+      prone: ['Surge', 'Fireball', 'Tempo'],
+      sup: ['PNG V2', 'Surge', 'Tempo'],
+      downwind: ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
+      pump: ['PNG V2', 'Tempo', 'Surge'],
     };
 
     const preferredSeries = disciplineSeries[useCase] || [];
 
+    // Filter to only Current/Newer series (exclude Legacy)
+    const currentSeries = ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG V2', 'Spitfire'];
+    const currentProducts = products.filter(p => {
+      const series = p.specs.series;
+      // Handle PNG V2 detection
+      const effectiveSeries = series === 'PNG' && p.title.includes('V2') ? 'PNG V2' : series;
+      return currentSeries.includes(effectiveSeries);
+    });
+
     // Score each product
-    const scored: Recommendation[] = products
+    const scored: Recommendation[] = currentProducts
       .map(product => {
         let score = 100;
         const area = product.specs.area;
@@ -212,16 +227,17 @@ export default function WizardPage() {
           else if (effectiveSeries === 'ART') reasoning = `Legendary glide. ${sizeDesc === 'ideal' ? 'Well-matched' : sizeDesc === 'larger' ? 'More forgiving' : 'Advanced option'} for your level.`;
           else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} option for parawing.`;
         } else if (useCase === 'wing') {
-          if (effectiveSeries === 'BSC') reasoning = `${skillLevel === 'beginner' ? 'Perfect starter' : 'Versatile performer'}. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Extra stability' : 'More speed'} for ${weight}lbs.`;
-          else if (effectiveSeries === 'HPS') reasoning = `Popular high-aspect. ${sizeDesc === 'ideal' ? 'Great fit' : sizeDesc === 'larger' ? 'Easier to ride' : 'Performance focused'}.`;
-          else if (effectiveSeries === 'ART') reasoning = `Ultimate glide. ${sizeDesc === 'ideal' ? 'Well-suited' : sizeDesc === 'larger' ? 'More accessible' : 'Peak performance'}.`;
+          if (effectiveSeries === 'Surge') reasoning = `${skillLevel === 'beginner' ? 'Perfect starter' : 'Versatile performer'}. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Extra stability' : 'More speed'} for ${weight}lbs.`;
+          else if (effectiveSeries === 'ART v2') reasoning = `Next-gen high-aspect. ${sizeDesc === 'ideal' ? 'Perfect fit' : sizeDesc === 'larger' ? 'Easier to ride' : 'Peak performance'}.`;
+          else if (effectiveSeries === 'Tempo') reasoning = `Glide and pump balance. ${sizeDesc === 'ideal' ? 'Great match' : sizeDesc === 'larger' ? 'More lift' : 'Fast and efficient'}.`;
+          else if (effectiveSeries === 'Spitfire') reasoning = `Race-proven speed. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'More power' : 'Maximum performance'}.`;
           else reasoning = `${sizeDesc === 'ideal' ? 'Solid' : sizeDesc === 'larger' ? 'Forgiving' : 'Fast'} wing foil.`;
         } else if (useCase === 'prone') {
-          if (effectiveSeries === 'BSC') reasoning = `All-around performer. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy waves' : 'Tight carving'}.`;
-          else if (effectiveSeries === 'SP') reasoning = `Carving specialist. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Small wave magic' : 'High performance'}.`;
-          else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} for prone.`;
+          if (effectiveSeries === 'Surge') reasoning = `All-around surf performer. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy waves' : 'Tight carving'}.`;
+          else if (effectiveSeries === 'Fireball') reasoning = `Wave specialist. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Small wave magic' : 'High performance'}.`;
+          else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} for prone surf.`;
         } else if (useCase === 'sup' || useCase === 'pump') {
-          if (effectiveSeries === 'PNG' || effectiveSeries === 'PNG V2') reasoning = `${effectiveSeries === 'PNG V2' ? 'V2 high-aspect' : 'Classic'} pump king. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy starting' : 'More speed'}.`;
+          if (effectiveSeries === 'PNG V2') reasoning = `V2 high-aspect pump king. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy starting' : 'More speed'}.`;
           else if (effectiveSeries === 'Tempo' || effectiveSeries === 'Surge') reasoning = `${effectiveSeries} glide machine. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier pump' : 'Faster pace'}.`;
           else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Easy' : 'Fast'} for ${useCase === 'pump' ? 'pumping' : 'SUP'}.`;
         } else if (useCase === 'downwind') {

@@ -114,10 +114,10 @@ function generateFallbackProsCons(rec: RecommendationInput): ProsCons {
     cons.push('Requires good technique for low-speed flight');
   }
 
-  // Series-based pros/cons
-  if (rec.foilSeries.includes('PNG')) {
+  // Series-based pros/cons (CURRENT/NEWER ONLY)
+  if (rec.foilSeries === 'PNG V2') {
+    pros.push('Latest V2 high-aspect design');
     pros.push('Legendary pump and glide efficiency');
-    pros.push('Connects bumps effortlessly');
     if (rec.userDiscipline === 'wing') {
       cons.push('Can feel slow in tight maneuvers');
     }
@@ -130,15 +130,18 @@ function generateFallbackProsCons(rec: RecommendationInput): ProsCons {
   } else if (rec.foilSeries === 'Surge') {
     pros.push('Perfect balance of pump and turning');
     pros.push('Versatile across conditions');
-  } else if (rec.foilSeries === 'BSC') {
-    pros.push('Forgiving and confidence-inspiring');
-    pros.push('Wide speed range for learning');
-    if (rec.userSkill === 'advanced') {
-      cons.push('Less responsive than high-aspect options');
+  } else if (rec.foilSeries === 'Tempo') {
+    pros.push('Next-gen glide and pump efficiency');
+    pros.push('Great for downwind and SUP');
+    if (rec.userDiscipline === 'wing' && rec.userSkill === 'advanced') {
+      cons.push('May feel large for tight maneuvers');
     }
-  } else if (rec.foilSeries.includes('ART')) {
+  } else if (rec.foilSeries === 'Fireball') {
+    pros.push('Fast and responsive feel');
+    pros.push('Excellent for waves and parawing');
+  } else if (rec.foilSeries === 'ART v2') {
     pros.push('Exceptional glide and efficiency');
-    pros.push('High aspect feel with manageable control');
+    pros.push('High aspect with manageable control');
     cons.push('Premium price point');
   }
 
