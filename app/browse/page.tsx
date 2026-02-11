@@ -57,18 +57,18 @@ export default function BrowsePage() {
       image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Fireball-Complete-table.jpg'
     },
     {
-      name: 'Spitfire',
-      displayName: 'Spitfire',
-      category: 'current',
-      description: 'Freestyle specialist for aggressive riding',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Family---table_1024x1024.png'
-    },
-    {
       name: 'PNG',
       displayName: 'PNG v2',
       category: 'current',
       description: 'Pump and glide king for dock starts',
       image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/PNG-Complete-table.jpg'
+    },
+    {
+      name: 'Spitfire',
+      displayName: 'Spitfire',
+      category: 'current',
+      description: 'Freestyle specialist for aggressive riding',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Family---table_1024x1024.png'
     },
 
     // LEGACY FRONT WINGS
