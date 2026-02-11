@@ -100,27 +100,41 @@ export default function WizardPage() {
     // Calculate ideal area range based on weight and skill
     let baseArea = weight * 6; // Starting point: ~6 cm²/lb
     
-    // Adjust for skill level
-    if (skillLevel === 'beginner') baseArea *= 1.3;
-    else if (skillLevel === 'intermediate') baseArea *= 1.0;
-    else if (skillLevel === 'advanced') baseArea *= 0.8;
+    // Parawing has different skill adjustments (expert-validated)
+    if (useCase === 'parawing') {
+      // Parawing: less aggressive reduction as skill increases
+      if (skillLevel === 'beginner') baseArea *= 1.0;      // ~6 cm²/lb
+      else if (skillLevel === 'intermediate') baseArea *= 0.92; // ~5.5 cm²/lb
+      else if (skillLevel === 'advanced') baseArea *= 0.9;    // ~5.4 cm²/lb
+    } else {
+      // Other disciplines: standard skill adjustments
+      if (skillLevel === 'beginner') baseArea *= 1.3;
+      else if (skillLevel === 'intermediate') baseArea *= 1.0;
+      else if (skillLevel === 'advanced') baseArea *= 0.8;
+    }
 
-    // Adjust for discipline
+    // Adjust for discipline (not parawing, already handled above)
     const disciplineAdjustments: Record<string, number> = {
       wing: 1.0,
-      parawing: 1.0,
       kite: 0.9,
       prone: 0.85,
       sup: 1.2,
       downwind: 1.3,
       pump: 1.4,
     };
-    baseArea *= disciplineAdjustments[useCase] || 1.0;
+    if (useCase !== 'parawing') {
+      baseArea *= disciplineAdjustments[useCase] || 1.0;
+    }
 
     // Define preferred series for each discipline
     const disciplineSeries: Record<string, string[]> = {
       wing: skillLevel === 'beginner' ? ['BSC'] : skillLevel === 'intermediate' ? ['BSC', 'HPS', 'ART'] : ['ART', 'ART v2', 'HPS', 'Spitfire'],
-      parawing: skillLevel === 'beginner' ? ['BSC', 'HPS'] : ['PNG V2', 'PNG', 'Spitfire', 'ART v2', 'ART', 'HPS'],
+      // Parawing series change by skill level (expert-validated)
+      parawing: skillLevel === 'beginner' 
+        ? ['PNG V2', 'PNG', 'BSC'] 
+        : skillLevel === 'intermediate' 
+          ? ['Fireball', 'ART v2', 'Surge', 'PNG V2'] 
+          : ['Fireball', 'Tempo', 'ART v2', 'Spitfire'],
       kite: skillLevel === 'beginner' ? ['BSC', 'HPS'] : ['Spitfire', 'ART v2', 'PNG V2', 'ART', 'HPS'],
       prone: ['BSC', 'SP', 'HPS'],
       sup: ['PNG', 'PNG V2', 'BSC', 'Surge'],
