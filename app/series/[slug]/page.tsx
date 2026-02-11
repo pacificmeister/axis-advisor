@@ -128,7 +128,7 @@ export default function SeriesPage() {
                 {/* Foil Info */}
                 <div className="p-4">
                   <h3 className="text-xl font-black text-gray-900 mb-2">
-                    {foil.specs.series} {foil.specs.area}
+                    {foil.title}
                   </h3>
                   
                   <div className="space-y-1 mb-4 text-sm text-gray-600">
