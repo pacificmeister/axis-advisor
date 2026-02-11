@@ -50,16 +50,31 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
   const ranges = calculateRanges();
   
   const [filters, setFilters] = useState<FilterState>({
-    aspectRatioMin: ranges.ar.min,
-    aspectRatioMax: ranges.ar.max,
-    surfaceAreaMin: ranges.area.min,
-    surfaceAreaMax: ranges.area.max,
-    chordMin: ranges.chord.min,
-    chordMax: ranges.chord.max,
-    priceMin: ranges.price.min,
-    priceMax: ranges.price.max,
+    aspectRatioMin: 0,
+    aspectRatioMax: 20,
+    surfaceAreaMin: 0,
+    surfaceAreaMax: 2500,
+    chordMin: 0,
+    chordMax: 200,
+    priceMin: 0,
+    priceMax: 2000,
     series: []
   });
+  
+  // Update filters when products/ranges change
+  useEffect(() => {
+    setFilters(prev => ({
+      ...prev,
+      aspectRatioMin: ranges.ar.min,
+      aspectRatioMax: ranges.ar.max,
+      surfaceAreaMin: ranges.area.min,
+      surfaceAreaMax: ranges.area.max,
+      chordMin: ranges.chord.min,
+      chordMax: ranges.chord.max,
+      priceMin: ranges.price.min,
+      priceMax: ranges.price.max
+    }));
+  }, [products.length]);
 
   // Get unique series
   const allSeries = Array.from(new Set(products.map(p => p.specs.series))).sort();
