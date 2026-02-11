@@ -21,60 +21,25 @@ export interface FilterState {
 }
 
 export default function SpecFilters({ onFilterChange, products }: SpecFiltersProps) {
-  // Calculate ranges from products
-  const calculateRanges = () => {
-    const productsWithSpecs = products.filter(p => p.specs?.aspectRatio);
-    
-    if (productsWithSpecs.length === 0) {
-      return {
-        ar: { min: 0, max: 20 },
-        area: { min: 0, max: 2500 },
-        chord: { min: 0, max: 200 },
-        price: { min: 0, max: 2000 }
-      };
-    }
-
-    const ars = productsWithSpecs.map(p => p.specs.aspectRatio);
-    const areas = productsWithSpecs.map(p => p.specs.surfaceArea);
-    const chords = productsWithSpecs.map(p => p.specs.chord || 0).filter(c => c > 0);
-    const prices = productsWithSpecs.map(p => p.retailPrice || 0).filter(c => c > 0);
-
-    return {
-      ar: { min: Math.floor(Math.min(...ars)), max: Math.ceil(Math.max(...ars)) },
-      area: { min: Math.floor(Math.min(...areas) / 100) * 100, max: Math.ceil(Math.max(...areas) / 100) * 100 },
-      chord: { min: Math.floor(Math.min(...chords) / 10) * 10, max: Math.ceil(Math.max(...chords) / 10) * 10 },
-      price: { min: Math.floor(Math.min(...prices) / 100) * 100, max: Math.ceil(Math.max(...prices) / 100) * 100 }
-    };
+  // Fixed ranges (not calculated from data)
+  const ranges = {
+    ar: { min: 0, max: 50 },
+    area: { min: 0, max: 3000 },
+    chord: { min: 0, max: 200 },
+    price: { min: 0, max: 3000 }
   };
-
-  const ranges = calculateRanges();
   
   const [filters, setFilters] = useState<FilterState>({
     aspectRatioMin: 0,
-    aspectRatioMax: 20,
+    aspectRatioMax: 50,
     surfaceAreaMin: 0,
-    surfaceAreaMax: 2500,
+    surfaceAreaMax: 3000,
     chordMin: 0,
     chordMax: 200,
     priceMin: 0,
-    priceMax: 2000,
+    priceMax: 3000,
     series: []
   });
-  
-  // Update filters when products/ranges change
-  useEffect(() => {
-    setFilters(prev => ({
-      ...prev,
-      aspectRatioMin: ranges.ar.min,
-      aspectRatioMax: ranges.ar.max,
-      surfaceAreaMin: ranges.area.min,
-      surfaceAreaMax: ranges.area.max,
-      chordMin: ranges.chord.min,
-      chordMax: ranges.chord.max,
-      priceMin: ranges.price.min,
-      priceMax: ranges.price.max
-    }));
-  }, [products.length]);
 
   // Get unique series
   const allSeries = Array.from(new Set(products.map(p => p.specs.series))).sort();
