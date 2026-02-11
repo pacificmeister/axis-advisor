@@ -21,12 +21,18 @@ interface FoilSelectorProps {
 
 export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: FoilSelectorProps) {
   // Define current vs legacy series
-  const currentSeries = ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG', 'Spitfire'];
-  const legacySeries = ['ART', 'BSC', 'HPS', 'SP'];
+  const currentSeries = ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG V2', 'Spitfire'];
+  const legacySeries = ['ART', 'BSC', 'HPS', 'PNG', 'SP'];
   
-  // Group by series
+  // Group by series (split PNG into V2 and legacy)
   const seriesGroups = foils.reduce((acc, foil) => {
-    const series = foil.specs.series || 'Other';
+    let series = foil.specs.series || 'Other';
+    
+    // Split PNG into V2 and legacy
+    if (series === 'PNG') {
+      series = foil.title.includes('V2') ? 'PNG V2' : 'PNG';
+    }
+    
     if (!acc[series]) acc[series] = [];
     acc[series].push(foil);
     return acc;
