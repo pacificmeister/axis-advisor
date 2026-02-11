@@ -130,30 +130,43 @@ export default function SearchPage() {
         return false;
       }
 
-      // Aspect Ratio filter
-      if (foil.specs.aspectRatio) {
-        if (foil.specs.aspectRatio < filters.aspectRatioMin || foil.specs.aspectRatio > filters.aspectRatioMax) {
+      // Aspect Ratio filter - only apply if user changed from defaults (0-20)
+      const hasArFilter = filters.aspectRatioMin > 0 || filters.aspectRatioMax < 20;
+      if (hasArFilter) {
+        // If filter is active, require the foil to have AR data AND match range
+        if (!foil.specs.aspectRatio || 
+            foil.specs.aspectRatio < filters.aspectRatioMin || 
+            foil.specs.aspectRatio > filters.aspectRatioMax) {
           return false;
         }
       }
 
-      // Wingspan filter
-      if (foil.specs.wingspan) {
-        if (foil.specs.wingspan < filters.wingspanMin || foil.specs.wingspan > filters.wingspanMax) {
+      // Wingspan filter - only apply if user changed from defaults (0-2000)
+      const hasWingspanFilter = filters.wingspanMin > 0 || filters.wingspanMax < 2000;
+      if (hasWingspanFilter) {
+        if (!foil.specs.wingspan || 
+            foil.specs.wingspan < filters.wingspanMin || 
+            foil.specs.wingspan > filters.wingspanMax) {
           return false;
         }
       }
 
-      // Volume filter
-      if (foil.specs.volume) {
-        if (foil.specs.volume < filters.volumeMin || foil.specs.volume > filters.volumeMax) {
+      // Volume filter - only apply if user changed from defaults (0-5000)
+      const hasVolumeFilter = filters.volumeMin > 0 || filters.volumeMax < 5000;
+      if (hasVolumeFilter) {
+        if (!foil.specs.volume || 
+            foil.specs.volume < filters.volumeMin || 
+            foil.specs.volume > filters.volumeMax) {
           return false;
         }
       }
 
-      // Chord filter
-      if (foil.specs.chord) {
-        if (foil.specs.chord < filters.chordMin || foil.specs.chord > filters.chordMax) {
+      // Chord filter - only apply if user changed from defaults (0-500)
+      const hasChordFilter = filters.chordMin > 0 || filters.chordMax < 500;
+      if (hasChordFilter) {
+        if (!foil.specs.chord || 
+            foil.specs.chord < filters.chordMin || 
+            foil.specs.chord > filters.chordMax) {
           return false;
         }
       }
@@ -169,7 +182,6 @@ export default function SearchPage() {
 
     setFilteredFoils(filtered);
   }, [filters, allFoils]);
-
   const toggleSeries = (series: string) => {
     setFilters(prev => ({
       ...prev,
