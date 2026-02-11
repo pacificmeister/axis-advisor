@@ -2083,11 +2083,12 @@
             "name": "ART v2 1099",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 1099,
+            "area": 1220,
             "surfaceArea": 1197.0,
-            "aspectRatio": 10.28,
+            "aspectRatio": 10.08,
             "chord": 107.0,
-            "itemCode": "AXARTV21099"
+            "itemCode": "AXARTV21099",
+            "wingspan": 1099
           },
           "tags": [
             "2024",
@@ -2118,11 +2119,12 @@
             "name": "ART v2 999",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 999,
+            "area": 1038,
             "surfaceArea": 1026.0,
             "aspectRatio": 9.9,
             "chord": 101.0,
-            "itemCode": "AXARTV2999"
+            "itemCode": "AXARTV2999",
+            "wingspan": 999
           },
           "tags": [
             "2024",
@@ -2153,11 +2155,12 @@
             "name": "ART v2 939",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 939,
+            "area": 900,
             "surfaceArea": 900.0,
             "aspectRatio": 10.0,
             "chord": 94.0,
-            "itemCode": "AXARTV2939"
+            "itemCode": "AXARTV2939",
+            "wingspan": 939
           },
           "tags": [
             "2024",
@@ -2188,11 +2191,12 @@
             "name": "ART v2 879",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 879,
+            "area": 790,
             "surfaceArea": 674.0,
             "aspectRatio": 9.98,
             "chord": 82.0,
-            "itemCode": "AXARTV2819"
+            "itemCode": "AXARTV2819",
+            "wingspan": 879
           },
           "tags": [
             "2024",
@@ -2223,7 +2227,9 @@
             "name": "ART v2 819",
             "product_type": "Front Wings",
             "series": "ART v2",
-            "area": 819
+            "area": 647,
+            "wingspan": 819,
+            "aspectRatio": 9.98
           },
           "tags": [
             "2024",
