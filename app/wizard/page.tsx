@@ -1,26 +1,45 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 
+interface Product {
+  id: string;
+  title: string;
+  specs: {
+    series: string;
+    area: number;
+    aspectRatio?: number;
+  };
+  description?: string;
+}
+
 interface Recommendation {
-  model: string;
-  series: string;
-  area: number;
+  product: Product;
   score: number;
   reasoning: string;
 }
 
 export default function WizardPage() {
   const [step, setStep] = useState(1);
+  const [products, setProducts] = useState<Product[]>([]);
   const [formData, setFormData] = useState({
     weight: '',
     skillLevel: '',
     useCase: '',
-    conditions: '',
-    style: '',
   });
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
+
+  // Load product data
+  useEffect(() => {
+    fetch('/data/axis-products.json')
+      .then(r => r.json())
+      .then(data => {
+        const frontWings = data.collections['front-wings'].products;
+        setProducts(frontWings);
+      })
+      .catch(err => console.error('Failed to load products:', err));
+  }, []);
 
   const handleChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -28,244 +47,125 @@ export default function WizardPage() {
 
   const generateRecommendations = () => {
     const weight = parseInt(formData.weight) || 175;
-    const recs: Recommendation[] = [];
+    const { skillLevel, useCase } = formData;
 
-    // Simple recommendation logic (will be enhanced with Facebook data)
-    if (formData.useCase === 'wing') {
-      if (formData.skillLevel === 'beginner') {
-        recs.push({
-          model: 'BSC 1060',
-          series: 'BSC',
-          area: 1060,
-          score: 95,
-          reasoning: 'Perfect beginner wing foil. Easy lift, forgiving, wide speed range.',
-        });
-        recs.push({
-          model: 'BSC 1200',
-          series: 'BSC',
-          area: 1200,
-          score: 90,
-          reasoning: 'Larger surface for lighter winds. Very stable and confidence-inspiring.',
-        });
-      } else if (formData.skillLevel === 'intermediate') {
-        recs.push({
-          model: 'HPS 880',
-          series: 'HPS',
-          area: 880,
-          score: 95,
-          reasoning: 'Most popular wing foil. Great speed, accessible high aspect.',
-        });
-        recs.push({
-          model: 'ART 899',
-          series: 'ART',
-          area: 899,
-          score: 92,
-          reasoning: 'Amazing glide and pump. Surprisingly easy for high aspect.',
-        });
-        recs.push({
-          model: 'BSC 890',
-          series: 'BSC',
-          area: 890,
-          score: 88,
-          reasoning: 'Bridge between beginner and performance. Super versatile.',
-        });
-      } else if (formData.skillLevel === 'advanced') {
-        recs.push({
-          model: 'ART 799',
-          series: 'ART',
-          area: 799,
-          score: 95,
-          reasoning: 'Insane speed and glide. Still turns well. Peak performance.',
-        });
-        recs.push({
-          model: 'ARTPRO 879',
-          series: 'ARTPRO',
-          area: 879,
-          score: 93,
-          reasoning: 'Next-gen design. Even faster than ART with better control.',
-        });
-        recs.push({
-          model: 'HPS 780',
-          series: 'HPS',
-          area: 780,
-          score: 90,
-          reasoning: 'High-speed performance, great for strong wind days.',
-        });
-      }
-    } else if (formData.useCase === 'parawing') {
-      // Parawing uses similar foils to kiting - high aspect for speed and efficiency
-      if (formData.skillLevel === 'beginner') {
-        recs.push({
-          model: 'BSC 1060',
-          series: 'BSC',
-          area: 1060,
-          score: 95,
-          reasoning: 'Great starter for parawing. Forgiving, easy to control, handles gusts well.',
-        });
-        recs.push({
-          model: 'HPS 1080',
-          series: 'HPS',
-          area: 1080,
-          score: 90,
-          reasoning: 'Stable high aspect intro. Good speed range for learning wind control.',
-        });
-      } else if (formData.skillLevel === 'intermediate') {
-        recs.push({
-          model: 'HPS 880',
-          series: 'HPS',
-          area: 880,
-          score: 95,
-          reasoning: 'Perfect parawing foil. Fast, efficient, great upwind performance.',
-        });
-        recs.push({
-          model: 'ART 899',
-          series: 'ART',
-          area: 899,
-          score: 93,
-          reasoning: 'Excellent glide for light wind days. Pumps through lulls easily.',
-        });
-        recs.push({
-          model: 'HPS 780',
-          series: 'HPS',
-          area: 780,
-          score: 88,
-          reasoning: 'High-wind weapon. Super fast and efficient in strong wind.',
-        });
-      } else if (formData.skillLevel === 'advanced') {
-        recs.push({
-          model: 'ART 799',
-          series: 'ART',
-          area: 799,
-          score: 95,
-          reasoning: 'Ultimate parawing speed machine. Unreal glide and upwind ability.',
-        });
-        recs.push({
-          model: 'ARTPRO 879',
-          series: 'ARTPRO',
-          area: 879,
-          score: 93,
-          reasoning: 'Next-gen speed. Even faster than ART with better low-end.',
-        });
-        recs.push({
-          model: 'HPS 730',
-          series: 'HPS',
-          area: 730,
-          score: 90,
-          reasoning: 'Small and fast for strong wind days. Maximum efficiency.',
-        });
-      }
-    } else if (formData.useCase === 'prone') {
-      if (formData.skillLevel === 'beginner') {
-        recs.push({
-          model: 'BSC 810',
-          series: 'BSC',
-          area: 810,
-          score: 95,
-          reasoning: 'Most popular prone foil. Easy paddling, great wave feel.',
-        });
-      } else if (formData.skillLevel === 'intermediate') {
-        recs.push({
-          model: 'SP 860',
-          series: 'SP',
-          area: 860,
-          score: 95,
-          reasoning: 'Loose carving specialist. Perfect for small-medium waves.',
-        });
-        recs.push({
-          model: 'BSC 810',
-          series: 'BSC',
-          area: 810,
-          score: 90,
-          reasoning: 'All-rounder. Works in any conditions.',
-        });
-      } else {
-        recs.push({
-          model: 'SP 760',
-          series: 'SP',
-          area: 760,
-          score: 95,
-          reasoning: 'Maximum carving performance. Fast and loose.',
-        });
-        recs.push({
-          model: 'HPS 730',
-          series: 'HPS',
-          area: 730,
-          score: 92,
-          reasoning: 'Speed demon for bigger waves. Incredible glide.',
-        });
-      }
-    } else if (formData.useCase === 'sup') {
-      if (formData.skillLevel === 'beginner') {
-        recs.push({
-          model: 'PNG 1310',
-          series: 'PNG',
-          area: 1310,
-          score: 95,
-          reasoning: 'Pump and glide king. Easy to get up, pumps forever.',
-        });
-      } else {
-        recs.push({
-          model: 'PNG 1010',
-          series: 'PNG',
-          area: 1010,
-          score: 95,
-          reasoning: 'Sweet spot for SUP foiling. Pump + speed balance.',
-        });
-        recs.push({
-          model: 'BSC 890',
-          series: 'BSC',
-          area: 890,
-          score: 90,
-          reasoning: 'Versatile performer. Great in varied conditions.',
-        });
-      }
-    } else if (formData.useCase === 'downwind') {
-      recs.push({
-        model: 'ART 1099',
-        series: 'ART',
-        area: 1099,
-        score: 95,
-        reasoning: 'Ultimate downwind foil. Glide for days, connects bumps effortlessly.',
-      });
-      recs.push({
-        model: 'HPS 1080',
-        series: 'HPS',
-        area: 1080,
-        score: 92,
-        reasoning: 'Fast downwind machine. More accessible than ART.',
-      });
-    } else if (formData.useCase === 'pump') {
-      recs.push({
-        model: 'PNG 1310',
-        series: 'PNG',
-        area: 1310,
-        score: 95,
-        reasoning: 'THE dock starting foil. Endless pump efficiency.',
-      });
-      recs.push({
-        model: 'PNG 1010',
-        series: 'PNG',
-        area: 1010,
-        score: 90,
-        reasoning: 'Smaller PNG for more speed once up. Still pumps great.',
-      });
-    }
+    // Calculate ideal area range based on weight and skill
+    let baseArea = weight * 6; // Starting point: ~6 cm²/lb
+    
+    // Adjust for skill level
+    if (skillLevel === 'beginner') baseArea *= 1.3;
+    else if (skillLevel === 'intermediate') baseArea *= 1.0;
+    else if (skillLevel === 'advanced') baseArea *= 0.8;
 
-    // Adjust for weight
-    if (weight < 150) {
-      recs.forEach(rec => {
-        if (rec.area > 1000) rec.score -= 5;
-      });
-    } else if (weight > 200) {
-      recs.forEach(rec => {
-        if (rec.area < 800) rec.score -= 10;
-        if (rec.area > 1000) rec.score += 5;
-      });
-    }
+    // Adjust for discipline
+    const disciplineAdjustments: Record<string, number> = {
+      wing: 1.0,
+      parawing: 1.0,
+      kite: 0.9,
+      prone: 0.85,
+      sup: 1.2,
+      downwind: 1.3,
+      pump: 1.4,
+    };
+    baseArea *= disciplineAdjustments[useCase] || 1.0;
 
-    // Sort by score
-    recs.sort((a, b) => b.score - a.score);
-    setRecommendations(recs.slice(0, 3));
+    // Define preferred series for each discipline
+    const disciplineSeries: Record<string, string[]> = {
+      wing: skillLevel === 'beginner' ? ['BSC'] : skillLevel === 'intermediate' ? ['BSC', 'HPS', 'ART'] : ['ART', 'ART v2', 'HPS', 'Spitfire'],
+      parawing: skillLevel === 'beginner' ? ['BSC', 'HPS'] : ['PNG V2', 'PNG', 'Spitfire', 'ART v2', 'ART', 'HPS'],
+      kite: skillLevel === 'beginner' ? ['BSC', 'HPS'] : ['Spitfire', 'ART v2', 'PNG V2', 'ART', 'HPS'],
+      prone: ['BSC', 'SP', 'HPS'],
+      sup: ['PNG', 'PNG V2', 'BSC', 'Surge'],
+      downwind: ['PNG', 'PNG V2', 'ART', 'ART v2', 'HPS', 'Surge'],
+      pump: ['PNG', 'PNG V2', 'Tempo', 'Surge'],
+    };
+
+    const preferredSeries = disciplineSeries[useCase] || [];
+
+    // Score each product
+    const scored: Recommendation[] = products
+      .map(product => {
+        let score = 100;
+        const area = product.specs.area;
+        const series = product.specs.series;
+
+        // Check if title contains "V2" for PNG V2 detection
+        const effectiveSeries = series === 'PNG' && product.title.includes('V2') ? 'PNG V2' : series;
+
+        // Series match (most important)
+        if (!preferredSeries.includes(effectiveSeries)) {
+          score -= 50; // Heavy penalty for wrong series
+        } else {
+          const seriesIndex = preferredSeries.indexOf(effectiveSeries);
+          score -= seriesIndex * 5; // Prefer earlier series in list
+        }
+
+        // Area match (critical for safety and performance)
+        const areaDiff = Math.abs(area - baseArea);
+        const areaPercent = areaDiff / baseArea;
+        
+        if (areaPercent < 0.1) {
+          score += 20; // Perfect match
+        } else if (areaPercent < 0.2) {
+          score += 10; // Good match
+        } else if (areaPercent < 0.3) {
+          score += 0; // Acceptable
+        } else if (areaPercent < 0.5) {
+          score -= 15; // Not ideal
+        } else {
+          score -= 35; // Poor match
+        }
+
+        // Too small is dangerous for beginners
+        if (skillLevel === 'beginner' && area < baseArea * 0.8) {
+          score -= 30;
+        }
+
+        // Too large is inefficient for advanced
+        if (skillLevel === 'advanced' && area > baseArea * 1.3) {
+          score -= 20;
+        }
+
+        // Generate reasoning
+        let reasoning = '';
+        const sizeDesc = area > baseArea * 1.1 ? 'larger' : area < baseArea * 0.9 ? 'smaller' : 'ideal';
+        
+        if (useCase === 'parawing') {
+          if (effectiveSeries === 'PNG V2') reasoning = `High-aspect speed and efficiency. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'More stable, easier' : 'Faster, more responsive'} for your weight.`;
+          else if (effectiveSeries === 'Spitfire') reasoning = `Race-proven speed machine. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'More power' : 'Maximum speed'} for ${weight}lbs.`;
+          else if (effectiveSeries === 'ART v2') reasoning = `Next-gen glide and pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier to ride' : 'High performance'} choice.`;
+          else if (effectiveSeries === 'ART') reasoning = `Legendary glide. ${sizeDesc === 'ideal' ? 'Well-matched' : sizeDesc === 'larger' ? 'More forgiving' : 'Advanced option'} for your level.`;
+          else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} option for parawing.`;
+        } else if (useCase === 'wing') {
+          if (effectiveSeries === 'BSC') reasoning = `${skillLevel === 'beginner' ? 'Perfect starter' : 'Versatile performer'}. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Extra stability' : 'More speed'} for ${weight}lbs.`;
+          else if (effectiveSeries === 'HPS') reasoning = `Popular high-aspect. ${sizeDesc === 'ideal' ? 'Great fit' : sizeDesc === 'larger' ? 'Easier to ride' : 'Performance focused'}.`;
+          else if (effectiveSeries === 'ART') reasoning = `Ultimate glide. ${sizeDesc === 'ideal' ? 'Well-suited' : sizeDesc === 'larger' ? 'More accessible' : 'Peak performance'}.`;
+          else reasoning = `${sizeDesc === 'ideal' ? 'Solid' : sizeDesc === 'larger' ? 'Forgiving' : 'Fast'} wing foil.`;
+        } else if (useCase === 'prone') {
+          if (effectiveSeries === 'BSC') reasoning = `All-around performer. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy waves' : 'Tight carving'}.`;
+          else if (effectiveSeries === 'SP') reasoning = `Carving specialist. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Small wave magic' : 'High performance'}.`;
+          else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} for prone.`;
+        } else if (useCase === 'sup' || useCase === 'pump') {
+          if (effectiveSeries === 'PNG' || effectiveSeries === 'PNG V2') reasoning = `${effectiveSeries === 'PNG V2' ? 'V2 high-aspect' : 'Classic'} pump king. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Easy starting' : 'More speed'}.`;
+          else if (effectiveSeries === 'Tempo' || effectiveSeries === 'Surge') reasoning = `${effectiveSeries} glide machine. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier pump' : 'Faster pace'}.`;
+          else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Easy' : 'Fast'} for ${useCase === 'pump' ? 'pumping' : 'SUP'}.`;
+        } else if (useCase === 'downwind') {
+          reasoning = `${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} for connecting bumps and downwind runs.`;
+        } else {
+          reasoning = `${sizeDesc === 'ideal' ? 'Good match' : sizeDesc === 'larger' ? 'More stable' : 'Faster option'} for your weight and skill.`;
+        }
+
+        return {
+          product,
+          score,
+          reasoning,
+        };
+      })
+      .filter(rec => rec.score > 30) // Filter out really bad matches
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 3);
+
+    setRecommendations(scored);
     setStep(4);
   };
 
@@ -275,8 +175,6 @@ export default function WizardPage() {
       weight: '',
       skillLevel: '',
       useCase: '',
-      conditions: '',
-      style: '',
     });
     setRecommendations([]);
   };
@@ -326,7 +224,7 @@ export default function WizardPage() {
                   value={formData.weight}
                   onChange={e => handleChange('weight', e.target.value)}
                   placeholder="175"
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none text-lg"
                 />
               </div>
 
@@ -374,11 +272,11 @@ export default function WizardPage() {
                   {[
                     { value: 'wing', label: 'Wing Foiling' },
                     { value: 'parawing', label: 'Parawing' },
+                    { value: 'kite', label: 'Kite Foiling' },
                     { value: 'prone', label: 'Prone Surf' },
                     { value: 'sup', label: 'SUP Foiling' },
                     { value: 'downwind', label: 'Downwind' },
                     { value: 'pump', label: 'Dock Start / Pump' },
-                    { value: 'kite', label: 'Kite Foiling' },
                   ].map(option => (
                     <button
                       key={option.value}
@@ -400,7 +298,7 @@ export default function WizardPage() {
               <div className="flex gap-3">
                 <button
                   onClick={() => setStep(1)}
-                  className="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
+                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
                 >
                   ← Back
                 </button>
@@ -409,74 +307,53 @@ export default function WizardPage() {
                   disabled={!formData.useCase}
                   className="flex-1 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-lg transition"
                 >
-                  Next →
+                  Get Recommendations →
                 </button>
               </div>
             </div>
           )}
 
-          {/* Step 3: Style & Conditions */}
+          {/* Step 3: Confirmation before generating */}
           {step === 3 && (
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-bold text-gray-900 mb-2">
-                  Riding style preference
-                </label>
-                <div className="grid grid-cols-3 gap-3">
-                  {['speed', 'carving', 'balanced'].map(style => (
-                    <button
-                      key={style}
-                      onClick={() => handleChange('style', style)}
-                      className={`
-                        py-3 px-4 rounded-lg font-semibold transition
-                        ${formData.style === style
-                          ? 'bg-red-600 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        }
-                      `}
-                    >
-                      {style.charAt(0).toUpperCase() + style.slice(1)}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-bold text-gray-900 mb-2">
-                  Typical conditions
-                </label>
-                <div className="grid grid-cols-2 gap-3">
-                  {['light', 'medium', 'strong', 'variable'].map(cond => (
-                    <button
-                      key={cond}
-                      onClick={() => handleChange('conditions', cond)}
-                      className={`
-                        py-3 px-4 rounded-lg font-semibold transition
-                        ${formData.conditions === cond
-                          ? 'bg-red-600 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        }
-                      `}
-                    >
-                      {cond.charAt(0).toUpperCase() + cond.slice(1)}
-                    </button>
-                  ))}
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Review Your Answers</h2>
+                <div className="bg-gray-50 rounded-lg p-6 space-y-3">
+                  <div className="flex justify-between">
+                    <span className="font-semibold text-gray-700">Weight:</span>
+                    <span className="text-gray-900">{formData.weight} lbs</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-semibold text-gray-700">Skill Level:</span>
+                    <span className="text-gray-900 capitalize">{formData.skillLevel}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-semibold text-gray-700">Use Case:</span>
+                    <span className="text-gray-900 capitalize">
+                      {formData.useCase === 'sup' ? 'SUP Foiling' : 
+                       formData.useCase === 'parawing' ? 'Parawing' :
+                       formData.useCase === 'wing' ? 'Wing Foiling' :
+                       formData.useCase === 'kite' ? 'Kite Foiling' :
+                       formData.useCase === 'prone' ? 'Prone Surf' :
+                       formData.useCase === 'downwind' ? 'Downwind' :
+                       'Dock Start / Pump'}
+                    </span>
+                  </div>
                 </div>
               </div>
 
               <div className="flex gap-3">
                 <button
                   onClick={() => setStep(2)}
-                  className="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
+                  className="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
                 >
                   ← Back
                 </button>
                 <button
                   onClick={generateRecommendations}
-                  disabled={!formData.style || !formData.conditions}
-                  className="flex-1 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-lg transition"
+                  className="flex-1 bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition"
                 >
-                  Get Recommendations →
+                  Generate Recommendations →
                 </button>
               </div>
             </div>
@@ -485,40 +362,45 @@ export default function WizardPage() {
           {/* Step 4: Results */}
           {step === 4 && (
             <div className="space-y-6">
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-black text-gray-900 mb-2">
-                  Your Perfect Foils
-                </h2>
+              <div>
+                <h2 className="text-3xl font-black text-gray-900 mb-2">Your Perfect Foils</h2>
                 <p className="text-gray-600">
-                  Based on {formData.weight}lbs • {formData.skillLevel} • {formData.useCase}
+                  Based on {formData.weight}lbs • {formData.skillLevel} • {formData.useCase === 'sup' ? 'SUP foiling' : 
+                    formData.useCase === 'parawing' ? 'parawing' :
+                    formData.useCase === 'wing' ? 'wing foiling' :
+                    formData.useCase === 'kite' ? 'kite foiling' :
+                    formData.useCase === 'prone' ? 'prone surf' :
+                    formData.useCase === 'downwind' ? 'downwind' : 'pump foiling'}
                 </p>
               </div>
 
               <div className="space-y-4">
                 {recommendations.map((rec, index) => (
                   <div
-                    key={index}
-                    className="border-2 border-gray-200 rounded-lg p-6 hover:border-red-600 transition"
+                    key={rec.product.id}
+                    className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-red-600 transition"
                   >
                     <div className="flex items-start justify-between mb-3">
                       <div>
-                        <div className="text-xs font-bold text-red-600 mb-1">
+                        <div className="text-sm font-bold text-red-600 mb-1">
                           #{index + 1} RECOMMENDATION
                         </div>
                         <h3 className="text-2xl font-black text-gray-900">
-                          {rec.series} {rec.area}
+                          {rec.product.specs.series} {rec.product.specs.area}
                         </h3>
                       </div>
                       <div className="text-right">
-                        <div className="text-2xl font-black text-red-600">
-                          {rec.score}%
+                        <div className="text-3xl font-black text-red-600">
+                          {Math.round(rec.score)}%
                         </div>
-                        <div className="text-xs text-gray-500">Match</div>
+                        <div className="text-sm text-gray-600">Match</div>
                       </div>
                     </div>
+
                     <p className="text-gray-700 mb-4">{rec.reasoning}</p>
+
                     <a
-                      href={`https://axisfoils.com/search?q=${rec.model.replace(' ', '+')}`}
+                      href={`https://axisfoils.com/products/${rec.product.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition"
@@ -531,7 +413,7 @@ export default function WizardPage() {
 
               <button
                 onClick={resetWizard}
-                className="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
+                className="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3 px-6 rounded-lg transition"
               >
                 Start Over
               </button>
