@@ -58,7 +58,7 @@ export default function Home() {
     if (!filters) return true;
     
     const specs = foil.specs;
-    const price = foil.retailPrice || 0;
+    const price = parseFloat(foil.price || '0');
     
     // Filter by series if any selected
     if (filters.series.length > 0 && !filters.series.includes(specs.series || '')) {

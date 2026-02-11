@@ -100,7 +100,7 @@ export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: Foi
                     
                     <div className="text-center">
                       <div className="font-bold text-lg text-gray-900">
-                        {foil.specs.area || '—'}
+                        {foil.title}
                       </div>
                       <div className="text-xs text-gray-500 mt-1">
                         {foil.price ? `$${foil.price}` : 'Price N/A'}
