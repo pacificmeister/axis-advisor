@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { Range } from 'react-range';
 
 interface SpecFiltersProps {
   onFilterChange: (filters: FilterState) => void;
@@ -67,10 +68,6 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
     onFilterChange(filters);
   }, [filters]);
 
-  const handleRangeChange = (field: keyof FilterState, value: number) => {
-    setFilters(prev => ({ ...prev, [field]: value }));
-  };
-
   const handleSeriesToggle = (series: string) => {
     setFilters(prev => ({
       ...prev,
@@ -110,28 +107,56 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
         {/* Aspect Ratio */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Aspect Ratio: {filters.aspectRatioMin} - {filters.aspectRatioMax}
+            Aspect Ratio: {filters.aspectRatioMin.toFixed(1)} - {filters.aspectRatioMax.toFixed(1)}
           </label>
-          <div className="flex gap-4">
-            <input
-              type="range"
-              min={ranges.ar.min}
-              max={ranges.ar.max}
-              step={0.1}
-              value={filters.aspectRatioMin}
-              onChange={(e) => handleRangeChange('aspectRatioMin', parseFloat(e.target.value))}
-              className="flex-1"
-            />
-            <input
-              type="range"
-              min={ranges.ar.min}
-              max={ranges.ar.max}
-              step={0.1}
-              value={filters.aspectRatioMax}
-              onChange={(e) => handleRangeChange('aspectRatioMax', parseFloat(e.target.value))}
-              className="flex-1"
-            />
-          </div>
+          <Range
+            step={0.1}
+            min={ranges.ar.min}
+            max={ranges.ar.max}
+            values={[filters.aspectRatioMin, filters.aspectRatioMax]}
+            onChange={(values) => setFilters(prev => ({
+              ...prev,
+              aspectRatioMin: values[0],
+              aspectRatioMax: values[1]
+            }))}
+            renderTrack={({ props, children }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '6px',
+                  width: '100%',
+                  backgroundColor: '#ddd',
+                  borderRadius: '3px'
+                }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    height: '6px',
+                    backgroundColor: '#dc2626',
+                    borderRadius: '3px',
+                    left: `${((filters.aspectRatioMin - ranges.ar.min) / (ranges.ar.max - ranges.ar.min)) * 100}%`,
+                    right: `${100 - ((filters.aspectRatioMax - ranges.ar.min) / (ranges.ar.max - ranges.ar.min)) * 100}%`
+                  }}
+                />
+                {children}
+              </div>
+            )}
+            renderThumb={({ props }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '20px',
+                  width: '20px',
+                  backgroundColor: '#374151',
+                  borderRadius: '50%',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+                }}
+              />
+            )}
+          />
         </div>
 
         {/* Surface Area */}
@@ -139,26 +164,54 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Surface Area (cm²): {filters.surfaceAreaMin} - {filters.surfaceAreaMax}
           </label>
-          <div className="flex gap-4">
-            <input
-              type="range"
-              min={ranges.area.min}
-              max={ranges.area.max}
-              step={50}
-              value={filters.surfaceAreaMin}
-              onChange={(e) => handleRangeChange('surfaceAreaMin', parseInt(e.target.value))}
-              className="flex-1"
-            />
-            <input
-              type="range"
-              min={ranges.area.min}
-              max={ranges.area.max}
-              step={50}
-              value={filters.surfaceAreaMax}
-              onChange={(e) => handleRangeChange('surfaceAreaMax', parseInt(e.target.value))}
-              className="flex-1"
-            />
-          </div>
+          <Range
+            step={50}
+            min={ranges.area.min}
+            max={ranges.area.max}
+            values={[filters.surfaceAreaMin, filters.surfaceAreaMax]}
+            onChange={(values) => setFilters(prev => ({
+              ...prev,
+              surfaceAreaMin: values[0],
+              surfaceAreaMax: values[1]
+            }))}
+            renderTrack={({ props, children }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '6px',
+                  width: '100%',
+                  backgroundColor: '#ddd',
+                  borderRadius: '3px'
+                }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    height: '6px',
+                    backgroundColor: '#374151',
+                    borderRadius: '3px',
+                    left: `${((filters.surfaceAreaMin - ranges.area.min) / (ranges.area.max - ranges.area.min)) * 100}%`,
+                    right: `${100 - ((filters.surfaceAreaMax - ranges.area.min) / (ranges.area.max - ranges.area.min)) * 100}%`
+                  }}
+                />
+                {children}
+              </div>
+            )}
+            renderThumb={({ props }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '20px',
+                  width: '20px',
+                  backgroundColor: '#374151',
+                  borderRadius: '50%',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+                }}
+              />
+            )}
+          />
         </div>
 
         {/* Chord */}
@@ -166,26 +219,54 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Chord (mm): {filters.chordMin} - {filters.chordMax}
           </label>
-          <div className="flex gap-4">
-            <input
-              type="range"
-              min={ranges.chord.min}
-              max={ranges.chord.max}
-              step={5}
-              value={filters.chordMin}
-              onChange={(e) => handleRangeChange('chordMin', parseInt(e.target.value))}
-              className="flex-1"
-            />
-            <input
-              type="range"
-              min={ranges.chord.min}
-              max={ranges.chord.max}
-              step={5}
-              value={filters.chordMax}
-              onChange={(e) => handleRangeChange('chordMax', parseInt(e.target.value))}
-              className="flex-1"
-            />
-          </div>
+          <Range
+            step={5}
+            min={ranges.chord.min}
+            max={ranges.chord.max}
+            values={[filters.chordMin, filters.chordMax]}
+            onChange={(values) => setFilters(prev => ({
+              ...prev,
+              chordMin: values[0],
+              chordMax: values[1]
+            }))}
+            renderTrack={({ props, children }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '6px',
+                  width: '100%',
+                  backgroundColor: '#ddd',
+                  borderRadius: '3px'
+                }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    height: '6px',
+                    backgroundColor: '#374151',
+                    borderRadius: '3px',
+                    left: `${((filters.chordMin - ranges.chord.min) / (ranges.chord.max - ranges.chord.min)) * 100}%`,
+                    right: `${100 - ((filters.chordMax - ranges.chord.min) / (ranges.chord.max - ranges.chord.min)) * 100}%`
+                  }}
+                />
+                {children}
+              </div>
+            )}
+            renderThumb={({ props }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '20px',
+                  width: '20px',
+                  backgroundColor: '#374151',
+                  borderRadius: '50%',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+                }}
+              />
+            )}
+          />
         </div>
 
         {/* Price */}
@@ -193,26 +274,54 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
           <label className="block text-sm font-medium text-gray-700 mb-2">
             Price (USD): ${filters.priceMin} - ${filters.priceMax}
           </label>
-          <div className="flex gap-4">
-            <input
-              type="range"
-              min={ranges.price.min}
-              max={ranges.price.max}
-              step={50}
-              value={filters.priceMin}
-              onChange={(e) => handleRangeChange('priceMin', parseInt(e.target.value))}
-              className="flex-1"
-            />
-            <input
-              type="range"
-              min={ranges.price.min}
-              max={ranges.price.max}
-              step={50}
-              value={filters.priceMax}
-              onChange={(e) => handleRangeChange('priceMax', parseInt(e.target.value))}
-              className="flex-1"
-            />
-          </div>
+          <Range
+            step={50}
+            min={ranges.price.min}
+            max={ranges.price.max}
+            values={[filters.priceMin, filters.priceMax]}
+            onChange={(values) => setFilters(prev => ({
+              ...prev,
+              priceMin: values[0],
+              priceMax: values[1]
+            }))}
+            renderTrack={({ props, children }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '6px',
+                  width: '100%',
+                  backgroundColor: '#ddd',
+                  borderRadius: '3px'
+                }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    height: '6px',
+                    backgroundColor: '#374151',
+                    borderRadius: '3px',
+                    left: `${((filters.priceMin - ranges.price.min) / (ranges.price.max - ranges.price.min)) * 100}%`,
+                    right: `${100 - ((filters.priceMax - ranges.price.min) / (ranges.price.max - ranges.price.min)) * 100}%`
+                  }}
+                />
+                {children}
+              </div>
+            )}
+            renderThumb={({ props }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '20px',
+                  width: '20px',
+                  backgroundColor: '#374151',
+                  borderRadius: '50%',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+                }}
+              />
+            )}
+          />
         </div>
       </div>
 
