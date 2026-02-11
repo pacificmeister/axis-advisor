@@ -44,6 +44,7 @@ export default function WizardPage() {
     skillLevel: '',
     useCase: '',
   });
+  const [weightUnit, setWeightUnit] = useState<'lbs' | 'kg'>('lbs');
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [loadingProsCons, setLoadingProsCons] = useState(false);
 
@@ -94,7 +95,9 @@ export default function WizardPage() {
   };
 
   const generateRecommendations = async () => {
-    const weight = parseInt(formData.weight) || 175;
+    // Convert weight to lbs if needed
+    const inputWeight = parseInt(formData.weight) || (weightUnit === 'kg' ? 80 : 175);
+    const weight = weightUnit === 'kg' ? Math.round(inputWeight * 2.20462) : inputWeight;
     const { skillLevel, useCase } = formData;
 
     // Calculate ideal area range based on weight and skill
@@ -310,6 +313,7 @@ export default function WizardPage() {
       skillLevel: '',
       useCase: '',
     });
+    setWeightUnit('lbs');
     setRecommendations([]);
   };
 
@@ -350,14 +354,38 @@ export default function WizardPage() {
           {step === 1 && (
             <div className="space-y-6">
               <div>
-                <label className="block text-sm font-bold text-gray-900 mb-2">
-                  Your weight (lbs)
-                </label>
+                <div className="flex justify-between items-center mb-2">
+                  <label className="block text-sm font-bold text-gray-900">
+                    Your weight
+                  </label>
+                  <div className="flex bg-gray-100 rounded-lg p-1">
+                    <button
+                      onClick={() => setWeightUnit('lbs')}
+                      className={`px-3 py-1 rounded text-sm font-semibold transition ${
+                        weightUnit === 'lbs' 
+                          ? 'bg-red-600 text-white' 
+                          : 'text-gray-600 hover:text-gray-900'
+                      }`}
+                    >
+                      lbs
+                    </button>
+                    <button
+                      onClick={() => setWeightUnit('kg')}
+                      className={`px-3 py-1 rounded text-sm font-semibold transition ${
+                        weightUnit === 'kg' 
+                          ? 'bg-red-600 text-white' 
+                          : 'text-gray-600 hover:text-gray-900'
+                      }`}
+                    >
+                      kg
+                    </button>
+                  </div>
+                </div>
                 <input
                   type="number"
                   value={formData.weight}
                   onChange={e => handleChange('weight', e.target.value)}
-                  placeholder="175"
+                  placeholder={weightUnit === 'lbs' ? '175' : '80'}
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none text-lg"
                 />
               </div>
@@ -455,7 +483,7 @@ export default function WizardPage() {
                 <div className="bg-gray-50 rounded-lg p-6 space-y-3">
                   <div className="flex justify-between">
                     <span className="font-semibold text-gray-700">Weight:</span>
-                    <span className="text-gray-900">{formData.weight} lbs</span>
+                    <span className="text-gray-900">{formData.weight} {weightUnit}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="font-semibold text-gray-700">Skill Level:</span>
@@ -499,7 +527,7 @@ export default function WizardPage() {
               <div>
                 <h2 className="text-3xl font-black text-gray-900 mb-2">Your Perfect Foils</h2>
                 <p className="text-gray-600">
-                  Based on {formData.weight}lbs • {formData.skillLevel} • {formData.useCase === 'sup' ? 'SUP foiling' : 
+                  Based on {formData.weight}{weightUnit} • {formData.skillLevel} • {formData.useCase === 'sup' ? 'SUP foiling' : 
                     formData.useCase === 'parawing' ? 'parawing' :
                     formData.useCase === 'wing' ? 'wing foiling' :
                     formData.useCase === 'kite' ? 'kite foiling' :
