@@ -21,7 +21,7 @@ interface FoilSelectorProps {
 
 export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: FoilSelectorProps) {
   // Define current vs legacy series
-  const currentSeries = ['ART v2', 'Spitfire', 'Fireball', 'PNG', 'Surge', 'Tempo'];
+  const currentSeries = ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG', 'Spitfire'];
   const legacySeries = ['ART', 'BSC', 'HPS', 'SP'];
   
   // Group by series
