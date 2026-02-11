@@ -61,7 +61,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
   });
 
   // Get unique series
-  const allSeries = [...new Set(products.map(p => p.specs.series))].sort();
+  const allSeries = Array.from(new Set(products.map(p => p.specs.series))).sort();
 
   useEffect(() => {
     onFilterChange(filters);

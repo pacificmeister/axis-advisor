@@ -75,8 +75,8 @@ export default function SearchPage() {
         setFilteredFoils(foils);
 
         // Get unique series
-        const series = [...new Set(foils.map((f: Foil) => f.specs.series))].sort();
-        setAvailableSeries(series);
+        const series = Array.from(new Set(foils.map((f: Foil) => f.specs.series))).sort();
+        setAvailableSeries(series as string[]);
 
         // Calculate actual ranges from data
         const newRanges = {
