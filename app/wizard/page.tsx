@@ -642,34 +642,36 @@ export default function WizardPage() {
                 </div>
               </div>
 
-              {/* Wind Conditions */}
-              <div>
-                <label className="block text-sm font-bold text-gray-900 mb-2">
-                  Typical wind conditions
-                </label>
-                <div className="grid grid-cols-3 gap-3">
-                  {[
-                    { value: 'light', label: '💨 Light', desc: '8-15 kts' },
-                    { value: 'moderate', label: '🌬️ Moderate', desc: '15-22 kts' },
-                    { value: 'strong', label: '💪 Strong', desc: '22+ kts' },
-                  ].map(option => (
-                    <button
-                      key={option.value}
-                      onClick={() => handleChange('windCondition', option.value)}
-                      className={`
-                        py-3 px-4 rounded-lg font-semibold transition text-center
-                        ${formData.windCondition === option.value
-                          ? 'bg-red-600 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        }
-                      `}
-                    >
-                      <div>{option.label}</div>
-                      <div className="text-xs opacity-75">{option.desc}</div>
-                    </button>
-                  ))}
+              {/* Wind Conditions - only for wind-powered disciplines */}
+              {['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && (
+                <div>
+                  <label className="block text-sm font-bold text-gray-900 mb-2">
+                    Typical wind conditions
+                  </label>
+                  <div className="grid grid-cols-3 gap-3">
+                    {[
+                      { value: 'light', label: '💨 Light', desc: '8-15 kts' },
+                      { value: 'moderate', label: '🌬️ Moderate', desc: '15-22 kts' },
+                      { value: 'strong', label: '💪 Strong', desc: '22+ kts' },
+                    ].map(option => (
+                      <button
+                        key={option.value}
+                        onClick={() => handleChange('windCondition', option.value)}
+                        className={`
+                          py-3 px-4 rounded-lg font-semibold transition text-center
+                          ${formData.windCondition === option.value
+                            ? 'bg-red-600 text-white'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                          }
+                        `}
+                      >
+                        <div>{option.label}</div>
+                        <div className="text-xs opacity-75">{option.desc}</div>
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Current Foil (Optional) */}
               <div>
@@ -697,7 +699,7 @@ export default function WizardPage() {
                 </button>
                 <button
                   onClick={() => setStep(3)}
-                  disabled={!formData.useCase || !formData.windCondition}
+                  disabled={!formData.useCase || (['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && !formData.windCondition)}
                   className="flex-1 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-lg transition"
                 >
                   Get Recommendations →
@@ -732,14 +734,16 @@ export default function WizardPage() {
                        'Dock Start / Pump'}
                     </span>
                   </div>
-                  <div className="flex justify-between">
-                    <span className="font-semibold text-gray-700">Wind:</span>
-                    <span className="text-gray-900 capitalize">
-                      {formData.windCondition === 'light' ? '💨 Light (8-15 kts)' :
-                       formData.windCondition === 'moderate' ? '🌬️ Moderate (15-22 kts)' :
-                       '💪 Strong (22+ kts)'}
-                    </span>
-                  </div>
+                  {['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && (
+                    <div className="flex justify-between">
+                      <span className="font-semibold text-gray-700">Wind:</span>
+                      <span className="text-gray-900 capitalize">
+                        {formData.windCondition === 'light' ? '💨 Light (8-15 kts)' :
+                         formData.windCondition === 'moderate' ? '🌬️ Moderate (15-22 kts)' :
+                         '💪 Strong (22+ kts)'}
+                      </span>
+                    </div>
+                  )}
                   {formData.currentFoil && (
                     <div className="flex justify-between">
                       <span className="font-semibold text-gray-700">Current Foil:</span>
