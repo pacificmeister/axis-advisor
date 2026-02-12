@@ -72,10 +72,13 @@ export default function WizardPage() {
     setFormData(prev => ({ ...prev, [field]: value }));
   };
 
-  // Match FB feedback to a foil
-  const matchFBFeedback = (foilName: string): string[] => {
+  // Match FB feedback to a foil, prioritizing weight-matched riders
+  const matchFBFeedback = (foilName: string, userWeightLbs?: number): string[] => {
     const feedback: string[] = [];
     const normalized = foilName.toUpperCase().replace(/\s+/g, ' ');
+    
+    // Collect all matching posts with weight info
+    const matchingPosts: Array<{post: any, weightMatch: boolean, weight?: number}> = [];
 
     for (const post of fbData) {
       // Check if this post mentions this foil
@@ -84,36 +87,79 @@ export default function WizardPage() {
       );
 
       if (mentioned && post.text && post.text.length > 50) {
-        // Extract the actual content, skipping author name and metadata
-        const lines = post.text.split('\n').filter((line: string) => {
-          const l = line.trim().toLowerCase();
-          // Skip metadata lines
-          return line.length > 20 && 
-            !l.includes('like') && 
-            !l.includes('reply') && 
-            !l.includes('top contributor') &&
-            !l.includes('group expert') &&
-            !l.includes('rising contributor') &&
-            !l.match(/^\d+[dwmy]$/); // Skip time stamps like "3d", "10w"
-        });
+        // Try to extract weight from post
+        let postWeightLbs: number | undefined;
         
-        if (lines.length > 0) {
-          // Get the first meaningful content line
-          const excerpt = lines[0].substring(0, 180);
-          // Get author from first line, extract just the name (before : or ()
-          const authorFull = post.text.split('\n')[0]?.trim() || 'Rider';
-          const namePart = authorFull.split(/[:(]/)[0]?.trim() || 'Rider';
-          // Convert to initials for privacy (max 3 initials, only letters)
-          const author = namePart.split(' ')
-            .filter(w => w.length > 0 && /^[A-Za-z]/.test(w))
-            .slice(0, 3)
-            .map(w => w[0].toUpperCase())
-            .join('') || 'R';
-          feedback.push(`${author}: ${excerpt}`);
+        // Check rider_weight field first
+        if (post.rider_weight) {
+          const wMatch = String(post.rider_weight).match(/(\d+)\s*(kg|lbs?)?/i);
+          if (wMatch) {
+            const val = parseInt(wMatch[1]);
+            const unit = wMatch[2]?.toLowerCase();
+            postWeightLbs = unit === 'kg' ? Math.round(val * 2.20462) : val;
+          }
         }
         
-        if (feedback.length >= 2) break; // Max 2 excerpts
+        // Also check text for weight mentions like "79kg" or "175lbs"
+        if (!postWeightLbs) {
+          const textMatch = post.text.match(/(\d{2,3})\s*(kg|kgs|lbs?|pounds)/i);
+          if (textMatch) {
+            const val = parseInt(textMatch[1]);
+            const unit = textMatch[2]?.toLowerCase();
+            postWeightLbs = (unit === 'kg' || unit === 'kgs') ? Math.round(val * 2.20462) : val;
+          }
+        }
+        
+        // Determine if weight is similar (within 20%)
+        const weightMatch = userWeightLbs && postWeightLbs 
+          ? Math.abs(postWeightLbs - userWeightLbs) / userWeightLbs < 0.20
+          : false;
+        
+        matchingPosts.push({ post, weightMatch, weight: postWeightLbs });
       }
+    }
+    
+    // Sort: weight-matched posts first, then by weight proximity
+    matchingPosts.sort((a, b) => {
+      if (a.weightMatch && !b.weightMatch) return -1;
+      if (!a.weightMatch && b.weightMatch) return 1;
+      // If both have weights, sort by proximity to user weight
+      if (userWeightLbs && a.weight && b.weight) {
+        return Math.abs(a.weight - userWeightLbs) - Math.abs(b.weight - userWeightLbs);
+      }
+      return 0;
+    });
+    
+    // Extract feedback from sorted posts
+    for (const { post, weightMatch, weight } of matchingPosts) {
+      const lines = post.text.split('\n').filter((line: string) => {
+        const l = line.trim().toLowerCase();
+        return line.length > 20 && 
+          !l.includes('like') && 
+          !l.includes('reply') && 
+          !l.includes('top contributor') &&
+          !l.includes('group expert') &&
+          !l.includes('rising contributor') &&
+          !l.match(/^\d+[dwmy]$/);
+      });
+      
+      if (lines.length > 0) {
+        const excerpt = lines[0].substring(0, 180);
+        const authorFull = post.text.split('\n')[0]?.trim() || 'Rider';
+        const namePart = authorFull.split(/[:(]/)[0]?.trim() || 'Rider';
+        const author = namePart.split(' ')
+          .filter((w: string) => w.length > 0 && /^[A-Za-z]/.test(w))
+          .slice(0, 3)
+          .map((w: string) => w[0].toUpperCase())
+          .join('') || 'R';
+        
+        // Add weight indicator if available
+        const weightInfo = weight ? ` (${Math.round(weight)}lbs)` : '';
+        const matchIndicator = weightMatch ? ' ⭐' : '';
+        feedback.push(`${author}${weightInfo}${matchIndicator}: ${excerpt}`);
+      }
+      
+      if (feedback.length >= 2) break;
     }
 
     return feedback;
@@ -164,12 +210,15 @@ export default function WizardPage() {
     }
 
     // Define preferred series for each discipline (CURRENT/NEWER ONLY)
-    // Heavy riders (200+ lbs) need access to Fireball for large sizes
+    // Heavy riders (200+ lbs) need access to large foils
+    // But beginners need FORGIVING foils - PNG V2 over Fireball
     const isHeavyRider = weight >= 200;
+    const isHeavyBeginner = isHeavyRider && skillLevel === 'beginner';
+    const isHeavyIntermediate = isHeavyRider && skillLevel === 'intermediate';
     
     const disciplineSeries: Record<string, string[]> = {
       wing: skillLevel === 'beginner' 
-        ? ['Surge', 'BSC'] 
+        ? (isHeavyRider ? ['PNG V2', 'Surge', 'Spitfire'] : ['Surge', 'BSC'])
         : skillLevel === 'intermediate' 
           ? ['Surge', 'ART v2', 'Fireball'] 
           : ['Tempo', 'Spitfire', 'ART v2', 'Fireball'],
@@ -183,16 +232,26 @@ export default function WizardPage() {
         ? ['Surge', 'Tempo'] 
         : ['Spitfire', 'ART v2', 'PNG V2', 'Fireball'],
       prone: ['Surge', 'Fireball', 'Tempo'],
-      // SUP/pump/downwind: Fireball essential for heavy riders (goes to 1750 cm²)
-      sup: isHeavyRider 
-        ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire'] 
-        : ['PNG V2', 'Surge', 'Tempo'],
-      downwind: isHeavyRider 
-        ? ['Fireball', 'PNG V2', 'Surge', 'ART v2'] 
-        : ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
-      pump: isHeavyRider 
-        ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire'] 
-        : ['PNG V2', 'Tempo', 'Surge'],
+      // SUP/pump/downwind: Heavy beginners need PNG V2 (forgiving) over Fireball (twitchy)
+      sup: isHeavyBeginner 
+        ? ['PNG V2', 'Spitfire', 'Surge']  // PNG V2 1400 is ideal for heavy beginners
+        : isHeavyIntermediate
+          ? ['PNG V2', 'Fireball', 'Surge', 'Spitfire']
+          : isHeavyRider  // Advanced heavy rider
+            ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire']
+            : ['PNG V2', 'Surge', 'Tempo'],
+      downwind: isHeavyBeginner
+        ? ['PNG V2', 'Surge', 'Spitfire']
+        : isHeavyRider 
+          ? ['Fireball', 'PNG V2', 'Surge', 'ART v2'] 
+          : ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
+      pump: isHeavyBeginner 
+        ? ['PNG V2', 'Spitfire', 'Surge']  // PNG V2 1400 is THE beginner dock start foil for heavies
+        : isHeavyIntermediate
+          ? ['PNG V2', 'Fireball', 'Surge', 'Spitfire']
+          : isHeavyRider  // Advanced heavy rider
+            ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire']
+            : ['PNG V2', 'Tempo', 'Surge'],
     };
 
     const preferredSeries = disciplineSeries[useCase] || [];
@@ -283,8 +342,8 @@ export default function WizardPage() {
           }
         }
 
-        // Match FB feedback
-        const fbFeedback = matchFBFeedback(`${effectiveSeries} ${area}`);
+        // Match FB feedback - pass user weight for weight-matched prioritization
+        const fbFeedback = matchFBFeedback(`${effectiveSeries} ${area}`, weight);
         
         // Boost score if there's positive FB feedback
         if (fbFeedback.length > 0) {
