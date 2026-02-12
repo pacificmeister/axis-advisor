@@ -83,9 +83,12 @@ function matchFBFeedback(fbData: FBPost[], foilName: string): string[] {
       
       if (lines.length > 0) {
         const authorFull = post.text.split('\n')[0]?.trim() || 'Rider';
-        // Convert full name to initials for privacy
-        const author = authorFull.split(' ')
-          .filter(w => w.length > 0)
+        // Extract just the name part (before : or ( which indicates metadata)
+        const namePart = authorFull.split(/[:(]/)[0]?.trim() || 'Rider';
+        // Convert name to initials for privacy (max 3 initials)
+        const author = namePart.split(' ')
+          .filter(w => w.length > 0 && /^[A-Za-z]/.test(w))
+          .slice(0, 3)
           .map(w => w[0].toUpperCase())
           .join('') || 'R';
         const excerpt = lines[0].substring(0, 150);
