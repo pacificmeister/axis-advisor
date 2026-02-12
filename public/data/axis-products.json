@@ -26,7 +26,7 @@
             "area": 1099,
             "series": "ART",
             "aspectRatio": 10.6,
-            "wingspan": 1099
+            "wingspan": 1079
           },
           "tags": [
             "art",
@@ -56,7 +56,7 @@
             "area": 999,
             "series": "ART",
             "aspectRatio": 9.9,
-            "wingspan": 999
+            "wingspan": 994
           },
           "tags": [
             "art",
@@ -96,7 +96,7 @@
             "area": 899,
             "series": "ART",
             "aspectRatio": 9.76,
-            "wingspan": 899
+            "wingspan": 937
           },
           "tags": [
             "art",
@@ -126,7 +126,7 @@
             "area": 799,
             "series": "ART",
             "aspectRatio": 9.05,
-            "wingspan": 799
+            "wingspan": 850
           },
           "tags": [
             "art",
@@ -156,7 +156,7 @@
             "area": 699,
             "series": "ART",
             "aspectRatio": 9.0,
-            "wingspan": 699
+            "wingspan": 793
           },
           "tags": [
             "art",
@@ -186,7 +186,7 @@
             "area": 1050,
             "series": "HPS",
             "aspectRatio": 7.55,
-            "wingspan": 1050,
+            "wingspan": 890,
             "volume": 1665,
             "chord": 139.04761904761904,
             "maxChord": 170,
@@ -228,7 +228,7 @@
             "area": 980,
             "series": "HPS",
             "aspectRatio": 7.49,
-            "wingspan": 980,
+            "wingspan": 857,
             "volume": 1379,
             "chord": 130.8969387755102,
             "maxChord": 160,
@@ -270,7 +270,7 @@
             "area": 930,
             "series": "HPS",
             "aspectRatio": 7.34,
-            "wingspan": 930,
+            "wingspan": 826,
             "volume": 1228.44,
             "chord": 126.75483870967741,
             "maxChord": 155,
@@ -313,7 +313,7 @@
             "area": 880,
             "series": "HPS",
             "aspectRatio": 7.17,
-            "wingspan": 880,
+            "wingspan": 794,
             "volume": 1088.45,
             "chord": 122.66250000000001,
             "maxChord": 150,
@@ -356,7 +356,7 @@
             "area": 830,
             "series": "HPS",
             "aspectRatio": 7.0,
-            "wingspan": 830,
+            "wingspan": 762,
             "volume": 979,
             "chord": 118.55421686746988,
             "maxChord": 145,
@@ -398,7 +398,7 @@
             "area": 700,
             "series": "HPS",
             "aspectRatio": 5.63,
-            "wingspan": 700,
+            "wingspan": 628,
             "volume": 1060,
             "chord": 124.28571428571429,
             "maxChord": 160,
@@ -440,7 +440,7 @@
             "area": 650,
             "series": "HPS",
             "aspectRatio": 5.68,
-            "wingspan": 650,
+            "wingspan": 608,
             "volume": 716.9,
             "chord": 114.46153846153845,
             "maxChord": 140,
@@ -482,7 +482,7 @@
             "aspectRatio": 6.25,
             "chord": 179.15714285714287,
             "itemCode": "AX22BSC1120",
-            "wingspan": 1120,
+            "wingspan": 837,
             "volume": 3581.35,
             "maxChord": 220,
             "trueArea": 2101.67,
@@ -526,7 +526,7 @@
             "aspectRatio": 6.51,
             "chord": 162.83018867924528,
             "itemCode": "AX22BSC1060",
-            "wingspan": 1060,
+            "wingspan": 831,
             "volume": 2800,
             "maxChord": 200,
             "trueArea": 1803.33,
@@ -570,7 +570,7 @@
             "aspectRatio": 6.27,
             "chord": 154.72680412371133,
             "itemCode": "AX22BSC970",
-            "wingspan": 970,
+            "wingspan": 780,
             "volume": 2313.03,
             "maxChord": 190,
             "trueArea": 1571.9,
@@ -610,7 +610,7 @@
             "area": 890,
             "series": "BSC",
             "aspectRatio": 6.43,
-            "wingspan": 890,
+            "wingspan": 756,
             "volume": 1697,
             "chord": 138.42696629213484,
             "maxChord": 170,
@@ -651,7 +651,7 @@
             "area": 810,
             "series": "BSC",
             "aspectRatio": 6.42,
-            "wingspan": 810,
+            "wingspan": 721,
             "volume": 1284,
             "chord": 126.23456790123457,
             "maxChord": 155,
@@ -693,7 +693,7 @@
             "area": 740,
             "series": "BSC",
             "aspectRatio": 6.49,
-            "wingspan": 740,
+            "wingspan": 693,
             "volume": 757.18,
             "chord": 114.02702702702703,
             "maxChord": 140,
@@ -736,7 +736,7 @@
             "area": 1310,
             "series": "PNG",
             "aspectRatio": 8.53,
-            "wingspan": 1310,
+            "wingspan": 1057,
             "volume": 2445,
             "chord": 153.5473282442748,
             "maxChord": 185,
@@ -783,7 +783,7 @@
             "aspectRatio": 9.94,
             "chord": 130.76923076923077,
             "itemCode": "AXPNGV21300",
-            "wingspan": 1300,
+            "wingspan": 1137,
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
@@ -831,7 +831,7 @@
             "area": 1150,
             "series": "PNG",
             "aspectRatio": 7.72,
-            "wingspan": 1150,
+            "wingspan": 942,
             "volume": 2115.66,
             "chord": 148.93304347826086,
             "maxChord": 180,
@@ -880,7 +880,7 @@
             "area": 1010,
             "series": "PNG",
             "aspectRatio": 7.13,
-            "wingspan": 1010,
+            "wingspan": 849,
             "volume": 1732.1,
             "chord": 141.58415841584159,
             "maxChord": 170,
@@ -930,7 +930,7 @@
             "area": 910,
             "series": "PNG",
             "aspectRatio": 6.8,
-            "wingspan": 910,
+            "wingspan": 787,
             "volume": 1457.88,
             "chord": 133.84615384615384,
             "maxChord": 160,
@@ -975,7 +975,7 @@
             "area": 910,
             "series": "PNG",
             "aspectRatio": 6.8,
-            "wingspan": 910,
+            "wingspan": 787,
             "volume": 1457.88,
             "chord": 133.84615384615384,
             "maxChord": 160,
@@ -1018,7 +1018,7 @@
             "area": 850,
             "series": "PNG",
             "aspectRatio": 6.81,
-            "wingspan": 850,
+            "wingspan": 761,
             "volume": 1044.19,
             "chord": 124.82352941176471,
             "maxChord": 150,
@@ -1066,7 +1066,7 @@
             "area": 860,
             "series": "SP",
             "aspectRatio": 6.1,
-            "wingspan": 860,
+            "wingspan": 724,
             "volume": 1700.4,
             "chord": 140.9860465116279,
             "maxChord": 180,
@@ -1111,7 +1111,7 @@
             "area": 760,
             "series": "SP",
             "aspectRatio": 5.11,
-            "wingspan": 760,
+            "wingspan": 623,
             "volume": 1673,
             "chord": 148.80131578947368,
             "maxChord": 190,
@@ -1157,7 +1157,7 @@
             "area": 660,
             "series": "SP",
             "aspectRatio": 4.19,
-            "wingspan": 660,
+            "wingspan": 526,
             "volume": 1581,
             "chord": 157.42424242424244,
             "maxChord": 200,
@@ -1205,7 +1205,7 @@
             "aspectRatio": 13.07,
             "chord": 81.9,
             "itemCode": "AXFIREBALL1070",
-            "wingspan": 1070
+            "wingspan": 1183
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
@@ -1232,7 +1232,7 @@
             "aspectRatio": 12.95,
             "chord": 77.2,
             "itemCode": "AXFIREBALL1000",
-            "wingspan": 1000
+            "wingspan": 1138
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
@@ -1259,7 +1259,7 @@
             "aspectRatio": 12.84,
             "chord": 73.2,
             "itemCode": "AXFIREBALL940",
-            "wingspan": 940
+            "wingspan": 1099
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
@@ -1286,7 +1286,7 @@
             "aspectRatio": 12.82,
             "chord": 68.6,
             "itemCode": "AXFIREBALL880",
-            "wingspan": 880
+            "wingspan": 1062
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
@@ -1313,7 +1313,7 @@
             "aspectRatio": 9.94,
             "chord": 130.76923076923077,
             "itemCode": "AXPNGV21300",
-            "wingspan": 1300,
+            "wingspan": 1137,
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
@@ -1344,7 +1344,7 @@
             "aspectRatio": 13.52,
             "chord": 85.8,
             "itemCode": "AXFIREBALL1160",
-            "wingspan": 1160
+            "wingspan": 1252
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
@@ -1371,7 +1371,7 @@
             "aspectRatio": 13.81,
             "chord": 90.5,
             "itemCode": "AXFIREBALL1250",
-            "wingspan": 1250
+            "wingspan": 1314
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
@@ -1398,7 +1398,7 @@
             "aspectRatio": 13.91,
             "chord": 96.9,
             "itemCode": "AXFIREBALL1350",
-            "wingspan": 1350
+            "wingspan": 1370
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
@@ -1425,7 +1425,7 @@
             "aspectRatio": 8.75,
             "chord": 150.1,
             "itemCode": "AXPNGV21200",
-            "wingspan": 1200
+            "wingspan": 1025
           },
           "tags": [],
           "created_at": "2025-04-22T04:09:11-07:00",
@@ -1452,7 +1452,7 @@
             "aspectRatio": 12.05,
             "chord": 116.14,
             "itemCode": "AXPNGV21400",
-            "wingspan": 1400,
+            "wingspan": 1299,
             "volume": 1734,
             "maxChord": 150,
             "trueArea": 1660,
@@ -1483,7 +1483,7 @@
             "aspectRatio": 16.0,
             "chord": 68.4,
             "itemCode": "AXTEMPO1090",
-            "wingspan": 1090
+            "wingspan": 1321
           },
           "tags": [
             "surf",
@@ -1515,7 +1515,7 @@
             "aspectRatio": 16.0,
             "chord": 64.0,
             "itemCode": "AXTEMPO1020",
-            "wingspan": 1020
+            "wingspan": 1277
           },
           "tags": [
             "surf",
@@ -1547,7 +1547,7 @@
             "aspectRatio": 16.0,
             "chord": 60.2,
             "itemCode": "AXTEMPO960",
-            "wingspan": 960
+            "wingspan": 1239
           },
           "tags": [
             "surf",
@@ -1579,7 +1579,7 @@
             "aspectRatio": 16.0,
             "chord": 57.4,
             "itemCode": "AXTEMPO920",
-            "wingspan": 920
+            "wingspan": 1213
           },
           "tags": [
             "surf",
@@ -1611,7 +1611,7 @@
             "aspectRatio": 16.0,
             "chord": 55.6,
             "itemCode": "AXTEMPO890",
-            "wingspan": 890
+            "wingspan": 1193
           },
           "tags": [
             "surf",
@@ -1643,7 +1643,7 @@
             "aspectRatio": 17.15,
             "chord": 87.0,
             "itemCode": "AXFIREBALL1500",
-            "wingspan": 1500
+            "wingspan": 1604
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
@@ -1670,7 +1670,7 @@
             "aspectRatio": 20.12,
             "chord": 81.1,
             "itemCode": "AXFIREBALL1750",
-            "wingspan": 1750
+            "wingspan": 1876
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
@@ -1697,7 +1697,7 @@
             "aspectRatio": 9.3,
             "chord": 79.6,
             "itemCode": "AXSURGE740",
-            "wingspan": 740
+            "wingspan": 830
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
@@ -1724,7 +1724,7 @@
             "aspectRatio": 9.48,
             "chord": 82.3,
             "itemCode": "AXSURGE780",
-            "wingspan": 780
+            "wingspan": 860
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
@@ -1751,7 +1751,7 @@
             "aspectRatio": 9.48,
             "chord": 87.6,
             "itemCode": "AXSURGE830",
-            "wingspan": 830
+            "wingspan": 887
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
@@ -1778,7 +1778,7 @@
             "aspectRatio": 9.5,
             "chord": 93.7,
             "itemCode": "AXSURGE890",
-            "wingspan": 890
+            "wingspan": 920
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
@@ -1805,7 +1805,7 @@
             "aspectRatio": 9.52,
             "chord": 99.8,
             "itemCode": "AXSURGE950",
-            "wingspan": 950
+            "wingspan": 951
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
@@ -1832,7 +1832,7 @@
             "aspectRatio": 9.49,
             "chord": 106.4,
             "itemCode": "AXSURGE1010",
-            "wingspan": 1010
+            "wingspan": 979
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
@@ -1859,7 +1859,7 @@
             "aspectRatio": 6.78,
             "chord": 129.2,
             "itemCode": "AXSPITFIRE1180",
-            "wingspan": 1180
+            "wingspan": 894
           },
           "tags": [],
           "created_at": "2024-02-06T00:32:29-08:00",
@@ -1886,7 +1886,7 @@
             "aspectRatio": 6.64,
             "chord": 127.1,
             "itemCode": "AXSPITFIRE1100",
-            "wingspan": 1100
+            "wingspan": 855
           },
           "tags": [],
           "created_at": "2023-06-20T20:14:34-07:00",
@@ -1913,7 +1913,7 @@
             "aspectRatio": 6.5,
             "chord": 124.8,
             "itemCode": "AXSPITFIRE1030",
-            "wingspan": 1030
+            "wingspan": 818
           },
           "tags": [],
           "created_at": "2023-06-20T20:16:30-07:00",
@@ -1940,7 +1940,7 @@
             "aspectRatio": 6.46,
             "chord": 122.4,
             "itemCode": "AXSPITFIRE960",
-            "wingspan": 960
+            "wingspan": 788
           },
           "tags": [],
           "created_at": "2023-06-20T20:17:26-07:00",
@@ -1967,7 +1967,7 @@
             "aspectRatio": 6.25,
             "chord": 120.0,
             "itemCode": "AXSPITFIRE900",
-            "wingspan": 900
+            "wingspan": 750
           },
           "tags": [],
           "created_at": "2023-06-20T20:18:59-07:00",
@@ -1994,7 +1994,7 @@
             "aspectRatio": 6.19,
             "chord": 117.6,
             "itemCode": "AXSPITFIRE840",
-            "wingspan": 840
+            "wingspan": 721
           },
           "tags": [],
           "created_at": "2023-06-20T20:19:51-07:00",
@@ -2021,7 +2021,7 @@
             "aspectRatio": 6.05,
             "chord": 113.6,
             "itemCode": "AXSPITFIRE780",
-            "wingspan": 780
+            "wingspan": 687
           },
           "tags": [],
           "created_at": "2023-06-20T20:20:42-07:00",
@@ -2048,7 +2048,7 @@
             "aspectRatio": 5.95,
             "chord": 111.2,
             "itemCode": "AXSPITFIRE720",
-            "wingspan": 720
+            "wingspan": 655
           },
           "tags": [],
           "created_at": "2023-08-24T00:14:18-07:00",
@@ -2075,7 +2075,7 @@
             "aspectRatio": 5.85,
             "chord": 105.7,
             "itemCode": "AXSPITFIRE670",
-            "wingspan": 670
+            "wingspan": 626
           },
           "tags": [],
           "created_at": "2024-04-28T15:20:01-07:00",
@@ -2102,7 +2102,7 @@
             "aspectRatio": 5.75,
             "chord": 101.3,
             "itemCode": "AXSPITFIRE620",
-            "wingspan": 620
+            "wingspan": 597
           },
           "tags": [],
           "created_at": "2024-04-28T15:26:41-07:00",
