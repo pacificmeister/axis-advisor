@@ -55,11 +55,11 @@ export default function SearchPage() {
   const [filters, setFilters] = useState({
     series: [] as string[],
     areaMin: 0,
-    areaMax: 10000,
-    aspectRatioMin: 4,
-    aspectRatioMax: 21,
-    wingspanMin: 600,
-    wingspanMax: 1800,
+    areaMax: 3000,
+    aspectRatioMin: 0,
+    aspectRatioMax: 50,
+    wingspanMin: 0,
+    wingspanMax: 2500,
     volumeMin: 0,
     volumeMax: 5000,
     chordMin: 0,
@@ -136,25 +136,21 @@ export default function SearchPage() {
         return false;
       }
 
-      // Area filter
-      if (foil.specs.area < filters.areaMin || foil.specs.area > filters.areaMax) {
+      // Area filter - show foils up to max
+      if (filters.areaMax < 3000 && foil.specs.area > filters.areaMax) {
         return false;
       }
 
-      // Aspect Ratio filter - only apply if user changed from defaults (4-21)
-      const hasArFilter = filters.aspectRatioMin > 4 || filters.aspectRatioMax < 21;
-      if (hasArFilter && foil.specs.aspectRatio) {
-        if (foil.specs.aspectRatio < filters.aspectRatioMin || 
-            foil.specs.aspectRatio > filters.aspectRatioMax) {
+      // Aspect Ratio filter - show foils up to max
+      if (filters.aspectRatioMax < 50 && foil.specs.aspectRatio) {
+        if (foil.specs.aspectRatio > filters.aspectRatioMax) {
           return false;
         }
       }
 
-      // Wingspan filter - only apply if user changed from defaults (600-1800)
-      const hasWingspanFilter = filters.wingspanMin > 600 || filters.wingspanMax < 1800;
-      if (hasWingspanFilter && foil.specs.wingspan) {
-        if (foil.specs.wingspan < filters.wingspanMin || 
-            foil.specs.wingspan > filters.wingspanMax) {
+      // Wingspan filter - show foils up to max
+      if (filters.wingspanMax < 2500 && foil.specs.wingspan) {
+        if (foil.specs.wingspan > filters.wingspanMax) {
           return false;
         }
       }
@@ -179,9 +175,9 @@ export default function SearchPage() {
         }
       }
 
-      // Price filter
+      // Price filter - show foils up to max
       const price = parseFloat(foil.price);
-      if (price < filters.priceMin || price > filters.priceMax) {
+      if (filters.priceMax < 2000 && price > filters.priceMax) {
         return false;
       }
 
@@ -203,18 +199,18 @@ export default function SearchPage() {
   const resetFilters = () => {
     setFilters({
       series: [],
-      areaMin: ranges.area.min,
-      areaMax: ranges.area.max,
-      aspectRatioMin: ranges.aspectRatio.min,
-      aspectRatioMax: ranges.aspectRatio.max,
-      wingspanMin: ranges.wingspan.min,
-      wingspanMax: ranges.wingspan.max,
-      volumeMin: ranges.volume.min,
-      volumeMax: ranges.volume.max,
-      chordMin: ranges.chord.min,
-      chordMax: ranges.chord.max,
-      priceMin: ranges.price.min,
-      priceMax: ranges.price.max,
+      areaMin: 0,
+      areaMax: 3000,
+      aspectRatioMin: 0,
+      aspectRatioMax: 50,
+      wingspanMin: 0,
+      wingspanMax: 2500,
+      volumeMin: 0,
+      volumeMax: 5000,
+      chordMin: 0,
+      chordMax: 500,
+      priceMin: 0,
+      priceMax: 2000,
     });
   };
 
@@ -368,58 +364,38 @@ export default function SearchPage() {
                 <h3 className="text-sm font-bold text-gray-700 mb-3">
                   Surface Area (cm²)
                 </h3>
-                <div className="space-y-2">
-                  <input
-                    type="range"
-                    min={ranges.area.min}
-                    max={ranges.area.max}
-                    step={50}
-                    value={filters.areaMin}
-                    onChange={e => setFilters(prev => ({ ...prev, areaMin: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <input
-                    type="range"
-                    min={ranges.area.min}
-                    max={ranges.area.max}
-                    step={50}
-                    value={filters.areaMax}
-                    onChange={e => setFilters(prev => ({ ...prev, areaMax: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <div className="flex justify-between text-xs text-gray-600">
-                    <span>{filters.areaMin}</span>
-                    <span>{filters.areaMax}</span>
-                  </div>
+                <input
+                  type="range"
+                  min={0}
+                  max={3000}
+                  step={50}
+                  value={filters.areaMax}
+                  onChange={e => setFilters(prev => ({ ...prev, areaMax: parseInt(e.target.value) }))}
+                  className="w-full accent-red-600"
+                />
+                <div className="flex justify-between text-xs text-gray-600 mt-1">
+                  <span>0</span>
+                  <span className="font-semibold">{filters.areaMax}</span>
+                  <span>3000</span>
                 </div>
               </div>
 
               {/* Price Filter */}
               <div className="mb-6">
                 <h3 className="text-sm font-bold text-gray-700 mb-3">Price ($)</h3>
-                <div className="space-y-2">
-                  <input
-                    type="range"
-                    min={ranges.price.min}
-                    max={ranges.price.max}
-                    step={50}
-                    value={filters.priceMin}
-                    onChange={e => setFilters(prev => ({ ...prev, priceMin: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <input
-                    type="range"
-                    min={ranges.price.min}
-                    max={ranges.price.max}
-                    step={50}
-                    value={filters.priceMax}
-                    onChange={e => setFilters(prev => ({ ...prev, priceMax: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <div className="flex justify-between text-xs text-gray-600">
-                    <span>${filters.priceMin}</span>
-                    <span>${filters.priceMax}</span>
-                  </div>
+                <input
+                  type="range"
+                  min={0}
+                  max={2000}
+                  step={50}
+                  value={filters.priceMax}
+                  onChange={e => setFilters(prev => ({ ...prev, priceMax: parseInt(e.target.value) }))}
+                  className="w-full accent-red-600"
+                />
+                <div className="flex justify-between text-xs text-gray-600 mt-1">
+                  <span>$0</span>
+                  <span className="font-semibold">${filters.priceMax}</span>
+                  <span>$2000</span>
                 </div>
               </div>
 
@@ -428,29 +404,19 @@ export default function SearchPage() {
                 <h3 className="text-sm font-bold text-gray-700 mb-3">
                   Aspect Ratio
                 </h3>
-                <div className="space-y-2">
-                  <input
-                    type="range"
-                    min={4}
-                    max={21}
-                    step={0.5}
-                    value={filters.aspectRatioMin}
-                    onChange={e => setFilters(prev => ({ ...prev, aspectRatioMin: parseFloat(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <input
-                    type="range"
-                    min={4}
-                    max={21}
-                    step={0.5}
-                    value={filters.aspectRatioMax}
-                    onChange={e => setFilters(prev => ({ ...prev, aspectRatioMax: parseFloat(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <div className="flex justify-between text-xs text-gray-600">
-                    <span>{filters.aspectRatioMin}</span>
-                    <span>{filters.aspectRatioMax}</span>
-                  </div>
+                <input
+                  type="range"
+                  min={0}
+                  max={50}
+                  step={1}
+                  value={filters.aspectRatioMax}
+                  onChange={e => setFilters(prev => ({ ...prev, aspectRatioMax: parseFloat(e.target.value) }))}
+                  className="w-full accent-red-600"
+                />
+                <div className="flex justify-between text-xs text-gray-600 mt-1">
+                  <span>0</span>
+                  <span className="font-semibold">{filters.aspectRatioMax}</span>
+                  <span>50</span>
                 </div>
               </div>
 
@@ -459,29 +425,19 @@ export default function SearchPage() {
                 <h3 className="text-sm font-bold text-gray-700 mb-3">
                   Wingspan (mm)
                 </h3>
-                <div className="space-y-2">
-                  <input
-                    type="range"
-                    min={600}
-                    max={1800}
-                    step={50}
-                    value={filters.wingspanMin}
-                    onChange={e => setFilters(prev => ({ ...prev, wingspanMin: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <input
-                    type="range"
-                    min={600}
-                    max={1800}
-                    step={50}
-                    value={filters.wingspanMax}
-                    onChange={e => setFilters(prev => ({ ...prev, wingspanMax: parseInt(e.target.value) }))}
-                    className="w-full"
-                  />
-                  <div className="flex justify-between text-xs text-gray-600">
-                    <span>{filters.wingspanMin}</span>
-                    <span>{filters.wingspanMax}</span>
-                  </div>
+                <input
+                  type="range"
+                  min={0}
+                  max={2500}
+                  step={50}
+                  value={filters.wingspanMax}
+                  onChange={e => setFilters(prev => ({ ...prev, wingspanMax: parseInt(e.target.value) }))}
+                  className="w-full accent-red-600"
+                />
+                <div className="flex justify-between text-xs text-gray-600 mt-1">
+                  <span>0</span>
+                  <span className="font-semibold">{filters.wingspanMax}</span>
+                  <span>2500</span>
                 </div>
               </div>
             </div>

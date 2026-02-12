@@ -125,14 +125,37 @@ export default function ComparePage() {
   const getRadarData = (foil: Product) => {
     const ar = foil.specs.aspectRatio || 9;
     const area = foil.specs.area || 1000;
+    const series = foil.specs.series || '';
     
-    // Normalize scores 0-100 based on characteristics
+    // Series-specific performance profiles based on real-world characteristics
+    // Each series has distinct DNA that AR alone doesn't capture
+    const seriesProfiles: Record<string, { speed: number; pump: number; glide: number; turning: number }> = {
+      'Tempo': { speed: 95, pump: 72, glide: 78, turning: 45 },      // Ultra-speed focused, Ti-Link stiffness
+      'Fireball': { speed: 78, pump: 90, glide: 92, turning: 58 },   // Balanced high-AR, excellent pump/glide
+      'Surge': { speed: 62, pump: 75, glide: 72, turning: 88 },      // Surf-oriented, more roll/turn feel
+      'ART v2': { speed: 72, pump: 95, glide: 95, turning: 52 },     // Efficiency monster, pump/glide king
+      'ART': { speed: 68, pump: 88, glide: 90, turning: 55 },        // Classic efficiency design
+      'Spitfire': { speed: 55, pump: 58, glide: 52, turning: 95 },   // Low AR surf, tight turns
+      'PNG V2': { speed: 65, pump: 85, glide: 82, turning: 60 },     // Pump foil specialist
+      'PNG': { speed: 62, pump: 82, glide: 80, turning: 62 },        // Classic pump foil
+      'BSC': { speed: 45, pump: 50, glide: 48, turning: 85 },        // Beginner friendly, forgiving
+      'HPS': { speed: 58, pump: 60, glide: 55, turning: 90 },        // High-performance surf
+    };
+    
+    const profile = seriesProfiles[series] || { speed: 60, pump: 60, glide: 60, turning: 60 };
+    
+    // Lift is primarily determined by area (more area = more lift)
+    const lift = Math.min(100, Math.max(20, (area - 600) / 12 + 20));
+    
+    // Fine-tune based on AR within series (higher AR in series = slightly faster, less turning)
+    const arBonus = (ar - 10) * 1.5; // Small adjustment based on AR
+    
     return {
-      speed: Math.min(100, Math.max(20, (ar - 7) * 15 + 30)),
-      lift: Math.min(100, Math.max(20, (area - 600) / 12 + 20)),
-      turning: Math.min(100, Math.max(20, 120 - ar * 6)),
-      pump: Math.min(100, Math.max(20, (ar - 6) * 12 + 20)),
-      glide: Math.min(100, Math.max(20, (ar - 6) * 14 + 10)),
+      speed: Math.min(100, Math.max(20, profile.speed + arBonus)),
+      lift: lift,
+      turning: Math.min(100, Math.max(20, profile.turning - arBonus)),
+      pump: Math.min(100, Math.max(20, profile.pump)),
+      glide: Math.min(100, Math.max(20, profile.glide)),
     };
   };
 

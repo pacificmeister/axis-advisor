@@ -13,6 +13,8 @@ export interface FilterState {
   aspectRatioMax: number;
   surfaceAreaMin: number;
   surfaceAreaMax: number;
+  wingspanMin: number;
+  wingspanMax: number;
   chordMin: number;
   chordMax: number;
   priceMin: number;
@@ -25,6 +27,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
   const ranges = {
     ar: { min: 0, max: 50 },
     area: { min: 0, max: 3000 },
+    wingspan: { min: 0, max: 2500 },
     chord: { min: 0, max: 200 },
     price: { min: 0, max: 3000 }
   };
@@ -34,6 +37,8 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
     aspectRatioMax: 50,
     surfaceAreaMin: 0,
     surfaceAreaMax: 3000,
+    wingspanMin: 0,
+    wingspanMax: 2500,
     chordMin: 0,
     chordMax: 200,
     priceMin: 0,
@@ -63,6 +68,8 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
       aspectRatioMax: ranges.ar.max,
       surfaceAreaMin: ranges.area.min,
       surfaceAreaMax: ranges.area.max,
+      wingspanMin: ranges.wingspan.min,
+      wingspanMax: ranges.wingspan.max,
       chordMin: ranges.chord.min,
       chordMax: ranges.chord.max,
       priceMin: ranges.price.min,
@@ -186,6 +193,61 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
                   height: '20px',
                   width: '20px',
                   backgroundColor: '#374151',
+                  borderRadius: '50%',
+                  boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
+                }}
+              />
+            )}
+          />
+        </div>
+
+        {/* Wingspan */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Wingspan (mm): {filters.wingspanMin} - {filters.wingspanMax}
+          </label>
+          <Range
+            step={50}
+            min={ranges.wingspan.min}
+            max={ranges.wingspan.max}
+            values={[filters.wingspanMin, filters.wingspanMax]}
+            onChange={(values) => setFilters(prev => ({
+              ...prev,
+              wingspanMin: values[0],
+              wingspanMax: values[1]
+            }))}
+            renderTrack={({ props, children }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '6px',
+                  width: '100%',
+                  backgroundColor: '#ddd',
+                  borderRadius: '3px'
+                }}
+              >
+                <div
+                  style={{
+                    position: 'absolute',
+                    height: '6px',
+                    backgroundColor: '#dc2626',
+                    borderRadius: '3px',
+                    left: `${((filters.wingspanMin - ranges.wingspan.min) / (ranges.wingspan.max - ranges.wingspan.min)) * 100}%`,
+                    right: `${100 - ((filters.wingspanMax - ranges.wingspan.min) / (ranges.wingspan.max - ranges.wingspan.min)) * 100}%`
+                  }}
+                />
+                {children}
+              </div>
+            )}
+            renderThumb={({ props }) => (
+              <div
+                {...props}
+                style={{
+                  ...props.style,
+                  height: '20px',
+                  width: '20px',
+                  backgroundColor: '#dc2626',
                   borderRadius: '50%',
                   boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
                 }}

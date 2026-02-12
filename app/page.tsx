@@ -21,6 +21,7 @@ interface Product {
     series?: string;
     aspectRatio?: number;
     surfaceArea?: number;
+    wingspan?: number;
     chord?: number;
   };
 }
@@ -82,6 +83,13 @@ export default function Home() {
     // Filter by chord
     if (specs.chord) {
       if (specs.chord < filters.chordMin || specs.chord > filters.chordMax) {
+        return false;
+      }
+    }
+    
+    // Filter by wingspan
+    if (specs.wingspan) {
+      if (specs.wingspan < filters.wingspanMin || specs.wingspan > filters.wingspanMax) {
         return false;
       }
     }
@@ -194,20 +202,17 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="bg-gray-900 text-white py-12 mt-16">
+      <footer className="bg-gray-900 text-white py-8 sm:py-12 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="mb-4 flex items-center justify-center gap-3">
-            <img 
-              src="/logos/axis-logo-red-bg.jpg" 
-              alt="AXIS Foils" 
-              className="h-12 w-auto rounded"
-            />
-            <span className="text-2xl font-bold">ADVISOR</span>
+          <div className="mb-3 sm:mb-4 flex items-center justify-center gap-2">
+            <span className="text-xl sm:text-2xl font-black text-red-500 tracking-tight italic">AXIS</span>
+            <span className="text-white font-bold">|</span>
+            <span className="text-lg sm:text-2xl font-bold">ADVISOR</span>
           </div>
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-400 text-xs sm:text-sm">
             Official comparison tool • Data from axisfoils.com
           </p>
-          <div className="mt-4 text-sm text-gray-500">
+          <div className="mt-3 sm:mt-4 text-xs sm:text-sm text-gray-500">
             <a href="https://axisfoils.com" className="hover:text-white transition">
               Visit AXIS Foils →
             </a>
