@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "source": "YouTube @YvonLabarthe",
+    "profile": "Swiss lake/ocean rider, ~50yo, extensive AXIS testing, direct contact with Adriane",
+    "transcribed_at": "2026-02-12",
+    "videos_count": 7
+  },
+  "posts": [
+    {
+      "id": "yvon_fb1500_v2",
+      "source": "fireball-1500-1750-review",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "FB 1500 v2 is magic! Glides straight, goes fast, turns pretty well. Cruising speed FB 1500 = 17-18 km/h vs FB 1350 = 16 km/h. You will almost double your pumping time with the 1500 compared to the 1350. Pair with Silly Short or Psycho Short fuse and little Skinny 25.",
+      "foils_mentioned": ["FIREBALL 1500", "FIREBALL 1350"],
+      "key_insight": "FB 1500 doubles pumping time vs FB 1350",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_fb1500_mast_weight",
+      "source": "fireball-1500-1750-review",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "If you weigh less than 85kg you can stay on Ultra Pro mast. Do not make aggressive turns with half the wing out of water - you can break your hand. If you weigh more than 85kg, the Fati mast and fuselage are rigorous to have good control.",
+      "foils_mentioned": ["FIREBALL 1500"],
+      "key_insight": "<85kg: Ultra Pro OK; >85kg: MUST use Fati mast",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "yvon_fb1750_endurance",
+      "source": "fireball-1500-1750-review",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "The FB 1750 opens the hour of pumping to everyone. I crossed Lake Châtel with a safety boat, caught headwind of 12 knots with sheep in the middle of the lake. Ultra Pro mast slides super well but bends a lot. With Alu mast I have to stop every 15 minutes because heart rate goes too high.",
+      "foils_mentioned": ["FIREBALL 1750"],
+      "key_insight": "FB 1750 enables 1hr pumping for average fitness",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_tempo_glide",
+      "source": "fireball-1500-1750-review",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm² less. Turns better, glides better. You absolutely must use the fuselage with integrated tail. Normal stab adapter with Skinny adds crazy brake - not pleasant.",
+      "foils_mentioned": ["TEMPO 1090", "FIREBALL 1070"],
+      "key_insight": "Tempo 1090 = best glide ever, REQUIRES integrated tail fuse",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_artv2_vs_fb_glide",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "With ART v2 1099, I have 25% less glide - that's 25% more effort than FB 1160. I prefer Fireball in all cases. For pumping, ART v2 pushes too much water, too thick. ART v2 turns 5-10% better rail-to-rail but Fireball has 25% more glide.",
+      "foils_mentioned": ["ART V2 1099", "FIREBALL 1160"],
+      "key_insight": "Fireball has 25% MORE glide than equivalent ART v2",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "yvon_artv2_turning",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "ART v2 939 turns 10-15% better than FB 1000. ART v2 879 behind a boat in towing - ça tourne grave! (turns like crazy). For wing, everyone loves ART v2. But when I have to pump, it pushes too much water.",
+      "foils_mentioned": ["ART V2 939", "ART V2 879", "FIREBALL 1000"],
+      "key_insight": "ART v2 879 is excellent for tow/wing, not for pumping",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "yvon_fb1070_duckstart",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "FB 1070: I duckstart with 2 steps almost every time. Rock starts: 1 in 2 success. ART v2 999: harder to start than FB 1070, rock starts 1 in 3. FB 1160 starts 10-15% harder than FB 1250.",
+      "foils_mentioned": ["FIREBALL 1070", "FIREBALL 1160", "FIREBALL 1250", "ART V2 999"],
+      "key_insight": "FB 1070 duck starts almost every time with 2 steps",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "yvon_fb1160_summer",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "FB 1160: I rode it all summer, it's my favorite foil for riding. Did almost all boats, downwind, super long downwind. Starts in inverted or normal in water >16°C. FB 1070: amazing in 15 knots+ with gusts to 20-25.",
+      "foils_mentioned": ["FIREBALL 1160", "FIREBALL 1070"],
+      "key_insight": "FB 1160 = Yvon's favorite summer all-rounder",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_tempo_vs_fb1070",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "Tempo 1090: 15-20% less effort than FB 1070, 5% harder to start. Adriane said it's going to be 'fucking expensive'. I enjoy myself so much on FB 1070, I don't need a Tempo.",
+      "foils_mentioned": ["TEMPO 1090", "FIREBALL 1070"],
+      "key_insight": "Tempo 1090 is 15-20% more efficient than FB 1070",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_png1400v2_lightwind",
+      "source": "png1400v2-downwind-review",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "PNG 1400 V2 downwind in 5-7 knots, 20-30cm bumps. Key: accept to slow down to be pushed by bumps. PNG's low speed is really low - can rest every 5-6 pumps. If I had been on FB 1350, it's a wing that goes way too fast for these conditions.",
+      "foils_mentioned": ["PNG 1400 V2", "FIREBALL 1350"],
+      "key_insight": "PNG 1400 v2: accept slow speed in light wind, rest every 5-6 pumps",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_sf1180_vs_png",
+      "source": "spitfire-1180",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "SF 1180 is an all-around wing. SF 1180 turns better, PNG 1401 goes faster. For long pumping: PNG 1401 better. For turning on small waves: SF 1180 better. Depends on swell speed.",
+      "foils_mentioned": ["SPITFIRE 1180", "PNG 1401"],
+      "key_insight": "SF 1180 = better turning, PNG 1401 = faster/longer pumping",
+      "sentiment": "neutral"
+    },
+    {
+      "id": "yvon_ultrapro_mast",
+      "source": "ultra-pro-mast",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "Ultra Pro 80cm: much stiffer than i-Modulus especially torsion. 10% faster glide than i-Modulus, 20% better than 19mm alu. Acceleration is phenomenal - enabled duck starting ART Pro 1121/1051/1001 that I couldn't start before with i-Modulus.",
+      "foils_mentioned": [],
+      "key_insight": "Ultra Pro mast: +10% glide vs i-Modulus, +20% vs alu",
+      "sentiment": "positive"
+    },
+    {
+      "id": "yvon_skinny_surf",
+      "source": "artv2-vs-fireball",
+      "rider": "Yvon Labarthe",
+      "weight_kg": null,
+      "text": "Skinny Surf 280 (95cm²): turns super soft, really pleasant for waves/downwind. But for pumping à plat, I stay on Skinny normal - it's the most for me.",
+      "foils_mentioned": [],
+      "key_insight": "Skinny Surf = soft turns for waves; Skinny normal = best for flat pumping",
+      "sentiment": "neutral"
+    }
+  ]
+}
