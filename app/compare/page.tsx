@@ -82,7 +82,12 @@ function matchFBFeedback(fbData: FBPost[], foilName: string): string[] {
       });
       
       if (lines.length > 0) {
-        const author = post.text.split('\n')[0]?.trim() || 'Rider';
+        const authorFull = post.text.split('\n')[0]?.trim() || 'Rider';
+        // Convert full name to initials for privacy
+        const author = authorFull.split(' ')
+          .filter(w => w.length > 0)
+          .map(w => w[0].toUpperCase())
+          .join('') || 'R';
         const excerpt = lines[0].substring(0, 150);
         feedback.push(`${author}: ${excerpt}`);
       }

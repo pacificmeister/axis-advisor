@@ -99,8 +99,12 @@ export default function WizardPage() {
         if (lines.length > 0) {
           // Get the first meaningful content line
           const excerpt = lines[0].substring(0, 180);
-          // Get author from first line
-          const author = post.text.split('\n')[0]?.trim() || 'Rider';
+          // Get author from first line, convert to initials for privacy
+          const authorFull = post.text.split('\n')[0]?.trim() || 'Rider';
+          const author = authorFull.split(' ')
+            .filter(w => w.length > 0)
+            .map(w => w[0].toUpperCase())
+            .join('') || 'R';
           feedback.push(`${author}: ${excerpt}`);
         }
         
