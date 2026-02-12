@@ -19,6 +19,7 @@ interface Product {
     aspectRatio?: number;
     wingspan?: number;
     volume?: number;
+    modelNumber?: number;
   };
 }
 
@@ -201,7 +202,7 @@ export default function ComparePage() {
                 <option value="">Select a foil...</option>
                 {sortedProducts.map(p => (
                   <option key={p.id} value={p.id}>
-                    {p.specs.series} {p.specs.area}
+                    {p.specs.series} {p.specs.modelNumber || p.specs.area}
                   </option>
                 ))}
               </select>
@@ -224,7 +225,7 @@ export default function ComparePage() {
                 <option value="">Select a foil...</option>
                 {sortedProducts.map(p => (
                   <option key={p.id} value={p.id}>
-                    {p.specs.series} {p.specs.area}
+                    {p.specs.series} {p.specs.modelNumber || p.specs.area}
                   </option>
                 ))}
               </select>
@@ -324,11 +325,11 @@ export default function ComparePage() {
                   <div className="flex items-center gap-6 mt-4">
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-blue-500"></div>
-                      <span className="text-sm font-semibold">{primaryFoil.specs.series} {primaryFoil.specs.area}</span>
+                      <span className="text-sm font-semibold">{primaryFoil.specs.series} {primaryFoil.specs.modelNumber || primaryFoil.specs.area}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-orange-500"></div>
-                      <span className="text-sm font-semibold">{referenceFoil.specs.series} {referenceFoil.specs.area}</span>
+                      <span className="text-sm font-semibold">{referenceFoil.specs.series} {referenceFoil.specs.modelNumber || referenceFoil.specs.area}</span>
                     </div>
                   </div>
                 </div>
@@ -394,7 +395,7 @@ export default function ComparePage() {
               {/* Primary Analysis */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
                 <h3 className="text-xl font-black text-blue-600 mb-2">
-                  {primaryFoil.specs.series} {primaryFoil.specs.area}
+                  {primaryFoil.specs.series} {primaryFoil.specs.modelNumber || primaryFoil.specs.area}
                 </h3>
                 <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">
                   Analysis
@@ -405,7 +406,7 @@ export default function ComparePage() {
                 
                 {/* FB Feedback */}
                 {(() => {
-                  const feedback = matchFBFeedback(fbData, `${primaryFoil.specs.series} ${primaryFoil.specs.area}`);
+                  const feedback = matchFBFeedback(fbData, `${primaryFoil.specs.series} ${primaryFoil.specs.modelNumber || primaryFoil.specs.area}`);
                   if (feedback.length === 0) return null;
                   return (
                     <div className="mt-4 pt-4 border-t border-gray-100">
@@ -425,7 +426,7 @@ export default function ComparePage() {
               {/* Reference Analysis */}
               <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
                 <h3 className="text-xl font-black text-orange-500 mb-2">
-                  {referenceFoil.specs.series} {referenceFoil.specs.area}
+                  {referenceFoil.specs.series} {referenceFoil.specs.modelNumber || referenceFoil.specs.area}
                 </h3>
                 <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">
                   Analysis
@@ -436,7 +437,7 @@ export default function ComparePage() {
                 
                 {/* FB Feedback */}
                 {(() => {
-                  const feedback = matchFBFeedback(fbData, `${referenceFoil.specs.series} ${referenceFoil.specs.area}`);
+                  const feedback = matchFBFeedback(fbData, `${referenceFoil.specs.series} ${referenceFoil.specs.modelNumber || referenceFoil.specs.area}`);
                   if (feedback.length === 0) return null;
                   return (
                     <div className="mt-4 pt-4 border-t border-gray-100">
@@ -462,8 +463,8 @@ export default function ComparePage() {
                   <thead>
                     <tr className="border-b">
                       <th className="text-left py-2 text-gray-500 font-semibold">Spec</th>
-                      <th className="text-center py-2 text-blue-600 font-bold">{primaryFoil.specs.series} {primaryFoil.specs.area}</th>
-                      <th className="text-center py-2 text-orange-500 font-bold">{referenceFoil.specs.series} {referenceFoil.specs.area}</th>
+                      <th className="text-center py-2 text-blue-600 font-bold">{primaryFoil.specs.series} {primaryFoil.specs.modelNumber || primaryFoil.specs.area}</th>
+                      <th className="text-center py-2 text-orange-500 font-bold">{referenceFoil.specs.series} {referenceFoil.specs.modelNumber || referenceFoil.specs.area}</th>
                       <th className="text-center py-2 text-gray-500 font-semibold">Difference</th>
                     </tr>
                   </thead>

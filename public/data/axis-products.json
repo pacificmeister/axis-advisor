@@ -26,7 +26,8 @@
             "area": 1099,
             "series": "ART",
             "aspectRatio": 10.6,
-            "wingspan": 1079
+            "wingspan": 1079,
+            "modelNumber": 1099
           },
           "tags": [
             "art",
@@ -56,7 +57,8 @@
             "area": 999,
             "series": "ART",
             "aspectRatio": 9.9,
-            "wingspan": 994
+            "wingspan": 994,
+            "modelNumber": 999
           },
           "tags": [
             "art",
@@ -96,7 +98,8 @@
             "area": 899,
             "series": "ART",
             "aspectRatio": 9.76,
-            "wingspan": 937
+            "wingspan": 937,
+            "modelNumber": 899
           },
           "tags": [
             "art",
@@ -126,7 +129,8 @@
             "area": 799,
             "series": "ART",
             "aspectRatio": 9.05,
-            "wingspan": 850
+            "wingspan": 850,
+            "modelNumber": 799
           },
           "tags": [
             "art",
@@ -156,7 +160,8 @@
             "area": 699,
             "series": "ART",
             "aspectRatio": 9.0,
-            "wingspan": 793
+            "wingspan": 793,
+            "modelNumber": 699
           },
           "tags": [
             "art",
@@ -191,7 +196,8 @@
             "chord": 139.04761904761904,
             "maxChord": 170,
             "trueArea": 1502,
-            "projectedArea": 1460
+            "projectedArea": 1460,
+            "modelNumber": 1050
           },
           "tags": [
             "b-series",
@@ -233,7 +239,8 @@
             "chord": 130.8969387755102,
             "maxChord": 160,
             "trueArea": 1322.8,
-            "projectedArea": 1282.79
+            "projectedArea": 1282.79,
+            "modelNumber": 980
           },
           "tags": [
             "b-series",
@@ -275,7 +282,8 @@
             "chord": 126.75483870967741,
             "maxChord": 155,
             "trueArea": 1214,
-            "projectedArea": 1178.82
+            "projectedArea": 1178.82,
+            "modelNumber": 930
           },
           "tags": [
             "b-series",
@@ -318,7 +326,8 @@
             "chord": 122.66250000000001,
             "maxChord": 150,
             "trueArea": 1111.94,
-            "projectedArea": 1079.43
+            "projectedArea": 1079.43,
+            "modelNumber": 880
           },
           "tags": [
             "b-series",
@@ -361,7 +370,8 @@
             "chord": 118.55421686746988,
             "maxChord": 145,
             "trueArea": 1014,
-            "projectedArea": 984
+            "projectedArea": 984,
+            "modelNumber": 830
           },
           "tags": [
             "830",
@@ -403,7 +413,8 @@
             "chord": 124.28571428571429,
             "maxChord": 160,
             "trueArea": 890,
-            "projectedArea": 870
+            "projectedArea": 870,
+            "modelNumber": 700
           },
           "tags": [
             "b-series",
@@ -445,7 +456,8 @@
             "chord": 114.46153846153845,
             "maxChord": 140,
             "trueArea": 769,
-            "projectedArea": 744
+            "projectedArea": 744,
+            "modelNumber": 650
           },
           "tags": [
             "b-series",
@@ -486,7 +498,8 @@
             "volume": 3581.35,
             "maxChord": 220,
             "trueArea": 2101.67,
-            "projectedArea": 2006.56
+            "projectedArea": 2006.56,
+            "modelNumber": 1120
           },
           "tags": [
             "broad spectrum carve",
@@ -530,7 +543,8 @@
             "volume": 2800,
             "maxChord": 200,
             "trueArea": 1803.33,
-            "projectedArea": 1726
+            "projectedArea": 1726,
+            "modelNumber": 1060
           },
           "tags": [
             "broad spectrum carve",
@@ -574,7 +588,8 @@
             "volume": 2313.03,
             "maxChord": 190,
             "trueArea": 1571.9,
-            "projectedArea": 1500.85
+            "projectedArea": 1500.85,
+            "modelNumber": 970
           },
           "tags": [
             "broad spectrum carve",
@@ -615,7 +630,8 @@
             "chord": 138.42696629213484,
             "maxChord": 170,
             "trueArea": 1290,
-            "projectedArea": 1232
+            "projectedArea": 1232,
+            "modelNumber": 890
           },
           "tags": [
             "b-series",
@@ -656,7 +672,8 @@
             "chord": 126.23456790123457,
             "maxChord": 155,
             "trueArea": 1070,
-            "projectedArea": 1022.5
+            "projectedArea": 1022.5,
+            "modelNumber": 810
           },
           "tags": [
             "b-series",
@@ -698,7 +715,8 @@
             "chord": 114.02702702702703,
             "maxChord": 140,
             "trueArea": 883.12,
-            "projectedArea": 843.8
+            "projectedArea": 843.8,
+            "modelNumber": 740
           },
           "tags": [
             "b-series",
@@ -741,7 +759,8 @@
             "chord": 153.5473282442748,
             "maxChord": 185,
             "trueArea": 2080,
-            "projectedArea": 2011.47
+            "projectedArea": 2011.47,
+            "modelNumber": 1310
           },
           "tags": [
             "carbon",
@@ -787,7 +806,8 @@
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
-            "projectedArea": 1700
+            "projectedArea": 1700,
+            "modelNumber": 1300
           },
           "tags": [
             "1300",
@@ -836,7 +856,8 @@
             "chord": 148.93304347826086,
             "maxChord": 180,
             "trueArea": 1777.74,
-            "projectedArea": 1712.73
+            "projectedArea": 1712.73,
+            "modelNumber": 1150
           },
           "tags": [
             "115",
@@ -885,7 +906,8 @@
             "chord": 141.58415841584159,
             "maxChord": 170,
             "trueArea": 1430.16,
-            "projectedArea": 1430
+            "projectedArea": 1430,
+            "modelNumber": 1010
           },
           "tags": [
             "101",
@@ -935,7 +957,8 @@
             "chord": 133.84615384615384,
             "maxChord": 160,
             "trueArea": 1267.7,
-            "projectedArea": 1218
+            "projectedArea": 1218,
+            "modelNumber": 910
           },
           "tags": [
             "carbon",
@@ -980,7 +1003,8 @@
             "chord": 133.84615384615384,
             "maxChord": 160,
             "trueArea": 1267.7,
-            "projectedArea": 1218
+            "projectedArea": 1218,
+            "modelNumber": 910
           },
           "tags": [
             "black series",
@@ -1023,7 +1047,8 @@
             "chord": 124.82352941176471,
             "maxChord": 150,
             "trueArea": 1102,
-            "projectedArea": 1061
+            "projectedArea": 1061,
+            "modelNumber": 850
           },
           "tags": [
             "b-series",
@@ -1071,7 +1096,8 @@
             "chord": 140.9860465116279,
             "maxChord": 180,
             "trueArea": 1293,
-            "projectedArea": 1212.48
+            "projectedArea": 1212.48,
+            "modelNumber": 860
           },
           "tags": [
             "all kite",
@@ -1116,7 +1142,8 @@
             "chord": 148.80131578947368,
             "maxChord": 190,
             "trueArea": 1218.52,
-            "projectedArea": 1130.89
+            "projectedArea": 1130.89,
+            "modelNumber": 760
           },
           "tags": [
             "all kite",
@@ -1162,7 +1189,8 @@
             "chord": 157.42424242424244,
             "maxChord": 200,
             "trueArea": null,
-            "projectedArea": 1039
+            "projectedArea": 1039,
+            "modelNumber": 660
           },
           "tags": [
             "all kite",
@@ -1199,13 +1227,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1070 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1070,
+            "area": 876,
             "series": "Fireball",
             "surfaceArea": 877.0,
             "aspectRatio": 13.07,
             "chord": 81.9,
             "itemCode": "AXFIREBALL1070",
-            "wingspan": 1183
+            "wingspan": 1070,
+            "modelNumber": 1070
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
@@ -1226,13 +1255,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1000 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1000,
+            "area": 772,
             "series": "Fireball",
             "surfaceArea": 773.0,
             "aspectRatio": 12.95,
             "chord": 77.2,
             "itemCode": "AXFIREBALL1000",
-            "wingspan": 1138
+            "wingspan": 1000,
+            "modelNumber": 1000
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
@@ -1253,13 +1283,14 @@
           "specs": {
             "name": "AXIS FIREBALL 940 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 940,
+            "area": 688,
             "series": "Fireball",
             "surfaceArea": 689.0,
             "aspectRatio": 12.84,
             "chord": 73.2,
             "itemCode": "AXFIREBALL940",
-            "wingspan": 1099
+            "wingspan": 940,
+            "modelNumber": 940
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
@@ -1280,13 +1311,14 @@
           "specs": {
             "name": "AXIS FIREBALL 880 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 880,
+            "area": 604,
             "series": "Fireball",
             "surfaceArea": 604.0,
             "aspectRatio": 12.82,
             "chord": 68.6,
             "itemCode": "AXFIREBALL880",
-            "wingspan": 1062
+            "wingspan": 880,
+            "modelNumber": 880
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
@@ -1317,7 +1349,8 @@
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
-            "projectedArea": 1700
+            "projectedArea": 1700,
+            "modelNumber": 1300
           },
           "tags": [],
           "created_at": "2024-09-18T23:53:14-07:00",
@@ -1338,13 +1371,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1160 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1160,
+            "area": 995,
             "series": "Fireball",
             "surfaceArea": 996.29,
             "aspectRatio": 13.52,
             "chord": 85.8,
             "itemCode": "AXFIREBALL1160",
-            "wingspan": 1252
+            "wingspan": 1160,
+            "modelNumber": 1160
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
@@ -1365,13 +1399,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1250 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1250,
+            "area": 1131,
             "series": "Fireball",
             "surfaceArea": 1132.58,
             "aspectRatio": 13.81,
             "chord": 90.5,
             "itemCode": "AXFIREBALL1250",
-            "wingspan": 1314
+            "wingspan": 1250,
+            "modelNumber": 1250
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
@@ -1392,13 +1427,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1350 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1350,
+            "area": 1310,
             "series": "Fireball",
             "surfaceArea": 1308.78,
             "aspectRatio": 13.91,
             "chord": 96.9,
             "itemCode": "AXFIREBALL1350",
-            "wingspan": 1370
+            "wingspan": 1350,
+            "modelNumber": 1350
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
@@ -1425,7 +1461,8 @@
             "aspectRatio": 8.75,
             "chord": 150.1,
             "itemCode": "AXPNGV21200",
-            "wingspan": 1025
+            "wingspan": 1025,
+            "modelNumber": 1200
           },
           "tags": [],
           "created_at": "2025-04-22T04:09:11-07:00",
@@ -1456,7 +1493,8 @@
             "volume": 1734,
             "maxChord": 150,
             "trueArea": 1660,
-            "projectedArea": 1626
+            "projectedArea": 1626,
+            "modelNumber": 1400
           },
           "tags": [],
           "created_at": "2025-04-22T04:25:15-07:00",
@@ -1477,13 +1515,14 @@
           "specs": {
             "name": "AXIS TEMPO 1090 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1090,
+            "area": 745,
             "series": "Tempo",
             "surfaceArea": 746.0,
             "aspectRatio": 16.0,
             "chord": 68.4,
             "itemCode": "AXTEMPO1090",
-            "wingspan": 1321
+            "wingspan": 1090,
+            "modelNumber": 1090
           },
           "tags": [
             "surf",
@@ -1509,13 +1548,14 @@
           "specs": {
             "name": "AXIS TEMPO 1020 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1020,
+            "area": 650,
             "series": "Tempo",
             "surfaceArea": 653.0,
             "aspectRatio": 16.0,
             "chord": 64.0,
             "itemCode": "AXTEMPO1020",
-            "wingspan": 1277
+            "wingspan": 1020,
+            "modelNumber": 1020
           },
           "tags": [
             "surf",
@@ -1541,13 +1581,14 @@
           "specs": {
             "name": "AXIS TEMPO 960 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 960,
+            "area": 575,
             "series": "Tempo",
             "surfaceArea": 578.0,
             "aspectRatio": 16.0,
             "chord": 60.2,
             "itemCode": "AXTEMPO960",
-            "wingspan": 1239
+            "wingspan": 960,
+            "modelNumber": 960
           },
           "tags": [
             "surf",
@@ -1573,13 +1614,14 @@
           "specs": {
             "name": "AXIS TEMPO 920 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 920,
+            "area": 530,
             "series": "Tempo",
             "surfaceArea": 528.0,
             "aspectRatio": 16.0,
             "chord": 57.4,
             "itemCode": "AXTEMPO920",
-            "wingspan": 1213
+            "wingspan": 920,
+            "modelNumber": 920
           },
           "tags": [
             "surf",
@@ -1605,13 +1647,14 @@
           "specs": {
             "name": "AXIS TEMPO 890 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 890,
+            "area": 495,
             "series": "Tempo",
             "surfaceArea": 495.44,
             "aspectRatio": 16.0,
             "chord": 55.6,
             "itemCode": "AXTEMPO890",
-            "wingspan": 1193
+            "wingspan": 890,
+            "modelNumber": 890
           },
           "tags": [
             "surf",
@@ -1637,13 +1680,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1500 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1500,
+            "area": 1312,
             "series": "Fireball",
             "surfaceArea": 1313.0,
             "aspectRatio": 17.15,
             "chord": 87.0,
             "itemCode": "AXFIREBALL1500",
-            "wingspan": 1604
+            "wingspan": 1500,
+            "modelNumber": 1500
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
@@ -1664,13 +1708,14 @@
           "specs": {
             "name": "AXIS FIREBALL 1750 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1750,
+            "area": 1522,
             "series": "Fireball",
             "surfaceArea": 1525.0,
             "aspectRatio": 20.12,
             "chord": 81.1,
             "itemCode": "AXFIREBALL1750",
-            "wingspan": 1876
+            "wingspan": 1750,
+            "modelNumber": 1750
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
@@ -1691,13 +1736,14 @@
           "specs": {
             "name": "AXIS SURGE 740 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 740,
+            "area": 589,
             "series": "Surge",
             "surfaceArea": 590.0,
             "aspectRatio": 9.3,
             "chord": 79.6,
             "itemCode": "AXSURGE740",
-            "wingspan": 830
+            "wingspan": 740,
+            "modelNumber": 740
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
@@ -1718,13 +1764,14 @@
           "specs": {
             "name": "AXIS SURGE 780 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 780,
+            "area": 642,
             "series": "Surge",
             "surfaceArea": 643.0,
             "aspectRatio": 9.48,
             "chord": 82.3,
             "itemCode": "AXSURGE780",
-            "wingspan": 860
+            "wingspan": 780,
+            "modelNumber": 780
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
@@ -1745,13 +1792,14 @@
           "specs": {
             "name": "AXIS SURGE 830 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 830,
+            "area": 727,
             "series": "Surge",
             "surfaceArea": 728.0,
             "aspectRatio": 9.48,
             "chord": 87.6,
             "itemCode": "AXSURGE830",
-            "wingspan": 887
+            "wingspan": 830,
+            "modelNumber": 830
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
@@ -1772,13 +1820,14 @@
           "specs": {
             "name": "AXIS SURGE 890 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 890,
+            "area": 834,
             "series": "Surge",
             "surfaceArea": 835.0,
             "aspectRatio": 9.5,
             "chord": 93.7,
             "itemCode": "AXSURGE890",
-            "wingspan": 920
+            "wingspan": 890,
+            "modelNumber": 890
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
@@ -1799,13 +1848,14 @@
           "specs": {
             "name": "AXIS SURGE 950 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 950,
+            "area": 948,
             "series": "Surge",
             "surfaceArea": 949.0,
             "aspectRatio": 9.52,
             "chord": 99.8,
             "itemCode": "AXSURGE950",
-            "wingspan": 951
+            "wingspan": 950,
+            "modelNumber": 950
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
@@ -1826,13 +1876,14 @@
           "specs": {
             "name": "AXIS SURGE 1010 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "area": 1010,
+            "area": 1075,
             "series": "Surge",
             "surfaceArea": 1076.0,
             "aspectRatio": 9.49,
             "chord": 106.4,
             "itemCode": "AXSURGE1010",
-            "wingspan": 979
+            "wingspan": 1010,
+            "modelNumber": 1010
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
@@ -1854,12 +1905,13 @@
             "name": "Spitfire 1180",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1180,
+            "area": 1525,
             "surfaceArea": 1554.0,
-            "aspectRatio": 6.78,
+            "aspectRatio": 9.13,
             "chord": 129.2,
             "itemCode": "AXSPITFIRE1180",
-            "wingspan": 894
+            "wingspan": 1180,
+            "modelNumber": 1180
           },
           "tags": [],
           "created_at": "2024-02-06T00:32:29-08:00",
@@ -1881,12 +1933,13 @@
             "name": "Spitfire 1100",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1100,
+            "area": 1397,
             "surfaceArea": 1423.0,
-            "aspectRatio": 6.64,
+            "aspectRatio": 8.66,
             "chord": 127.1,
             "itemCode": "AXSPITFIRE1100",
-            "wingspan": 855
+            "wingspan": 1100,
+            "modelNumber": 1100
           },
           "tags": [],
           "created_at": "2023-06-20T20:14:34-07:00",
@@ -1908,12 +1961,13 @@
             "name": "Spitfire 1030",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1030,
+            "area": 1284,
             "surfaceArea": 1308.0,
-            "aspectRatio": 6.5,
+            "aspectRatio": 8.26,
             "chord": 124.8,
             "itemCode": "AXSPITFIRE1030",
-            "wingspan": 818
+            "wingspan": 1030,
+            "modelNumber": 1030
           },
           "tags": [],
           "created_at": "2023-06-20T20:16:30-07:00",
@@ -1935,12 +1989,13 @@
             "name": "Spitfire 960",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 960,
+            "area": 1176,
             "surfaceArea": 1196.0,
-            "aspectRatio": 6.46,
+            "aspectRatio": 7.84,
             "chord": 122.4,
             "itemCode": "AXSPITFIRE960",
-            "wingspan": 788
+            "wingspan": 960,
+            "modelNumber": 960
           },
           "tags": [],
           "created_at": "2023-06-20T20:17:26-07:00",
@@ -1962,12 +2017,13 @@
             "name": "Spitfire 900",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 900,
+            "area": 1080,
             "surfaceArea": 1080.0,
-            "aspectRatio": 6.25,
+            "aspectRatio": 7.5,
             "chord": 120.0,
             "itemCode": "AXSPITFIRE900",
-            "wingspan": 750
+            "wingspan": 900,
+            "modelNumber": 900
           },
           "tags": [],
           "created_at": "2023-06-20T20:18:59-07:00",
@@ -1989,12 +2045,13 @@
             "name": "Spitfire 840",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 840,
+            "area": 988,
             "surfaceArea": 1006.0,
-            "aspectRatio": 6.19,
+            "aspectRatio": 7.14,
             "chord": 117.6,
             "itemCode": "AXSPITFIRE840",
-            "wingspan": 721
+            "wingspan": 840,
+            "modelNumber": 840
           },
           "tags": [],
           "created_at": "2023-06-20T20:19:51-07:00",
@@ -2016,12 +2073,13 @@
             "name": "Spitfire 780",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 780,
+            "area": 886,
             "surfaceArea": 902.0,
-            "aspectRatio": 6.05,
+            "aspectRatio": 6.87,
             "chord": 113.6,
             "itemCode": "AXSPITFIRE780",
-            "wingspan": 687
+            "wingspan": 780,
+            "modelNumber": 780
           },
           "tags": [],
           "created_at": "2023-06-20T20:20:42-07:00",
@@ -2043,12 +2101,13 @@
             "name": "Spitfire 720",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 720,
+            "area": 801,
             "surfaceArea": 815.0,
-            "aspectRatio": 5.95,
+            "aspectRatio": 6.47,
             "chord": 111.2,
             "itemCode": "AXSPITFIRE720",
-            "wingspan": 655
+            "wingspan": 720,
+            "modelNumber": 720
           },
           "tags": [],
           "created_at": "2023-08-24T00:14:18-07:00",
@@ -2070,12 +2129,13 @@
             "name": "Spitfire 670",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 670,
+            "area": 708,
             "surfaceArea": 721.0,
-            "aspectRatio": 5.85,
+            "aspectRatio": 6.34,
             "chord": 105.7,
             "itemCode": "AXSPITFIRE670",
-            "wingspan": 626
+            "wingspan": 670,
+            "modelNumber": 670
           },
           "tags": [],
           "created_at": "2024-04-28T15:20:01-07:00",
@@ -2097,12 +2157,13 @@
             "name": "Spitfire 620",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 620,
+            "area": 628,
             "surfaceArea": 628.0,
-            "aspectRatio": 5.75,
+            "aspectRatio": 6.12,
             "chord": 101.3,
             "itemCode": "AXSPITFIRE620",
-            "wingspan": 597
+            "wingspan": 620,
+            "modelNumber": 620
           },
           "tags": [],
           "created_at": "2024-04-28T15:26:41-07:00",
@@ -2129,7 +2190,8 @@
             "aspectRatio": 10.08,
             "chord": 107.0,
             "itemCode": "AXARTV21099",
-            "wingspan": 1099
+            "wingspan": 1099,
+            "modelNumber": 1099
           },
           "tags": [
             "2024",
@@ -2165,7 +2227,8 @@
             "aspectRatio": 10.0,
             "chord": 101.0,
             "itemCode": "AXARTV2999",
-            "wingspan": 999
+            "wingspan": 999,
+            "modelNumber": 999
           },
           "tags": [
             "2024",
@@ -2201,7 +2264,8 @@
             "aspectRatio": 10.0,
             "chord": 94.0,
             "itemCode": "AXARTV2939",
-            "wingspan": 939
+            "wingspan": 939,
+            "modelNumber": 939
           },
           "tags": [
             "2024",
@@ -2237,7 +2301,8 @@
             "aspectRatio": 10.0,
             "chord": 82.0,
             "itemCode": "AXARTV2819",
-            "wingspan": 879
+            "wingspan": 879,
+            "modelNumber": 879
           },
           "tags": [
             "2024",
@@ -2270,7 +2335,8 @@
             "series": "ART v2",
             "area": 647,
             "wingspan": 819,
-            "aspectRatio": 10.0
+            "aspectRatio": 10.0,
+            "modelNumber": 819
           },
           "tags": [
             "2024",
