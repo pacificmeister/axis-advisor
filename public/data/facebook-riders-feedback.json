@@ -1342,7 +1342,7 @@
         "Surge 950",
         "Surge 1010"
       ],
-      "rider_weight": null,
+      "rider_weight": "85kg",
       "use_case": "downwind",
       "source": "FB Screenshot 2026-02-11"
     },
@@ -2074,7 +2074,7 @@
       "foils_mentioned": [
         "Art 1401"
       ],
-      "rider_weight": null,
+      "rider_weight": "78kg",
       "use_case": "pump",
       "source": "FB Screenshot 2026-02-12"
     },
@@ -3580,7 +3580,7 @@
         "ART v2",
         "Spitfire"
       ],
-      "rider_weight": null,
+      "rider_weight": "100kg",
       "use_case": "general",
       "sentiment": "positive",
       "source": "FB Screenshot 2026-02-12 - ART v2 Thread"

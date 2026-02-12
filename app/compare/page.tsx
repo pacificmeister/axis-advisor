@@ -103,9 +103,42 @@ function matchFBFeedback(fbData: FBPost[], foilName: string): string[] {
   return feedback;
 }
 
+// Yvon Labarthe expert feedback type
+interface YvonPost {
+  id: string;
+  source: string;
+  rider: string;
+  weight_kg: number | null;
+  text: string;
+  foils_mentioned: string[];
+  key_insight: string;
+  sentiment: string;
+}
+
+// Match Yvon's expert feedback to a foil (prioritized)
+function matchYvonFeedback(yvonData: YvonPost[], foilName: string): string[] {
+  const feedback: string[] = [];
+  const normalized = foilName.toUpperCase().replace(/\s+/g, ' ');
+  
+  for (const post of yvonData) {
+    const mentioned = post.foils_mentioned.some(f => 
+      normalized.includes(f.toUpperCase().replace(/\s+/g, ' '))
+    );
+    
+    if (mentioned && post.key_insight) {
+      // Use key_insight for concise expert take, with 🎬 marker
+      feedback.push(`🎬 YL: ${post.key_insight}`);
+      if (feedback.length >= 2) break;
+    }
+  }
+  
+  return feedback;
+}
+
 export default function ComparePage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [fbData, setFbData] = useState<FBPost[]>([]);
+  const [yvonData, setYvonData] = useState<YvonPost[]>([]);
   const [primaryFoil, setPrimaryFoil] = useState<Product | null>(null);
   const [referenceFoil, setReferenceFoil] = useState<Product | null>(null);
   const [showComparison, setShowComparison] = useState(false);
@@ -123,6 +156,11 @@ export default function ComparePage() {
       .then(r => r.json())
       .then(data => setFbData(data.posts || []))
       .catch(err => console.warn('FB data not available:', err));
+
+    fetch('/data/yvon-feedback.json')
+      .then(r => r.json())
+      .then(data => setYvonData(data.posts || []))
+      .catch(err => console.warn('Yvon data not available:', err));
   }, []);
 
   const handleCompare = () => {
@@ -404,20 +442,38 @@ export default function ComparePage() {
                   {generateAnalysis(primaryFoil, false)}
                 </p>
                 
-                {/* FB Feedback */}
+                {/* Expert + Community Feedback */}
                 {(() => {
-                  const feedback = matchFBFeedback(fbData, `${primaryFoil.specs.series} ${primaryFoil.specs.modelNumber || primaryFoil.specs.area}`);
-                  if (feedback.length === 0) return null;
+                  const foilName = `${primaryFoil.specs.series} ${primaryFoil.specs.modelNumber || primaryFoil.specs.area}`;
+                  const expertFb = matchYvonFeedback(yvonData, foilName);
+                  const communityFb = matchFBFeedback(fbData, foilName);
+                  if (expertFb.length === 0 && communityFb.length === 0) return null;
                   return (
                     <div className="mt-4 pt-4 border-t border-gray-100">
-                      <h5 className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-2">
-                        👥 Community Feedback
-                      </h5>
-                      {feedback.map((fb, i) => (
-                        <p key={i} className="text-sm text-gray-600 italic mb-2">
-                          "{fb}..."
-                        </p>
-                      ))}
+                      {expertFb.length > 0 && (
+                        <>
+                          <h5 className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">
+                            🎬 Expert Review
+                          </h5>
+                          {expertFb.map((fb, i) => (
+                            <p key={i} className="text-sm text-gray-700 font-medium mb-2">
+                              {fb}
+                            </p>
+                          ))}
+                        </>
+                      )}
+                      {communityFb.length > 0 && (
+                        <>
+                          <h5 className={`text-xs font-bold text-blue-600 uppercase tracking-wider mb-2 ${expertFb.length > 0 ? 'mt-3' : ''}`}>
+                            👥 Community Feedback
+                          </h5>
+                          {communityFb.map((fb, i) => (
+                            <p key={i} className="text-sm text-gray-600 italic mb-2">
+                              "{fb}..."
+                            </p>
+                          ))}
+                        </>
+                      )}
                     </div>
                   );
                 })()}
@@ -435,20 +491,38 @@ export default function ComparePage() {
                   {generateAnalysis(referenceFoil, true)}
                 </p>
                 
-                {/* FB Feedback */}
+                {/* Expert + Community Feedback */}
                 {(() => {
-                  const feedback = matchFBFeedback(fbData, `${referenceFoil.specs.series} ${referenceFoil.specs.modelNumber || referenceFoil.specs.area}`);
-                  if (feedback.length === 0) return null;
+                  const foilName = `${referenceFoil.specs.series} ${referenceFoil.specs.modelNumber || referenceFoil.specs.area}`;
+                  const expertFb = matchYvonFeedback(yvonData, foilName);
+                  const communityFb = matchFBFeedback(fbData, foilName);
+                  if (expertFb.length === 0 && communityFb.length === 0) return null;
                   return (
                     <div className="mt-4 pt-4 border-t border-gray-100">
-                      <h5 className="text-xs font-bold text-orange-500 uppercase tracking-wider mb-2">
-                        👥 Community Feedback
-                      </h5>
-                      {feedback.map((fb, i) => (
-                        <p key={i} className="text-sm text-gray-600 italic mb-2">
-                          "{fb}..."
-                        </p>
-                      ))}
+                      {expertFb.length > 0 && (
+                        <>
+                          <h5 className="text-xs font-bold text-red-600 uppercase tracking-wider mb-2">
+                            🎬 Expert Review
+                          </h5>
+                          {expertFb.map((fb, i) => (
+                            <p key={i} className="text-sm text-gray-700 font-medium mb-2">
+                              {fb}
+                            </p>
+                          ))}
+                        </>
+                      )}
+                      {communityFb.length > 0 && (
+                        <>
+                          <h5 className={`text-xs font-bold text-orange-500 uppercase tracking-wider mb-2 ${expertFb.length > 0 ? 'mt-3' : ''}`}>
+                            👥 Community Feedback
+                          </h5>
+                          {communityFb.map((fb, i) => (
+                            <p key={i} className="text-sm text-gray-600 italic mb-2">
+                              "{fb}..."
+                            </p>
+                          ))}
+                        </>
+                      )}
                     </div>
                   );
                 })()}

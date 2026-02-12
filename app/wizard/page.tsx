@@ -25,6 +25,7 @@ interface Recommendation {
   score: number;
   reasoning: string;
   prosCons?: ProsCons;
+  expertFeedback?: string[];
   fbFeedback?: string[];
 }
 
@@ -52,6 +53,9 @@ export default function WizardPage() {
   const [heavyRiderWarning, setHeavyRiderWarning] = useState<string | null>(null);
 
   // Load product data
+  // Yvon expert feedback
+  const [yvonData, setYvonData] = useState<any[]>([]);
+
   useEffect(() => {
     fetch('/data/axis-products.json')
       .then(r => r.json())
@@ -68,6 +72,14 @@ export default function WizardPage() {
         setFbData(data.posts || []);
       })
       .catch(err => console.warn('FB data not available:', err));
+
+    // Load Yvon expert feedback
+    fetch('/data/yvon-feedback.json')
+      .then(r => r.json())
+      .then(data => {
+        setYvonData(data.posts || []);
+      })
+      .catch(err => console.warn('Yvon data not available:', err));
   }, []);
 
   const handleChange = (field: string, value: string) => {
@@ -164,6 +176,25 @@ export default function WizardPage() {
       if (feedback.length >= 2) break;
     }
 
+    return feedback;
+  };
+
+  // Match Yvon's expert feedback (prioritized, key insights only)
+  const matchYvonFeedback = (foilName: string): string[] => {
+    const feedback: string[] = [];
+    const normalized = foilName.toUpperCase().replace(/\s+/g, ' ');
+    
+    for (const post of yvonData) {
+      const mentioned = post.foils_mentioned?.some((f: string) => 
+        normalized.includes(f.toUpperCase().replace(/\s+/g, ' '))
+      );
+      
+      if (mentioned && post.key_insight) {
+        feedback.push(`🎬 YL: ${post.key_insight}`);
+        if (feedback.length >= 2) break;
+      }
+    }
+    
     return feedback;
   };
 
@@ -353,10 +384,15 @@ export default function WizardPage() {
           }
         }
 
-        // Match FB feedback - pass user weight for weight-matched prioritization
-        const fbFeedback = matchFBFeedback(`${effectiveSeries} ${area}`, weight);
+        // Match expert and community feedback
+        const foilName = `${effectiveSeries} ${area}`;
+        const expertFeedback = matchYvonFeedback(foilName);
+        const fbFeedback = matchFBFeedback(foilName, weight);
         
-        // Boost score if there's positive FB feedback
+        // Boost score if there's feedback (expert weighted higher)
+        if (expertFeedback.length > 0) {
+          score += 8; // Expert review = stronger signal
+        }
         if (fbFeedback.length > 0) {
           score += 5;
         }
@@ -401,6 +437,7 @@ export default function WizardPage() {
           product,
           score: finalScore,
           reasoning,
+          expertFeedback: expertFeedback.length > 0 ? expertFeedback : undefined,
           fbFeedback: fbFeedback.length > 0 ? fbFeedback : undefined,
         };
       })
@@ -820,19 +857,37 @@ export default function WizardPage() {
                       </div>
                     )}
 
-                    {/* FB Feedback Badge */}
-                    {rec.fbFeedback && rec.fbFeedback.length > 0 && (
-                      <div className="bg-blue-50 rounded-lg p-3 mb-4 border border-blue-100">
-                        <div className="flex items-center gap-2 mb-2">
-                          <span className="text-xs font-bold text-blue-800 uppercase tracking-widest">
-                            👥 Real Rider Feedback
-                          </span>
-                        </div>
-                        <p className="text-sm text-blue-900 italic">
-                          "{rec.fbFeedback[0]}"
-                        </p>
+                    {/* Expert + Community Feedback */}
+                    {(rec.expertFeedback?.length || rec.fbFeedback?.length) ? (
+                      <div className="space-y-3 mb-4">
+                        {/* Expert Review (Yvon) */}
+                        {rec.expertFeedback && rec.expertFeedback.length > 0 && (
+                          <div className="bg-red-50 rounded-lg p-3 border border-red-100">
+                            <div className="flex items-center gap-2 mb-2">
+                              <span className="text-xs font-bold text-red-800 uppercase tracking-widest">
+                                🎬 Expert Review
+                              </span>
+                            </div>
+                            <p className="text-sm text-red-900 font-medium">
+                              {rec.expertFeedback[0]}
+                            </p>
+                          </div>
+                        )}
+                        {/* Community Feedback */}
+                        {rec.fbFeedback && rec.fbFeedback.length > 0 && (
+                          <div className="bg-blue-50 rounded-lg p-3 border border-blue-100">
+                            <div className="flex items-center gap-2 mb-2">
+                              <span className="text-xs font-bold text-blue-800 uppercase tracking-widest">
+                                👥 Real Rider Feedback
+                              </span>
+                            </div>
+                            <p className="text-sm text-blue-900 italic">
+                              "{rec.fbFeedback[0]}"
+                            </p>
+                          </div>
+                        )}
                       </div>
-                    )}
+                    ) : null}
 
                     <a
                       href={`https://axisfoils.com/products/${rec.product.id}`}
