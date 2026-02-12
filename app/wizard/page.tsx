@@ -43,6 +43,8 @@ export default function WizardPage() {
     weight: '',
     skillLevel: '',
     useCase: '',
+    windCondition: '',  // light, moderate, strong
+    currentFoil: '',    // optional - what they're riding now
   });
   const [weightUnit, setWeightUnit] = useState<'lbs' | 'kg'>('lbs');
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
@@ -199,6 +201,15 @@ export default function WizardPage() {
     if (useCase !== 'parawing') {
       baseArea *= disciplineAdjustments[useCase] || 1.0;
     }
+
+    // Adjust for wind conditions
+    // Light wind = need bigger foil, strong wind = can go smaller
+    const windAdjustments: Record<string, number> = {
+      light: 1.15,    // +15% area for light wind
+      moderate: 1.0,  // baseline
+      strong: 0.9,    // -10% area for strong wind
+    };
+    baseArea *= windAdjustments[formData.windCondition] || 1.0;
 
     // Set warning for heavy riders when target area exceeds typical range
     if (baseArea > 1500) {
@@ -446,6 +457,8 @@ export default function WizardPage() {
       weight: '',
       skillLevel: '',
       useCase: '',
+      windCondition: '',
+      currentFoil: '',
     });
     setWeightUnit('lbs');
     setRecommendations([]);
@@ -591,6 +604,52 @@ export default function WizardPage() {
                 </div>
               </div>
 
+              {/* Wind Conditions */}
+              <div>
+                <label className="block text-sm font-bold text-gray-900 mb-2">
+                  Typical wind conditions
+                </label>
+                <div className="grid grid-cols-3 gap-3">
+                  {[
+                    { value: 'light', label: '💨 Light', desc: '8-15 kts' },
+                    { value: 'moderate', label: '🌬️ Moderate', desc: '15-22 kts' },
+                    { value: 'strong', label: '💪 Strong', desc: '22+ kts' },
+                  ].map(option => (
+                    <button
+                      key={option.value}
+                      onClick={() => handleChange('windCondition', option.value)}
+                      className={`
+                        py-3 px-4 rounded-lg font-semibold transition text-center
+                        ${formData.windCondition === option.value
+                          ? 'bg-red-600 text-white'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        }
+                      `}
+                    >
+                      <div>{option.label}</div>
+                      <div className="text-xs opacity-75">{option.desc}</div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Current Foil (Optional) */}
+              <div>
+                <label className="block text-sm font-bold text-gray-900 mb-2">
+                  Current foil <span className="text-gray-400 font-normal">(optional)</span>
+                </label>
+                <input
+                  type="text"
+                  value={formData.currentFoil}
+                  onChange={e => handleChange('currentFoil', e.target.value)}
+                  placeholder="e.g., Spitfire 900, ART 999, Fireball 1000"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-red-600 focus:outline-none"
+                />
+                <p className="text-xs text-gray-500 mt-1">
+                  Helps us suggest the right transition path
+                </p>
+              </div>
+
               <div className="flex gap-3">
                 <button
                   onClick={() => setStep(1)}
@@ -600,7 +659,7 @@ export default function WizardPage() {
                 </button>
                 <button
                   onClick={() => setStep(3)}
-                  disabled={!formData.useCase}
+                  disabled={!formData.useCase || !formData.windCondition}
                   className="flex-1 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-lg transition"
                 >
                   Get Recommendations →
@@ -635,6 +694,20 @@ export default function WizardPage() {
                        'Dock Start / Pump'}
                     </span>
                   </div>
+                  <div className="flex justify-between">
+                    <span className="font-semibold text-gray-700">Wind:</span>
+                    <span className="text-gray-900 capitalize">
+                      {formData.windCondition === 'light' ? '💨 Light (8-15 kts)' :
+                       formData.windCondition === 'moderate' ? '🌬️ Moderate (15-22 kts)' :
+                       '💪 Strong (22+ kts)'}
+                    </span>
+                  </div>
+                  {formData.currentFoil && (
+                    <div className="flex justify-between">
+                      <span className="font-semibold text-gray-700">Current Foil:</span>
+                      <span className="text-gray-900">{formData.currentFoil}</span>
+                    </div>
+                  )}
                 </div>
               </div>
 
