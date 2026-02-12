@@ -15,6 +15,7 @@ interface SeriesInfo {
 
 export default function BrowsePage() {
   const [foilData, setFoilData] = useState<any[]>([]);
+  const [allData, setAllData] = useState<any>({});
 
   useEffect(() => {
     fetch('/data/axis-products.json')
@@ -22,6 +23,7 @@ export default function BrowsePage() {
       .then(data => {
         const foils = data.collections['front-wings'].products;
         setFoilData(foils);
+        setAllData(data.collections);
       });
   }, []);
 
@@ -259,9 +261,39 @@ export default function BrowsePage() {
   const fuselageSeries = seriesDatabase.filter(s => s.category === 'fuselage');
   const mastSeries = seriesDatabase.filter(s => s.category === 'mast');
 
+  // Map series to AXIS website URLs
+  const getAxisUrl = (series: SeriesInfo): string => {
+    const urlMap: Record<string, string> = {
+      // Rear wings
+      'Skinny Link': 'https://axisfoils.com/collections/rear-wings-1/skinny-link',
+      'Surf Skinny': 'https://axisfoils.com/collections/rear-wings-1/surf-skinny',
+      'Skinny': 'https://axisfoils.com/collections/rear-wings-1/skinny',
+      'Progressive': 'https://axisfoils.com/collections/rear-wings-1/progressive',
+      'Speed': 'https://axisfoils.com/collections/rear-wings-1/speed',
+      'Freeride': 'https://axisfoils.com/collections/rear-wings-1/freeride',
+      'Pump': 'https://axisfoils.com/collections/rear-wings-1/pump',
+      // Fuselages
+      'Ti Link': 'https://axisfoils.com/collections/fuselages/ti-link',
+      'Black Advance+ FATTY': 'https://axisfoils.com/collections/fuselages/black-advance-fatty',
+      'Black Advance+': 'https://axisfoils.com/collections/fuselages/black-advance',
+      'Black Advance 20': 'https://axisfoils.com/collections/fuselages/black-advance-20',
+      'Red Advance': 'https://axisfoils.com/collections/fuselages/red-advance',
+      'Red': 'https://axisfoils.com/collections/fuselages/red',
+      // Masts
+      'Carbon Integrated Foil Drive': 'https://axisfoils.com/collections/masts/carbon-integrated-foil-drive',
+      'PRO Ultra High Modulus Carbon': 'https://axisfoils.com/collections/masts/pro-ultra-high-modulus-carbon',
+      'Power Carbon High Modulus': 'https://axisfoils.com/collections/masts/power-carbon-high-modulus',
+      'Power Carbon': 'https://axisfoils.com/collections/masts/power-carbon',
+      'Power Carbon FATTY': 'https://axisfoils.com/collections/masts/power-carbon-fatty',
+      '19mm Aluminium': 'https://axisfoils.com/collections/masts/19mm-aluminium',
+    };
+    return urlMap[series.name] || `https://axisfoils.com/collections/${series.category === 'rear' ? 'rear-wings-1' : series.category === 'fuselage' ? 'fuselages' : 'masts'}`;
+  };
+
   const SeriesCard = ({ series }: { series: SeriesInfo }) => {
     const count = getSeriesCount(series.name);
-    const hasData = count > 0;
+    const isFrontWing = series.category === 'current' || series.category === 'legacy';
+    const hasData = isFrontWing ? count > 0 : true; // Non-front-wings always have external links
 
     return (
       <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-red-600 hover:shadow-lg transition group">
@@ -280,7 +312,7 @@ export default function BrowsePage() {
             <h3 className="text-2xl font-black text-gray-900">
               {series.displayName}
             </h3>
-            {hasData && (
+            {isFrontWing && count > 0 && (
               <span className="px-2 py-1 bg-red-100 text-red-700 text-xs font-bold rounded">
                 {count} foils
               </span>
@@ -291,17 +323,28 @@ export default function BrowsePage() {
             {series.description}
           </p>
 
-          {hasData ? (
-            <Link
-              href={`/series/${series.name.toLowerCase().replace(/\s+/g, '-')}`}
+          {isFrontWing ? (
+            hasData ? (
+              <Link
+                href={`/series/${series.name.toLowerCase().replace(/\s+/g, '-')}`}
+                className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition text-sm"
+              >
+                View Models →
+              </Link>
+            ) : (
+              <span className="inline-block bg-gray-200 text-gray-500 font-bold py-2 px-6 rounded-lg text-sm cursor-not-allowed">
+                Coming Soon
+              </span>
+            )
+          ) : (
+            <a
+              href={getAxisUrl(series)}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition text-sm"
             >
-              View Models →
-            </Link>
-          ) : (
-            <span className="inline-block bg-gray-200 text-gray-500 font-bold py-2 px-6 rounded-lg text-sm cursor-not-allowed">
-              Coming Soon
-            </span>
+              View on AXIS ↗
+            </a>
           )}
         </div>
       </div>
