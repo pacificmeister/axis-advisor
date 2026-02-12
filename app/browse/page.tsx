@@ -251,8 +251,21 @@ export default function BrowsePage() {
   ];
 
   // Count foils per series from actual data
+  // Map display names to data series names where they differ
+  const seriesNameMap: Record<string, string> = {
+    'PNG v2': 'PNG',  // Current PNG v2 uses 'PNG' in data
+    'PNG (Legacy)': 'PNG_LEGACY',  // No legacy PNG data currently
+  };
+  
   const getSeriesCount = (seriesName: string) => {
-    return foilData.filter(f => f.specs.series === seriesName).length;
+    const dataSeriesName = seriesNameMap[seriesName] || seriesName;
+    return foilData.filter(f => f.specs.series === dataSeriesName).length;
+  };
+  
+  // Get the correct slug for linking to series pages
+  const getSeriesSlug = (seriesName: string) => {
+    const dataSeriesName = seriesNameMap[seriesName] || seriesName;
+    return dataSeriesName.toLowerCase().replace(/\s+/g, '-');
   };
 
   const currentSeries = seriesDatabase.filter(s => s.category === 'current');
@@ -326,7 +339,7 @@ export default function BrowsePage() {
           {isFrontWing ? (
             hasData ? (
               <Link
-                href={`/series/${series.name.toLowerCase().replace(/\s+/g, '-')}`}
+                href={`/series/${getSeriesSlug(series.name)}`}
                 className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition text-sm"
               >
                 View Models →
