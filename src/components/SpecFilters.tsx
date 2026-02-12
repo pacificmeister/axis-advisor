@@ -176,7 +176,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
                   style={{
                     position: 'absolute',
                     height: '6px',
-                    backgroundColor: '#374151',
+                    backgroundColor: '#dc2626',
                     borderRadius: '3px',
                     left: `${((filters.surfaceAreaMin - ranges.area.min) / (ranges.area.max - ranges.area.min)) * 100}%`,
                     right: `${100 - ((filters.surfaceAreaMax - ranges.area.min) / (ranges.area.max - ranges.area.min)) * 100}%`
@@ -247,7 +247,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
                   ...props.style,
                   height: '20px',
                   width: '20px',
-                  backgroundColor: '#dc2626',
+                  backgroundColor: '#374151',
                   borderRadius: '50%',
                   boxShadow: '0 2px 6px rgba(0,0,0,0.3)'
                 }}
@@ -286,7 +286,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
                   style={{
                     position: 'absolute',
                     height: '6px',
-                    backgroundColor: '#374151',
+                    backgroundColor: '#dc2626',
                     borderRadius: '3px',
                     left: `${((filters.chordMin - ranges.chord.min) / (ranges.chord.max - ranges.chord.min)) * 100}%`,
                     right: `${100 - ((filters.chordMax - ranges.chord.min) / (ranges.chord.max - ranges.chord.min)) * 100}%`
@@ -341,7 +341,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
                   style={{
                     position: 'absolute',
                     height: '6px',
-                    backgroundColor: '#374151',
+                    backgroundColor: '#dc2626',
                     borderRadius: '3px',
                     left: `${((filters.priceMin - ranges.price.min) / (ranges.price.max - ranges.price.min)) * 100}%`,
                     right: `${100 - ((filters.priceMax - ranges.price.min) / (ranges.price.max - ranges.price.min)) * 100}%`
