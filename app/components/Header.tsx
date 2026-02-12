@@ -59,6 +59,16 @@ export default function Header() {
           >
             WIZARD
           </Link>
+          <Link 
+            href="/contribute" 
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              pathname === '/contribute' 
+                ? 'bg-emerald-600 text-white' 
+                : 'bg-emerald-500 text-white hover:bg-emerald-600'
+            }`}
+          >
+            CONTRIBUTE
+          </Link>
         </nav>
       </div>
     </header>
