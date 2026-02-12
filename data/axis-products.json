@@ -24,7 +24,8 @@
             "name": "ART 1099 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1099,
-            "series": "ART"
+            "series": "ART",
+            "modelNumber": 1099
           },
           "tags": [
             "art",
@@ -52,7 +53,8 @@
             "name": "ART 999 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 999,
-            "series": "ART"
+            "series": "ART",
+            "modelNumber": 999
           },
           "tags": [
             "art",
@@ -90,7 +92,8 @@
             "name": "ART 899 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 899,
-            "series": "ART"
+            "series": "ART",
+            "modelNumber": 899
           },
           "tags": [
             "art",
@@ -118,7 +121,8 @@
             "name": "ART 799 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 799,
-            "series": "ART"
+            "series": "ART",
+            "modelNumber": 799
           },
           "tags": [
             "art",
@@ -146,7 +150,8 @@
             "name": "ART 699 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 699,
-            "series": "ART"
+            "series": "ART",
+            "modelNumber": 699
           },
           "tags": [
             "art",
@@ -181,7 +186,8 @@
             "chord": 139.04761904761904,
             "maxChord": 170,
             "trueArea": 1502,
-            "projectedArea": 1460
+            "projectedArea": 1460,
+            "modelNumber": 1050
           },
           "tags": [
             "b-series",
@@ -223,7 +229,8 @@
             "chord": 130.8969387755102,
             "maxChord": 160,
             "trueArea": 1322.8,
-            "projectedArea": 1282.79
+            "projectedArea": 1282.79,
+            "modelNumber": 980
           },
           "tags": [
             "b-series",
@@ -265,7 +272,8 @@
             "chord": 126.75483870967741,
             "maxChord": 155,
             "trueArea": 1214,
-            "projectedArea": 1178.82
+            "projectedArea": 1178.82,
+            "modelNumber": 930
           },
           "tags": [
             "b-series",
@@ -308,7 +316,8 @@
             "chord": 122.66250000000001,
             "maxChord": 150,
             "trueArea": 1111.94,
-            "projectedArea": 1079.43
+            "projectedArea": 1079.43,
+            "modelNumber": 880
           },
           "tags": [
             "b-series",
@@ -351,7 +360,8 @@
             "chord": 118.55421686746988,
             "maxChord": 145,
             "trueArea": 1014,
-            "projectedArea": 984
+            "projectedArea": 984,
+            "modelNumber": 830
           },
           "tags": [
             "830",
@@ -393,7 +403,8 @@
             "chord": 124.28571428571429,
             "maxChord": 160,
             "trueArea": 890,
-            "projectedArea": 870
+            "projectedArea": 870,
+            "modelNumber": 700
           },
           "tags": [
             "b-series",
@@ -435,7 +446,8 @@
             "chord": 114.46153846153845,
             "maxChord": 140,
             "trueArea": 769,
-            "projectedArea": 744
+            "projectedArea": 744,
+            "modelNumber": 650
           },
           "tags": [
             "b-series",
@@ -476,7 +488,8 @@
             "volume": 3581.35,
             "maxChord": 220,
             "trueArea": 2101.67,
-            "projectedArea": 2006.56
+            "projectedArea": 2006.56,
+            "modelNumber": 1120
           },
           "tags": [
             "broad spectrum carve",
@@ -520,7 +533,8 @@
             "volume": 2800,
             "maxChord": 200,
             "trueArea": 1803.33,
-            "projectedArea": 1726
+            "projectedArea": 1726,
+            "modelNumber": 1060
           },
           "tags": [
             "broad spectrum carve",
@@ -564,7 +578,8 @@
             "volume": 2313.03,
             "maxChord": 190,
             "trueArea": 1571.9,
-            "projectedArea": 1500.85
+            "projectedArea": 1500.85,
+            "modelNumber": 970
           },
           "tags": [
             "broad spectrum carve",
@@ -605,7 +620,8 @@
             "chord": 138.42696629213484,
             "maxChord": 170,
             "trueArea": 1290,
-            "projectedArea": 1232
+            "projectedArea": 1232,
+            "modelNumber": 890
           },
           "tags": [
             "b-series",
@@ -646,7 +662,8 @@
             "chord": 126.23456790123457,
             "maxChord": 155,
             "trueArea": 1070,
-            "projectedArea": 1022.5
+            "projectedArea": 1022.5,
+            "modelNumber": 810
           },
           "tags": [
             "b-series",
@@ -688,7 +705,8 @@
             "chord": 114.02702702702703,
             "maxChord": 140,
             "trueArea": 883.12,
-            "projectedArea": 843.8
+            "projectedArea": 843.8,
+            "modelNumber": 740
           },
           "tags": [
             "b-series",
@@ -731,7 +749,8 @@
             "chord": 153.5473282442748,
             "maxChord": 185,
             "trueArea": 2080,
-            "projectedArea": 2011.47
+            "projectedArea": 2011.47,
+            "modelNumber": 1310
           },
           "tags": [
             "carbon",
@@ -777,7 +796,8 @@
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
-            "projectedArea": 1700
+            "projectedArea": 1700,
+            "modelNumber": 1300
           },
           "tags": [
             "1300",
@@ -826,7 +846,8 @@
             "chord": 148.93304347826086,
             "maxChord": 180,
             "trueArea": 1777.74,
-            "projectedArea": 1712.73
+            "projectedArea": 1712.73,
+            "modelNumber": 1150
           },
           "tags": [
             "115",
@@ -875,7 +896,8 @@
             "chord": 141.58415841584159,
             "maxChord": 170,
             "trueArea": 1430.16,
-            "projectedArea": 1430
+            "projectedArea": 1430,
+            "modelNumber": 1010
           },
           "tags": [
             "101",
@@ -925,7 +947,8 @@
             "chord": 133.84615384615384,
             "maxChord": 160,
             "trueArea": 1267.7,
-            "projectedArea": 1218
+            "projectedArea": 1218,
+            "modelNumber": 910
           },
           "tags": [
             "carbon",
@@ -1013,7 +1036,8 @@
             "chord": 124.82352941176471,
             "maxChord": 150,
             "trueArea": 1102,
-            "projectedArea": 1061
+            "projectedArea": 1061,
+            "modelNumber": 850
           },
           "tags": [
             "b-series",
@@ -1061,7 +1085,8 @@
             "chord": 140.9860465116279,
             "maxChord": 180,
             "trueArea": 1293,
-            "projectedArea": 1212.48
+            "projectedArea": 1212.48,
+            "modelNumber": 860
           },
           "tags": [
             "all kite",
@@ -1106,7 +1131,8 @@
             "chord": 148.80131578947368,
             "maxChord": 190,
             "trueArea": 1218.52,
-            "projectedArea": 1130.89
+            "projectedArea": 1130.89,
+            "modelNumber": 760
           },
           "tags": [
             "all kite",
@@ -1152,7 +1178,8 @@
             "chord": 157.42424242424244,
             "maxChord": 200,
             "trueArea": null,
-            "projectedArea": 1039
+            "projectedArea": 1039,
+            "modelNumber": 660
           },
           "tags": [
             "all kite",
@@ -1194,7 +1221,8 @@
             "surfaceArea": 877.0,
             "aspectRatio": 13.07,
             "chord": 81.9,
-            "itemCode": "AXFIREBALL1070"
+            "itemCode": "AXFIREBALL1070",
+            "modelNumber": 1070
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
@@ -1220,7 +1248,8 @@
             "surfaceArea": 773.0,
             "aspectRatio": 12.95,
             "chord": 77.2,
-            "itemCode": "AXFIREBALL1000"
+            "itemCode": "AXFIREBALL1000",
+            "modelNumber": 1000
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
@@ -1246,7 +1275,8 @@
             "surfaceArea": 689.0,
             "aspectRatio": 12.84,
             "chord": 73.2,
-            "itemCode": "AXFIREBALL940"
+            "itemCode": "AXFIREBALL940",
+            "modelNumber": 940
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
@@ -1272,7 +1302,8 @@
             "surfaceArea": 604.0,
             "aspectRatio": 12.82,
             "chord": 68.6,
-            "itemCode": "AXFIREBALL880"
+            "itemCode": "AXFIREBALL880",
+            "modelNumber": 880
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
@@ -1303,7 +1334,8 @@
             "volume": 1894.92,
             "maxChord": 180,
             "trueArea": 1712,
-            "projectedArea": 1700
+            "projectedArea": 1700,
+            "modelNumber": 1300
           },
           "tags": [],
           "created_at": "2024-09-18T23:53:14-07:00",
@@ -1329,7 +1361,8 @@
             "surfaceArea": 996.29,
             "aspectRatio": 13.52,
             "chord": 85.8,
-            "itemCode": "AXFIREBALL1160"
+            "itemCode": "AXFIREBALL1160",
+            "modelNumber": 1160
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
@@ -1355,7 +1388,8 @@
             "surfaceArea": 1132.58,
             "aspectRatio": 13.81,
             "chord": 90.5,
-            "itemCode": "AXFIREBALL1250"
+            "itemCode": "AXFIREBALL1250",
+            "modelNumber": 1250
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
@@ -1381,7 +1415,8 @@
             "surfaceArea": 1308.78,
             "aspectRatio": 13.93,
             "chord": 96.9,
-            "itemCode": "AXFIREBALL1350"
+            "itemCode": "AXFIREBALL1350",
+            "modelNumber": 1350
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
@@ -1407,7 +1442,8 @@
             "surfaceArea": 1803.0,
             "aspectRatio": 8.0,
             "chord": 150.1,
-            "itemCode": "AXPNGV21200"
+            "itemCode": "AXPNGV21200",
+            "modelNumber": 1200
           },
           "tags": [],
           "created_at": "2025-04-22T04:09:11-07:00",
@@ -1438,7 +1474,8 @@
             "volume": 1734,
             "maxChord": 150,
             "trueArea": 1660,
-            "projectedArea": 1626
+            "projectedArea": 1626,
+            "modelNumber": 1400
           },
           "tags": [],
           "created_at": "2025-04-22T04:25:15-07:00",
@@ -1464,7 +1501,8 @@
             "surfaceArea": 746.0,
             "aspectRatio": 15.93,
             "chord": 68.4,
-            "itemCode": "AXTEMPO1090"
+            "itemCode": "AXTEMPO1090",
+            "modelNumber": 1090
           },
           "tags": [
             "surf",
@@ -1495,7 +1533,8 @@
             "surfaceArea": 653.0,
             "aspectRatio": 15.93,
             "chord": 64.0,
-            "itemCode": "AXTEMPO1020"
+            "itemCode": "AXTEMPO1020",
+            "modelNumber": 1020
           },
           "tags": [
             "surf",
@@ -1526,7 +1565,8 @@
             "surfaceArea": 578.0,
             "aspectRatio": 15.94,
             "chord": 60.2,
-            "itemCode": "AXTEMPO960"
+            "itemCode": "AXTEMPO960",
+            "modelNumber": 960
           },
           "tags": [
             "surf",
@@ -1557,7 +1597,8 @@
             "surfaceArea": 528.0,
             "aspectRatio": 16.03,
             "chord": 57.4,
-            "itemCode": "AXTEMPO920"
+            "itemCode": "AXTEMPO920",
+            "modelNumber": 920
           },
           "tags": [
             "surf",
@@ -1588,7 +1629,8 @@
             "surfaceArea": 495.44,
             "aspectRatio": 16.0,
             "chord": 55.6,
-            "itemCode": "AXTEMPO890"
+            "itemCode": "AXTEMPO890",
+            "modelNumber": 890
           },
           "tags": [
             "surf",
@@ -1619,7 +1661,8 @@
             "surfaceArea": 1313.0,
             "aspectRatio": 17.15,
             "chord": 87.0,
-            "itemCode": "AXFIREBALL1500"
+            "itemCode": "AXFIREBALL1500",
+            "modelNumber": 1500
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
@@ -1645,7 +1688,8 @@
             "surfaceArea": 1525.0,
             "aspectRatio": 20.12,
             "chord": 81.1,
-            "itemCode": "AXFIREBALL1750"
+            "itemCode": "AXFIREBALL1750",
+            "modelNumber": 1750
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
@@ -1671,7 +1715,8 @@
             "surfaceArea": 590.0,
             "aspectRatio": 9.3,
             "chord": 79.6,
-            "itemCode": "AXSURGE740"
+            "itemCode": "AXSURGE740",
+            "modelNumber": 740
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
@@ -1697,7 +1742,8 @@
             "surfaceArea": 643.0,
             "aspectRatio": 9.48,
             "chord": 82.3,
-            "itemCode": "AXSURGE780"
+            "itemCode": "AXSURGE780",
+            "modelNumber": 780
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
@@ -1723,7 +1769,8 @@
             "surfaceArea": 728.0,
             "aspectRatio": 9.48,
             "chord": 87.6,
-            "itemCode": "AXSURGE830"
+            "itemCode": "AXSURGE830",
+            "modelNumber": 830
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
@@ -1749,7 +1796,8 @@
             "surfaceArea": 835.0,
             "aspectRatio": 9.5,
             "chord": 93.7,
-            "itemCode": "AXSURGE890"
+            "itemCode": "AXSURGE890",
+            "modelNumber": 890
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
@@ -1775,7 +1823,8 @@
             "surfaceArea": 949.0,
             "aspectRatio": 9.52,
             "chord": 99.8,
-            "itemCode": "AXSURGE950"
+            "itemCode": "AXSURGE950",
+            "modelNumber": 950
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
@@ -1801,7 +1850,8 @@
             "surfaceArea": 1076.0,
             "aspectRatio": 9.49,
             "chord": 106.4,
-            "itemCode": "AXSURGE1010"
+            "itemCode": "AXSURGE1010",
+            "modelNumber": 1010
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
@@ -1827,7 +1877,8 @@
             "surfaceArea": 1554.0,
             "aspectRatio": 9.13,
             "chord": 129.2,
-            "itemCode": "AXSPITFIRE1180"
+            "itemCode": "AXSPITFIRE1180",
+            "modelNumber": 1180
           },
           "tags": [],
           "created_at": "2024-02-06T00:32:29-08:00",
@@ -1853,7 +1904,8 @@
             "surfaceArea": 1423.0,
             "aspectRatio": 8.66,
             "chord": 127.1,
-            "itemCode": "AXSPITFIRE1100"
+            "itemCode": "AXSPITFIRE1100",
+            "modelNumber": 1100
           },
           "tags": [],
           "created_at": "2023-06-20T20:14:34-07:00",
@@ -1879,7 +1931,8 @@
             "surfaceArea": 1308.0,
             "aspectRatio": 8.26,
             "chord": 124.8,
-            "itemCode": "AXSPITFIRE1030"
+            "itemCode": "AXSPITFIRE1030",
+            "modelNumber": 1030
           },
           "tags": [],
           "created_at": "2023-06-20T20:16:30-07:00",
@@ -1905,7 +1958,8 @@
             "surfaceArea": 1196.0,
             "aspectRatio": 7.84,
             "chord": 122.4,
-            "itemCode": "AXSPITFIRE960"
+            "itemCode": "AXSPITFIRE960",
+            "modelNumber": 960
           },
           "tags": [],
           "created_at": "2023-06-20T20:17:26-07:00",
@@ -1931,7 +1985,8 @@
             "surfaceArea": 1080.0,
             "aspectRatio": 7.5,
             "chord": 120.0,
-            "itemCode": "AXSPITFIRE900"
+            "itemCode": "AXSPITFIRE900",
+            "modelNumber": 900
           },
           "tags": [],
           "created_at": "2023-06-20T20:18:59-07:00",
@@ -1957,7 +2012,8 @@
             "surfaceArea": 1006.0,
             "aspectRatio": 7.14,
             "chord": 117.6,
-            "itemCode": "AXSPITFIRE840"
+            "itemCode": "AXSPITFIRE840",
+            "modelNumber": 840
           },
           "tags": [],
           "created_at": "2023-06-20T20:19:51-07:00",
@@ -1983,7 +2039,8 @@
             "surfaceArea": 902.0,
             "aspectRatio": 6.87,
             "chord": 113.6,
-            "itemCode": "AXSPITFIRE780"
+            "itemCode": "AXSPITFIRE780",
+            "modelNumber": 780
           },
           "tags": [],
           "created_at": "2023-06-20T20:20:42-07:00",
@@ -2009,7 +2066,8 @@
             "surfaceArea": 815.0,
             "aspectRatio": 6.47,
             "chord": 111.2,
-            "itemCode": "AXSPITFIRE720"
+            "itemCode": "AXSPITFIRE720",
+            "modelNumber": 720
           },
           "tags": [],
           "created_at": "2023-08-24T00:14:18-07:00",
@@ -2035,7 +2093,8 @@
             "surfaceArea": 721.0,
             "aspectRatio": 6.34,
             "chord": 105.7,
-            "itemCode": "AXSPITFIRE670"
+            "itemCode": "AXSPITFIRE670",
+            "modelNumber": 670
           },
           "tags": [],
           "created_at": "2024-04-28T15:20:01-07:00",
@@ -2061,7 +2120,8 @@
             "surfaceArea": 628.0,
             "aspectRatio": 6.12,
             "chord": 101.3,
-            "itemCode": "AXSPITFIRE620"
+            "itemCode": "AXSPITFIRE620",
+            "modelNumber": 620
           },
           "tags": [],
           "created_at": "2024-04-28T15:26:41-07:00",
@@ -2088,7 +2148,8 @@
             "aspectRatio": 10.08,
             "chord": 107.0,
             "itemCode": "AXARTV21099",
-            "wingspan": 1099
+            "wingspan": 1099,
+            "modelNumber": 1099
           },
           "tags": [
             "2024",
@@ -2124,7 +2185,8 @@
             "aspectRatio": 9.9,
             "chord": 101.0,
             "itemCode": "AXARTV2999",
-            "wingspan": 999
+            "wingspan": 999,
+            "modelNumber": 2999
           },
           "tags": [
             "2024",
@@ -2160,7 +2222,8 @@
             "aspectRatio": 10.0,
             "chord": 94.0,
             "itemCode": "AXARTV2939",
-            "wingspan": 939
+            "wingspan": 939,
+            "modelNumber": 2939
           },
           "tags": [
             "2024",
@@ -2196,7 +2259,8 @@
             "aspectRatio": 9.98,
             "chord": 82.0,
             "itemCode": "AXARTV2819",
-            "wingspan": 879
+            "wingspan": 879,
+            "modelNumber": 2819
           },
           "tags": [
             "2024",
@@ -2229,7 +2293,8 @@
             "series": "ART v2",
             "area": 647,
             "wingspan": 819,
-            "aspectRatio": 9.98
+            "aspectRatio": 9.98,
+            "modelNumber": 819
           },
           "tags": [
             "2024",

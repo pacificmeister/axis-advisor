@@ -11,6 +11,7 @@ interface Product {
     series: string;
     area: number;
     aspectRatio?: number;
+    modelNumber?: number;
   };
   description?: string;
 }
@@ -804,7 +805,7 @@ export default function WizardPage() {
                           #{index + 1} RECOMMENDATION
                         </div>
                         <h3 className="text-2xl font-black text-gray-900">
-                          {rec.product.specs.series} {rec.product.specs.area}
+                          {rec.product.specs.series} {rec.product.specs.modelNumber || rec.product.specs.area}
                         </h3>
                       </div>
                       <div className="text-right">
