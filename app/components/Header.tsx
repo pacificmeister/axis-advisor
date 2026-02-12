@@ -1,38 +1,64 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+  const pathname = usePathname();
+  
   return (
     <header className="axis-gradient border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition group">
-          <div className="bg-red-600 px-4 py-2 rounded group-hover:bg-red-700 transition">
-            <span className="text-xl font-black text-white tracking-tight" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-              AXIS FOILS<sup className="text-xs">®</sup>
-            </span>
+        <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition group">
+          <div className="bg-red-600 px-3 py-1.5 rounded group-hover:bg-red-700 transition">
+            <span className="text-lg font-black text-white tracking-tight">AX</span>
           </div>
-          <span className="text-sm font-semibold text-red-400">
-            Comparison Tool
+          <span className="text-lg font-bold text-white">
+            ADVISOR
           </span>
         </Link>
         
-        <nav className="flex items-center gap-6">
-          <Link href="/search" className="text-sm font-semibold text-white hover:text-red-400 transition">
-            Search & Filter
-          </Link>
-          <Link href="/browse" className="text-sm font-semibold text-white hover:text-red-400 transition">
-            Browse by Series
-          </Link>
-          <Link href="/wizard" className="text-sm font-semibold text-white hover:text-red-400 transition">
-            Recommendation Wizard
-          </Link>
-          <a 
-            href="https://axisfoils.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-sm text-gray-400 hover:text-white transition hidden md:block"
+        <nav className="flex items-center gap-2">
+          <Link 
+            href="/search" 
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              pathname === '/search' 
+                ? 'bg-gray-700 text-white' 
+                : 'text-gray-300 hover:text-white hover:bg-gray-800'
+            }`}
           >
-            axisfoils.com →
-          </a>
+            LOOK-UP
+          </Link>
+          <Link 
+            href="/compare" 
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              pathname === '/compare' 
+                ? 'bg-blue-600 text-white' 
+                : 'bg-blue-500 text-white hover:bg-blue-600'
+            }`}
+          >
+            COMPARE
+          </Link>
+          <Link 
+            href="/browse" 
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              pathname === '/browse' 
+                ? 'bg-gray-700 text-white' 
+                : 'text-gray-300 hover:text-white hover:bg-gray-800'
+            }`}
+          >
+            BROWSE
+          </Link>
+          <Link 
+            href="/wizard" 
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition ${
+              pathname === '/wizard' 
+                ? 'bg-red-600 text-white' 
+                : 'bg-red-500 text-white hover:bg-red-600'
+            }`}
+          >
+            WIZARD
+          </Link>
         </nav>
       </div>
     </header>

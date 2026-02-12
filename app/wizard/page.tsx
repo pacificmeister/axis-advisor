@@ -132,10 +132,10 @@ export default function WizardPage() {
     // Define preferred series for each discipline (CURRENT/NEWER ONLY)
     const disciplineSeries: Record<string, string[]> = {
       wing: skillLevel === 'beginner' 
-        ? ['Surge', 'Tempo', 'ART v2'] 
+        ? ['Surge', 'BSC'] 
         : skillLevel === 'intermediate' 
-          ? ['ART v2', 'Surge', 'Tempo', 'Spitfire'] 
-          : ['ART v2', 'Spitfire', 'Tempo', 'Fireball'],
+          ? ['Surge', 'ART v2', 'Fireball'] 
+          : ['Tempo', 'Spitfire', 'ART v2', 'Fireball'],
       // Parawing series change by skill level (expert-validated, current only)
       parawing: skillLevel === 'beginner' 
         ? ['PNG V2', 'Surge', 'Tempo'] 
@@ -206,6 +206,26 @@ export default function WizardPage() {
         // Too large is inefficient for advanced
         if (skillLevel === 'advanced' && area > baseArea * 1.3) {
           score -= 20;
+        }
+
+        // Aspect Ratio (AR) scoring - critical for skill matching
+        const ar = product.specs.aspectRatio;
+        if (ar) {
+          if (skillLevel === 'beginner') {
+            // Beginners need lower AR for stability
+            if (ar > 12) score -= 25;      // High AR = too fast/twitchy
+            else if (ar > 10) score -= 10; // Medium-high AR = challenging
+            else if (ar < 9) score += 5;   // Low AR = forgiving, bonus
+          } else if (skillLevel === 'intermediate') {
+            // Intermediates do well with mid-range AR
+            if (ar > 14) score -= 15;      // Very high AR = challenging
+            else if (ar > 12) score -= 5;  // High AR = slight penalty
+            else if (ar >= 9 && ar <= 11) score += 5; // Sweet spot bonus
+          } else if (skillLevel === 'advanced') {
+            // Advanced riders can handle high AR, slight bonus for efficiency
+            if (ar < 8) score -= 10;       // Too low = inefficient
+            else if (ar > 10) score += 5;  // Higher AR = more efficient
+          }
         }
 
         // Match FB feedback

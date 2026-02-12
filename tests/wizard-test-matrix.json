@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "description": "Expert-validated test cases for wizard recommendations",
+    "version": "1.1",
+    "last_updated": "2026-02-11",
+    "notes": "Updated with actual product data - removed phantom products"
+  },
+  "test_cases": [
+    {
+      "id": "wing-beginner-150",
+      "name": "150 lbs beginner winger",
+      "input": {
+        "weight": 150,
+        "weightUnit": "lbs",
+        "skillLevel": "beginner",
+        "useCase": "wing"
+      },
+      "expected": {
+        "idealArea": 1170,
+        "acceptableRange": [950, 1300],
+        "preferredSeries": ["Surge", "BSC"],
+        "topRecommendations": [
+          { "series": "Surge", "area": 1010, "reasoning": "Largest Surge available, closest to ideal" },
+          { "series": "BSC", "area": 1120, "reasoning": "Stable, forgiving for learning" },
+          { "series": "Surge", "area": 950, "reasoning": "Slightly undersized but manageable" }
+        ],
+        "notes": "Surge maxes at 1010 - no 1150 exists"
+      }
+    },
+    {
+      "id": "wing-intermediate-190",
+      "name": "190 lbs intermediate winger",
+      "input": {
+        "weight": 190,
+        "weightUnit": "lbs",
+        "skillLevel": "intermediate",
+        "useCase": "wing"
+      },
+      "expected": {
+        "idealArea": 1140,
+        "acceptableRange": [1000, 1250],
+        "preferredSeries": ["Surge", "ART v2", "Fireball"],
+        "topRecommendations": [
+          { "series": "Fireball", "area": 1160, "reasoning": "Best size match (1.8% over)" },
+          { "series": "ART v2", "area": 1038, "reasoning": "Good efficiency, 9% under" },
+          { "series": "Fireball", "area": 1070, "reasoning": "Slightly undersized, responsive" }
+        ],
+        "shouldNotRecommend": [
+          { "series": "Tempo", "reason": "Too advanced for intermediate" },
+          { "series": "Spitfire", "reason": "Too advanced for intermediate" }
+        ],
+        "notes": "Surge 1010 is 11% under ideal - Fireball 1160 is better match"
+      }
+    },
+    {
+      "id": "wing-advanced-200",
+      "name": "200 lbs advanced winger",
+      "input": {
+        "weight": 200,
+        "weightUnit": "lbs",
+        "skillLevel": "advanced",
+        "useCase": "wing"
+      },
+      "expected": {
+        "idealArea": 960,
+        "acceptableRange": [850, 1100],
+        "preferredSeries": ["Tempo", "Spitfire", "ART v2", "Fireball"],
+        "topRecommendations": [
+          { "series": "Tempo", "area": 960, "reasoning": "Perfect match, high performance" },
+          { "series": "Spitfire", "area": 960, "reasoning": "Race performance, exact size" },
+          { "series": "Tempo", "area": 1020, "reasoning": "Slightly larger for versatility" }
+        ]
+      }
+    },
+    {
+      "id": "parawing-intermediate-200",
+      "name": "200 lbs intermediate parawinger",
+      "input": {
+        "weight": 200,
+        "weightUnit": "lbs",
+        "skillLevel": "intermediate",
+        "useCase": "parawing"
+      },
+      "expected": {
+        "idealArea": 1104,
+        "acceptableRange": [1000, 1200],
+        "preferredSeries": ["Fireball", "ART v2", "Surge"],
+        "topRecommendations": [
+          { "series": "Fireball", "area": 1070, "reasoning": "Good balance, 3% under" },
+          { "series": "Fireball", "area": 1160, "reasoning": "Slightly larger for stability" },
+          { "series": "ART v2", "area": 1038, "reasoning": "Efficient glide option" }
+        ],
+        "shouldNotRecommend": [
+          { "series": "PNG V2", "area": 1300, "reason": "Too large for intermediate skill" }
+        ]
+      }
+    },
+    {
+      "id": "parawing-advanced-200",
+      "name": "200 lbs advanced parawinger",
+      "input": {
+        "weight": 200,
+        "weightUnit": "lbs",
+        "skillLevel": "advanced",
+        "useCase": "parawing"
+      },
+      "expected": {
+        "idealArea": 1080,
+        "acceptableRange": [950, 1150],
+        "preferredSeries": ["Fireball", "Tempo", "ART v2", "Spitfire"],
+        "topRecommendations": [
+          { "series": "Fireball", "area": 1070, "reasoning": "Near-perfect match, fast" },
+          { "series": "Tempo", "area": 1090, "reasoning": "High performance glide" },
+          { "series": "Fireball", "area": 1000, "reasoning": "Smaller for max speed" }
+        ],
+        "shouldNotRecommend": [
+          { "series": "PNG V2", "area": 1200, "reason": "Too large for advanced" }
+        ]
+      }
+    },
+    {
+      "id": "prone-intermediate-180",
+      "name": "180 lbs intermediate prone surfer",
+      "input": {
+        "weight": 180,
+        "weightUnit": "lbs",
+        "skillLevel": "intermediate",
+        "useCase": "prone"
+      },
+      "expected": {
+        "idealArea": 918,
+        "acceptableRange": [800, 1050],
+        "preferredSeries": ["Surge", "Fireball", "Tempo"],
+        "topRecommendations": [
+          { "series": "Surge", "area": 890, "reasoning": "Close match, versatile" },
+          { "series": "Surge", "area": 950, "reasoning": "Slightly larger for easy waves" },
+          { "series": "Fireball", "area": 940, "reasoning": "Wave specialist" }
+        ]
+      }
+    },
+    {
+      "id": "pump-beginner-160",
+      "name": "160 lbs beginner pumper",
+      "input": {
+        "weight": 160,
+        "weightUnit": "lbs",
+        "skillLevel": "beginner",
+        "useCase": "pump"
+      },
+      "expected": {
+        "idealArea": 1747,
+        "acceptableRange": [1500, 1900],
+        "preferredSeries": ["PNG V2", "Fireball"],
+        "topRecommendations": [
+          { "series": "Fireball", "area": 1750, "reasoning": "Exact match for learning pump" },
+          { "series": "Fireball", "area": 1500, "reasoning": "Slightly smaller option" },
+          { "series": "PNG V2", "area": 1400, "reasoning": "High aspect for glide" }
+        ],
+        "notes": "PNG V2 maxes at 1400 - Fireball 1750 is better match"
+      }
+    },
+    {
+      "id": "downwind-intermediate-170",
+      "name": "170 lbs intermediate downwinder",
+      "input": {
+        "weight": 170,
+        "weightUnit": "lbs",
+        "skillLevel": "intermediate",
+        "useCase": "downwind"
+      },
+      "expected": {
+        "idealArea": 1326,
+        "acceptableRange": [1200, 1450],
+        "preferredSeries": ["PNG V2", "Surge", "Fireball"],
+        "topRecommendations": [
+          { "series": "PNG V2", "area": 1310, "reasoning": "Great for connecting bumps" },
+          { "series": "PNG V2", "area": 1300, "reasoning": "High aspect downwind machine" },
+          { "series": "Fireball", "area": 1350, "reasoning": "Versatile option" }
+        ]
+      }
+    }
+  ],
+  "actual_product_ranges": {
+    "Surge": { "min": 740, "max": 1010, "ar_range": "9.3-9.5" },
+    "ART_v2": { "min": 647, "max": 1220, "ar_range": "9.98-10.08", "note": "Model names are wingspans, not areas" },
+    "Fireball": { "min": 880, "max": 1750, "ar_range": "12.82-20.12" },
+    "Tempo": { "min": 890, "max": 1090, "ar_range": "~10" },
+    "Spitfire": { "min": 620, "max": 1180, "ar_range": "varies" },
+    "PNG_V2": { "min": 850, "max": 1400, "ar_range": "varies" },
+    "BSC": { "min": 740, "max": 1120, "ar_range": "varies", "note": "Legacy series" }
+  }
+}
