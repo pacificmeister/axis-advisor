@@ -47,6 +47,7 @@ export default function WizardPage() {
   const [weightUnit, setWeightUnit] = useState<'lbs' | 'kg'>('lbs');
   const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
   const [loadingProsCons, setLoadingProsCons] = useState(false);
+  const [heavyRiderWarning, setHeavyRiderWarning] = useState<string | null>(null);
 
   // Load product data
   useEffect(() => {
@@ -150,7 +151,19 @@ export default function WizardPage() {
       baseArea *= disciplineAdjustments[useCase] || 1.0;
     }
 
+    // Set warning for heavy riders when target area exceeds typical range
+    if (baseArea > 1500) {
+      setHeavyRiderWarning(`At ${weight} lbs for ${useCase}, you need a large foil (~${Math.round(baseArea)} cm²). The Fireball 1500-1750 are your best options. Consider consulting an AXIS dealer for personalized advice.`);
+    } else if (baseArea > 1200) {
+      setHeavyRiderWarning(`At ${weight} lbs, you're in the upper weight range. Focus on the largest sizes in each series for best results.`);
+    } else {
+      setHeavyRiderWarning(null);
+    }
+
     // Define preferred series for each discipline (CURRENT/NEWER ONLY)
+    // Heavy riders (200+ lbs) need access to Fireball for large sizes
+    const isHeavyRider = weight >= 200;
+    
     const disciplineSeries: Record<string, string[]> = {
       wing: skillLevel === 'beginner' 
         ? ['Surge', 'BSC'] 
@@ -167,9 +180,16 @@ export default function WizardPage() {
         ? ['Surge', 'Tempo'] 
         : ['Spitfire', 'ART v2', 'PNG V2', 'Fireball'],
       prone: ['Surge', 'Fireball', 'Tempo'],
-      sup: ['PNG V2', 'Surge', 'Tempo'],
-      downwind: ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
-      pump: ['PNG V2', 'Tempo', 'Surge'],
+      // SUP/pump/downwind: Fireball essential for heavy riders (goes to 1750 cm²)
+      sup: isHeavyRider 
+        ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire'] 
+        : ['PNG V2', 'Surge', 'Tempo'],
+      downwind: isHeavyRider 
+        ? ['Fireball', 'PNG V2', 'Surge', 'ART v2'] 
+        : ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
+      pump: isHeavyRider 
+        ? ['Fireball', 'PNG V2', 'Surge', 'Spitfire'] 
+        : ['PNG V2', 'Tempo', 'Surge'],
     };
 
     const preferredSeries = disciplineSeries[useCase] || [];
@@ -213,10 +233,21 @@ export default function WizardPage() {
           score += 10; // Good match
         } else if (areaPercent < 0.3) {
           score += 0; // Acceptable
+        } else if (areaPercent < 0.4) {
+          score -= 20; // Not ideal
         } else if (areaPercent < 0.5) {
-          score -= 15; // Not ideal
+          score -= 40; // Poor match
         } else {
-          score -= 35; // Poor match
+          score -= 60; // Very poor match - way off target
+        }
+
+        // CRITICAL: Dangerously undersized foils get severe penalty
+        // A 250lb rider on a 740cm² foil is dangerous/impossible
+        if (area < baseArea * 0.6) {
+          score -= 50; // Extremely undersized - stacking penalty
+        }
+        if (area < baseArea * 0.5) {
+          score -= 100; // Less than half needed - essentially disqualify
         }
 
         // Too small is dangerous for beginners
@@ -224,9 +255,9 @@ export default function WizardPage() {
           score -= 30;
         }
 
-        // Too large is inefficient for advanced
+        // Too large is inefficient for advanced (but much safer than too small)
         if (skillLevel === 'advanced' && area > baseArea * 1.3) {
-          score -= 20;
+          score -= 15; // Reduced penalty - big is safer than small
         }
 
         // Aspect Ratio (AR) scoring - critical for skill matching
@@ -576,6 +607,18 @@ export default function WizardPage() {
                     formData.useCase === 'downwind' ? 'downwind' : 'pump foiling'}
                 </p>
               </div>
+
+              {heavyRiderWarning && (
+                <div className="bg-amber-50 border-2 border-amber-400 rounded-xl p-4">
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl">⚠️</span>
+                    <div>
+                      <h4 className="font-bold text-amber-800 mb-1">Heavy Rider Note</h4>
+                      <p className="text-amber-700 text-sm">{heavyRiderWarning}</p>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="space-y-6">
                 {recommendations.map((rec, index) => (
