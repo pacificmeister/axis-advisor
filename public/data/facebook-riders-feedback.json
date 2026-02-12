@@ -3,7 +3,7 @@
     "scraped_at": "2026-02-12T04:18:00Z",
     "source": "AXIS Riders FB Group - Combined",
     "version": "3.0",
-    "total_posts": 526
+    "total_posts": 588
   },
   "posts": [
     {
@@ -5261,6 +5261,705 @@
       "rider_weight": "75kg",
       "use_case": "sizing",
       "source": "FB Screenshot 2026-02-12 - Surge Thread"
+    },
+    {
+      "text": "Luke Atkinson on Surge 890 (December 19, 2025): Long rides at home. Riding the Surge 890 with Surf Skinny 300 here. The full clips shows how well these foils pump glide and are the ultimate foil. It really is the ultimate foil for me. Running 80 UHM mast.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": null,
+      "use_case": "prone/surf",
+      "likes": 34,
+      "source": "FB Screenshot 2026-02-12 - Luke Atkinson"
+    },
+    {
+      "text": "Mark Shinn on Surf Skinny vs regular Skinny sizing: I think the 320 surf skinny has similar or more tail lift to the skinny 45 so if you change you would be looking at the 300 or 280... but that's for wave use. For DW or flat water the regular skinny might be a better option.",
+      "foils_mentioned": [
+        "Surf Skinny 320",
+        "Surf Skinny 300",
+        "Surf Skinny 280",
+        "Skinny 45"
+      ],
+      "rider_weight": null,
+      "use_case": "stab comparison",
+      "source": "FB Screenshot 2026-02-12 - ART 819 Stab Thread"
+    },
+    {
+      "text": "Dimitris Apalagakis (73kg) on ART v2 819 setup: 73kg here and using the Art v2 819 for winging. I pair it with the Surf Skinny 300 and Ultra Short fuse and works fantastic. Depending on your sport and conditions you can go for either 300 or 320. Both will do, but for looseness and hard turns definitely the 300. For a bit more stability and low end, or if you use shorter fuse the 320.",
+      "foils_mentioned": [
+        "ART 819",
+        "Surf Skinny 300",
+        "Surf Skinny 320"
+      ],
+      "rider_weight": "73kg",
+      "use_case": "winging/setup",
+      "source": "FB Screenshot 2026-02-12 - ART 819 Stab Thread"
+    },
+    {
+      "text": "Michael Scholes on stab sizing for ART v2 819 at 80kg: I'd recommend a smaller skinny such as the 358/35 or if wanting the surf skinny definitely the 300/45 as the 320/48 still produces a lot of lift.",
+      "foils_mentioned": [
+        "ART 819",
+        "Skinny 358/35",
+        "Surf Skinny 300/45",
+        "Surf Skinny 320/48"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "stab sizing",
+      "source": "FB Screenshot 2026-02-12 - ART 819 Stab Thread"
+    },
+    {
+      "text": "Cimeron (female, learning parawing): I've found the Surge 830 to be the friendliest for me since it's so stable, the camber gets me up on foil faster, and when I'm overpowered the 830 slows things down so I can control the foil and prevent a full-detonation breach. For me, the Surge 830 has been easier than the ART v2 819 and 879 (which need a lot more speed to get up on foil), the Fireball 1070 (too big for me - instant catapult the second I'd get on foil), the Spitfire 780, and the Surge 740 (which was less stable than the 830).",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surge 740",
+        "ART 819",
+        "ART 879",
+        "Fireball 1070",
+        "Spitfire 780"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "parawing/learning",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "MargauxH (female, French): I learn V1 parawing with a PNG 1300! Stability is the key for me. Also: 1070 fireball I agree, loving it!",
+      "foils_mentioned": [
+        "PNG 1300",
+        "Fireball 1070"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "parawing/learning",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Brittany Ayers (female): 1070 Fireball is my fave. Its only 877 cm2. It gives sooo much glide which helps if youre in smaller swell and trying to connect bumps. In Hood I've been on the 1020 tempo in the bigger bumps. Since it has such a big wing span it can be a little tricky coming from a 620 spittie or small ART v2. It only needs a little feedback to turn or carve. Once you dial it in its pure magic! Especially if you are packing your parawing away.",
+      "foils_mentioned": [
+        "Fireball 1070",
+        "Tempo 1020",
+        "Spitfire 620"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "parawing/downwind",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Brittany Ayers (female) on Spitfire 780 vs Fireball 1070: And if you can hold down a 780 Spitfire you can on the 1070. The 780 has a larger actual area than the 1070 fireball. Once you unlock it you will love it! Just think less is more! A little finesse is the way.",
+      "foils_mentioned": [
+        "Spitfire 780",
+        "Fireball 1070"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "comparison/sizing",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Holly Pye (female, UK): I also love the fireball for parawinging. The glide helps to give you extra time to stash the parawing. Excited to try the Surge for the first time very soon too.",
+      "foils_mentioned": [
+        "Fireball",
+        "Surge"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "parawing",
+      "likes": 2,
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Olivia Piana (female, pro foiler) on learning parawing: When I started last summer I learned with the art v2 999 if I remember well, with a 3.8 and like 15/20knots so low-end parawing conditions. It's definitely a new thing! Not as easy as wingfoiling. Now the goal is to use the parawing to get out in the ocean with my sup setup (tempo 960).",
+      "foils_mentioned": [
+        "ART 999",
+        "Tempo 960"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "parawing/SUP",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Lena (female, Austria, competitor): Competing at the boot d\u00fcsseldorf in the pumpfoil event, actually riding the fireball 1350 and not sure which is the best option for the pool. Has somebody tested the surge 1010 for pumpfoiling?",
+      "foils_mentioned": [
+        "Fireball 1350",
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "pumpfoil/competition",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Olivia Piana on Surge 1010 vs Fireball for pool pumpfoiling: For the pool a lower aspect ratio would be definitely better. 1010 kind of the same lift as the 1070 fireball (Yvon from France said that).",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Fireball 1070"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "pumpfoil/comparison",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Gabriella / Gabi Eliah Bella (female) on Surge 780 setup: I've been enjoying the 780 Surge with the ultra short advanced + and 320 surf skinny.. feels really playful but still stable. I tend to prefer the feel of the bigger rear wings for wave riding but I'd like to give the 300 surf skinny another go to see which one I prefer. You can't go wrong with either of those options.",
+      "foils_mentioned": [
+        "Surge 780",
+        "Surf Skinny 320",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "surf/setup",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Gabriella on 280 stab with Surge 780: Yes think if you are already riding the 280 on other foils you will love it on the 780! if you want more lift out of the setup but prefer the feel of the little stabs you can easily try adding in .5 Degree of black shim and see how that feels.",
+      "foils_mentioned": [
+        "Surge 780",
+        "Surf Skinny 280"
+      ],
+      "rider_weight": null,
+      "gender": "female",
+      "use_case": "tuning",
+      "source": "Women's Foiling WhatsApp 2026-02-12"
+    },
+    {
+      "text": "Luke Atkinson (100kg) on Surf Skinny 300 with Surge: Dunno about the comparison but I find the 300 surf skinny perfect for me at 100kg. Plenty of pump to it.",
+      "foils_mentioned": [
+        "Surge",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "100kg",
+      "use_case": "prone/sizing",
+      "likes": 5,
+      "source": "FB Screenshot 2026-02-12 - Ry Stack Thread"
+    },
+    {
+      "text": "Ry Stack on Surge 890 for prone: Just got the surge 890, been pairing with the 35 skinny for prone. Asking about a surf skinny that would preserve roughly same level pump/glide/speed of 35 skinny but give better turning. Also: towing behind an efoil, tow boogie style.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Skinny 35"
+      ],
+      "rider_weight": null,
+      "use_case": "prone/tow boogie",
+      "source": "FB Screenshot 2026-02-12 - Ry Stack Thread"
+    },
+    {
+      "text": "Paul Hurley on Surge 830 + Surf Skinny 300/45 with hand wing: Its feels great but very nervous when the water is a bit messy and the board tends to nosedive the odd time, maybe i need to move the mast?",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": null,
+      "use_case": "wing/issue",
+      "source": "FB Screenshot 2026-02-12 - Ry Stack Thread"
+    },
+    {
+      "text": "Glenn Wade (95kg) on Surge 1010 maiden voyage: I'm 95kg & have been riding Spitfires 1030, 960 & 900 on an Advanced + short fuselage, 300 surf skinny stab with a Sunova 5'3\" 50L board with a Gen2 FD. I was stoked with the Surge in 2' waves but felt that the mast position needed to go forward a bit. It seemed like I had to lean back on the board with lots of back foot pressure to keep the nose up, especially on bottom turns.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030",
+        "Spitfire 960",
+        "Spitfire 900",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "95kg",
+      "use_case": "prone/setup",
+      "likes": 8,
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Mark Shinn on Surge mast positioning: In short - yes, you need to move the mast forward a little. If you were coming from the Fireball you would be used to it already. I suspect it is the high camber profile. When properly set the Surge should feel completely neutral between your 2 feet... and one of the beauties of that foil is that the pressure doesn't shift when your speed changes, once you find your stance you can stay there whether sat on a swell waiting for it to build or dropping into a fast moving steep section.",
+      "foils_mentioned": [
+        "Surge",
+        "Fireball"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning/mast",
+      "likes": 5,
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Mark Shinn on Fireball vs ART v2 mast position: Depending a little on the sport you are doing I think the Fireball prefers to be a couple of cm further forwards in the box than the ART v2. if you are strapless then this is easy to achieve on the fly by simply moving your feet.",
+      "foils_mentioned": [
+        "Fireball",
+        "ART v2"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning/mast",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Hal Turner on switching from Spitfire to Surge 950: been riding the Spitfire's 960/900/840 for a few months. When I switched to the new surge 950 it was almost impossible to keep the nose up. I had to put the mast all the way forward 2 inches further to make it level out. A couple of sessions in and I'm loving it.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Spitfire 960",
+        "Spitfire 900",
+        "Spitfire 840"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning/transition",
+      "likes": 3,
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Harris Chang on Surge 830 stab tuning: I was on a sf840 and skinny 50 tail. i picked up the surge 830 and I felt like too much back foot pressure. Mast was all the way forward already. Went to the skinny 55 and it seem to balance things out. I already had both tails so was an easy swap.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Spitfire 840",
+        "Skinny 50",
+        "Skinny 55"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning/stab",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Mark Shinn on Surge accessibility: My 11 year old son has been Foil Driving all summer on the spitfires but I put him on the Surge and he loved it... said he found everything easier on it.",
+      "foils_mentioned": [
+        "Surge",
+        "Spitfire"
+      ],
+      "rider_weight": null,
+      "use_case": "accessibility",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Sean Richardson on Surge 830 stab choice: I went back to my progressive 300 with my 830 and got much more hold when dropping into bigger waves.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Progressive 300"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning/stab",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Grant Neill on ART to Surge 950 transition with Foil Drive: I have the same experience going from Art 999 and 1099 to Surge 950 with foil drive. At low speed it is ok but at higher speed in waves the nose wants to dive a lot. Changed tail from skinny 360 to 350 progressive which is much bigger... this helped a lot but still not as balanced across the speed range as the Art v2's. Going to try moving the mast forward a little and keeping my stance the same.",
+      "foils_mentioned": [
+        "Surge 950",
+        "ART 999",
+        "ART 1099",
+        "Skinny 360",
+        "Progressive 350"
+      ],
+      "rider_weight": null,
+      "use_case": "foil drive/tuning",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Mark Fisher on Surge nose-down fix: Mast forward or feet back a bit, a mast shim can help if your board tends to ride nose down too.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "tuning",
+      "source": "FB Screenshot 2026-02-12 - Glenn Wade Thread"
+    },
+    {
+      "text": "Sveny Foils (115kg) on Fatty gear review (December 11, 2025): THE FATTY GEAR to a test. Setup: 80 Fatty Mast and the Ultra Short Fatty Fuse on a 950 Surge with a 320 Surf Skinny. I was really impressed with how fast it still goes. I hit over 34 km per hour on a surfy downwind run. It does feel a little harder or draggier to get the foil up, but once you are riding it feels super solid. There is definitely a bit more drag compared to the Ultra High Modulus Mast. With the UHM you can fly higher and it accelerates a lot quicker. The Fatty Mast is slower and you need to pump it more. You cannot really overtake bumps with it. But to be honest I actually like that. You can stay on a bump or a swirl really nicely and just keep surfing it. You are not overrunning it or going too fast. It gives you a different kind of downwind feeling because you can slow it down easily and really surf the energy. The only downside is if you miss a bump or want to overtake one, that is something the Fatty Mast does not really allow. The UHM can do that, no problem. But otherwise I am really impressed with how the Fatty gear works, especially for heavier riders like me at 115kg. I am loving it.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surf Skinny 320"
+      ],
+      "rider_weight": "115kg",
+      "use_case": "downwind/heavy rider",
+      "source": "FB Screenshot 2026-02-12 - Sveny Fatty Review"
+    },
+    {
+      "text": "Adrian Roper on Fatty mast for 115kg rider: I think 950 Surge and your weight the Ultra PRO would feel better as you have said. Where it would really excel is if you were riding say a 1250 Fireball. With that I doubt you would notice the drag but for sure you would feel the added control.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Fireball 1250"
+      ],
+      "rider_weight": "115kg",
+      "use_case": "mast recommendation",
+      "likes": 6,
+      "source": "FB Screenshot 2026-02-12 - Sveny Fatty Review"
+    },
+    {
+      "text": "Mark Shinn on ART v2 vs Surge: The ART v2 is still a great foil but in a wave environment the Surge is just a better foil! If you do alot of winging on flatter water then the v2 is still a very viable option - fast and playful but if you are in the waves you are probably going to wanna swap.",
+      "foils_mentioned": [
+        "ART v2",
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "comparison",
+      "source": "FB Screenshot 2026-02-12 - Surge Sizing Thread"
+    },
+    {
+      "text": "Sebastian Lampen (75kg) asking for prone Surge size: I weigh 75kg, decent prone rider. Goal is to be a wing that I can link 4/5 waves on. Thinking 830.",
+      "foils_mentioned": [
+        "Surge 830"
+      ],
+      "rider_weight": "75kg",
+      "use_case": "prone/sizing",
+      "likes": 2,
+      "source": "FB Screenshot 2026-02-12 - Surge Sizing Thread"
+    },
+    {
+      "text": "Adrian Roper on Surge 950 for 75kg prone rider: 950 should be perfect. On Surf Skinny 320 vs 300: either fine. Depends on balance you prefer. 320 more stable 300 looser turning.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surf Skinny 320",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "75kg",
+      "use_case": "prone/sizing",
+      "source": "FB Screenshot 2026-02-12 - Surge Sizing Thread"
+    },
+    {
+      "text": "Sveny Foils on Surge vs Fireball: If you wanna have fun and have a surfy dw surge 950 and surf skinny 320. If you just wanna shoot dw fireball. Also I found it way easier going upwind on a surge instead of a fireball.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Fireball",
+        "Surf Skinny 320"
+      ],
+      "rider_weight": null,
+      "use_case": "comparison",
+      "likes": 4,
+      "source": "FB Screenshot 2026-02-12 - Surge Sizing Thread"
+    },
+    {
+      "text": "Jake Leichtling (108kg) asking for Surge sizing - Bay Area: I'm in the Bay Area with consistent 15-25 knot winds. My daily driver is the ARTv2 999 and Skinny 362. I'm looking for a Surge + SurfSkinny setup to take out in 18+ knot winds, when there's more wind swell to surf. In these conditions, my current setup feels like it's got a bit too much lift. Setup: no shims, advance+ ultrashort fuse, 6'6\" midlength board, 90cm carbon mast. Been foiling for 2.5 years and am an early intermediate.",
+      "foils_mentioned": [
+        "Surge",
+        "ART 999",
+        "Skinny 362"
+      ],
+      "rider_weight": "108kg",
+      "use_case": "winging/sizing",
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Thomas Roberts (82kg) on Surge 890 sizing: I'm 82 kg and settled on 890. I got to demo the 950/890 and there is a smaller one too. They're super fun man. They will go great in channel swell at 3rd.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950"
+      ],
+      "rider_weight": "82kg",
+      "use_case": "winging/sizing",
+      "likes": 2,
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Doug D PFoiler on Fireball vs Surge for heavy riders in Bay Area: heaps of hrs on both the 1070 and 1250 fireball and similar wt. For Bay Area with what you want to do and not really ocean breaking wave riding I would seriously consider the FB for the glide and good handling for such a HA wing. the 1070 for 20 kts is real nice for us big guys I really like it but need 17 kts so that's why I have the 1250 for lighter days and parawing. but for in the bay might be a better choice FB series, just don't think your going to get the speed/glide out of the surge compared to the FB that comes in handy in bay relatively flatter conditions.",
+      "foils_mentioned": [
+        "Fireball 1070",
+        "Fireball 1250",
+        "Surge"
+      ],
+      "rider_weight": "108kg",
+      "use_case": "comparison/heavy rider",
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Thomas Roberts on Fireball vs Surge use case: If you want to be able to flag it and ride downwind from Coyote to 3rd, you want the Fireball on the Adv+ Ultrashort. If you want to cruise around looking for the biggest bumps, flag it and carve wrap around cutbacks in both directions, you want the surge.",
+      "foils_mentioned": [
+        "Fireball",
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "comparison/use case",
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Mark Shinn on Surge 950 for 108kg rider: Adrian is correct of course... the 950 is the closest size for size, probably the 320 Surf Skinny paired with it on - should be perfect on that ADV + Ultra short fuse. If you want pure downwind then probably the 1070 Fireball will do the same job but get you there a little quicker but your comment 'gybing back and forth' sounds suspiciously like carving and that means Surge all the way. Also: in terms of starting the 950 lifts a little earlier than the 999 in 18 kn plus you would be more than fine on the 890.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 890",
+        "ART 999",
+        "Fireball 1070",
+        "Surf Skinny 320"
+      ],
+      "rider_weight": "108kg",
+      "use_case": "sizing",
+      "likes": 2,
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Sveny Foils on ART v2 vs Surge vs Fireball positioning: For me personally, I don't really feel the need for the ART v2 anymore. The Surge just covers everything the V2 does, but for my style it does it better. You still get the speed and efficiency, but with the added surf-style feel and way more freedom to turn. A lot of my mates have ended up replacing their V2s with a Surge as well, so that kind of says it all. Some people still love their V2s, and that's totally fine, but for my riding the Surge does the whole job and lets you actually surf the foil too. It's definitely not a Fireball with that full-on glide. It just comes down to what you want to do \u2014 pure glide or more surf-style downwinding and prone surf etc",
+      "foils_mentioned": [
+        "Surge",
+        "ART v2",
+        "Fireball"
+      ],
+      "rider_weight": null,
+      "use_case": "comparison/positioning",
+      "likes": 4,
+      "source": "FB Screenshot 2026-02-12 - Jake 108kg Thread"
+    },
+    {
+      "text": "Matthew Ross (95kg) on kiting foil choice: 760 and the 360 surf skiing. I had the art 819 but it was not great in turbulent water. I could go smaller as well. 95kg.",
+      "foils_mentioned": [
+        "Spitfire 760",
+        "ART 819"
+      ],
+      "rider_weight": "95kg",
+      "use_case": "kiting",
+      "source": "FB Screenshot 2026-02-12 - Matthew Ross Thread"
+    },
+    {
+      "text": "Hal Turner (82kg) on Surge sizing: I was riding the 950. I wanted the 890 but it's not coming until the next shipment. I also got the 830 because it was available, but it might be a little small. I would call myself and intermediate riding mostly small to shoulder high waves. 82 kg.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 890",
+        "Surge 830"
+      ],
+      "rider_weight": "82kg",
+      "use_case": "sizing",
+      "source": "FB Screenshot 2026-02-12 - Jimmy Jam Thread"
+    },
+    {
+      "text": "Hal Turner on Surge vs Spitfire first impression: Tried it today first time. A bit of a learning curve. Had to move mast forward a couple inches. was wanting to nose dive a bit. Different than my spitfire. Started figuring it out by second battery. longer glide, better pumping and turning. just needed to adapt.",
+      "foils_mentioned": [
+        "Surge",
+        "Spitfire"
+      ],
+      "rider_weight": "82kg",
+      "use_case": "transition/tuning",
+      "source": "FB Screenshot 2026-02-12 - Jimmy Jam Thread"
+    },
+    {
+      "text": "Jimmy Jam Foils on Surge sizing: grabbed the 950 and 1010 for now. trying to get that 830 for tow foiling on oahu this winter.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 1010",
+        "Surge 830"
+      ],
+      "rider_weight": null,
+      "use_case": "tow foiling",
+      "source": "FB Screenshot 2026-02-12 - Jimmy Jam Thread"
+    },
+    {
+      "text": "Chris Middleton on Surge vs ART v2 790 for prone (November 17, 2025): First prone session on the new Surge and surf skinny. Really impressed, this setup has amazing glide, speed and stability. Like the ART v2 790 I rode prior this, tip breach is no problem, but unlike the ART v2 and Skinny 45, my Surge and Surf Skinny, has better low end, better acceleration, better stability through turns and gives me more confidence linking waves in deeper water, further out. I noticed it will lift easier and stay higher which is super important in prone riding, but what i love is carving through turns with confidence. I'm so stoked right now. Well done Axis team.",
+      "foils_mentioned": [
+        "Surge",
+        "ART 790",
+        "Skinny 45",
+        "Surf Skinny"
+      ],
+      "rider_weight": null,
+      "use_case": "prone/comparison",
+      "source": "FB Screenshot 2026-02-12 - Chris Middleton"
+    },
+    {
+      "text": "Jon Verhoek on Surf Skinny vs Progressive 300: Surf 320. The 300 feels smaller.",
+      "foils_mentioned": [
+        "Surf Skinny 320",
+        "Surf Skinny 300",
+        "Progressive 300"
+      ],
+      "rider_weight": null,
+      "use_case": "stab comparison",
+      "source": "FB Screenshot 2026-02-12 - Chris Middleton Thread"
+    },
+    {
+      "text": "Vangelis Evan Mavridoglou on Surge: It's my favorite foil for everything I do. And yes, the surf skinny rears are a must no matter which front wing.",
+      "foils_mentioned": [
+        "Surge",
+        "Surf Skinny"
+      ],
+      "rider_weight": null,
+      "use_case": "recommendation",
+      "likes": 3,
+      "source": "FB Screenshot 2026-02-12 - Chris Middleton Thread"
+    },
+    {
+      "text": "Jacob Matan (Top contributor) on Surf Skinny 320/48 (November 17, 2025): After my first session on the surf skinny 320/48 I am calling it, this is my only tail wing from now on. it's that perfect sweet spot between the progressives and skinny's. I was doing upwind downwind on the parawing with SF 1180, small but fun rippable bumps. Similar speed and low drag as my 362/50 skinny but way better turning. Previously I was swapping between the progressives 325 for wing and sup in waves and skinny 362/50 for wing and parawing in bumps/downwind but I think the surf skinny will just do both jobs better.",
+      "foils_mentioned": [
+        "Surf Skinny 320/48",
+        "Spitfire 1180",
+        "Skinny 362/50",
+        "Progressive 325"
+      ],
+      "rider_weight": null,
+      "use_case": "stab/parawing",
+      "source": "FB Screenshot 2026-02-12 - Jacob Matan Thread"
+    },
+    {
+      "text": "Kent Wright on Surf Skinny 320/48 with Fireball 1250: I did my first downwinder yesterday with the 320/48 surf skinny. Using it with the 1250fb and ultrashort+ in light cruisey conditions. I have 35,45 & 55 skinny's but my usual go too is the 360/45. Fairly sure my go to will now be the 320/48 surf skinny, it felt great.",
+      "foils_mentioned": [
+        "Surf Skinny 320/48",
+        "Fireball 1250",
+        "Skinny 360/45"
+      ],
+      "rider_weight": null,
+      "use_case": "downwind/stab",
+      "likes": 4,
+      "source": "FB Screenshot 2026-02-12 - Jacob Matan Thread"
+    },
+    {
+      "text": "Eddie Hawley (80kg) on Surf 300 as only stab: Agree, I am 80kg and the surf 300 is the only stab I use for winging, prone and wake foiling. Great job.",
+      "foils_mentioned": [
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "stab/all-around",
+      "source": "FB Screenshot 2026-02-12 - Jacob Matan Thread"
+    },
+    {
+      "text": "Matthew Kyhnn (75kg) asking for surf skinny size: What size surf skinny would you all suggest for 75 kgs? I normally wing a 939 and Foil Drive a 900. Sveny Foils response: you can't go wrong on the 300.",
+      "foils_mentioned": [
+        "ART 939",
+        "Spitfire 900",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "75kg",
+      "use_case": "stab sizing",
+      "source": "FB Screenshot 2026-02-12 - Matthew Kyhnn Thread"
+    },
+    {
+      "text": "Jon Verhoek (92kg) on Surf Skinny 300 vs 320: I own 320, good mate the 300 and they both have their place depending on conditions. My initial feel is they respond well to energy in the water. If it's flat, go bigger. Also 92kgs because I think that does matter.",
+      "foils_mentioned": [
+        "Surf Skinny 320",
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "92kg",
+      "use_case": "stab sizing",
+      "source": "FB Screenshot 2026-02-12 - Matthew Kyhnn Thread"
+    },
+    {
+      "text": "Andrew Caska on Surf Skinny 320: It's also my favourite. I have the smaller one as well, but for surfing the 320 is epic.",
+      "foils_mentioned": [
+        "Surf Skinny 320"
+      ],
+      "rider_weight": null,
+      "use_case": "stab/surf",
+      "source": "FB Screenshot 2026-02-12 - Matthew Kyhnn Thread"
+    },
+    {
+      "text": "Mark Shinn on simplified stab quiver: I agree with your comments but prefer the Surf Skinny 300 for most situations... I still use the skinny 40 for low energy DW conditions where I am not gonna be turning alot but for pretty much anything else I am on the SS300. Makes like pretty easy as I only need Skinny 40, Surf Skinny 300 and an Alu Tail pipe for the T~I Link.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Skinny 40"
+      ],
+      "rider_weight": null,
+      "use_case": "stab quiver",
+      "source": "FB Screenshot 2026-02-12 - Mark Shinn Stab"
+    },
+    {
+      "text": "Stephen Westwood (85kg) asking about Surf Skinny 300 vs 320: I can't decide between the 320 and 300 SS to use on my ARTv2 999/879, FD 1070, Spitfire 960/840. I currently mainly use the 350 Progressive and 45 Skinny and also have the 300P and 40 Skinny. I'm 85kg. If you could pick one SS what is it and why?",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Surf Skinny 320",
+        "ART 999",
+        "ART 879",
+        "Fireball 1070",
+        "Spitfire 960",
+        "Spitfire 840"
+      ],
+      "rider_weight": "85kg",
+      "use_case": "stab sizing",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood Thread"
+    },
+    {
+      "text": "Bruce Kropelin on Surf Skinny 300 vs 320: I'd suggest going the 300 with the Art V2's. I was out yesterday in bigger conditions & the 300 had excellent control along with the speed. I used the 320 with the FB1000 it wasn't as good. Lot's of glide but not as agile.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Surf Skinny 320",
+        "ART v2",
+        "Fireball 1000"
+      ],
+      "rider_weight": null,
+      "use_case": "stab comparison",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood Thread"
+    },
+    {
+      "text": "Andy Corbe on Surf Skinny 300: Loving the 300, feels a little smaller than the prog 300 but has the efficiency of a smaller skinny whilst keeping complete traction in the turns. If you're coming from a 350 you may want to start with a larger size but probably you'd soon get used to the 300.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Progressive 300",
+        "Progressive 350"
+      ],
+      "rider_weight": null,
+      "use_case": "stab comparison",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood Thread"
+    },
+    {
+      "text": "Ian Sloan (75kg) on Surf Skinny 320SS: I recently started riding with the 320SS and I'm loving it! Coming from P350 and S45, 40, 35... Winging and wake foil. 75kg. It feels like the progressive but way faster. Tons of control even though the area of the SS is quite small. Since I started riding it I don't want to put the regular Skinny back on. The P350 I was already only using for wake or light wind winging. I'll probably get the 300SS before my trip to LV in January.",
+      "foils_mentioned": [
+        "Surf Skinny 320",
+        "Progressive 350",
+        "Skinny 45",
+        "Skinny 40",
+        "Skinny 35"
+      ],
+      "rider_weight": "75kg",
+      "use_case": "winging/wake",
+      "likes": 3,
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Bruce Kropelin on Surf Skinny 300 with Fireball 1000: I also ran the 300SS with my FB1000 & was delighted with the control and more speed/glide. The SS gives you unbelievable control.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Fireball 1000"
+      ],
+      "rider_weight": null,
+      "use_case": "stab",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Eddie Hawley (80kg) on Surf 300 setup for surf: I use the surf 300 with the small spitfires in the surf. The 350p was too slow and the 40 skinny was different to turn without sliding out of the turn, but fast. The surf 300, ultrashort A+ fuse, 960 spitfire or 1070 fireball for a 80kg rider in waist to head high surf is perfect. So much control and fast glide.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Spitfire 960",
+        "Fireball 1070",
+        "Progressive 350",
+        "Skinny 40"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "surf/setup",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Eddie Hawley on why Surf Skinny 300 over 320: As Adrian Roper talks about in many podcasts and interviews that span is one of the most important features of a foil and I agree with that theory. So for personal progression reasons I wanted an approximately 300mm span stabilizer and the 300 surf skinny was the final choice. The shape of the surf skinnys are concave (not flat like the skinny or progressive range) so because of this it is very stable.",
+      "foils_mentioned": [
+        "Surf Skinny 300"
+      ],
+      "rider_weight": null,
+      "use_case": "stab design",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Luke Atkinson (100kg) on Surf Skinny 300 for surf: At 100kg the 300 is my go to for surf. It pumps better than progressive range and turns better than the skinny range. Using Ultrashort adv+ fuse.",
+      "foils_mentioned": [
+        "Surf Skinny 300"
+      ],
+      "rider_weight": "100kg",
+      "use_case": "surf",
+      "likes": 6,
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Jon Verhoek on Surf Skinny equivalents: 320SS feels like p300 made love to 45skinny. 350p feels relatively bigger and slower but a reasonable amount. 300SS feel like 35skinny speed wise and maybe 275p might feel like but haven't actually ridden a 275 personally.",
+      "foils_mentioned": [
+        "Surf Skinny 320",
+        "Surf Skinny 300",
+        "Progressive 300",
+        "Progressive 275",
+        "Skinny 45",
+        "Skinny 35"
+      ],
+      "rider_weight": null,
+      "use_case": "stab comparison",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
+    },
+    {
+      "text": "Bruce Kropelin on Surf Skinny 300 & 320: I went with the 300 & 320. I should have got the 280 for my FB for more speed. Last year I bought several Skinny's & was kind of disappointed, so continued Progressives as well. These SS were special, & I noticed it right away. Should have bought 280 too! Unbelievable difference with two wings I ride frequently the FB & Art V2.",
+      "foils_mentioned": [
+        "Surf Skinny 300",
+        "Surf Skinny 320",
+        "Surf Skinny 280",
+        "Fireball",
+        "ART v2"
+      ],
+      "rider_weight": null,
+      "use_case": "stab",
+      "source": "FB Screenshot 2026-02-12 - Stephen Westwood SS Thread"
     }
   ]
 }
