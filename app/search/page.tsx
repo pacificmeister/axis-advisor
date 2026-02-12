@@ -36,6 +36,17 @@ interface FilterRanges {
   price: { min: number; max: number };
 }
 
+// Series categorization matching browse page
+const SERIES_ORDER = {
+  current: ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG v2', 'Spitfire'],
+  legacy: ['ART', 'BSC', 'HPS', 'SP', 'PNG'],
+};
+
+const CATEGORY_LABELS: Record<string, { label: string; badge?: string; badgeColor?: string }> = {
+  current: { label: 'Current Front Wings', badge: 'NEWEST', badgeColor: 'bg-green-100 text-green-700' },
+  legacy: { label: 'Legacy Front Wings', badge: 'PROVEN', badgeColor: 'bg-gray-200 text-gray-600' },
+};
+
 export default function SearchPage() {
   const [allFoils, setAllFoils] = useState<Foil[]>([]);
   const [filteredFoils, setFilteredFoils] = useState<Foil[]>([]);
@@ -45,10 +56,10 @@ export default function SearchPage() {
     series: [] as string[],
     areaMin: 0,
     areaMax: 10000,
-    aspectRatioMin: 0,
-    aspectRatioMax: 20,
-    wingspanMin: 0,
-    wingspanMax: 2000,
+    aspectRatioMin: 4,
+    aspectRatioMax: 21,
+    wingspanMin: 600,
+    wingspanMax: 1800,
     volumeMin: 0,
     volumeMax: 5000,
     chordMin: 0,
@@ -130,28 +141,25 @@ export default function SearchPage() {
         return false;
       }
 
-      // Aspect Ratio filter - only apply if user changed from defaults (0-20)
-      const hasArFilter = filters.aspectRatioMin > 0 || filters.aspectRatioMax < 20;
-      if (hasArFilter) {
-        // If filter is active, require the foil to have AR data AND match range
-        if (!foil.specs.aspectRatio || 
-            foil.specs.aspectRatio < filters.aspectRatioMin || 
+      // Aspect Ratio filter - only apply if user changed from defaults (4-21)
+      const hasArFilter = filters.aspectRatioMin > 4 || filters.aspectRatioMax < 21;
+      if (hasArFilter && foil.specs.aspectRatio) {
+        if (foil.specs.aspectRatio < filters.aspectRatioMin || 
             foil.specs.aspectRatio > filters.aspectRatioMax) {
           return false;
         }
       }
 
-      // Wingspan filter - only apply if user changed from defaults (0-2000)
-      const hasWingspanFilter = filters.wingspanMin > 0 || filters.wingspanMax < 2000;
-      if (hasWingspanFilter) {
-        if (!foil.specs.wingspan || 
-            foil.specs.wingspan < filters.wingspanMin || 
+      // Wingspan filter - only apply if user changed from defaults (600-1800)
+      const hasWingspanFilter = filters.wingspanMin > 600 || filters.wingspanMax < 1800;
+      if (hasWingspanFilter && foil.specs.wingspan) {
+        if (foil.specs.wingspan < filters.wingspanMin || 
             foil.specs.wingspan > filters.wingspanMax) {
           return false;
         }
       }
 
-      // Volume filter - only apply if user changed from defaults (0-5000)
+      // Volume filter
       const hasVolumeFilter = filters.volumeMin > 0 || filters.volumeMax < 5000;
       if (hasVolumeFilter) {
         if (!foil.specs.volume || 
@@ -161,7 +169,7 @@ export default function SearchPage() {
         }
       }
 
-      // Chord filter - only apply if user changed from defaults (0-500)
+      // Chord filter
       const hasChordFilter = filters.chordMin > 0 || filters.chordMax < 500;
       if (hasChordFilter) {
         if (!foil.specs.chord || 
@@ -182,6 +190,7 @@ export default function SearchPage() {
 
     setFilteredFoils(filtered);
   }, [filters, allFoils]);
+
   const toggleSeries = (series: string) => {
     setFilters(prev => ({
       ...prev,
@@ -208,6 +217,105 @@ export default function SearchPage() {
       priceMax: ranges.price.max,
     });
   };
+
+  // Helper to get category for a series
+  const getCategory = (series: string): 'current' | 'legacy' => {
+    if (SERIES_ORDER.current.includes(series)) return 'current';
+    return 'legacy';
+  };
+
+  // Group and sort foils by category and series
+  const groupedFoils = () => {
+    const groups: Record<string, Record<string, Foil[]>> = {
+      current: {},
+      legacy: {},
+    };
+
+    // Group by category then series
+    filteredFoils.forEach(foil => {
+      const category = getCategory(foil.specs.series);
+      if (!groups[category][foil.specs.series]) {
+        groups[category][foil.specs.series] = [];
+      }
+      groups[category][foil.specs.series].push(foil);
+    });
+
+    // Sort foils within each series by area
+    Object.keys(groups).forEach(category => {
+      Object.keys(groups[category]).forEach(series => {
+        groups[category][series].sort((a, b) => a.specs.area - b.specs.area);
+      });
+    });
+
+    return groups;
+  };
+
+  const grouped = groupedFoils();
+
+  // Get ordered series for a category
+  const getOrderedSeries = (category: 'current' | 'legacy') => {
+    const seriesInCategory = Object.keys(grouped[category]);
+    return SERIES_ORDER[category].filter(s => seriesInCategory.includes(s));
+  };
+
+  const FoilCard = ({ foil }: { foil: Foil }) => (
+    <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-red-600 hover:shadow-md transition">
+      {/* Foil Image */}
+      <div className="aspect-video bg-gray-50 relative">
+        <img
+          src={foil.image}
+          alt={foil.title}
+          className="w-full h-full object-contain p-3"
+        />
+        {!foil.available && (
+          <div className="absolute top-2 right-2 px-2 py-1 bg-red-600 text-white text-xs font-bold rounded">
+            OUT OF STOCK
+          </div>
+        )}
+      </div>
+
+      {/* Foil Info */}
+      <div className="p-4">
+        <h3 className="text-lg font-bold text-gray-900 mb-2">
+          {/* Extract model name from title - handles ART v2 correctly */}
+          {foil.title.replace(/ Carbon.*| Ultra.*| -.*| Hydrofoil.*/i, '').replace('AXIS ', '')}
+        </h3>
+        
+        <div className="space-y-1 mb-3 text-sm text-gray-600">
+          <div className="flex justify-between">
+            <span>Area:</span>
+            <span className="font-medium">{foil.specs.area} cm²</span>
+          </div>
+          {foil.specs.aspectRatio && (
+            <div className="flex justify-between">
+              <span>AR:</span>
+              <span className="font-medium">{foil.specs.aspectRatio.toFixed(2)}</span>
+            </div>
+          )}
+          {foil.specs.wingspan && (
+            <div className="flex justify-between">
+              <span>Span:</span>
+              <span className="font-medium">{foil.specs.wingspan} mm</span>
+            </div>
+          )}
+        </div>
+
+        <div className="flex items-center justify-between pt-3 border-t border-gray-100">
+          <span className="text-sm font-medium text-gray-700">
+            ${foil.price}
+          </span>
+          <a
+            href={foil.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-600 hover:text-red-700 font-semibold text-sm"
+          >
+            View →
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -315,12 +423,66 @@ export default function SearchPage() {
                 </div>
               </div>
 
-              {/* Note about missing specs */}
-              <div className="mt-6 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
-                <p className="text-xs text-yellow-800">
-                  <strong>Note:</strong> AR, wingspan, volume, and chord filters coming soon! 
-                  Currently extracting these specs from AXIS product pages.
-                </p>
+              {/* Aspect Ratio Filter */}
+              <div className="mb-6">
+                <h3 className="text-sm font-bold text-gray-700 mb-3">
+                  Aspect Ratio
+                </h3>
+                <div className="space-y-2">
+                  <input
+                    type="range"
+                    min={4}
+                    max={21}
+                    step={0.5}
+                    value={filters.aspectRatioMin}
+                    onChange={e => setFilters(prev => ({ ...prev, aspectRatioMin: parseFloat(e.target.value) }))}
+                    className="w-full"
+                  />
+                  <input
+                    type="range"
+                    min={4}
+                    max={21}
+                    step={0.5}
+                    value={filters.aspectRatioMax}
+                    onChange={e => setFilters(prev => ({ ...prev, aspectRatioMax: parseFloat(e.target.value) }))}
+                    className="w-full"
+                  />
+                  <div className="flex justify-between text-xs text-gray-600">
+                    <span>{filters.aspectRatioMin}</span>
+                    <span>{filters.aspectRatioMax}</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Wingspan Filter */}
+              <div className="mb-6">
+                <h3 className="text-sm font-bold text-gray-700 mb-3">
+                  Wingspan (mm)
+                </h3>
+                <div className="space-y-2">
+                  <input
+                    type="range"
+                    min={600}
+                    max={1800}
+                    step={50}
+                    value={filters.wingspanMin}
+                    onChange={e => setFilters(prev => ({ ...prev, wingspanMin: parseInt(e.target.value) }))}
+                    className="w-full"
+                  />
+                  <input
+                    type="range"
+                    min={600}
+                    max={1800}
+                    step={50}
+                    value={filters.wingspanMax}
+                    onChange={e => setFilters(prev => ({ ...prev, wingspanMax: parseInt(e.target.value) }))}
+                    className="w-full"
+                  />
+                  <div className="flex justify-between text-xs text-gray-600">
+                    <span>{filters.wingspanMin}</span>
+                    <span>{filters.wingspanMax}</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -344,79 +506,66 @@ export default function SearchPage() {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {filteredFoils.map(foil => (
-                  <div
-                    key={foil.id}
-                    className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:border-red-600 transition"
-                  >
-                    {/* Foil Image */}
-                    <div className="aspect-video bg-gray-100 relative">
-                      <img
-                        src={foil.image}
-                        alt={foil.title}
-                        className="w-full h-full object-contain p-4"
-                      />
-                      {!foil.available && (
-                        <div className="absolute top-2 right-2 px-2 py-1 bg-red-600 text-white text-xs font-bold rounded">
-                          OUT OF STOCK
-                        </div>
-                      )}
+              <div className="space-y-10">
+                {/* Current Front Wings */}
+                {getOrderedSeries('current').length > 0 && (
+                  <section>
+                    <div className="flex items-center gap-3 mb-4">
+                      <h2 className="text-2xl font-black text-gray-900">
+                        {CATEGORY_LABELS.current.label}
+                      </h2>
+                      <span className={`px-2 py-1 ${CATEGORY_LABELS.current.badgeColor} text-xs font-bold rounded-full`}>
+                        {CATEGORY_LABELS.current.badge}
+                      </span>
                     </div>
-
-                    {/* Foil Info */}
-                    <div className="p-4">
-                      <h3 className="text-xl font-black text-gray-900 mb-2">
-                        {foil.specs.series} {foil.specs.area}
-                      </h3>
-                      
-                      <div className="space-y-1 mb-4 text-sm text-gray-600">
-                        <div className="flex justify-between">
-                          <span>Surface Area:</span>
-                          <span className="font-semibold">{foil.specs.area} cm²</span>
+                    
+                    {getOrderedSeries('current').map(series => (
+                      <div key={series} className="mb-6">
+                        <h3 className="text-lg font-bold text-gray-700 mb-3 flex items-center gap-2">
+                          {series}
+                          <span className="text-sm font-normal text-gray-500">
+                            ({grouped.current[series].length})
+                          </span>
+                        </h3>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {grouped.current[series].map(foil => (
+                            <FoilCard key={foil.id} foil={foil} />
+                          ))}
                         </div>
-                        {foil.specs.aspectRatio && (
-                          <div className="flex justify-between">
-                            <span>Aspect Ratio:</span>
-                            <span className="font-semibold">{foil.specs.aspectRatio}</span>
-                          </div>
-                        )}
-                        {foil.specs.wingspan && (
-                          <div className="flex justify-between">
-                            <span>Wingspan:</span>
-                            <span className="font-semibold">{foil.specs.wingspan} mm</span>
-                          </div>
-                        )}
-                        {foil.specs.volume && (
-                          <div className="flex justify-between">
-                            <span>Volume:</span>
-                            <span className="font-semibold">{foil.specs.volume} cm³</span>
-                          </div>
-                        )}
-                        {foil.specs.chord && (
-                          <div className="flex justify-between">
-                            <span>Chord:</span>
-                            <span className="font-semibold">{foil.specs.chord} mm</span>
-                          </div>
-                        )}
                       </div>
+                    ))}
+                  </section>
+                )}
 
-                      <div className="flex items-center justify-between">
-                        <div className="text-2xl font-black text-red-600">
-                          ${foil.price}
-                        </div>
-                        <a
-                          href={foil.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition"
-                        >
-                          View →
-                        </a>
-                      </div>
+                {/* Legacy Front Wings */}
+                {getOrderedSeries('legacy').length > 0 && (
+                  <section>
+                    <div className="flex items-center gap-3 mb-4">
+                      <h2 className="text-2xl font-black text-gray-900">
+                        {CATEGORY_LABELS.legacy.label}
+                      </h2>
+                      <span className={`px-2 py-1 ${CATEGORY_LABELS.legacy.badgeColor} text-xs font-bold rounded-full`}>
+                        {CATEGORY_LABELS.legacy.badge}
+                      </span>
                     </div>
-                  </div>
-                ))}
+                    
+                    {getOrderedSeries('legacy').map(series => (
+                      <div key={series} className="mb-6">
+                        <h3 className="text-lg font-bold text-gray-700 mb-3 flex items-center gap-2">
+                          {series}
+                          <span className="text-sm font-normal text-gray-500">
+                            ({grouped.legacy[series].length})
+                          </span>
+                        </h3>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {grouped.legacy[series].map(foil => (
+                            <FoilCard key={foil.id} foil={foil} />
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </section>
+                )}
               </div>
             )}
           </div>

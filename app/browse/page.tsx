@@ -33,42 +33,42 @@ export default function BrowsePage() {
       displayName: 'Surge',
       category: 'current',
       description: 'High-performance wings for speed and efficiency',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Surge-Complete-table.jpg'
+      image: 'https://axisfoils.com/cdn/shop/files/Surge-family-Flat_6up_1296x.png?v=1763771333'
     },
     {
       name: 'Tempo',
       displayName: 'Tempo',
       category: 'current',
       description: 'All-around performance for versatile riding',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Tempo-Complete-table.jpg'
+      image: 'https://axisfoils.com/cdn/shop/files/Tempofamily2_1296x.png?v=1759345835'
     },
     {
       name: 'ART v2',
       displayName: 'ART v2',
       category: 'current',
       description: 'Next-gen high-aspect with improved stability',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/ARTv2-table_665cd809-d9eb-4a81-9d87-c1e5171d06fd.jpg'
+      image: 'https://axisfoils.com/cdn/shop/files/ARTV2_family-flat-5up_9d413ff4-e31d-41f3-9eb1-c275d615571e_1024x1024.jpg?v=1732312421'
     },
     {
       name: 'Fireball',
       displayName: 'Fireball',
       category: 'current',
       description: 'Speed demon for strong wind and waves',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Fireball-Complete-table.jpg'
+      image: 'https://axisfoils.com/cdn/shop/files/Fireball_family_1500-_-1750_1296x.png?v=1759718992'
     },
     {
-      name: 'PNG',
+      name: 'PNG v2',
       displayName: 'PNG v2',
       category: 'current',
       description: 'Pump and glide king for dock starts',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/PNG-Complete-table.jpg'
+      image: 'https://axisfoils.com/cdn/shop/files/PNGv2_family_top_1296x.jpg?v=1745321257'
     },
     {
       name: 'Spitfire',
       displayName: 'Spitfire',
       category: 'current',
       description: 'Freestyle specialist for aggressive riding',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Family---table_1024x1024.png'
+      image: 'https://axisfoils.com/cdn/shop/files/Spitfire_1180-family.587_03f11212-24be-44e0-af8f-5c22a0f50ecc_1296x.jpg?v=1707208494'
     },
 
     // LEGACY FRONT WINGS
@@ -77,25 +77,35 @@ export default function BrowsePage() {
       displayName: 'ART (Legacy)',
       category: 'legacy',
       description: 'Original high-aspect research series',
-      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/ART_Front-wing-tables_bb05daa3-372e-489e-9d0a-4ca4defc055c_2048x2048.jpg'
+      image: 'https://axisfoils.com/cdn/shop/products/999HERO1_1296x.jpg?v=1678998958'
     },
     {
       name: 'BSC',
       displayName: 'BSC',
       category: 'legacy',
       description: 'Beginner Series - forgiving and stable',
+      image: 'https://axisfoils.com/cdn/shop/products/BSC-family-1_1296x.jpg?v=1679174114'
     },
     {
       name: 'HPS',
       displayName: 'HPS',
       category: 'legacy',
       description: 'High Performance Series - speed focused',
+      image: 'https://axisfoils.com/cdn/shop/products/New-Black-Series-Wings_1296x.jpg?v=1679171555'
     },
     {
       name: 'SP',
       displayName: 'SP',
       category: 'legacy',
       description: 'Surf Performance - carving specialist',
+      image: 'https://axisfoils.com/cdn/shop/products/SP_family_17_1296x.jpg?v=1679015790'
+    },
+    {
+      name: 'PNG',
+      displayName: 'PNG (Legacy)',
+      category: 'legacy',
+      description: 'Original Pump and Glide series',
+      image: 'https://axisfoils.com/cdn/shop/products/PNG_family_23_1296x.jpg?v=1679014621'
     },
 
     // REAR WINGS
@@ -104,42 +114,49 @@ export default function BrowsePage() {
       displayName: 'Skinny Link',
       category: 'rear',
       description: 'Modular titanium link rear wing system',
+      image: 'https://axisfoils.com/cdn/shop/files/Linkskinny-stack3_1296x.png?v=1759516284'
     },
     {
       name: 'Surf Skinny',
       displayName: 'Surf Skinny',
       category: 'rear',
       description: 'Surf-specific skinny rear wings',
+      image: 'https://axisfoils.com/cdn/shop/files/Surf-Skinny-Rears-family-stack_1296x.png?v=1759451679'
     },
     {
       name: 'Skinny',
       displayName: 'Skinny',
       category: 'rear',
       description: 'High aspect rear wings for speed',
+      image: 'https://axisfoils.com/cdn/shop/files/Skinny-Rears_family_SS_1296x.jpg?v=1726740896'
     },
     {
       name: 'Progressive',
       displayName: 'Progressive',
       category: 'rear',
       description: 'Balanced all-around rear wings',
+      image: 'https://axisfoils.com/cdn/shop/products/Pro_family_52_49e461fd-aa86-4e45-8a6a-f27181595941_1296x.jpg?v=1679090538'
     },
     {
       name: 'Speed',
       displayName: 'Speed',
       category: 'rear',
       description: 'Maximum speed rear stabilizers',
+      image: 'https://axisfoils.com/cdn/shop/products/Speed_family_24_2_0f5974f5-a8b4-4922-8928-280994de3a32_1296x.jpg?v=1679122501'
     },
     {
       name: 'Freeride',
       displayName: 'Freeride',
       category: 'rear',
       description: 'Stable freeride rear wings',
+      image: 'https://axisfoils.com/cdn/shop/products/Free_family_38_050c5f24-da1b-458c-ad38-77bd3f579767_1296x.jpg?v=1679362639'
     },
     {
       name: 'Pump',
       displayName: 'Pump',
       category: 'rear',
       description: 'Optimized for pumping efficiency',
+      image: 'https://axisfoils.com/cdn/shop/products/460-60-v2_front_1296x.jpg?v=1679123238'
     },
 
     // FUSELAGES
@@ -148,36 +165,42 @@ export default function BrowsePage() {
       displayName: 'Ti Link',
       category: 'fuselage',
       description: 'Titanium modular fuselage system',
+      image: 'https://axisfoils.com/cdn/shop/files/Ti-Link_1296x.png?v=1759716829'
     },
     {
       name: 'Black Advance+ FATTY',
       displayName: 'Black Advance+ FATTY',
       category: 'fuselage',
       description: 'Heavy-duty thick fuselage',
+      image: 'https://axisfoils.com/cdn/shop/files/Fatty-family_heli_1296x.png?v=1759733930'
     },
     {
       name: 'Black Advance+',
       displayName: 'Black Advance+',
       category: 'fuselage',
       description: 'Premium carbon fuselage',
+      image: 'https://axisfoils.com/cdn/shop/files/Black_Adv__zincfuselagee-familhy_1296x.jpg?v=1726765108'
     },
     {
       name: 'Black Advance 20',
       displayName: 'Black Advance 20',
       category: 'fuselage',
       description: '20-inch fuselage length',
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/Black_Advance_20_familuy-45.png?v=1760543243'
     },
     {
       name: 'Red Advance',
       displayName: 'Red Advance',
       category: 'fuselage',
       description: 'Mid-tier carbon fuselage',
+      image: 'https://axisfoils.com/cdn/shop/products/axis-foils-red-advance-fuselage-family-bottom_3ddce3fb-4752-40e6-9da0-655f90522f8d_1296x.jpg?v=1679130567'
     },
     {
       name: 'Red',
       displayName: 'Red',
       category: 'fuselage',
       description: 'Standard aluminum fuselage',
+      image: 'https://axisfoils.com/cdn/shop/products/Red_Fuselage_23_0bb1f99e-5086-4b2a-abbd-d6fff37407f4_1296x.jpg?v=1679128968'
     },
 
     // MASTS
@@ -186,36 +209,42 @@ export default function BrowsePage() {
       displayName: 'Carbon Integrated Foil Drive',
       category: 'mast',
       description: 'Integrated carbon mast for Foil Drive system',
+      image: 'https://axisfoils.com/cdn/shop/files/PCPRO-fd-ultra-_-non2up_1296x.png?v=1759924051'
     },
     {
       name: 'PRO Ultra High Modulus Carbon',
       displayName: 'PRO Ultra High Modulus Carbon',
       category: 'mast',
       description: 'Ultimate performance carbon mast',
+      image: 'https://axisfoils.com/cdn/shop/files/PCPRO-4updesc_d4b7356c-1d12-4bf5-b073-348a030ec506_1296x.jpg?v=1720091138'
     },
     {
       name: 'Power Carbon High Modulus',
       displayName: 'Power Carbon High Modulus',
       category: 'mast',
       description: 'Premium high-modulus carbon mast',
+      image: 'https://axisfoils.com/cdn/shop/products/34a1e46d-6ee1-4d1d-8df1-4c5200a00070_1b493cde-db55-4972-ad7f-c5fe17c2ac3d_1296x.jpg?v=1678994028'
     },
     {
       name: 'Power Carbon',
       displayName: 'Power Carbon',
       category: 'mast',
       description: 'Standard carbon performance mast',
+      image: 'https://axisfoils.com/cdn/shop/products/PC_family_06_1296x.jpg?v=1678993958'
     },
     {
       name: 'Power Carbon FATTY',
       displayName: 'Power Carbon FATTY',
       category: 'mast',
       description: 'Thick carbon mast for heavy riders',
+      image: 'https://axisfoils.com/cdn/shop/files/Fatty-800_900_1296x.png?v=1759733930'
     },
     {
       name: '19mm Aluminium',
       displayName: '19mm Aluminium',
       category: 'mast',
       description: 'Durable aluminum mast',
+      image: 'https://axisfoils.com/cdn/shop/products/19mm_Alloy_Mast-family_fcb0b7ec-80d3-4869-9db4-da515fe12393_1296x.jpg?v=1678913596'
     },
   ];
 

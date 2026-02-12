@@ -78,16 +78,33 @@ export default function WizardPage() {
 
     for (const post of fbData) {
       // Check if this post mentions this foil
-      const mentioned = post.foils_mentioned.some(f => 
+      const mentioned = post.foils_mentioned?.some((f: string) => 
         normalized.includes(f.toUpperCase().replace(/\s+/g, ' '))
       );
 
-      if (mentioned && post.text.length > 50) {
-        // Extract relevant excerpt
-        const excerpt = post.text.split('\n').slice(0, 3).join(' ').substring(0, 200);
-        feedback.push(excerpt);
+      if (mentioned && post.text && post.text.length > 50) {
+        // Extract the actual content, skipping author name and metadata
+        const lines = post.text.split('\n').filter((line: string) => {
+          const l = line.trim().toLowerCase();
+          // Skip metadata lines
+          return line.length > 20 && 
+            !l.includes('like') && 
+            !l.includes('reply') && 
+            !l.includes('top contributor') &&
+            !l.includes('group expert') &&
+            !l.includes('rising contributor') &&
+            !l.match(/^\d+[dwmy]$/); // Skip time stamps like "3d", "10w"
+        });
         
-        if (feedback.length >= 3) break; // Max 3 excerpts
+        if (lines.length > 0) {
+          // Get the first meaningful content line
+          const excerpt = lines[0].substring(0, 180);
+          // Get author from first line
+          const author = post.text.split('\n')[0]?.trim() || 'Rider';
+          feedback.push(`${author}: ${excerpt}`);
+        }
+        
+        if (feedback.length >= 2) break; // Max 2 excerpts
       }
     }
 
@@ -629,8 +646,8 @@ export default function WizardPage() {
                             👥 Real Rider Feedback
                           </span>
                         </div>
-                        <p className="text-xs text-blue-900 italic">
-                          "{rec.fbFeedback[0].substring(0, 150)}..."
+                        <p className="text-sm text-blue-900 italic">
+                          "{rec.fbFeedback[0]}"
                         </p>
                       </div>
                     )}

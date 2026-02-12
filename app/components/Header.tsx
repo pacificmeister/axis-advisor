@@ -9,10 +9,12 @@ export default function Header() {
   return (
     <header className="axis-gradient border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 hover:opacity-90 transition group">
-          <div className="bg-red-600 px-3 py-1.5 rounded group-hover:bg-red-700 transition">
-            <span className="text-lg font-black text-white tracking-tight">AX</span>
-          </div>
+        <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition group">
+          <img 
+            src="/logos/axis-logo-red-bg.jpg" 
+            alt="AXIS Foils" 
+            className="h-10 w-auto rounded"
+          />
           <span className="text-lg font-bold text-white">
             ADVISOR
           </span>

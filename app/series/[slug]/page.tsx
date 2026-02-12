@@ -139,7 +139,7 @@ export default function SeriesPage() {
                     {foil.specs.aspectRatio && (
                       <div className="flex justify-between">
                         <span>Aspect Ratio:</span>
-                        <span className="font-semibold">{foil.specs.aspectRatio}</span>
+                        <span className="font-semibold">{foil.specs.aspectRatio.toFixed(2)}</span>
                       </div>
                     )}
                     {foil.specs.wingspan && (

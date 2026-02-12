@@ -196,9 +196,13 @@ export default function Home() {
 
       <footer className="bg-gray-900 text-white py-12 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="mb-4">
-            <span className="text-4xl font-black">AXIS</span>
-            <span className="ml-2 text-red-600 font-bold">FOILS</span>
+          <div className="mb-4 flex items-center justify-center gap-3">
+            <img 
+              src="/logos/axis-logo-red-bg.jpg" 
+              alt="AXIS Foils" 
+              className="h-12 w-auto rounded"
+            />
+            <span className="text-2xl font-bold">ADVISOR</span>
           </div>
           <p className="text-gray-400 text-sm">
             Official comparison tool • Data from axisfoils.com

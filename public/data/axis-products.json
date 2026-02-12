@@ -24,7 +24,9 @@
             "name": "ART 1099 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1099,
-            "series": "ART"
+            "series": "ART",
+            "aspectRatio": 10.6,
+            "wingspan": 1099
           },
           "tags": [
             "art",
@@ -52,7 +54,9 @@
             "name": "ART 999 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 999,
-            "series": "ART"
+            "series": "ART",
+            "aspectRatio": 9.9,
+            "wingspan": 999
           },
           "tags": [
             "art",
@@ -90,7 +94,9 @@
             "name": "ART 899 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 899,
-            "series": "ART"
+            "series": "ART",
+            "aspectRatio": 9.76,
+            "wingspan": 899
           },
           "tags": [
             "art",
@@ -118,7 +124,9 @@
             "name": "ART 799 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 799,
-            "series": "ART"
+            "series": "ART",
+            "aspectRatio": 9.05,
+            "wingspan": 799
           },
           "tags": [
             "art",
@@ -146,7 +154,9 @@
             "name": "ART 699 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 699,
-            "series": "ART"
+            "series": "ART",
+            "aspectRatio": 9.0,
+            "wingspan": 699
           },
           "tags": [
             "art",
@@ -175,7 +185,7 @@
             "product_type": "Front Wings",
             "area": 1050,
             "series": "HPS",
-            "aspectRatio": 7.551369863013699,
+            "aspectRatio": 7.55,
             "wingspan": 1050,
             "volume": 1665,
             "chord": 139.04761904761904,
@@ -217,7 +227,7 @@
             "product_type": "Front Wings",
             "area": 980,
             "series": "HPS",
-            "aspectRatio": 7.486806102323841,
+            "aspectRatio": 7.49,
             "wingspan": 980,
             "volume": 1379,
             "chord": 130.8969387755102,
@@ -259,7 +269,7 @@
             "product_type": "Front Wings",
             "area": 930,
             "series": "HPS",
-            "aspectRatio": 7.3369980149641165,
+            "aspectRatio": 7.34,
             "wingspan": 930,
             "volume": 1228.44,
             "chord": 126.75483870967741,
@@ -302,7 +312,7 @@
             "product_type": "Front Wings",
             "area": 880,
             "series": "HPS",
-            "aspectRatio": 7.174156730867217,
+            "aspectRatio": 7.17,
             "wingspan": 880,
             "volume": 1088.45,
             "chord": 122.66250000000001,
@@ -345,7 +355,7 @@
             "product_type": "Front Wings",
             "area": 830,
             "series": "HPS",
-            "aspectRatio": 7.001016260162602,
+            "aspectRatio": 7.0,
             "wingspan": 830,
             "volume": 979,
             "chord": 118.55421686746988,
@@ -387,7 +397,7 @@
             "product_type": "Front Wings",
             "area": 700,
             "series": "HPS",
-            "aspectRatio": 5.632183908045977,
+            "aspectRatio": 5.63,
             "wingspan": 700,
             "volume": 1060,
             "chord": 124.28571428571429,
@@ -429,7 +439,7 @@
             "product_type": "Front Wings",
             "area": 650,
             "series": "HPS",
-            "aspectRatio": 5.678763440860215,
+            "aspectRatio": 5.68,
             "wingspan": 650,
             "volume": 716.9,
             "chord": 114.46153846153845,
@@ -469,7 +479,7 @@
             "area": 1120,
             "series": "BSC",
             "surfaceArea": 2102.0,
-            "aspectRatio": 6.251495096084842,
+            "aspectRatio": 6.25,
             "chord": 179.15714285714287,
             "itemCode": "AX22BSC1120",
             "wingspan": 1120,
@@ -513,7 +523,7 @@
             "area": 1060,
             "series": "BSC",
             "surfaceArea": 1802.22,
-            "aspectRatio": 6.509849362688296,
+            "aspectRatio": 6.51,
             "chord": 162.83018867924528,
             "itemCode": "AX22BSC1060",
             "wingspan": 1060,
@@ -557,7 +567,7 @@
             "area": 970,
             "series": "BSC",
             "surfaceArea": 1572.0,
-            "aspectRatio": 6.269114168637772,
+            "aspectRatio": 6.27,
             "chord": 154.72680412371133,
             "itemCode": "AX22BSC970",
             "wingspan": 970,
@@ -599,7 +609,7 @@
             "product_type": "Front Wings",
             "area": 890,
             "series": "BSC",
-            "aspectRatio": 6.429383116883117,
+            "aspectRatio": 6.43,
             "wingspan": 890,
             "volume": 1697,
             "chord": 138.42696629213484,
@@ -640,7 +650,7 @@
             "product_type": "Front Wings",
             "area": 810,
             "series": "BSC",
-            "aspectRatio": 6.416625916870416,
+            "aspectRatio": 6.42,
             "wingspan": 810,
             "volume": 1284,
             "chord": 126.23456790123457,
@@ -682,7 +692,7 @@
             "product_type": "Front Wings",
             "area": 740,
             "series": "BSC",
-            "aspectRatio": 6.4896894998814885,
+            "aspectRatio": 6.49,
             "wingspan": 740,
             "volume": 757.18,
             "chord": 114.02702702702703,
@@ -725,7 +735,7 @@
             "product_type": "Front Wings",
             "area": 1310,
             "series": "PNG",
-            "aspectRatio": 8.531571437804192,
+            "aspectRatio": 8.53,
             "wingspan": 1310,
             "volume": 2445,
             "chord": 153.5473282442748,
@@ -770,7 +780,7 @@
             "area": 1300,
             "series": "PNG",
             "surfaceArea": 1632.0,
-            "aspectRatio": 9.941176470588236,
+            "aspectRatio": 9.94,
             "chord": 130.76923076923077,
             "itemCode": "AXPNGV21300",
             "wingspan": 1300,
@@ -820,7 +830,7 @@
             "product_type": "Front Wings",
             "area": 1150,
             "series": "PNG",
-            "aspectRatio": 7.721590676872595,
+            "aspectRatio": 7.72,
             "wingspan": 1150,
             "volume": 2115.66,
             "chord": 148.93304347826086,
@@ -869,7 +879,7 @@
             "product_type": "Front Wings",
             "area": 1010,
             "series": "PNG",
-            "aspectRatio": 7.1335664335664335,
+            "aspectRatio": 7.13,
             "wingspan": 1010,
             "volume": 1732.1,
             "chord": 141.58415841584159,
@@ -919,7 +929,7 @@
             "product_type": "Front Wings",
             "area": 910,
             "series": "PNG",
-            "aspectRatio": 6.7988505747126435,
+            "aspectRatio": 6.8,
             "wingspan": 910,
             "volume": 1457.88,
             "chord": 133.84615384615384,
@@ -964,7 +974,7 @@
             "product_type": "Front Wings",
             "area": 910,
             "series": "PNG",
-            "aspectRatio": 6.7988505747126435,
+            "aspectRatio": 6.8,
             "wingspan": 910,
             "volume": 1457.88,
             "chord": 133.84615384615384,
@@ -1007,7 +1017,7 @@
             "product_type": "Front Wings",
             "area": 850,
             "series": "PNG",
-            "aspectRatio": 6.8096135721017905,
+            "aspectRatio": 6.81,
             "wingspan": 850,
             "volume": 1044.19,
             "chord": 124.82352941176471,
@@ -1055,7 +1065,7 @@
             "product_type": "Front Wings",
             "area": 860,
             "series": "SP",
-            "aspectRatio": 6.099894431248351,
+            "aspectRatio": 6.1,
             "wingspan": 860,
             "volume": 1700.4,
             "chord": 140.9860465116279,
@@ -1100,7 +1110,7 @@
             "product_type": "Front Wings",
             "area": 760,
             "series": "SP",
-            "aspectRatio": 5.107481717938968,
+            "aspectRatio": 5.11,
             "wingspan": 760,
             "volume": 1673,
             "chord": 148.80131578947368,
@@ -1146,7 +1156,7 @@
             "product_type": "Front Wings",
             "area": 660,
             "series": "SP",
-            "aspectRatio": 4.192492781520693,
+            "aspectRatio": 4.19,
             "wingspan": 660,
             "volume": 1581,
             "chord": 157.42424242424244,
@@ -1194,7 +1204,8 @@
             "surfaceArea": 877.0,
             "aspectRatio": 13.07,
             "chord": 81.9,
-            "itemCode": "AXFIREBALL1070"
+            "itemCode": "AXFIREBALL1070",
+            "wingspan": 1070
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
@@ -1220,7 +1231,8 @@
             "surfaceArea": 773.0,
             "aspectRatio": 12.95,
             "chord": 77.2,
-            "itemCode": "AXFIREBALL1000"
+            "itemCode": "AXFIREBALL1000",
+            "wingspan": 1000
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
@@ -1246,7 +1258,8 @@
             "surfaceArea": 689.0,
             "aspectRatio": 12.84,
             "chord": 73.2,
-            "itemCode": "AXFIREBALL940"
+            "itemCode": "AXFIREBALL940",
+            "wingspan": 940
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
@@ -1272,7 +1285,8 @@
             "surfaceArea": 604.0,
             "aspectRatio": 12.82,
             "chord": 68.6,
-            "itemCode": "AXFIREBALL880"
+            "itemCode": "AXFIREBALL880",
+            "wingspan": 880
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
@@ -1296,7 +1310,7 @@
             "area": 1300,
             "series": "PNG",
             "surfaceArea": 1632.0,
-            "aspectRatio": 9.941176470588236,
+            "aspectRatio": 9.94,
             "chord": 130.76923076923077,
             "itemCode": "AXPNGV21300",
             "wingspan": 1300,
@@ -1329,7 +1343,8 @@
             "surfaceArea": 996.29,
             "aspectRatio": 13.52,
             "chord": 85.8,
-            "itemCode": "AXFIREBALL1160"
+            "itemCode": "AXFIREBALL1160",
+            "wingspan": 1160
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
@@ -1355,7 +1370,8 @@
             "surfaceArea": 1132.58,
             "aspectRatio": 13.81,
             "chord": 90.5,
-            "itemCode": "AXFIREBALL1250"
+            "itemCode": "AXFIREBALL1250",
+            "wingspan": 1250
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
@@ -1379,9 +1395,10 @@
             "area": 1350,
             "series": "Fireball",
             "surfaceArea": 1308.78,
-            "aspectRatio": 13.93,
+            "aspectRatio": 13.91,
             "chord": 96.9,
-            "itemCode": "AXFIREBALL1350"
+            "itemCode": "AXFIREBALL1350",
+            "wingspan": 1350
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
@@ -1405,9 +1422,10 @@
             "area": 1200,
             "series": "PNG",
             "surfaceArea": 1803.0,
-            "aspectRatio": 8.0,
+            "aspectRatio": 8.75,
             "chord": 150.1,
-            "itemCode": "AXPNGV21200"
+            "itemCode": "AXPNGV21200",
+            "wingspan": 1200
           },
           "tags": [],
           "created_at": "2025-04-22T04:09:11-07:00",
@@ -1431,7 +1449,7 @@
             "area": 1400,
             "series": "PNG",
             "surfaceArea": 1786.0,
-            "aspectRatio": 12.054120541205412,
+            "aspectRatio": 12.05,
             "chord": 116.14,
             "itemCode": "AXPNGV21400",
             "wingspan": 1400,
@@ -1462,9 +1480,10 @@
             "area": 1090,
             "series": "Tempo",
             "surfaceArea": 746.0,
-            "aspectRatio": 15.93,
+            "aspectRatio": 16.0,
             "chord": 68.4,
-            "itemCode": "AXTEMPO1090"
+            "itemCode": "AXTEMPO1090",
+            "wingspan": 1090
           },
           "tags": [
             "surf",
@@ -1493,9 +1512,10 @@
             "area": 1020,
             "series": "Tempo",
             "surfaceArea": 653.0,
-            "aspectRatio": 15.93,
+            "aspectRatio": 16.0,
             "chord": 64.0,
-            "itemCode": "AXTEMPO1020"
+            "itemCode": "AXTEMPO1020",
+            "wingspan": 1020
           },
           "tags": [
             "surf",
@@ -1524,9 +1544,10 @@
             "area": 960,
             "series": "Tempo",
             "surfaceArea": 578.0,
-            "aspectRatio": 15.94,
+            "aspectRatio": 16.0,
             "chord": 60.2,
-            "itemCode": "AXTEMPO960"
+            "itemCode": "AXTEMPO960",
+            "wingspan": 960
           },
           "tags": [
             "surf",
@@ -1555,9 +1576,10 @@
             "area": 920,
             "series": "Tempo",
             "surfaceArea": 528.0,
-            "aspectRatio": 16.03,
+            "aspectRatio": 16.0,
             "chord": 57.4,
-            "itemCode": "AXTEMPO920"
+            "itemCode": "AXTEMPO920",
+            "wingspan": 920
           },
           "tags": [
             "surf",
@@ -1588,7 +1610,8 @@
             "surfaceArea": 495.44,
             "aspectRatio": 16.0,
             "chord": 55.6,
-            "itemCode": "AXTEMPO890"
+            "itemCode": "AXTEMPO890",
+            "wingspan": 890
           },
           "tags": [
             "surf",
@@ -1619,7 +1642,8 @@
             "surfaceArea": 1313.0,
             "aspectRatio": 17.15,
             "chord": 87.0,
-            "itemCode": "AXFIREBALL1500"
+            "itemCode": "AXFIREBALL1500",
+            "wingspan": 1500
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
@@ -1645,7 +1669,8 @@
             "surfaceArea": 1525.0,
             "aspectRatio": 20.12,
             "chord": 81.1,
-            "itemCode": "AXFIREBALL1750"
+            "itemCode": "AXFIREBALL1750",
+            "wingspan": 1750
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
@@ -1671,7 +1696,8 @@
             "surfaceArea": 590.0,
             "aspectRatio": 9.3,
             "chord": 79.6,
-            "itemCode": "AXSURGE740"
+            "itemCode": "AXSURGE740",
+            "wingspan": 740
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
@@ -1697,7 +1723,8 @@
             "surfaceArea": 643.0,
             "aspectRatio": 9.48,
             "chord": 82.3,
-            "itemCode": "AXSURGE780"
+            "itemCode": "AXSURGE780",
+            "wingspan": 780
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
@@ -1723,7 +1750,8 @@
             "surfaceArea": 728.0,
             "aspectRatio": 9.48,
             "chord": 87.6,
-            "itemCode": "AXSURGE830"
+            "itemCode": "AXSURGE830",
+            "wingspan": 830
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
@@ -1749,7 +1777,8 @@
             "surfaceArea": 835.0,
             "aspectRatio": 9.5,
             "chord": 93.7,
-            "itemCode": "AXSURGE890"
+            "itemCode": "AXSURGE890",
+            "wingspan": 890
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
@@ -1775,7 +1804,8 @@
             "surfaceArea": 949.0,
             "aspectRatio": 9.52,
             "chord": 99.8,
-            "itemCode": "AXSURGE950"
+            "itemCode": "AXSURGE950",
+            "wingspan": 950
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
@@ -1801,7 +1831,8 @@
             "surfaceArea": 1076.0,
             "aspectRatio": 9.49,
             "chord": 106.4,
-            "itemCode": "AXSURGE1010"
+            "itemCode": "AXSURGE1010",
+            "wingspan": 1010
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
@@ -1825,9 +1856,10 @@
             "series": "Spitfire",
             "area": 1180,
             "surfaceArea": 1554.0,
-            "aspectRatio": 9.13,
+            "aspectRatio": 6.78,
             "chord": 129.2,
-            "itemCode": "AXSPITFIRE1180"
+            "itemCode": "AXSPITFIRE1180",
+            "wingspan": 1180
           },
           "tags": [],
           "created_at": "2024-02-06T00:32:29-08:00",
@@ -1851,9 +1883,10 @@
             "series": "Spitfire",
             "area": 1100,
             "surfaceArea": 1423.0,
-            "aspectRatio": 8.66,
+            "aspectRatio": 6.64,
             "chord": 127.1,
-            "itemCode": "AXSPITFIRE1100"
+            "itemCode": "AXSPITFIRE1100",
+            "wingspan": 1100
           },
           "tags": [],
           "created_at": "2023-06-20T20:14:34-07:00",
@@ -1877,9 +1910,10 @@
             "series": "Spitfire",
             "area": 1030,
             "surfaceArea": 1308.0,
-            "aspectRatio": 8.26,
+            "aspectRatio": 6.5,
             "chord": 124.8,
-            "itemCode": "AXSPITFIRE1030"
+            "itemCode": "AXSPITFIRE1030",
+            "wingspan": 1030
           },
           "tags": [],
           "created_at": "2023-06-20T20:16:30-07:00",
@@ -1903,9 +1937,10 @@
             "series": "Spitfire",
             "area": 960,
             "surfaceArea": 1196.0,
-            "aspectRatio": 7.84,
+            "aspectRatio": 6.46,
             "chord": 122.4,
-            "itemCode": "AXSPITFIRE960"
+            "itemCode": "AXSPITFIRE960",
+            "wingspan": 960
           },
           "tags": [],
           "created_at": "2023-06-20T20:17:26-07:00",
@@ -1929,9 +1964,10 @@
             "series": "Spitfire",
             "area": 900,
             "surfaceArea": 1080.0,
-            "aspectRatio": 7.5,
+            "aspectRatio": 6.25,
             "chord": 120.0,
-            "itemCode": "AXSPITFIRE900"
+            "itemCode": "AXSPITFIRE900",
+            "wingspan": 900
           },
           "tags": [],
           "created_at": "2023-06-20T20:18:59-07:00",
@@ -1955,9 +1991,10 @@
             "series": "Spitfire",
             "area": 840,
             "surfaceArea": 1006.0,
-            "aspectRatio": 7.14,
+            "aspectRatio": 6.19,
             "chord": 117.6,
-            "itemCode": "AXSPITFIRE840"
+            "itemCode": "AXSPITFIRE840",
+            "wingspan": 840
           },
           "tags": [],
           "created_at": "2023-06-20T20:19:51-07:00",
@@ -1981,9 +2018,10 @@
             "series": "Spitfire",
             "area": 780,
             "surfaceArea": 902.0,
-            "aspectRatio": 6.87,
+            "aspectRatio": 6.05,
             "chord": 113.6,
-            "itemCode": "AXSPITFIRE780"
+            "itemCode": "AXSPITFIRE780",
+            "wingspan": 780
           },
           "tags": [],
           "created_at": "2023-06-20T20:20:42-07:00",
@@ -2007,9 +2045,10 @@
             "series": "Spitfire",
             "area": 720,
             "surfaceArea": 815.0,
-            "aspectRatio": 6.47,
+            "aspectRatio": 5.95,
             "chord": 111.2,
-            "itemCode": "AXSPITFIRE720"
+            "itemCode": "AXSPITFIRE720",
+            "wingspan": 720
           },
           "tags": [],
           "created_at": "2023-08-24T00:14:18-07:00",
@@ -2033,9 +2072,10 @@
             "series": "Spitfire",
             "area": 670,
             "surfaceArea": 721.0,
-            "aspectRatio": 6.34,
+            "aspectRatio": 5.85,
             "chord": 105.7,
-            "itemCode": "AXSPITFIRE670"
+            "itemCode": "AXSPITFIRE670",
+            "wingspan": 670
           },
           "tags": [],
           "created_at": "2024-04-28T15:20:01-07:00",
@@ -2059,9 +2099,10 @@
             "series": "Spitfire",
             "area": 620,
             "surfaceArea": 628.0,
-            "aspectRatio": 6.12,
+            "aspectRatio": 5.75,
             "chord": 101.3,
-            "itemCode": "AXSPITFIRE620"
+            "itemCode": "AXSPITFIRE620",
+            "wingspan": 620
           },
           "tags": [],
           "created_at": "2024-04-28T15:26:41-07:00",
@@ -2121,7 +2162,7 @@
             "series": "ART v2",
             "area": 1038,
             "surfaceArea": 1026.0,
-            "aspectRatio": 9.9,
+            "aspectRatio": 10.0,
             "chord": 101.0,
             "itemCode": "AXARTV2999",
             "wingspan": 999
@@ -2193,7 +2234,7 @@
             "series": "ART v2",
             "area": 790,
             "surfaceArea": 674.0,
-            "aspectRatio": 9.98,
+            "aspectRatio": 10.0,
             "chord": 82.0,
             "itemCode": "AXARTV2819",
             "wingspan": 879
@@ -2229,7 +2270,7 @@
             "series": "ART v2",
             "area": 647,
             "wingspan": 819,
-            "aspectRatio": 9.98
+            "aspectRatio": 10.0
           },
           "tags": [
             "2024",

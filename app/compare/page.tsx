@@ -69,8 +69,23 @@ function matchFBFeedback(fbData: FBPost[], foilName: string): string[] {
     const areaInText = area && post.text.match(new RegExp(`\\b${area}\\b`));
 
     if ((mentioned || areaInText) && post.text.length > 50) {
-      const excerpt = post.text.split('\n').slice(0, 2).join(' ').substring(0, 150);
-      feedback.push(excerpt);
+      // Extract the actual content, skipping author name and metadata
+      const lines = post.text.split('\n').filter((line: string) => {
+        const l = line.trim().toLowerCase();
+        return line.length > 20 && 
+          !l.includes('like') && 
+          !l.includes('reply') && 
+          !l.includes('top contributor') &&
+          !l.includes('group expert') &&
+          !l.includes('rising contributor') &&
+          !l.match(/^\d+[dwmy]$/);
+      });
+      
+      if (lines.length > 0) {
+        const author = post.text.split('\n')[0]?.trim() || 'Rider';
+        const excerpt = lines[0].substring(0, 150);
+        feedback.push(`${author}: ${excerpt}`);
+      }
       
       if (feedback.length >= 2) break;
     }
