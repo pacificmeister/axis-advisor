@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Header() {
@@ -10,17 +9,11 @@ export default function Header() {
   return (
     <header className="axis-gradient border-b border-gray-800 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 h-14 sm:h-16 flex items-center justify-between">
-        {/* Logo - always visible */}
+        {/* Logo - always visible, styled to match AXIS branding */}
         <Link href="/" className="flex items-center gap-1 sm:gap-2 hover:opacity-90 transition group shrink-0">
-          <Image 
-            src="/logos/axis-logo-red.svg" 
-            alt="AXIS" 
-            width={60} 
-            height={24}
-            className="w-12 sm:w-14 h-auto"
-          />
-          <span className="text-white font-bold">|</span>
-          <span className="text-sm sm:text-lg font-bold text-white">ADVISOR</span>
+          <span className="text-xl sm:text-2xl font-black text-red-500 tracking-tight" style={{fontStyle: 'italic'}}>AXIS</span>
+          <span className="text-white font-bold text-lg sm:text-xl">|</span>
+          <span className="text-base sm:text-lg font-bold text-white tracking-wide">ADVISOR</span>
         </Link>
         
         {/* Nav - responsive sizing */}
