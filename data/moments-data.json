@@ -1,0 +1,749 @@
+[
+  {
+    "name": "ARTPRO1401",
+    "series": "ARTPRO",
+    "span": 1400.0,
+    "area": 1611.0,
+    "aspectRatio": 12.17,
+    "rollMoment": 19905.0,
+    "pitchMoment": 219.0
+  },
+  {
+    "name": "ARTPRO1201",
+    "series": "ARTPRO",
+    "span": 1200.0,
+    "area": 1291.0,
+    "aspectRatio": 11.15,
+    "rollMoment": 12081.0,
+    "pitchMoment": 116.0
+  },
+  {
+    "name": "ARTPRO1121",
+    "series": "ARTPRO",
+    "span": 1120.0,
+    "area": 1065.0,
+    "aspectRatio": 11.78,
+    "rollMoment": 8468.0,
+    "pitchMoment": 97.0
+  },
+  {
+    "name": "ARTPRO1051",
+    "series": "ARTPRO",
+    "span": 1050.0,
+    "area": 915.0,
+    "aspectRatio": 12.05,
+    "rollMoment": 6368.0,
+    "pitchMoment": 70.0
+  },
+  {
+    "name": "ARTPRO1001",
+    "series": "ARTPRO",
+    "span": 1000.0,
+    "area": 829.0,
+    "aspectRatio": 12.06,
+    "rollMoment": 5270.0,
+    "pitchMoment": 57.0
+  },
+  {
+    "name": "ARTPRO951",
+    "series": "ARTPRO",
+    "span": 951.0,
+    "area": 753.0,
+    "aspectRatio": 12.01,
+    "rollMoment": 4328.0,
+    "pitchMoment": 47.0
+  },
+  {
+    "name": "ARTPRO901",
+    "series": "ARTPRO",
+    "span": 900.0,
+    "area": 673.0,
+    "aspectRatio": 12.04,
+    "rollMoment": 3457.0,
+    "pitchMoment": 38.0
+  },
+  {
+    "name": "ARTPRO851",
+    "series": "ARTPRO",
+    "span": 850.0,
+    "area": 622.0,
+    "aspectRatio": 11.62,
+    "rollMoment": 2851.0,
+    "pitchMoment": 33.0
+  },
+  {
+    "name": "ARTPRO801",
+    "series": "ARTPRO",
+    "span": 800.0,
+    "area": 573.0,
+    "aspectRatio": 11.17,
+    "rollMoment": 2326.0,
+    "pitchMoment": 29.0
+  },
+  {
+    "name": "ARTPRO751",
+    "series": "ARTPRO",
+    "span": 751.0,
+    "area": 508.0,
+    "aspectRatio": 11.1,
+    "rollMoment": 1811.0,
+    "pitchMoment": 23.0
+  },
+  {
+    "name": "Fireball 2100",
+    "series": "Fireball",
+    "span": 2100.0,
+    "area": 1703.0,
+    "aspectRatio": 25.9,
+    "rollMoment": 39293.0,
+    "pitchMoment": 151.0
+  },
+  {
+    "name": "Fireball 1750",
+    "series": "Fireball",
+    "span": 1750.0,
+    "area": 1522.0,
+    "aspectRatio": 20.12,
+    "rollMoment": 25946.0,
+    "pitchMoment": 141.0
+  },
+  {
+    "name": "Fireball 1500",
+    "series": "Fireball",
+    "span": 1500.0,
+    "area": 1312.0,
+    "aspectRatio": 17.15,
+    "rollMoment": 16533.0,
+    "pitchMoment": 122.0
+  },
+  {
+    "name": "Fireball 1350",
+    "series": "Fireball",
+    "span": 1350.0,
+    "area": 1307.86,
+    "aspectRatio": 13.93,
+    "rollMoment": 14073.0,
+    "pitchMoment": 133.0
+  },
+  {
+    "name": "Fireball 1250",
+    "series": "Fireball",
+    "span": 1250.0,
+    "area": 1131.77,
+    "aspectRatio": 13.81,
+    "rollMoment": 10487.0,
+    "pitchMoment": 100.0
+  },
+  {
+    "name": "Fireball 1160",
+    "series": "Fireball",
+    "span": 1160.0,
+    "area": 995.58,
+    "aspectRatio": 13.52,
+    "rollMoment": 7894.0,
+    "pitchMoment": 80.0
+  },
+  {
+    "name": "Fireball 1070",
+    "series": "Fireball",
+    "span": 1070.0,
+    "area": 876.0,
+    "aspectRatio": 13.07,
+    "rollMoment": 5880.0,
+    "pitchMoment": 64.0
+  },
+  {
+    "name": "Fireball 1000",
+    "series": "Fireball",
+    "span": 1000.0,
+    "area": 772.0,
+    "aspectRatio": 12.95,
+    "rollMoment": 4506.0,
+    "pitchMoment": 51.0
+  },
+  {
+    "name": "Fireball 940",
+    "series": "Fireball",
+    "span": 940.0,
+    "area": 688.0,
+    "aspectRatio": 12.84,
+    "rollMoment": 3574.0,
+    "pitchMoment": 40.0
+  },
+  {
+    "name": "Fireball 880",
+    "series": "Fireball",
+    "span": 880.0,
+    "area": 604.0,
+    "aspectRatio": 12.82,
+    "rollMoment": 2777.0,
+    "pitchMoment": 31.0
+  },
+  {
+    "name": "AXIS TEMPO 1180",
+    "series": "Tempo",
+    "span": 1180.0,
+    "area": 794.0,
+    "aspectRatio": 17.54,
+    "rollMoment": 6149.0,
+    "pitchMoment": 45.0
+  },
+  {
+    "name": "AXIS TEMPO 1090",
+    "series": "Tempo",
+    "span": 1090.0,
+    "area": 746.0,
+    "aspectRatio": 15.93,
+    "rollMoment": 4881.0,
+    "pitchMoment": 43.0
+  },
+  {
+    "name": "AXIS TEMPO 1020",
+    "series": "Tempo",
+    "span": 1020.0,
+    "area": 653.0,
+    "aspectRatio": 15.93,
+    "rollMoment": 3739.0,
+    "pitchMoment": 33.0
+  },
+  {
+    "name": "AXIS TEMPO 960",
+    "series": "Tempo",
+    "span": 960.0,
+    "area": 578.0,
+    "aspectRatio": 15.94,
+    "rollMoment": 2969.0,
+    "pitchMoment": 25.0
+  },
+  {
+    "name": "AXIS TEMPO 920",
+    "series": "Tempo",
+    "span": 920.0,
+    "area": 528.0,
+    "aspectRatio": 16.03,
+    "rollMoment": 2472.0,
+    "pitchMoment": 21.0
+  },
+  {
+    "name": "AXIS TEMPO 890",
+    "series": "Tempo",
+    "span": 890.0,
+    "area": 495.13,
+    "aspectRatio": 16.0,
+    "rollMoment": 2184.0,
+    "pitchMoment": 18.5
+  },
+  {
+    "name": "1150",
+    "series": "Surge",
+    "span": 1150.0,
+    "area": 1197.42,
+    "aspectRatio": 11.04,
+    "rollMoment": 9634.5,
+    "pitchMoment": 136.15
+  },
+  {
+    "name": "1080",
+    "series": "Surge",
+    "span": 1080.0,
+    "area": 1140.93,
+    "aspectRatio": 10.22,
+    "rollMoment": 8098.0,
+    "pitchMoment": 133.0
+  },
+  {
+    "name": "1010",
+    "series": "Surge",
+    "span": 1010.0,
+    "area": 1075.0,
+    "aspectRatio": 9.49,
+    "rollMoment": 6675.0,
+    "pitchMoment": 128.0
+  },
+  {
+    "name": "950",
+    "series": "Surge",
+    "span": 950.0,
+    "area": 948.0,
+    "aspectRatio": 9.52,
+    "rollMoment": 5102.0,
+    "pitchMoment": 101.0
+  },
+  {
+    "name": "890",
+    "series": "Surge",
+    "span": 890.0,
+    "area": 834.0,
+    "aspectRatio": 9.5,
+    "rollMoment": 3977.0,
+    "pitchMoment": 78.0
+  },
+  {
+    "name": "830",
+    "series": "Surge",
+    "span": 830.0,
+    "area": 727.0,
+    "aspectRatio": 9.48,
+    "rollMoment": 3045.0,
+    "pitchMoment": 58.0
+  },
+  {
+    "name": "780",
+    "series": "Surge",
+    "span": 780.0,
+    "area": 642.0,
+    "aspectRatio": 9.48,
+    "rollMoment": 2375.0,
+    "pitchMoment": 46.0
+  },
+  {
+    "name": "740",
+    "series": "Surge",
+    "span": 740.0,
+    "area": 589.0,
+    "aspectRatio": 9.3,
+    "rollMoment": 1940.0,
+    "pitchMoment": 40.0
+  },
+  {
+    "name": "1300 PNG v2",
+    "series": "PNG v2",
+    "span": 1300.0,
+    "area": 1631.0,
+    "aspectRatio": 10.36,
+    "rollMoment": 16620.0,
+    "pitchMoment": 272.0
+  },
+  {
+    "name": "ART V2 1099",
+    "series": "ART v2",
+    "span": 1100.0,
+    "area": 1177.0,
+    "aspectRatio": 10.28,
+    "rollMoment": 8162.0,
+    "pitchMoment": 154.0
+  },
+  {
+    "name": "ART V2 999",
+    "series": "ART v2",
+    "span": 1000.0,
+    "area": 1010.0,
+    "aspectRatio": 9.9,
+    "rollMoment": 6010.0,
+    "pitchMoment": 110.0
+  },
+  {
+    "name": "ART V2 939",
+    "series": "ART v2",
+    "span": 940.0,
+    "area": 884.0,
+    "aspectRatio": 10.0,
+    "rollMoment": 4656.0,
+    "pitchMoment": 83.0
+  },
+  {
+    "name": "ART V2 879",
+    "series": "ART v2",
+    "span": 880.0,
+    "area": 776.0,
+    "aspectRatio": 9.98,
+    "rollMoment": 3578.0,
+    "pitchMoment": 64.0
+  },
+  {
+    "name": "ART V2 819",
+    "series": "ART v2",
+    "span": 820.0,
+    "area": 674.0,
+    "aspectRatio": 9.98,
+    "rollMoment": 2700.0,
+    "pitchMoment": 49.0
+  },
+  {
+    "name": "ART1099",
+    "series": "ART",
+    "span": 1100.0,
+    "area": 1142.0,
+    "aspectRatio": 10.6,
+    "rollMoment": 9050.0,
+    "pitchMoment": 119.0
+  },
+  {
+    "name": "ART999",
+    "series": "ART",
+    "span": 999.0,
+    "area": 1010.0,
+    "aspectRatio": 9.88,
+    "rollMoment": 6700.0,
+    "pitchMoment": 98.0
+  },
+  {
+    "name": "ART899",
+    "series": "ART",
+    "span": 900.0,
+    "area": 830.0,
+    "aspectRatio": 9.76,
+    "rollMoment": 4360.0,
+    "pitchMoment": 70.0
+  },
+  {
+    "name": "ART799",
+    "series": "ART",
+    "span": 800.0,
+    "area": 707.0,
+    "aspectRatio": 9.05,
+    "rollMoment": 2880.0,
+    "pitchMoment": 58.0
+  },
+  {
+    "name": "ART699",
+    "series": "ART",
+    "span": 699.0,
+    "area": 543.0,
+    "aspectRatio": 9.0,
+    "rollMoment": 1721.0,
+    "pitchMoment": 32.4
+  },
+  {
+    "name": "Spitfire 1180",
+    "series": "Spitfire",
+    "span": 1180.0,
+    "area": 1525.0,
+    "aspectRatio": 9.13,
+    "rollMoment": 13235.0,
+    "pitchMoment": 259.0
+  },
+  {
+    "name": "Spitfire 1170",
+    "series": "Spitfire",
+    "span": 1170.0,
+    "area": 1512.0,
+    "aspectRatio": 9.05,
+    "rollMoment": 11546.0,
+    "pitchMoment": 245.0
+  },
+  {
+    "name": "Spitfire 1100",
+    "series": "Spitfire",
+    "span": 1100.0,
+    "area": 1398.0,
+    "aspectRatio": 8.66,
+    "rollMoment": 11010.0,
+    "pitchMoment": 234.0
+  },
+  {
+    "name": "Spitfire 1030",
+    "series": "Spitfire",
+    "span": 1030.0,
+    "area": 1285.0,
+    "aspectRatio": 8.26,
+    "rollMoment": 8922.0,
+    "pitchMoment": 211.0
+  },
+  {
+    "name": "Spitfire 960",
+    "series": "Spitfire",
+    "span": 960.0,
+    "area": 1175.0,
+    "aspectRatio": 7.84,
+    "rollMoment": 7134.0,
+    "pitchMoment": 189.0
+  },
+  {
+    "name": "Spitfire 900",
+    "series": "Spitfire",
+    "span": 900.0,
+    "area": 1080.0,
+    "aspectRatio": 7.5,
+    "rollMoment": 5804.0,
+    "pitchMoment": 170.0
+  },
+  {
+    "name": "Spitfire 840",
+    "series": "Spitfire",
+    "span": 840.0,
+    "area": 988.0,
+    "aspectRatio": 7.14,
+    "rollMoment": 4659.0,
+    "pitchMoment": 152.0
+  },
+  {
+    "name": "Spitfire 780",
+    "series": "Spitfire",
+    "span": 780.0,
+    "area": 886.0,
+    "aspectRatio": 6.87,
+    "rollMoment": 3357.0,
+    "pitchMoment": 116.0
+  },
+  {
+    "name": "Spitfire 720",
+    "series": "Spitfire",
+    "span": 720.0,
+    "area": 801.0,
+    "aspectRatio": 6.47,
+    "rollMoment": 2586.0,
+    "pitchMoment": 101.0
+  },
+  {
+    "name": "Spitfire 670",
+    "series": "Spitfire",
+    "span": 670.0,
+    "area": 708.0,
+    "aspectRatio": 6.34,
+    "rollMoment": 1981.0,
+    "pitchMoment": 81.0
+  },
+  {
+    "name": "Spitfire 620",
+    "series": "Spitfire",
+    "span": 620.0,
+    "area": 628.0,
+    "aspectRatio": 6.12,
+    "rollMoment": 1478.0,
+    "pitchMoment": 62.0
+  },
+  {
+    "name": "BSC1120",
+    "series": "BSC",
+    "span": 1120.0,
+    "area": 2006.56,
+    "aspectRatio": 6.25,
+    "rollMoment": 16470.66257332,
+    "pitchMoment": 652.38367377
+  },
+  {
+    "name": "BSC V2 1060 test",
+    "series": "BSC",
+    "span": 1060.0,
+    "area": 1727.0,
+    "aspectRatio": 6.51,
+    "rollMoment": 12280.0,
+    "pitchMoment": 462.0
+  },
+  {
+    "name": "BSC V3 1080 test",
+    "series": "BSC",
+    "span": 1080.0,
+    "area": 1727.0,
+    "aspectRatio": 6.75,
+    "rollMoment": 12280.0,
+    "pitchMoment": 462.0
+  },
+  {
+    "name": "BSC1060",
+    "series": "BSC",
+    "span": 1060.0,
+    "area": 1726.0,
+    "aspectRatio": 6.51,
+    "rollMoment": 12689.0,
+    "pitchMoment": 463.2
+  },
+  {
+    "name": "BSC970",
+    "series": "BSC",
+    "span": 970.0,
+    "area": 1500.85,
+    "aspectRatio": 6.27,
+    "rollMoment": 9240.77,
+    "pitchMoment": 363.95
+  },
+  {
+    "name": "BSC890",
+    "series": "BSC",
+    "span": 890.0,
+    "area": 1232.0,
+    "aspectRatio": 6.43,
+    "rollMoment": 6389.0,
+    "pitchMoment": 238.29
+  },
+  {
+    "name": "BSC810",
+    "series": "BSC",
+    "span": 810.0,
+    "area": 1022.5,
+    "aspectRatio": 6.42,
+    "rollMoment": 4391.0,
+    "pitchMoment": 164.4
+  },
+  {
+    "name": "BSC740",
+    "series": "BSC",
+    "span": 740.0,
+    "area": 843.8,
+    "aspectRatio": 6.49,
+    "rollMoment": 3024.41,
+    "pitchMoment": 110.63
+  },
+  {
+    "name": "PNG1400 V2",
+    "series": "PNG",
+    "span": 1400.0,
+    "area": 1626.0,
+    "aspectRatio": 12.05,
+    "rollMoment": 19734.0,
+    "pitchMoment": 226.0
+  },
+  {
+    "name": "PNG1310",
+    "series": "PNG",
+    "span": 1310.0,
+    "area": 2011.47,
+    "aspectRatio": 8.53,
+    "rollMoment": 23186.0,
+    "pitchMoment": 450.0
+  },
+  {
+    "name": "PNG V2 1200 test",
+    "series": "PNG",
+    "span": 1200.0,
+    "area": 1645.0,
+    "aspectRatio": 8.75,
+    "rollMoment": 15481.0,
+    "pitchMoment": 299.0
+  },
+  {
+    "name": "PNG1150",
+    "series": "PNG",
+    "span": 1150.0,
+    "area": 1712.73,
+    "aspectRatio": 7.72,
+    "rollMoment": 15218.47185473,
+    "pitchMoment": 364.00562546
+  },
+  {
+    "name": "PNG1010",
+    "series": "PNG",
+    "span": 1010.0,
+    "area": 1430.0,
+    "aspectRatio": 7.13,
+    "rollMoment": 9812.03330552,
+    "pitchMoment": 274.50366010000005
+  },
+  {
+    "name": "PNG910",
+    "series": "PNG",
+    "span": 910.0,
+    "area": 1218.0,
+    "aspectRatio": 6.8,
+    "rollMoment": 6810.23670088,
+    "pitchMoment": 208.42
+  },
+  {
+    "name": "PNG850",
+    "series": "PNG",
+    "span": 850.0,
+    "area": 1061.0,
+    "aspectRatio": 6.81,
+    "rollMoment": 5162.0,
+    "pitchMoment": 159.0
+  },
+  {
+    "name": "HPS1050",
+    "series": "HPS",
+    "span": 1050.0,
+    "area": 1460.0,
+    "aspectRatio": 7.55,
+    "rollMoment": 10496.2,
+    "pitchMoment": 300.5
+  },
+  {
+    "name": "980 V1",
+    "series": "HPS",
+    "span": 980.0,
+    "area": 1217.62,
+    "aspectRatio": 7.89,
+    "rollMoment": 7445.4,
+    "pitchMoment": 205.6
+  },
+  {
+    "name": "HPS990",
+    "series": "HPS",
+    "span": 990.0,
+    "area": 1093.0,
+    "aspectRatio": 8.97,
+    "rollMoment": 6987.0,
+    "pitchMoment": 141.7
+  },
+  {
+    "name": "HPS980",
+    "series": "HPS",
+    "span": 980.0,
+    "area": 1282.79,
+    "aspectRatio": 7.49,
+    "rollMoment": 8033.83,
+    "pitchMoment": 233.79
+  },
+  {
+    "name": "HPS930",
+    "series": "HPS",
+    "span": 930.0,
+    "area": 1178.82,
+    "aspectRatio": 7.34,
+    "rollMoment": 6651.16,
+    "pitchMoment": 201.52
+  },
+  {
+    "name": "HPS880",
+    "series": "HPS",
+    "span": 880.0,
+    "area": 1079.43,
+    "aspectRatio": 7.17,
+    "rollMoment": 5452.31,
+    "pitchMoment": 172.45
+  },
+  {
+    "name": "HPS830",
+    "series": "HPS",
+    "span": 830.0,
+    "area": 984.0,
+    "aspectRatio": 7.0,
+    "rollMoment": 4420.0,
+    "pitchMoment": 147.0
+  },
+  {
+    "name": "HPS700",
+    "series": "HPS",
+    "span": 700.0,
+    "area": 870.0,
+    "aspectRatio": 5.63,
+    "rollMoment": 2713.25,
+    "pitchMoment": 146.38
+  },
+  {
+    "name": "HPS650",
+    "series": "HPS",
+    "span": 650.0,
+    "area": 744.0,
+    "aspectRatio": 5.68,
+    "rollMoment": 2050.0,
+    "pitchMoment": 103.79
+  },
+  {
+    "name": "SES1040",
+    "series": "SES",
+    "span": 1040.0,
+    "area": 1864.0,
+    "aspectRatio": 5.8,
+    "rollMoment": 13235.2,
+    "pitchMoment": 600.99
+  },
+  {
+    "name": "SES940",
+    "series": "SES",
+    "span": 940.0,
+    "area": 1607.69,
+    "aspectRatio": 5.5,
+    "rollMoment": 9298.37,
+    "pitchMoment": 474.74
+  },
+  {
+    "name": "SES840",
+    "series": "SES",
+    "span": 840.0,
+    "area": 1300.0,
+    "aspectRatio": 5.43,
+    "rollMoment": 6003.0,
+    "pitchMoment": 314.2
+  }
+]
