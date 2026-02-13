@@ -642,11 +642,12 @@ export default function WizardPage() {
                 </div>
               </div>
 
-              {/* Wind Conditions - only for wind-powered disciplines */}
-              {['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && (
+              {/* Wind Conditions - for wind-powered disciplines + downwind (optional for downwind) */}
+              {['wing', 'kite', 'parawing', 'windsurf', 'downwind'].includes(formData.useCase) && (
                 <div>
                   <label className="block text-sm font-bold text-gray-900 mb-2">
                     Typical wind conditions
+                    {formData.useCase === 'downwind' && <span className="text-gray-400 font-normal"> (optional)</span>}
                   </label>
                   <div className="grid grid-cols-3 gap-3">
                     {[
@@ -700,6 +701,7 @@ export default function WizardPage() {
                 <button
                   onClick={() => setStep(3)}
                   disabled={!formData.useCase || (['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && !formData.windCondition)}
+                  /* Note: wind optional for downwind */
                   className="flex-1 bg-red-600 hover:bg-red-700 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold py-3 px-6 rounded-lg transition"
                 >
                   Get Recommendations →
@@ -734,7 +736,7 @@ export default function WizardPage() {
                        'Dock Start / Pump'}
                     </span>
                   </div>
-                  {['wing', 'kite', 'parawing', 'windsurf'].includes(formData.useCase) && (
+                  {['wing', 'kite', 'parawing', 'windsurf', 'downwind'].includes(formData.useCase) && formData.windCondition && (
                     <div className="flex justify-between">
                       <span className="font-semibold text-gray-700">Wind:</span>
                       <span className="text-gray-900 capitalize">
