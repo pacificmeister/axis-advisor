@@ -2,7 +2,9 @@
   "meta": {
     "scraped_at": "2026-02-10T19:39:04.272851",
     "source": "https://www.facebook.com/groups/axisfoilriders",
-    "version": "stealth-1.0"
+    "version": "stealth-1.0",
+    "last_updated": "2026-02-15T04:00:00Z",
+    "total_posts": 99
   },
   "posts": [
     {
@@ -626,10 +628,452 @@
       "use_case": "wing",
       "sentiment": "positive",
       "scraped_at": "2026-02-10T19:46:31.436679"
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/reel/DUr-WisEQLX/",
+      "date": "2026-02-14",
+      "rider": "Unknown (Instagram Reel)",
+      "foils_mentioned": [
+        "Surge 890"
+      ],
+      "disciplines": [
+        "prone",
+        "surf"
+      ],
+      "setup": {
+        "front_wing": "Surge 890",
+        "rear_wing": "Skinny 40",
+        "board": "31L board, position 4"
+      },
+      "text": "First impressions of the Axis Surge 890. Incredible from the very first wave. Coming off Tempos (16AR, 575/650cm), straight to this bigger area, less span foil \u2014 felt natural to surf on it. Rip it through turns, forehand slashes in 1-2ft waves. Pumps easy, linking 3 waves. AXIS knocked it out of the park. The pump, turning, shape, moustache \u2014 works out of the box.",
+      "key_insight": "Surge 890 incredible surf feel, easy transition from Tempo 16AR, forehand slashes in 1-2ft waves, pumps easy linking 3 waves",
+      "sentiment": "very positive"
+    },
+    {
+      "id": "post_fb_20260215_001",
+      "text": "Biok Gui: Hi! I have the Surge 950 for surf foil drive at a beginner/intermediate level, I weigh 80kg without a wetsuit; I would like to go down to the 890 size and sell my 950 or go straight down to the 830 but I'm afraid it will be too small for my level, at my home stop in the southwest of France I ride waves from hip high to shoulder high.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 890",
+        "Surge 830"
+      ],
+      "rider_weight": 80,
+      "use_case": "surf_foildrive",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_002",
+      "text": "Paul Shapiro (Rising contributor): I just lent my Surge 890 to a friend because I consider it too big (slow) for my FD-assisted prone surfing (in fairly big, powerful Northern California winter surf). Amazing how much lift and pumping can be packed into a foil with 835 cm^2. I prefer 939v2 for FD in waves. I am thinking I might like Surge 830. I'm 86 kg, 69yo. 60L Axis FD board. HP motor, 3 blade hub. 600mm Adv+ fuse, 45 skinny tail (-0.25 shim), 80cm Ultra Pro mast, Zip-Pod.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 830",
+        "ART v2 939"
+      ],
+      "rider_weight": 86,
+      "use_case": "prone_foildrive",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "60L Axis FD board, HP motor, 3-blade hub, 600mm Adv+ fuse, 45 Skinny tail (-0.25 shim), 80cm Ultra Pro mast, Zip-Pod"
+    },
+    {
+      "id": "post_fb_20260215_003",
+      "text": "Carlo Prado S: I'm 90 kg and ride my 890 for FD all the time. I love it. I also have the 950 but only use for winging light days.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950"
+      ],
+      "rider_weight": 90,
+      "use_case": "foildrive",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_004",
+      "text": "Matthew Kyhnn: I'm 75kgs on a 890. I'm pretty happy with the setup. I have considered an 830 but feel it would be at the expense of battery. I think the range is enough on the Surges that I'll probably stick with the 890 and get a 950 for very small or light wind winging days.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 830",
+        "Surge 950"
+      ],
+      "rider_weight": 75,
+      "use_case": "foildrive_wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_005",
+      "text": "Mark Shinn (Top contributor): You will be absolutely fine on the 890 and the performance is outstanding. Spend a few months on it and then you will know if you want or need the 830 as well.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 830"
+      ],
+      "rider_weight": null,
+      "use_case": "surf_foildrive",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_006",
+      "text": "Dean Bradley: Just off to pick the surge 1010 up for its maiden voyage tomorrow morning can it sit in the same spot my Spitfire 1030 and my art v2 999 or is there any forward to backwards movement going on?",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030",
+        "ART v2 999"
+      ],
+      "rider_weight": null,
+      "use_case": "general",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_007",
+      "text": "Mark Shinn (Top contributor): In general the surge likes to be a couple of cm's further forwards in the board. If you are riding strapless it matters less.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_008",
+      "text": "Harris Chang: I went from sf 840 to surge 830. Initially didn't move forward but felt too back footed. I had to move my front strap back because I was maxed out forward. Also going to one size bigger on the tail while keeping the mast in the old position worked too.",
+      "foils_mentioned": [
+        "Spitfire 840",
+        "Surge 830"
+      ],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_009",
+      "text": "Glenn Wade: I have moved my mast 3cm forward for my Surge1010 compared to my SF1030. I found, like others, that having the Surges in the same mast location as my Spitfires resulted in increased back foot pressure. Riding strapless.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030"
+      ],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_010",
+      "text": "Sean Richardson (Top contributor): I agree with Mark Shinn - slightly further forward with Surge... but really depends if you are strapped or strapless. I have 2 boards - one strapped, one strapless. I never move the mast on the strapless, just stance... strapped one have to play around with mast position... slightly further forward.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_011",
+      "text": "Jimmy Jam Foils (Group expert): Tbh I keep my mast in the same spot (usually slammed forward) and if need be make micro adjustments with stance. I'd say keep in same position as the 1030. Really liking the 1010 and was a fan of the 1030 when it came out. Both great for boat wakes.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_012",
+      "text": "Terry Morris (78kg, 68yo): I started the learning to Wing foil bit over a year ago. Board is 120 Froth, Front foil Spitfire 1030, rear foil Freeride 400. I recently changed the rear foil to the 375 progressive. Wish I had done this 6 months ago. The difference is amazing. With the 400 I had to really concentrate on not riding too high or would crash and burn. With the 375 it is just so easy to ride high and if I get too high feels like I skim on top and recover. Have not done a high speed crash since I started using the 375.",
+      "foils_mentioned": [
+        "Spitfire 1030",
+        "Freeride 400",
+        "Progressive 375"
+      ],
+      "rider_weight": 78,
+      "use_case": "wing",
+      "sentiment": "very_positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "120 Froth board, SF 1030, Progressive 375, Advanced Short fuse"
+    },
+    {
+      "id": "post_fb_20260215_013",
+      "text": "Perry Hughes: SF960 goes great with the 375p and ultrashort adv+ for early intermediate, after 2 years for me loving the crazy short and 45 skinny.",
+      "foils_mentioned": [
+        "Spitfire 960",
+        "Progressive 375",
+        "Skinny 45"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_014",
+      "text": "Dale Underwood (80kg): If you can pump the wing you can ride a smaller spitfire. Currently I'm riding the 720 with a 365 (skinny?) stab. I started on the 1030 and found it produced so much lift. Try a smaller front wing. I suspect you'll never go back to the 960.",
+      "foils_mentioned": [
+        "Spitfire 720",
+        "Spitfire 1030",
+        "Spitfire 960"
+      ],
+      "rider_weight": 80,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "SF 720, 365 skinny stab"
+    },
+    {
+      "id": "post_fb_20260215_015",
+      "text": "Sean Richardson (Top contributor, 85kg): My biggest foils for winging over the last couple of years have been SF 1030 and now Surge 1010. I started on the 375P and quickly moved down to 325, then 300, and all the way down to 250 (last one is an acquired taste)... the smaller progressives really loosen up the feel and turning of a big front foil, while the foil itself still creates plenty of stability.",
+      "foils_mentioned": [
+        "Spitfire 1030",
+        "Surge 1010",
+        "Progressive 375",
+        "Progressive 325",
+        "Progressive 300",
+        "Progressive 250"
+      ],
+      "rider_weight": 85,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_016",
+      "text": "Steven Floyd (Top contributor): The best rear wing size is one size bigger than the one that feels too small. Rear wings make a massive difference. I found the 325 progressive, 362 skinny and surf 320 perfect for me winging on ultra short fuse with 960sf.",
+      "foils_mentioned": [
+        "Progressive 325",
+        "Skinny 362",
+        "Surf 320",
+        "Spitfire 960"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "Ultra short fuse, SF 960"
+    },
+    {
+      "id": "post_fb_20260215_017",
+      "text": "Steven Floyd (Top contributor): If front foot load increases as you go faster rear wing is too big.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_018",
+      "text": "Jimmy Jam Foils (Group expert): The free ride tail is great for learning and usually helps speed up the beginner phase. The wingtips help to add extra stabilization when u are learning to control the foil. It's a nice upgrade to the progressive series.",
+      "foils_mentioned": [
+        "Freeride"
+      ],
+      "rider_weight": null,
+      "use_case": "setup_tips",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_019",
+      "text": "Chris Leverkuehn: I've just switched to Axis myself. Have had a couple sessions on a spitfire 960, short black fuse and 400 progressive. I struggle with getting too high and breaching and crashing. Wonder if dropping tail size would help at all.",
+      "foils_mentioned": [
+        "Spitfire 960",
+        "Progressive 400"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "negative",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "SF 960, short black fuse, 400 progressive"
+    },
+    {
+      "id": "post_fb_20260215_020",
+      "text": "Andrew Lynch: Just demoed a 900 (my usual is hps980). I found gybes easier, mostly because there is less lift to have to control halfway through the turn but it also turns tighter meaning you can maintain speed. A lot of this is possibly due to downsizing foil.",
+      "foils_mentioned": [
+        "Spitfire 900",
+        "HPS 980"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_021",
+      "text": "Lukasz Scibak: Spitfires fronts and progressive stabs are fantastic especially to wing they are very predictable and stable!!! Froth 120L is also Epic board no question about it!!!",
+      "foils_mentioned": [
+        "Spitfire",
+        "Progressive"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "very_positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_022",
+      "text": "Thirode Gregory (85kg): I surf in prone the SF 960 the 840sf is too small for my level (not tested the 900sf). What size surge do you recommend to keep the same wear?",
+      "foils_mentioned": [
+        "Spitfire 960",
+        "Spitfire 840",
+        "Spitfire 900"
+      ],
+      "rider_weight": 85,
+      "use_case": "prone",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_023",
+      "text": "Stephen Westwood (85kg): I reckon the 950 Surge. I'm 85kg and prone surf / Foil Drive. I have ridden the 960 SF a lot so went for a similar size Surge foil.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Spitfire 960"
+      ],
+      "rider_weight": 85,
+      "use_case": "prone_foildrive",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_024",
+      "text": "Hal Turner: I used to ride 960/900 SF. I went to Surge and definitely wanna go a size smaller. 890 surge has as much lift and glide as SF 960 but more maneuverability.",
+      "foils_mentioned": [
+        "Spitfire 960",
+        "Spitfire 900",
+        "Surge 890"
+      ],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_025",
+      "text": "Troy Martyn (Rising contributor, 84kg): The swell period has a lot to do with the foils your riding. I'm 84kgs and ride both the sf840 and surge 830 prone 4ft board.",
+      "foils_mentioned": [
+        "Spitfire 840",
+        "Surge 830"
+      ],
+      "rider_weight": 84,
+      "use_case": "prone",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_026",
+      "text": "Nico Nico: Je te conseille la 890mm apr\u00e8s la 950mm aura quasiment la m\u00eame portance que ta spitfire 960mm. (Translation: I recommend the 890mm, the 950mm will have nearly the same lift as your spitfire 960mm)",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950",
+        "Spitfire 960"
+      ],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "neutral",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_027",
+      "text": "Sam Lack (70kg): I am 70 kgs and love sf900 in up to 3 meter waves. Just bought the surge 830 and it rips harder but is very similar to the 900 everywhere else same get up on but surge is way easier on faster wave.",
+      "foils_mentioned": [
+        "Spitfire 900",
+        "Surge 830"
+      ],
+      "rider_weight": 70,
+      "use_case": "prone",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_028",
+      "text": "Vangelis Evan Mavridoglou (Group expert): Try the 890 Surge. [Reply to 85kg rider asking about SF 960 replacement]",
+      "foils_mentioned": [
+        "Surge 890"
+      ],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_029",
+      "text": "Sarge Bosher (115kg/250lbs): I mainly love pumping and surfing behind the boat, with the goal of connecting from one wave to the next without dropping too much. The 1010 - I love it, super fun, but it doesn't hold enough lift to pump for long sessions. The 1310 - pumps really well and gets going easy, but in the waves it doesn't carve sharp enough to surf properly. I've just ordered the 1200 V2 and I'll test it this spring. I'll run it on Black Advance+ fuse (Silly Short or Ultra Short) with a 400 or 460 stab.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Surge 1310",
+        "Surge 1200"
+      ],
+      "rider_weight": 115,
+      "use_case": "wake_surf",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "Black Advance+ fuse (Silly Short or Ultra Short), 400 or 460 stab"
+    },
+    {
+      "id": "post_fb_20260215_030",
+      "text": "Dana Dinsmore: 1200 v2 is max lift. For a real good time fly it with a Fatty.",
+      "foils_mentioned": [
+        "Surge 1200"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_031",
+      "text": "Dylan Fish Bez (Group expert): Totally agree. The fatty mast is a must. Just a little teaser, that there may be bigger surges on the way. \ud83d\ude09\ud83d\ude09\ud83d\ude09",
+      "foils_mentioned": [
+        "Surge",
+        "Fatty mast"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_032",
+      "text": "Jimmy Jam Foils (Group expert): Surge 1010 behind the boat with dock 999 board. So good. Also surge 1010 with tow boogie and tray 125 (end of video). Hit me up if u are looking for gear or to demo before u buy. Also offering lessons behind boats, jet skis in surf, and with Foildrive.",
+      "foils_mentioned": [
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "wake_tow",
+      "sentiment": "very_positive",
+      "scraped_at": "2026-02-15T04:00:00Z",
+      "setup": "Dock 999 board, tow boogie with tray 125"
+    },
+    {
+      "id": "post_fb_20260215_033",
+      "text": "Adrian Roper (Group expert): Amazing how it handled the prop wash. [Re: Jimmy Jam Surge 1010 wake foiling]",
+      "foils_mentioned": [
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "sentiment": "positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
+    },
+    {
+      "id": "post_fb_20260215_034",
+      "text": "Jimmy Jam Foils (Group expert): So good and smooth. Was my first session wake foiling it without Foildrive actually. Really fun in small no breaking surf as well. [Re: Surge 1010]",
+      "foils_mentioned": [
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "wake_surf",
+      "sentiment": "very_positive",
+      "scraped_at": "2026-02-15T04:00:00Z"
     }
   ],
   "statistics": {
-    "total_posts": 64,
+    "total_posts": 65,
     "foil_mentions": {
       "PNG 1310": 1,
       "SURGE 890": 4,
