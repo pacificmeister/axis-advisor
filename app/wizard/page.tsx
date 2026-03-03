@@ -191,7 +191,12 @@ export default function WizardPage() {
       );
       
       if (mentioned && post.key_insight) {
-        feedback.push(`🎬 YL: ${post.key_insight}`);
+        // Use rider-specific prefix: instructor vs Yvon
+        const riderType = post.rider_type === 'instructor' ? '🏄' : '🎬';
+        const riderTag = post.rider_type === 'instructor' 
+          ? post.rider?.split(' ').slice(0,2).join(' ') || 'Instructor'
+          : 'YL';
+        feedback.push(`${riderType} ${riderTag}: ${post.key_insight}`);
         if (feedback.length >= 2) break;
       }
     }
@@ -867,12 +872,12 @@ export default function WizardPage() {
                     {/* Expert + Community Feedback */}
                     {(rec.expertFeedback?.length || rec.fbFeedback?.length) ? (
                       <div className="space-y-3 mb-4">
-                        {/* Expert Review (Yvon) */}
+                        {/* Expert Review (Yvon / Instructors) */}
                         {rec.expertFeedback && rec.expertFeedback.length > 0 && (
                           <div className="bg-red-50 rounded-lg p-3 border border-red-100">
                             <div className="flex items-center gap-2 mb-2">
                               <span className="text-xs font-bold text-red-800 uppercase tracking-widest">
-                                🎬 Expert Review
+                                🎬 Expert / Instructor Review
                               </span>
                             </div>
                             <p className="text-sm text-red-900 font-medium">
