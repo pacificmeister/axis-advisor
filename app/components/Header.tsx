@@ -49,6 +49,16 @@ export default function Header() {
             WIZARD
           </Link>
           <Link 
+            href="/verify" 
+            className={`px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition ${
+              pathname === '/verify' 
+                ? 'bg-amber-600 text-white' 
+                : 'bg-amber-500 text-white hover:bg-amber-600'
+            }`}
+          >
+            🛡️ VERIFY
+          </Link>
+          <Link 
             href="/contribute" 
             className={`px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition hidden sm:block ${
               pathname === '/contribute' 
