@@ -103,6 +103,19 @@ function matchFBFeedback(fbData: FBPost[], foilName: string): string[] {
   return feedback;
 }
 
+// Evan's measured tech spec type
+interface EvanSpec {
+  name: string;
+  series: string;
+  span_mm: number;
+  max_chord_mm: number;
+  mean_chord_mm: number;
+  true_area_cm2: number;
+  projected_area_cm2: number;
+  volume_cm3: number;
+  aspect_ratio: number;
+}
+
 // Yvon Labarthe expert feedback type
 interface YvonPost {
   id: string;
@@ -139,6 +152,7 @@ export default function ComparePage() {
   const [products, setProducts] = useState<Product[]>([]);
   const [fbData, setFbData] = useState<FBPost[]>([]);
   const [yvonData, setYvonData] = useState<YvonPost[]>([]);
+  const [evanSpecs, setEvanSpecs] = useState<EvanSpec[]>([]);
   const [primaryFoil, setPrimaryFoil] = useState<Product | null>(null);
   const [referenceFoil, setReferenceFoil] = useState<Product | null>(null);
   const [showComparison, setShowComparison] = useState(false);
@@ -161,7 +175,26 @@ export default function ComparePage() {
       .then(r => r.json())
       .then(data => setYvonData(data.posts || []))
       .catch(err => console.warn('Yvon data not available:', err));
+
+    fetch('/data/evan-tech-specs.json')
+      .then(r => r.json())
+      .then(data => setEvanSpecs(data.front_wings || []))
+      .catch(err => console.warn('Evan specs not available:', err));
   }, []);
+
+  // Look up Evan's measured specs for a foil
+  const getEvanSpec = (foil: Product): EvanSpec | null => {
+    if (!evanSpecs.length) return null;
+    const area = foil.specs.area;
+    const series = foil.specs.series || '';
+    // Try to match by span (modelNumber) or area
+    return evanSpecs.find(s => {
+      const spanMatch = s.span_mm === area || s.span_mm === foil.specs.modelNumber;
+      const seriesMatch = s.series.toLowerCase().includes(series.toLowerCase()) ||
+        series.toLowerCase().includes(s.series.split(' ')[0].toLowerCase());
+      return spanMatch && seriesMatch;
+    }) || evanSpecs.find(s => s.span_mm === area) || null;
+  };
 
   const handleCompare = () => {
     if (primaryFoil && referenceFoil) {
@@ -543,32 +576,127 @@ export default function ComparePage() {
                     </tr>
                   </thead>
                   <tbody className="text-sm">
-                    <tr className="border-b">
-                      <td className="py-3 text-gray-600">Aspect Ratio</td>
-                      <td className="py-3 text-center font-bold">{primaryFoil.specs.aspectRatio?.toFixed(2) || '—'}</td>
-                      <td className="py-3 text-center font-bold">{referenceFoil.specs.aspectRatio?.toFixed(2) || '—'}</td>
-                      <td className="py-3 text-center">
-                        {primaryFoil.specs.aspectRatio && referenceFoil.specs.aspectRatio ? (
-                          <span className={primaryFoil.specs.aspectRatio > referenceFoil.specs.aspectRatio ? 'text-green-600' : 'text-red-600'}>
-                            {primaryFoil.specs.aspectRatio > referenceFoil.specs.aspectRatio ? '+' : ''}
-                            {(primaryFoil.specs.aspectRatio - referenceFoil.specs.aspectRatio).toFixed(2)}
-                          </span>
-                        ) : '—'}
-                      </td>
-                    </tr>
-                    <tr className="border-b">
-                      <td className="py-3 text-gray-600">Area (cm²)</td>
-                      <td className="py-3 text-center font-bold">{primaryFoil.specs.area}</td>
-                      <td className="py-3 text-center font-bold">{referenceFoil.specs.area}</td>
-                      <td className="py-3 text-center">
-                        {primaryFoil.specs.area && referenceFoil.specs.area ? (
-                          <span className={primaryFoil.specs.area > referenceFoil.specs.area ? 'text-green-600' : 'text-red-600'}>
-                            {primaryFoil.specs.area > referenceFoil.specs.area ? '+' : ''}
-                            {primaryFoil.specs.area - referenceFoil.specs.area}
-                          </span>
-                        ) : '—'}
-                      </td>
-                    </tr>
+                    {(() => {
+                      const primaryEvan = getEvanSpec(primaryFoil);
+                      const referenceEvan = getEvanSpec(referenceFoil);
+
+                      const rows = [];
+
+                      // Aspect Ratio (Evan's)
+                      if (primaryEvan?.aspect_ratio || referenceEvan?.aspect_ratio) {
+                        rows.push(
+                          <tr className="border-b" key="ar_evan">
+                            <td className="py-3 text-gray-600">Aspect Ratio (Evan's)</td>
+                            <td className="py-3 text-center font-bold">{primaryEvan?.aspect_ratio?.toFixed(2) || '—'}</td>
+                            <td className="py-3 text-center font-bold">{referenceEvan?.aspect_ratio?.toFixed(2) || '—'}</td>
+                            <td className="py-3 text-center">
+                              {primaryEvan?.aspect_ratio && referenceEvan?.aspect_ratio ? (
+                                <span className={primaryEvan.aspect_ratio > referenceEvan.aspect_ratio ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryEvan.aspect_ratio > referenceEvan.aspect_ratio ? '+' : ''}
+                                  {(primaryEvan.aspect_ratio - referenceEvan.aspect_ratio).toFixed(2)}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                        );
+                      }
+
+                      // True Area
+                      if (primaryEvan?.true_area_cm2 || referenceEvan?.true_area_cm2) {
+                        rows.push(
+                          <tr className="border-b" key="true_area">
+                            <td className="py-3 text-gray-600">True Area (cm²)</td>
+                            <td className="py-3 text-center font-bold">{primaryEvan?.true_area_cm2?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center font-bold">{referenceEvan?.true_area_cm2?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center">
+                              {primaryEvan?.true_area_cm2 && referenceEvan?.true_area_cm2 ? (
+                                <span className={primaryEvan.true_area_cm2 > referenceEvan.true_area_cm2 ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryEvan.true_area_cm2 > referenceEvan.true_area_cm2 ? '+' : ''}
+                                  {(primaryEvan.true_area_cm2 - referenceEvan.true_area_cm2).toFixed(0)}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                        );
+                      }
+
+                      // Projected Area
+                      if (primaryEvan?.projected_area_cm2 || referenceEvan?.projected_area_cm2) {
+                        rows.push(
+                          <tr className="border-b" key="projected_area">
+                            <td className="py-3 text-gray-600">Projected Area (cm²)</td>
+                            <td className="py-3 text-center font-bold">{primaryEvan?.projected_area_cm2?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center font-bold">{referenceEvan?.projected_area_cm2?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center">
+                              {primaryEvan?.projected_area_cm2 && referenceEvan?.projected_area_cm2 ? (
+                                <span className={primaryEvan.projected_area_cm2 > referenceEvan.projected_area_cm2 ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryEvan.projected_area_cm2 > referenceEvan.projected_area_cm2 ? '+' : ''}
+                                  {(primaryEvan.projected_area_cm2 - referenceEvan.projected_area_cm2).toFixed(0)}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                        );
+                      }
+
+                      // Volume
+                      if (primaryEvan?.volume_cm3 || referenceEvan?.volume_cm3) {
+                        rows.push(
+                          <tr className="border-b" key="volume">
+                            <td className="py-3 text-gray-600">Volume (cm³)</td>
+                            <td className="py-3 text-center font-bold">{primaryEvan?.volume_cm3?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center font-bold">{referenceEvan?.volume_cm3?.toFixed(0) || '—'}</td>
+                            <td className="py-3 text-center">
+                              {primaryEvan?.volume_cm3 && referenceEvan?.volume_cm3 ? (
+                                <span className={primaryEvan.volume_cm3 > referenceEvan.volume_cm3 ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryEvan.volume_cm3 > referenceEvan.volume_cm3 ? '+' : ''}
+                                  {(primaryEvan.volume_cm3 - referenceEvan.volume_cm3).toFixed(0)}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                        );
+                      }
+                      
+                      // Add default Aspect Ratio and Area if Evan's are not available
+                      if (!primaryEvan?.aspect_ratio && !referenceEvan?.aspect_ratio) {
+                         rows.push(
+                          <tr className="border-b" key="ar_default">
+                            <td className="py-3 text-gray-600">Aspect Ratio (Marketing)</td>
+                            <td className="py-3 text-center font-bold">{primaryFoil.specs.aspectRatio?.toFixed(2) || '—'}</td>
+                            <td className="py-3 text-center font-bold">{referenceFoil.specs.aspectRatio?.toFixed(2) || '—'}</td>
+                            <td className="py-3 text-center">
+                              {primaryFoil.specs.aspectRatio && referenceFoil.specs.aspectRatio ? (
+                                <span className={primaryFoil.specs.aspectRatio > referenceFoil.specs.aspectRatio ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryFoil.specs.aspectRatio > referenceFoil.specs.aspectRatio ? '+' : ''}
+                                  {(primaryFoil.specs.aspectRatio - referenceFoil.specs.aspectRatio).toFixed(2)}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                         );
+                      }
+
+                      if (!primaryEvan?.true_area_cm2 && !referenceEvan?.true_area_cm2) {
+                        rows.push(
+                          <tr className="border-b" key="area_default">
+                            <td className="py-3 text-gray-600">Area (cm²)</td>
+                            <td className="py-3 text-center font-bold">{primaryFoil.specs.area}</td>
+                            <td className="py-3 text-center font-bold">{referenceFoil.specs.area}</td>
+                            <td className="py-3 text-center">
+                              {primaryFoil.specs.area && referenceFoil.specs.area ? (
+                                <span className={primaryFoil.specs.area > referenceFoil.specs.area ? 'text-green-600' : 'text-red-600'}>
+                                  {primaryFoil.specs.area > referenceFoil.specs.area ? '+' : ''}
+                                  {primaryFoil.specs.area - referenceFoil.specs.area}
+                                </span>
+                              ) : '—'}
+                            </td>
+                          </tr>
+                        );
+                      }
+
+                      return rows;
+                    })()}
                     <tr className="border-b">
                       <td className="py-3 text-gray-600">Price</td>
                       <td className="py-3 text-center font-bold">${primaryFoil.price || '—'}</td>

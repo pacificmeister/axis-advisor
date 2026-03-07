@@ -494,6 +494,83 @@ export default function WizardPage() {
     }
   };
 
+  // Generate setup recommendation (fuselage, rear wing, mast) based on foil + user profile
+  const getSetupRecommendation = (product: Product, weightLbs: number, skill: string, discipline: string) => {
+    const series = product.specs.series || '';
+    const area = product.specs.area || 0;
+    const weightKg = Math.round(weightLbs / 2.20462);
+
+    // Fuselage recommendation
+    let fuselage = '';
+    let rearWing = '';
+    let mast = '';
+    let setupNote = '';
+
+    // Red vs Black fuselage logic
+    const redSeriesFoils = ['PNG', 'BSC'];
+    const isRedSeries = redSeriesFoils.includes(series) && area > 900;
+
+    if (series === 'Tempo') {
+      fuselage = 'Ti Link 70cm (Short Advance Plus) — only option for Tempo';
+      rearWing = area >= 1090 ? 'Tempo Skinny 30 (DW) / 35 (upwind legs)' : 'Tempo Skinny 30 or below';
+      mast = 'Ultra Pro Carbon or Power Carbon';
+      setupNote = 'Tempo rear wings are Revised Skinnies Monobloc — not standard Skinny stabs. Must use integrated tail fuselage.';
+    } else if (series === 'Fireball') {
+      if (area >= 1500) {
+        fuselage = weightKg > 85 ? 'Black Fatty Advance (REQUIRED for >85kg)' : 'Black Psycho Short or Silly Short';
+        mast = weightKg > 85 ? 'Power Carbon FATTY (required for >85kg with 1500+)' : 'Ultra Pro Carbon or Power Carbon';
+        rearWing = 'Skinny 25';
+        setupNote = weightKg > 85 ? '⚠️ Fatty mast is REQUIRED for riders >85kg with Fireball 1500/1750. Ultra Pro bends under this load.' : 'Psycho Short fuse pumps incredibly well (Mark Shinn).';
+      } else if (area >= 1350) {
+        fuselage = 'Black Psycho Short or Silly Short';
+        rearWing = 'Skinny 30-35';
+        mast = 'Power Carbon or Ultra Pro';
+        setupNote = 'Mark Shinn: "On the 1350 I use the psycho short as it pumps so well."';
+      } else {
+        fuselage = skill === 'beginner' ? 'Black Ultrashort' : 'Black Ultrashort or Psycho Short';
+        rearWing = 'Skinny 30-40';
+        mast = 'Power Carbon 82-90cm';
+      }
+    } else if (series === 'Surge') {
+      fuselage = 'Black Advance Ultrashort';
+      rearWing = discipline === 'parawing' ? 'Surf Skinny 280 (Jerome\'s recommendation)' : 'Surf Skinny 300-360';
+      mast = 'Power Carbon 75-82cm';
+      setupNote = 'Aurelien J (75kg): Advance Ultrashort + Skinny 360 makes the Surge feel alive and wanting to turn.';
+    } else if (series === 'ART' || series === 'ART v2' || series === 'ART Pro') {
+      fuselage = skill === 'advanced' ? 'Black Advance Ultrashort or Crazy Short' : 'Black Ultrashort';
+      rearWing = 'Progressive 275-300 or Speed rear';
+      mast = 'Power Carbon (essential for ART) 90cm';
+      setupNote = 'ART needs Power Carbon mast — aluminum limits ART\'s performance potential.';
+    } else if (series === 'Spitfire') {
+      fuselage = isRedSeries ? 'Red Ultrashort' : 'Black Ultrashort or Advance Ultrashort';
+      rearWing = 'Progressive 275-300';
+      mast = skill === 'beginner' ? '82-90cm Aluminum 19mm' : 'Power Carbon 90cm';
+    } else if (series === 'PNG') {
+      fuselage = weightKg > 90 ? 'Red Standard' : 'Red Short';
+      rearWing = 'Freeride 440/90 or Progressive 350';
+      mast = '82-90cm Aluminum 19mm';
+    } else if (series === 'BSC') {
+      if (area >= 1060) {
+        fuselage = weightKg > 90 ? 'Red Standard' : 'Red Short';
+      } else {
+        fuselage = 'Black Ultrashort';
+      }
+      rearWing = skill === 'beginner' ? 'Freeride 440/90' : 'Progressive 300-350';
+      mast = skill === 'beginner' ? '75-82cm Aluminum 19mm' : '90cm Aluminum 19mm or Power Carbon';
+    } else if (series === 'HPS') {
+      fuselage = 'Black Ultrashort';
+      rearWing = 'Progressive 300 or Speed rear';
+      mast = '90cm Aluminum 19mm or Power Carbon';
+      setupNote = 'If pitch control is challenging, try Advance fuselage — it helps with large span HPS wings.';
+    } else {
+      fuselage = 'Black Ultrashort';
+      rearWing = 'Progressive 300';
+      mast = '90cm Aluminum 19mm';
+    }
+
+    return { fuselage, rearWing, mast, setupNote };
+  };
+
   const resetWizard = () => {
     setStep(1);
     setFormData({
@@ -828,6 +905,35 @@ export default function WizardPage() {
                     </div>
 
                     <p className="text-gray-700 mb-4">{rec.reasoning}</p>
+
+                    {/* Setup Recommendation */}
+                    {(() => {
+                      const inputWeight = parseInt(formData.weight) || (weightUnit === 'kg' ? 80 : 175);
+                      const weightLbs = weightUnit === 'kg' ? Math.round(inputWeight * 2.20462) : inputWeight;
+                      const setup = getSetupRecommendation(rec.product, weightLbs, formData.skillLevel, formData.useCase);
+                      return (
+                        <div className="bg-gray-50 border border-gray-200 rounded-xl p-4 mb-4">
+                          <h4 className="text-xs font-bold text-gray-600 uppercase tracking-widest mb-3">🔧 Recommended Complete Setup</h4>
+                          <div className="grid grid-cols-3 gap-3 text-sm">
+                            <div>
+                              <div className="text-xs text-gray-500 mb-1">Fuselage</div>
+                              <div className="font-semibold text-gray-900">{setup.fuselage}</div>
+                            </div>
+                            <div>
+                              <div className="text-xs text-gray-500 mb-1">Rear Wing</div>
+                              <div className="font-semibold text-gray-900">{setup.rearWing}</div>
+                            </div>
+                            <div>
+                              <div className="text-xs text-gray-500 mb-1">Mast</div>
+                              <div className="font-semibold text-gray-900">{setup.mast}</div>
+                            </div>
+                          </div>
+                          {setup.setupNote && (
+                            <p className="text-xs text-gray-600 mt-3 bg-white border border-gray-100 rounded-lg px-3 py-2">{setup.setupNote}</p>
+                          )}
+                        </div>
+                      );
+                    })()}
 
                     {/* Pros/Cons */}
                     {loadingProsCons && !rec.prosCons && (

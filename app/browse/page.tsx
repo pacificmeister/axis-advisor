@@ -34,42 +34,42 @@ export default function BrowsePage() {
       name: 'Surge',
       displayName: 'Surge',
       category: 'current',
-      description: 'High-performance wings for speed and efficiency',
+      description: 'Pure surf weapon — back-foot soul restored. Instant response, shortboard snap, smooth rail-to-rail flow. Mark Shinn called it "the best AXIS foil I\'ve ridden to date." Wave riders, parawing, prone. 830-1010cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Surge-family-Flat_6up_1296x.png?v=1763771333'
     },
     {
       name: 'Tempo',
       displayName: 'Tempo',
       category: 'current',
-      description: 'All-around performance for versatile riding',
+      description: 'Next-gen ultra-high-aspect downwind revolution. Ultra-High Modulus carbon + Ti Link fuselage = maximum efficiency. Yvon Labarthe: "Nothing glides better in the world." For serious SUP DW racers and competitors. 960-1090cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Tempofamily2_1296x.png?v=1759345835'
     },
     {
       name: 'ART v2',
       displayName: 'ART v2',
       category: 'current',
-      description: 'Next-gen high-aspect with improved stability',
+      description: 'More forgiving ART with Spitfire-level turn feel. 25% more efficient than ART V2 for pumping (Yvon). ART V2 turns 5-10% better rail-to-rail. Better for UK/choppy conditions than original ART. Wing foiling, tow, DW. 879-1099cm².',
       image: 'https://axisfoils.com/cdn/shop/files/ARTV2_family-flat-5up_9d413ff4-e31d-41f3-9eb1-c275d615571e_1024x1024.jpg?v=1732312421'
     },
     {
       name: 'Fireball',
       displayName: 'Fireball',
       category: 'current',
-      description: 'Speed demon for strong wind and waves',
+      description: 'F1 of SUP downwind foiling. ~13 AR, high camber, very low stall speed. Fred Bonnet: "Fireball 1160 — unbelievable, effortless." Yvon: FB 1500 doubles pump time vs FB 1350. The benchmark for elite DW. 880-1750cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Fireball_family_1500-_-1750_1296x.png?v=1759718992'
     },
     {
       name: 'PNG v2',
       displayName: 'PNG v2',
       category: 'current',
-      description: 'Pump and glide king for dock starts',
+      description: 'World-class pump foil. PNG 1310 holds the world record for non-stop pump foiling. Legendary light-wind glide. Step 1 in downwind progression. Best beginner/light-wind wing in AXIS lineup. 910-1400cm².',
       image: 'https://axisfoils.com/cdn/shop/files/PNGv2_family_top_1296x.jpg?v=1745321257'
     },
     {
       name: 'Spitfire',
       displayName: 'Spitfire',
       category: 'current',
-      description: 'Freestyle specialist for aggressive riding',
+      description: 'Wave riding specialist — sharp turns, handles turbulence better than ART. Top choice for choppy DW conditions and UK-style prone. Spitfire 1180 = popular step 2 in downwind progression. Wing, prone, DW chop. 620-1180cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Spitfire_1180-family.587_03f11212-24be-44e0-af8f-5c22a0f50ecc_1296x.jpg?v=1707208494'
     },
 
@@ -78,35 +78,35 @@ export default function BrowsePage() {
       name: 'ART',
       displayName: 'ART (Legacy)',
       category: 'legacy',
-      description: 'Original high-aspect research series',
+      description: 'Original high-aspect research series. Pinnacle performance for smooth water. Frictionless glide, high aspect. Needs Power Carbon mast + Advance fuselage. NOT for choppy water. Advanced riders only. 799-1099cm².',
       image: 'https://axisfoils.com/cdn/shop/products/999HERO1_1296x.jpg?v=1678998958'
     },
     {
       name: 'BSC',
       displayName: 'BSC',
       category: 'legacy',
-      description: 'Beginner Series - forgiving and stable',
+      description: 'Best all-rounder — does everything well. Early pop-up, forgiving, maneuverable. BSC 1060 (75-90kg), BSC 1120 (90kg+), BSC 810 (advanced crossover). Wing, SUP, prone, kite, wake. True beginner-to-intermediate workhorse. 740-1120cm².',
       image: 'https://axisfoils.com/cdn/shop/products/BSC-family-1_1296x.jpg?v=1679174114'
     },
     {
       name: 'HPS',
       displayName: 'HPS',
       category: 'legacy',
-      description: 'High Performance Series - speed focused',
+      description: 'High Performance Speed — natural stepping stone from BSC. Fast, glidey, needs more speed to get up. HPS 880 can have pitch challenges initially. Pairs with Progressive/Speed rears. Intermediate to advanced. 880-1050cm².',
       image: 'https://axisfoils.com/cdn/shop/products/New-Black-Series-Wings_1296x.jpg?v=1679171555'
     },
     {
       name: 'SP',
       displayName: 'SP',
       category: 'legacy',
-      description: 'Surf Performance - carving specialist',
+      description: 'Surf Performance — gullwing shape for tight surfy turns without breaching. Great for prone surfing and intermediate-level tight carves. Predecessor to the Surge\'s approach to wave riding.',
       image: 'https://axisfoils.com/cdn/shop/products/SP_family_17_1296x.jpg?v=1679015790'
     },
     {
       name: 'PNG',
       displayName: 'PNG (Legacy)',
       category: 'legacy',
-      description: 'Original Pump and Glide series',
+      description: 'Original Pump and Glide series — still relevant. PNG 1310 holds the world record for non-stop pump foiling. PNG 1300 = James Casey\'s recommendation for learning downwind. Legendary glide and accessibility.',
       image: 'https://axisfoils.com/cdn/shop/products/PNG_family_23_1296x.jpg?v=1679014621'
     },
 
