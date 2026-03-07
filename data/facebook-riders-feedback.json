@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 134,
+    "total_entries": 137,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -11,7 +11,8 @@
       "setup_guides": 2,
       "media_reviews": 1
     },
-    "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources"
+    "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
+    "last_updated": "2026-03-07T09:04:39.776012"
   },
   "posts": [
     {
@@ -2014,6 +2015,59 @@
       "sentiment": "very_positive",
       "type": "expert",
       "date": "2026-02"
+    },
+    {
+      "id": "deon_fb1070_review",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (Rising Contributor)",
+      "rider": "Deon Aumaier",
+      "rider_type": "community",
+      "weight_kg": 79,
+      "text": "Axis Fireball Fatty Extravaganza! Ranking: 1st FB 1070, 2nd FB 1350, 3rd FB 1750. First Foil Drive customer in North America. 67yrs, 79kg, Amos TRS Trench 5'4\" 34L 3.1kg. Gen2 HP battery, motor, 3 bladed prop, pod@20cm. First time riding FB 1070 \u2014 extremely surprised how well that little wing glides. The stiffness of the Axis Fatty Mast/Fuse even with this smaller front wing is amazing.",
+      "foils_mentioned": [
+        "Fireball 1070",
+        "Fireball 1350",
+        "Fireball 1750"
+      ],
+      "key_insight": "FB 1070 surprisingly great glide \u2014 Fatty mast/fuse stiffness amazing even with smaller wing. Ranks FB 1070 #1 over 1350 and 1750",
+      "sentiment": "very_positive",
+      "type": "community",
+      "use_case": "foil_drive",
+      "date": "2026-03-06",
+      "video_url": "https://youtu.be/bOiA8zQxluY"
+    },
+    {
+      "id": "deon_fb1350_fatty",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (Rising Contributor)",
+      "rider": "Deon Aumaier",
+      "rider_type": "community",
+      "weight_kg": 79,
+      "text": "Fireball 1350 ranked 2nd in the Fatty Extravaganza. 79kg rider on Fatty mast and fuselage with Foil Drive assist.",
+      "foils_mentioned": [
+        "Fireball 1350"
+      ],
+      "key_insight": "FB 1350 solid #2 choice on Fatty setup for 79kg Foil Drive rider",
+      "sentiment": "positive",
+      "type": "community",
+      "use_case": "foil_drive",
+      "date": "2026-03-06"
+    },
+    {
+      "id": "deon_fatty_mast_insight",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (Rising Contributor)",
+      "rider": "Deon Aumaier",
+      "rider_type": "community",
+      "weight_kg": 79,
+      "text": "Fatty mast and fuselage stiffness is amazing even with smaller front wings like the FB 1070. Not just for big wings \u2014 transforms smaller Fireballs too.",
+      "foils_mentioned": [
+        "Fireball 1070"
+      ],
+      "key_insight": "Fatty mast/fuse not just for big wings \u2014 transforms smaller Fireballs too",
+      "sentiment": "very_positive",
+      "type": "community",
+      "date": "2026-03-06"
     }
   ]
 }
