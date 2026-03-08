@@ -1611,11 +1611,7 @@
             "name": "AXIS TEMPO 1020 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1020,
-            "series": "Tempo",
-            "trueArea": 2051.52,
-            "aspectRatio": 4.97,
-            "wingspan": 1000,
-            "chord": 250
+            "series": "Tempo"
           },
           "tags": [
             "surf",
@@ -1624,16 +1620,7 @@
             "wing"
           ],
           "created_at": "2025-10-01T11:54:06-07:00",
-          "updated_at": "2026-03-07T08:21:17-08:00",
-          "evan_specs": {
-            "span_mm": 1000,
-            "max_chord_mm": 250,
-            "mean_chord_mm": 201.4,
-            "true_area_cm2": 2051.52,
-            "projected_area_cm2": 2013.5392,
-            "volume_cm3": 4160.95,
-            "aspect_ratio": 4.97
-          }
+          "updated_at": "2026-03-07T08:21:17-08:00"
         },
         {
           "id": 9319675560177,
@@ -1676,11 +1663,7 @@
             "name": "AXIS TEMPO 920 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 920,
-            "series": "Tempo",
-            "trueArea": 1852,
-            "aspectRatio": 4.66,
-            "wingspan": 920,
-            "chord": 250
+            "series": "Tempo"
           },
           "tags": [
             "surf",
@@ -1689,16 +1672,7 @@
             "wing"
           ],
           "created_at": "2025-10-01T12:04:18-07:00",
-          "updated_at": "2026-03-07T08:21:17-08:00",
-          "evan_specs": {
-            "span_mm": 920,
-            "max_chord_mm": 250,
-            "mean_chord_mm": 197.5,
-            "true_area_cm2": 1852,
-            "projected_area_cm2": 1816.6188,
-            "volume_cm3": 3753.6,
-            "aspect_ratio": 4.66
-          }
+          "updated_at": "2026-03-07T08:21:17-08:00"
         },
         {
           "id": 9319680606449,
@@ -1762,22 +1736,11 @@
             "name": "AXIS FIREBALL 1750 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1750,
-            "series": "Fireball",
-            "wingspan": 750,
-            "chord": 220
+            "series": "Fireball"
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
-          "updated_at": "2026-03-07T08:21:17-08:00",
-          "evan_specs": {
-            "span_mm": 750,
-            "max_chord_mm": 220,
-            "mean_chord_mm": null,
-            "true_area_cm2": null,
-            "projected_area_cm2": null,
-            "volume_cm3": null,
-            "aspect_ratio": null
-          }
+          "updated_at": "2026-03-07T08:21:17-08:00"
         },
         {
           "id": 9367574905073,
