@@ -28,7 +28,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
     ar: { min: 0, max: 50 },
     area: { min: 0, max: 3000 },
     wingspan: { min: 0, max: 2500 },
-    chord: { min: 0, max: 200 },
+    chord: { min: 0, max: 300 },
     price: { min: 0, max: 3000 }
   };
   
@@ -40,7 +40,7 @@ export default function SpecFilters({ onFilterChange, products }: SpecFiltersPro
     wingspanMin: 0,
     wingspanMax: 2500,
     chordMin: 0,
-    chordMax: 200,
+    chordMax: 300,
     priceMin: 0,
     priceMax: 3000,
     series: []
