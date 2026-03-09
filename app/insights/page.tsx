@@ -65,7 +65,7 @@ interface Pitfall {
   solution: string;
 }
 
-const SERIES_ORDER = ['PNG', 'BSC', 'HPS', 'ART', 'ART V2', 'ART Pro', 'Spitfire', 'Fireball', 'Tempo', 'Surge'];
+const SERIES_ORDER = ['Surge', 'Tempo', 'Fireball', 'ART V2', 'ART Pro', 'Spitfire', 'ART', 'HPS', 'BSC', 'PNG'];
 
 const SERIES_COLORS: Record<string, { bg: string; border: string; badge: string; text: string }> = {
   PNG: { bg: 'bg-blue-50', border: 'border-blue-200', badge: 'bg-blue-100 text-blue-800', text: 'text-blue-700' },

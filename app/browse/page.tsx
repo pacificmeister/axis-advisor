@@ -73,20 +73,20 @@ export default function BrowsePage() {
       image: 'https://axisfoils.com/cdn/shop/files/Spitfire_1180-family.587_03f11212-24be-44e0-af8f-5c22a0f50ecc_1296x.jpg?v=1707208494'
     },
 
-    // LEGACY FRONT WINGS
+    // LEGACY FRONT WINGS (newest to oldest)
+    {
+      name: 'SP',
+      displayName: 'SP',
+      category: 'legacy',
+      description: 'Surf Performance — gullwing shape for tight surfy turns without breaching. Great for prone surfing and intermediate-level tight carves. Predecessor to the Surge\'s approach to wave riding.',
+      image: 'https://axisfoils.com/cdn/shop/products/SP_family_17_1296x.jpg?v=1679015790'
+    },
     {
       name: 'ART',
       displayName: 'ART (Legacy)',
       category: 'legacy',
       description: 'Original high-aspect research series. Pinnacle performance for smooth water. Frictionless glide, high aspect. Needs Power Carbon mast + Advance fuselage. NOT for choppy water. Advanced riders only. 799-1099cm².',
       image: 'https://axisfoils.com/cdn/shop/products/999HERO1_1296x.jpg?v=1678998958'
-    },
-    {
-      name: 'BSC',
-      displayName: 'BSC',
-      category: 'legacy',
-      description: 'Best all-rounder — does everything well. Early pop-up, forgiving, maneuverable. BSC 1060 (75-90kg), BSC 1120 (90kg+), BSC 810 (advanced crossover). Wing, SUP, prone, kite, wake. True beginner-to-intermediate workhorse. 740-1120cm².',
-      image: 'https://axisfoils.com/cdn/shop/products/BSC-family-1_1296x.jpg?v=1679174114'
     },
     {
       name: 'HPS',
@@ -96,11 +96,11 @@ export default function BrowsePage() {
       image: 'https://axisfoils.com/cdn/shop/products/New-Black-Series-Wings_1296x.jpg?v=1679171555'
     },
     {
-      name: 'SP',
-      displayName: 'SP',
+      name: 'BSC',
+      displayName: 'BSC',
       category: 'legacy',
-      description: 'Surf Performance — gullwing shape for tight surfy turns without breaching. Great for prone surfing and intermediate-level tight carves. Predecessor to the Surge\'s approach to wave riding.',
-      image: 'https://axisfoils.com/cdn/shop/products/SP_family_17_1296x.jpg?v=1679015790'
+      description: 'Best all-rounder — does everything well. Early pop-up, forgiving, maneuverable. BSC 1060 (75-90kg), BSC 1120 (90kg+), BSC 810 (advanced crossover). Wing, SUP, prone, kite, wake. True beginner-to-intermediate workhorse. 740-1120cm².',
+      image: 'https://axisfoils.com/cdn/shop/products/BSC-family-1_1296x.jpg?v=1679174114'
     },
     {
       name: 'PNG',

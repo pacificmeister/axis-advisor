@@ -241,7 +241,7 @@ export default function ComparePage() {
 
   // Sort products by series and area for better UX
   const sortedProducts = [...products].sort((a, b) => {
-    const seriesOrder = ['Tempo', 'Surge', 'ART v2', 'Fireball', 'Spitfire', 'PNG', 'ART', 'BSC', 'HPS', 'SP'];
+    const seriesOrder = ['Surge', 'Tempo', 'ART V2', 'ART Pro', 'Fireball', 'Spitfire', 'PNG', 'ART', 'HPS', 'BSC'];
     const aIdx = seriesOrder.indexOf(a.specs.series || '');
     const bIdx = seriesOrder.indexOf(b.specs.series || '');
     if (aIdx !== bIdx) return aIdx - bIdx;
