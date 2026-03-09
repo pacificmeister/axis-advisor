@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "source": "Vangelis Evan Mavridoglou - AXIS Foil Riders FB Group Survey",
+    "title": "What's Your Favorite AXIS Setup?",
+    "total_responses": 25,
+    "date_captured": "2026-03-09",
+    "platform": "Google Forms"
+  },
+  "demographics": {
+    "weight_distribution": {
+      "under_65kg": 1,
+      "65_75kg": 6,
+      "75_85kg": 8,
+      "85_95kg": 5,
+      "95_105kg": 4,
+      "over_105kg": 1
+    },
+    "experience": {
+      "less_than_1yr": 0,
+      "1_2yrs": 5,
+      "2_4yrs": 8,
+      "4plus_yrs": 12
+    },
+    "locations": [
+      "Varberg, Sweden", "Anacortes WA / Seattle WA / HR / LV", "Hobart, Tasmania",
+      "San Francisco Bay Area", "Lyttleton", "Columbia River Gorge", "The Gorge",
+      "Cape Town", "Lewis Smith Lake, Alabama", "New Zealand", "Marblehead, MA",
+      "Lake District UK", "Donauinsel (Vienna)", "Auckland, New Zealand",
+      "Denmark, Hanstholm", "NorCal/Southern OR Coast", "Auckland New Zealand",
+      "So Cal", "Western Australia", "The Gorge/La Ventana", "Oslofjord Norway",
+      "Christchurch, New Zealand", "Matanzas Chile", "San Francisco Bay"
+    ]
+  },
+  "discipline_participation": {
+    "wing_foiling": {"yes": 20, "no": 5, "pct": 80},
+    "dock_start": {"yes": 8, "no": 17, "pct": 32},
+    "prone_surf": {"yes": 6, "no": 19, "pct": 24},
+    "parawing": {"yes": 6, "no": 19, "pct": 24},
+    "downwind_sup": {"yes": 5, "no": 20, "pct": 20},
+    "wake_foiling": {"yes": 5, "no": 20, "pct": 20},
+    "sup_non_dw": {"yes": 5, "no": 20, "pct": 20},
+    "foil_assist": {"yes": 5, "no": 20, "pct": 20},
+    "tow_in": {"yes": 4, "no": 21, "pct": 16},
+    "long_distance_pump": {"yes": 4, "no": 21, "pct": 16},
+    "kite_foiling": {"yes": 3, "no": 22, "pct": 12},
+    "windsurf_foiling": {"yes": 0, "no": 25, "pct": 0},
+    "efoil": {"yes": 0, "no": 25, "pct": 0}
+  },
+  "top_wings_by_discipline": {
+    "wing_foiling": {
+      "responses": 19,
+      "top": ["Spitfire 780 (2)", "Surge 890", "Surge 950", "Surge 830", "ART V2 879", "ART V2 999", "Spitfire 840", "Spitfire 960", "Fireball 1070", "Tempo 1090"]
+    },
+    "prone_surf": {
+      "responses": 6,
+      "top": ["Surge 890 (2)", "Surge 950 (2)", "Fireball 1070 (1)", "Spitfire 840 (1)"]
+    },
+    "parawing": {
+      "responses": 6,
+      "top": ["Fireball 1070 (2)", "Fireball 1160 (2)", "Surge 1010 (2)"]
+    },
+    "downwind_sup": {
+      "responses": 5,
+      "top": ["Fireball 1070 (2)", "Fireball 1160 (1)", "Fireball 1350 (1)", "Surge 1010 (1)"]
+    },
+    "sup_non_dw": {
+      "responses": 5,
+      "top": ["Surge 1010 (3)", "Spitfire 1180 (1)", "Fireball 1250 (1)"]
+    },
+    "dock_start": {
+      "responses": 8,
+      "top": ["Fireball 1350 (2)", "PNG 1300 V2 (2)", "ART Pro 1201 (1)", "PNG 1150 (1)", "Spitfire 1180 (1)", "1401 (1)"]
+    }
+  },
+  "product_demand_signals": [
+    "Surge 1150 — rider sold SF1180, desperately waiting",
+    "Surf Skinny 340 — requested to pair with Surge 830",
+    "ART V2 series generating strong buzz (879, 819, 999, 939, 1099)",
+    "South Africa dealer distribution gap",
+    "Live2Kite dealer status concern",
+    "Tempo fuse compatibility request for standard foils"
+  ]
+}

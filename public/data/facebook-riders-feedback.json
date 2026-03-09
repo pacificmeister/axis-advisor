@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 157,
+    "total_entries": 167,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 22,
@@ -12,7 +12,7 @@
       "media_reviews": 1
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-09T07:54:24.593075"
+    "last_updated": "2026-03-09T08:24:17.065901"
   },
   "posts": [
     {
@@ -2389,6 +2389,149 @@
       "sentiment": "positive",
       "type": "expert",
       "date": "2026-03-05T12:00:00"
+    },
+    {
+      "id": "survey_surge_prone_gamechangr",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Turns off the back foot like surfing. The Surge is a game changer. Great pump and glide. Turns well enough. Wide speed range.",
+      "foils_mentioned": [
+        "Surge 950"
+      ],
+      "use_case": "prone_surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_surge_prone_recommend",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Would recommend any and all axis prone riders to go on the surge.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "use_case": "prone_surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_surge_1150_demand",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Please get the Surge 1150 to market since I have sold my SF 1180 and missing out the light wind days with small bumps that was possible to ride with SF 1180. A Surf skinny 340 would be great for my size and weight with Surge 830.",
+      "foils_mentioned": [
+        "Surge 1150",
+        "Spitfire 1180",
+        "Surge 830"
+      ],
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_artv2_879_favorite",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "AV2 879 has been my favorite foil lately. SF 860 was my favorite prior to the AV2. I tried the AV2 819 in La Ventana and I want one for more speed.",
+      "foils_mentioned": [
+        "ART V2 879",
+        "ART V2 819",
+        "Spitfire 860"
+      ],
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_surge_spitfire_gap",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Really happy with the new surges. We were lacking behind with the old Spitfires but now the surge has definitely filled that gap. And the fireballs for downwinding too. Epic collab with Frank. Have the Mako and the Dart. Will get a mini dart soon. Epic gear overall.",
+      "foils_mentioned": [
+        "Surge",
+        "Fireball"
+      ],
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_south_africa_dealer",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent (Cape Town)",
+      "text": "Please find local dealers in South Africa. It's a big market, but axis is missing. It's hard to get. I used to live in Oz it was so easy there.",
+      "foils_mentioned": [],
+      "use_case": null,
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_foildrive_surge_epic",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Foil Drive with the Surge 1010/950 is epic in waves and wake. The Axis Pocket Trench is awesome! Foil Assist/Foil Drive is an amazing tool to test different foils in the same conditions.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Surge 950"
+      ],
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_surge1010_sup_dart120",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Epic setup on the new Dart 120L when it's tiny. Get into the smallest of waves and pump around forever. Perfect foil for tiny bumps. Endless pump and glide. Great turning.",
+      "foils_mentioned": [
+        "Surge 1010"
+      ],
+      "use_case": "sup",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_surge_wakefoil_ultimate",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "The Surge 1010/950 are the ultimate wake foils as easy lift, fast, surfy and handle prop wash and chop. Great pump and glide. Turns well enough.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Surge 950"
+      ],
+      "use_case": "wake",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
+    },
+    {
+      "id": "survey_live2kite_dealer_concern",
+      "source": "facebook_axis_riders_survey",
+      "source_label": "AXIS Setup Survey (25 responses)",
+      "rider": "Anonymous Survey Respondent",
+      "text": "Hope Live2Kite comes back soon, miss stopping in to grab gear and chat w you guys. Hope things are going OK on that front.",
+      "foils_mentioned": [],
+      "use_case": null,
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-09T00:00:00"
     }
   ]
 }

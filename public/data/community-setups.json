@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-09T07:55:03.709835",
-    "total_riders": 25
+    "last_updated": "2026-03-09T08:24:17.063997",
+    "total_riders": 35
   },
   "riders": [
     {
@@ -627,6 +627,149 @@
         }
       },
       "source": "Shaun Henderson, AXIS Foil Riders FB, Mar 3 2026"
+    },
+    {
+      "id": 26,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "downwind_sup": {
+          "frontWing": "Fireball 1160",
+          "rearWing": "Skinny 35",
+          "mast": "One Ocean 78SS",
+          "fuselage": "Black Ultrashort",
+          "notes": "When conditions are good bc it's fast and still turns good just has a nice feel to it"
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 27,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "downwind_sup": {
+          "frontWing": "Fireball 1070",
+          "rearWing": "Skinny 45",
+          "mast": "80 UHM",
+          "fuselage": "Ultra short A+",
+          "notes": "Fast, plenty of pump and glide and still turns good"
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 28,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "downwind_sup": {
+          "frontWing": "Surge 1010 / Fireball 1350",
+          "rearWing": "Surf Skinny 300 / Skinny 40",
+          "mast": "UHM 80",
+          "fuselage": "Ultrashort",
+          "notes": "Surge for wind against tide steep conditions, Fireball for light winds. Love the surge for steeper surfy conditions and the fireball for its glide"
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 29,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "prone_surf": {
+          "frontWing": "Surge 890",
+          "rearWing": "Surf Skinny 300",
+          "mast": "80cm UHM",
+          "fuselage": "Ultrashort",
+          "notes": "Would recommend any and all axis prone riders to go on the surge"
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 30,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "prone_surf": {
+          "frontWing": "Surge 950",
+          "rearWing": "Surf Skinny 300",
+          "mast": "75cm HM carbon",
+          "fuselage": "Ultrashort adv+",
+          "notes": "Turns off the back foot like surfing. The Surge is a game changer. Great pump and glide. Wide speed range."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 31,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 950/830, Fireball 1070",
+          "rearWing": "330/300 Surf Skinny, 400 Skinny",
+          "mast": "HM 82",
+          "fuselage": "Short advance+ and short advance +20",
+          "notes": "The 950/830 Surge are super playful, low stall speed, easy lift. 1070 is flat water or upwind/downwind tool. +20 fuse for bigger waves."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 32,
+      "weight": "unknown",
+      "experience": "intermediate-advanced",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 890, 1010",
+          "rearWing": "320 Surf Skinny, Progressive 350/375",
+          "notes": "Desperately waiting for the Surge 1150. Waiting for Surf Skinny 340 to pair with upcoming Surge 830."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 33,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Tempo 1090, Surge 890",
+          "notes": "Fast, smooth, stable. Glides forever."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 34,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "sup": {
+          "frontWing": "Surge 1010",
+          "board": "Dart 120L",
+          "notes": "Epic setup on the new Dart 120L when it's tiny. Get into smallest waves and pump around forever. Perfect foil for tiny bumps. Endless pump and glide. Great turning."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "id": 35,
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": {
+        "foil_drive": {
+          "frontWing": "Surge 1010/950",
+          "rearWing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "board": "Pocket Trench",
+          "notes": "Foil Drive with the Surge 1010/950 is epic in waves and wake. The Axis Pocket Trench is awesome! Best foil drive setup."
+        }
+      },
+      "source": "AXIS Foil Riders Survey, Mar 2026"
     }
   ],
   "aggregations": {
