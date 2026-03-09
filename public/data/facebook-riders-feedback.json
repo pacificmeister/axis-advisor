@@ -2,17 +2,17 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 137,
+    "total_entries": 157,
     "sources": {
-      "facebook_groups": 101,
-      "expert_reviews": 17,
+      "facebook_groups": 114,
+      "expert_reviews": 22,
       "community_consensus": 10,
-      "manufacturer": 3,
+      "manufacturer": 5,
       "setup_guides": 2,
       "media_reviews": 1
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-07T09:04:39.776012"
+    "last_updated": "2026-03-09T07:54:24.593075"
   },
   "posts": [
     {
@@ -2068,6 +2068,327 @@
       "sentiment": "very_positive",
       "type": "community",
       "date": "2026-03-06"
+    },
+    {
+      "id": "paul_mcdonnell_fb880_surge740_spitfire670_comparison",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Paul McDonnell",
+      "rider_badge": "Top contributor",
+      "text": "The Fireball 880, Surge 740, and Spitfire 670 have all at one point been my daily drivers for riding waves. Spitfire 670: Most user-friendly, handles turbulence great, I still use it on the double overhead plus days towing the north shore with the ski. It's difficult and draggy to pump for repeats. Fireball 880 became my daily driver in waves smaller than head high because of the speed. Any bigger and my tow partner hates it because it's unforgiving of turbulence/whitewater. The fireball also does not like airs - collapses too easily, doesn't release air evenly. Now collecting dust. Surge 740 is the current daily driver. Rips almost as well as the Spitfire but has more speed. Can pump for multiple repeats. Not quite as fast as FB880 but tip-breaching forgiveness is worth it.",
+      "foils_mentioned": [
+        "Fireball 880",
+        "Surge 740",
+        "Spitfire 670"
+      ],
+      "rider_weight": null,
+      "use_case": "prone_surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T04:00:00"
+    },
+    {
+      "id": "paul_hurley_surge_air_recovery",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Paul Hurley",
+      "rider_badge": "Rising contributor",
+      "text": "The surge recovers from airs better than any axis foil I've ever ridden. Almost comes back up on foil automatically.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "prone_surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T05:00:00"
+    },
+    {
+      "id": "taylor_gautier_fb880_vs_surge830",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Taylor Gautier",
+      "text": "I rode the 880 for 6 months winging. Switched to the Surge 830 several months ago. Compared to the surge it does not turn. It does glide but the surge does too. I think of the Fireball as highly technical. It punishes any mistakes. It's very sensitive to your inputs. The Surge is much more forgiving. It will breach and not hesitate. I much prefer it to the fireball.",
+      "foils_mentioned": [
+        "Fireball 880",
+        "Surge 830"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-09T04:00:00"
+    },
+    {
+      "id": "adrian_roper_area_comparison_warning",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Adrian Roper",
+      "rider_badge": "Group expert / All-star contributor",
+      "text": "Best not to look at area as it just causes confusion.",
+      "foils_mentioned": [
+        "Fireball 880",
+        "Surge 740"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "type": "expert",
+      "date": "2026-03-09T04:00:00"
+    },
+    {
+      "id": "martin_kiste_1000fb_to_surge",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Martin Steen Kiste",
+      "text": "Considering exchanging my 1000FB with a surge. I have the surge 830 and 1160FB from before and looking for the middle ground. Finding the 1000FB hard to manoeuvre. Maybe just survive with 830 and 1160? Or surge 890/950? 950 could be cool to PW. Usually slow mid-to-chest high waves.",
+      "foils_mentioned": [
+        "Fireball 1000",
+        "Surge 830",
+        "Fireball 1160",
+        "Surge 890",
+        "Surge 950"
+      ],
+      "rider_weight": null,
+      "use_case": "prone_surf",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-09T12:00:00"
+    },
+    {
+      "id": "tim_vr_surge1010_vs_fireballs_foildrive",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Tim VR",
+      "rider_badge": "All-star contributor",
+      "text": "I have the 1010 but don't rate it for Upwind/downwind on Foildrive. It's ok but the Fireballs are better for this, lower drag and huge glide. For bigger swell I use the FB1070, smaller bumps the FB1250.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Fireball 1070",
+        "Fireball 1250"
+      ],
+      "rider_weight": null,
+      "use_case": "foil_drive",
+      "sentiment": "mixed",
+      "type": "expert",
+      "date": "2026-03-02T12:00:00"
+    },
+    {
+      "id": "chris_pelly_surge890_1010_quiver",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Chris Pelly",
+      "rider_badge": "Rising contributor",
+      "text": "I'm running a 890 for foil drive and 1010 for parawing. I use a 1180sf for when it's super light wind thinking about a 1250 fireball to replace the 1180. The range on the surge is pretty large the 890 and 1010 pretty much has me covered.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 1010",
+        "Spitfire 1180",
+        "Fireball 1250"
+      ],
+      "rider_weight": null,
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-02T12:00:00"
+    },
+    {
+      "id": "mark_shinn_uhm_vs_hm_mast",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Mark Shinn",
+      "rider_badge": "Top contributor",
+      "text": "The UHM and HM integrated masts have the same physical shape, the difference is in the construction. At 70 kgs and with wings smaller than 100cm span the HM will work perfectly. For wings over 100cm or if you like to be particularly aggressive in the turn then UHM will perform better. Both are awesome pieces of kit.",
+      "foils_mentioned": [],
+      "rider_weight": 70,
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "manufacturer",
+      "date": "2026-02-22T12:00:00"
+    },
+    {
+      "id": "rob_pirie_uhm_vs_hm_weight_guidance",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Rob Pirie",
+      "rider_badge": "Top contributor",
+      "text": "If you are riding foils up to or around the 1000cm wide you really don't need the Ultra especially at 70 kegs. The Ultra has wider cord down low which makes the Std integrated mast a bit more streamlined. Both are beautiful bits of kit and definitely the best single upgrade you can do for your Foil Drive kit.",
+      "foils_mentioned": [],
+      "rider_weight": 70,
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2026-02-22T12:00:00"
+    },
+    {
+      "id": "lana_galina_uhm_vs_hm_honest_review",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Lana Galina",
+      "text": "I have both UHM and HM. UHM is about 7-8% better in general feel (not 10%) and it gets on foil a little easier in very light wind. It is worth it for me. But my winging game was hardly changed by UHM. My recommendation is not to buy UHM if finances are a little tight. HM offers better value for money and is an outstanding mast.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-02T12:00:00"
+    },
+    {
+      "id": "adrian_roper_foildrive_mast_compatibility",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Adrian Roper",
+      "rider_badge": "Group expert / All-star contributor",
+      "text": "Mast has a Puc ready for the motor to bolt to but we were not able to render it in the picture. Also has the cable with the plug and length can work for both Fusion and gen2.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "manufacturer",
+      "date": "2026-02-27T12:00:00"
+    },
+    {
+      "id": "tim_dykema_v2_motor_fits_integrated",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Tim Dykema",
+      "text": "Your existing V2 motor will fit perfectly. The difference between the 'integrated mast motor' sold on the website vs what you already have is that FD now sells a motor only option, so no puck, no cable - as that is all that is needed when you buy an integrated mast. The mast has the mounting puck as well as all the wiring which is integrated inside of it.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-02T12:00:00"
+    },
+    {
+      "id": "eli_fuller_surge_super_k_pro_v2",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Eli Fuller",
+      "rider_badge": "Top contributor",
+      "text": "I had to go further forward with the mast which was a surprise. The surge felt really good in the swell with sharper turns as expected than the art pro. It was smallish outside the reef today but some good ones in the mix. Board: 80L Super K Pro V2.",
+      "foils_mentioned": [
+        "Surge",
+        "ART Pro"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-08T12:00:00"
+    },
+    {
+      "id": "armin_harich_surge950_vs_tempo",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Armin Harich",
+      "rider_badge": "Top contributor",
+      "text": "The Surge (here 950) is a real all-around weapon. But for speed I still prefer the Tempo with lower drag.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Tempo"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-03T12:00:00"
+    },
+    {
+      "id": "andy_corbe_spitfire1100_fb1250_dw",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Andy Corbe",
+      "rider_badge": "Rising contributor",
+      "text": "For shorter bay chop bottom end is really important. The old Spittie 1100 or 1180 works really well. Fireball 1250 also great in a different way - the amazing glide is a bit of a cheat code to connect bumps.",
+      "foils_mentioned": [
+        "Spitfire 1100",
+        "Spitfire 1180",
+        "Fireball 1250"
+      ],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-03T12:00:00"
+    },
+    {
+      "id": "vangelis_mini_dart_80l_88kg",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Vangelis Evan Mavridoglou",
+      "rider_badge": "Group expert",
+      "text": "The perfect board for winging for me. At 88kg, the Mini Dart 80L is stable, quick to take off, and nimble.",
+      "foils_mentioned": [],
+      "rider_weight": 88,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-08T12:00:00"
+    },
+    {
+      "id": "brad_gordon_blast75l_96kg",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Brad Gordon",
+      "rider_badge": "Top contributor",
+      "text": "Blast is 20-30% easier to pop up than say a 75L Froth. Going from Froth 105L you're going to struggle a bit with narrower shape but once get it you will love this board. I'm 96kg and love 75L Blast.",
+      "foils_mentioned": [],
+      "rider_weight": 96,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-05T12:00:00"
+    },
+    {
+      "id": "foilbeat_artpro1201_shortfuse_p375",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "FoilBeat",
+      "text": "Black short fuse with P375 stab is a perfect match for wingfoiling with the ArtPro1201. Goes well with lighter winds for wing sizes 5.5-6.5m2.",
+      "foils_mentioned": [
+        "ART Pro 1201",
+        "Progressive 375"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-05T12:00:00"
+    },
+    {
+      "id": "jimmy_jam_surge_tanker_wave",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Jimmy Jam Foils",
+      "rider_badge": "Group expert",
+      "text": "I have a feeling the surge 890, 950 would murder this tanker wave doing a tow in. 10 min plus on hybrid boat waves that ride like an ocean wave. Surge foils are magical with the small area and low end lift.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950"
+      ],
+      "rider_weight": null,
+      "use_case": "tow",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2026-02-25T12:00:00"
+    },
+    {
+      "id": "jimmy_jam_spitfire_pumping_vs_surge",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Jimmy Jam Foils",
+      "rider_badge": "Group expert",
+      "text": "The smaller spitfires can also pump from 2nd to 1st wave. Few friends going from 3rd to 1st with the spitfire 780. Surge foils are magical tho with the small area and low end lift.",
+      "foils_mentioned": [
+        "Spitfire 780",
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "prone_surf",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2026-03-05T12:00:00"
     }
   ]
 }

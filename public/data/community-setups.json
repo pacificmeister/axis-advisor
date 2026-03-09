@@ -1,0 +1,873 @@
+{
+  "metadata": {
+    "generated": "2026-03-09T13:01:00Z",
+    "totalResponses": 20,
+    "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
+    "reportWeek": "2026-03-03/2026-03-09",
+    "last_updated": "2026-03-09T07:55:03.709835",
+    "total_riders": 25
+  },
+  "riders": [
+    {
+      "id": 1,
+      "weight": "85-95 kg",
+      "experience": "4+ years",
+      "location": "Varberg, Sweden",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 890, 1010",
+          "rearWing": "320 Surf Skinny, Progressive 350, 375",
+          "mast": "HM 90",
+          "fuselage": "Short Advance+, Short Advance +20",
+          "notes": "Desperately waiting for the Surge 1150. Waiting for Surf Skinny 340 to pair with Surge 830."
+        }
+      },
+      "otherThoughts": "Please get the Surge 1150 to the market since I have sold my SF 1180 and miss the light wind days with small bumps."
+    },
+    {
+      "id": 2,
+      "weight": "75-85 kg",
+      "experience": "4+ years",
+      "location": "Anacortes WA / Seattle WA / Hood River / La Ventana",
+      "disciplines": {
+        "wing": {
+          "frontWing": "ART V2 879",
+          "rearWing": "Surf Skinny 320, Skinny 40",
+          "mast": "900 HM",
+          "fuselage": "US for waves, Short for speed or flat water",
+          "notes": "Easy to ride, pretty fast, good glide, reasonable turning"
+        },
+        "wake": {
+          "frontWing": "PNG 910b or Spitfire 960",
+          "rearWing": "Prog 350",
+          "mast": "750 HM",
+          "fuselage": "US",
+          "notes": "Lots of lift, good maneuverability"
+        }
+      },
+      "otherThoughts": "Been on Axis for 4 years. AV2 879 has been my favorite foil. Tried AV2 819 in La Ventana and want one for more speed. Would like standard Axis foils built for Tempo fuse."
+    },
+    {
+      "id": 3,
+      "weight": "65-75 kg",
+      "experience": "2-4 years",
+      "location": "Hobart, Tasmania",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Art V2 999",
+          "rearWing": "365/45 Skinny",
+          "mast": "75 Alu",
+          "fuselage": "Black Adv+ Short",
+          "notes": "Wide wind range, great glide, turns well, recover from breaches"
+        },
+        "dockStart": {
+          "frontWing": "AP 1201",
+          "rearWing": "400P",
+          "mast": "75 Alu",
+          "fuselage": "Black Adv+ Short",
+          "notes": "Good glide, efficient pump"
+        }
+      },
+      "otherThoughts": "Versatile options for mix n match"
+    },
+    {
+      "id": 4,
+      "weight": "Over 105 kg",
+      "experience": "2-4 years",
+      "location": "San Francisco Bay Area",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 1100",
+          "rearWing": "Skinny 365/55",
+          "mast": "90cm HM Carbon",
+          "fuselage": "Black Advanced Short",
+          "notes": "Tried and true, smooth, stable, turns well, holds a line at speed. Curious about ART V2 1099 and Fireball 1250."
+        }
+      },
+      "otherThoughts": "Really want to try the ART V2 1099. Tried a Fireball 1350 once and miss the glide. Hope Live2Kite comes back soon."
+    },
+    {
+      "id": 5,
+      "weight": "65-75 kg",
+      "experience": "1-2 years",
+      "location": "Lyttleton",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 840",
+          "rearWing": "300 Progressive",
+          "mast": "75cm Aluminum",
+          "fuselage": "Ultra Short Black",
+          "notes": "Turns nice, neutral lift"
+        },
+        "prone": {
+          "frontWing": "Spitfire 840",
+          "rearWing": "400 Progressive",
+          "mast": "75cm Aluminum",
+          "fuselage": "Black Ultra Short",
+          "notes": "I didn't know any better but it turns nicer than an HPS 980"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "weight": "85-95 kg",
+      "experience": "4+ years",
+      "location": "Columbia River Gorge",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 900",
+          "rearWing": null,
+          "mast": "90cm HM",
+          "fuselage": "Crazyshort Adv+",
+          "notes": "Surfy. Looking forward to try Surge"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "weight": "75-85 kg",
+      "experience": "4+ years",
+      "location": "The Gorge (not Hood River :))",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 890",
+          "rearWing": "Skinny 45",
+          "mast": "90cm Aluminum",
+          "fuselage": "Advance Ultra Short",
+          "notes": "Great low end and high end. Great carving and very good glide. Easy tip breaches."
+        },
+        "dockStart": {
+          "frontWing": "PNG 1150",
+          "rearWing": "375 Progressive",
+          "mast": "75cm Aluminum",
+          "fuselage": "Advanced Ultrashort",
+          "notes": "Great for dock start as I am just learning. Love that an old front wing is still so relevant!"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "weight": "65-75 kg",
+      "experience": "4+ years",
+      "location": "Cape Town",
+      "disciplines": {
+        "kite": {
+          "frontWing": "Art Pro 1001",
+          "rearWing": "360/45 Skinny",
+          "mast": "82 HM Carbon",
+          "fuselage": "Crazy Short Advance+",
+          "notes": "Only kitefoil light wind. Super glidy setup"
+        },
+        "parawing": {
+          "frontWing": "Fireball 1070",
+          "rearWing": "35 Skinny",
+          "mast": "82 HM Carbon",
+          "fuselage": "Ultrashort Advance+",
+          "notes": "Awesome for upwind/downwind swell riding and downwinders"
+        },
+        "foilAssist": {
+          "frontWing": "Konrad LX760 (will try a Surge)",
+          "rearWing": "45 Skinny",
+          "mast": "Soon integrated mast",
+          "fuselage": "Ultra Adv+",
+          "notes": "Turns really well, great glide"
+        }
+      },
+      "otherThoughts": "Please find local dealers in South Africa. It's a big market but Axis is missing. It's hard to get."
+    },
+    {
+      "id": 9,
+      "weight": "95-105 kg",
+      "experience": "2-4 years",
+      "location": "Lewis Smith Lake, Alabama",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 960",
+          "rearWing": "Skinny E5",
+          "mast": "75 HM Carbon",
+          "fuselage": "Black Ultrashort Advanced",
+          "notes": "Very playful and predictable"
+        },
+        "wake": {
+          "frontWing": "960 Spitfire",
+          "rearWing": "Skinny 35",
+          "mast": "HM 75",
+          "fuselage": "Black Ultrashort Advance",
+          "notes": "Very playful and predictable"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "weight": "65-75 kg",
+      "experience": "1-2 years",
+      "location": "New Zealand",
+      "disciplines": {
+        "prone": {
+          "frontWing": "Surge 890",
+          "rearWing": "SS 300",
+          "mast": "80 UHM",
+          "fuselage": "Ultrashort",
+          "notes": "Can link waves easy and it turns really good. Would recommend any and all axis prone riders to go on the surge"
+        },
+        "dockStart": {
+          "frontWing": "Spitfire 1180",
+          "rearWing": "SS300",
+          "mast": "80 UHM",
+          "fuselage": "Crazyshort",
+          "notes": "Easy to pump and take off and great for practicing turns"
+        },
+        "supNonDW": {
+          "frontWing": "Surge 1010",
+          "rearWing": "250 Progressive",
+          "mast": "80 UHM",
+          "fuselage": "Crazyshort",
+          "notes": "Pumps good and turns great"
+        },
+        "parawing": {
+          "frontWing": "Surge 1010",
+          "rearWing": "Skinny 45",
+          "mast": "80 UHM",
+          "fuselage": "Crazyshort",
+          "notes": "Great low end and easy to turn - suitable for learning parawing"
+        },
+        "downwindSUP": {
+          "frontWing": "FB 1070",
+          "rearWing": "Skinny 45",
+          "mast": "80 UHM",
+          "fuselage": "Ultrashort",
+          "notes": "When conditions are good bc it's fast and still turns good"
+        }
+      },
+      "otherThoughts": "Would love to try Tempo. My recommendation would be to try other gear to compare and contrast."
+    },
+    {
+      "id": 11,
+      "weight": "75-85 kg",
+      "experience": "4+ years",
+      "location": "Marblehead, MA",
+      "disciplines": {
+        "wing": {
+          "frontWing": "SF 840/960, ART V2 939",
+          "rearWing": "325P",
+          "mast": "99cm HM",
+          "fuselage": "Black Adv+ Ultra",
+          "notes": "Spitfire for waves and turbulence, 939 for speed/glide in calm"
+        },
+        "wake": {
+          "frontWing": "Same as wing",
+          "rearWing": "Same as wing",
+          "mast": "Same",
+          "fuselage": "Same",
+          "notes": "Prefer shorter mast"
+        }
+      },
+      "otherThoughts": "Considering Foil Drive or SUP foil as I am proficient at SUP surfing"
+    },
+    {
+      "id": 12,
+      "weight": "95-105 kg",
+      "experience": "2-4 years",
+      "location": "Lake District, UK",
+      "disciplines": {
+        "dockStart": {
+          "frontWing": "Fireball 1350",
+          "rearWing": "Skinny 358/25",
+          "mast": "82 Aluminium",
+          "fuselage": "Physcoshort (sic)",
+          "notes": "Good glide and very fun"
+        },
+        "parawing": {
+          "frontWing": "Fireball 1160",
+          "rearWing": "Skinny 358/35",
+          "mast": "82 Aluminium",
+          "fuselage": "Ultra Short",
+          "notes": null
+        },
+        "longDistancePump": {
+          "frontWing": "Fireball 1350",
+          "rearWing": "Skinny 358/25",
+          "mast": "75 or 82 Aluminium",
+          "fuselage": "Shillyshort (sic)",
+          "notes": null
+        }
+      }
+    },
+    {
+      "id": 13,
+      "weight": "75-85 kg",
+      "experience": "1-2 years",
+      "location": "Donauinsel, Vienna",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 1180",
+          "rearWing": "300 Progressive",
+          "mast": "82 HM Carbon",
+          "fuselage": "Black Ultrashort",
+          "notes": "Its the one I have and like"
+        }
+      }
+    },
+    {
+      "id": 14,
+      "weight": "85-95 kg",
+      "experience": "4+ years",
+      "location": "Auckland, New Zealand",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 950/830, Fireball 1070",
+          "rearWing": "330 and 300 Surf Skinny, 400 Skinny",
+          "mast": "90cm HM",
+          "fuselage": "Black Short Advance+",
+          "notes": "Great for waves and flat water. Surge is super playful, low stall speed, easy lift. Fireball 1070 is upwind/downwind tool."
+        },
+        "prone": {
+          "frontWing": "Surge 950",
+          "rearWing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Crazy Short",
+          "notes": "Turns off the back foot like surfing. The Surge is a game changer."
+        },
+        "wake": {
+          "frontWing": "Surge 1010/950, Fireball 1070",
+          "rearWing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Black Short Advance+",
+          "notes": "The 1010/950 Surge are the ultimate wake foils. Easy lift, fast, surfy, handle prop wash and chop."
+        },
+        "foilAssist": {
+          "frontWing": "Surge 1010/950",
+          "rearWing": "350 Progressive",
+          "mast": "80cm UHM",
+          "fuselage": "Black/Ultra/Crazy Advance+",
+          "notes": "Foil Drive with the Surge 1010/950 is epic in waves and wake. The Axis Pocket Trench is awesome!"
+        }
+      },
+      "otherThoughts": "There is always going to be something new from Axis that will be better. Try different foils. Foil Assist/Foil Drive is an amazing tool to test different foils."
+    },
+    {
+      "id": 15,
+      "weight": "65-75 kg",
+      "experience": "2-4 years",
+      "location": "Denmark, Hanstholm",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 780",
+          "rearWing": "Progressive 300/60",
+          "mast": "82cm HM Power Carbon",
+          "fuselage": "Black Ultrashort",
+          "notes": "Surfy and good control"
+        },
+        "dockStart": {
+          "frontWing": "1401",
+          "rearWing": "300/60 Progressive",
+          "mast": "75cm HM Power Carbon",
+          "fuselage": "Black Ultrashort",
+          "notes": "Glide control and speed"
+        },
+        "supNonDW": {
+          "frontWing": "1180",
+          "rearWing": "300/60 Progressive",
+          "mast": "75cm HM Power Carbon",
+          "fuselage": "Black Ultrashort",
+          "notes": "Control"
+        },
+        "longDistancePump": {
+          "frontWing": "1401",
+          "rearWing": "300/60 Progressive",
+          "mast": "75cm HM Power Carbon",
+          "fuselage": "Black Ultrashort",
+          "notes": "Glide, control speed"
+        }
+      }
+    },
+    {
+      "id": 16,
+      "weight": "95-105 kg",
+      "experience": "4+ years",
+      "location": "NorCal / Southern Oregon Coast",
+      "disciplines": {
+        "wing": {
+          "frontWing": "830 Surge",
+          "rearWing": "320 Surf Skinny",
+          "mast": "90cm UHM Pro",
+          "fuselage": "Adv Black Ultrashort",
+          "notes": "Super loose and carvey but not switchy. Feel in control even at top speed. Ex 780SP rider."
+        },
+        "kite": {
+          "frontWing": "Surge 830, 899",
+          "rearWing": "320 Surf Skinny",
+          "mast": "UHM",
+          "fuselage": null,
+          "notes": null
+        },
+        "towIn": {
+          "frontWing": "830 Surge",
+          "rearWing": "Surf Skinny",
+          "mast": "UHM",
+          "fuselage": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "id": 17,
+      "weight": "95-105 kg",
+      "experience": "1-2 years (actually listed as such but answers suggest more)",
+      "location": "Auckland, New Zealand",
+      "disciplines": {
+        "downwindSUP": {
+          "frontWing": "Surge 1010 or Fireball 1350 (depends on conditions)",
+          "rearWing": "Surf Skinny 300, Skinny 40",
+          "mast": "UHM 80",
+          "fuselage": "Black Ultrashort",
+          "notes": "Surge for steep wind-against-tide, Fireball for glide"
+        },
+        "supNonDW": {
+          "frontWing": "Surge 1010",
+          "rearWing": "Surf Skinny 300",
+          "mast": "UHM 80",
+          "fuselage": "Black Ultra",
+          "notes": "Fun for turns, able to link waves"
+        },
+        "parawing": {
+          "frontWing": "Surge 1010",
+          "rearWing": "Surf Skinny 300",
+          "mast": "UHM 80",
+          "fuselage": "Black Ultra",
+          "notes": "Particularly good in fun steep bumps like wind against tide"
+        }
+      },
+      "otherThoughts": "Still building quiver. Next purchase will be Fireball 1160 for faster ground swell downwind runs."
+    },
+    {
+      "id": 18,
+      "weight": "Under 65 kg",
+      "experience": "4+ years",
+      "location": "So Cal",
+      "disciplines": {
+        "prone": {
+          "frontWing": "Fireball 1070",
+          "rearWing": "Skinny 358/30",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazyshort Advance+",
+          "notes": "Great pump and glide. Turns well enough. Wide speed range."
+        },
+        "wake": {
+          "frontWing": "Fireball 1070",
+          "rearWing": "Skinny 358/30",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazy Short Advance+",
+          "notes": "Great pump and glide. Turns well enough."
+        },
+        "towIn": {
+          "frontWing": "F-One Sk8 650",
+          "rearWing": "160",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazy Short Advance+",
+          "notes": "Closest feeling to riding a short board."
+        },
+        "dockStart": {
+          "frontWing": "1300 PNG V2",
+          "rearWing": "Skinny 358/30",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazy Short Advance+",
+          "notes": "Fairly easy to dock start, turns well"
+        },
+        "longDistancePump": {
+          "frontWing": "PNG 1300 V2",
+          "rearWing": "Skinny 358/30",
+          "mast": "82.5cm Cedrus Evolution Surf",
+          "fuselage": "Crazy Short Advance+",
+          "notes": "Fairly easy to dock start, turns well"
+        }
+      }
+    },
+    {
+      "id": 19,
+      "weight": "75-85 kg",
+      "experience": "4+ years",
+      "location": "Western Australia",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Spitfire 780",
+          "rearWing": "350 Progressive",
+          "mast": "82cm Aluminium",
+          "fuselage": "Black Short",
+          "notes": "Good for surging reef break"
+        },
+        "towIn": {
+          "frontWing": "Spitfire 720",
+          "rearWing": "350 Progressive",
+          "mast": "82cm Aluminium",
+          "fuselage": "Black Short",
+          "notes": "Controllable in bigger surf"
+        },
+        "foilAssist": {
+          "frontWing": "Spitfire 840",
+          "rearWing": "350 Progressive",
+          "mast": "82cm Aluminium",
+          "fuselage": "Black Short",
+          "notes": "Easy to get on foil, can hold in reasonable size"
+        }
+      },
+      "otherThoughts": "Sticking with the Spitfire range. Get used to what you ride."
+    },
+    {
+      "id": 20,
+      "weight": "65-75 kg",
+      "experience": "4+ years",
+      "location": "Multiple NZ locations",
+      "disciplines": {
+        "parawing": {
+          "frontWing": "Fireball 1160",
+          "rearWing": "Skinny 35",
+          "mast": "One Ocean 78SS",
+          "fuselage": "Ultrashort A+",
+          "notes": null
+        },
+        "dockStart": {
+          "frontWing": "Fireball 1350",
+          "rearWing": "Ketos PK50",
+          "mast": "One Ocean 78SS",
+          "fuselage": "One Ocean Titanium 58cm",
+          "notes": null
+        },
+        "longDistancePump": {
+          "frontWing": "Fireball 1350",
+          "rearWing": "Ketos PK50",
+          "mast": "One Ocean 78SS",
+          "fuselage": "One Ocean Titanium 58cm",
+          "notes": null
+        },
+        "downwindSUP": {
+          "frontWing": "Fireball 1160",
+          "rearWing": "Skinny 35",
+          "mast": "One Ocean 78SS",
+          "fuselage": "Ultra Short A+",
+          "notes": null
+        },
+        "supNonDW": {
+          "frontWing": null,
+          "rearWing": null,
+          "mast": null,
+          "fuselage": null,
+          "notes": null
+        }
+      }
+    },
+    {
+      "id": 21,
+      "weight": "70 kg",
+      "experience": "advanced",
+      "location": "Lake (USA)",
+      "disciplines": {
+        "foil_drive": {
+          "frontWing": "Surge 950",
+          "rearWing": "Surf Skinny 300",
+          "mast": "HM Integrated 800 (considering UHM)",
+          "fuselage": "Sillyshort",
+          "board": "29L Zapple S Trench",
+          "notes": "Lake boat wave chasing. Mark Shinn says HM fine at 70kg with <100cm wings."
+        }
+      },
+      "source": "Jason Robert Beck, AXIS Foil Riders FB, Feb 22 2026"
+    },
+    {
+      "id": 22,
+      "weight": "75 kg",
+      "experience": "intermediate-advanced",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 890 (daily), considering 830+950 or 890+1010",
+          "notes": "Foil Drive in waves. Tim VR recommends Fireballs for upwind/DW FoilDrive."
+        },
+        "foil_drive": {
+          "frontWing": "Surge 890",
+          "notes": "Debating sizing. Chris Pelly runs 890 FD + 1010 parawing combo."
+        }
+      },
+      "source": "Matthew Kyhnn, AXIS Foil Riders FB, Mar 2 2026"
+    },
+    {
+      "id": 23,
+      "weight": "88 kg",
+      "experience": "advanced",
+      "disciplines": {
+        "wing": {
+          "board": "Mini Dart 80L",
+          "notes": "Perfect board for winging. Stable, quick takeoff, nimble. Also uses 75L and 85L Blast in light winds."
+        }
+      },
+      "source": "Vangelis Evan Mavridoglou, AXIS Foil Riders FB, Mar 8 2026"
+    },
+    {
+      "id": 24,
+      "weight": "96 kg",
+      "experience": "intermediate-advanced",
+      "disciplines": {
+        "wing": {
+          "board": "Blast 75L",
+          "notes": "Loves it. Blast 20-30% easier to pop up than 75L Froth."
+        }
+      },
+      "source": "Brad Gordon, AXIS Foil Riders FB, Mar 5 2026"
+    },
+    {
+      "id": 25,
+      "weight": "75 kg",
+      "experience": "intermediate",
+      "disciplines": {
+        "wing": {
+          "frontWing": "Surge 950",
+          "rearWing": "320 Surf Skinny",
+          "mast": "820pc",
+          "fuselage": "+20 Ultrashort",
+          "notes": "DW wingfoil runs in 1-2.5ft bay chop. Andy Corbe recommends old Spitfire 1100/1180 or FB1250 for connecting bumps."
+        }
+      },
+      "source": "Shaun Henderson, AXIS Foil Riders FB, Mar 3 2026"
+    }
+  ],
+  "aggregations": {
+    "disciplinePopularity": {
+      "wing": 15,
+      "dockStart": 6,
+      "wake": 6,
+      "parawing": 6,
+      "prone": 4,
+      "supNonDW": 4,
+      "longDistancePump": 4,
+      "towIn": 3,
+      "foilAssist": 3,
+      "kite": 2,
+      "downwindSUP": 2,
+      "efoil": 0
+    },
+    "weightDistribution": {
+      "Under 65 kg": 1,
+      "65-75 kg": 6,
+      "75-85 kg": 5,
+      "85-95 kg": 3,
+      "95-105 kg": 4,
+      "Over 105 kg": 1
+    },
+    "experienceDistribution": {
+      "Less than 1 year": 0,
+      "1-2 years": 3,
+      "2-4 years": 5,
+      "4+ years": 12
+    },
+    "topGearByDiscipline": {
+      "wing": {
+        "frontWings": [
+          {
+            "name": "Spitfire 780-1180",
+            "mentions": 9,
+            "note": "Broadest range, still most popular overall"
+          },
+          {
+            "name": "Surge 830-1010",
+            "mentions": 6,
+            "note": "Rising fast, praised for surf feel"
+          },
+          {
+            "name": "ART V2 879-999",
+            "mentions": 3,
+            "note": "Speed and glide focused"
+          }
+        ],
+        "rearWings": [
+          {
+            "name": "Surf Skinny 300-320",
+            "mentions": 6
+          },
+          {
+            "name": "Skinny 365/45",
+            "mentions": 4
+          },
+          {
+            "name": "Progressive 300-350",
+            "mentions": 4
+          }
+        ],
+        "masts": [
+          {
+            "name": "90cm HM Carbon",
+            "mentions": 7
+          },
+          {
+            "name": "75cm (Alu or HM)",
+            "mentions": 4
+          },
+          {
+            "name": "82cm HM Carbon",
+            "mentions": 3
+          }
+        ],
+        "fuselages": [
+          {
+            "name": "Black Ultrashort / Ultrashort Adv+",
+            "mentions": 8
+          },
+          {
+            "name": "Black Short Advance+",
+            "mentions": 4
+          },
+          {
+            "name": "Crazyshort Adv+",
+            "mentions": 1
+          }
+        ]
+      },
+      "parawing": {
+        "frontWings": [
+          {
+            "name": "Fireball 1070",
+            "mentions": 2
+          },
+          {
+            "name": "Fireball 1160",
+            "mentions": 2
+          },
+          {
+            "name": "Surge 1010",
+            "mentions": 2
+          }
+        ],
+        "rearWings": [
+          {
+            "name": "Skinny 35-45",
+            "mentions": 4
+          },
+          {
+            "name": "Surf Skinny 300",
+            "mentions": 2
+          }
+        ],
+        "masts": [
+          {
+            "name": "80cm UHM",
+            "mentions": 3
+          },
+          {
+            "name": "82cm (various)",
+            "mentions": 2
+          }
+        ],
+        "fuselages": [
+          {
+            "name": "Ultrashort / Crazyshort variants",
+            "mentions": 5
+          }
+        ]
+      },
+      "prone": {
+        "frontWings": [
+          {
+            "name": "Surge 890-950",
+            "mentions": 2
+          },
+          {
+            "name": "Spitfire 840",
+            "mentions": 1
+          },
+          {
+            "name": "Fireball 1070",
+            "mentions": 1
+          }
+        ],
+        "rearWings": [
+          {
+            "name": "Surf Skinny 300",
+            "mentions": 2
+          },
+          {
+            "name": "Progressive 400",
+            "mentions": 1
+          },
+          {
+            "name": "Skinny 358/30",
+            "mentions": 1
+          }
+        ]
+      },
+      "dockStart": {
+        "frontWings": [
+          {
+            "name": "Fireball 1350",
+            "mentions": 2
+          },
+          {
+            "name": "PNG 1150",
+            "mentions": 1
+          },
+          {
+            "name": "AP 1201",
+            "mentions": 1
+          },
+          {
+            "name": "Spitfire 1180",
+            "mentions": 1
+          },
+          {
+            "name": "PNG 1300 V2",
+            "mentions": 1
+          },
+          {
+            "name": "1401",
+            "mentions": 1
+          }
+        ],
+        "note": "Larger wings (1150+) clearly preferred for dock start lift"
+      },
+      "wake": {
+        "frontWings": [
+          {
+            "name": "Spitfire 960",
+            "mentions": 2
+          },
+          {
+            "name": "Surge 1010/950",
+            "mentions": 2
+          },
+          {
+            "name": "PNG 910b",
+            "mentions": 1
+          },
+          {
+            "name": "Fireball 1070",
+            "mentions": 1
+          }
+        ]
+      },
+      "longDistancePump": {
+        "frontWings": [
+          {
+            "name": "Fireball 1350",
+            "mentions": 2
+          },
+          {
+            "name": "PNG 1300 V2",
+            "mentions": 1
+          },
+          {
+            "name": "1401",
+            "mentions": 1
+          }
+        ],
+        "note": "All high-aspect, 1300+ cm\u00b2 wings"
+      }
+    },
+    "trends": [
+      "Surge line appearing across all disciplines - praised for surf feel and turning",
+      "Ultrashort and Crazyshort fuselages dominate all disciplines",
+      "HM Carbon masts preferred; 90cm most popular for wing",
+      "Skinny/Surf Skinny rear wings are the standard",
+      "Multi-discipline riders average 2.75 disciplines each",
+      "Parawing adoption at 30% - remarkable for emerging discipline",
+      "Strong demand for Surge 1150 (not yet released)",
+      "Fireball 1070 is the most versatile wing (appears in 5 disciplines)"
+    ]
+  }
+}
