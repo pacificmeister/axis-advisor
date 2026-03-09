@@ -48,7 +48,7 @@ export default function BrowsePage() {
       name: 'ART V2',
       displayName: 'ART V2',
       category: 'current',
-      description: 'More forgiving ART with Spitfire-level turn feel. 25% more efficient than ART V2 for pumping (Yvon). ART V2 turns 5-10% better rail-to-rail. Better for UK/choppy conditions than original ART. Wing foiling, tow, DW. 879-1099cm².',
+      description: 'More forgiving ART with Spitfire-level turn feel. 25% more efficient for pumping (Yvon). Turns 5-10% better rail-to-rail. Excels at winging and parawing — great in choppy conditions. Also strong for tow and DW. 879-1099cm².',
       image: 'https://axisfoils.com/cdn/shop/files/ARTV2_family-flat-5up_9d413ff4-e31d-41f3-9eb1-c275d615571e_1024x1024.jpg?v=1732312421'
     },
     {
