@@ -715,7 +715,8 @@ export default function InsightsPage() {
                   <p className="text-gray-400 text-sm">{survey.meta.source} · {survey.meta.platform} · {survey.meta.date_captured}</p>
                 </div>
               </div>
-              <div className="mt-4 flex gap-6">
+              <div className="mt-4 flex items-end justify-between">
+              <div className="flex gap-6">
                 <div className="text-center">
                   <div className="text-4xl font-black text-red-400">{survey.meta.total_responses}</div>
                   <div className="text-gray-400 text-sm">Responses</div>
@@ -728,6 +729,15 @@ export default function InsightsPage() {
                   <div className="text-4xl font-black text-green-400">{Object.keys(survey.discipline_participation).length}</div>
                   <div className="text-gray-400 text-sm">Disciplines</div>
                 </div>
+              </div>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeAaOSDn2dJu0aKkHARBbVfOw3sGgfT2-xyrv4e9PzaZ0BVDg/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-red-500 hover:bg-red-600 text-white font-bold text-sm transition-all shadow-lg hover:shadow-xl"
+              >
+                🗳️ Take the Survey
+              </a>
               </div>
             </div>
 
