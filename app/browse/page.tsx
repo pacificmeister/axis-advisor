@@ -45,11 +45,18 @@ export default function BrowsePage() {
       image: 'https://axisfoils.com/cdn/shop/files/Tempofamily2_1296x.png?v=1759345835'
     },
     {
-      name: 'ART v2',
-      displayName: 'ART v2',
+      name: 'ART V2',
+      displayName: 'ART V2',
       category: 'current',
       description: 'More forgiving ART with Spitfire-level turn feel. 25% more efficient than ART V2 for pumping (Yvon). ART V2 turns 5-10% better rail-to-rail. Better for UK/choppy conditions than original ART. Wing foiling, tow, DW. 879-1099cm².',
       image: 'https://axisfoils.com/cdn/shop/files/ARTV2_family-flat-5up_9d413ff4-e31d-41f3-9eb1-c275d615571e_1024x1024.jpg?v=1732312421'
+    },
+    {
+      name: 'ART Pro',
+      displayName: 'ART Pro',
+      category: 'current',
+      description: 'High-performance all-rounder with exceptional glide and speed. Bridges the gap between ART efficiency and real-world usability. Smooth, fast, versatile. Wing, DW, tow. 1001-1201cm².',
+      image: 'https://axisfoils.com/cdn/shop/files/ArtPro_family-flat_1296x.jpg?v=1709855469'
     },
     {
       name: 'Fireball',
