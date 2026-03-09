@@ -62,7 +62,7 @@ export default function BrowsePage() {
       name: 'Fireball',
       displayName: 'Fireball',
       category: 'current',
-      description: 'High camber speed and glide machine. ~13 AR, very low stall speed. Fred Bonnet: "Fireball 1160 — unbelievable, effortless." Yvon: FB 1500 doubles pump time vs FB 1350. Incredible glide for DW, pumping, and connecting bumps. 880-1750cm².',
+      description: 'High camber speed and glide machine. ~13 AR, very low stall speed. Incredible glide for DW, parawing, and winging — excels anywhere you need speed and efficiency. Fred Bonnet: "Fireball 1160 — unbelievable, effortless." Yvon: FB 1500 doubles pump time vs FB 1350. 880-1750cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Fireball_family_1500-_-1750_1296x.png?v=1759718992'
     },
     {
