@@ -1183,7 +1183,7 @@
             "name": "SP 860 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 860,
-            "series": "SP",
+            "series": "Spitfire",
             "trueArea": 1293,
             "aspectRatio": 6.1,
             "wingspan": 860,
@@ -1234,7 +1234,7 @@
             "name": "SP 760 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 760,
-            "series": "SP",
+            "series": "Spitfire",
             "trueArea": 1218.52,
             "aspectRatio": 5.11,
             "wingspan": 760,
@@ -1286,7 +1286,7 @@
             "name": "SP 660 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 660,
-            "series": "SP",
+            "series": "Spitfire",
             "aspectRatio": 4.19,
             "wingspan": 660,
             "chord": 200
@@ -1880,7 +1880,7 @@
           "specs": {
             "name": "ART v2 819",
             "product_type": "Front Wings",
-            "series": "ART v2",
+            "series": "ART V2",
             "area": 819
           }
         },
@@ -1896,7 +1896,7 @@
           "specs": {
             "name": "ART v2 1099",
             "product_type": "Front Wings",
-            "series": "ART v2",
+            "series": "ART V2",
             "area": 1099
           }
         },
@@ -1912,7 +1912,7 @@
           "specs": {
             "name": "ART v2 879",
             "product_type": "Front Wings",
-            "series": "ART v2",
+            "series": "ART V2",
             "area": 879
           }
         },
@@ -1928,7 +1928,7 @@
           "specs": {
             "name": "ART v2 939",
             "product_type": "Front Wings",
-            "series": "ART v2",
+            "series": "ART V2",
             "area": 939
           }
         },
@@ -1944,7 +1944,7 @@
           "specs": {
             "name": "ART v2 999",
             "product_type": "Front Wings",
-            "series": "ART v2",
+            "series": "ART V2",
             "area": 999
           }
         },
@@ -1960,7 +1960,7 @@
           "specs": {
             "name": "ART PRO 751 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 751
           }
         },
@@ -1976,7 +1976,7 @@
           "specs": {
             "name": "ART PRO 801 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 801
           }
         },
@@ -1992,7 +1992,7 @@
           "specs": {
             "name": "ART PRO 851 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 851
           }
         },
@@ -2008,7 +2008,7 @@
           "specs": {
             "name": "ART PRO 901 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 901
           }
         },
@@ -2024,7 +2024,7 @@
           "specs": {
             "name": "ART PRO 1401 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 1401
           }
         },
@@ -2040,7 +2040,7 @@
           "specs": {
             "name": "ART PRO 1001 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 1001
           }
         },
@@ -2056,7 +2056,7 @@
           "specs": {
             "name": "ART PRO 951 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 951
           }
         },
@@ -2072,7 +2072,7 @@
           "specs": {
             "name": "ART PRO 1051 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 1051
           }
         },
@@ -2088,7 +2088,7 @@
           "specs": {
             "name": "ART PRO 1121 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 1121
           }
         },
@@ -2104,7 +2104,7 @@
           "specs": {
             "name": "ART PRO 1201 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
-            "series": "ARTPRO",
+            "series": "ART Pro",
             "area": 1201
           }
         },
