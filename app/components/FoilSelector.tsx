@@ -24,13 +24,22 @@ export default function FoilSelector({ foils, selectedFoils, onSelectFoil }: Foi
   const currentSeries = ['Surge', 'Tempo', 'ART V2', 'ART Pro', 'Fireball', 'PNG V2', 'Spitfire'];
   const legacySeries = ['SP', 'ART', 'HPS', 'BSC', 'PNG'];
   
+  // Normalize series name (handle v2/V2 etc.)
+  const normSeries = (s: string) => {
+    const lower = s.toLowerCase();
+    for (const cs of [...currentSeries, ...legacySeries]) {
+      if (cs.toLowerCase() === lower) return cs;
+    }
+    return s;
+  };
+
   // Group by series (split PNG into V2 and legacy)
   const seriesGroups = foils.reduce((acc, foil) => {
-    let series = foil.specs.series || 'Other';
+    let series = normSeries(foil.specs.series || 'Other');
     
     // Split PNG into V2 and legacy
-    if (series === 'PNG') {
-      series = foil.title.includes('V2') ? 'PNG V2' : 'PNG';
+    if (series.toLowerCase() === 'png') {
+      series = foil.title.toLowerCase().includes('v2') ? 'PNG V2' : 'PNG';
     }
     
     if (!acc[series]) acc[series] = [];

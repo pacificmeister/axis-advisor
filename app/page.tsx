@@ -61,9 +61,11 @@ export default function Home() {
     const specs = foil.specs;
     const price = parseFloat(foil.price || '0');
     
-    // Filter by series if any selected
-    if (filters.series.length > 0 && !filters.series.includes(specs.series || '')) {
-      return false;
+    // Filter by series if any selected (case-insensitive for v2/V2)
+    if (filters.series.length > 0) {
+      const seriesLower = (specs.series || '').toLowerCase();
+      const match = filters.series.some(s => s.toLowerCase() === seriesLower);
+      if (!match) return false;
     }
     
     // Filter by aspect ratio

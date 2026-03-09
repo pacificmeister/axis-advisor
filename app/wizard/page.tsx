@@ -268,17 +268,17 @@ export default function WizardPage() {
       wing: skillLevel === 'beginner' 
         ? (isHeavyRider ? ['PNG V2', 'Surge', 'Spitfire'] : ['Surge', 'BSC'])
         : skillLevel === 'intermediate' 
-          ? ['Surge', 'ART v2', 'Fireball'] 
-          : ['Tempo', 'Spitfire', 'ART v2', 'Fireball'],
+          ? ['Surge', 'ART V2', 'Fireball'] 
+          : ['Tempo', 'Spitfire', 'ART V2', 'Fireball'],
       // Parawing series change by skill level (expert-validated, current only)
       parawing: skillLevel === 'beginner' 
         ? ['PNG V2', 'Surge', 'Tempo'] 
         : skillLevel === 'intermediate' 
-          ? ['Fireball', 'ART v2', 'Surge', 'PNG V2'] 
-          : ['Fireball', 'Tempo', 'ART v2', 'Spitfire'],
+          ? ['Fireball', 'ART V2', 'Surge', 'PNG V2'] 
+          : ['Fireball', 'Tempo', 'ART V2', 'Spitfire'],
       kite: skillLevel === 'beginner' 
         ? ['Surge', 'Tempo'] 
-        : ['Spitfire', 'ART v2', 'PNG V2', 'Fireball'],
+        : ['Spitfire', 'ART V2', 'PNG V2', 'Fireball'],
       prone: ['Surge', 'Fireball', 'Tempo'],
       // SUP/pump/downwind: Heavy beginners need PNG V2 (forgiving) over Fireball (twitchy)
       sup: isHeavyBeginner 
@@ -291,8 +291,8 @@ export default function WizardPage() {
       downwind: isHeavyBeginner
         ? ['PNG V2', 'Surge', 'Spitfire']
         : isHeavyRider 
-          ? ['Fireball', 'PNG V2', 'Surge', 'ART v2'] 
-          : ['PNG V2', 'Surge', 'ART v2', 'Tempo'],
+          ? ['Fireball', 'PNG V2', 'Surge', 'ART V2'] 
+          : ['PNG V2', 'Surge', 'ART V2', 'Tempo'],
       pump: isHeavyBeginner 
         ? ['PNG V2', 'Spitfire', 'Surge']  // PNG V2 1400 is THE beginner dock start foil for heavies
         : isHeavyIntermediate
@@ -305,7 +305,7 @@ export default function WizardPage() {
     const preferredSeries = disciplineSeries[useCase] || [];
 
     // Filter to only Current/Newer series (exclude Legacy)
-    const currentSeries = ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG V2', 'Spitfire'];
+    const currentSeries = ['Surge', 'Tempo', 'ART V2', 'Fireball', 'PNG V2', 'Spitfire'];
     const currentProducts = products.filter(p => {
       const series = p.specs.series;
       // Handle PNG V2 detection
@@ -413,12 +413,12 @@ export default function WizardPage() {
           else if (effectiveSeries === 'Surge') reasoning = `Versatile performer with great pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'More lift' : 'Faster pace'} all-rounder.`;
           else if (effectiveSeries === 'PNG V2') reasoning = `High-aspect speed and efficiency. ${sizeDesc === 'ideal' ? 'Perfect' : sizeDesc === 'larger' ? 'More stable, easier' : 'Faster, more responsive'} for your weight.`;
           else if (effectiveSeries === 'Spitfire') reasoning = `Race-proven speed machine. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'More power' : 'Maximum speed'} for ${weight}lbs.`;
-          else if (effectiveSeries === 'ART v2') reasoning = `Next-gen glide and pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier to ride' : 'High performance'} choice.`;
+          else if (effectiveSeries === 'ART V2') reasoning = `Next-gen glide and pump. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'Easier to ride' : 'High performance'} choice.`;
           else if (effectiveSeries === 'ART') reasoning = `Legendary glide. ${sizeDesc === 'ideal' ? 'Well-matched' : sizeDesc === 'larger' ? 'More forgiving' : 'Advanced option'} for your level.`;
           else reasoning = `${sizeDesc === 'ideal' ? 'Good' : sizeDesc === 'larger' ? 'Stable' : 'Fast'} option for parawing.`;
         } else if (useCase === 'wing') {
           if (effectiveSeries === 'Surge') reasoning = `${skillLevel === 'beginner' ? 'Perfect starter' : 'Versatile performer'}. ${sizeDesc === 'ideal' ? 'Ideal' : sizeDesc === 'larger' ? 'Extra stability' : 'More speed'} for ${weight}lbs.`;
-          else if (effectiveSeries === 'ART v2') reasoning = `Next-gen high-aspect. ${sizeDesc === 'ideal' ? 'Perfect fit' : sizeDesc === 'larger' ? 'Easier to ride' : 'Peak performance'}.`;
+          else if (effectiveSeries === 'ART V2') reasoning = `Next-gen high-aspect. ${sizeDesc === 'ideal' ? 'Perfect fit' : sizeDesc === 'larger' ? 'Easier to ride' : 'Peak performance'}.`;
           else if (effectiveSeries === 'Tempo') reasoning = `Glide and pump balance. ${sizeDesc === 'ideal' ? 'Great match' : sizeDesc === 'larger' ? 'More lift' : 'Fast and efficient'}.`;
           else if (effectiveSeries === 'Spitfire') reasoning = `Race-proven speed. ${sizeDesc === 'ideal' ? 'Excellent' : sizeDesc === 'larger' ? 'More power' : 'Maximum performance'}.`;
           else reasoning = `${sizeDesc === 'ideal' ? 'Solid' : sizeDesc === 'larger' ? 'Forgiving' : 'Fast'} wing foil.`;
@@ -536,7 +536,7 @@ export default function WizardPage() {
       rearWing = discipline === 'parawing' ? 'Surf Skinny 280 (Jerome\'s recommendation)' : 'Surf Skinny 300-360';
       mast = 'Power Carbon 75-82cm';
       setupNote = 'Aurelien J (75kg): Advance Ultrashort + Skinny 360 makes the Surge feel alive and wanting to turn.';
-    } else if (series === 'ART' || series === 'ART v2' || series === 'ART Pro') {
+    } else if (series === 'ART' || series === 'ART V2' || series === 'ART Pro') {
       fuselage = skill === 'advanced' ? 'Black Advance Ultrashort or Crazy Short' : 'Black Ultrashort';
       rearWing = 'Progressive 275-300 or Speed rear';
       mast = 'Power Carbon (essential for ART) 90cm';

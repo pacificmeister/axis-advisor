@@ -38,7 +38,7 @@ export default function SeriesPage() {
         const slugToSeries: { [key: string]: string } = {
           'surge': 'Surge',
           'tempo': 'Tempo',
-          'art-v2': 'ART v2',
+          'art-v2': 'ART V2',
           'fireball': 'Fireball',
           'spitfire': 'Spitfire',
           'png': 'PNG',

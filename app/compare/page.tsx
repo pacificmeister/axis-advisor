@@ -51,7 +51,10 @@ function generateAnalysis(foil: Product, isReference: boolean): string {
     'SP': `The ${series} ${area} is a compact performer optimized for smaller conditions and tighter turns. Its lower aspect ratio provides instant response and forgiveness, making it ideal for prone surfing or riders seeking maximum maneuverability.`,
   };
   
-  return analyses[series] || `The ${series} ${area} offers ${ar > 10 ? 'high-aspect efficiency and glide' : ar > 8 ? 'balanced performance across disciplines' : 'forgiving handling and tight turning'}. With ${area}cm² of surface area, it's suited for ${area > 1100 ? 'heavier riders or light-wind conditions' : area > 900 ? 'medium-weight riders in average conditions' : 'lighter riders or stronger wind'}.`;
+  // Case-insensitive series lookup (handles v2/V2)
+  const analysis = analyses[series] || 
+    Object.entries(analyses).find(([k]) => k.toLowerCase() === series.toLowerCase())?.[1];
+  return analysis || `The ${series} ${area} offers ${ar > 10 ? 'high-aspect efficiency and glide' : ar > 8 ? 'balanced performance across disciplines' : 'forgiving handling and tight turning'}. With ${area}cm² of surface area, it's suited for ${area > 1100 ? 'heavier riders or light-wind conditions' : area > 900 ? 'medium-weight riders in average conditions' : 'lighter riders or stronger wind'}.`;
 }
 
 // Match FB feedback to a foil
@@ -224,7 +227,10 @@ export default function ComparePage() {
       'HPS': { speed: 58, pump: 60, glide: 55, turning: 90 },        // High-performance surf
     };
     
-    const profile = seriesProfiles[series] || { speed: 60, pump: 60, glide: 60, turning: 60 };
+    // Case-insensitive series lookup (handles v2/V2)
+    const profile = seriesProfiles[series] || 
+      Object.entries(seriesProfiles).find(([k]) => k.toLowerCase() === series.toLowerCase())?.[1] ||
+      { speed: 60, pump: 60, glide: 60, turning: 60 };
     
     // Lift is primarily determined by area (more area = more lift)
     const lift = Math.min(100, Math.max(20, (area - 600) / 12 + 20));

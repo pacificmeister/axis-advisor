@@ -38,7 +38,7 @@ interface FilterRanges {
 
 // Series categorization matching browse page
 const SERIES_ORDER = {
-  current: ['Surge', 'Tempo', 'ART v2', 'Fireball', 'PNG v2', 'Spitfire'],
+  current: ['Surge', 'Tempo', 'ART V2', 'Fireball', 'PNG v2', 'Spitfire'],
   legacy: ['ART', 'BSC', 'HPS', 'SP', 'PNG'],
 };
 
