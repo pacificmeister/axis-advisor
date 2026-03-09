@@ -1433,7 +1433,7 @@
             "name": "AXIS PNG V2 1300 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1300,
-            "series": "PNG"
+            "series": "PNG V2"
           },
           "tags": [],
           "created_at": "2024-09-18T23:53:14-07:00",
@@ -1517,7 +1517,7 @@
             "name": "AXIS PNG V2 1200 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1200,
-            "series": "PNG",
+            "series": "PNG V2",
             "trueArea": 1680,
             "aspectRatio": 8.75,
             "wingspan": 1200,
@@ -1551,7 +1551,7 @@
             "name": "AXIS PNG V2 1400 Ultra High Mod Reinforced Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1400,
-            "series": "PNG",
+            "series": "PNG V2",
             "trueArea": 1660,
             "aspectRatio": 12.05,
             "wingspan": 1400,

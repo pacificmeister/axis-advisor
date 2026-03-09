@@ -65,9 +65,10 @@ interface Pitfall {
   solution: string;
 }
 
-const SERIES_ORDER = ['Surge', 'Tempo', 'Fireball', 'ART V2', 'ART Pro', 'Spitfire', 'ART', 'HPS', 'BSC', 'PNG'];
+const SERIES_ORDER = ['Surge', 'Tempo', 'Fireball', 'ART V2', 'ART Pro', 'PNG V2', 'Spitfire', 'ART', 'HPS', 'BSC', 'PNG'];
 
 const SERIES_COLORS: Record<string, { bg: string; border: string; badge: string; text: string }> = {
+  'PNG V2': { bg: 'bg-cyan-50', border: 'border-cyan-200', badge: 'bg-cyan-100 text-cyan-800', text: 'text-cyan-700' },
   PNG: { bg: 'bg-blue-50', border: 'border-blue-200', badge: 'bg-blue-100 text-blue-800', text: 'text-blue-700' },
   BSC: { bg: 'bg-green-50', border: 'border-green-200', badge: 'bg-green-100 text-green-800', text: 'text-green-700' },
   HPS: { bg: 'bg-purple-50', border: 'border-purple-200', badge: 'bg-purple-100 text-purple-800', text: 'text-purple-700' },
@@ -403,6 +404,7 @@ export default function InsightsPage() {
                   </thead>
                   <tbody className="divide-y divide-gray-100">
                     {[
+                      { s: 'PNG V2', wing: '⭐⭐⭐⭐', dw: '⭐⭐⭐⭐', prone: '⭐⭐', pump: '⭐⭐⭐⭐⭐', skill: 'Intermediate' },
                       { s: 'PNG', wing: '⭐⭐⭐', dw: '⭐⭐⭐', prone: '⭐', pump: '⭐⭐⭐⭐⭐', skill: 'Beginner' },
                       { s: 'BSC', wing: '⭐⭐⭐⭐⭐', dw: '⭐⭐', prone: '⭐⭐⭐', pump: '⭐⭐', skill: 'Beginner-Int' },
                       { s: 'HPS', wing: '⭐⭐⭐⭐', dw: '⭐⭐', prone: '⭐⭐⭐', pump: '⭐⭐', skill: 'Int-Adv' },
