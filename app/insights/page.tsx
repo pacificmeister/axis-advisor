@@ -80,10 +80,23 @@ const SERIES_COLORS: Record<string, { bg: string; border: string; badge: string;
   Surge: { bg: 'bg-teal-50', border: 'border-teal-200', badge: 'bg-teal-100 text-teal-800', text: 'text-teal-700' },
 };
 
-type Tab = 'series' | 'progression' | 'setups' | 'pitfalls' | 'experts';
+type Tab = 'series' | 'progression' | 'setups' | 'pitfalls' | 'experts' | 'survey';
+
+interface SurveyData {
+  meta: { source: string; title: string; total_responses: number; date_captured: string; platform: string };
+  demographics: {
+    weight_distribution: Record<string, number>;
+    experience: Record<string, number>;
+    locations: string[];
+  };
+  discipline_participation: Record<string, { yes: number; no: number; pct: number }>;
+  top_wings_by_discipline: Record<string, { responses: number; top: string[] }>;
+  product_demand_signals: string[];
+}
 
 export default function InsightsPage() {
   const [knowledge, setKnowledge] = useState<KnowledgeData | null>(null);
+  const [survey, setSurvey] = useState<SurveyData | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('series');
   const [activeSeries, setActiveSeries] = useState<string>('Fireball');
 
@@ -91,6 +104,10 @@ export default function InsightsPage() {
     fetch('/data/axis-knowledge.json')
       .then(r => r.json())
       .then(setKnowledge)
+      .catch(console.error);
+    fetch('/data/survey-stats-2026-03.json')
+      .then(r => r.json())
+      .then(setSurvey)
       .catch(console.error);
   }, []);
 
@@ -114,6 +131,7 @@ export default function InsightsPage() {
     { key: 'setups', label: 'Setup Guides', icon: '🔧' },
     { key: 'pitfalls', label: 'Common Pitfalls', icon: '⚠️' },
     { key: 'experts', label: 'Expert Insights', icon: '🎯' },
+    { key: 'survey', label: 'Community Survey', icon: '📊' },
   ];
 
   const currentSeries = knowledge.series[activeSeries];
@@ -681,6 +699,150 @@ export default function InsightsPage() {
                     </div>
                     <p className="text-gray-700 text-sm italic">&ldquo;{rider.text}&rdquo;</p>
                   </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+        {activeTab === 'survey' && survey && (
+          <div className="space-y-8">
+            {/* Header */}
+            <div className="rounded-2xl bg-gray-900 text-white p-6">
+              <div className="flex items-center gap-3 mb-1">
+                <span className="text-3xl">📊</span>
+                <div>
+                  <h2 className="text-2xl font-bold">{survey.meta.title}</h2>
+                  <p className="text-gray-400 text-sm">{survey.meta.source} · {survey.meta.platform} · {survey.meta.date_captured}</p>
+                </div>
+              </div>
+              <div className="mt-4 flex gap-6">
+                <div className="text-center">
+                  <div className="text-4xl font-black text-red-400">{survey.meta.total_responses}</div>
+                  <div className="text-gray-400 text-sm">Responses</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-black text-blue-400">{survey.demographics.locations.length}</div>
+                  <div className="text-gray-400 text-sm">Locations</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-black text-green-400">{Object.keys(survey.discipline_participation).length}</div>
+                  <div className="text-gray-400 text-sm">Disciplines</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Weight Distribution */}
+              <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+                <h3 className="text-lg font-bold text-gray-900 mb-4">⚖️ Rider Weight Distribution</h3>
+                {Object.entries(survey.demographics.weight_distribution).map(([key, count]) => {
+                  const label = key.replace(/_/g, ' ').replace('kg', ' kg').replace('under ', '<').replace('over ', '>');
+                  const pct = Math.round((count / survey.meta.total_responses) * 100);
+                  return (
+                    <div key={key} className="mb-3">
+                      <div className="flex justify-between text-sm mb-1">
+                        <span className="text-gray-600 capitalize">{label}</span>
+                        <span className="font-semibold text-gray-800">{count} <span className="text-gray-400 font-normal">({pct}%)</span></span>
+                      </div>
+                      <div className="h-3 bg-gray-100 rounded-full overflow-hidden">
+                        <div className="h-full bg-blue-500 rounded-full transition-all" style={{ width: `${pct}%` }} />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* Experience */}
+              <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+                <h3 className="text-lg font-bold text-gray-900 mb-4">🏆 Experience Level</h3>
+                {Object.entries(survey.demographics.experience).map(([key, count]) => {
+                  const label = key.replace('less_than_1yr', '<1 year').replace('1_2yrs', '1–2 years').replace('2_4yrs', '2–4 years').replace('4plus_yrs', '4+ years');
+                  const pct = Math.round((count / survey.meta.total_responses) * 100);
+                  const colors = ['bg-yellow-400', 'bg-orange-400', 'bg-red-500', 'bg-red-700'];
+                  const idx = Object.keys(survey.demographics.experience).indexOf(key);
+                  return (
+                    <div key={key} className="mb-3">
+                      <div className="flex justify-between text-sm mb-1">
+                        <span className="text-gray-600">{label}</span>
+                        <span className="font-semibold text-gray-800">{count} <span className="text-gray-400 font-normal">({pct}%)</span></span>
+                      </div>
+                      <div className="h-3 bg-gray-100 rounded-full overflow-hidden">
+                        <div className={`h-full ${colors[idx] || 'bg-gray-500'} rounded-full transition-all`} style={{ width: `${pct}%` }} />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Discipline Participation */}
+            <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">🏄 Discipline Participation (ranked)</h3>
+              <div className="space-y-3">
+                {Object.entries(survey.discipline_participation)
+                  .sort((a, b) => b[1].pct - a[1].pct)
+                  .map(([key, data]) => {
+                    const label = key.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                    const hue = data.pct > 60 ? 'bg-red-500' : data.pct > 30 ? 'bg-orange-400' : data.pct > 10 ? 'bg-yellow-400' : 'bg-gray-300';
+                    return (
+                      <div key={key} className="flex items-center gap-3">
+                        <div className="w-40 text-sm text-gray-600 shrink-0">{label}</div>
+                        <div className="flex-1 h-4 bg-gray-100 rounded-full overflow-hidden">
+                          <div className={`h-full ${hue} rounded-full`} style={{ width: `${data.pct}%` }} />
+                        </div>
+                        <div className="text-sm font-bold text-gray-800 w-12 text-right">{data.pct}%</div>
+                        <div className="text-xs text-gray-400 w-12">{data.yes}/{survey.meta.total_responses}</div>
+                      </div>
+                    );
+                  })}
+              </div>
+            </div>
+
+            {/* Top Wings by Discipline */}
+            <div>
+              <h3 className="text-lg font-bold text-gray-900 mb-4">🪁 Top Wings by Discipline</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {Object.entries(survey.top_wings_by_discipline).map(([disc, data]) => {
+                  const label = disc.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                  return (
+                    <div key={disc} className="rounded-2xl bg-white border border-gray-100 p-4 shadow-sm">
+                      <div className="flex items-center justify-between mb-3">
+                        <h4 className="font-bold text-gray-800">{label}</h4>
+                        <span className="text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">{data.responses} riders</span>
+                      </div>
+                      <ul className="space-y-1">
+                        {data.top.map((wing, i) => (
+                          <li key={i} className="flex items-start gap-2 text-sm">
+                            <span className="text-gray-300 mt-0.5">#{i + 1}</span>
+                            <span className="text-gray-700">{wing}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Product Demand Signals */}
+            <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">📣 Product Demand Signals</h3>
+              <div className="space-y-3">
+                {survey.product_demand_signals.map((signal, i) => (
+                  <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-amber-50 border border-amber-100">
+                    <span className="text-amber-500 text-lg mt-0.5">⚡</span>
+                    <p className="text-gray-800 text-sm">{signal}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Locations */}
+            <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">🌍 Where Riders Are From</h3>
+              <div className="flex flex-wrap gap-2">
+                {survey.demographics.locations.map((loc, i) => (
+                  <span key={i} className="px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-800 text-sm">{loc}</span>
                 ))}
               </div>
             </div>
