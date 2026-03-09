@@ -38,7 +38,8 @@ function generateAnalysis(foil: Product, isReference: boolean): string {
   
   const analyses: Record<string, string> = {
     'Surge': `The ${series} ${area} is a dedicated wave weapon designed for intuitive handling. It excels at aggressive carving and breaching wingtips without stalling, making it the top choice for riders who want to shred the pocket. It feels stable yet incredibly reactive, offering a confidence-inspiring platform for prone surfing or wave-focused winging where turning is the priority.`,
-    'ART v2': `The ${series} ${area} is an efficiency monster engineered for speed and glide. It rewards an active rider with the ability to connect endless bumps and pump effortlessly between swells. While it turns surprisingly well for its span, its true nature is high-speed connection and downwind travel, requiring higher takeoff speeds than more surf-oriented designs.`,
+    'ART V2': `The ${series} ${area} is an efficiency monster engineered for speed and glide. It rewards an active rider with the ability to connect endless bumps and pump effortlessly between swells. While it turns surprisingly well for its span, its true nature is high-speed connection and downwind travel, requiring higher takeoff speeds than more surf-oriented designs.`,
+    'ART Pro': `The ${series} ${area} is a high-performance all-rounder that bridges the gap between ART efficiency and real-world versatility. Exceptional glide and speed with better turning than the standard ART. A refined choice for advanced riders who want top-tier performance across wing foiling, downwind, and tow-in.`,
     'ART': `The ${series} ${area} is the legendary high-aspect glide machine that defined a generation of performance foiling. Known for its efficient pump and ability to maintain flight with minimal input, it excels at connecting swells and downwind runs while still offering responsive turning for its aspect ratio.`,
     'Fireball': `The ${series} ${area} is a high-aspect performer built for speed without sacrificing maneuverability. With an AR of ${ar.toFixed(1)}, it offers exceptional glide efficiency while remaining playful in the turn. Perfect for riders seeking the ultimate balance of speed, pump, and carving performance.`,
     'Tempo': `The ${series} ${area} represents the next generation of ultra-high-aspect design. Built with Ti-Link technology for maximum stiffness, it delivers unparalleled glide and pump efficiency. Don't let the low surface area scare you - it's surprisingly accessible while offering advanced riders a new dimension of performance.`,
@@ -213,7 +214,8 @@ export default function ComparePage() {
       'Tempo': { speed: 95, pump: 72, glide: 78, turning: 45 },      // Ultra-speed focused, Ti-Link stiffness
       'Fireball': { speed: 78, pump: 90, glide: 92, turning: 58 },   // Balanced high-AR, excellent pump/glide
       'Surge': { speed: 62, pump: 75, glide: 72, turning: 88 },      // Surf-oriented, more roll/turn feel
-      'ART v2': { speed: 72, pump: 95, glide: 95, turning: 52 },     // Efficiency monster, pump/glide king
+      'ART V2': { speed: 72, pump: 95, glide: 95, turning: 52 },     // Efficiency monster, pump/glide king
+      'ART Pro': { speed: 70, pump: 85, glide: 88, turning: 60 },   // High-performance all-rounder
       'ART': { speed: 68, pump: 88, glide: 90, turning: 55 },        // Classic efficiency design
       'Spitfire': { speed: 55, pump: 58, glide: 52, turning: 95 },   // Low AR surf, tight turns
       'PNG V2': { speed: 65, pump: 85, glide: 82, turning: 60 },     // Pump foil specialist
