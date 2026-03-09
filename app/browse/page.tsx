@@ -41,7 +41,7 @@ export default function BrowsePage() {
       name: 'Tempo',
       displayName: 'Tempo',
       category: 'current',
-      description: 'Next-gen ultra-high-aspect downwind revolution. Ultra-High Modulus carbon + Ti Link fuselage = maximum efficiency. Yvon Labarthe: "Nothing glides better in the world." For serious SUP DW racers and competitors. 960-1090cm².',
+      description: 'The F1 of downwind foiling. Ultra-high-aspect, lowest drag in the AXIS lineup. Ultra-High Modulus carbon + Ti Link fuselage = maximum speed and efficiency. Faster than the Fireball with less drag. Yvon: "Nothing glides better in the world." For serious SUP DW racers and competitors. 960-1090cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Tempofamily2_1296x.png?v=1759345835'
     },
     {
@@ -62,7 +62,7 @@ export default function BrowsePage() {
       name: 'Fireball',
       displayName: 'Fireball',
       category: 'current',
-      description: 'F1 of SUP downwind foiling. ~13 AR, high camber, very low stall speed. Fred Bonnet: "Fireball 1160 — unbelievable, effortless." Yvon: FB 1500 doubles pump time vs FB 1350. The benchmark for elite DW. 880-1750cm².',
+      description: 'High camber speed and glide machine. ~13 AR, very low stall speed. Fred Bonnet: "Fireball 1160 — unbelievable, effortless." Yvon: FB 1500 doubles pump time vs FB 1350. Incredible glide for DW, pumping, and connecting bumps. 880-1750cm².',
       image: 'https://axisfoils.com/cdn/shop/files/Fireball_family_1500-_-1750_1296x.png?v=1759718992'
     },
     {
