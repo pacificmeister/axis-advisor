@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "source": "Axmann Front Wing Combinations PDF",
+    "weightCategories": {
+      "beginner_90plus": ">90kg",
+      "progression_80_90": "80-90kg",
+      "perfect_70_80": "70-80kg",
+      "advanced_60_70": "60-70kg",
+      "extreme_under60": "<60kg"
+    },
+    "rearWingTypes": [
+      "Progressive (all-round)",
+      "Surf Skinny (performance surf)"
+    ]
+  },
+  "combinations": {
+    "Spitfire 720": {
+      "area": 800,
+      "rearWings": {
+        "Progressive 275": [
+          "extreme_under60"
+        ],
+        "Progressive 300": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Progressive 325": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 350": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 375": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 400": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 780": {
+      "area": 900,
+      "rearWings": {
+        "Progressive 250": [
+          "extreme_under60"
+        ],
+        "Progressive 275": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Progressive 300": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 325": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 350": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 375": [
+          "beginner_90plus"
+        ],
+        "Progressive 400": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 840": {
+      "area": 1000,
+      "rearWings": {
+        "Progressive 250": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Progressive 275": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 300": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 325": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 350": [
+          "beginner_90plus"
+        ],
+        "Progressive 375": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Skinny 359/40": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Skinny 360/45": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 365/55": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 900": {
+      "area": 1100,
+      "rearWings": {
+        "Progressive 250": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 275": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 300": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 325": [
+          "beginner_90plus"
+        ],
+        "Progressive 350": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Skinny 359/40": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus"
+        ],
+        "Skinny 365/55": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 960": {
+      "area": 1200,
+      "rearWings": {
+        "Progressive 250": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 275": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 300": [
+          "beginner_90plus"
+        ],
+        "Progressive 325": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 359/40": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 1030": {
+      "area": 1300,
+      "rearWings": {
+        "Progressive 250": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 275": [
+          "beginner_90plus"
+        ],
+        "Progressive 300": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 359/40": [
+          "beginner_90plus"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "Spitfire 1100": {
+      "area": 1400,
+      "rearWings": {
+        "Progressive 250": [
+          "beginner_90plus"
+        ],
+        "Progressive 275": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "beginner_90plus"
+        ],
+        "Skinny 359/40": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "ART Pro 951": {
+      "area": 770,
+      "rearWings": {
+        "Progressive 250": [
+          "extreme_under60"
+        ],
+        "Progressive 275": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Progressive 300": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 325": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 350": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 375": [
+          "beginner_90plus"
+        ],
+        "Progressive 400": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "ART Pro 1001": {
+      "area": 845,
+      "rearWings": {
+        "Progressive 250": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Progressive 275": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 300": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 325": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 350": [
+          "beginner_90plus"
+        ],
+        "Progressive 375": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "advanced_60_70",
+          "extreme_under60"
+        ],
+        "Skinny 359/40": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Skinny 360/45": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 365/55": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "ART Pro 1051": {
+      "area": 930,
+      "rearWings": {
+        "Progressive 250": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Progressive 275": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 300": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 325": [
+          "beginner_90plus"
+        ],
+        "Progressive 350": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "perfect_70_80",
+          "advanced_60_70"
+        ],
+        "Skinny 359/40": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus"
+        ],
+        "Skinny 365/55": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "ART Pro 1121": {
+      "area": 1090,
+      "rearWings": {
+        "Progressive 250": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Progressive 275": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 300": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "progression_80_90",
+          "perfect_70_80"
+        ],
+        "Skinny 359/40": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus"
+        ],
+        "Skinny 362/50": [
+          "beginner_90plus"
+        ]
+      }
+    },
+    "ART Pro 1201": {
+      "area": 1318,
+      "rearWings": {
+        "Progressive 250": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Progressive 275": [
+          "beginner_90plus"
+        ],
+        "Skinny 358/35": [
+          "beginner_90plus",
+          "progression_80_90"
+        ],
+        "Skinny 359/40": [
+          "beginner_90plus"
+        ],
+        "Skinny 360/45": [
+          "beginner_90plus"
+        ]
+      }
+    }
+  }
+}

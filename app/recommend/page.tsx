@@ -32,6 +32,16 @@ interface RecommenderData {
   wings: Wing[];
 }
 
+interface CompatibilityData {
+  meta: {
+    weightCategories: Record<string, string>;
+  };
+  combinations: Record<string, {
+    area: number;
+    rearWings: Record<string, string[]>;
+  }>;
+}
+
 type Discipline = 'downwind' | 'wing' | 'prone' | 'kite' | 'tow' | 'allround';
 
 // Discipline-specific score weights
@@ -185,11 +195,16 @@ export default function RecommendPage() {
   const [selectedWing, setSelectedWing] = useState<Wing | null>(null);
   const [showFilters, setShowFilters] = useState(false);
   const [seriesFilter, setSeriesFilter] = useState<string[]>([]);
+  const [compatData, setCompatData] = useState<CompatibilityData | null>(null);
 
   useEffect(() => {
     fetch('/data/axmann-recommender.json')
       .then((r) => r.json())
       .then(setData)
+      .catch(console.error);
+    fetch('/data/axmann-compatibility.json')
+      .then((r) => r.json())
+      .then(setCompatData)
       .catch(console.error);
   }, []);
 
@@ -680,6 +695,53 @@ export default function RecommendPage() {
                     />
                   ))}
                 </div>
+
+                {/* Rear Wing Compatibility */}
+                {compatData && (() => {
+                  // Match selected wing to compatibility data
+                  const compatKey = Object.keys(compatData.combinations).find(k => {
+                    const normalizedKey = k.replace('ART Pro ', 'ARTPRO');
+                    const normalizedWing = selectedWing.name.replace('ARTPRO', 'ART Pro ');
+                    return k === selectedWing.displayName || 
+                           normalizedKey === selectedWing.name ||
+                           selectedWing.displayName.includes(k) ||
+                           k.includes(selectedWing.displayName);
+                  });
+                  
+                  if (!compatKey) return null;
+                  const compat = compatData.combinations[compatKey];
+                  
+                  // Determine weight category
+                  const getWeightCat = (kg: number): string => {
+                    if (kg >= 90) return 'beginner_90plus';
+                    if (kg >= 80) return 'progression_80_90';
+                    if (kg >= 70) return 'perfect_70_80';
+                    if (kg >= 60) return 'advanced_60_70';
+                    return 'extreme_under60';
+                  };
+                  
+                  const weightCat = getWeightCat(effectiveWeightKg);
+                  const matchingRears = Object.entries(compat.rearWings)
+                    .filter(([_, cats]) => cats.includes(weightCat))
+                    .map(([name]) => name);
+                  
+                  if (matchingRears.length === 0) return null;
+                  
+                  return (
+                    <div className="space-y-2 mt-4 pt-4 border-t border-gray-800">
+                      <h4 className="text-xs font-semibold text-gray-400 uppercase">
+                        ✅ Compatible Rear Wings ({effectiveWeightKg}kg)
+                      </h4>
+                      <div className="space-y-1">
+                        {matchingRears.map(rw => (
+                          <div key={rw} className="text-xs bg-green-900/20 border border-green-800/30 rounded px-2 py-1 text-green-300">
+                            {rw}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
 
                 <div className="mt-4 text-xs text-gray-600 text-center">
                   Data source: {selectedWing.scoreSource === 'regression' ? 'Regression prediction' : selectedWing.scoreSource}
