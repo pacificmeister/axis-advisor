@@ -24,7 +24,25 @@
             "name": "ART 1099 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 1099,
-            "series": "ART"
+            "series": "ART",
+            "axmann": {
+              "trueArea": 1197.0,
+              "aspectRatio": 10.28,
+              "span": 1100,
+              "rollMoment": 8162.0,
+              "pitchMoment": 154.0,
+              "scores": {
+                "Lift": 87.6,
+                "Glide": 71.7,
+                "Speed": 46,
+                "Carving": 58.1,
+                "Pump": 73.9,
+                "Comfort": 80.4
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.18,
+              "volume": 1016
+            }
           },
           "tags": [
             "art",
@@ -52,7 +70,25 @@
             "name": "ART 999 Carbon Hydrofoil Wing",
             "product_type": "Front Wings",
             "area": 999,
-            "series": "ART"
+            "series": "ART",
+            "axmann": {
+              "trueArea": 1026.0,
+              "aspectRatio": 9.9,
+              "span": 1000,
+              "rollMoment": 6010.0,
+              "pitchMoment": 110.0,
+              "scores": {
+                "Lift": 80.1,
+                "Glide": 67.4,
+                "Speed": 52.5,
+                "Carving": 67.1,
+                "Pump": 65.6,
+                "Comfort": 86.3
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.18,
+              "volume": 844
+            }
           },
           "tags": [
             "art",
@@ -329,7 +365,25 @@
             "trueArea": 1111.94,
             "aspectRatio": 7.17,
             "wingspan": 880,
-            "chord": 150
+            "chord": 150,
+            "axmann": {
+              "trueArea": 604.0,
+              "aspectRatio": 12.82,
+              "span": 880,
+              "rollMoment": 2777.0,
+              "pitchMoment": 31.0,
+              "scores": {
+                "Lift": 44.3,
+                "Glide": 58.8,
+                "Speed": 69.8,
+                "Carving": 78.3,
+                "Pump": 35.1,
+                "Comfort": 56.3
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 10.788,
+              "volume": 373
+            }
           },
           "tags": [
             "b-series",
@@ -378,7 +432,25 @@
             "trueArea": 1014,
             "aspectRatio": 7.0,
             "wingspan": 830,
-            "chord": 145
+            "chord": 145,
+            "axmann": {
+              "trueArea": 728.0,
+              "aspectRatio": 9.48,
+              "span": 830,
+              "rollMoment": 3045.0,
+              "pitchMoment": 58.0,
+              "scores": {
+                "Lift": 60.3,
+                "Glide": 58.2,
+                "Speed": 61.4,
+                "Carving": 80,
+                "Pump": 47.2,
+                "Comfort": 75.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 13.456,
+              "volume": 556
+            }
           },
           "tags": [
             "830",
@@ -671,7 +743,24 @@
             "trueArea": 1290,
             "aspectRatio": 6.43,
             "wingspan": 890,
-            "chord": 170
+            "chord": 170,
+            "axmann": {
+              "trueArea": 495.4,
+              "aspectRatio": 16.0,
+              "span": 890,
+              "rollMoment": 2184.0,
+              "pitchMoment": 18.5,
+              "scores": {
+                "Lift": 40.3,
+                "Glide": 63.2,
+                "Speed": 75,
+                "Carving": 76.8,
+                "Pump": 29.8,
+                "Comfort": 50.2
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 10.672
+            }
           },
           "tags": [
             "b-series",
@@ -770,7 +859,25 @@
             "trueArea": 883.12,
             "aspectRatio": 6.49,
             "wingspan": 740,
-            "chord": 140
+            "chord": 140,
+            "axmann": {
+              "trueArea": 590.0,
+              "aspectRatio": 9.3,
+              "span": 740,
+              "rollMoment": 1940.0,
+              "pitchMoment": 40.0,
+              "scores": {
+                "Lift": 52.2,
+                "Glide": 54.1,
+                "Speed": 67.4,
+                "Carving": 86.7,
+                "Pump": 37.4,
+                "Comfort": 78.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 12.992,
+              "volume": 423
+            }
           },
           "tags": [
             "b-series",
@@ -927,7 +1034,25 @@
             "trueArea": 1777.74,
             "aspectRatio": 7.72,
             "wingspan": 1150,
-            "chord": 180
+            "chord": 180,
+            "axmann": {
+              "trueArea": 1198.8,
+              "aspectRatio": 11.04,
+              "span": 1150,
+              "rollMoment": 9634.5,
+              "pitchMoment": 136.2,
+              "scores": {
+                "Lift": 84.9,
+                "Glide": 72.8,
+                "Speed": 42.2,
+                "Carving": 54.3,
+                "Pump": 76.3,
+                "Comfort": 59.2
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 16.008,
+              "volume": 1077.33
+            }
           },
           "tags": [
             "115",
@@ -984,7 +1109,25 @@
             "trueArea": 1430.16,
             "aspectRatio": 7.13,
             "wingspan": 1010,
-            "chord": 170
+            "chord": 170,
+            "axmann": {
+              "trueArea": 1076.0,
+              "aspectRatio": 9.49,
+              "span": 1010,
+              "rollMoment": 6675.0,
+              "pitchMoment": 128.0,
+              "scores": {
+                "Lift": 82.3,
+                "Glide": 67.9,
+                "Speed": 46.1,
+                "Carving": 64,
+                "Pump": 69.9,
+                "Comfort": 72.8
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 16.356,
+              "volume": 988
+            }
           },
           "tags": [
             "101",
@@ -1336,7 +1479,25 @@
             "name": "AXIS FIREBALL 1070 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1070,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 877.0,
+              "aspectRatio": 13.07,
+              "span": 1070,
+              "rollMoment": 5880.0,
+              "pitchMoment": 64.0,
+              "scores": {
+                "Lift": 65,
+                "Glide": 69.5,
+                "Speed": 56.5,
+                "Carving": 63.5,
+                "Pump": 57.7,
+                "Comfort": 55.7
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 12.992,
+              "volume": 649
+            }
           },
           "tags": [],
           "created_at": "2024-09-18T22:09:05-07:00",
@@ -1361,7 +1522,25 @@
             "trueArea": 1388.25,
             "aspectRatio": 7.63,
             "wingspan": 1000,
-            "chord": "170/220"
+            "chord": "170/220",
+            "axmann": {
+              "trueArea": 773.0,
+              "aspectRatio": 12.95,
+              "span": 1000,
+              "rollMoment": 4506.0,
+              "pitchMoment": 51.0,
+              "scores": {
+                "Lift": 58.2,
+                "Glide": 65.9,
+                "Speed": 61.3,
+                "Carving": 69.1,
+                "Pump": 50,
+                "Comfort": 57.2
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 12.296,
+              "volume": 541
+            }
           },
           "tags": [],
           "created_at": "2024-09-18T23:02:42-07:00",
@@ -1391,7 +1570,25 @@
             "name": "AXIS FIREBALL 940 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 940,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 689.0,
+              "aspectRatio": 12.84,
+              "span": 940,
+              "rollMoment": 3574.0,
+              "pitchMoment": 40.0,
+              "scores": {
+                "Lift": 51.8,
+                "Glide": 62.5,
+                "Speed": 65.4,
+                "Carving": 73.7,
+                "Pump": 43,
+                "Comfort": 57.5
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 11.6,
+              "volume": 456
+            }
           },
           "tags": [],
           "created_at": "2024-09-18T23:06:24-07:00",
@@ -1412,7 +1609,25 @@
             "name": "AXIS FIREBALL 880 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 880,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 604.0,
+              "aspectRatio": 12.82,
+              "span": 880,
+              "rollMoment": 2777.0,
+              "pitchMoment": 31.0,
+              "scores": {
+                "Lift": 44.3,
+                "Glide": 58.8,
+                "Speed": 69.8,
+                "Carving": 78.3,
+                "Pump": 35.1,
+                "Comfort": 56.3
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 10.788,
+              "volume": 373
+            }
           },
           "tags": [],
           "created_at": "2024-09-18T23:11:09-07:00",
@@ -1454,7 +1669,25 @@
             "name": "AXIS FIREBALL 1160 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1160,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 996.3,
+              "aspectRatio": 13.52,
+              "span": 1160,
+              "rollMoment": 7894.0,
+              "pitchMoment": 80.0,
+              "scores": {
+                "Lift": 71.4,
+                "Glide": 73.5,
+                "Speed": 51.5,
+                "Carving": 56.5,
+                "Pump": 65.6,
+                "Comfort": 50.9
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 13.572,
+              "volume": 769.36
+            }
           },
           "tags": [],
           "created_at": "2025-01-06T01:39:48-08:00",
@@ -1475,7 +1708,25 @@
             "name": "AXIS FIREBALL 1250 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1250,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 1132.6,
+              "aspectRatio": 13.81,
+              "span": 1250,
+              "rollMoment": 10487.0,
+              "pitchMoment": 100.0,
+              "scores": {
+                "Lift": 77.9,
+                "Glide": 77,
+                "Speed": 45.9,
+                "Carving": 49.2,
+                "Pump": 73.5,
+                "Comfort": 45.5
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 14.268,
+              "volume": 898.15
+            }
           },
           "tags": [],
           "created_at": "2025-01-06T01:51:39-08:00",
@@ -1496,7 +1747,25 @@
             "name": "AXIS FIREBALL 1350 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1350,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 1308.8,
+              "aspectRatio": 13.93,
+              "span": 1350,
+              "rollMoment": 14073.0,
+              "pitchMoment": 133.0,
+              "scores": {
+                "Lift": 85.4,
+                "Glide": 80.4,
+                "Speed": 38.9,
+                "Carving": 40.4,
+                "Pump": 82.3,
+                "Comfort": 38.4
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 15.312,
+              "volume": 1111.8
+            }
           },
           "tags": [],
           "created_at": "2025-01-06T01:57:42-08:00",
@@ -1585,7 +1854,25 @@
             "name": "AXIS TEMPO 1090 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1090,
-            "series": "Tempo"
+            "series": "Tempo",
+            "axmann": {
+              "trueArea": 746.0,
+              "aspectRatio": 15.93,
+              "span": 1090,
+              "rollMoment": 4881.0,
+              "pitchMoment": 43.0,
+              "scores": {
+                "Lift": 66.5,
+                "Glide": 76.1,
+                "Speed": 60.4,
+                "Carving": 62.6,
+                "Pump": 56.6,
+                "Comfort": 57.1
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 13.6358,
+              "volume": 480
+            }
           },
           "tags": [
             "surf",
@@ -1611,7 +1898,25 @@
             "name": "AXIS TEMPO 1020 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1020,
-            "series": "Tempo"
+            "series": "Tempo",
+            "axmann": {
+              "trueArea": 653.0,
+              "aspectRatio": 15.93,
+              "span": 1020,
+              "rollMoment": 3739.0,
+              "pitchMoment": 33.0,
+              "scores": {
+                "Lift": 57.5,
+                "Glide": 72,
+                "Speed": 65.5,
+                "Carving": 67.3,
+                "Pump": 47.4,
+                "Comfort": 55.8
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 12.76,
+              "volume": 394
+            }
           },
           "tags": [
             "surf",
@@ -1637,7 +1942,25 @@
             "name": "AXIS TEMPO 960 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 960,
-            "series": "Tempo"
+            "series": "Tempo",
+            "axmann": {
+              "trueArea": 578.0,
+              "aspectRatio": 15.94,
+              "span": 960,
+              "rollMoment": 2969.0,
+              "pitchMoment": 25.0,
+              "scores": {
+                "Lift": 49.7,
+                "Glide": 68,
+                "Speed": 69.9,
+                "Carving": 71.7,
+                "Pump": 39.4,
+                "Comfort": 53.7
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 11.832,
+              "volume": 261
+            }
           },
           "tags": [
             "surf",
@@ -1663,7 +1986,25 @@
             "name": "AXIS TEMPO 920 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 920,
-            "series": "Tempo"
+            "series": "Tempo",
+            "axmann": {
+              "trueArea": 528.0,
+              "aspectRatio": 16.03,
+              "span": 920,
+              "rollMoment": 2472.0,
+              "pitchMoment": 21.0,
+              "scores": {
+                "Lift": 44.1,
+                "Glide": 65.1,
+                "Speed": 72.9,
+                "Carving": 74.9,
+                "Pump": 33.7,
+                "Comfort": 51.2
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 11.02,
+              "volume": 170
+            }
           },
           "tags": [
             "surf",
@@ -1689,7 +2030,24 @@
             "name": "AXIS TEMPO 890 Ultra High Modulus Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 890,
-            "series": "Tempo"
+            "series": "Tempo",
+            "axmann": {
+              "trueArea": 495.4,
+              "aspectRatio": 16.0,
+              "span": 890,
+              "rollMoment": 2184.0,
+              "pitchMoment": 18.5,
+              "scores": {
+                "Lift": 40.3,
+                "Glide": 63.2,
+                "Speed": 75,
+                "Carving": 76.8,
+                "Pump": 29.8,
+                "Comfort": 50.2
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 10.672
+            }
           },
           "tags": [
             "surf",
@@ -1715,7 +2073,25 @@
             "name": "AXIS FIREBALL 1500 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1500,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 1313.0,
+              "aspectRatio": 17.15,
+              "span": 1500,
+              "rollMoment": 16533.0,
+              "pitchMoment": 122.0,
+              "scores": {
+                "Lift": 86.1,
+                "Glide": 87.9,
+                "Speed": 38.4,
+                "Carving": 31.1,
+                "Pump": 85.9,
+                "Comfort": 24.5
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 14.84104,
+              "volume": 1039.5
+            }
           },
           "tags": [],
           "created_at": "2025-10-05T19:20:07-07:00",
@@ -1736,7 +2112,25 @@
             "name": "AXIS FIREBALL 1750 ULTRA High Mod Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1750,
-            "series": "Fireball"
+            "series": "Fireball",
+            "axmann": {
+              "trueArea": 1525.0,
+              "aspectRatio": 20.12,
+              "span": 1750,
+              "rollMoment": 25946.0,
+              "pitchMoment": 141.0,
+              "scores": {
+                "Lift": 100,
+                "Glide": 100,
+                "Speed": 27.5,
+                "Carving": 10.2,
+                "Pump": 100,
+                "Comfort": 9.3
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 17.4,
+              "volume": 1211.19
+            }
           },
           "tags": [],
           "created_at": "2025-10-05T19:47:40-07:00",
@@ -1757,7 +2151,25 @@
             "name": "AXIS SURGE 740 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 740,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 590.0,
+              "aspectRatio": 9.3,
+              "span": 740,
+              "rollMoment": 1940.0,
+              "pitchMoment": 40.0,
+              "scores": {
+                "Lift": 52.2,
+                "Glide": 54.1,
+                "Speed": 67.4,
+                "Carving": 86.7,
+                "Pump": 37.4,
+                "Comfort": 78.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 12.992,
+              "volume": 423
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:36:04-08:00",
@@ -1778,7 +2190,25 @@
             "name": "AXIS SURGE 780 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 780,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 643.0,
+              "aspectRatio": 9.48,
+              "span": 780,
+              "rollMoment": 2375.0,
+              "pitchMoment": 46.0,
+              "scores": {
+                "Lift": 53.2,
+                "Glide": 54.9,
+                "Speed": 65.7,
+                "Carving": 84.2,
+                "Pump": 40,
+                "Comfort": 74.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 12.644,
+              "volume": 471
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:40:31-08:00",
@@ -1799,7 +2229,25 @@
             "name": "AXIS SURGE 830 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 830,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 728.0,
+              "aspectRatio": 9.48,
+              "span": 830,
+              "rollMoment": 3045.0,
+              "pitchMoment": 58.0,
+              "scores": {
+                "Lift": 60.3,
+                "Glide": 58.2,
+                "Speed": 61.4,
+                "Carving": 80,
+                "Pump": 47.2,
+                "Comfort": 75.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 13.456,
+              "volume": 556
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:51:02-08:00",
@@ -1820,7 +2268,24 @@
             "name": "AXIS SURGE 890 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 890,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 495.4,
+              "aspectRatio": 16.0,
+              "span": 890,
+              "rollMoment": 2184.0,
+              "pitchMoment": 18.5,
+              "scores": {
+                "Lift": 40.3,
+                "Glide": 63.2,
+                "Speed": 75,
+                "Carving": 76.8,
+                "Pump": 29.8,
+                "Comfort": 50.2
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 10.672
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:52:21-08:00",
@@ -1841,7 +2306,25 @@
             "name": "AXIS SURGE 950 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 950,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 949.0,
+              "aspectRatio": 9.52,
+              "span": 950,
+              "rollMoment": 5102.0,
+              "pitchMoment": 101.0,
+              "scores": {
+                "Lift": 75.1,
+                "Glide": 65.3,
+                "Speed": 51.5,
+                "Carving": 69.1,
+                "Pump": 62.4,
+                "Comfort": 75.3
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 15.544,
+              "volume": 827
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:53:40-08:00",
@@ -1862,7 +2345,25 @@
             "name": "AXIS SURGE 1010 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "area": 1010,
-            "series": "Surge"
+            "series": "Surge",
+            "axmann": {
+              "trueArea": 1076.0,
+              "aspectRatio": 9.49,
+              "span": 1010,
+              "rollMoment": 6675.0,
+              "pitchMoment": 128.0,
+              "scores": {
+                "Lift": 82.3,
+                "Glide": 67.9,
+                "Speed": 46.1,
+                "Carving": 64,
+                "Pump": 69.9,
+                "Comfort": 72.8
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 16.356,
+              "volume": 988
+            }
           },
           "tags": [],
           "created_at": "2025-11-18T15:54:32-08:00",
@@ -1881,7 +2382,25 @@
             "name": "ART v2 819",
             "product_type": "Front Wings",
             "series": "ART V2",
-            "area": 819
+            "area": 819,
+            "axmann": {
+              "trueArea": 674.0,
+              "aspectRatio": 9.98,
+              "span": 820,
+              "rollMoment": 2700.0,
+              "pitchMoment": 49.0,
+              "scores": {
+                "Lift": 59.7,
+                "Glide": 57.6,
+                "Speed": 67.4,
+                "Carving": 83.6,
+                "Pump": 43.2,
+                "Comfort": 89.3
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 13.39,
+              "volume": 469
+            }
           }
         },
         {
@@ -1897,7 +2416,25 @@
             "name": "ART v2 1099",
             "product_type": "Front Wings",
             "series": "ART V2",
-            "area": 1099
+            "area": 1099,
+            "axmann": {
+              "trueArea": 1197.0,
+              "aspectRatio": 10.28,
+              "span": 1100,
+              "rollMoment": 8162.0,
+              "pitchMoment": 154.0,
+              "scores": {
+                "Lift": 87.6,
+                "Glide": 71.7,
+                "Speed": 46,
+                "Carving": 58.1,
+                "Pump": 73.9,
+                "Comfort": 80.4
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.18,
+              "volume": 1016
+            }
           }
         },
         {
@@ -1913,7 +2450,25 @@
             "name": "ART v2 879",
             "product_type": "Front Wings",
             "series": "ART V2",
-            "area": 879
+            "area": 879,
+            "axmann": {
+              "trueArea": 790.0,
+              "aspectRatio": 9.98,
+              "span": 880,
+              "rollMoment": 3578.0,
+              "pitchMoment": 64.0,
+              "scores": {
+                "Lift": 65.9,
+                "Glide": 61.1,
+                "Speed": 62.7,
+                "Carving": 77.9,
+                "Pump": 50.6,
+                "Comfort": 88.5
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 12.39,
+              "volume": 573
+            }
           }
         },
         {
@@ -1929,7 +2484,25 @@
             "name": "ART v2 939",
             "product_type": "Front Wings",
             "series": "ART V2",
-            "area": 939
+            "area": 939,
+            "axmann": {
+              "trueArea": 900.0,
+              "aspectRatio": 10.0,
+              "span": 940,
+              "rollMoment": 4656.0,
+              "pitchMoment": 83.0,
+              "scores": {
+                "Lift": 73,
+                "Glide": 64.5,
+                "Speed": 57.8,
+                "Carving": 72.7,
+                "Pump": 58.2,
+                "Comfort": 87.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 13.23,
+              "volume": 687
+            }
           }
         },
         {
@@ -1945,7 +2518,25 @@
             "name": "ART v2 999",
             "product_type": "Front Wings",
             "series": "ART V2",
-            "area": 999
+            "area": 999,
+            "axmann": {
+              "trueArea": 1026.0,
+              "aspectRatio": 9.9,
+              "span": 1000,
+              "rollMoment": 6010.0,
+              "pitchMoment": 110.0,
+              "scores": {
+                "Lift": 80.1,
+                "Glide": 67.4,
+                "Speed": 52.5,
+                "Carving": 67.1,
+                "Pump": 65.6,
+                "Comfort": 86.3
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.18,
+              "volume": 844
+            }
           }
         },
         {
@@ -1961,7 +2552,25 @@
             "name": "ART PRO 751 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 751
+            "area": 751,
+            "axmann": {
+              "trueArea": 518.0,
+              "aspectRatio": 11.1,
+              "span": 751,
+              "rollMoment": 1811.0,
+              "pitchMoment": 23.0,
+              "scores": {
+                "Lift": 35.7,
+                "Glide": 50.6,
+                "Speed": 78.6,
+                "Carving": 87.9,
+                "Pump": 22.7,
+                "Comfort": 74.5
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 9.03,
+              "volume": 296
+            }
           }
         },
         {
@@ -1977,7 +2586,25 @@
             "name": "ART PRO 801 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 801
+            "area": 801,
+            "axmann": {
+              "trueArea": 582.0,
+              "aspectRatio": 11.17,
+              "span": 800,
+              "rollMoment": 2326.0,
+              "pitchMoment": 29.0,
+              "scores": {
+                "Lift": 43.1,
+                "Glide": 53.8,
+                "Speed": 74.7,
+                "Carving": 84.9,
+                "Pump": 30.1,
+                "Comfort": 76.2
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 9.56,
+              "volume": 356
+            }
           }
         },
         {
@@ -1993,7 +2620,25 @@
             "name": "ART PRO 851 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 851
+            "area": 851,
+            "axmann": {
+              "trueArea": 634.0,
+              "aspectRatio": 11.62,
+              "span": 850,
+              "rollMoment": 2851.0,
+              "pitchMoment": 33.0,
+              "scores": {
+                "Lift": 47.2,
+                "Glide": 56.8,
+                "Speed": 72.3,
+                "Carving": 81.3,
+                "Pump": 34.9,
+                "Comfort": 74.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 9.98,
+              "volume": 394
+            }
           }
         },
         {
@@ -2009,7 +2654,25 @@
             "name": "ART PRO 901 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 901
+            "area": 901,
+            "axmann": {
+              "trueArea": 686.0,
+              "aspectRatio": 12.04,
+              "span": 900,
+              "rollMoment": 3457.0,
+              "pitchMoment": 38.0,
+              "scores": {
+                "Lift": 50.3,
+                "Glide": 59.2,
+                "Speed": 70,
+                "Carving": 77.8,
+                "Pump": 39,
+                "Comfort": 72.5
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 9.98,
+              "volume": 434
+            }
           }
         },
         {
@@ -2025,7 +2688,25 @@
             "name": "ART PRO 1401 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 1401
+            "area": 1401,
+            "axmann": {
+              "trueArea": 1647.0,
+              "aspectRatio": 12.17,
+              "span": 1400,
+              "rollMoment": 19905.0,
+              "pitchMoment": 219.0,
+              "scores": {
+                "Lift": 91.5,
+                "Glide": 82.1,
+                "Speed": 35,
+                "Carving": 29.4,
+                "Pump": 87,
+                "Comfort": 26.8
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 20.57,
+              "volume": 1764
+            }
           }
         },
         {
@@ -2041,7 +2722,25 @@
             "name": "ART PRO 1001 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 1001
+            "area": 1001,
+            "axmann": {
+              "trueArea": 845.0,
+              "aspectRatio": 12.06,
+              "span": 1000,
+              "rollMoment": 5270.0,
+              "pitchMoment": 57.0,
+              "scores": {
+                "Lift": 60.8,
+                "Glide": 64.6,
+                "Speed": 62.7,
+                "Carving": 69.6,
+                "Pump": 50.8,
+                "Comfort": 71.3
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 11.03,
+              "volume": 594
+            }
           }
         },
         {
@@ -2057,7 +2756,25 @@
             "name": "ART PRO 951 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 951
+            "area": 951,
+            "axmann": {
+              "trueArea": 768.0,
+              "aspectRatio": 12.01,
+              "span": 951,
+              "rollMoment": 4328.0,
+              "pitchMoment": 47.0,
+              "scores": {
+                "Lift": 55.6,
+                "Glide": 62,
+                "Speed": 66.3,
+                "Carving": 73.6,
+                "Pump": 45,
+                "Comfort": 72
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 10.5,
+              "volume": 517
+            }
           }
         },
         {
@@ -2073,7 +2790,25 @@
             "name": "ART PRO 1051 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 1051
+            "area": 1051,
+            "axmann": {
+              "trueArea": 932.0,
+              "aspectRatio": 12.05,
+              "span": 1050,
+              "rollMoment": 6368.0,
+              "pitchMoment": 70.0,
+              "scores": {
+                "Lift": 65.8,
+                "Glide": 66.9,
+                "Speed": 59,
+                "Carving": 65.5,
+                "Pump": 56.5,
+                "Comfort": 69.9
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 11.55,
+              "volume": 688
+            }
           }
         },
         {
@@ -2089,7 +2824,25 @@
             "name": "ART PRO 1121 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 1121
+            "area": 1121,
+            "axmann": {
+              "trueArea": 1088.0,
+              "aspectRatio": 11.78,
+              "span": 1120,
+              "rollMoment": 8468.0,
+              "pitchMoment": 97.0,
+              "scores": {
+                "Lift": 70.8,
+                "Glide": 69.6,
+                "Speed": 54.2,
+                "Carving": 58.9,
+                "Pump": 63.4,
+                "Comfort": 59.4
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 13.2,
+              "volume": 920
+            }
           }
         },
         {
@@ -2105,7 +2858,25 @@
             "name": "ART PRO 1201 Carbon Hydrofoil wing",
             "product_type": "Front Wings",
             "series": "ART Pro",
-            "area": 1201
+            "area": 1201,
+            "axmann": {
+              "trueArea": 1318.0,
+              "aspectRatio": 11.15,
+              "span": 1200,
+              "rollMoment": 12081.0,
+              "pitchMoment": 116.0,
+              "scores": {
+                "Lift": 74.5,
+                "Glide": 73.5,
+                "Speed": 48.6,
+                "Carving": 48.5,
+                "Pump": 71.8,
+                "Comfort": 39.6
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 16.335,
+              "volume": 1247
+            }
           }
         },
         {
@@ -2121,7 +2892,25 @@
             "name": "Spitfire 620",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 620
+            "area": 620,
+            "axmann": {
+              "trueArea": 628.0,
+              "aspectRatio": 6.12,
+              "span": 620,
+              "rollMoment": 1478.0,
+              "pitchMoment": 62.0,
+              "scores": {
+                "Lift": 58.7,
+                "Glide": 49,
+                "Speed": 67.5,
+                "Carving": 92.7,
+                "Pump": 38.2,
+                "Comfort": 100
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 13.335,
+              "volume": 484
+            }
           }
         },
         {
@@ -2137,7 +2926,25 @@
             "name": "Spitfire 670",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 670
+            "area": 670,
+            "axmann": {
+              "trueArea": 721.0,
+              "aspectRatio": 6.34,
+              "span": 670,
+              "rollMoment": 1981.0,
+              "pitchMoment": 81.0,
+              "scores": {
+                "Lift": 65.1,
+                "Glide": 52.4,
+                "Speed": 63.6,
+                "Carving": 88.3,
+                "Pump": 44.5,
+                "Comfort": 100
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.175,
+              "volume": 589
+            }
           }
         },
         {
@@ -2153,7 +2960,25 @@
             "name": "Spitfire 1180",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1180
+            "area": 1180,
+            "axmann": {
+              "trueArea": 794.0,
+              "aspectRatio": 17.54,
+              "span": 1180,
+              "rollMoment": 6149.0,
+              "pitchMoment": 45.0,
+              "scores": {
+                "Lift": 72.9,
+                "Glide": 83.3,
+                "Speed": 57.4,
+                "Carving": 54.8,
+                "Pump": 63.5,
+                "Comfort": 54.9
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 14.732,
+              "volume": 497
+            }
           }
         },
         {
@@ -2169,7 +2994,25 @@
             "name": "Spitfire 720",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 720
+            "area": 720,
+            "axmann": {
+              "trueArea": 815.0,
+              "aspectRatio": 6.47,
+              "span": 720,
+              "rollMoment": 2586.0,
+              "pitchMoment": 101.0,
+              "scores": {
+                "Lift": 71.3,
+                "Glide": 55.4,
+                "Speed": 59.5,
+                "Carving": 83.9,
+                "Pump": 50.8,
+                "Comfort": 100
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 14.91,
+              "volume": 720
+            }
           }
         },
         {
@@ -2185,7 +3028,25 @@
             "name": "Spitfire 960",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 960
+            "area": 960,
+            "axmann": {
+              "trueArea": 578.0,
+              "aspectRatio": 15.94,
+              "span": 960,
+              "rollMoment": 2969.0,
+              "pitchMoment": 25.0,
+              "scores": {
+                "Lift": 49.7,
+                "Glide": 68,
+                "Speed": 69.9,
+                "Carving": 71.7,
+                "Pump": 39.4,
+                "Comfort": 53.7
+              },
+              "scoreSource": "AXMANN RATED",
+              "thickness": 11.832,
+              "volume": 261
+            }
           }
         },
         {
@@ -2201,7 +3062,25 @@
             "name": "Spitfire 900",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 900
+            "area": 900,
+            "axmann": {
+              "trueArea": 1080.0,
+              "aspectRatio": 7.5,
+              "span": 900,
+              "rollMoment": 5804.0,
+              "pitchMoment": 170.0,
+              "scores": {
+                "Lift": 83.6,
+                "Glide": 62.6,
+                "Speed": 49.3,
+                "Carving": 69.6,
+                "Pump": 64.5,
+                "Comfort": 95.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 17.1083,
+              "volume": 1032
+            }
           }
         },
         {
@@ -2217,7 +3096,25 @@
             "name": "Spitfire 840",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 840
+            "area": 840,
+            "axmann": {
+              "trueArea": 1006.0,
+              "aspectRatio": 7.14,
+              "span": 840,
+              "rollMoment": 4659.0,
+              "pitchMoment": 152.0,
+              "scores": {
+                "Lift": 80,
+                "Glide": 60.3,
+                "Speed": 52.4,
+                "Carving": 74.2,
+                "Pump": 60.2,
+                "Comfort": 100
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 16.7684,
+              "volume": 928
+            }
           }
         },
         {
@@ -2233,7 +3130,25 @@
             "name": "Spitfire 780",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 780
+            "area": 780,
+            "axmann": {
+              "trueArea": 643.0,
+              "aspectRatio": 9.48,
+              "span": 780,
+              "rollMoment": 2375.0,
+              "pitchMoment": 46.0,
+              "scores": {
+                "Lift": 53.2,
+                "Glide": 54.9,
+                "Speed": 65.7,
+                "Carving": 84.2,
+                "Pump": 40,
+                "Comfort": 74.9
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 12.644,
+              "volume": 471
+            }
           }
         },
         {
@@ -2249,7 +3164,25 @@
             "name": "Spitfire 1100",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1100
+            "area": 1100,
+            "axmann": {
+              "trueArea": 1423.0,
+              "aspectRatio": 8.66,
+              "span": 1100,
+              "rollMoment": 11010.0,
+              "pitchMoment": 234.0,
+              "scores": {
+                "Lift": 91.5,
+                "Glide": 68,
+                "Speed": 38.8,
+                "Carving": 53.3,
+                "Pump": 76.9,
+                "Comfort": 74.1
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 16.8,
+              "volume": 1406
+            }
           }
         },
         {
@@ -2265,7 +3198,25 @@
             "name": "Spitfire 1030",
             "product_type": "Front Wings",
             "series": "Spitfire",
-            "area": 1030
+            "area": 1030,
+            "axmann": {
+              "trueArea": 1308.0,
+              "aspectRatio": 8.26,
+              "span": 1030,
+              "rollMoment": 8922.0,
+              "pitchMoment": 211.0,
+              "scores": {
+                "Lift": 90.8,
+                "Glide": 67.2,
+                "Speed": 42,
+                "Carving": 58.8,
+                "Pump": 74,
+                "Comfort": 84.2
+              },
+              "scoreSource": "MODEL v3",
+              "thickness": 17.7881,
+              "volume": 1270
+            }
           }
         }
       ]
