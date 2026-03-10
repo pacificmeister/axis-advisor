@@ -869,6 +869,38 @@
         </div>
       </div>
 
+      <!-- SUP Non-DW -->
+      <div class="card">
+        <div class="card-title">🏄‍♂️ SUP Foiling (Non-DW) — 19 setups (28%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="supChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Wake Foiling -->
+      <div class="card">
+        <div class="card-title">🚤 Wake Foiling — 13 setups (19%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="wakeChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Foil Assist -->
+      <div class="card">
+        <div class="card-title">🔋 Foil Assist — 14 setups (21%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="foilAssistChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Kite Foiling -->
+      <div class="card">
+        <div class="card-title">🪁 Kite Foiling — 6 setups (9%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="kiteChart"></canvas>
+        </div>
+      </div>
+
       <!-- Pump / Flat Water (full width) -->
       <div class="card" style="grid-column: 1 / -1;">
         <div class="card-title">⚡ Long Distance Pump / Flat Water — 18 setups (26%)</div>
@@ -1410,6 +1442,30 @@ makeDisciplineChart('towChart',
 makeDisciplineChart('dockChart',
   ['PNG 1150', 'Fireball 1350', 'Fireball 1250', 'PNG V2 1300', 'Spitfire 1180', 'Surge 1010'],
   [3, 3, 2, 2, 2, 1]
+);
+
+// ── SUP NON-DW ────────────────────────────────────────────────────────
+makeDisciplineChart('supChart',
+  ['Surge 1010', 'Surge 890', 'Fireball 1160', 'Fireball 1250', 'Art 999'],
+  [3, 2, 2, 2, 1]
+);
+
+// ── WAKE FOILING ──────────────────────────────────────────────────────
+makeDisciplineChart('wakeChart',
+  ['Surge 1010/950', 'Spitfire 960', 'PNG 910b', 'HPS 980', 'Fireball 1070', 'Surge 830'],
+  [2, 2, 1, 1, 1, 1]
+);
+
+// ── FOIL ASSIST ───────────────────────────────────────────────────────
+makeDisciplineChart('foilAssistChart',
+  ['Surge 1010/950', 'Surge 890', 'Fireball 1070', 'Art V2 999', 'Surge 740', 'Spitfire 840'],
+  [3, 2, 2, 1, 1, 1]
+);
+
+// ── KITE FOILING ──────────────────────────────────────────────────────
+makeDisciplineChart('kiteChart',
+  ['Surge 830', 'Surge 780/890', 'Art Pro 1001', 'Art V2 819', 'HPS 650/700'],
+  [2, 2, 1, 1, 1]
 );
 
 // ── 11. PUMP ──────────────────────────────────────────────────────────
