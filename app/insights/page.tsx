@@ -81,7 +81,7 @@ const SERIES_COLORS: Record<string, { bg: string; border: string; badge: string;
   Surge: { bg: 'bg-teal-50', border: 'border-teal-200', badge: 'bg-teal-100 text-teal-800', text: 'text-teal-700' },
 };
 
-type Tab = 'series' | 'progression' | 'setups' | 'pitfalls' | 'experts' | 'survey';
+type Tab = 'series' | 'progression' | 'setups' | 'pitfalls' | 'experts' | 'survey' | 'youtube';
 
 interface SurveyData {
   meta: { source: string; title: string; total_responses: number; date_captured: string; platform: string };
@@ -95,11 +95,46 @@ interface SurveyData {
   product_demand_signals: string[];
 }
 
+interface YouTubePost {
+  id: string;
+  source: string;
+  source_label: string;
+  source_url: string;
+  rider: string;
+  rider_authority: string;
+  text: string;
+  foils_mentioned: string[];
+  key_insight: string;
+  sentiment: string;
+  use_case: string;
+  date: string;
+}
+
+interface YouTubeVideo {
+  title: string;
+  url: string;
+  date: string;
+  reviewer: string;
+}
+
+interface YouTubeData {
+  meta: {
+    source: string;
+    extracted: string;
+    video_count: number;
+    videos: YouTubeVideo[];
+  };
+  posts: YouTubePost[];
+}
+
 export default function InsightsPage() {
   const [knowledge, setKnowledge] = useState<KnowledgeData | null>(null);
   const [survey, setSurvey] = useState<SurveyData | null>(null);
+  const [youtube, setYoutube] = useState<YouTubeData | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('series');
   const [activeSeries, setActiveSeries] = useState<string>('Fireball');
+  const [ytSeriesFilter, setYtSeriesFilter] = useState<string>('all');
+  const [ytAuthorityFilter, setYtAuthorityFilter] = useState<string>('all');
 
   useEffect(() => {
     fetch('/data/axis-knowledge.json')
@@ -109,6 +144,10 @@ export default function InsightsPage() {
     fetch('/data/survey-stats-2026-03.json')
       .then(r => r.json())
       .then(setSurvey)
+      .catch(console.error);
+    fetch('/data/youtube-feedback.json')
+      .then(r => r.json())
+      .then(setYoutube)
       .catch(console.error);
   }, []);
 
@@ -133,6 +172,7 @@ export default function InsightsPage() {
     { key: 'pitfalls', label: 'Common Pitfalls', icon: '⚠️' },
     { key: 'experts', label: 'Expert Insights', icon: '🎯' },
     { key: 'survey', label: 'Community Survey', icon: '📊' },
+    { key: 'youtube', label: 'YouTube Reviews', icon: '🎬' },
   ];
 
   const currentSeries = knowledge.series[activeSeries];
@@ -858,6 +898,203 @@ export default function InsightsPage() {
                 ))}
               </div>
             </div>
+          </div>
+        )}
+        {/* ─── TAB: YouTube Reviews ─────────────────────────────── */}
+        {activeTab === 'youtube' && youtube && (
+          <div className="space-y-8">
+            {/* Header */}
+            <div className="rounded-2xl bg-gray-900 text-white p-6">
+              <div className="flex items-center gap-3 mb-1">
+                <span className="text-3xl">🎬</span>
+                <div>
+                  <h2 className="text-2xl font-bold">YouTube Review Database</h2>
+                  <p className="text-gray-400 text-sm">{youtube.meta.source} · Extracted {youtube.meta.extracted}</p>
+                </div>
+              </div>
+              <div className="mt-4 flex items-end justify-between">
+                <div className="flex gap-6">
+                  <div className="text-center">
+                    <div className="text-4xl font-black text-red-400">{youtube.meta.video_count}</div>
+                    <div className="text-gray-400 text-sm">Videos</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-4xl font-black text-blue-400">{youtube.posts.length}</div>
+                    <div className="text-gray-400 text-sm">Insights</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-4xl font-black text-green-400">
+                      {youtube.posts.filter(p => p.rider_authority === 'designer').length}
+                    </div>
+                    <div className="text-gray-400 text-sm">Designer</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Video Sources */}
+            <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">📺 Source Videos</h3>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {youtube.meta.videos.map((v, i) => (
+                  <a
+                    key={i}
+                    href={v.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block p-4 rounded-xl bg-gray-50 border border-gray-100 hover:border-red-300 hover:shadow-md transition-all"
+                  >
+                    <div className="text-sm font-bold text-gray-900 mb-1 line-clamp-2">{v.title}</div>
+                    <div className="flex items-center gap-2 text-xs text-gray-500">
+                      <span>{v.reviewer}</span>
+                      <span>·</span>
+                      <span>{new Date(v.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* Filters */}
+            <div className="flex flex-wrap gap-3">
+              <select
+                value={ytSeriesFilter}
+                onChange={e => setYtSeriesFilter(e.target.value)}
+                className="px-3 py-2 rounded-lg border border-gray-200 bg-white text-sm text-gray-700"
+              >
+                <option value="all">All Series</option>
+                {Array.from(new Set(youtube.posts.flatMap(p =>
+                  p.foils_mentioned.map(f => f.replace(/\s+\d+$/, ''))
+                ))).sort().map(s => (
+                  <option key={s} value={s}>{s}</option>
+                ))}
+              </select>
+              <select
+                value={ytAuthorityFilter}
+                onChange={e => setYtAuthorityFilter(e.target.value)}
+                className="px-3 py-2 rounded-lg border border-gray-200 bg-white text-sm text-gray-700"
+              >
+                <option value="all">All Sources</option>
+                <option value="designer">🔴 Designer (Adrian Roper)</option>
+                <option value="experienced">🟡 Experienced Reviewers</option>
+                <option value="community">🟢 Community</option>
+              </select>
+            </div>
+
+            {/* Insights Grid */}
+            <div className="space-y-3">
+              {youtube.posts
+                .filter(p => {
+                  if (ytSeriesFilter !== 'all') {
+                    const matchesSeries = p.foils_mentioned.some(f =>
+                      f.replace(/\s+\d+$/, '').toLowerCase() === ytSeriesFilter.toLowerCase()
+                    );
+                    if (!matchesSeries) return false;
+                  }
+                  if (ytAuthorityFilter !== 'all' && p.rider_authority !== ytAuthorityFilter) return false;
+                  return true;
+                })
+                .map((post, i) => {
+                  const authorityColors: Record<string, string> = {
+                    designer: 'border-l-red-500 bg-red-50',
+                    experienced: 'border-l-yellow-500 bg-yellow-50',
+                    community: 'border-l-blue-500 bg-blue-50',
+                  };
+                  const authorityBadge: Record<string, string> = {
+                    designer: '🔴 AXIS Designer',
+                    experienced: '🟡 Experienced',
+                    community: '🟢 Community',
+                  };
+                  const sentimentEmoji: Record<string, string> = {
+                    positive: '👍',
+                    negative: '👎',
+                    neutral: '➖',
+                    mixed: '🔄',
+                  };
+
+                  return (
+                    <div
+                      key={post.id}
+                      className={`border-l-4 rounded-xl p-4 ${authorityColors[post.rider_authority] || 'border-l-gray-300 bg-gray-50'}`}
+                    >
+                      <div className="flex items-start justify-between gap-2 mb-2">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="font-bold text-gray-900">{post.rider}</span>
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-gray-200 text-gray-600">
+                            {authorityBadge[post.rider_authority] || post.rider_authority}
+                          </span>
+                          <span className="text-xs text-gray-400">{sentimentEmoji[post.sentiment]}</span>
+                        </div>
+                        <div className="flex gap-1 flex-wrap justify-end">
+                          {post.foils_mentioned.map((foil, j) => (
+                            <span key={j} className="text-xs bg-white border border-gray-200 text-gray-700 font-bold px-2 py-0.5 rounded-full whitespace-nowrap">
+                              {foil}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                      <p className="text-gray-700 text-sm mb-2">{post.text}</p>
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-semibold text-gray-600 bg-white border border-gray-200 px-2 py-0.5 rounded-full">
+                          💡 {post.key_insight}
+                        </span>
+                        <a
+                          href={post.source_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs text-red-500 hover:text-red-700 font-medium"
+                        >
+                          Watch →
+                        </a>
+                      </div>
+                      {post.use_case && (
+                        <div className="mt-1">
+                          <span className="text-xs text-gray-400">Use case: {post.use_case}</span>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+            </div>
+
+            {/* Stats summary */}
+            <div className="rounded-2xl bg-white border border-gray-100 p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">📊 Coverage by Series</h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                {(() => {
+                  const seriesCounts: Record<string, number> = {};
+                  youtube.posts.forEach(p => {
+                    p.foils_mentioned.forEach(f => {
+                      const series = f.replace(/\s+\d+$/, '');
+                      seriesCounts[series] = (seriesCounts[series] || 0) + 1;
+                    });
+                  });
+                  return Object.entries(seriesCounts)
+                    .sort((a, b) => b[1] - a[1])
+                    .map(([series, count]) => {
+                      const color = SERIES_COLORS[series];
+                      return (
+                        <div
+                          key={series}
+                          className={`p-3 rounded-xl border text-center cursor-pointer transition-all hover:shadow-md ${
+                            color ? `${color.bg} ${color.border}` : 'bg-gray-50 border-gray-200'
+                          }`}
+                          onClick={() => { setYtSeriesFilter(series); }}
+                        >
+                          <div className="text-2xl font-black text-gray-900">{count}</div>
+                          <div className="text-xs font-bold text-gray-600">{series}</div>
+                        </div>
+                      );
+                    });
+                })()}
+              </div>
+            </div>
+          </div>
+        )}
+        {activeTab === 'youtube' && !youtube && (
+          <div className="text-center py-16">
+            <div className="animate-spin text-4xl mb-4">🎬</div>
+            <p className="text-gray-500">Loading YouTube reviews...</p>
           </div>
         )}
       </main>
