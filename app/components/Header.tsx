@@ -59,6 +59,16 @@ export default function Header() {
             🛡️ VERIFY
           </Link>
           <Link 
+            href="/recommend" 
+            className={`px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition ${
+              pathname === '/recommend' 
+                ? 'bg-emerald-600 text-white' 
+                : 'bg-emerald-500 text-white hover:bg-emerald-600'
+            }`}
+          >
+            🎯 RECOMMEND
+          </Link>
+          <Link 
             href="/insights" 
             className={`px-2 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition hidden sm:block ${
               pathname === '/insights' 
