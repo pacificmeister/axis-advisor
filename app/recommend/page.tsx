@@ -42,6 +42,17 @@ interface CompatibilityData {
   }>;
 }
 
+interface CommunityStats {
+  meta: { respondents: number; };
+  disciplines: Record<string, {
+    total_setups: number;
+    top_front_wings: { wing: string; count: number }[];
+    top_rear_wings: { wing: string; count: number }[];
+    top_fuselages: { fuse: string; count: number }[];
+    by_weight: Record<string, { count: number; top_wings: { wing: string; count: number }[] }>;
+  }>;
+}
+
 type Discipline = 'downwind' | 'wing' | 'prone' | 'kite' | 'tow' | 'allround';
 
 // Discipline-specific score weights
@@ -196,6 +207,7 @@ export default function RecommendPage() {
   const [showFilters, setShowFilters] = useState(false);
   const [seriesFilter, setSeriesFilter] = useState<string[]>([]);
   const [compatData, setCompatData] = useState<CompatibilityData | null>(null);
+  const [communityData, setCommunityData] = useState<CommunityStats | null>(null);
 
   useEffect(() => {
     fetch('/data/axmann-recommender.json')
@@ -205,6 +217,10 @@ export default function RecommendPage() {
     fetch('/data/axmann-compatibility.json')
       .then((r) => r.json())
       .then(setCompatData)
+      .catch(console.error);
+    fetch('/data/community-stats.json')
+      .then((r) => r.json())
+      .then(setCommunityData)
       .catch(console.error);
   }, []);
 
@@ -565,6 +581,24 @@ export default function RecommendPage() {
                         >
                           {rec.wing.series}
                         </span>
+                        {(() => {
+                          if (!communityData) return null;
+                          const discMap: Record<string, string> = {
+                            downwind: 'downwind', wing: 'wing', prone: 'prone',
+                            kite: 'kite', tow: 'tow', allround: 'wing',
+                          };
+                          const cDisc = communityData.disciplines[discMap[discipline]];
+                          if (!cDisc) return null;
+                          const topWings = cDisc.top_front_wings.slice(0, 3).map(w => w.wing.toLowerCase());
+                          const wingName = rec.wing.displayName.toLowerCase();
+                          const isCommChoice = topWings.some(tw => wingName.includes(tw.replace(/[^a-z0-9]/g, '').slice(0, 6)) || tw.includes(wingName.replace(/[^a-z0-9]/g, '').slice(0, 6)));
+                          if (!isCommChoice) return null;
+                          return (
+                            <span className="text-xs px-2 py-0.5 rounded-full font-semibold bg-green-500/20 text-green-400 border border-green-500/30">
+                              👥 Community Choice
+                            </span>
+                          );
+                        })()}
                         {rec.areaFit < 0.9 && (
                           <span className="text-xs text-amber-400">
                             ⚠️ {rec.wing.area < getAreaRange(effectiveWeightKg)[0] ? 'Small' : 'Large'} for your weight
@@ -755,6 +789,97 @@ export default function RecommendPage() {
             )}
           </div>
         </div>
+
+        {/* Community Insights */}
+        {communityData && (() => {
+          const discMap: Record<string, string> = {
+            downwind: 'downwind', wing: 'wing', prone: 'prone',
+            kite: 'kite', tow: 'tow', allround: 'wing',
+          };
+          const cDisc = communityData.disciplines[discMap[discipline]];
+          if (!cDisc) return null;
+
+          // Find weight bracket for community data
+          const getWeightKey = (kg: number): string => {
+            if (kg < 65) return '<65kg';
+            if (kg < 75) return '65-75kg';
+            if (kg < 85) return '75-85kg';
+            if (kg < 95) return '85-95kg';
+            if (kg < 105) return '95-105kg';
+            return '>105kg';
+          };
+          const weightKey = getWeightKey(effectiveWeightKg);
+          const weightData = cDisc.by_weight[weightKey];
+
+          return (
+            <div className="mt-8 bg-gradient-to-r from-green-950/30 to-gray-900 rounded-xl border border-green-800/30 p-6">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-2xl">👥</span>
+                <div>
+                  <h2 className="text-lg font-bold">Community Insights</h2>
+                  <p className="text-xs text-gray-400">
+                    What {cDisc.total_setups} AXIS riders actually use for {discipline === 'allround' ? 'wing' : discipline} • Survey March 2026
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* Top Wings */}
+                <div>
+                  <h3 className="text-sm font-semibold text-green-400 mb-2">🏆 Most Popular Front Wings</h3>
+                  <div className="space-y-1">
+                    {cDisc.top_front_wings.slice(0, 5).map((w, i) => (
+                      <div key={i} className="flex items-center gap-2 text-sm">
+                        <span className="text-green-500 font-bold w-4">{i + 1}.</span>
+                        <span className="text-white">{w.wing}</span>
+                        <span className="text-gray-500 text-xs">({w.count} riders)</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Top Rear Wings */}
+                <div>
+                  <h3 className="text-sm font-semibold text-green-400 mb-2">🔧 Most Popular Rear Wings</h3>
+                  <div className="space-y-1">
+                    {cDisc.top_rear_wings.slice(0, 5).map((w, i) => (
+                      <div key={i} className="flex items-center gap-2 text-sm">
+                        <span className="text-green-500 font-bold w-4">{i + 1}.</span>
+                        <span className="text-white">{w.wing}</span>
+                        <span className="text-gray-500 text-xs">({w.count})</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Weight-specific */}
+                <div>
+                  <h3 className="text-sm font-semibold text-green-400 mb-2">
+                    ⚖️ Riders at {weightKey}
+                  </h3>
+                  {weightData ? (
+                    <div className="space-y-1">
+                      <p className="text-xs text-gray-400 mb-1">{weightData.count} riders in your weight range</p>
+                      {weightData.top_wings.slice(0, 5).map((w, i) => (
+                        <div key={i} className="flex items-center gap-2 text-sm">
+                          <span className="text-green-500 font-bold w-4">{i + 1}.</span>
+                          <span className="text-white">{w.wing}</span>
+                          <span className="text-gray-500 text-xs">({w.count})</span>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-xs text-gray-500">No data for this weight range yet</p>
+                  )}
+                </div>
+              </div>
+
+              <p className="text-xs text-gray-600 mt-4">
+                Based on {communityData.meta.respondents} anonymous survey responses from AXIS Foil Riders Facebook group
+              </p>
+            </div>
+          );
+        })()}
 
         {/* How it Works */}
         <div className="mt-12 bg-gray-900/50 rounded-xl border border-gray-800 p-6">

@@ -1,0 +1,578 @@
+I'll start with the tempo in the the titanium fuselage. This was started I guess last year we had our
+fireball and they were all around 13 aspect ratio pretty much and they fitted on the existing black fuselage.
+When we released the fireball, we'd already done some testing on some much higher ones around uh 15 aspect
+ratio and we knew that they were better, but we were running into problems trying to get that to fit onto
+that room. Um, back in the day, we had the red fuselage for the the big cord thick wings and then as as
+uh time went on, we uh used the the black fuselage and that's been a really good fit for everything so
+far that's got a bit more cord. with these ones being so narrow and so thin, it's really really hard to
+get it was never going to work to fit them on there. So, we had to um develop a new fuselage system. Um,
+another big part of the problem with this wing is that it's so thin. It's less than 10 mil stiff there.
+And to get that so that it just didn't snap off was quite a big deal. We had a lot of them snap off. We
+had a lot of people swimming for kilometers at a time out at sea with only half a wing. That &gt;&gt;
+Yeah, he knows how to swim. &gt;&gt; Not Not easy. Not easy to get that to work. So, I'll take this apart
+so you can see how it works. It has uh two grub screws in the front and inside this is all titanium. And
+then inside of the the front end is a expansion plate. So these grub screws go through, hit the expansion
+plate and it comes off. So that just comes off. That's this top plate here is uh stainless steel and this
+in the middle here is a screw with a spring underneath it. And that actually pulls the stainless steel
+up. And the reason it pulls it up is to create a slight clearance so that you can slide the wing on there
+easily. Um, when those grub screws go through, they hit they hit the expansion plate. These are a low
+uh low pitch um M8 screw. So, they're 1 mm pitch. So, like a quarter of a turn is 0.25 of the mil. 0.25
+of a mil is about how much you need to expand that to tighten it. Probably put that back on again. You
+just whack it on. It's, you know, it's a little bit loose at that stage. And then you just tighten the
+grub screws up and it expands inside. We played around with a lot of different methods to get the titanium
+to tighten onto that hole inside there. We initially had a a titanium fuselage with a a cut through it
+and it had a little tab that that moved and it it kind of worked pretty well, but it relied on when it
+opened, it only pushed on that that one point. And the back end of the fuse here, this had to rely on
+the titanium being the exact size uh and the the molding being exact. there was a was a perfect tolerance
+and it also is kind of difficult to get it on and off. So with the expansion plate it gets exactly the
+right tension that it needs every time. Um the grub screws stop it falling off. So even though I haven't
+tightened it up you can get it off because it's it's you know the grub screws are in there. So you tighten
+it finger tight to start with and then you put the key in and do about a quarter turn. So I'm heading
+for about here. That's all you do. Just a quarter turn. You don't need to do any more than that. And that
+is totally rigid. But if you try and feel with your fingers on there, there is no movement in that joint.
+That's the stiffest join that we've been able to achieve to hold everything together. Feel really good.
+The back end is a is a similar setup. It has just one screw to tighten it up. And one of the things about
+this is that this wing being so high aspect and being so thin, it's very low drag. and existing fuselage
+and and in fact fuselage from any company that you can choose is actually way way too thick. You can't
+actually get a really thin high aspect wing like this. You can't expect that to work on a big chunky fat
+fuselage. There's just too much drag on the center section to make that work. That aluminium fuser we've
+got there, we've done some new uh dock start pump wings that are 1500 span, 1750 span, and that works
+fantastically for that. So it's kind of as the sport is evolving, it is sort of spreading itself out and
+there's things that are specific for this or specific for whatever. You can't necessarily have one size
+fits all. Remind me to talk about mask at some stage. So that comes off the back and it has an expansion
+plate on on the back of there as well. You'll notice that there's a a cover plate on here. Well, you you
+can kind of hardly see it, but there is a cover plate on there for the screws. So that has a a little
+screw in there and you undo that and there's your two screws tighten onto the head there. The the edges
+of this are ridiculously sharp. You got to be really careful not to cut yourself there. But when it does
+go together because the edges are so perfect there it's almost seamless. Most people like if they're riding
+the the tempo set up they have their mask and they put this on kind of once and then that's done. So once
+that's on, uh, a lot of people use it. It stays on. And the fuselage cover that's got a hole for the mast
+in the bottom of it that just goes around the whole thing and stays on there. So if that's in the back
+of your car, it doesn't smash your car or smash the fuselage. The wings, the biggest one is uh 1090 span
+uh, and the smallest one at the moment is um 890s fan. Um, and we have a bunch of rear wings. that one
+that was on there. There's a there's a 30 and they go the largest one's 45 and the smallest is 25. Bit
+of 25 here. It's your favorite. &gt;&gt; Yeah, they're they're much stiffer than the other skinnies that
+are narrow. &gt;&gt; They are. And that's actually a really good question. all of these wings. Like when
+we uh were racing and kind of a long story, but it's worth it. When we're in uh Hawaii, we had guys racing
+on the the whole new tempo system. It was actually going really well, but it had the the old tab system,
+so the fit on the front wasn't quite perfect. And you know, we were weing bits of aluminium and there
+to try and make it fit every time. And you know, that needed fixing. The expansion plate in there has
+made that much better. One of the other things that we really felt is that we' done an awful lot on the
+wings and the fus that was working great, but we felt like the mass needed more work, but we're in Maui.
+The races were in 2 weeks. We didn't have time to build a new mold and do everything else. And we knew
+that was our next project. And then I actually saw one of the guys at the beach um sanding all day and
+he sanded the whole um carbon layer off the outside of his his front wing. you sanded through the whole
+thing and it got me to thinking we could probably sand one of the um last that we got. So I actually found
+um Perth's mast and we with Frank we we ground the woven carbon off the outside. Now, every foil that
+you see anywhere has woven carbon on the outside. And that's always been done right since day one. And
+the reason that's there is that it's a the woven carbon is is thicker and it's like a sort of felty surface.
+So, it actually gives room to, you know, fix everything out when it's being pressed. So, it evens it out
+and makes it look pretty smooth and pretty nice. Um, so but it's it's just it's normal carbon, normal
+modulus carbon, and it's woven. Carbon to be really effective has to be in a straight line to be in tension.
+Uh, and the woven carbon because of the woven effect, it's kind of like a spring, so it's not as stiff.
+Underneath that woven carbon, again, on all the wings inside of there is unidirectional carbon. And that's
+carbon is all running in one direction. It's very, very thin. Typically the woven carbon is about uh 0.5
+just over 0.5 thick uh and the unicarbon is about 2 of a mil thick very very flat. So m wings all built
+with unicarbon but with a carbon on the outside. So the mast that we had we sanded all of the woven off
+the outside. It was relatively easy to see where you're going. You could just sand through it. Um we managed
+to get 1.1 mil off the thickness of the mast. um sanded it, feed it, and FTH was the first had a Yahoo
+on it. I think you did a you do an M2M run practice or something. Can't remember now, but came back in
+and said, "That's great. That's fantastic." And there was no negative effect from it. It didn't actually
+feel uh less stiff. So, it got me to thinking that could probably do a lot better with the wings. And
+like if you think of the the the tips of these wings here, it's probably only 2 1/2 mil thick, you know,
+through here. And you got to figure that 1.1 mil of that was woven carbon, which is, you know, not useless,
+but not very good. So what we did, you know, they got the factory to build the same wing, same mold, but
+remove the woven carbon and replace it with unicarbon. And first wing they built, they did a vent test.
+So they put load cells on 100 mls in from the end and they just push down 200 kg and they measure how
+much the wing bends. And the original one bent 38 mil and the one with the revised unicarbon bent 25 mil.
+So it's like 25% stiffer just by revising the laminate. So we did the rear wing as well. And I mean that's
+even more obvious because it's so thin and it made these wings like you know you can barely bend that.
+It's really really stiff. And the wings we had earlier than that, they were just flexible. That was all
+we could do. So we all the guys that raced the the the Maui race series um M2M and the M2, we had nine
+out of the top 20 were riding Axis. And since then, actually quite a few others have changed over to Axis.
+So I'd say this foil setup is probably the dominant downwind foil setup on the market at the moment. and
+it's going really well and we're pretty stoked with built that. Kai has been racing on it and he started
+on the uh the early the fireballs when he when he joined on and then started with all of this stuff and
+apart from like since Maui racing he's pretty much run every race in Hawaii, Northshore, Oahu, uh France,
+everywhere since then basically. So this was my wing I used for all the Hawaii races. That's a 920 and
+I never felt like I needed anything bigger. Um, straight up the races I ended up trying the small one.
+I wish I'd used that for all the races. Um, the speed and carry from them is is actually insane. And for
+all of France, I use the 1020 and that's the 650 area one that that is my if conditions are questionable,
+that's the wing I'll take. Um, the range on that is insane. you know, I can do 145s up to 230s and you
+get comfortable in all those ranges. So, I've been trying them and they've they've treated me really well.
+&gt;&gt; I'd say with the the tempo, I've always I've used it a lot uh winging and if you com if I compare
+it to the the fireball, say the 102 is the main one I use. It gets about the same as the TH00and uh fireball,
+but once you're actually up, it actually feels like the stall speed is actually a lot better. So, it'll
+go a lot slower. It'll also definitely go a lot faster. So, it it's a lot less wing, but it's actually
+given a whole lot more. So, &gt;&gt; how much of that do you think is due to the the reduction in drag?
+&gt;&gt; Well, it's both. It's both. Um, it's the same air section. It's the same for section that we
+use in the fireball, but it's just so much less area. There is less there to slow you down, and it's it's
+noticeable. like when you back off whatever's driving you it just carries on running. Um a lot of the
+time in the racing I was in a boat with Shannon and at one stage we were going alongside one of the twins
+and Edo and Edo was he was pumping. He pumped that whole entire race just pumping entirely and Twin was
+running next to him and he was just doing a little every now and again just every now and again. And if
+you watch Kai racing there not an awful lot of pumping going on. is just running. They run free. There's
+very little drag in them and you you kind of have to do a whole you have to learn to do a bit less. I
+I've noticed quite a few people on their first run, they're trying to pump like crazy on it and you know,
+you got to tell them just to back off, let it do its work. It'll it'll do it. &gt;&gt; So then you'd expand
+other ranges into that fuselage. Um &gt;&gt; yep. Yeah. Given time we will. This titanium fuselage is
+not a cheap thing. Um, everything about it is designed to be the very best it can be and I think it will
+be very applicable for other things. We have some uh wing foil race front wing back wing setups that will
+fit on this and they're relatively close. There's still a bit of work to go on those. Um, and who else
+knows who knows what else we'll do on there in the future. It really uh this system suits you know narrow
+cord thin high performance wings. the surge wings, you know, we didn't actually need to we didn't need
+to put those on here. We could have, but we wanted them to be ready for anyone to use on their existing
+setup. And there's not really any compromise with that. They fit perfectly fine. &gt;&gt; How hard is
+to write the table if you're going? &gt;&gt; Not hard. It's really not hard. Um I think to get the best
+out of it, you've got to be a good writer. But, um, I've had a bunch of people demo it and they've kind
+of gone, why why wouldn't this is winging? Why wouldn't I just ride that as my my general wing? It's it's
+not really like it looks ridiculously small in area. Um, but it get like the 102 version gets up about
+the same just a thousand fireball and once you're up it's &gt;&gt; those fireballs that you me &gt;&gt;
+they're very user friendly and I'm a heavy boy. of these. These are even more so. &gt;&gt; Yeah, I was
+very surprised how for I thought, "Oh, yeah. This is easy." &gt;&gt; Yeah. &gt;&gt; The other guy. So,
+this is my everyday. &gt;&gt; It's supposed to be easy, I think. And I've actually had quite a few people
+come off. I had one guy, uh, Thiago Campos, and, um, he had actually the year before, uh, he was riding
+an art pro 1051 or something like that. And right at the start of one of the Maui races, I walked past
+and saw he was got and I was like, "Should really be on the fireball." And I sort of walked around and
+I went back and said, "Look, you know, we should, you know, put you on the fireball." And he said, "I
+can't I can't race on a wing I've never used." And I said, "Oh." And I walked away and came back and said,
+"I think you can." I think you're going to just get over. We just bolted the thousand on. And he went
+out and send it on on a wing he had never used before. And I saw him at the end of the race. I said, "How
+was that?" He said, "Perfect." And again this year we got there and it was the same again. He had his
+fireball 1000 and I walked past and I was like he's hitting a 102. So we put a 102 on. He he paddled out
+rode it unused and he was totally comfortable on it. So that if you've been on that platform it's not
+hard to to swap over to it. It's pretty comfortable &gt;&gt; only easier. &gt;&gt; I think a testament
+to that as well is Shannon's daughter. Um &gt;&gt; Roxy's been learning to downwind. Um, but she left
+at the gorge and it's 16 aspect wing. She learned to downwind on the 1090. &gt;&gt; Super easy. Yeah.
+&gt;&gt; Yeah, there is that. &gt;&gt; Wouldn't they be too fast for the gorge? &gt;&gt; No, they're actually
+okay over there. I mean, ideally at the gorge, most people are not interested in going anywhere fast.
+And the surge is the one over there. Yeah, she was just learning. So she wanted to get up and stay up
+and glide and it worked perfectly for her for that. &gt;&gt; There's another thing I've been harping on
+about for many many many years and that is that that when you're describing or comparing one wing to another
+wing um the the industry has basically done it by area and to me that's the craziest silliest idea. And
+as evidence of that, we've got the ART V2 999. That's 10. It's it's thousand span and it's 1024 in area.
+Um, we've got the Fireball 1,000. Uh, it's also meter wide. Um, and that is 773 and the 102 is 650. So,
+you've got 10 183 650. Three different areas. They get up exactly the same. The range on on this one,
+the 650, is is way better bottom end and way better top end once you're up. Why are we comparing areas?
+Areas have never really made sense, but with the new foils that are higher aspect and higher camber, it
+makes even less sense than it ever did to try and compare areas. The only way that I can compare any wings
+span for me is a bit of a guideline and it works quite well. But the only real way that you can compare
+one wing with another is to actually have the exact design file for that wing, run CFD on it and and get
+all the info and then I get all graphs. And I do the same calculated right away and I've got a bunch of
+graphs and I can lay them on top of each other and I can see exactly which one will get up earlier where
+it tops out. You can compare exactly. You can see exactly what it is. That to me is the only way that
+you can compare two two foils. But area that's just annoys. &gt;&gt; Have you ever calibrated any of those
+measurements with like getting behind the boat or testing it in a real? So that that calculation we've
+done there that's exclusively on a front wing doesn't even have a fairing on it. It's just the front wing.
+You've also got the fuselage. You put a bit of mast you rear wing and a whole bunch of other stuff going
+on there. So it's not the whole solution. We have actually done CFD on the whole entire thing with a set
+amount of mast in there and we've actually run it through a a series of turns and you get a so much d.
+It takes 24 hours or more to run it, to actually get all that data, but the data you get back is pretty
+daunting. And to try and interpret that meaningfully and make any sense of it, I don't think we're not
+really at that stage yet. But it's very easy to do a wing and find out exactly what it's doing. &gt;&gt;
+So options then you decide then okay we if you're stuck with it just go with span but don't use area.
+So if you're moving from one fork to another, like I said, &gt;&gt; the best way to do it on span you
+span. But the best way to do it is to actually take it out for riding. You can do that to your friendly
+shop. That's the best thing in the world. &gt;&gt; What's camber? Does anyone know cam camber? Camber.
+It's there's a &gt;&gt; section of a section &gt;&gt; sort of. Yeah. So, &gt;&gt; so &gt;&gt; a lot of
+people have been a lot of people have been uh looking at the reflex like the back of this wing has a a
+reflex and a hollow in there that kind of indicates that it's got some some camber, but camber is actually
+a line. If you cut that wing in half and then look at it from the end, you've got the the top of the foil
+and you've got the bottom of the foil and there's an imaginary line. It's a real line, but you can't see
+it. That's halfway between the top and the bottom. So, that's your camber line. You also have a chord
+line. And the chord line goes from the the center of the leading edge, center of the trailing edge, that's
+a dead straight line. So, if that was 100 mm of cord, and the distance to the camber was 2.5 mil, that's
+a 2 1/2% camber. The higher the camber, the higher the lift. Most of the Spitfires, the old Art Pros,
+they were 2 1/2% camber, which is kind of considered now to be a relatively neutral. Four section is not
+not that lifty, but it does run quite fast. This one here has 3.7% camber, and that creates really, really
+good lift at low speed, and that's what gives the great glide to this, the fireball, and the search. They've
+all got a very similar foil section. Thank you, Lou. that that's saying that the underside is actually
+contemp because it's still thin. So you can not no it's the underside being concave that's a slight distraction
+you know you you actually got to look at the line that's half between the top and the bottom forget the
+detail in the bottom forget the detail in the top it's the line that's halfway in between that you kind
+of can't see &gt;&gt; and where the high point is on that chord. So you call that an loaded section. &gt;&gt;
+Yeah. &gt;&gt; Yeah. after loaded sections generally as they go faster they have a slight pitching down
+moment too. They want to tip down and uh you need to correct that with a rear wing as well. So it gets
+more and more involved or more detailed you go into it. Um another thing that we've done that started
+with the Spitfire um is we did a a straight median line. So if you take the Spitfire, the the thickest
+point, it's about just over a third back from side to side is a dead straight line. So the center of lift
+on that foil roughly is a in a dead straight line. So that means whether you're going slowly or fast,
+it's it's kind of in that straight line. earlier wings they were a lot more raked back and we we kind
+of thought that rake backness um made them more turning but I don't believe it actually does these are
+all straight median line and they turn since this one they all turn beautifully by having that all in
+a straight line what that does is it doesn't adjust it doesn't need so much correction at various speeds
+so you can get away with a lot smaller rear wings like that 25 rear wing that we had out before I don't
+think anyone's got as a rear wing that's anywhere near as small as that and it totally comfortable with
+the tempo that because this is a straight new line. It doesn't have a flip back in the tip. That's just
+straight. So everything's kind of lined up. I know that other people have tried that 25 mil cord wing
+on their high performance race foils and not being able to use it, not being able to get it worked. And
+I I think it's because of a straight Nian line. Any other questions on the tempoye type stuff? &gt;&gt;
+So, the guild is solid carbon. There's nothing in the core. &gt;&gt; There's no room for core, &gt;&gt;
+but it's a carbon core, not titanium or anything. &gt;&gt; No, no, it's But one of the the the tricky
+things um with building it is like right there there's there's about 60 something layers of of um pre
+prag carbon wedged in there. and pre Preer Uni Carvin, it's a little bit like a sticky piece of paper
+that's got spray glue on each side. So, you've got to lay it up exactly right, you know. So, when we design
+that, we actually design the layout and the prep carbon gets pulled out on a on a table, vacuumed down,
+and blade cut. And it's all labeled from the center out once you actually build your wing. To lay out
+that many layers and not get a wrinkle in the carbon is very, very difficult. And if you get a wrinkle
+in the carbon, the wing just ends up breaking, especially around the the center here where the son is
+loaded. So we worked out some tricky ways of building that so that they didn't we were able to hold a
+lot of carbon in straight lines. And that's one of the keys to making this work that the the the layup
+that we've done on this the way that we did the layup and with having the uni carbon on the outside has
+actually given us the confidence to carry on going even further than this with our but even more high
+aspect with our next wings. We were kind of on a limit with this but when we worked out that laminate
+and the strength and where to build it we've we've actually got ideas on where we go further from that.
+If the uni gives you so much stiffness, why would you rub uni on the surge? &gt;&gt; It is uni inside
+of it. On the outside. &gt;&gt; The outside. Yeah. &gt;&gt; Just because it's such a thick chunky wing.
+It doesn't really matter. &gt;&gt; You don't need it. You probably couldn't even feel the difference on
+that thickness of wing. &gt;&gt; Yeah. It's it's very hard. The the uni it's a bit messy. &gt;&gt; Uh
+and the the finish on this if you take it out in the light and hold it in the sun will actually the the
+the clear coat on it is 30% black. So that you can't actually see what a mess it is, but if you hold it
+in the light, you can't actually see the lines of the uni and stuff. &gt;&gt; Yeah. &gt;&gt; So it's it's
+harder to build a wing like that. &gt;&gt; Yeah. Yeah. &gt;&gt; But it's necessary for a wing like that.
+&gt;&gt; Mhm. &gt;&gt; Not necessary for that. Perfect. &gt;&gt; Yeah. Any minus feeding on the outside
+now? &gt;&gt; We played around with that, but they're actually um they're of a thickness that we couldn't
+actually get a benefit from them. Yeah. that you come out your fe. &gt;&gt; Yeah, we're working on that.
+Don't you worry. &gt;&gt; If that sort of covers that, I'd like to go into the surge. I'll have a bit
+of a ramble about it and then we'll get Luke who's the coaster boy. So, that this is our new surge wing.
+And it took a few goes to get this this right. It's basically similar for section. So, it's really uh
+good lift, but not too slow. Uh really good range. We've kind of kept a straight median line in it. I
+guess the big thing about that is the is the turn down and turn up. I call it the gross mustache effect.
+And um we to start learning about that. We had our fireball 1000 and I rebuilt fireball 1000 with the
+same outline, same foil section. Everything was the same, the same twist. The only thing I changed was
+the the turn down and the turn up, the gross mustache business. And then we tested it back to back and
+it was uh slightly slower to get up. It was um definitely slower top speed. So if you're building a race
+foil, you don't want a lot of upsy downsy business in it. And you don't want that is that a foil creates
+lift at 90° to the foil. So if you can imagine a fin a foil exaggerated turning down a long way and then
+turning up a long way, you've got your vectors and they end up pointing outwards and then they point inwards.
+I've exaggerated it just for for effect. But you end up with vectors that are pointing out and vectors
+pointing in and these ones are basically arguing with each other which creates drag and it's not efficient
+&gt;&gt; of energy &gt;&gt; waste of energy. So uh but in saying that it does make the wing feel narrow.
+So that thousand span fireball with the gross mustache in it actually felt kind of narrower and it actually
+rolled side to side easier. Part of the reason also for it is that the the tip facing up is less efficient
+for actually lifting you, I think, but it still has water flowing over it. So, it acts like a smaller
+wing, so it's easier to roll. And the water flying over the tips actually creates some stability. It also
+helps with tip breach. And there's some other weird benefits that we sort of ran into. Um, and that is
+having the upsy downsy business. If you're jumping and then trying to land on the foil again with the
+wing being bent up and down, it seems to give just a millisecond of chance for this to actually get itself
+together again when it hits the water before the next bit. Whereas when it was flat, it just it's very
+hard to land without it crashing. We tried quite a few different versions of the surge and one of the
+things that made this one work quite well is if you just look at the bit between my hand there, it's it's
+actually relatively flat. Um, we did another one that was more of an arc through the middle. And with
+more of an arc, it rolled really well side to side, but when it rolled over, it tended to lock into a
+turn and that was it. You're sort of stuck with that turn. This one here, it's quite progressive and it
+feels it actually feels really like a surfboard. It'll lay over into a turn. But if you're surfing on
+a wave and looking up at the wave face and you see it breaking over, you can just go straight up and and
+whack at it. It's freer and easier to turn. Um, doesn't lock into a turn. Tip reaches really well. It's
+great in white water. If you see the videos of Luke riding, it kind of explains a lot of how good it is
+with for surfing. Also really good for pumping, too. Like, uh, Luke is lightweight, KG. And I saw him
+pull out a waves that that you know pump 500 m out to sea to the next wave and then catch the peak and
+ride it back in again repeatedly. Like it's it pumps very very well. The guys actually used it in the
+dock staff competition and worked really well for that. So very versatile wing. I know probably said too
+much. Have a go. &gt;&gt; How we going? This is Luke. &gt;&gt; I'm Luke. Um yeah. So, been riding the
+Surge now for just a bit over 6 months. Um, been doing various comps and riding various conditions. Um,
+890 has been my go-to pretty much. Um, mainly because there was two sizes made to start off with and the
+rest of the sizes have come rather recently. So, the 830 I think that will become my next, you know, main
+main prone wing do it all. Um, but like until then, the 890 has been good for sub paddle, parow winging,
+winging, um, prone foiling, pretty much anything you can throw at it. They lift super nice, super comfortable.
+They don't really have that aggressive lift. So, it's really nice for particular like, you know, for me,
+prone foiling. you get up on a wave, you know it's going to gradually come up and you can engage the foil
+straight away and kick out to the next wave if you need to or jump straight into turns and um just kind
+of know it's going to be reliable. As Adrian was saying with the upturn wing tips as well as you kind
+of lay it over it just gives you that little bit more angle I think angle of attack as it comes out of
+the water so it doesn't re-enter so flat and grab bubbles. And even looking at um videos and things as
+that kind of wing tip comes back down, you can kind of see the bubbles get to about here and then they
+just wash off. So they tip breach very very nicely. And you know for the 890 I can surf this thing. My
+old main wing was a 780 Spitfire. I can surf this probably even harder than I could the Spitfire 780 and
+pump it 10 times longer as well. They're really really impressive wings and yeah, I've never really looked
+back after jumping onto these. Um, as Adrian said, the dock starting in Croison, we were riding the 1010s.
+Kai, myself, and Gray. &gt;&gt; Gray. Yeah. Another 100 kilo rider. So, we were all uh riding. Yeah. Riding
+the 1010 and um yeah, did really well on those. Gray made it to the finals in Centrope and I made it to
+the finals in Kuzon. Unfortunately fell on the start and you know, blew my chance. But yeah, they were
+very super reliable on dock start as well. And I think a lot of the Euros that kind of jumped on said
+said the same thing. You know, some of the best dock starting wings that they tried. So yeah, really really
+friendly. And um for me at 100 kilos like the 890 is kind of do it all. Um it packs way above above its
+weight in terms of lift and then turning side to side. Tips out. Yeah. All day long. No problems. &gt;&gt;
+Is the surge replacing the um fast? &gt;&gt; The surge is a surge. It did not replace it as &gt;&gt; I'm
+not sure &gt;&gt; it did for me. &gt;&gt; Yeah, it did for me. I suppose it depends what we want. Like
+I really like the Spitfires for CL foiling. We do a lot of CL foiling as well. Um but just having that
+kind of flat section and a lot of area is kind of nice. You can slow it right down and you know do some
+pretty unique stuff. Um, I haven't actually tried kite foiling with the surges, but once I jumped on the
+surge proning, I never went back to the Spitfire. &gt;&gt; Like a beginner going to intermediate stage,
+you can just go for it. &gt;&gt; In terms of lift, like I find the Spitfire sometimes like on a takeoff
+or if you get a bit out of control or too much speed, it can really like jump up and lift really aggressively.
+Whereas this, I don't really find that it kind of lifts and you can control it really easily. Um &gt;&gt;
+a bit also I go I'm in the video but um when you go for a bit of turb &gt;&gt; like bubbles or really
+you know foamy &gt;&gt; super com um it's a bit more better than a Spitfire. &gt;&gt; Yeah the Spitfire
+feels almost you know like you're driving down a gravel road with no suspension and this thing just kind
+of it softens you through it. Um it yeah it deals with turbulence and bubbles and everything really really
+well. like hitting the white water. It was, you know, not guaranteed with the Spitfire or the other wings.
+But with this one here, pretty much just every single time handles it and lands perfectly. &gt;&gt; Yeah,
+it's a twist down. Yeah. Is it a less angle or tough on the tips? &gt;&gt; It's got the same wash out
+on the tips that all of our other wings have had. &gt;&gt; So, it should be the same with that, but I
+think it's more to do with the gross mustache business. I think just with the angle, like if you imagine
+the wing continues down this way and you tilt it up, you know, and you tip breach, it's kind of breaching
+at a flat. And I find anytime you come out of and it's too flat, the bubbles are just going to shoot right
+back to the um fuse every time. So just having that extra bit of angle of attack as you come out of the
+water and coming back in, it just lets those bubbles slide right off. And then even if you are a little
+bit flatter, I've had multiple videos where it just doesn't really get past that bend. So yeah, super
+super super friendly and just kind of does everything. I I would say there's a lot of there's a lot of
+lessons like it it's kind of logical looking back at it now like the um the Spitfire we learned a lot
+with that um for turning you know with the straight median line and also the taper that's got quite a
+bit of cord in the middle and it tapers quite a bit and we've experimented with that a lot and the earlier
+versions of this tempo it was actually narrower in the middle with a wider tip and that was actually much
+harder to to get it to hold together to snap here all the time. So we actually widened the the cord in
+the middle and increased the taper and it made it a lot stronger, made it a lot more stable around the
+center section of the wing, but it also uh lessened uh the resistance to roll. So it turns really naturally
+and easily. It feels really comfortable ride. That's got the same thing on the other. All the lessons
+that we learned in all the various wings like right through the big dock start wings. They all carry through
+to the other wings. All all the lessons seem to cross over. Yeah. &gt;&gt; Yeah. And I mean, in terms
+of size as well, um, like Adrian said, like running wingspan is a pretty accurate size comparison. U,
+you know, if you're looking, if you've been coming off the RV2s, I'd be looking, you know, if you're on
+the triple 9, I'd be probably looking towards the 890, maybe the 950. Um, depends on your level and weight.
+Um, and then, you know, if you're on the 819, probably jumping down to the 830 is probably going to be
+a good transition. Like I said, coming off the Spitfire as I was on the 780 did obviously jump up a little
+bit, but that's just cuz what was available now there's the 830. That's what I'm going to be riding mostly.
+And um, yeah, pretty pretty sick. And then paired up with the surf skinnies as well. So my main surf skinny
+is the 300. I find that pumps really well. pretty much pumps better than the progressives, turns better
+than the skinnies, and turns just as well as a progressive. So, you know, it's kind of for me was that
+perfect fill in the gap. Um, I never really liked the uh the skinnies for surfing. Just found it drew
+out the turns too much and you couldn't really, you know, get as maybe radical as you'd like to, whereas
+those, you know, you super comfortable to whip it a bit harder and um know that you've still got some
+glide and ar there if needed to. So yeah, &gt;&gt; it was amazing to watch Luke in the surf event in Croissant
+and the judges had come from a full-on surf background or a surfing judges and they were blown away to
+actually see foil and get to a level where it's fully surfing caring terms rather than a week or you know
+there was he was gouging some turns and look like he was surfing a proper surfboard. It was great to see
+&gt;&gt; and it was yeah super comfortable trans like as soon as I jumped off the Spitfire to that it
+was just at home you know felt good. So &gt;&gt; what day would you like to use with the &gt;&gt; uh the
+300 C? &gt;&gt; Yeah. &gt;&gt; Yeah. So the 280 um I just wanted a little bit more pump like for me at
+my weight I wanted a little bit more pump. And then jumping to the 320 I wanted it to be a little bit
+looser. So 300 was the perfect gap for me. Whereas I know Kai and I think Perth over here as well will
+ride the 280 mainly. And then Sven, you on the 300? &gt;&gt; 320. &gt;&gt; So &gt;&gt; yeah, &gt;&gt;
+Senn is a big fellow and he's used them quite a bit. Um you you probably got something to say about him.
+&gt;&gt; Yeah, I use the 950 quite often like conditions today for downwinding like surf down windows
+and it was it was really fun and I was really impressed. I did yesterday the day before at poor beach
+with the 1010 was at knee high v and it was so much fun that's unbelievable our weights sort of closeish
+being a surge what would you pre that to in the um spitfire &gt;&gt; I almost would say the ele 80 lift
+but it's way faster so from the lifter from the early lift hard to get up I think it's similar to the
+&gt;&gt; I think it just has more than the 1030 but I normally You know the Spitfire 10:30. &gt;&gt; That's
+why I ride mainly as &gt;&gt; more. I get up earlier and the store speed was insane. If you're going on
+a bump on the bed and you're almost stalling, almost standing, I think it should fall down. Front foot
+pressure going like it's really fun. Yeah. Like also like I had it today on also on the the 2010 my first
+time today. I completely breached the whole foil out of the water. He thought I'm falling. I had a powering
+in my hand. Maybe bridge it all. Push it in. Lots of water bubbles. I said, "Oh my god." And it rolled
+out. Unbelievable. Then never had something like before you can breach like a tail or something like that
+and it pushes in. But it was the whole push it in on the door. &gt;&gt; It's like nobody reminded me talk
+about mass here. So we didn't get to talk about M. &gt;&gt; Yeah. Mhm. So, we've got a bunch of our masks
+that have been around for a good while. Got the the 19 mil aluminium and then we did the uh the power
+carbon mass and that was in uh like a normal modulus carbon and then a high modulus carbon and then we've
+got the the ultra high modulus carbon mass that we've been building for quite a while. Um the ultra high
+modulus one, well actually these ones are about uh 15 mil um at the narrowest at the first point down
+through here. the uh ultra high modulus they're about 13 1.5 mil through there. Obviously when you make
+a mask thinner um you're challenging the stiffness of it, but if you can put fancy carbon in there, you
+can kind of get it back up again. And like the the ultra high modulus is actually by far the stiffest.
+Uh and that's actually been a pretty pretty good reference point for mass for a long while. We've been
+developing some dock pocket wings and they got quite big spans. One of them's uh 1750, so it's much up
+this stand wing. And uh the construction that we've worked out with this has been really applicable to
+make those work as well. As you get those bigger span wings, um you need to go higher aspect because otherwise
+the the extra span also just gives you too much drag and it it doesn't work. So the 1750 wing is is 20
+aspect ratio and the 1500 fireball is 17 aspect ratio and it's kind of normal for wings like that now.
+Seems very high aspect but that's it's not really. Now the 1750 to actually control that regular span
+of a wing. The ultra high modulus mast was not really quite enough. So we came up with another mask and
+it is 18.1 mil thick right at the at the base through here. And we also the the dad that goes inside the
+fuselage, we didn't drop that into 15 mil. We left it at 18.1 mil. And we also didn't do it 28 mil deep.
+We did it 35 mil deep. So there's a lot more intersection into the fuselage. So the the fatty mask, it
+actually has to be used with the specific um fatty black fuselage. Um because it's thicker, it doesn't
+actually need to be built out of the oxy modulus carbon. So, it's not frighteningly expensive, but it
+is radically stiff. It is a bit draggier. It's only 18.1 mil thick, so it's not going to be anywhere near
+as fast as an Ultra Pro, but for someone like SP, he's actually got the power to push right through that
+and ignore that. So, he's got one coming and you I'm sure you'll hear whether it works for him or not.
+But when we got that mast, suddenly the 1750 had total control. you were actually able to turn it and
+steer it rather than just trying to attempt to balance on top of it. And we've actually built wings bigger
+than that now and still still getting really good control. So, um I guess historically when people have
+been buying their foil, they've just looked at the length of the mast and that's it. They haven't considered
+anything to do with what they're actually what foil they're going to use, what discipline, how much their
+weight is, what board, what everything. And and I think it's definitely time to start working out what
+you're trying to do with each mast. And for Sven, if he's using the fireball 1350, 1250, 1500 wing, you
+know, he really needs the fatty mast and fuselage. If he's toe foiling on a small wing, the ultra pro
+is going to be absolutely fantastic for him. So it's moving into the next stage where you know to get
+performance you can't just have one mask for your whole range of wings and expect to get performance out
+of that. &gt;&gt; Is the interface at the other end of the fuse to the front foil the same on the fatty
+fuse? &gt;&gt; No, you have to have a fatty. &gt;&gt; So you can't use &gt;&gt; you have to have a fatty
+fuse and fatty mask. Oh, &gt;&gt; you mean the foil &gt;&gt; the head at the front? It's a black. It's
+a black. So, just a flat, &gt;&gt; whatever. Yeah. &gt;&gt; And it's got the same saddle at the back,
+so it fits the other. That just reminded me of something else like this uh tempo setup. We also have this
+bit here in aluminium with a little saddle on it so that you can bolt your existing rear wings on there.
+So, if you've got into downwind and you know you've got all of your different rear wings there, you could
+actually just get the cheapo aluminum extension tail pipe and put your rear wing on there and just get
+the fuse large and front wing until you worked out exactly what wing you want and then this is by far
+more efficient. But it's just another thing that you can do. Is your fatty mass same length coming as
+&gt;&gt; it's 800 and 900? &gt;&gt; And the 800 the way that we've measured our our mass is like this
+is 900. So it's 900 from the surface of the board to the bottom of the fuse lash. Some people measure
+it to the to the top of the fuse lash or whatever. There isn't really a standard yet, but that's what
+we chose cuz it's just kind of the depth of the whole thing. It's &gt;&gt; the bit you see when it's set
+up, isn't it? Well, it's kind of your drawer, I guess, like in a yacht sensor. &gt;&gt; Yeah. What m do
+you recommend for tempo set up for me? 720 uh ultra pro uh is the best. That's the that's only uh 12 1/2
+mil at the bottom. We are working on a downwind specific mast. So, that will um it's called a kiwi and
+there's there's a few lurfing around at the moment, but they're Like any product, we don't actually release
+it until we're totally totally happy with it. It's class, but we're still trying to get it. Um, is it
+still necessary for lighter riders to have the Fontra Pro mask, do you think, or the Ultra Pro is expensive?
+When we Okay, another story with that. When we actually started selling the Ultra Pro mask, it's made
+of ultra high modulus carbon and we were the first to actually sell a mask that was ultra high modulus.
+We built a few just for ourselves and they worked really well and then we gave them to a few team riders,
+mail rode them and you know after 6 months or so none of us would ride anything but that and we're saying
+but it was too expensive to sell. So we we kind of didn't push it that hard out. When we finally put it
+on the market and sold it we said look this is really stiff. lots of great masks, but we didn't actually
+push it that hard out because we didn't want people to feel that they had to buy that or else they couldn't
+even foil. We just put it out and pretty good. Buy it, see it, you might like it. And actually, when the
+first round of people bought it and saw how good it was, that's when the sales actually took off cuz people
+just raved about it, you know, went from there. Um, the stiffer mast you can get, the better it's going
+to feel. And if you can keep it thin as well, it's it's going to be better deal for a heavy bl. &gt;&gt;
+Yeah. Well, it's difficult, but you've actually got so much power, you can just go for the fatty mast
+and just push on through and you won't even notice that drag. &gt;&gt; I'm happy with my ultra profile
+either. &gt;&gt; Yeah. &gt;&gt; And I do one, &gt;&gt; but what size depends on the span of wing that
+you're using. Like if you're using a 1350 or 1250 regularly, that's going to be too much for that. But
+if you're using a small spad, you know. &gt;&gt; Yep. &gt;&gt; Said your main was a 1030. &gt;&gt; Yeah.
+But you have you have an 80 or 90. &gt;&gt; No, I just got a 90. What's the equivalent fuse wise length?
+So this is based this is based around a standard the short sorry the short which is 700 mil that's what
+everyone was using with the firewall. So we just stuck with that. &gt;&gt; How much is your flying agent?
+I have no idea. &gt;&gt; Saturday was Black Friday. &gt;&gt; That's all. &gt;&gt; Someone asked pricing
+before and I like we sell all over the world and I'd do shop talks all over the world and I I can't remember
+all the different prices. I can do any technical question but I don't remember prices if it's on the wall
+behind you. Yeah. &gt;&gt; No, not yet. &gt;&gt; The tempo, the tempo front wing, like it's a little more
+expensive than the fireball, but not that much. The rear wing, again, it's a little more expensive cuz
+there's a bit of fuselage attached to it. The titanium fuselage is not cheap. It's an expensive chunk.
+Did it have to be titanium? &gt;&gt; I know. It's very cool. What else would you build it out of? &gt;&gt;
+Well, I don't know. That's why I'm asking the question. I assume you experimented with different materials
+and &gt;&gt; so what would you I mean stainless steel was is like twice as heavy um carbon you would have
+to be fat and that doesn't work so you kind of stuck in a corner with that you steel russes aluminium
+um is not strong enough and you can't you can't get as small as that you kind of run out but tell you
+But to me, you seeing it first time, it was pretty fun and process. &gt;&gt; Yeah. Well, the the details
+of how it tightens and everything, you know, I'm quite proud of that. It took us a long time to actually
+get all that working nicely and was pretty slick the way that is held together and how how rigid and solid
+that is. &gt;&gt; What were the bending numbers of the fatty mask compared to the Pro Ultra? So when we
+do our tests, we we take the mast and we bolt it to the wall and you have to measure the the same mass
+with the same mask. We bolt it to the wall and we hang 25 kg off the end of there. And I actually measure
+from the ceiling to the trailing edge and see how much it it bends. That's what I did at home cuz it was
+easy. And we've actually replicated on a proper bend machine in China where they manufacture the masks
+and the numbers were exactly the same. So, it's been a good, I think, useful test for us. There's some
+dispute as it as to whether you should be supporting the mask, you know, between two points and bending
+it in the middle head, but, you know, nothing is quite right as far as bending your mask, but bolting
+it to the wall and bending it, it gives us a good uh reference and it kind of relates to how the mast
+actually feels when you ride it. So, uh, going back to how much the bend is, like if we use like for like
+same length mass, it's a 900 m. The, um, 19 mil aluminium bends something like 38 mil. Uh, the power carbon
+bends, this is off my head, so it might not be quite right. 38 mil. I think this is about 29 mil for a
+for a normal power carbon. Power carbon high modulus about 23 mil. The Ultra Pro is down to about 19.
+Um the fatty mast was 11. So it's not just a little bit stiffer. It's a lot. &gt;&gt; Yeah. It's also
+got more cord. It's a monster of a mast. I just thought of something else. I don't know how many foil
+drivers there are. &gt;&gt; &gt;&gt; like pure pure form of it. &gt;&gt; Yeah, I'm going &gt;&gt; We have
+a new four-wheel drive pocket trench board coming which is pretty slick as well. And that was quite a
+cool design the way the the whole unit fits underneath a a covered trench. So, it's very clean and nice.
+And we do an integrated mask that goes that it was an engineering masterpiece, but I can I can totally
+get that you're not that into it. And didn't they shift the mask forward on the Fusion? Was it still fit?
+And yeah, &gt;&gt; so we actually when I found out about the Fusion, we actually made the pocket deeper.
+&gt;&gt; Okay, sure. &gt;&gt; Yeah. So it actually fits the Fusion. You can get everything in the same
+place. &gt;&gt; Very challenging so far. &gt;&gt; Yeah, it's a tricky trick. &gt;&gt; But that that system
+like you just loosen the bolts, slide it back, lift it straight out, and try it all. Swap your battery
+over, put it back in again. So it's very slick and easy to use. and AWSI that by far was the most looked
+at, tested, raved about product there. We had the tempo there. People barely recognized it. It was all
+about the four drive pocket trench board. So, &gt;&gt; and can you have you is there an adapter for the
+Duo Tone foil assist for your falls? &gt;&gt; No. No. &gt;&gt; Don't think it's that much compatible compatibility
+between an aluminium mass with as they claim adapters for every major fall brand. No. Yeah, we built adapters
+for our old aluminium mast to fit pretty much everything. And we built a couple of cool shoes that fit
+over the end of the mast. We built a shoe that fits code or a shoe that fits lift. And we we made the
+shoe out of titanium because the the threads like on the code one for example, it's only about 6 mil of
+thread. So there's very little thread and and building aluminium, you know, when you had to tighten it
+up, you're very likely to strip that part of it. The other thing is aluminium cannot touch carbon. So
+um having an aluminium shoe fitting onto a carbon mast um and it was not necessarily a good thing. You're
+going to get corrosion issues with it. All of our like this surge wing when we build that it has two layers
+of fiberglass around here built in as an isolator. That's why this is sprayed slightly black through here
+just to disguise that and that creates an isolation barrier between the fuselage so it doesn't touch the
+aluminium doesn't touch the carbon. The same on the end of the mast is um fiberglass and it comes down
+to about there on the mast and actually creates a barrier so that the the carbon doesn't touch the diffusion
+when it goes in there. That's another thing that we've just done recently too and that's a um NFC tag.
+And what that is is you point your phone at it. You kind of have to take the cover off your phone to make
+it work. and you open your phone and then you poke it at that Safari the tag and opens up a little thing
+there and it tells you the serial number. It's got uh it takes you to the website as well. So it tells
+you all about the wing and and you can go and look at the website. It's also got a website where you can
+go and register your wing. It's got the skew number, the EIN number, the security code to to show you
+that it's a genuine product. It's not a cotton. Um, and you can go online and you can register that. And
+the idea is that um &gt;&gt; good innovation. Sorry, it's a good innovation. &gt;&gt; Well, we're just
+trying to stop, we've had quite a bit of copying of Chinese companies building fake axis stuff. So, we
+stuck that in there to do that. And the idea is to have that in all sorts of products going forward. Yeah,
+that's where we that one it's on the case just on the fiberglass barrier. I noticed I put a shock shield
+on my Frank board and it corroded right away, but I haven't seen that in other for Does the Frank board
+have a really thin um sand back on the outside of No Slass? It's just carbon. It's just color. &gt;&gt;
+Yeah, there's carbon, but there's a layer of bog, white bog, and there's a layer of red. &gt;&gt; Yeah.
+&gt;&gt; And it's uh it's pretty much carbon. What's the shark shield made from? &gt;&gt; I think they
+they sort of have these stainless steel. Um but I don't know what grade of stainless steel. &gt;&gt; Stainless
+steel should be fine. It's if it's if it's corroding, &gt;&gt; it'll be aluminium. I'm sure &gt;&gt; it's
+going rust that. &gt;&gt; Oh, really? &gt;&gt; Yeah. It's interesting. I've seen it on one one of the
+&gt;&gt; So that if it's doing that that's just a bad quality stainless steel. So it' be 304. That's interesting
+because I didn't it didn't happen on my other &gt;&gt; We've got some new Frank boards coming too like
+those are the Maros. Those have been really really popular. There was a recent poll and bunch of people
+voted as a downwind board came out at 32%. I think the Senova came in second place. &gt;&gt; Yeah, that
+was funny. I put that poll up. &gt;&gt; Oh, you started that. &gt;&gt; Yeah. Yeah. And I was asking for
+my mate who's about size to &gt;&gt; Yeah. &gt;&gt; And everyone was just &gt;&gt; I think if you saw
+how many there were out there last month too. I mean &gt;&gt; Yeah. Well, it's all around the world. It's
+really taken off. &gt;&gt; Um that's the the new fuselage. And there's some extra things we've done in
+there to help with corrosion. So in here, this is a a zinc anode. And if you've got an outboard motor
+or an inboard motor, you'll know that you have a a zinc anodess all over your your motor and once a year
+or so you you replace them. So that zinc anode will actually deteriorate over time from the salt water
+and that deteriorates to protect the rest of the fuselage from corroding. This is marine grade alum aluminium
+so it's it's pretty good. The other thing that we've changed in the recent fuselage is these two front
+holes. They're not very deep. So, we used to get the odd person stripping those two front holes. So, we've
+made a a a titanium insert in there. So, it's actually a little insert. It's not a hel coil, and it just
+winds in, and it has two pins either side of it. So, you wind it in, and then you whack the pins, and
+the pins cut through the thread and make it so there's no way you can take it back out again. So, the
+front two holes are titanium, and it's got the zinc in it. That's the the newer fuselage. We've modified
+this quite a few times over the years and you can see the back of it is actually pretty thin and it's
+quite high this way. When you're when you're pumping this, this is going up and down through the water
+and this is quite knifelike to to cut through the water. Whereas um probably the worst things you could
+have is a a square section or or even a round section. There's a lot of drag off a round piece going up
+and down. If you just get a round stick and wave it through the water compared to something like that,
+it just cuts through the water a lot better. Um, it also makes this as thin as you can possibly get it.
+So, that saves weight, but we've added the thickness through here where they they sometimes used to crack
+through here. So, that's a modified black fuselage. And I like to think it's actually a pretty sleek looking
+thing compared to what it's been in the past. Aluminium is actually pretty good. It's cost effective and
+when you have the zinc and the titanium bits in it um and build it properly, it lasts pretty well. It's
+reasonably inexpensive. It's it works well. &gt;&gt; All the screws inserts are titanium. &gt;&gt; No,
+just the front two. These ones here never really strip out. We could have done those in titanium as well,
+but just after the price and we never really had problems with those. The rear ones, they're just straight
+into aluminium. And we didn't really strip those. And we can't actually because it's so thin through here,
+we can't actually fit them in there. So still use tough gel. &gt;&gt; Always a good idea. Use a big Tiff
+gel. &gt;&gt; Who doesn't like sticking it away with their hands? Doesn't &gt;&gt; I use a graphite, but
+I've been using oil stuff for &gt;&gt; Yeah. &gt;&gt; Probably eight or nine years since I started wind
+foiling. And &gt;&gt; is it still sticky and horrible? No. Well, the thing is you get sand, you can just
+wipe it out. Stick. It's not sticky, but it's I've never had a failure. I got a question for Luke. When
+you're not trying to go fast downwind in a straight line, &gt;&gt; what would you what front wing would
+you choose between the RV2s, the Surge or the uh Spitfires? &gt;&gt; Surge every time. &gt;&gt; Every
+day of the week. &gt;&gt; Every day of the week. Um, yeah, speedwise, like I think when you match when
+you actually match the right size for your weight and compared to what you've been riding, like I've heard
+a lot of people, you know, they'll compare the 890 to riding the 819 V2 and be like, "Oh, it's so much
+slower." It's it's going to be. Whereas when you ride the 830 or the new sizes that are coming out that
+more closely match the actual profile and size of that wing um speed wise they are very impressive. They
+do um run quite fast if you want them to. Um but then you also get that low swallow speed to rely on as
+well if you run into you know run up the back of a swell or run yourself into a hole. Um, so every day
+of the week I'm going to choose a surge for um, anything turn related, anything turn related, anything
+speed, I'm jumping on that. And then yeah, they're pretty much my two two wings now. Um, so yeah, those
+are very impressive. I think the 1010 and we're working on some larger ones as well. I think those will
+actually end up being really, really useful for people that are learning to downwind just because they're
+so easy to ride, so predictable in their lift, really nice turny surfing wings, and they just stay up
+and glide well too. &gt;&gt; Adrian, I brought a question regarding tempo. Uh, compared to, um, fireball
+and normal, you know, stingy tail, what are the angle of the front and tail? &gt;&gt; Same. &gt;&gt; Simos.
+&gt;&gt; Yep. without shims with fire. Yeah. &gt;&gt; So if you want more lift, you you just go to a bigger
+rear, which is a little bit like shimming, positive shimming, &gt;&gt; but you just do it. &gt;&gt; We
+tried to keep this as slick as possible. So if you're going to have this shimable at the base here, it
+would involve screws and drag mess, whatever. So &gt;&gt; just trying to keep this totally clean. And
+it's it's worked really well. Rear lay just neutral layout at positive. So the front wing is 1°ree up
+uh and the back wing is 1 and 1/2° down. Little difference depend front two and a half. But that's that's
+nominal because it's it's appropriate to your camber. So if you got a higher camber um like for your for
+your rear for example, if you had a higher camber rear, you can ride it a lot flatter because it's creating
+the force through camber rather than via angle of attack. So it's it's balanced and it works nicely as
+it is. Um, it's kind of all you need to know. It doesn't necessarily relate to any other for setup and
+what angles they may or may not be riding at. This is balanced and it works pretty good. Everyone that
+hops on this first run like had a guy in Maui. He was riding another brand and we put him on actually
+it was a 920 25 rear. He had his first ever run on it and on his first run he did a personal best straight
+away. He didn't he just called the wrong wind. It's not like he had to have 10 runners to sort of learn
+how to ride it. They're very comfortable and easy and intuitive to use.
