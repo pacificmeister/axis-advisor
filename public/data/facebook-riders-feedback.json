@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 167,
+    "total_entries": 328,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 22,
@@ -12,7 +12,7 @@
       "media_reviews": 1
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-09T08:24:17.065901"
+    "last_updated": "2026-03-09"
   },
   "posts": [
     {
@@ -2532,6 +2532,3060 @@
       "sentiment": "neutral",
       "type": "community",
       "date": "2026-03-09T00:00:00"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWxAxf-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890, 1010 desperately waiting for the Surge 1150",
+        "320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830",
+        "HM 90",
+        "Short advance+ and short advance +20. +20 is used in bigger waves."
+      ],
+      "feedback": "Gives me lift, turn-ability and glide when flagging out the wing and riding the waves",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhFIZ6X-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "ARTV2 879",
+        "Surf Skinny 320 or Skinny 40",
+        "900 HM",
+        "US for waves, Short for speed or flat water"
+      ],
+      "feedback": "Easy to ride, pretty fast, good glide, reasonable turning",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhFIZ6X-Wake_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to)",
+      "discipline": "Wake Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "PNG 910b or Spitfire 960",
+        "Prog 350",
+        "750 HM",
+        "US"
+      ],
+      "feedback": "Lots of lift, good maneuverability",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkaj88-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (San Diego California)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1000",
+        "Skinny 358/30 and the 25",
+        "Pro Ultra High Modulus Carbon 800",
+        "Black advanced+ short"
+      ],
+      "feedback": "I like it because it can be used in to downwind in conditions from 10-30 knots and is still very fast.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkaj88-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (San Diego California)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spirt fire 780",
+        "Surf skinny 280/43",
+        "Pro Ultra High modulus 800",
+        "Black silly short"
+      ],
+      "feedback": "This set up likes to carve well and make sharp turns and has a lot of pop for airs and snaps.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkaj88-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (San Diego California)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 880",
+        "280/43 surf skinny",
+        "I rare the ultra 800 but ideally the 1050 for winging",
+        "Black advanced plus short fuse"
+      ],
+      "feedback": "It is a really fast set up and allows for good VMG wall still being stable in chop and not to twitchy. Very good for racing.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkaj88-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (San Diego California)",
+      "discipline": "Tow-In",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spitfire 780",
+        "Surf skinny 280/43",
+        "Ultra 800",
+        "Black silly short"
+      ],
+      "feedback": "It likes to make sharp turns and carves well.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNifudT3-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Sydney)",
+      "discipline": "Downwind SUP",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1250 fireball",
+        "50 skinny",
+        "Uhm 70",
+        "Short 70"
+      ],
+      "feedback": "Stable and easy to learn/intermediate level on",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNifudT3-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Sydney)",
+      "discipline": "Prone Surf",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 1010",
+        "Skinny 50",
+        "UHM 80",
+        "Black ultrashort"
+      ],
+      "feedback": "Surge is amazing. Hard to fall off!",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgtSnoR-Parawing",
+      "date": "2026-03-10",
+      "author": "Survey Rider (Le Morne (Mauritius))",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 940",
+        "Skinny 35",
+        "Ultra 80",
+        "Adv+ 640"
+      ],
+      "feedback": "If great bumps it turns really good and also has good speed and glide",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjsrQEi-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Hobart, Tasmania)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Art V2 999",
+        "365 45 skinny",
+        "75 Alu",
+        "Black Adv+ Short"
+      ],
+      "feedback": "Wide wind range, great glide, turns well, recover from breaches",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjsrQEi-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Hobart, Tasmania)",
+      "discipline": "Dock Start",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "AP 1201",
+        "400P",
+        "75 Alu",
+        "Black Adv+ short"
+      ],
+      "feedback": "Good glide, efficient pump",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjIFrHq-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (France)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 960",
+        "Ultra 30",
+        "Ultra 80"
+      ],
+      "feedback": "Fait & unbelievable glide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhppFzB-Prone_Surf",
+      "date": "2026-03-10",
+      "author": "Survey Rider (West Oz)",
+      "discipline": "Prone Surf",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1010 surge",
+        "320 surf",
+        "Uhm 80",
+        "short | ultra short Adv +"
+      ],
+      "feedback": "A 1010 foil usually gives you a really nice balance of:\n\n\u2022 Easy pumping so you can connect waves\n\u2022 Early lift which helps in knee to hip high surf\n\u2022 Enough glide to keep speed through soft sections\n\u2022 Still manageable at shoulder high without feeling too slow\n\nDropping to the 950 when the waves get a bit punchier makes sense. You normally get:\n\n\u2022 More speed and tighter turning\n\u2022 Less front wing drag\n\u2022 Better control when the wave has more push",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhppFzB-Wing_Foiling",
+      "date": "2026-03-10",
+      "author": "Survey Rider (West Oz)",
+      "discipline": "Wing Foiling",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890",
+        "320 surf",
+        "90 uhm",
+        "Short / ultrashort adv+"
+      ],
+      "feedback": "890 as the main wing for shoulder to head high waves makes a lot of sense. At that size you usually get:\n\n\u2022 Much tighter turning radius\n\u2022 More speed down the line\n\u2022 Better control on steeper faces\n\u2022 Less \u201cover-foiling\u201d feeling when the wave has power\n\nAnd because you\u2019re already an experienced foiler who likes linking waves and riding swell, the 890 is right in that sweet spot where it still pumps but feels really surfy.\n\n\n\n1010\n\u2022 Knee to waist high\n\u2022 Weak / slow waves\n\u2022 Maximum glide and pump for connecting waves\n\n950\n\u2022 Small but clean surf\n\u2022 When you still want early lift but a bit more speed\n\n890\n\u2022 Shoulder to head high\n\u2022 Best carving and most surf-like feeling",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhppFzB-Tow-In",
+      "date": "2026-03-10",
+      "author": "Survey Rider (West Oz)",
+      "discipline": "Tow-In",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 780",
+        "320 surf",
+        "90 uhm",
+        "Short adv +"
+      ],
+      "feedback": "I mostly use the 780 for tow foiling at the moment and I really love it. It still holds a pretty good size of swell, feels super turny, and the glide is amazing as long as you keep the speed up. Especially on non breaking waves or rolling swell it\u2019s insane.\n\nI haven\u2019t tried the 740 yet, but I did try the 830. For me the 830 just feels way too lifty. I would only use it in really small waves, like hip to maybe shoulder high fast waves. Otherwise it just feels like too much lift for what I like.\n\nA few tips if you\u2019re choosing a tow foil:\n\n\u2022 Don\u2019t go too big on the front wing. Bigger wings feel easier at the start but once the swell has energy they can feel really lifty and harder to control.\n\u2022 Try to match the foil size to the speed of the swell, not just the wave height. Fast rolling swell usually feels better on a slightly smaller wing.\n\u2022 Keep your speed up after you drop the rope. Smaller wings like the 780 really come alive when you carry speed and use the glide.\n\u2022 If you want tighter turns and a more surfy feeling, going a little smaller on the front wing often makes a huge difference.\n\nFor me the 780 feels like a really nice balance between glide, speed, and turning.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhppFzB-Parawing",
+      "date": "2026-03-10",
+      "author": "Survey Rider (West Oz)",
+      "discipline": "Parawing",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1010 surge",
+        "320",
+        "Uhm 80",
+        "Short adv +"
+      ],
+      "feedback": "For parawinging I use most of the time the 1010. It just gives you heaps of glide and makes the whole ride really easy, especially on longer runs where you want a bit of a break in between. You can just let it run and it keeps holding the swell without having to pump much.\n\nIf I\u2019m doing shorter runs or want it to feel a bit more surfy and the swell is really cranking, then I go down to a 950 or even an 890. But most of the time I really enjoy the 1010 because it holds so much swell for downwinding on the Parawing. It gives you those little moments to relax between turns and just glide, which is super fun. I\u2019m really loving that setup.\n\nA few tips for others getting into Parawing downwinding:\n\n\u2022 Don\u2019t go too small on the foil at the start. A bit more surface like a 1300ish wing helps a lot with glide and connecting bumps.\n\u2022 Focus on linking swell instead of pumping. Bigger wings make it easier to just read the ocean and flow from bump to bump.\n\u2022 Choose the foil based on the energy of the swell. On strong windy days you can go smaller, but on weaker days the extra glide is gold.\n\u2022 Let the foil work. Sometimes the best thing is to relax, keep your speed, and let the wing glide instead of forcing turns or pumps.\n\nOnce you get the feeling of just flowing with the swell, that\u2019s when Parawinging becomes really addictive.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhDlRWe-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (The Gorge)",
+      "discipline": "Wing Foiling",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "ART v2 819",
+        "Surf 280",
+        "82 high modulus",
+        "Black ultrashort advanced plus"
+      ],
+      "feedback": "It\u2019s super fast, very responsive, and very fun on swells",
+      "sentiment": "positive",
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhDlRWe-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (The Gorge)",
+      "discipline": "Parawing",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 830",
+        "Surf 280",
+        "82 HM carbon",
+        "Black ultrashort advanced plus"
+      ],
+      "feedback": "Easy to get up on foil fast, easy to control, fun on swells",
+      "sentiment": "positive",
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgpA8SC-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui, Australia)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Tempo 1020, surge 830",
+        "30 TI link, 300 surf skinny",
+        "78 kaiwi",
+        "Ti link, ultrashort"
+      ],
+      "feedback": "These two give me the biggest range of foiling. Allowing me to do all aspects of foiling I like",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgpA8SC-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui, Australia)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "830 surge",
+        "300 surf skinny",
+        "80 Uhm pro",
+        "Black ultra short"
+      ],
+      "feedback": "Very good balance of surfing on a wave and pumping",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgpA8SC-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui, Australia)",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "950 surge",
+        "320 surf skinny",
+        "Kaiwi 78",
+        "Black ultra short"
+      ],
+      "feedback": "God for racing good blend of speed, comfort and control",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgpA8SC-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui, Australia)",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "830",
+        "300 surf skinny",
+        "78 kaiwi",
+        "Black ultrashort"
+      ],
+      "feedback": "It\u2019s my go to in surf so I don\u2019t bother trying anything else",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDlytc-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (San Francisco Bay Area)",
+      "discipline": "Wing Foiling",
+      "weight_range": "Over 105 kg / 231 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spitfire 1100",
+        "Skinny 365/55",
+        "90cm HM Carbon",
+        "Black Advanced Short"
+      ],
+      "feedback": "I'm on the cusp of switching gear I think, I'm probably ready for Ultrashort fuse but this setup is tried and true for me and works in most conditions is smooth, stable, turns well but also holds a line when the wind cranks up on the bay and I'm hauling back to the launch at speed. Im getting better but also feel the gear helps tremendously. Im curious about ART V 2 1099 and Fireball 1250 but happy with this setup.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWvGsh-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Bari Italy)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Speed 420",
+        "Alluminum 75",
+        "Black ultrashort adv+"
+      ],
+      "feedback": "It's the fastest I've ever ridden both in downwind and flat water start",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWvGsh-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Bari Italy)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Speed 420",
+        "Alluminum 75",
+        "Black ultrashort adv+"
+      ],
+      "feedback": "It is the fastest setup both in the start and in flight phase with the right compromise between handling and stability.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWvGsh-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Bari Italy)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Speed 420",
+        "Alluminum 75",
+        "Black ultrashort adv+"
+      ],
+      "feedback": "Excellent acceleration especially during take-off and during paddling in flight, it manages to be agile but also stable",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjmv7QN-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Mission Bay, San Diego)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 1100",
+        "Skinny 365/55",
+        "82 HMPC",
+        "Advanced short"
+      ],
+      "feedback": "It has the low end I need for light winds, but is still plenty fast. I like the smaller tail for more speed, and the longer fuse gives me the stability I need to complete maneuvers. I enjoy chasing down wake surf boats and flagging out the wing.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjmv7QN-Wake_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Mission Bay, San Diego)",
+      "discipline": "Wake Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "HPS980",
+        "365/55 skinny",
+        "82 HMPC",
+        "Advanced short"
+      ],
+      "feedback": "It feels great on the wake, fun to carve on, and it\u2019s the size I need for my weight.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjmv7QN-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Mission Bay, San Diego)",
+      "discipline": "Tow-In",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 840",
+        "Skinny 365/55",
+        "900 HMPC",
+        "Advanced short"
+      ],
+      "feedback": "I feel very in control at high speeds, and making carves feels very balanced. It turns super easy so I can stay high on the wave. The longer fuse is key for stability as well",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhw-94Y-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Sardinia)",
+      "discipline": "Downwind SUP",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo",
+        "72",
+        "Ti link"
+      ],
+      "feedback": "Fast and endless glide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhw-94Y-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Sardinia)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge",
+        "85",
+        "Black ultra short"
+      ],
+      "feedback": "Easy and good glide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhw-94Y-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Sardinia)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge for freeride",
+        "Skinny",
+        "82",
+        "Black ultra short"
+      ],
+      "feedback": "Fast and easy",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNitf0Ee-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lyttleton)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Spitfire 840",
+        "400 progressive",
+        "75cm aluminum",
+        "Black ultra short"
+      ],
+      "feedback": "I didn't know any better but it turns nicer than an hps980",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNitf0Ee-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lyttleton)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Spitfire 840",
+        "300 progressive",
+        "75cm aluminum",
+        "Ultra short black"
+      ],
+      "feedback": "Turns nice, neutral lift",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiKeYoW-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Columbia River Gorge)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 900",
+        "90CM HM",
+        "Crazyshort adv+"
+      ],
+      "feedback": "Surfy. Looking forward to try Surge",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgl3wAE-Wing_Foiling",
+      "date": "2026-03-10",
+      "author": "Survey Rider (North Sea)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spitfire 780",
+        "Skinny 358/35",
+        "90cm Power Carbon",
+        "Black Ultrashort Advanced"
+      ],
+      "feedback": "Good balance between speed, carving, control. Ride it from 5m down to 3,5m Wings",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiBX4Zv-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (The Gorge, not Hood River :))",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890",
+        "Skinny 45",
+        "90cm Aluminum",
+        "Advance Ultra Short"
+      ],
+      "feedback": "Great Low End and High End. Great carving and very good glide. Easy tip breaches.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiBX4Zv-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (The Gorge, not Hood River :))",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "PNG 1150",
+        "375 progressive",
+        "75cm Aluminum",
+        "Advanced Ultrashort"
+      ],
+      "feedback": "Great for Dock start as I am just learning. Love that an old front wing is still so relevant!",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Chopped artpro 1001 (to 840)",
+        "Chopped skinny 45 (to 300)",
+        "80 uhm",
+        "Black ultrashort advance"
+      ],
+      "feedback": "It works for my regular run when the bumps are A grade, 30 knots plus, and is also usable in solid (shoulder high+) sup waves, so is familiar across disciplines",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art 899",
+        "Skinny 45",
+        "80 uhm",
+        "Black ultrashort"
+      ],
+      "feedback": "The characteristics of the 899 match the swell periods here. I've tried Spitfires, but while I love the turn, I can't pump them far enough to connect. I tried art v2s but still came back to my 899 (which has rounded off tips)",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Chopped 1001 (to 840)",
+        "Chopped skinny 45 (to 300)",
+        "80 uhm",
+        "Black ultrashort advance"
+      ],
+      "feedback": "Super fast with good glide and just enough stability for the long period waves here.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "PNG 1150",
+        "Prog 300",
+        "82 ally",
+        "Red ultrashort"
+      ],
+      "feedback": "So forgiving with buckets of low end.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Chopped 1001 to 840",
+        "Chopped skinny 45 to 300",
+        "80 uhm",
+        "Black ultrashort advance"
+      ],
+      "feedback": "Very fast, with a small enough span to turn well, and I can just about pump back out in good conditions.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Eyre peninsular)",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Modified 951",
+        "45 skinny",
+        "80 uhm",
+        "Black ultrashort advance"
+      ],
+      "feedback": "This foil is modified to have a fireball foil profile at the root with 20% extra chord while tapering to original artpro tips. It has much better low end than the 951 but retains 90% of the top end.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgnLK3f-Kite_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Cape Town)",
+      "discipline": "Kite Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art pro 1001",
+        "360/45 skinny",
+        "82 hm carbon",
+        "Crazy short advance +"
+      ],
+      "feedback": "Only kitefoil light wind. Super glidy setup",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgnLK3f-Parawing",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Cape Town)",
+      "discipline": "Parawing",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "35 skinny",
+        "82 hm carbon",
+        "Ultrashort advance+"
+      ],
+      "feedback": "Awesome for upwind / downwind swell riding and downwinders",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgnLK3f-Foil_Assist",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Cape Town)",
+      "discipline": "Foil Assist",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Konrad lx760 (but will try a surge)",
+        "45 skinny",
+        "Soon to get integrated mast",
+        "Ultra adv+"
+      ],
+      "feedback": "Turns really well, great glide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMydkQ-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Wakefoiling on Lewis smith lake in Alabama)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spitfire 960",
+        "Skinny e5",
+        "75 hm carbon",
+        "Black ultrashort advanced"
+      ],
+      "feedback": "Very playful and predictable",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMydkQ-Wake_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Wakefoiling on Lewis smith lake in Alabama)",
+      "discipline": "Wake Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "960 Spitfire",
+        "Skinny 35",
+        "HM 75",
+        "Black ultrashort advance"
+      ],
+      "feedback": "Very playful and predictable",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Downwind SUP",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "surge 1010 foildrive",
+        "surf skinny 300",
+        "foildrive integrated high modulus",
+        "ultrashort"
+      ],
+      "feedback": "not the fastest but most fun and very fogiving",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Prone Surf",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "surge 1010 or surge 950",
+        "surf skinny 300 or 320",
+        "foildrive integrated",
+        "untrashort"
+      ],
+      "feedback": "good glide good turning with plenty of back foot pressure during turns",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "surge 1010 surge 950",
+        "surf skinny 320 300",
+        "82 high mod carbon",
+        "ultrashort"
+      ],
+      "feedback": "not the fastest setup but great fun to ride",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Kite_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Kite Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "HPS 650/700",
+        "surf skinny 320",
+        "82 high mod carbon",
+        "ultrashort"
+      ],
+      "feedback": "good speed jumping and manouverbility",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "fireball 1350",
+        "skinny 45",
+        "foildrive integrated",
+        "sillyshort"
+      ],
+      "feedback": "good glide easy pump",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Parawing",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "surge 1010",
+        "surf skinny 320",
+        "high mod 82",
+        "ultrashort"
+      ],
+      "feedback": "still learning but this combo should be ideal for upwind downwind laps",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4-Foil_Assist",
+      "date": "2026-03-09",
+      "author": "Survey Rider (sunshine coast australia)",
+      "discipline": "Foil Assist",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "surge 1010 950",
+        "surf skinny 300 320",
+        "integrated high mod",
+        "ultrashort"
+      ],
+      "feedback": "makes me foil like luke atkinson",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH-Downwind_SUP",
+      "date": "2026-03-08",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Downwind SUP",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "FB 1070",
+        "Skinny 45",
+        "80 UHM",
+        "Ultrashort"
+      ],
+      "feedback": "When conditions are good bc it\u2019s fast and still turns good just has a nice feel to it",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH-Prone_Surf",
+      "date": "2026-03-08",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Surge 890",
+        "SS 300",
+        "80UHM",
+        "Ultrashort"
+      ],
+      "feedback": "Can link waves easy and it turns really good\nWould recommend any and all axis prone riders to go on the surge",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Dock Start",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Spitfire 1180",
+        "SS300",
+        "80UHM",
+        "Crazyshort"
+      ],
+      "feedback": "Easy to pump and take off and great for practicing turns and tip outs",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH-SUP_(Non-DW)",
+      "date": "2026-03-08",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Surge 1010",
+        "250 Progressive",
+        "80UHM",
+        "Crazyshort"
+      ],
+      "feedback": "Pumps good and turns great",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH-Parawing",
+      "date": "2026-03-08",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Parawing",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "surge 1010",
+        "Skinny 45",
+        "80UHm",
+        "Crazyshort"
+      ],
+      "feedback": "Great low end and easy to turn - suitable for me learning to parawing",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhstAcn-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Marblehead, MA)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "SF 840 / 960, ART v2 939",
+        "325p",
+        "99cm HM",
+        "Blck Ad+ Ultra"
+      ],
+      "feedback": "Spitfire for waves and turbulence/ 939 for speed/glide in calm",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhstAcn-Wake_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Marblehead, MA)",
+      "discipline": "Wake Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Same as wing",
+        "Same as wing",
+        "Same",
+        "Same"
+      ],
+      "feedback": "Prefer shorter mast",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgPKvtu-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Lake district Uk)",
+      "discipline": "Dock Start",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1350",
+        "Skinny 358/25",
+        "Aluminium 75  and 82",
+        "Physcoshort"
+      ],
+      "feedback": "Good glide and very fun",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0rLbG-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Donauinsel (Vienna))",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Spitfire 1180",
+        "300 Progressive",
+        "82 Hm Carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "Its the on I have and like",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNikmGv9-Prone_Surf",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland, New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 950",
+        "300 Surf Skinny",
+        "80cm UHM",
+        "Crazy Short"
+      ],
+      "feedback": "Turns off the back foot like surfing. The Surge is a game changer.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNikmGv9-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland, New Zealand)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Suge 950/830 Fireball 1070",
+        "330 and 300 Surf Skinny, 400 Skinny",
+        "90cm HM",
+        "Black Short Advance+"
+      ],
+      "feedback": "This set up is great for waves and flat water. The 950/830 Surge are super playful and low stall speed and easy lift means user friendly and great in waves. The 1070 is a flat water or upwind/downwind tool.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNikmGv9-Wake_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland, New Zealand)",
+      "discipline": "Wake Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 1010/950 Fireball 1070",
+        "300 Surf Skinny",
+        "80cm UHM",
+        "Black Short Advance +"
+      ],
+      "feedback": "The 1010/950 Surge are the ultimate wake foils as easy lift, fast, surfy and handle prop wash and chop.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNikmGv9-Foil_Assist",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland, New Zealand)",
+      "discipline": "Foil Assist",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 1010/950",
+        "300 Surf Skinny",
+        "80cm UHM",
+        "Black/Ulta/Crazy Advance+"
+      ],
+      "feedback": "Foil Drive with the Surge 1010/950 is epic in waves and wake. The Axis Pocket Trench is awesome!",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjQejLI-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Switzerland)",
+      "discipline": "Wing Foiling",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "spitfire 1100",
+        "358 skinny",
+        "82 carbon",
+        "Silly short"
+      ],
+      "feedback": "Very maneuverable for pumping, good lift and cool on small waves",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjCscP6-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Honolulu)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "939",
+        "358",
+        "75",
+        "Short"
+      ],
+      "feedback": "Fast and lose",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjCscP6-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Honolulu)",
+      "discipline": "Parawing",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1250",
+        "358",
+        "75",
+        "Short"
+      ],
+      "feedback": "Works for me",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgZ-mdA-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Plymouth, New Zealand)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "920 Tempo",
+        "25 Skinny",
+        "72 Pro mast",
+        "Ti Link"
+      ],
+      "feedback": "Going fast, conditions don't always allow me to ride it but when I do.  I get the giggles going fast",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgZ-mdA-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Plymouth, New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "890 surge",
+        "280 surf",
+        "800 pro mast",
+        "Crazy short"
+      ],
+      "feedback": "The pitchablity for the pump and maneuverability.  1 size up on the tail or 1 size up on the fuse length gives more stability in pitch but still super rippable",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgZ-mdA-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Plymouth, New Zealand)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1500",
+        "30 skinny",
+        "800 Pro mast",
+        "Crazy short"
+      ],
+      "feedback": "So easy and efficient.  Slightly bigger on the rear wing to keep it's presents and lift to hold a longer glide but not to much bigger that the drag is a crazy downside",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgZ-mdA-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Plymouth, New Zealand)",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1250 fireball",
+        "25",
+        "800 Pro mast",
+        "Silly short"
+      ],
+      "feedback": "Just super comfortable to pump around.  Nothing crazy on distance but still efficient and fun",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiGZqP4-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Denmark, Hanstholm)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Spitfire 780",
+        "Progressive 300/60",
+        "82cm HM power carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "Surfy and good control",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiGZqP4-Pump_Flat_Water",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Denmark, Hanstholm)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "1401",
+        "300/60 progressive",
+        "75cm hm power carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "Glide, control speed",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiGZqP4-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Denmark, Hanstholm)",
+      "discipline": "Dock Start",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "1401",
+        "300/60 progressive",
+        "75cm hm power carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "Glide control and speed",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjnY9aM-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Nor cal/southern Or coast)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "830 surge",
+        "320 surf skinny",
+        "90cm UHM Pro",
+        "Adv black ultrashort"
+      ],
+      "feedback": "Super loose and carvey but not switchy. Feel in control even at top speed. Ex 780sp rider",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiHIyjM-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Ukraine)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball",
+        "370",
+        "90",
+        "Ultrashort"
+      ],
+      "feedback": "It\u2019s cool setap",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiruE70-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Rhodes, Greece)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art V2 879, surge 830",
+        "Surf skinny 300",
+        "UHM 90cm",
+        "Black adv+ ultrashort"
+      ],
+      "feedback": "ArtV2 for the speed glide and aggression and the surge for the control surf feel and easy of use",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiruE70-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Rhodes, Greece)",
+      "discipline": "Parawing",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 950",
+        "Surf skinny 300",
+        "UHM90",
+        "Ultrashort adv+"
+      ],
+      "feedback": "Easy get up, supper surfy and good low end",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "fireball 1250 (art 1401 for the flat)",
+        "Skinny 35 but changing to skinny surf 43 (which work SO good with fireball 1250!!)",
+        "82 HM Carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "For our conditions in Switzerland it\u2019s the must have. You can turn and have a lot of glide in the wave. I use the same set up (1250) for pumping in the flat. \nFor wakethiefing, I use the 1401 to assure my starts and catch the boat waves. With the weight of the board (SUP) it works good. But I plan to use also the 1250 on the flat days. I already use it on the small small days (quite small in Switzerland \ud83d\ude05) and it works already good.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Surf skinny 43",
+        "82 HM Carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "It\u2019s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What\u2019s also interesting is that I also find the glide and the front projection, like the skinny 35. So it\u2019s very good cause I found all the points I was searching for with a set up",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Surf skinny 43",
+        "82cm HM Carbob",
+        "Black ultrashort"
+      ],
+      "feedback": "It\u2019s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What\u2019s also interesting is that I also find the glide and the front projection, like the skinny 35. So it\u2019s very good cause I found all the points I was searching for with a set up",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Art 999 ( fireball 1250 when it\u2019s small)",
+        "Skinny 40",
+        "82cm HM carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "When there\u2019s some waves by us (strong wind), I use the artpro999 which allows me more fault with speed. I put the skinny 40 to increase  bit the drag and have more control. But it\u2019s not the set up I use the most. Sometimes I use also the fireball 1250, which is really my allround wing",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Art999 / fireball 1250 in small conditions",
+        "Skinny 35 / surf skinny 43",
+        "82cm HM Carbon",
+        "Black ultrashort"
+      ],
+      "feedback": "In small conditions, fireball goes well. The limit is 18-20knot in a 4m parading (for me). I also use the art 999 but I don\u2019t do so much parawing. Much more SUP DW / SUP foiling",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDUf3q-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (France oc\u00e9an basque country)",
+      "discipline": "Downwind SUP",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "320 skinny surf",
+        "Uhm 80cm",
+        "Short advance"
+      ],
+      "feedback": "The glide is insane !",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDUf3q-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (France oc\u00e9an basque country)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 840",
+        "320 skinny surf",
+        "Uhm 80",
+        "Short advance"
+      ],
+      "feedback": "Can Andle the strong carving",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDUf3q-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (France oc\u00e9an basque country)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 890",
+        "320 skinny surf",
+        "Uhm 80",
+        "Short advance"
+      ],
+      "feedback": "Nice in every conditions",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "Downwind SUP",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 960",
+        "35",
+        "82 cm HM Carbon",
+        "Ti Link"
+      ],
+      "feedback": "It\u2019s incredibly fast, stiff and can keep up with open ocean swells and has plenty of low end for less than ideal days",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 830",
+        "Progressive 280",
+        "82cm HM Carbon",
+        "Black Ultrashort"
+      ],
+      "feedback": "I can take it down winding, it\u2019s also my favorite in the surf. The wing turns incredibly well and has plenty of low end for me to link multiple waves together.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 780",
+        "Progressive 280",
+        "82cm HM Carbon",
+        "Black Ultrashort"
+      ],
+      "feedback": "The 780 Surge is my go to for wing foiling. It has a phenomenally sharp turning. Pair this with the Ultra short fuse and a positive 1/2 degree shim plate with the progressive 280 tail and you still have great pitch stability for a smaller wing. Having the different options of fuse length, tail size, and shims can make you tailor your Axis setup for each riders personal preference and riding style. Definitely the coolest part of Axis is how many different combinations you can make with each front wing",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "Tow-In",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 780",
+        "Progressive 280",
+        "82cm HM Carbon",
+        "Black Crazyshort"
+      ],
+      "feedback": "I love how solid the 82cm HM Carbon mast is for tow foiling. I can exceed speeds of over 25 mph and never feel a wiggle in the mast. The fuselage connection is just as solid. The Surge 780 turns extremely well paired with the Crazyshort fuse, I add in a positive full degree shim plate to ensure pitch stability. I have been absolutely loving this setup while tow foiling!",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890",
+        "Progressive 300",
+        "82cm HM Carbon",
+        "Black Ultrashort"
+      ],
+      "feedback": "What I love most about the Surge 890 while riding my SUP in the surf is the combination of glide and surfy feeling. I am able to rip turns and link waves for 10 plus minutes. Having the option for different fuse lengths and tail styles and sizes allow each rider to tailor a setup exactly for their own riding style. Personally using a Ultrashort fuse paired with a 300 progressive tail and a positive 1/2 degree shim with the 890 Surge has allowed for me to do exactly what I desire each session.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Maui)",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890",
+        "Progressive 280",
+        "82cm HM Carbon",
+        "Black Ultrashort"
+      ],
+      "feedback": "What I love most with this setup parawing is its ability to fly at high speeds and turning on a dime. Once I\u2019m up on foil I\u2019m able to stash the parawing and have full confidence in the low end of the front wing anywhere from 15-35 mph wind. I have used this setup in some rather large surf while on the parawing and it never ceases to amaze me.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh2BiqW-Downwind_SUP",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland New Zealand)",
+      "discipline": "Downwind SUP",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Depends on conditions.  Wind against tide then surge 1010.  Light winds fireball 1350",
+        "Surf skinny 300 for wind against tide, or skinny 40",
+        "Uhm80",
+        "Black ultrashort"
+      ],
+      "feedback": "Love the surge for steeper surfy conditions and the fireball for its glide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh2BiqW-SUP_(Non-DW)",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland New Zealand)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Surge 1010",
+        "Surf skinny 300",
+        "Uhm80",
+        "Black ultra"
+      ],
+      "feedback": "Fun for turns.  Able to link waves",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh2BiqW-Parawing",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Auckland New Zealand)",
+      "discipline": "Parawing",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "1-2 years",
+      "products_mentioned": [
+        "Surge 1010",
+        "Surf skinny 300",
+        "Uhm80",
+        "Black ultra"
+      ],
+      "feedback": "Particularly good in fun steep bumps like wind against tide",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH-Prone_Surf",
+      "date": "2026-03-08",
+      "author": "Survey Rider (So Cal)",
+      "discipline": "Prone Surf",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "SKINNY - 358/30",
+        "72cm Cedrus Forged Aluminum",
+        "Crazyshort advance+"
+      ],
+      "feedback": "Great pump and glide.  Turns well enough.  Wide speed range.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH-Wake_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (So Cal)",
+      "discipline": "Wake Foiling",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "SKINNY - 358/30",
+        "Cedrus 82.5cm Evolution Surf",
+        "Crazy Short Advance +"
+      ],
+      "feedback": "Great pump and glide.  Turns well enough.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH-Tow-In",
+      "date": "2026-03-08",
+      "author": "Survey Rider (So Cal)",
+      "discipline": "Tow-In",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "F-One Sk8 650",
+        "160",
+        "Cedrus 82.5cm Evolution Surf"
+      ],
+      "feedback": "Closest feeling to riding a short board.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH-Pump_Flat_Water",
+      "date": "2026-03-08",
+      "author": "Survey Rider (So Cal)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "PNG 1300 V2",
+        "SKINNY - 358/30",
+        "82.5cm Cedrus Evolution Surf",
+        "Crazy Short advance+"
+      ],
+      "feedback": "Fairly easy to dock start, turns well",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (So Cal)",
+      "discipline": "Dock Start",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1300 PNG V2",
+        "SKINNY - 358/30",
+        "Cedrus 82.5cm Evolution Surf",
+        "Crazy short advance plus"
+      ],
+      "feedback": "Fairly easy to dock start, turns well",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgXZi_i-Foil_Assist",
+      "date": "2026-03-09",
+      "author": "Survey Rider (santa cruz)",
+      "discipline": "Foil Assist",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "surge 950/890/830",
+        "surf 320",
+        "integrated carbon 80cm",
+        "advanced + ultra short"
+      ],
+      "feedback": "feels surfy",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNipQpDr-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Z\u00fcrich)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fb 1500",
+        "Other brand",
+        "80 uhm pro",
+        "Crazy short"
+      ],
+      "feedback": "Lower energy needed than other foils with rather high speed and good maneuverability",
+      "sentiment": "positive",
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNipQpDr-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Z\u00fcrich)",
+      "discipline": "Dock Start",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fb 1350/1250",
+        "other brand",
+        "80 uhm pro",
+        "Advance+ crazy short"
+      ],
+      "feedback": "1350 is easy to start from almost anywhere and also difficult conditions, 1250 is much more agile and fun to ride",
+      "sentiment": "positive",
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (West coast Ireland)",
+      "discipline": "Downwind SUP",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 1090 fireball 1160",
+        "40 link, 30mm skinny",
+        "80 pro",
+        "Ti link, ultrashort adv +"
+      ],
+      "feedback": "Glide and speed",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (West coast Ireland)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art pro 999",
+        "40 skinny",
+        "80 pro",
+        "Crazyshort adv +"
+      ],
+      "feedback": "Great lift,speed and turning, holds a turn in waves great",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (West coast Ireland)",
+      "discipline": "Tow-In",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art pro 699",
+        "35 skinny",
+        "80 pro",
+        "Ultrashort adv +"
+      ],
+      "feedback": "Awesome confidence,speed and turn ability",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (West coast Ireland)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1160, Art pro 999",
+        "40 skinny",
+        "80 pro",
+        "Crazyshort adv +"
+      ],
+      "feedback": "Both great foils depending the type of wave both have easy,early lift and holds great in turns",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (West coast Ireland)",
+      "discipline": "Parawing",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1250 and 1160",
+        "35 skinny",
+        "80 pro",
+        "Ultrashort adv +"
+      ],
+      "feedback": "Early easy start, allowing the ability to use smaller parawings",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhpARUx-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Western Australia)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 780",
+        "350 Progressive",
+        "82 cm Aluminium",
+        "Black Short"
+      ],
+      "feedback": "Good for surging reef break",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhpARUx-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Western Australia)",
+      "discipline": "Tow-In",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 720",
+        "350 Progressive",
+        "82 cm Alumina",
+        "Black Short"
+      ],
+      "feedback": "Controllable in bigger surf",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhpARUx-Foil_Assist",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Western Australia)",
+      "discipline": "Foil Assist",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spitfire 840",
+        "350 Progressive",
+        "82cm Aluminium",
+        "Black Short"
+      ],
+      "feedback": "Easy to get on foil, can hold in reasonable size",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiLL6-k-Wake_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Seitzerland)",
+      "discipline": "Wake Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Spifire 840",
+        "Skinny 40/359",
+        "80cm UHM Pro",
+        "Black Silly Advance+"
+      ],
+      "feedback": "Carving on wakesurf waves with this setup is incredibly fun. The shorter fuselage makes the foil more pitch-sensitive, but it also gives it a very lively and responsive feel. As a result, the foil turns extremely quickly and allows for tight, dynamic carves on the wave.\n\nI\u2019m really looking forward to testing the new Surge wings behind the wakeboat as well. Unfortunately, I haven\u2019t had the opportunity yet, but I\u2019m excited to see how they perform in that kind of wave.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiLL6-k-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Seitzerland)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1500 Fireball or 1750 Fireball",
+        "Skinny 30/360",
+        "Fatty 80",
+        "Silly Short Advance +"
+      ],
+      "feedback": "With the 1500, I can easily do runs of over 10 minutes. It has incredible glide, and for a wing with a 1500 span it still turns surprisingly well. It even works in small waves.\n\nWith the bigger 1750, I managed to complete my one-hour challenge. It\u2019s an amazing glider, but these wings are quite pitch-sensitive and not the easiest to start. However, once you manage the start, it feels like you can pump forever.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiLL6-k-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Seitzerland)",
+      "discipline": "Dock Start",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 1010 and Png 1300",
+        "Skinny 30/360 or Surf Skinny 43/280",
+        "UHM Pro 80",
+        "Silly Short Advence +"
+      ],
+      "feedback": "The PNG 1300 is one of the most versatile pump foil wings. It offers excellent glide, smooth and predictable turns, and performs surprisingly well even in small waves.\n\nThe Surge 1010 is better suited for shorter runs and riders who want to practice tight, aggressive turns. It\u2019s incredibly fun and fast, but also more challenging for dock starts.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Pompano beach florida)",
+      "discipline": "Downwind SUP",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "300 surf skinny",
+        "72 uhm",
+        "Black pschoshort and crazyshort"
+      ],
+      "feedback": "Fast, easy pump, good turning.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Pompano beach florida)",
+      "discipline": "Prone Surf",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "950 surge",
+        "300 surf skinny",
+        "72 uhm",
+        "Black crazy short"
+      ],
+      "feedback": "Easy pop ups, great carving and pumping.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Pompano beach florida)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "830 surge 950 surge 939v2.",
+        "300 surf skinny",
+        "72 uhm",
+        "Psycho short"
+      ],
+      "feedback": "Set up for sea conditions",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Pompano beach florida)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1350 fireball 1070 fireball or 1010 surge",
+        "300 surf skinny",
+        "72 uhm",
+        "Psycho or crazy short"
+      ],
+      "feedback": "Set for sea conditions",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Pompano beach florida)",
+      "discipline": "Parawing",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1350 fireball 950 surge 1070 fireball",
+        "300 surf skinny",
+        "72 uhm",
+        "Psycho or crazy short"
+      ],
+      "feedback": "Set for all conditions",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh--Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Oahu-Maui)",
+      "discipline": "Downwind SUP",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Tempo 920",
+        "25 rear skinny",
+        "80cm Ultra High Modulous (or Kaiwi mast ;)",
+        "Tempo Titanium"
+      ],
+      "feedback": "Very fast and responding but has enough low end that keeps it up the whole time",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh--Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Oahu-Maui)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 720",
+        "280 surf skinny",
+        "80cm UHM",
+        "Crazy Short"
+      ],
+      "feedback": "Very very quick and responsive. Also super loose and feels like surfing",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh--Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Oahu-Maui)",
+      "discipline": "Tow-In",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "720 Surge",
+        "280 Surf Skinny",
+        "82cm HM",
+        "Crazy short"
+      ],
+      "feedback": "Fast and can carve on big waves",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh--SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Oahu-Maui)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 880",
+        "300 Skinny",
+        "80cm UHM",
+        "Crazy short"
+      ],
+      "feedback": "Loose in the surf and has lots of low end to pump",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh--Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Oahu-Maui)",
+      "discipline": "Parawing",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "740 Surge",
+        "300 skinny",
+        "80cm UHM",
+        "Crazy short"
+      ],
+      "feedback": "Gets up on small bumps and can surf the trophs well",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgTWFsr-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Auesee Germany)",
+      "discipline": "Wing Foiling",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Art v2 999",
+        "Skinny 346",
+        "82 cm Carbon",
+        "Ultrashort"
+      ],
+      "feedback": "Works vor me in almost every conditionen",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgTWFsr-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Auesee Germany)",
+      "discipline": "Dock Start",
+      "weight_range": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Png v2 1200",
+        "Skinny 345",
+        "75 Alu",
+        "Ultrashort"
+      ],
+      "feedback": "I'm a beginner und I'm still learning",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNj73DvN-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Northland New Zealand)",
+      "discipline": "Downwind SUP",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1020 and 1090 Tempo",
+        "Skinny link 35 and 30",
+        "HM 82",
+        "Short or ultra"
+      ],
+      "feedback": "Fast and can keep up with ground swell local run has open fetch",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "Prefer not to say"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNj73DvN-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Northland New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 890",
+        "300 surf skinny",
+        "82 HM",
+        "Ultra short"
+      ],
+      "feedback": "Rolls super easy back and forth not as locked in to one big sweeping turn as my spitfire more playful and maneuverable",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "Prefer not to say"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNj73DvN-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Northland New Zealand)",
+      "discipline": "Wing Foiling",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 1020",
+        "30 link",
+        "82 HM",
+        "Short"
+      ],
+      "feedback": "Fast and good for riding ground swell!",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "Prefer not to say"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNj73DvN-Parawing",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Northland New Zealand)",
+      "discipline": "Parawing",
+      "weight_range": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 1020 and 1090",
+        "Skinny Link 30 and 35",
+        "HM82",
+        "Short"
+      ],
+      "feedback": "Fast and glides",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "Prefer not to say"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhOK6Wj-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (The Gorge/LaVentana)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "Surf Skinny 300",
+        "Ultra 800",
+        "Ultrashort Advanced"
+      ],
+      "feedback": "It does everything well. I need to get more time on the Surge to determine if that is better suited for both Parawing and Wingfoil.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhOK6Wj-Parawing",
+      "date": "2026-03-08",
+      "author": "Survey Rider (The Gorge/LaVentana)",
+      "discipline": "Parawing",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "Surf skinny 300",
+        "Ultra 800",
+        "US Advanced"
+      ],
+      "feedback": "It glides well, gets up on foil super easy and turns ok.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhOK6Wj-Foil_Assist",
+      "date": "2026-03-08",
+      "author": "Survey Rider (The Gorge/LaVentana)",
+      "discipline": "Foil Assist",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "ART 999 v2",
+        "Skinny 45",
+        "80 aluminum integrated.",
+        "US advanced"
+      ],
+      "feedback": "Glides and pumps well.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Downwind SUP",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "960 tempo",
+        "25 skinny",
+        "72 pro mast",
+        "Ti link"
+      ],
+      "feedback": "The 950 is fast enough to get up and over bumps while still being easy enough to paddle up",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "890 surge",
+        "280/43 surf sinny",
+        "800 or 900 pro mast",
+        "Black Crazyshort"
+      ],
+      "feedback": "This is super easy to roll rail to rail. While still having really good pump to connect multiple waves.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-Tow-In",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Tow-In",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "840 surge",
+        "280/43 surf skinny",
+        "900 pro mast",
+        "Ultrashort black"
+      ],
+      "feedback": "We tow a beach break and pumping the 830 to get more waves is perfect and its stable to really lay into turns.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-Pump_Flat_Water",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Pump/Flat Water",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1750 fireball",
+        "25 skinny",
+        "800 fatty",
+        "Psychoshort black"
+      ],
+      "feedback": "The glide of the 1740 is amazing and being able to pump into the wind easily really makes all the difference.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-Dock_Start",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "Dock Start",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "1750 fireball or 1500 fireball",
+        "25 skinny",
+        "800 fatty",
+        "Psychoshort black"
+      ],
+      "feedback": "Just a really good glidy setup to cruise on.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR-SUP_(Non-DW)",
+      "date": "2026-03-09",
+      "author": "Survey Rider (New Zealand)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "890 surge or 950 surge",
+        "43/280 surf skinny",
+        "900 pro mast",
+        "Crazyshort black"
+      ],
+      "feedback": "With the longer mast it makes turning the bigger board so good.",
+      "sentiment": "positive",
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgNV8Nc-Downwind_SUP",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Milfontes, Portugal)",
+      "discipline": "Downwind SUP",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 960",
+        "Ti skinny 30",
+        "80 ultra",
+        "Tilink"
+      ],
+      "feedback": "Performance, comfort, amazing low hand and top hand.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgNV8Nc-Prone_Surf",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Milfontes, Portugal)",
+      "discipline": "Prone Surf",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 830",
+        "Skinny surf 320",
+        "72 ultra",
+        "Crazy short advance+"
+      ],
+      "feedback": "For the turns. The speed, the good pump",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgNV8Nc-Wing_Foiling",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Milfontes, Portugal)",
+      "discipline": "Wing Foiling",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 780",
+        "Skinny surf 300",
+        "90 Carbon HM",
+        "Crazy short ad+"
+      ],
+      "feedback": "Comfort, turn and speed",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgNV8Nc-Foil_Assist",
+      "date": "2026-03-09",
+      "author": "Survey Rider (Milfontes, Portugal)",
+      "discipline": "Foil Assist",
+      "weight_range": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 740",
+        "Surf skinny 300",
+        "90hm",
+        "Ultrashort adv+"
+      ],
+      "feedback": "Comfort, speed",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiOFOYX-Prone_Surf",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Christchurch, New Zealand)",
+      "discipline": "Prone Surf",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 950",
+        "Surf Skinny 300",
+        "HM 82",
+        "Black ultrashort advanced+"
+      ],
+      "feedback": "Larger wing for better pump. Usually waist high surf",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiOFOYX-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Christchurch, New Zealand)",
+      "discipline": "Wing Foiling",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 950",
+        "Surf Skinny 300",
+        "HM 82",
+        "Black ultrashort advanced+"
+      ],
+      "feedback": "Great glide and turn for wave and bump riding",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiOFOYX-Tow-In",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Christchurch, New Zealand)",
+      "discipline": "Tow-In",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 950",
+        "Surf Skinny 300",
+        "HM 82",
+        "Black ultrashort advanced+"
+      ],
+      "feedback": "Same waves as prone, not big waves. Heaps of pump and great turning",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiOFOYX-Dock_Start",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Christchurch, New Zealand)",
+      "discipline": "Dock Start",
+      "weight_range": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Png v2 1300",
+        "Skinny 45",
+        "HM 82",
+        "Black crazy short advanced+"
+      ],
+      "feedback": "I'm still learning but heaps of pump and a little forgiving.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0pa9L-Downwind_SUP",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Matanzas Chile)",
+      "discipline": "Downwind SUP",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1070",
+        "Surfskinny 300",
+        "HM carbon 75",
+        "Ultrashort adv+"
+      ],
+      "feedback": "Fast, plenty of pump and glide and still turns good",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0pa9L-Prone_Surf",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Matanzas Chile)",
+      "discipline": "Prone Surf",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 890",
+        "Surf skinny 300",
+        "75cm HM carbon",
+        "Ultrashort adv+"
+      ],
+      "feedback": "Lots of control, turns good, pumps good",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0pa9L-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Matanzas Chile)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Surge 890 and surge 780",
+        "Surfskinny 300",
+        "82cm HM carbon",
+        "Ultrashort adv+"
+      ],
+      "feedback": "Good control in waves, turns good, gets going easily",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0pa9L-SUP_(Non-DW)",
+      "date": "2026-03-08",
+      "author": "Survey Rider (Matanzas Chile)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "products_mentioned": [
+        "Fireball 1250",
+        "Surfskinny 300",
+        "75cm HM carbon",
+        "Ultrashort advanced+"
+      ],
+      "feedback": "Epic setup on the new dart 120lt when it's tiny. Get into the smallest of waves and pump around forever",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjairar-Wing_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (San Francisco Bay)",
+      "discipline": "Wing Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Tempo 1090, surge 890",
+        "Skinny surf 300, ti skinny 45",
+        "Ultra pro 900",
+        "Ti link, ultrashort +60"
+      ],
+      "feedback": "Fast, smooth, stable. Glides for ever",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjairar-Kite_Foiling",
+      "date": "2026-03-08",
+      "author": "Survey Rider (San Francisco Bay)",
+      "discipline": "Kite Foiling",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 830",
+        "Skinny 320",
+        "Pro 90",
+        "Short +60"
+      ],
+      "feedback": "Super stable and easy",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjairar-SUP_(Non-DW)",
+      "date": "2026-03-08",
+      "author": "Survey Rider (San Francisco Bay)",
+      "discipline": "SUP (Non-DW)",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 1010",
+        "Skinny 320",
+        "Pro 72",
+        "Crasyshort +60"
+      ],
+      "feedback": "Perfect foil for tiny bumps. Endless pump and glide. Great turning.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjairar-Foil_Assist",
+      "date": "2026-03-08",
+      "author": "Survey Rider (San Francisco Bay)",
+      "discipline": "Foil Assist",
+      "weight_range": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "products_mentioned": [
+        "Surge 950",
+        "Skinny 320",
+        "Integrated HM",
+        "Short +60"
+      ],
+      "feedback": "Best foil drive setup.",
+      "sentiment": "positive",
+      "gender": null,
+      "age_group": null
     }
   ]
 }

@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-09T08:24:17.063997",
-    "total_riders": 35
+    "last_updated": "2026-03-09",
+    "total_riders": 93
   },
   "riders": [
     {
@@ -770,6 +770,2469 @@
         }
       },
       "source": "AXIS Foil Riders Survey, Mar 2026"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWxAxf",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
+      "disciplines": [
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 890, 1010 desperately waiting for the Surge 1150",
+          "rear_wing": "320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830",
+          "mast": "HM 90",
+          "fuselage": "Short advance+ and short advance +20. +20 is used in bigger waves."
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhFIZ6X",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to",
+      "disciplines": [
+        "Wing Foiling",
+        "Wake Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "ARTV2 879",
+          "rear_wing": "Surf Skinny 320 or Skinny 40",
+          "mast": "900 HM",
+          "fuselage": "US for waves, Short for speed or flat water"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "PNG 910b or Spitfire 960",
+          "rear_wing": "Prog 350",
+          "mast": "750 HM",
+          "fuselage": "US"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkaj88",
+      "date": "2026-03-09",
+      "name": "Survey Rider (San Diego California)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "location": "San Diego California",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Tow-In"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1000",
+          "rear_wing": "Skinny 358/30 and the 25",
+          "mast": "Pro Ultra High Modulus Carbon 800",
+          "fuselage": "Black advanced+ short"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Spirt fire 780",
+          "rear_wing": "Surf skinny 280/43",
+          "mast": "Pro Ultra High modulus 800",
+          "fuselage": "Black silly short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Fireball 880",
+          "rear_wing": "280/43 surf skinny",
+          "mast": "I rare the ultra 800 but ideally the 1050 for winging",
+          "fuselage": "Black advanced plus short fuse"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Spitfire 780",
+          "rear_wing": "Surf skinny 280/43",
+          "mast": "Ultra 800",
+          "fuselage": "Black silly short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNifudT3",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Sydney)",
+      "weight": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "location": "Sydney",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "1250 fireball",
+          "rear_wing": "50 skinny",
+          "mast": "Uhm 70",
+          "fuselage": "Short 70"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 1010",
+          "rear_wing": "Skinny 50",
+          "mast": "UHM 80",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgtSnoR",
+      "date": "2026-03-10",
+      "name": "Survey Rider (Le Morne (Mauritius))",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Le Morne (Mauritius)",
+      "disciplines": [
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 940",
+          "rear_wing": "Skinny 35",
+          "mast": "Ultra 80",
+          "fuselage": "Adv+ 640"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjsrQEi",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Hobart, Tasmania)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "location": "Hobart, Tasmania",
+      "disciplines": [
+        "Wing Foiling",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Art V2 999",
+          "rear_wing": "365 45 skinny",
+          "mast": "75 Alu",
+          "fuselage": "Black Adv+ Short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "AP 1201",
+          "rear_wing": "400P",
+          "mast": "75 Alu",
+          "fuselage": "Black Adv+ short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjIFrHq",
+      "date": "2026-03-09",
+      "name": "Survey Rider (France)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "France",
+      "disciplines": [
+        "Downwind SUP"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 960",
+          "rear_wing": "Ultra 30",
+          "mast": "Ultra 80",
+          "fuselage": null
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhppFzB",
+      "date": "2026-03-10",
+      "name": "Survey Rider (West Oz)",
+      "weight": "Over 105 kg / 231 lbs",
+      "experience": "4+ years",
+      "location": "West Oz",
+      "disciplines": [
+        "Prone Surf",
+        "Wing Foiling",
+        "Tow-In",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "1010 surge",
+          "rear_wing": "320 surf",
+          "mast": "Uhm 80",
+          "fuselage": "short | ultra short Adv +"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 890",
+          "rear_wing": "320 surf",
+          "mast": "90 uhm",
+          "fuselage": "Short / ultrashort adv+"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Surge 780",
+          "rear_wing": "320 surf",
+          "mast": "90 uhm",
+          "fuselage": "Short adv +"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "1010 surge",
+          "rear_wing": "320",
+          "mast": "Uhm 80",
+          "fuselage": "Short adv +"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhDlRWe",
+      "date": "2026-03-09",
+      "name": "Survey Rider (The Gorge)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "location": "The Gorge",
+      "disciplines": [
+        "Wing Foiling",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "ART v2 819",
+          "rear_wing": "Surf 280",
+          "mast": "82 high modulus",
+          "fuselage": "Black ultrashort advanced plus"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Surge 830",
+          "rear_wing": "Surf 280",
+          "mast": "82 HM carbon",
+          "fuselage": "Black ultrashort advanced plus"
+        }
+      ],
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgpA8SC",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Maui, Australia)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "location": "Maui, Australia",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Dock Start",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 1020, surge 830",
+          "rear_wing": "30 TI link, 300 surf skinny",
+          "mast": "78 kaiwi",
+          "fuselage": "Ti link, ultrashort"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "830 surge",
+          "rear_wing": "300 surf skinny",
+          "mast": "80 Uhm pro",
+          "fuselage": "Black ultra short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "950 surge",
+          "rear_wing": "320 surf skinny",
+          "mast": "Kaiwi 78",
+          "fuselage": "Black ultra short"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "830",
+          "rear_wing": "300 surf skinny",
+          "mast": "78 kaiwi",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDlytc",
+      "date": "2026-03-08",
+      "name": "Survey Rider (San Francisco Bay Area)",
+      "weight": "Over 105 kg / 231 lbs",
+      "experience": "2-4 years",
+      "location": "San Francisco Bay Area",
+      "disciplines": [
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 1100",
+          "rear_wing": "Skinny 365/55",
+          "mast": "90cm HM Carbon",
+          "fuselage": "Black Advanced Short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiWvGsh",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Bari Italy)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "location": "Bari Italy",
+      "disciplines": [
+        "Downwind SUP",
+        "Pump/Flat Water",
+        "SUP (Non-DW)"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Speed 420",
+          "mast": "Alluminum 75",
+          "fuselage": "Black ultrashort adv+"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Speed 420",
+          "mast": "Alluminum 75",
+          "fuselage": "Black ultrashort adv+"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Speed 420",
+          "mast": "Alluminum 75",
+          "fuselage": "Black ultrashort adv+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjmv7QN",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Mission Bay, San Diego)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "location": "Mission Bay, San Diego",
+      "disciplines": [
+        "Wing Foiling",
+        "Wake Foiling",
+        "Tow-In"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 1100",
+          "rear_wing": "Skinny 365/55",
+          "mast": "82 HMPC",
+          "fuselage": "Advanced short"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "HPS980",
+          "rear_wing": "365/55 skinny",
+          "mast": "82 HMPC",
+          "fuselage": "Advanced short"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Spitfire 840",
+          "rear_wing": "Skinny 365/55",
+          "mast": "900 HMPC",
+          "fuselage": "Advanced short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhw-94Y",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Sardinia)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "location": "Sardinia",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Wake Foiling",
+        "Tow-In"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo",
+          "rear_wing": null,
+          "mast": "72",
+          "fuselage": "Ti link"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge",
+          "rear_wing": null,
+          "mast": "85",
+          "fuselage": "Black ultra short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge for freeride",
+          "rear_wing": "Skinny",
+          "mast": "82",
+          "fuselage": "Black ultra short"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Same as Prone",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Same as prone",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNitf0Ee",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Lyttleton)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "location": "Lyttleton",
+      "disciplines": [
+        "Prone Surf",
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Spitfire 840",
+          "rear_wing": "400 progressive",
+          "mast": "75cm aluminum",
+          "fuselage": "Black ultra short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 840",
+          "rear_wing": "300 progressive",
+          "mast": "75cm aluminum",
+          "fuselage": "Ultra short black"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiKeYoW",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Columbia River Gorge)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Columbia River Gorge",
+      "disciplines": [
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 900",
+          "rear_wing": null,
+          "mast": "90CM HM",
+          "fuselage": "Crazyshort adv+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgl3wAE",
+      "date": "2026-03-10",
+      "name": "Survey Rider (North Sea)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "location": "North Sea",
+      "disciplines": [
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 780",
+          "rear_wing": "Skinny 358/35",
+          "mast": "90cm Power Carbon",
+          "fuselage": "Black Ultrashort Advanced"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiBX4Zv",
+      "date": "2026-03-08",
+      "name": "Survey Rider (The Gorge, not Hood River :))",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "The Gorge, not Hood River :)",
+      "disciplines": [
+        "Wing Foiling",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 890",
+          "rear_wing": "Skinny 45",
+          "mast": "90cm Aluminum",
+          "fuselage": "Advance Ultra Short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "PNG 1150",
+          "rear_wing": "375 progressive",
+          "mast": "75cm Aluminum",
+          "fuselage": "Advanced Ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjuIjIq",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Eyre peninsular)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Eyre peninsular",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Dock Start",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Chopped artpro 1001 (to 840)",
+          "rear_wing": "Chopped skinny 45 (to 300)",
+          "mast": "80 uhm",
+          "fuselage": "Black ultrashort advance"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Art 899",
+          "rear_wing": "Skinny 45",
+          "mast": "80 uhm",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Chopped 1001 (to 840)",
+          "rear_wing": "Chopped skinny 45 (to 300)",
+          "mast": "80 uhm",
+          "fuselage": "Black ultrashort advance"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "PNG 1150",
+          "rear_wing": "Prog 300",
+          "mast": "82 ally",
+          "fuselage": "Red ultrashort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Chopped 1001 to 840",
+          "rear_wing": "Chopped skinny 45 to 300",
+          "mast": "80 uhm",
+          "fuselage": "Black ultrashort advance"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Modified 951",
+          "rear_wing": "45 skinny",
+          "mast": "80 uhm",
+          "fuselage": "Black ultrashort advance"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgnLK3f",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Cape Town)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "location": "Cape Town",
+      "disciplines": [
+        "Kite Foiling",
+        "Parawing",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Kite Foiling",
+          "front_wing": "Art pro 1001",
+          "rear_wing": "360/45 skinny",
+          "mast": "82 hm carbon",
+          "fuselage": "Crazy short advance +"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "35 skinny",
+          "mast": "82 hm carbon",
+          "fuselage": "Ultrashort advance+"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Konrad lx760 (but will try a surge)",
+          "rear_wing": "45 skinny",
+          "mast": "Soon to get integrated mast",
+          "fuselage": "Ultra adv+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMydkQ",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Wakefoiling on Lewis smith lake in Alabama)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "2-4 years",
+      "location": "Wakefoiling on Lewis smith lake in Alabama",
+      "disciplines": [
+        "Wing Foiling",
+        "Wake Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 960",
+          "rear_wing": "Skinny e5",
+          "mast": "75 hm carbon",
+          "fuselage": "Black ultrashort advanced"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "960 Spitfire",
+          "rear_wing": "Skinny 35",
+          "mast": "HM 75",
+          "fuselage": "Black ultrashort advance"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhY-RU4",
+      "date": "2026-03-09",
+      "name": "Survey Rider (sunshine coast australia)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "location": "sunshine coast australia",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Kite Foiling",
+        "Pump/Flat Water",
+        "Parawing",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "surge 1010 foildrive",
+          "rear_wing": "surf skinny 300",
+          "mast": "foildrive integrated high modulus",
+          "fuselage": "ultrashort"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "surge 1010 or surge 950",
+          "rear_wing": "surf skinny 300 or 320",
+          "mast": "foildrive integrated",
+          "fuselage": "untrashort"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "surge 1010 surge 950",
+          "rear_wing": "surf skinny 320 300",
+          "mast": "82 high mod carbon",
+          "fuselage": "ultrashort"
+        },
+        {
+          "discipline": "Kite Foiling",
+          "front_wing": "HPS 650/700",
+          "rear_wing": "surf skinny 320",
+          "mast": "82 high mod carbon",
+          "fuselage": "ultrashort"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "fireball 1350",
+          "rear_wing": "skinny 45",
+          "mast": "foildrive integrated",
+          "fuselage": "sillyshort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "surge 1010",
+          "rear_wing": "surf skinny 320",
+          "mast": "high mod 82",
+          "fuselage": "ultrashort"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "surge 1010 950",
+          "rear_wing": "surf skinny 300 320",
+          "mast": "integrated high mod",
+          "fuselage": "ultrashort"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "56-65"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjkC8XK",
+      "date": "2026-03-08",
+      "name": "Survey Rider",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "location": null,
+      "disciplines": [
+        "Downwind SUP",
+        "Wing Foiling",
+        "Pump/Flat Water",
+        "Dock Start",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1160",
+          "rear_wing": "Skinny 35",
+          "mast": "One ocean 78SS",
+          "fuselage": "Ultra short A+"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "Fireball 1350",
+          "rear_wing": "Ketos pk50",
+          "mast": "One Ocean 78SS",
+          "fuselage": "One ocean titanium 58cm"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Fireball 1350",
+          "rear_wing": "Ketos pk50",
+          "mast": "One ocean 78SS",
+          "fuselage": "One ocean titanium 58cm"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1160",
+          "rear_wing": "Skinny 35",
+          "mast": "One ocean 78SS",
+          "fuselage": "Ultrashort a+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjBMGYH",
+      "date": "2026-03-08",
+      "name": "Survey Rider (New Zealand)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "1-2 years",
+      "location": "New Zealand",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Dock Start",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "FB 1070",
+          "rear_wing": "Skinny 45",
+          "mast": "80 UHM",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 890",
+          "rear_wing": "SS 300",
+          "mast": "80UHM",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Spitfire 1180",
+          "rear_wing": "SS300",
+          "mast": "80UHM",
+          "fuselage": "Crazyshort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Surge 1010",
+          "rear_wing": "250 Progressive",
+          "mast": "80UHM",
+          "fuselage": "Crazyshort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "surge 1010",
+          "rear_wing": "Skinny 45",
+          "mast": "80UHm",
+          "fuselage": "Crazyshort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhstAcn",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Marblehead, MA)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Marblehead, MA",
+      "disciplines": [
+        "Wing Foiling",
+        "Wake Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "SF 840 / 960, ART v2 939",
+          "rear_wing": "325p",
+          "mast": "99cm HM",
+          "fuselage": "Blck Ad+ Ultra"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Same as wing",
+          "rear_wing": "Same as wing",
+          "mast": "Same",
+          "fuselage": "Same"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgPKvtu",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Lake district Uk)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "2-4 years",
+      "location": "Lake district Uk",
+      "disciplines": [
+        "Pump/Flat Water",
+        "Dock Start",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "Fireball 1350",
+          "rear_wing": "Skinny 358/25",
+          "mast": "75 ou 82 aluminium",
+          "fuselage": "Shillyshort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Fireball 1350",
+          "rear_wing": "Skinny 358/25",
+          "mast": "Aluminium 75  and 82",
+          "fuselage": "Physcoshort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1160",
+          "rear_wing": "Skinny 358/35",
+          "mast": "82 aluminium",
+          "fuselage": "Ultra short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNg3H8J9",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Vend\u00e9e France)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "location": "Vend\u00e9e France",
+      "disciplines": [
+        "Prone Surf",
+        "Wing Foiling",
+        "Wake Foiling",
+        "Tow-In",
+        "Dock Start",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Art v2 939 , surge 830 /890 , fireball 1070",
+          "rear_wing": "Skinny 40/50 et surf 300",
+          "mast": "UHM pro 800",
+          "fuselage": "Short -20 703 / short Ad 700 et ultra 640"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Fireball 1070 / png v2 1200 / v2 939",
+          "rear_wing": "Prog 375 / skinny 50",
+          "mast": "Uhm pro 800",
+          "fuselage": "Short 700"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Art 799 / art v2 939 /surge 830",
+          "rear_wing": "Surf 300 / prog 375",
+          "mast": "UHM Pro 800",
+          "fuselage": "Ultra short 640"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Art 799 / v2 939 / surge 830",
+          "rear_wing": "Prog 375 / surf 300",
+          "mast": "UHM Pro 800",
+          "fuselage": "Ultra short adv"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "PNG 1200 v2",
+          "rear_wing": "Skinny 40",
+          "mast": "UHM Pro 800",
+          "fuselage": "Ultra short adv"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Surge 890 / fireball 1070",
+          "rear_wing": "Prog 375",
+          "mast": "UHM Pro 800",
+          "fuselage": "Short -20"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0rLbG",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Donauinsel (Vienna))",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "location": "Donauinsel (Vienna)",
+      "disciplines": [
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 1180",
+          "rear_wing": "300 Progressive",
+          "mast": "82 Hm Carbon",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNikmGv9",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Auckland, New Zealand)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Auckland, New Zealand",
+      "disciplines": [
+        "Prone Surf",
+        "Wing Foiling",
+        "Wake Foiling",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 950",
+          "rear_wing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Crazy Short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Suge 950/830 Fireball 1070",
+          "rear_wing": "330 and 300 Surf Skinny, 400 Skinny",
+          "mast": "90cm HM",
+          "fuselage": "Black Short Advance+"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Surge 1010/950 Fireball 1070",
+          "rear_wing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Black Short Advance +"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Surge 1010/950",
+          "rear_wing": "300 Surf Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Black/Ulta/Crazy Advance+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjQejLI",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Switzerland)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "location": "Switzerland",
+      "disciplines": [
+        "Wing Foiling",
+        "Dock Start",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "spitfire 1100",
+          "rear_wing": "358 skinny",
+          "mast": "82 carbon",
+          "fuselage": "Silly short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Same as my previous answers",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Same as my previous answers",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjCscP6",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Honolulu)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Honolulu",
+      "disciplines": [
+        "Downwind SUP",
+        "Wing Foiling",
+        "Pump/Flat Water",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "1250 fireball",
+          "rear_wing": "358",
+          "mast": "75",
+          "fuselage": "Short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "939",
+          "rear_wing": "358",
+          "mast": "75",
+          "fuselage": "Short"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "1250 fireball",
+          "rear_wing": "358",
+          "mast": "75",
+          "fuselage": "Short"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "999",
+          "rear_wing": "358",
+          "mast": "74",
+          "fuselage": "Short"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "1250",
+          "rear_wing": "358",
+          "mast": "75",
+          "fuselage": "Short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjEctCH",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Bay of islands, NZ)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "location": "Bay of islands, NZ",
+      "disciplines": [
+        "Wing Foiling",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "ART pro 751",
+          "rear_wing": "Skinny 40",
+          "mast": "Hm carbon 102",
+          "fuselage": "Black short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Art pro 1201",
+          "rear_wing": "Skinny 40",
+          "mast": "Aluminium 90cm",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgZ-mdA",
+      "date": "2026-03-09",
+      "name": "Survey Rider (New Plymouth, New Zealand)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "New Plymouth, New Zealand",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Pump/Flat Water",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "920 Tempo",
+          "rear_wing": "25 Skinny",
+          "mast": "72 Pro mast",
+          "fuselage": "Ti Link"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "890 surge",
+          "rear_wing": "280 surf",
+          "mast": "800 pro mast",
+          "fuselage": "Crazy short"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "1500",
+          "rear_wing": "30 skinny",
+          "mast": "800 Pro mast",
+          "fuselage": "Crazy short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "1250 fireball",
+          "rear_wing": "25",
+          "mast": "800 Pro mast",
+          "fuselage": "Silly short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiGZqP4",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Denmark, Hanstholm)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "location": "Denmark, Hanstholm",
+      "disciplines": [
+        "Wing Foiling",
+        "Pump/Flat Water",
+        "Dock Start",
+        "SUP (Non-DW)"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 780",
+          "rear_wing": "Progressive 300/60",
+          "mast": "82cm HM power carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "1401",
+          "rear_wing": "300/60 progressive",
+          "mast": "75cm hm power carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "1401",
+          "rear_wing": "300/60 progressive",
+          "mast": "75cm hm power carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "1180",
+          "rear_wing": "300/60 progressive",
+          "mast": "75cm hm power carbon",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjnY9aM",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Nor cal/southern Or coast)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "location": "Nor cal/southern Or coast",
+      "disciplines": [
+        "Wing Foiling",
+        "Kite Foiling",
+        "Tow-In"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "830 surge",
+          "rear_wing": "320 surf skinny",
+          "mast": "90cm UHM Pro",
+          "fuselage": "Adv black ultrashort"
+        },
+        {
+          "discipline": "Kite Foiling",
+          "front_wing": "Surge 830, 899",
+          "rear_wing": "320 surf akinny",
+          "mast": "UHM",
+          "fuselage": null
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "830 aurge",
+          "rear_wing": "Surf skinny",
+          "mast": "UHM",
+          "fuselage": null
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiHIyjM",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Ukraine)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Ukraine",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Wake Foiling",
+        "Pump/Flat Water",
+        "Dock Start",
+        "Parawing",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball",
+          "rear_wing": "370",
+          "mast": "90",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Art",
+          "rear_wing": "420",
+          "mast": "82",
+          "fuselage": "Black Ultrashort"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Fireball",
+          "rear_wing": "420",
+          "mast": "90",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Surge",
+          "rear_wing": "300",
+          "mast": "82",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "PNG",
+          "rear_wing": "360",
+          "mast": "75",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "PNG 1300 v2",
+          "rear_wing": "360 / 45",
+          "mast": "75",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball",
+          "rear_wing": "420",
+          "mast": "90",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Surje",
+          "rear_wing": "300",
+          "mast": "75",
+          "fuselage": "Ultrashort"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiruE70",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Rhodes, Greece)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "location": "Rhodes, Greece",
+      "disciplines": [
+        "Wing Foiling",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Art V2 879, surge 830",
+          "rear_wing": "Surf skinny 300",
+          "mast": "UHM 90cm",
+          "fuselage": "Black adv+ ultrashort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Surge 950",
+          "rear_wing": "Surf skinny 300",
+          "mast": "UHM90",
+          "fuselage": "Ultrashort adv+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhflcrb",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Lutry, Leman Lake, Switzerland !)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "location": "Lutry, Leman Lake, Switzerland !",
+      "disciplines": [
+        "Downwind SUP",
+        "Pump/Flat Water",
+        "Dock Start",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "fireball 1250 (art 1401 for the flat)",
+          "rear_wing": "Skinny 35 but changing to skinny surf 43 (which work SO good with fireball 1250!!)",
+          "mast": "82 HM Carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Surf skinny 43",
+          "mast": "82 HM Carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Surf skinny 43",
+          "mast": "82cm HM Carbob",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
+          "rear_wing": "Skinny 40",
+          "mast": "82cm HM carbon",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Art999 / fireball 1250 in small conditions",
+          "rear_wing": "Skinny 35 / surf skinny 43",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black ultrashort"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiDUf3q",
+      "date": "2026-03-09",
+      "name": "Survey Rider (France oc\u00e9an basque country)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "location": "France oc\u00e9an basque country",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "320 skinny surf",
+          "mast": "Uhm 80cm",
+          "fuselage": "Short advance"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 840",
+          "rear_wing": "320 skinny surf",
+          "mast": "Uhm 80",
+          "fuselage": "Short advance"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 890",
+          "rear_wing": "320 skinny surf",
+          "mast": "Uhm 80",
+          "fuselage": "Short advance"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Fireball 1070",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1070",
+          "rear_wing": null,
+          "mast": null,
+          "fuselage": null
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi7RJOm",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Maui)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Maui",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Tow-In",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 960",
+          "rear_wing": "35",
+          "mast": "82 cm HM Carbon",
+          "fuselage": "Ti Link"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 830",
+          "rear_wing": "Progressive 280",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black Ultrashort"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 780",
+          "rear_wing": "Progressive 280",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black Ultrashort"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Surge 780",
+          "rear_wing": "Progressive 280",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black Crazyshort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Surge 890",
+          "rear_wing": "Progressive 300",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black Ultrashort"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Surge 890",
+          "rear_wing": "Progressive 280",
+          "mast": "82cm HM Carbon",
+          "fuselage": "Black Ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh2BiqW",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Auckland New Zealand)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "1-2 years",
+      "location": "Auckland New Zealand",
+      "disciplines": [
+        "Downwind SUP",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Depends on conditions.  Wind against tide then surge 1010.  Light winds fireball 1350",
+          "rear_wing": "Surf skinny 300 for wind against tide, or skinny 40",
+          "mast": "Uhm80",
+          "fuselage": "Black ultrashort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Surge 1010",
+          "rear_wing": "Surf skinny 300",
+          "mast": "Uhm80",
+          "fuselage": "Black ultra"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Surge 1010",
+          "rear_wing": "Surf skinny 300",
+          "mast": "Uhm80",
+          "fuselage": "Black ultra"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiMJ3AH",
+      "date": "2026-03-08",
+      "name": "Survey Rider (So Cal)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "location": "So Cal",
+      "disciplines": [
+        "Prone Surf",
+        "Wake Foiling",
+        "Tow-In",
+        "Pump/Flat Water",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "SKINNY - 358/30",
+          "mast": "72cm Cedrus Forged Aluminum",
+          "fuselage": "Crazyshort advance+"
+        },
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "SKINNY - 358/30",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazy Short Advance +"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "F-One Sk8 650",
+          "rear_wing": "160",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": null
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "PNG 1300 V2",
+          "rear_wing": "SKINNY - 358/30",
+          "mast": "82.5cm Cedrus Evolution Surf",
+          "fuselage": "Crazy Short advance+"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "1300 PNG V2",
+          "rear_wing": "SKINNY - 358/30",
+          "mast": "Cedrus 82.5cm Evolution Surf",
+          "fuselage": "Crazy short advance plus"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgXZi_i",
+      "date": "2026-03-09",
+      "name": "Survey Rider (santa cruz)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "location": "santa cruz",
+      "disciplines": [
+        "Wing Foiling",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "surge 950",
+          "rear_wing": "surf 320",
+          "mast": "90 carbon",
+          "fuselage": "advanced + ultra short"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "surge 950/890/830",
+          "rear_wing": "surf 320",
+          "mast": "integrated carbon 80cm",
+          "fuselage": "advanced + ultra short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNipQpDr",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Z\u00fcrich)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "2-4 years",
+      "location": "Z\u00fcrich",
+      "disciplines": [
+        "Pump/Flat Water",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "Fb 1500",
+          "rear_wing": "Other brand",
+          "mast": "80 uhm pro",
+          "fuselage": "Crazy short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Fb 1350/1250",
+          "rear_wing": "other brand",
+          "mast": "80 uhm pro",
+          "fuselage": "Advance+ crazy short"
+        }
+      ],
+      "gender": "Female",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhkn0Q8",
+      "date": "2026-03-09",
+      "name": "Survey Rider (West coast Ireland)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "West coast Ireland",
+      "disciplines": [
+        "Downwind SUP",
+        "Wing Foiling",
+        "Tow-In",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 1090 fireball 1160",
+          "rear_wing": "40 link, 30mm skinny",
+          "mast": "80 pro",
+          "fuselage": "Ti link, ultrashort adv +"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Art pro 999",
+          "rear_wing": "40 skinny",
+          "mast": "80 pro",
+          "fuselage": "Crazyshort adv +"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Art pro 699",
+          "rear_wing": "35 skinny",
+          "mast": "80 pro",
+          "fuselage": "Ultrashort adv +"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Fireball 1160, Art pro 999",
+          "rear_wing": "40 skinny",
+          "mast": "80 pro",
+          "fuselage": "Crazyshort adv +"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1250 and 1160",
+          "rear_wing": "35 skinny",
+          "mast": "80 pro",
+          "fuselage": "Ultrashort adv +"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "46-55"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhpARUx",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Western Australia)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "Western Australia",
+      "disciplines": [
+        "Wing Foiling",
+        "Tow-In",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Spitfire 780",
+          "rear_wing": "350 Progressive",
+          "mast": "82 cm Aluminium",
+          "fuselage": "Black Short"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Spitfire 720",
+          "rear_wing": "350 Progressive",
+          "mast": "82 cm Alumina",
+          "fuselage": "Black Short"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Spitfire 840",
+          "rear_wing": "350 Progressive",
+          "mast": "82cm Aluminium",
+          "fuselage": "Black Short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiLL6-k",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Seitzerland)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Seitzerland",
+      "disciplines": [
+        "Wake Foiling",
+        "Pump/Flat Water",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Wake Foiling",
+          "front_wing": "Spifire 840",
+          "rear_wing": "Skinny 40/359",
+          "mast": "80cm UHM Pro",
+          "fuselage": "Black Silly Advance+"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "1500 Fireball or 1750 Fireball",
+          "rear_wing": "Skinny 30/360",
+          "mast": "Fatty 80",
+          "fuselage": "Silly Short Advance +"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Surge 1010 and Png 1300",
+          "rear_wing": "Skinny 30/360 or Surf Skinny 43/280",
+          "mast": "UHM Pro 80",
+          "fuselage": "Silly Short Advence +"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhWhIlj",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Pompano beach florida)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "Pompano beach florida",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Dock Start",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "300 surf skinny",
+          "mast": "72 uhm",
+          "fuselage": "Black pschoshort and crazyshort"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "950 surge",
+          "rear_wing": "300 surf skinny",
+          "mast": "72 uhm",
+          "fuselage": "Black crazy short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "830 surge 950 surge 939v2.",
+          "rear_wing": "300 surf skinny",
+          "mast": "72 uhm",
+          "fuselage": "Psycho short"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "1350 fireball or 1400 png v2",
+          "rear_wing": "360 skinny",
+          "mast": "72 uhm",
+          "fuselage": "Ultra or crazyshort"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "1350 fireball 1070 fireball or 1010 surge",
+          "rear_wing": "300 surf skinny",
+          "mast": "72 uhm",
+          "fuselage": "Psycho or crazy short"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "1350 fireball 950 surge 1070 fireball",
+          "rear_wing": "300 surf skinny",
+          "mast": "72 uhm",
+          "fuselage": "Psycho or crazy short"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "36-45"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjH7nh-",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Oahu-Maui)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "2-4 years",
+      "location": "Oahu-Maui",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Tow-In",
+        "Pump/Flat Water",
+        "SUP (Non-DW)",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 920",
+          "rear_wing": "25 rear skinny",
+          "mast": "80cm Ultra High Modulous (or Kaiwi mast ;)",
+          "fuselage": "Tempo Titanium"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 720",
+          "rear_wing": "280 surf skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Crazy Short"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "720 Surge",
+          "rear_wing": "280 Surf Skinny",
+          "mast": "82cm HM",
+          "fuselage": "Crazy short"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "N/A",
+          "rear_wing": "N/A",
+          "mast": "N/A",
+          "fuselage": "N/A"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Surge 880",
+          "rear_wing": "300 Skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Crazy short"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "740 Surge",
+          "rear_wing": "300 skinny",
+          "mast": "80cm UHM",
+          "fuselage": "Crazy short"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgTWFsr",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Auesee Germany)",
+      "weight": "Under 65 kg / 143 lbs",
+      "experience": "4+ years",
+      "location": "Auesee Germany",
+      "disciplines": [
+        "Wing Foiling",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Art v2 999",
+          "rear_wing": "Skinny 346",
+          "mast": "82 cm Carbon",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Png v2 1200",
+          "rear_wing": "Skinny 345",
+          "mast": "75 Alu",
+          "fuselage": "Ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNj73DvN",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Northland New Zealand)",
+      "weight": "95-105 kg / 209-231 lbs",
+      "experience": "4+ years",
+      "location": "Northland New Zealand",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Parawing"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "1020 and 1090 Tempo",
+          "rear_wing": "Skinny link 35 and 30",
+          "mast": "HM 82",
+          "fuselage": "Short or ultra"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 890",
+          "rear_wing": "300 surf skinny",
+          "mast": "82 HM",
+          "fuselage": "Ultra short"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Tempo 1020",
+          "rear_wing": "30 link",
+          "mast": "82 HM",
+          "fuselage": "Short"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Tempo 1020 and 1090",
+          "rear_wing": "Skinny Link 30 and 35",
+          "mast": "HM82",
+          "fuselage": "Short"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "Prefer not to say"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhOK6Wj",
+      "date": "2026-03-08",
+      "name": "Survey Rider (The Gorge/LaVentana)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "4+ years",
+      "location": "The Gorge/LaVentana",
+      "disciplines": [
+        "Wing Foiling",
+        "Parawing",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "Surf Skinny 300",
+          "mast": "Ultra 800",
+          "fuselage": "Ultrashort Advanced"
+        },
+        {
+          "discipline": "Parawing",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "Surf skinny 300",
+          "mast": "Ultra 800",
+          "fuselage": "US Advanced"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "ART 999 v2",
+          "rear_wing": "Skinny 45",
+          "mast": "80 aluminum integrated.",
+          "fuselage": "US advanced"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNh3uMmR",
+      "date": "2026-03-09",
+      "name": "Survey Rider (New Zealand)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "New Zealand",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Tow-In",
+        "Pump/Flat Water",
+        "Dock Start",
+        "SUP (Non-DW)"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "960 tempo",
+          "rear_wing": "25 skinny",
+          "mast": "72 pro mast",
+          "fuselage": "Ti link"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "890 surge",
+          "rear_wing": "280/43 surf sinny",
+          "mast": "800 or 900 pro mast",
+          "fuselage": "Black Crazyshort"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "840 surge",
+          "rear_wing": "280/43 surf skinny",
+          "mast": "900 pro mast",
+          "fuselage": "Ultrashort black"
+        },
+        {
+          "discipline": "Pump/Flat Water",
+          "front_wing": "1750 fireball",
+          "rear_wing": "25 skinny",
+          "mast": "800 fatty",
+          "fuselage": "Psychoshort black"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "1750 fireball or 1500 fireball",
+          "rear_wing": "25 skinny",
+          "mast": "800 fatty",
+          "fuselage": "Psychoshort black"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "890 surge or 950 surge",
+          "rear_wing": "43/280 surf skinny",
+          "mast": "900 pro mast",
+          "fuselage": "Crazyshort black"
+        }
+      ],
+      "gender": "Male",
+      "age_group": "25-35"
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNgNV8Nc",
+      "date": "2026-03-09",
+      "name": "Survey Rider (Milfontes, Portugal)",
+      "weight": "65-75 kg / 143-165 lbs",
+      "experience": "4+ years",
+      "location": "Milfontes, Portugal",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Tempo 960",
+          "rear_wing": "Ti skinny 30",
+          "mast": "80 ultra",
+          "fuselage": "Tilink"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 830",
+          "rear_wing": "Skinny surf 320",
+          "mast": "72 ultra",
+          "fuselage": "Crazy short advance+"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 780",
+          "rear_wing": "Skinny surf 300",
+          "mast": "90 Carbon HM",
+          "fuselage": "Crazy short ad+"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Surge 740",
+          "rear_wing": "Surf skinny 300",
+          "mast": "90hm",
+          "fuselage": "Ultrashort adv+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNhSHm8O",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Oslofjord Norway)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "1-2 years",
+      "location": "Oslofjord Norway",
+      "disciplines": [
+        "Downwind SUP",
+        "Wing Foiling"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "FB1160",
+          "rear_wing": "320 Skinny Surf",
+          "mast": "75cm HM",
+          "fuselage": "Ultrashort"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surf 830",
+          "rear_wing": "320 Surf. Skinny",
+          "mast": "75cm HM",
+          "fuselage": "Ultrashort"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNiOFOYX",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Christchurch, New Zealand)",
+      "weight": "75-85 kg / 165-187 lbs",
+      "experience": "2-4 years",
+      "location": "Christchurch, New Zealand",
+      "disciplines": [
+        "Prone Surf",
+        "Wing Foiling",
+        "Tow-In",
+        "Dock Start"
+      ],
+      "setups": [
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 950",
+          "rear_wing": "Surf Skinny 300",
+          "mast": "HM 82",
+          "fuselage": "Black ultrashort advanced+"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 950",
+          "rear_wing": "Surf Skinny 300",
+          "mast": "HM 82",
+          "fuselage": "Black ultrashort advanced+"
+        },
+        {
+          "discipline": "Tow-In",
+          "front_wing": "Surge 950",
+          "rear_wing": "Surf Skinny 300",
+          "mast": "HM 82",
+          "fuselage": "Black ultrashort advanced+"
+        },
+        {
+          "discipline": "Dock Start",
+          "front_wing": "Png v2 1300",
+          "rear_wing": "Skinny 45",
+          "mast": "HM 82",
+          "fuselage": "Black crazy short advanced+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNi0pa9L",
+      "date": "2026-03-08",
+      "name": "Survey Rider (Matanzas Chile)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "2-4 years",
+      "location": "Matanzas Chile",
+      "disciplines": [
+        "Downwind SUP",
+        "Prone Surf",
+        "Wing Foiling",
+        "SUP (Non-DW)"
+      ],
+      "setups": [
+        {
+          "discipline": "Downwind SUP",
+          "front_wing": "Fireball 1070",
+          "rear_wing": "Surfskinny 300",
+          "mast": "HM carbon 75",
+          "fuselage": "Ultrashort adv+"
+        },
+        {
+          "discipline": "Prone Surf",
+          "front_wing": "Surge 890",
+          "rear_wing": "Surf skinny 300",
+          "mast": "75cm HM carbon",
+          "fuselage": "Ultrashort adv+"
+        },
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Surge 890 and surge 780",
+          "rear_wing": "Surfskinny 300",
+          "mast": "82cm HM carbon",
+          "fuselage": "Ultrashort adv+"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Fireball 1250",
+          "rear_wing": "Surfskinny 300",
+          "mast": "75cm HM carbon",
+          "fuselage": "Ultrashort advanced+"
+        }
+      ],
+      "gender": null,
+      "age_group": null
+    },
+    {
+      "source": "AXIS Setup Survey 2026",
+      "source_id": "survey-ACYDBNjairar",
+      "date": "2026-03-08",
+      "name": "Survey Rider (San Francisco Bay)",
+      "weight": "85-95 kg / 187-209 lbs",
+      "experience": "4+ years",
+      "location": "San Francisco Bay",
+      "disciplines": [
+        "Wing Foiling",
+        "Kite Foiling",
+        "SUP (Non-DW)",
+        "Foil Assist"
+      ],
+      "setups": [
+        {
+          "discipline": "Wing Foiling",
+          "front_wing": "Tempo 1090, surge 890",
+          "rear_wing": "Skinny surf 300, ti skinny 45",
+          "mast": "Ultra pro 900",
+          "fuselage": "Ti link, ultrashort +60"
+        },
+        {
+          "discipline": "Kite Foiling",
+          "front_wing": "Surge 830",
+          "rear_wing": "Skinny 320",
+          "mast": "Pro 90",
+          "fuselage": "Short +60"
+        },
+        {
+          "discipline": "SUP (Non-DW)",
+          "front_wing": "Surge 1010",
+          "rear_wing": "Skinny 320",
+          "mast": "Pro 72",
+          "fuselage": "Crasyshort +60"
+        },
+        {
+          "discipline": "Foil Assist",
+          "front_wing": "Surge 950",
+          "rear_wing": "Skinny 320",
+          "mast": "Integrated HM",
+          "fuselage": "Short +60"
+        }
+      ],
+      "gender": null,
+      "age_group": null
     }
   ],
   "aggregations": {
