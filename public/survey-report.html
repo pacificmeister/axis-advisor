@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIS Setup Survey Report — March 2026</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-primary: #0f0f11;
+    --bg-card: #1a1a1f;
+    --bg-card-alt: #141418;
+    --border: #2a2a32;
+    --border-accent: #3a1a1a;
+    --text-primary: #f0f0f0;
+    --text-secondary: #9ca3af;
+    --text-muted: #6b7280;
+    --red-primary: #e62929;
+    --red-light: #ff3b3b;
+    --red-dark: #b01b1b;
+    --red-glow: rgba(230, 41, 41, 0.15);
+    --surge: #10b981;
+    --fireball: #ef4444;
+    --tempo: #f59e0b;
+    --art: #8b5cf6;
+    --spitfire: #3b82f6;
+    --png: #06b6d4;
+    --surge-glow: rgba(16, 185, 129, 0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ─────────────────────────────────────── */
+  .header {
+    background: linear-gradient(135deg, #1a0505 0%, #120808 40%, #0a0a0f 100%);
+    border-bottom: 2px solid var(--red-primary);
+    padding: 40px 60px 36px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(230,41,41,0.18) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; left: 30%;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(230,41,41,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .logo-mark {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+  .axis-logo-svg {
+    width: 72px;
+    height: 72px;
+  }
+  .logo-text h1 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--red-primary);
+    margin-bottom: 4px;
+  }
+  .logo-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+  }
+  .header-meta {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .header-meta .date {
+    font-size: 12px;
+    color: var(--red-primary);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .header-meta .subtitle {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  .header-stats {
+    display: flex;
+    gap: 2px;
+    margin-top: 14px;
+    justify-content: flex-end;
+  }
+  .header-stat {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 16px;
+    text-align: center;
+  }
+  .header-stat .val {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--red-light);
+    line-height: 1;
+  }
+  .header-stat .lbl {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 3px;
+  }
+
+  /* ── NAV ─────────────────────────────────────────── */
+  .nav {
+    background: var(--bg-card-alt);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 60px;
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav-link {
+    display: block;
+    padding: 14px 18px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .nav-link:hover {
+    color: var(--text-primary);
+    border-bottom-color: var(--red-primary);
+  }
+
+  /* ── MAIN LAYOUT ──────────────────────────────────── */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 60px 80px;
+  }
+
+  /* ── SECTIONS ─────────────────────────────────────── */
+  .section {
+    margin-bottom: 60px;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .section-number {
+    width: 34px; height: 34px;
+    background: var(--red-primary);
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  .section-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .section-sub {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--border) 0%, transparent 100%);
+    margin-bottom: 28px;
+  }
+
+  /* ── CARDS ───────────────────────────────────────── */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px;
+  }
+  .card-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* ── EXECUTIVE SUMMARY KPI CARDS ─────────────────── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--red-primary);
+  }
+  .kpi-card .kpi-icon {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .kpi-card .kpi-value {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--text-primary);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .kpi-card .kpi-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .kpi-card .kpi-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 8px;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+  }
+
+  /* ── INSIGHT QUOTE ───────────────────────────────── */
+  .insight-box {
+    background: linear-gradient(135deg, #1a1a24, #12121a);
+    border: 1px solid #2a2a3a;
+    border-left: 3px solid var(--red-primary);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  .insight-box p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+  .insight-box strong {
+    color: var(--text-primary);
+  }
+
+  /* ── SURGE HIGHLIGHT ─────────────────────────────── */
+  .surge-section {
+    background: linear-gradient(135deg, #061a11 0%, #071610 60%, #050d0a 100%);
+    border: 1px solid rgba(16,185,129,0.3);
+    border-radius: 16px;
+    padding: 36px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 28px;
+  }
+  .surge-section::before {
+    content: '';
+    position: absolute;
+    top: -50px; right: -50px;
+    width: 250px; height: 250px;
+    background: radial-gradient(circle, rgba(16,185,129,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .surge-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(16,185,129,0.15);
+    border: 1px solid rgba(16,185,129,0.4);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--surge);
+    margin-bottom: 16px;
+  }
+  .surge-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 10px;
+  }
+  .surge-sub {
+    font-size: 14px;
+    color: var(--text-secondary);
+    max-width: 700px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+  .surge-quotes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 20px;
+  }
+  .surge-quote {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(16,185,129,0.15);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .surge-quote::before {
+    content: '"';
+    font-size: 24px;
+    color: var(--surge);
+    font-style: normal;
+    display: block;
+    margin-bottom: 4px;
+    line-height: 1;
+  }
+
+  /* ── DISCIPLINE WING CARD ─────────────────────────── */
+  .disc-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* ── TAKEAWAYS ───────────────────────────────────── */
+  .takeaway-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .takeaway-list li {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+  }
+  .takeaway-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .takeaway-content strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+  .takeaway-content span {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* ── GEO BARS ────────────────────────────────────── */
+  .geo-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .geo-label {
+    width: 120px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .geo-bar-track {
+    flex: 1;
+    height: 8px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .geo-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1s ease;
+  }
+  .geo-count {
+    width: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    flex-shrink: 0;
+  }
+  .geo-pct {
+    width: 38px;
+    font-size: 12px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    text-align: right;
+  }
+
+  /* ── LEGEND ──────────────────────────────────────── */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  /* ── FOOTER ──────────────────────────────────────── */
+  .footer {
+    background: var(--bg-card-alt);
+    border-top: 1px solid var(--border);
+    padding: 28px 60px;
+    text-align: center;
+  }
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer p {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.8;
+  }
+  .footer .footer-brand {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--red-primary);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  /* ── CHART CONTAINERS ─────────────────────────────── */
+  .chart-wrap {
+    position: relative;
+  }
+  .chart-wrap canvas {
+    max-width: 100%;
+  }
+
+  /* ── COMPONENT TABLE ─────────────────────────────── */
+  .comp-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .comp-item:last-child { border-bottom: none; }
+  .comp-rank {
+    width: 26px; height: 26px;
+    background: rgba(230,41,41,0.12);
+    border: 1px solid rgba(230,41,41,0.2);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--red-primary);
+    flex-shrink: 0;
+  }
+  .comp-name {
+    flex: 1;
+    margin: 0 12px;
+    font-size: 13px;
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .comp-bar-track {
+    width: 120px;
+    height: 6px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .comp-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: var(--red-primary);
+  }
+  .comp-count {
+    width: 40px;
+    text-align: right;
+    font-size: 12px;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+
+  /* ── PRINT ───────────────────────────────────────── */
+  @media print {
+    body { background: white; color: black; }
+    .nav { display: none; }
+    .header { background: #e62929; color: white; print-color-adjust: exact; }
+    .card { border: 1px solid #ddd; background: white; page-break-inside: avoid; }
+    .section { page-break-inside: avoid; }
+    .container { padding: 20px; }
+    .kpi-card { border: 1px solid #ddd; background: white; }
+    .footer { border-top: 1px solid #ddd; background: white; }
+    .surge-section { background: #f0fdf4; border: 1px solid #10b981; }
+  }
+
+  @media (max-width: 900px) {
+    .header { padding: 24px 24px 20px; }
+    .header-inner { flex-direction: column; align-items: flex-start; }
+    .header-meta { text-align: left; }
+    .header-stats { justify-content: flex-start; flex-wrap: wrap; }
+    .container { padding: 24px; }
+    .nav { padding: 0 24px; }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+    .grid-2, .disc-grid { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr; }
+    .surge-quotes { grid-template-columns: 1fr; }
+    .footer { padding: 20px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══════════════════════════════════════════════════════════ -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo-mark">
+      <!-- AXIS Logo Mark (stylized A) -->
+      <svg class="axis-logo-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="80" height="80" rx="14" fill="#e62929"/>
+        <path d="M40 12L14 62h14l5-10h14l5 10h14L40 12zm0 18l5 12H35l5-12z" fill="white"/>
+      </svg>
+      <div class="logo-text">
+        <h1>AXIS Foil</h1>
+        <h2>Setup Survey Report<br>March 2026</h2>
+      </div>
+    </div>
+    <div class="header-meta">
+      <div class="date">📅 March 10, 2026</div>
+      <div class="subtitle">AXIS Foil Riders Community Survey</div>
+      <div class="header-stats">
+        <div class="header-stat">
+          <div class="val">68</div>
+          <div class="lbl">Responses</div>
+        </div>
+        <div class="header-stat">
+          <div class="val">3.5</div>
+          <div class="lbl">Avg Disciplines</div>
+        </div>
+        <div class="header-stat">
+          <div class="val">67</div>
+          <div class="lbl">Locations</div>
+        </div>
+        <div class="header-stat">
+          <div class="val">6</div>
+          <div class="lbl">Continents</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ NAV ══════════════════════════════════════════════════════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="nav-link" href="#exec">Executive Summary</a>
+    <a class="nav-link" href="#demo">Demographics</a>
+    <a class="nav-link" href="#disciplines">Disciplines</a>
+    <a class="nav-link" href="#frontwings">Front Wings</a>
+    <a class="nav-link" href="#surge">The Surge Effect</a>
+    <a class="nav-link" href="#components">Components</a>
+    <a class="nav-link" href="#geo">Geographic Reach</a>
+    <a class="nav-link" href="#takeaways">Key Takeaways</a>
+  </div>
+</nav>
+
+<!-- ═══ MAIN ══════════════════════════════════════════════════════════════ -->
+<main class="container">
+
+  <!-- ① EXECUTIVE SUMMARY -->
+  <section class="section" id="exec">
+    <div class="section-header">
+      <div class="section-number">1</div>
+      <div>
+        <div class="section-title">Executive Summary</div>
+        <div class="section-sub">68 riders from 67 locations across 6 continents</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-icon">🏄</div>
+        <div class="kpi-value">68</div>
+        <div class="kpi-label">Survey Responses</div>
+        <div class="kpi-sub">~0.6% of 10,500-member Facebook group</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon">🎯</div>
+        <div class="kpi-value">3.5</div>
+        <div class="kpi-label">Avg Disciplines</div>
+        <div class="kpi-sub">Typical AXIS rider is highly multi-sport</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon">⚖️</div>
+        <div class="kpi-value">75–85kg</div>
+        <div class="kpi-label">Median Rider Weight</div>
+        <div class="kpi-sub">31% of respondents in this range</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon">📅</div>
+        <div class="kpi-value">59%</div>
+        <div class="kpi-label">4+ Years Foiling</div>
+        <div class="kpi-sub">Highly experienced rider base</div>
+      </div>
+    </div>
+
+    <div class="insight-box">
+      <p>AXIS riders are <strong>seasoned multi-disciplinarians</strong>. The average respondent foils across 3.5 disciplines, spanning wing, downwind, prone, and parawing. The community skews experienced (88% with 2+ years), globally distributed, and actively curious about new gear. <strong>The Surge family has emerged as the breakout product</strong> — dominating prone foiling and rapidly gaining ground in wing and parawing.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">🏆 Universal Setup (Most Commonly Cited)</div>
+        <div class="comp-item">
+          <div class="comp-rank">🏄</div>
+          <div class="comp-name">Front Wing: <strong>Surge 890</strong></div>
+          <div class="comp-count">#1 overall</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank">🪶</div>
+          <div class="comp-name">Rear Wing: <strong>Surf Skinny 300</strong></div>
+          <div class="comp-count">22+ mentions</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank">⚙️</div>
+          <div class="comp-name">Fuselage: <strong>Black Ultrashort</strong></div>
+          <div class="comp-count">35+ mentions</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank">📏</div>
+          <div class="comp-name">Mast: <strong>80cm UHM Carbon</strong></div>
+          <div class="comp-count">~25 mentions</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">📊 Discipline Leader by Category</div>
+        <div class="comp-item">
+          <div class="comp-rank" style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3);color:#10b981">S</div>
+          <div class="comp-name">Prone Foiling — <strong>Surge 890</strong></div>
+          <div class="comp-count">🥇 Clear #1</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank" style="background:rgba(245,158,11,0.15);border-color:rgba(245,158,11,0.3);color:#f59e0b">T</div>
+          <div class="comp-name">Downwind SUP — <strong>Tempo family</strong></div>
+          <div class="comp-count">🥇 Dominant</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank" style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3);color:#ef4444">F</div>
+          <div class="comp-name">Pump/Dock Start — <strong>Fireball range</strong></div>
+          <div class="comp-count">🥇 Dominant</div>
+        </div>
+        <div class="comp-item">
+          <div class="comp-rank" style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3);color:#10b981">S</div>
+          <div class="comp-name">Tow-In — <strong>Surge 780/830</strong></div>
+          <div class="comp-count">🥇 Clear #1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ② DEMOGRAPHICS -->
+  <section class="section" id="demo">
+    <div class="section-header">
+      <div class="section-number">2</div>
+      <div>
+        <div class="section-title">Demographics</div>
+        <div class="section-sub">Who is the AXIS rider?</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="grid-3">
+      <div class="card" style="grid-column: 1;">
+        <div class="card-title">⚖️ Weight Distribution</div>
+        <div class="chart-wrap" style="height:280px; display:flex; align-items:center; justify-content:center;">
+          <canvas id="weightChart"></canvas>
+        </div>
+      </div>
+      <div class="card" style="grid-column: 2;">
+        <div class="card-title">📅 Experience Levels</div>
+        <div class="chart-wrap" style="height:280px;">
+          <canvas id="expChart"></canvas>
+        </div>
+      </div>
+      <div class="card" style="grid-column: 3;">
+        <div class="card-title">🎂 Age Groups (23 responses)</div>
+        <div class="chart-wrap" style="height:280px;">
+          <canvas id="ageChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ③ DISCIPLINE PARTICIPATION -->
+  <section class="section" id="disciplines">
+    <div class="section-header">
+      <div class="section-number">3</div>
+      <div>
+        <div class="section-title">Discipline Participation</div>
+        <div class="section-sub">Average rider participates in 3.5 disciplines — true multi-sport athletes</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="card">
+      <div class="card-title">% of 68 respondents who ride each discipline</div>
+      <div class="chart-wrap" style="height: 400px;">
+        <canvas id="disciplineChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ④ TOP FRONT WINGS BY DISCIPLINE -->
+  <section class="section" id="frontwings">
+    <div class="section-header">
+      <div class="section-number">4</div>
+      <div>
+        <div class="section-title">Top Front Wings by Discipline</div>
+        <div class="section-sub">Real-world choices from riders — what's actually in their quivers</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Surge</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Fireball</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Tempo</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>ART</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Spitfire</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#06b6d4"></div>PNG</div>
+    </div>
+
+    <div class="disc-grid">
+      <!-- Wing Foiling -->
+      <div class="card">
+        <div class="card-title">🌬️ Wing Foiling — 48 setups (70%)</div>
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="wingChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Downwind SUP -->
+      <div class="card">
+        <div class="card-title">🌊 Downwind SUP — 30 setups (44%)</div>
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="dwChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Prone -->
+      <div class="card">
+        <div class="card-title">🏄 Prone Foiling — 26 setups (38%)</div>
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="proneChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Parawing -->
+      <div class="card">
+        <div class="card-title">🪂 Parawing — 25 setups (37%)</div>
+        <div class="chart-wrap" style="height:220px;">
+          <canvas id="paraChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Tow-In -->
+      <div class="card">
+        <div class="card-title">🚤 Tow-In Foiling — 13 setups (19%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="towChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Dock Start -->
+      <div class="card">
+        <div class="card-title">🛥️ Dock Start — 26 setups (38%)</div>
+        <div class="chart-wrap" style="height:200px;">
+          <canvas id="dockChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Pump / Flat Water (full width) -->
+      <div class="card" style="grid-column: 1 / -1;">
+        <div class="card-title">⚡ Long Distance Pump / Flat Water — 18 setups (26%)</div>
+        <div class="chart-wrap" style="height:180px;">
+          <canvas id="pumpChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑤ THE SURGE EFFECT -->
+  <section class="section" id="surge">
+    <div class="section-header">
+      <div class="section-number">5</div>
+      <div>
+        <div class="section-title">The Surge Effect</div>
+        <div class="section-sub">A product that's redefining multiple disciplines at once</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="surge-section">
+      <div class="surge-badge">⚡ Breakout Product 2025–2026</div>
+      <div class="surge-title">The Surge Is Taking Over</div>
+      <div class="surge-sub">
+        Across prone, wing, parawing, tow-in, and SUP — the Surge family consistently appears as the #1 choice or fastest-growing wing. Riders repeatedly describe it as a <em>"game changer"</em> — often switching from Spitfire or ART after their first session. Its unique ability to turn sharply while maintaining glide and pump efficiency makes it a true multi-discipline tool.
+      </div>
+      <div class="surge-quotes">
+        <div class="surge-quote">The Surge is a game changer. Turns off the back foot like surfing. I've literally felt my riding improve overnight.</div>
+        <div class="surge-quote">Surge absolutely dominates prone. Riders rave about the turning and pump ability. "Game changer" mentioned multiple times.</div>
+        <div class="surge-quote">Previously on Spitfire 960, now on Surge 890. The difference is night and day for wave riding — it just goes where you look.</div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">📊 Surge vs Other Families by Discipline</div>
+        <div class="chart-wrap" style="height:320px;">
+          <canvas id="surgeChart"></canvas>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">🏆 Surge Size Popularity (mentions across all disciplines)</div>
+        <div class="chart-wrap" style="height:320px;">
+          <canvas id="surgeSizeChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑥ UNIVERSAL COMPONENTS -->
+  <section class="section" id="components">
+    <div class="section-header">
+      <div class="section-number">6</div>
+      <div>
+        <div class="section-title">Universal Components</div>
+        <div class="section-sub">The rear wings, fuselages, and masts riders trust across disciplines</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="grid-3">
+      <!-- Rear Wings -->
+      <div class="card">
+        <div class="card-title">🪶 Top Rear Wings</div>
+        <div class="chart-wrap" style="height:280px;">
+          <canvas id="rearWingChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Fuselages -->
+      <div class="card">
+        <div class="card-title">⚙️ Top Fuselages</div>
+        <div class="chart-wrap" style="height:280px;">
+          <canvas id="fuseChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Masts -->
+      <div class="card">
+        <div class="card-title">📏 Top Masts</div>
+        <div class="chart-wrap" style="height:280px;">
+          <canvas id="mastChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-box" style="margin-top:20px;">
+      <p><strong>The universal rig:</strong> Black Ultrashort fuse + Surf Skinny 300 rear wing + 80cm UHM Carbon mast works across nearly every discipline. This modularity is a key AXIS strength — riders can swap just the front wing and ride from prone to wing to parawing without changing anything else.</p>
+    </div>
+  </section>
+
+  <!-- ⑦ GEOGRAPHIC REACH -->
+  <section class="section" id="geo">
+    <div class="section-header">
+      <div class="section-number">7</div>
+      <div>
+        <div class="section-title">Geographic Reach</div>
+        <div class="section-sub">67 unique locations across 6 continents — AXIS is everywhere</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">🌍 Riders by Region</div>
+        <div class="chart-wrap" style="height:300px;">
+          <canvas id="geoChart"></canvas>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">📍 Top Countries / Locations</div>
+        <div style="padding-top: 8px;">
+          <div class="geo-bar-row">
+            <div class="geo-label">New Zealand</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:87%;background:#10b981;"></div></div>
+            <div class="geo-count">7</div><div class="geo-pct">10%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Switzerland</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:62%;background:#3b82f6;"></div></div>
+            <div class="geo-count">5</div><div class="geo-pct">7%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Australia</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:62%;background:#10b981;"></div></div>
+            <div class="geo-count">5</div><div class="geo-pct">7%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">France</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#3b82f6;"></div></div>
+            <div class="geo-count">4</div><div class="geo-pct">6%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">California</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#f59e0b;"></div></div>
+            <div class="geo-count">4</div><div class="geo-pct">6%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Oregon/Gorge</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#f59e0b;"></div></div>
+            <div class="geo-count">4</div><div class="geo-pct">6%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Portugal</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:37%;background:#3b82f6;"></div></div>
+            <div class="geo-count">3</div><div class="geo-pct">4%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Hawaii</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:37%;background:#f59e0b;"></div></div>
+            <div class="geo-count">3</div><div class="geo-pct">4%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Germany</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:25%;background:#3b82f6;"></div></div>
+            <div class="geo-count">2</div><div class="geo-pct">3%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Greece</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:25%;background:#3b82f6;"></div></div>
+            <div class="geo-count">2</div><div class="geo-pct">3%</div>
+          </div>
+          <div class="geo-bar-row">
+            <div class="geo-label">Other (57+ locs)</div>
+            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:100%;background:#6b7280;"></div></div>
+            <div class="geo-count">~27</div><div class="geo-pct">40%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ⑧ KEY TAKEAWAYS -->
+  <section class="section" id="takeaways">
+    <div class="section-header">
+      <div class="section-number">8</div>
+      <div>
+        <div class="section-title">Key Takeaways</div>
+        <div class="section-sub">Strategic insights from 68 real-world setups</div>
+      </div>
+    </div>
+    <div class="section-divider"></div>
+
+    <ul class="takeaway-list">
+      <li>
+        <div class="takeaway-icon">🚀</div>
+        <div class="takeaway-content">
+          <strong>The Surge Is the Breakout Product of 2025–2026</strong>
+          <span>Surge dominates prone (#1 across all weights), is the fastest-growing choice in wing foiling, and is now penetrating tow-in, parawing, and SUP. Riders consistently report switching from Spitfire/ART and never looking back. The "game changer" phrase appears multiple times unprompted.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">🌊</div>
+        <div class="takeaway-content">
+          <strong>Tempo Owns Downwind — Fireball Is Universal Speed</strong>
+          <span>Tempo (960–1090) is the definitive DW choice for performance riders chasing speed. Fireball 1070 is the "Swiss Army knife" — appearing in Wing, DW, Parawing, Prone, and even Dock Start setups. The 1070 size specifically is the single most versatile wing in the range.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">⚙️</div>
+        <div class="takeaway-content">
+          <strong>Modularity Is AXIS's Most Valued Competitive Advantage</strong>
+          <span>Riders repeatedly cite the ability to swap just one component — front wing, fuselage, or rear wing — to transform a setup across disciplines. The Black Ultrashort + Surf Skinny 300 + 80cm UHM combination works from prone to wing to parawing. This cross-compatibility drives loyalty and upsell.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">📦</div>
+        <div class="takeaway-content">
+          <strong>Supply & Distribution Gaps Are Real Frustrations</strong>
+          <span>Multiple riders mention difficulty getting Surge wings (especially in Germany, South Africa). One rider specifically sold their Spitfire 1180 waiting for the Surge 1150. Demand clearly outpaces availability in certain markets — a distribution opportunity.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">🌍</div>
+        <div class="takeaway-content">
+          <strong>Global Reach — Local Gaps in Distribution</strong>
+          <span>67 unique locations across 6 continents proves AXIS has true global reach — but feedback from South Africa, Ukraine, and inland Europe highlights unserved distribution territory. Switzerland alone has 5 respondents who are active community builders wanting official support.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">🎯</div>
+        <div class="takeaway-content">
+          <strong>Experienced Riders Drive Community Wisdom</strong>
+          <span>88% have 2+ years of foiling experience, and 59% have 4+ years. This isn't a beginner survey — it's data from the community's most engaged and influential members. Their setups reflect genuine performance optimization, not marketing influence. These are the people who recommend gear to newcomers.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">📈</div>
+        <div class="takeaway-content">
+          <strong>Product Gaps The Community Is Asking For</strong>
+          <span>Surge 1150 (multiple requests), larger Tempos for heavier DW riders (>1090), bigger Surge sizes for lake/bay downwind runs, and a Surf Skinny 340 (specifically requested to pair with Surge 830). Riders are clearly signaling the next product tier they'll buy the moment it's available.</span>
+        </div>
+      </li>
+      <li>
+        <div class="takeaway-icon">💡</div>
+        <div class="takeaway-content">
+          <strong>The Advisor Tool Has Real-World Data to Build On</strong>
+          <span>With 68 setups mapped by weight, experience, and discipline, the AXIS Advisor now has a genuine recommendation engine grounded in community truth — not just catalog logic. The sweet spot: Surge 890 + Surf Skinny 300 + Black Ultrashort + 80cm UHM = the setup that covers prone, wing, parawing, and SUP for most 75–85kg riders.</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- ═══ FOOTER ════════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">AXIS Foil</div>
+    <p>
+      Based on 68 anonymous responses from AXIS Foil Riders, March 2026<br>
+      Compiled from the AXIS Foil Riders Facebook Group (10,500+ members) · Survey period: March 2026<br>
+      Presented by Evan · Data represents real-world setup choices from active foil riders worldwide
+    </p>
+  </div>
+</footer>
+
+<!-- ═══ CHART.JS ═══════════════════════════════════════════════════════════ -->
+<script>
+// ── GLOBAL DEFAULTS ──────────────────────────────────────────────────────
+Chart.defaults.color = '#9ca3af';
+Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif";
+Chart.defaults.font.size = 12;
+
+const RED = '#e62929';
+const RED_DIM = 'rgba(230,41,41,0.7)';
+const SURGE = '#10b981';
+const FIREBALL = '#ef4444';
+const TEMPO = '#f59e0b';
+const ART = '#8b5cf6';
+const SPITFIRE = '#3b82f6';
+const PNG = '#06b6d4';
+const GREY = '#4b5563';
+
+// Helper to get consistent wing color
+function wingColor(name) {
+  const n = name.toLowerCase();
+  if (n.includes('surge')) return SURGE;
+  if (n.includes('fireball') || n.includes('fb')) return FIREBALL;
+  if (n.includes('tempo')) return TEMPO;
+  if (n.includes('art')) return ART;
+  if (n.includes('spitfire') || n.includes('sf') || n.includes('spit')) return SPITFIRE;
+  if (n.includes('png')) return PNG;
+  return GREY;
+}
+
+const chartOpts = (horizontal = false) => ({
+  indexAxis: horizontal ? 'y' : 'x',
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: { display: false },
+    tooltip: {
+      backgroundColor: '#1a1a1f',
+      borderColor: '#2a2a32',
+      borderWidth: 1,
+      titleColor: '#f0f0f0',
+      bodyColor: '#9ca3af',
+      padding: 10,
+    }
+  },
+  scales: {
+    x: {
+      grid: { color: 'rgba(255,255,255,0.04)' },
+      border: { color: 'rgba(255,255,255,0.08)' },
+      ticks: { color: '#6b7280', maxRotation: 0 }
+    },
+    y: {
+      grid: { color: 'rgba(255,255,255,0.04)' },
+      border: { color: 'rgba(255,255,255,0.08)' },
+      ticks: { color: '#9ca3af' }
+    }
+  }
+});
+
+// ── 1. WEIGHT DONUT ────────────────────────────────────────────────────
+new Chart(document.getElementById('weightChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['75–85 kg', '65–75 kg', '85–95 kg', '95–105 kg', '<65 kg', '>105 kg'],
+    datasets: [{
+      data: [21, 16, 13, 8, 7, 3],
+      backgroundColor: [RED, '#f59e0b', '#3b82f6', '#8b5cf6', '#10b981', '#06b6d4'],
+      borderWidth: 2,
+      borderColor: '#1a1a1f',
+      hoverOffset: 6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '62%',
+    plugins: {
+      legend: {
+        display: true,
+        position: 'bottom',
+        labels: {
+          color: '#9ca3af',
+          font: { size: 11 },
+          padding: 10,
+          boxWidth: 12,
+          boxHeight: 12
+        }
+      },
+      tooltip: {
+        backgroundColor: '#1a1a1f',
+        borderColor: '#2a2a32',
+        borderWidth: 1,
+        callbacks: {
+          label: ctx => ` ${ctx.label}: ${ctx.raw} riders (${Math.round(ctx.raw/68*100)}%)`
+        }
+      }
+    }
+  }
+});
+
+// ── 2. EXPERIENCE BAR ──────────────────────────────────────────────────
+new Chart(document.getElementById('expChart'), {
+  type: 'bar',
+  data: {
+    labels: ['4+ years', '2–4 years', '1–2 years', '<1 year'],
+    datasets: [{
+      data: [40, 20, 7, 1],
+      backgroundColor: [RED, 'rgba(230,41,41,0.7)', 'rgba(230,41,41,0.45)', 'rgba(230,41,41,0.2)'],
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(false),
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af' } },
+      y: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: {
+          color: '#6b7280',
+          callback: v => v + ' riders'
+        }
+      }
+    },
+    plugins: {
+      ...chartOpts().plugins,
+      tooltip: {
+        ...chartOpts().plugins.tooltip,
+        callbacks: {
+          label: ctx => ` ${ctx.raw} riders (${Math.round(ctx.raw/68*100)}%)`
+        }
+      }
+    }
+  }
+});
+
+// ── 3. AGE GROUPS ─────────────────────────────────────────────────────
+new Chart(document.getElementById('ageChart'), {
+  type: 'bar',
+  data: {
+    labels: ['46–55', '36–45', '25–35', 'Under 25', '56–65'],
+    datasets: [{
+      data: [9, 8, 3, 1, 1],
+      backgroundColor: [RED, 'rgba(230,41,41,0.75)', 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.3)', 'rgba(230,41,41,0.2)'],
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(false),
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af', maxRotation: 30 } },
+      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } }
+    }
+  }
+});
+
+// ── 4. DISCIPLINE PARTICIPATION ────────────────────────────────────────
+const discLabels = [
+  'Wing Foiling', 'DW SUP Foiling', 'Prone Foiling', 'Dock Start',
+  'Parawing', 'SUP (Non-DW)', 'Pump/Flat Water', 'Foil Assist',
+  'Wake Foiling', 'Tow-In Foiling', 'Kite Foiling', 'Efoil'
+];
+const discData = [48, 30, 26, 26, 25, 19, 18, 14, 13, 13, 6, 1];
+new Chart(document.getElementById('disciplineChart'), {
+  type: 'bar',
+  data: {
+    labels: discLabels,
+    datasets: [{
+      data: discData,
+      backgroundColor: discData.map((v, i) => {
+        const intensity = 0.3 + (v / 48) * 0.7;
+        return `rgba(230,41,41,${intensity})`;
+      }),
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(true),
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: {
+          color: '#6b7280',
+          callback: v => v + ' riders'
+        },
+        max: 55
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#9ca3af', font: { size: 12 } }
+      }
+    },
+    plugins: {
+      ...chartOpts().plugins,
+      tooltip: {
+        ...chartOpts().plugins.tooltip,
+        callbacks: {
+          label: ctx => ` ${ctx.raw} riders — ${Math.round(ctx.raw/68*100)}% of respondents`
+        }
+      }
+    }
+  }
+});
+
+// ── HELPER: Make horizontal bar chart for discipline front wings ────────
+function makeDisciplineChart(id, labels, values) {
+  const colors = labels.map(wingColor);
+  new Chart(document.getElementById(id), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        data: values,
+        backgroundColor: colors.map(c => c + 'cc'),
+        borderColor: colors,
+        borderWidth: 1,
+        borderRadius: 4,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      ...chartOpts(true),
+      scales: {
+        x: {
+          grid: { color: 'rgba(255,255,255,0.04)' },
+          ticks: { color: '#6b7280' },
+          max: Math.max(...values) + 2
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: '#e0e0e0', font: { size: 11 } }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1a1a1f',
+          borderColor: '#2a2a32',
+          borderWidth: 1,
+          callbacks: {
+            label: ctx => ` ${ctx.raw} mentions`
+          }
+        }
+      }
+    }
+  });
+}
+
+// ── 5. WING FOILING ────────────────────────────────────────────────────
+makeDisciplineChart('wingChart',
+  ['Surge 890', 'Surge family', 'Art V2 family', 'Spitfire 780', 'Fireball 1070', 'Spitfire 1100'],
+  [8, 12, 6, 4, 4, 3]
+);
+
+// ── 6. DOWNWIND SUP ────────────────────────────────────────────────────
+makeDisciplineChart('dwChart',
+  ['Tempo family', 'Fireball 1070', 'Fireball 1250', 'Fireball 1160', 'Surge 1010', 'Tempo 960'],
+  [8, 5, 3, 3, 3, 4]
+);
+
+// ── 7. PRONE ──────────────────────────────────────────────────────────
+makeDisciplineChart('proneChart',
+  ['Surge 890', 'Surge 830', 'Surge 950', 'Surge 1010', 'Spitfire 840', 'Art 899'],
+  [5, 3, 3, 2, 2, 1]
+);
+
+// ── 8. PARAWING ────────────────────────────────────────────────────────
+makeDisciplineChart('paraChart',
+  ['Fireball 1070', 'Surge 890', 'Surge 1010', 'Fireball 1160', 'Surge 830', 'Fireball 1250'],
+  [4, 3, 3, 2, 2, 2]
+);
+
+// ── 9. TOW-IN ─────────────────────────────────────────────────────────
+makeDisciplineChart('towChart',
+  ['Surge 780', 'Surge 830', 'Spitfire 780', 'Spitfire 840', 'Surge 720'],
+  [3, 3, 2, 1, 1]
+);
+
+// ── 10. DOCK START ────────────────────────────────────────────────────
+makeDisciplineChart('dockChart',
+  ['PNG 1150', 'Fireball 1350', 'Fireball 1250', 'PNG V2 1300', 'Spitfire 1180', 'Surge 1010'],
+  [3, 3, 2, 2, 2, 1]
+);
+
+// ── 11. PUMP ──────────────────────────────────────────────────────────
+makeDisciplineChart('pumpChart',
+  ['Fireball 1350', 'Fireball 1250', 'Fireball 1500', 'Fireball 1750', 'PNG V2 1300', 'Fireball 2100'],
+  [4, 3, 3, 2, 2, 1]
+);
+
+// ── 12. SURGE COMPARISON CHART ────────────────────────────────────────
+new Chart(document.getElementById('surgeChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Prone', 'Wing Foiling', 'Tow-In', 'Parawing', 'SUP Non-DW', 'Downwind'],
+    datasets: [
+      {
+        label: 'Surge',
+        data: [14, 12, 6, 5, 5, 3],
+        backgroundColor: SURGE + 'cc',
+        borderColor: SURGE,
+        borderWidth: 1,
+        borderRadius: 4
+      },
+      {
+        label: 'Fireball',
+        data: [2, 3, 0, 6, 3, 8],
+        backgroundColor: FIREBALL + 'aa',
+        borderColor: FIREBALL,
+        borderWidth: 1,
+        borderRadius: 4
+      },
+      {
+        label: 'ART / Spitfire',
+        data: [3, 8, 3, 1, 3, 2],
+        backgroundColor: ART + 'aa',
+        borderColor: ART,
+        borderWidth: 1,
+        borderRadius: 4
+      },
+      {
+        label: 'Tempo',
+        data: [0, 0, 0, 2, 0, 8],
+        backgroundColor: TEMPO + 'aa',
+        borderColor: TEMPO,
+        borderWidth: 1,
+        borderRadius: 4
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: true,
+        position: 'top',
+        labels: { color: '#9ca3af', font: { size: 11 }, boxWidth: 12, padding: 12 }
+      },
+      tooltip: {
+        backgroundColor: '#1a1a1f',
+        borderColor: '#2a2a32',
+        borderWidth: 1,
+        callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.raw} mentions` }
+      }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af' } },
+      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } }
+    }
+  }
+});
+
+// ── 13. SURGE SIZE POPULARITY ─────────────────────────────────────────
+new Chart(document.getElementById('surgeSizeChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Surge 890', 'Surge 1010', 'Surge 830/840', 'Surge 950', 'Surge 780', 'Surge 1150+'],
+    datasets: [{
+      data: [16, 10, 9, 6, 5, 3],
+      backgroundColor: [
+        SURGE,
+        SURGE + 'cc',
+        SURGE + 'aa',
+        SURGE + '88',
+        SURGE + '66',
+        SURGE + '44'
+      ],
+      borderRadius: 5,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(true),
+    scales: {
+      x: {
+        grid: { color: 'rgba(255,255,255,0.04)' },
+        ticks: { color: '#6b7280' }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { color: '#e0e0e0', font: { size: 12 } }
+      }
+    }
+  }
+});
+
+// ── 14. REAR WINGS ────────────────────────────────────────────────────
+new Chart(document.getElementById('rearWingChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Surf Skinny 300', 'Skinny 35/40/45', 'Progressive 280/300', 'Skinny 358/30', 'Surf Skinny 320'],
+    datasets: [{
+      data: [22, 15, 7, 6, 5],
+      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.2)'],
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(true),
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
+      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
+    }
+  }
+});
+
+// ── 15. FUSELAGES ─────────────────────────────────────────────────────
+new Chart(document.getElementById('fuseChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Black Ultrashort', 'Short', 'Crazyshort', 'Ti Link', 'US Advance+', 'Psycho/Sillyshort'],
+    datasets: [{
+      data: [35, 11, 8, 6, 5, 5],
+      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.25)', 'rgba(230,41,41,0.15)'],
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(true),
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
+      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
+    }
+  }
+});
+
+// ── 16. MASTS ────────────────────────────────────────────────────────
+new Chart(document.getElementById('mastChart'), {
+  type: 'bar',
+  data: {
+    labels: ['80cm UHM/HM C', '82cm HM Carbon', '75cm HM/Alu', '90cm HM/UHM', '72cm UHM'],
+    datasets: [{
+      data: [25, 12, 10, 8, 6],
+      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.2)'],
+      borderRadius: 4,
+      borderSkipped: false
+    }]
+  },
+  options: {
+    ...chartOpts(true),
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
+      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
+    }
+  }
+});
+
+// ── 17. GEOGRAPHIC DOUGHNUT ───────────────────────────────────────────
+new Chart(document.getElementById('geoChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Oceania (NZ + Aus)', 'Europe', 'North America', 'Africa / Middle East', 'Other'],
+    datasets: [{
+      data: [12, 20, 14, 4, 18],
+      backgroundColor: [SURGE, SPITFIRE, TEMPO, FIREBALL, GREY],
+      borderWidth: 2,
+      borderColor: '#1a1a1f',
+      hoverOffset: 6
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '58%',
+    plugins: {
+      legend: {
+        display: true,
+        position: 'bottom',
+        labels: {
+          color: '#9ca3af',
+          font: { size: 11 },
+          padding: 10,
+          boxWidth: 12
+        }
+      },
+      tooltip: {
+        backgroundColor: '#1a1a1f',
+        borderColor: '#2a2a32',
+        borderWidth: 1,
+        callbacks: {
+          label: ctx => ` ${ctx.label}: ~${ctx.raw} riders`
+        }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
