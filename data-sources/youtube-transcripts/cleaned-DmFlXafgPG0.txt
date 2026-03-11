@@ -1,0 +1,12 @@
+✅ 01-axis-range-review-2025: 7839 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/01-axis-range-review-2025.txt
+✅ 02-tempo-surge-deep-dive-roper: 11820 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/02-tempo-surge-deep-dive-roper.txt
+✅ 03-surge-artv2-spitfire-fireball-compared: 1012 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/03-surge-artv2-spitfire-fireball-compared.txt
+✅ 04-awsi-axis-2026-new-products: 2536 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/04-awsi-axis-2026-new-products.txt
+✅ 05-png-1400-v2-review: 1876 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/05-png-1400-v2-review.txt
+✅ 5URhBrhDQmA: 17 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/5URhBrhDQmA.txt
+✅ AXIS Tempo Foil ｜ Real World Test ｜ Downwind RAW Ep 007 [dE7eTTGZi1o]: 1327 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/AXIS Tempo Foil ｜ Real World Test ｜ Downwind RAW Ep 007 [dE7eTTGZi1o].txt
+✅ Honest Review： Axis Fireballs 1500 & 1750 [DmFlXafgPG0]: 1136 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/Honest Review： Axis Fireballs 1500 & 1750 [DmFlXafgPG0].txt
+✅ My first time on Axis foils! Art V2 999 [ktZ9cD1djug]: 236 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/My first time on Axis foils! Art V2 999 [ktZ9cD1djug].txt
+✅ The Deep Dive： AXIS ART V2 foil review ｜ Foiling Magazine [q4lgwzdHsWo]: 1564 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/The Deep Dive： AXIS ART V2 foil review ｜ Foiling Magazine [q4lgwzdHsWo].txt
+✅ a05v0tQ85MA: 229 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/a05v0tQ85MA.txt
+✅ agBjFhGfbGg: 691 words → /Users/herbertisworking/clawd/axis-advisor/data-sources/youtube-transcripts/../youtube-transcripts/cleaned/agBjFhGfbGg.txt
