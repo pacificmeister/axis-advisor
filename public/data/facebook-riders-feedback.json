@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 368,
+    "total_entries": 370,
     "sources": {
-      "facebook_groups": 101,
+      "facebook_groups": 103,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-10T14:17:35.267144"
+    "last_updated": "2026-03-11T13:28:08.002714"
   },
   "posts": [
     {
@@ -7445,6 +7445,43 @@
         "fuselage": "Short +60",
         "mast": "Integrated HM"
       }
+    },
+    {
+      "id": "post_64",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Wayne Gao",
+      "text": "Dockstarting Surge 1010 feedback: good for freestyle with Surf Skinny; for long distance bigger Fireballs are better; for easy/friendly start use PNG 1300 V2 / 1200.",
+      "foils_mentioned": [
+        "SURGE 1010",
+        "SURF SKINNY",
+        "FIREBALL",
+        "PNG 1300 V2",
+        "PNG 1200"
+      ],
+      "rider_weight": null,
+      "use_case": "dockstart",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-11T13:25:00Z"
+    },
+    {
+      "id": "post_65",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.5K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Standard black fuse works with Spitfire 840 wake setup; Advance+ offers better response, drive and pitch sensitivity due to more hydrodynamic shape; upgrade useful but not mandatory.",
+      "foils_mentioned": [
+        "SPITFIRE 840",
+        "BSC 890",
+        "BLACK ADVANCE+ FUSE",
+        "STANDARD BLACK FUSE"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-11T13:25:00Z"
     }
   ]
 }

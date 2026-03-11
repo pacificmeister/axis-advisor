@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-09",
-    "total_riders": 93
+    "last_updated": "2026-03-11",
+    "total_riders": 95
   },
   "riders": [
     {
@@ -3233,6 +3233,36 @@
       ],
       "gender": null,
       "age_group": null
+    },
+    {
+      "id": 94,
+      "weight": "unknown",
+      "experience": "unknown",
+      "disciplines": {
+        "dockStart": {
+          "frontWing": "Surge 1010 (question) / PNG 1300 V2 / ART Pro 1201",
+          "rearWing": "Surf Skinny (community suggestion)",
+          "mast": null,
+          "fuselage": null,
+          "notes": "Asks for turning-focused progression from PNG 1300 V2 and ART Pro 1201 into surf starts."
+        }
+      },
+      "source": "Robert Sellar, AXIS Foil Riders FB, Mar 11 2026"
+    },
+    {
+      "id": 95,
+      "weight": "unknown",
+      "experience": "unknown",
+      "disciplines": {
+        "wake": {
+          "frontWing": "BSC 890 (learning), Spitfire 840 (new)",
+          "rearWing": null,
+          "mast": null,
+          "fuselage": "Standard black fuse vs Black Advanced/Advance+ (community says standard works; advanced improves response)",
+          "notes": "Youth wake foil setup compatibility discussion."
+        }
+      },
+      "source": "Mitch Batterham, AXIS Foil Riders FB, Mar 11 2026"
     }
   ],
   "aggregations": {
