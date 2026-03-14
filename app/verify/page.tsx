@@ -4,12 +4,15 @@ import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 
 // ─── Types ──────────────────────────────────────────────────────
+type ComponentType = 'wing' | 'mast' | 'setup';
+
 interface CheckItem {
   id: string;
   label: string;
   description: string;
   severity: 'critical' | 'high' | 'medium';
-  category: 'physical' | 'listing' | 'seller';
+  category: 'physical' | 'listing' | 'seller' | 'photo';
+  componentType: ComponentType | 'all';
   result: 'pass' | 'fail' | 'unchecked';
 }
 
@@ -35,6 +38,7 @@ interface ReportForm {
 
 // ─── Static Data ────────────────────────────────────────────────
 const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
+  // ═══ WING-SPECIFIC CHECKS ═══
   // Critical — instant fail
   {
     id: 'serial',
@@ -42,6 +46,7 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Genuine AXIS wings have a serial number engraved on the mounting pedestal. A blank pedestal is an INSTANT FAIL — the single fastest check.',
     severity: 'critical',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'hardware',
@@ -49,6 +54,7 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Check M8 bolt holes for visible filler or epoxy. Genuine = precision-bonded with zero adhesive visible. Visible filler = counterfeit.',
     severity: 'critical',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'pedestal-layup',
@@ -56,6 +62,7 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Genuine AXIS has BLACK OVERSPRAY covering the pedestal-to-wing transition areas (above AND below mounting plate). Bare, messy carbon fibers = INSTANT FAIL.',
     severity: 'critical',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'qr-code',
@@ -63,14 +70,16 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Genuine QR codes are crisp and scan to AXIS verification. Blurry, low-res QR codes with bleeding modules = counterfeit.',
     severity: 'critical',
     category: 'physical',
+    componentType: 'wing',
   },
-  // High priority
+  // High priority — wings
   {
     id: 'surface-finish',
     label: 'Surface Finish Quality',
     description: 'Look for orange peel texture, waviness in reflections, inconsistent gloss zones, or dust inclusions. Genuine wings have a flawless, even finish.',
     severity: 'high',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'trailing-edge',
@@ -78,6 +87,7 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Check for rough finish or asymmetric scalloped cutouts (signs of hand-trimming vs CNC machining).',
     severity: 'high',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'pedestal-quality',
@@ -85,21 +95,24 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Genuine = precision molded, seamless transition. Counterfeit = glossy black plastic, crude transition, rough bolt holes.',
     severity: 'high',
     category: 'physical',
+    componentType: 'wing',
   },
   {
-    id: 'carbon-weave',
+    id: 'carbon-weave-wing',
     label: 'Carbon Fiber Weave',
     description: 'Genuine AXIS uses high-modulus carbon with consistent density. Counterfeits have coarser weave, inconsistent density, or may be cosmetic carbon over fiberglass.',
     severity: 'high',
     category: 'physical',
+    componentType: 'wing',
   },
-  // Medium
+  // Medium — wings
   {
     id: 'logo-print',
     label: 'Logo & Text Quality',
     description: 'Check for soft/bleeding print edges vs genuine pad-printing. Look at model ID and bolt spec text for compressed or misaligned fonts.',
     severity: 'medium',
     category: 'physical',
+    componentType: 'wing',
   },
   {
     id: 'parting-line',
@@ -107,14 +120,111 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'AXIS post-processes parting lines away. A visible mold seam is a medium-confidence counterfeit indicator.',
     severity: 'medium',
     category: 'physical',
+    componentType: 'wing',
   },
-  // Listing red flags
+
+  // ═══ MAST-SPECIFIC CHECKS ═══
+  // Critical — mast
+  {
+    id: 'mast-serial',
+    label: 'Serial Number on Base Plate',
+    description: 'Genuine AXIS masts have a serial number on the base plate that ties into AXIS production records. This verifies the specific unit and batch. No serial or fake serial = major red flag.',
+    severity: 'critical',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  {
+    id: 'mast-overspray',
+    label: 'Black Overspray Around Base Plate',
+    description: 'THIS IS THE #1 MAST TELL. AXIS uses black overspray in areas where carbon bends/wrinkles near the base plate to hide manufacturing imperfections. Clear coat with NO black overspray around the base plate junction = strong counterfeit indicator.',
+    severity: 'critical',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  {
+    id: 'mast-qr',
+    label: 'QR Code on Base Plate',
+    description: 'Genuine masts have a QR code on the base plate that scans to AXIS verification. Missing, blurry, or non-functional QR = red flag.',
+    severity: 'critical',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  // High — mast
+  {
+    id: 'mast-carbon-weave',
+    label: 'Carbon Weave Near Base Plate',
+    description: 'Inspect the carbon weave where it wraps around the base plate area. Genuine masts have smooth, flowing weave transitions. Wrinkles, bunching, or uneven weave near the base plate = counterfeit.',
+    severity: 'high',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  {
+    id: 'mast-cover',
+    label: 'Branded Mast Cover Included',
+    description: 'Genuine AXIS masts come with an AXIS-branded cover/bag. If the seller doesn\'t show the cover, they likely don\'t have one. Counterfeits don\'t come with genuine covers.',
+    severity: 'high',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  {
+    id: 'mast-finish',
+    label: 'Surface Finish & Consistency',
+    description: 'Check for consistent gloss, even color, and smooth transitions. HM carbon masts should have a uniform high-quality finish without dull spots, bubbles, or rough patches.',
+    severity: 'high',
+    category: 'physical',
+    componentType: 'mast',
+  },
+  {
+    id: 'mast-profile',
+    label: 'Mast Profile & Cross-Section',
+    description: 'Genuine AXIS masts have a precisely engineered hydrodynamic profile. Counterfeits may have thicker or asymmetric cross-sections that reduce performance.',
+    severity: 'medium',
+    category: 'physical',
+    componentType: 'mast',
+  },
+
+  // ═══ PHOTO ANALYSIS CHECKS (ALL COMPONENTS) ═══
+  {
+    id: 'photo-shadows',
+    label: 'Clean, Well-Lit Photos',
+    description: 'SCAMMER TECHNIQUE: Using shadowy photos (tree shadows, poor lighting) to obscure surface details and hide imperfections. Genuine sellers take clear photos because they have nothing to hide. Heavy shadows = hiding something.',
+    severity: 'high',
+    category: 'photo',
+    componentType: 'all',
+  },
+  {
+    id: 'photo-angles',
+    label: 'Multiple Angles Shown',
+    description: 'Genuine sellers show all angles — top, bottom, leading edge, trailing edge, bolt holes, pedestal/base plate. Limited angles = hiding defects. Ask for specific close-ups.',
+    severity: 'high',
+    category: 'photo',
+    componentType: 'all',
+  },
+  {
+    id: 'photo-detail',
+    label: 'Close-Up Detail Shots',
+    description: 'Look for at least one close-up of: serial number, QR code, hardware inserts, and carbon weave. Far-away-only photos that prevent detail inspection = red flag.',
+    severity: 'medium',
+    category: 'photo',
+    componentType: 'all',
+  },
+  {
+    id: 'photo-stock',
+    label: 'Not Stock/Stolen Images',
+    description: 'Reverse image search the listing photos. Scammers often steal photos from real listings or use manufacturer stock images. A quick Google Image search can reveal this.',
+    severity: 'high',
+    category: 'photo',
+    componentType: 'all',
+  },
+
+  // ═══ LISTING RED FLAGS (ALL COMPONENTS) ═══
   {
     id: 'price-check',
     label: 'Price Is Realistic',
     description: 'Genuine used AXIS foils typically sell for 60-80% of retail. Anything 40%+ below retail is suspicious. Use the Price Check tab to verify.',
     severity: 'high',
     category: 'listing',
+    componentType: 'all',
   },
   {
     id: 'actual-photos',
@@ -122,13 +232,15 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Listing shows real photos of the actual item, not stock images from the AXIS website.',
     severity: 'high',
     category: 'listing',
+    componentType: 'all',
   },
   {
     id: 'wing-cover',
-    label: 'Wing Cover/Bag Shown',
-    description: 'Genuine wings come with a matching cover. "Stored in another wing\'s cover" is a known scammer excuse — counterfeits don\'t come with covers.',
+    label: 'Cover/Bag Shown',
+    description: 'Genuine AXIS products come with matching covers. "Stored in another cover" is a known scammer excuse — counterfeits don\'t come with covers.',
     severity: 'high',
     category: 'listing',
+    componentType: 'all',
   },
   {
     id: 'receipt',
@@ -136,21 +248,25 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Seller can provide original receipt from an authorized AXIS dealer.',
     severity: 'medium',
     category: 'listing',
+    componentType: 'all',
   },
-  // Seller behavior
+
+  // ═══ SELLER BEHAVIOR (ALL COMPONENTS) ═══
   {
     id: 'serial-willingness',
     label: 'Willing to Show Serial Number',
     description: 'Ask the seller for a close-up of the serial number. Ghosting or excuses after this request = classic scammer behavior.',
     severity: 'critical',
     category: 'seller',
+    componentType: 'all',
   },
   {
     id: 'knowledge',
     label: 'Has Foiling Knowledge',
-    description: 'A genuine seller can talk about how the wing rides, what setup they used it with, why they\'re selling.',
+    description: 'A genuine seller can talk about how the product rides, what setup they used it with, why they\'re selling.',
     severity: 'medium',
     category: 'seller',
+    componentType: 'all',
   },
   {
     id: 'local-pickup',
@@ -158,6 +274,7 @@ const CHECKLIST_ITEMS: Omit<CheckItem, 'result'>[] = [
     description: 'Shipping-only with no local pickup option is a red flag. Scammers avoid in-person transactions.',
     severity: 'medium',
     category: 'seller',
+    componentType: 'all',
   },
 ];
 
@@ -176,11 +293,43 @@ const KNOWN_COUNTERFEIT_SOURCES = [
   { name: 'ABC Sports (Huizhou)', platform: 'Alibaba', models: 'Various AXIS clones (9+ months continuous)' },
   { name: 'Chican 0528 Factory Store', platform: 'AliExpress', models: 'GY-AXIS ART V2 999 Carbon Fiber' },
   { name: 'Various "GY-Axis" stores', platform: 'AliExpress', models: 'Uses exact AXIS names: Ultrashort, Crazyshort, etc.' },
+  { name: 'JFS / Huizhou Jinfengsheng', platform: 'Alibaba', models: '15+ distinct AXIS model clones — largest single-manufacturer counterfeit catalog documented' },
 ];
+
+const MAST_COUNTERFEIT_CASE_STUDY = {
+  title: 'Case Study: Hawaii 75cm HM Mast (March 2026)',
+  platform: 'Facebook Marketplace',
+  location: 'Honolulu, HI',
+  askingPrice: '$700',
+  indicators: [
+    {
+      label: 'Shadowy Photos',
+      detail: 'Seller used photos with heavy branch shadows to obscure surface details. Clean products deserve clean photos.',
+      severity: 'high' as const,
+    },
+    {
+      label: 'No Cover Shown',
+      detail: 'Genuine AXIS masts come with branded covers. Seller didn\'t show one — likely doesn\'t have one (counterfeits don\'t include them).',
+      severity: 'high' as const,
+    },
+    {
+      label: 'Carbon Weave Wrinkle Near Base Plate',
+      detail: 'Visible weave distortion where carbon wraps around the base plate area (photo 2). AXIS factory quality control would never ship this.',
+      severity: 'critical' as const,
+    },
+    {
+      label: 'No Black Overspray Around Base Plate',
+      detail: 'THE BIG TELL: AXIS uses black overspray where carbon bends/wrinkles near the base plate. This mast had clear coat with zero black overspray = strong counterfeit indicator.',
+      severity: 'critical' as const,
+    },
+  ],
+  verdict: 'LIKELY FAKE — All four indicators stacked together. Any single point is a question mark. All four together = counterfeit.',
+};
 
 // ─── Component ──────────────────────────────────────────────────
 export default function VerifyPage() {
   const [activeTab, setActiveTab] = useState<'checklist' | 'price' | 'report' | 'intel'>('checklist');
+  const [componentType, setComponentType] = useState<ComponentType>('wing');
   const [checks, setChecks] = useState<CheckItem[]>(
     CHECKLIST_ITEMS.map(item => ({ ...item, result: 'unchecked' as const }))
   );
@@ -213,6 +362,11 @@ export default function VerifyPage() {
       .catch(console.error);
   }, []);
 
+  // Filter checks based on selected component type
+  const filteredChecks = checks.filter(
+    c => c.componentType === componentType || c.componentType === 'all'
+  );
+
   // ─── Checklist Logic ────────────────────────────────────────
   const toggleCheck = (id: string, result: 'pass' | 'fail') => {
     setChecks(prev =>
@@ -224,11 +378,15 @@ export default function VerifyPage() {
     );
   };
 
-  const criticalFails = checks.filter(c => c.severity === 'critical' && c.result === 'fail').length;
-  const highFails = checks.filter(c => c.severity === 'high' && c.result === 'fail').length;
-  const totalFails = checks.filter(c => c.result === 'fail').length;
-  const totalChecked = checks.filter(c => c.result !== 'unchecked').length;
-  const totalPassed = checks.filter(c => c.result === 'pass').length;
+  const resetChecklist = () => {
+    setChecks(prev => prev.map(c => ({ ...c, result: 'unchecked' as const })));
+  };
+
+  const criticalFails = filteredChecks.filter(c => c.severity === 'critical' && c.result === 'fail').length;
+  const highFails = filteredChecks.filter(c => c.severity === 'high' && c.result === 'fail').length;
+  const totalFails = filteredChecks.filter(c => c.result === 'fail').length;
+  const totalChecked = filteredChecks.filter(c => c.result !== 'unchecked').length;
+  const totalPassed = filteredChecks.filter(c => c.result === 'pass').length;
 
   const getVerdict = () => {
     if (totalChecked === 0) return { label: 'Not Yet Checked', color: 'text-gray-400', bg: 'bg-gray-800', icon: '🔍' };
@@ -289,13 +447,23 @@ export default function VerifyPage() {
   // ─── Report Logic ───────────────────────────────────────────
   const handleReportSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Store report in localStorage for now (could be an API endpoint later)
     const reports = JSON.parse(localStorage.getItem('axis-scam-reports') || '[]');
     reports.push({ ...reportForm, timestamp: new Date().toISOString() });
     localStorage.setItem('axis-scam-reports', JSON.stringify(reports));
     setReportSubmitted(true);
     setTimeout(() => setReportSubmitted(false), 5000);
     setReportForm({ platform: '', url: '', productClaimed: '', askingPrice: '', description: '', email: '' });
+  };
+
+  // Category config for rendering
+  const getCategoryConfig = () => {
+    const base = [
+      { key: 'physical' as const, label: componentType === 'mast' ? '🔬 Mast Inspection' : '🔬 Physical Inspection', icon: '🔬' },
+      { key: 'photo' as const, label: '📸 Photo Analysis', icon: '📸' },
+      { key: 'listing' as const, label: '📋 Listing Red Flags', icon: '📋' },
+      { key: 'seller' as const, label: '🧑 Seller Behavior', icon: '🧑' },
+    ];
+    return base;
   };
 
   // ─── Render ─────────────────────────────────────────────────
@@ -313,7 +481,10 @@ export default function VerifyPage() {
                 Anti-Counterfeit Center
               </h1>
               <p className="text-gray-300 text-lg max-w-2xl">
-                Protect yourself from counterfeit AXIS foils. Check authenticity, verify prices, and report suspicious listings.
+                Protect yourself from counterfeit AXIS foils. Check authenticity for wings AND masts, verify prices, and report suspicious listings.
+              </p>
+              <p className="text-gray-500 text-sm mt-2">
+                Built with real field intelligence from AXIS experts and verified counterfeit cases.
               </p>
             </div>
           </div>
@@ -347,6 +518,35 @@ export default function VerifyPage() {
         {/* ─── TAB: Authenticity Checklist ─────────────────────── */}
         {activeTab === 'checklist' && (
           <div>
+            {/* Component Type Selector */}
+            <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-8">
+              <h2 className="text-lg font-black text-gray-900 mb-4">What are you checking?</h2>
+              <div className="grid grid-cols-3 gap-3">
+                {([
+                  { key: 'wing' as ComponentType, label: 'Front Wing', icon: '🪽', desc: '10 wing-specific + 8 universal checks' },
+                  { key: 'mast' as ComponentType, label: 'Mast', icon: '📏', desc: '7 mast-specific + 8 universal checks' },
+                  { key: 'setup' as ComponentType, label: 'Full Setup', icon: '🏄', desc: 'All 25 checks combined' },
+                ] as const).map(ct => (
+                  <button
+                    key={ct.key}
+                    onClick={() => {
+                      setComponentType(ct.key);
+                      resetChecklist();
+                    }}
+                    className={`p-4 rounded-xl border-2 text-left transition-all ${
+                      componentType === ct.key
+                        ? 'border-red-500 bg-red-50 shadow-md'
+                        : 'border-gray-200 hover:border-gray-300 bg-gray-50'
+                    }`}
+                  >
+                    <span className="text-2xl block mb-1">{ct.icon}</span>
+                    <span className="font-bold text-gray-900 block">{ct.label}</span>
+                    <span className="text-xs text-gray-500">{ct.desc}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
             {/* Verdict Card */}
             <div className={`${verdict.bg} rounded-2xl p-6 mb-8 border border-gray-700`}>
               <div className="flex items-center gap-4">
@@ -354,7 +554,7 @@ export default function VerifyPage() {
                 <div>
                   <h2 className={`text-2xl font-black ${verdict.color}`}>{verdict.label}</h2>
                   <p className="text-gray-400 text-sm mt-1">
-                    {totalChecked} of {checks.length} items checked • {totalPassed} passed • {totalFails} failed
+                    {totalChecked} of {filteredChecks.length} items checked • {totalPassed} passed • {totalFails} failed
                     {criticalFails > 0 && ` • ${criticalFails} CRITICAL FAILURES`}
                   </p>
                 </div>
@@ -363,27 +563,31 @@ export default function VerifyPage() {
               <div className="mt-4 h-3 bg-gray-700 rounded-full overflow-hidden flex">
                 <div
                   className="bg-green-500 transition-all duration-300"
-                  style={{ width: `${(totalPassed / checks.length) * 100}%` }}
+                  style={{ width: `${(totalPassed / filteredChecks.length) * 100}%` }}
                 />
                 <div
                   className="bg-red-500 transition-all duration-300"
-                  style={{ width: `${(totalFails / checks.length) * 100}%` }}
+                  style={{ width: `${(totalFails / filteredChecks.length) * 100}%` }}
                 />
               </div>
             </div>
 
             {/* Checklist sections */}
-            {(['physical', 'listing', 'seller'] as const).map(category => (
-              <div key={category} className="mb-8">
-                <h3 className="text-lg font-black text-gray-900 mb-4 flex items-center gap-2">
-                  {category === 'physical' ? '🔬 Physical Inspection' :
-                   category === 'listing' ? '📋 Listing Red Flags' :
-                   '🧑 Seller Behavior'}
-                </h3>
-                <div className="space-y-3">
-                  {checks
-                    .filter(c => c.category === category)
-                    .map(check => (
+            {getCategoryConfig().map(({ key: category, label: categoryLabel }) => {
+              const categoryChecks = filteredChecks.filter(c => c.category === category);
+              if (categoryChecks.length === 0) return null;
+              return (
+                <div key={category} className="mb-8">
+                  <h3 className="text-lg font-black text-gray-900 mb-4">
+                    {categoryLabel}
+                    {category === 'photo' && (
+                      <span className="text-sm font-normal text-gray-500 ml-2">
+                        — Scammers use photo tricks to hide defects
+                      </span>
+                    )}
+                  </h3>
+                  <div className="space-y-3">
+                    {categoryChecks.map(check => (
                       <div
                         key={check.id}
                         className={`bg-white rounded-xl border-2 p-4 transition-all ${
@@ -402,6 +606,11 @@ export default function VerifyPage() {
                               }`}>
                                 {check.severity.toUpperCase()}
                               </span>
+                              {check.componentType !== 'all' && (
+                                <span className="text-xs font-medium px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">
+                                  {check.componentType === 'wing' ? '🪽 Wing' : '📏 Mast'}
+                                </span>
+                              )}
                               <h4 className="font-bold text-gray-900">{check.label}</h4>
                             </div>
                             <p className="text-sm text-gray-600">{check.description}</p>
@@ -433,19 +642,35 @@ export default function VerifyPage() {
                         </div>
                       </div>
                     ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
 
-            {/* Quick tips */}
+            {/* Quick tips — context-aware */}
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mt-8">
-              <h3 className="font-bold text-blue-900 text-lg mb-3">📌 What to Always Ask a Seller</h3>
+              <h3 className="font-bold text-blue-900 text-lg mb-3">
+                📌 What to Always Ask a Seller
+                {componentType === 'mast' ? ' (Mast)' : componentType === 'wing' ? ' (Wing)' : ''}
+              </h3>
               <ol className="list-decimal list-inside space-y-2 text-blue-800">
-                <li>Close-up of bolt holes / hardware inserts</li>
-                <li>QR code (close enough to scan)</li>
-                <li>Serial number on mounting pedestal</li>
-                <li>Wing cover/bag</li>
+                {componentType !== 'mast' && (
+                  <>
+                    <li>Close-up of bolt holes / hardware inserts</li>
+                    <li>QR code (close enough to scan)</li>
+                    <li>Serial number on mounting pedestal</li>
+                  </>
+                )}
+                {componentType !== 'wing' && (
+                  <>
+                    <li>Close-up of base plate (check for serial number & QR code)</li>
+                    <li>Photo of carbon weave near base plate junction</li>
+                    <li>Photo of the area around base plate (check for black overspray)</li>
+                  </>
+                )}
+                <li>Cover/bag (should be AXIS-branded)</li>
                 <li>Receipt or proof of purchase from authorized dealer</li>
+                <li>Well-lit, shadow-free photos from multiple angles</li>
               </ol>
             </div>
           </div>
@@ -506,11 +731,9 @@ export default function VerifyPage() {
                       <span>Retail: ${priceAnalysis.retailPrice.toFixed(0)}</span>
                     </div>
                     <div className="relative h-8 bg-gradient-to-r from-red-600 via-orange-500 via-yellow-400 to-green-500 rounded-full overflow-hidden">
-                      {/* Threshold markers */}
                       <div className="absolute top-0 bottom-0 left-[40%] w-px bg-white/40" />
                       <div className="absolute top-0 bottom-0 left-[55%] w-px bg-white/40" />
                       <div className="absolute top-0 bottom-0 left-[75%] w-px bg-white/40" />
-                      {/* Price marker */}
                       <div
                         className="absolute top-0 bottom-0 w-1 bg-white shadow-lg"
                         style={{ left: `${Math.min(priceAnalysis.percentOfRetail, 100)}%` }}
@@ -676,6 +899,75 @@ export default function VerifyPage() {
         {/* ─── TAB: Threat Intel ──────────────────────────────── */}
         {activeTab === 'intel' && (
           <div>
+            {/* Real case study — Mast */}
+            <div className="bg-white rounded-2xl border-2 border-amber-300 p-6 sm:p-8 mb-8">
+              <div className="flex items-start gap-3 mb-4">
+                <span className="text-3xl">📋</span>
+                <div>
+                  <h2 className="text-xl font-black text-gray-900">{MAST_COUNTERFEIT_CASE_STUDY.title}</h2>
+                  <p className="text-gray-600 text-sm">
+                    {MAST_COUNTERFEIT_CASE_STUDY.platform} • {MAST_COUNTERFEIT_CASE_STUDY.location} • {MAST_COUNTERFEIT_CASE_STUDY.askingPrice}
+                  </p>
+                </div>
+              </div>
+
+              <div className="space-y-3 mb-4">
+                {MAST_COUNTERFEIT_CASE_STUDY.indicators.map((ind, i) => (
+                  <div key={i} className={`rounded-xl p-4 ${
+                    ind.severity === 'critical' ? 'bg-red-50 border border-red-200' : 'bg-orange-50 border border-orange-200'
+                  }`}>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
+                        ind.severity === 'critical' ? 'bg-red-200 text-red-800' : 'bg-orange-200 text-orange-800'
+                      }`}>
+                        {ind.severity.toUpperCase()}
+                      </span>
+                      <span className="font-bold text-gray-900">{ind.label}</span>
+                    </div>
+                    <p className="text-sm text-gray-700">{ind.detail}</p>
+                  </div>
+                ))}
+              </div>
+
+              <div className="bg-red-100 border border-red-300 rounded-lg p-4">
+                <p className="text-red-900 font-bold text-sm">🚨 {MAST_COUNTERFEIT_CASE_STUDY.verdict}</p>
+              </div>
+            </div>
+
+            {/* Photo Analysis Guide */}
+            <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 mb-8">
+              <h2 className="text-xl font-black text-gray-900 mb-4">📸 Scammer Photo Techniques</h2>
+              <p className="text-gray-600 mb-6">
+                Counterfeit sellers use specific photo tricks to hide defects. Learn to spot them.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-4">
+                <div className="bg-red-50 rounded-xl p-5 border border-red-100">
+                  <h4 className="font-bold text-red-900 mb-2">🌑 Shadow Play</h4>
+                  <p className="text-sm text-red-800">
+                    Using outdoor photos with tree/branch shadows across the product to obscure surface finish, weave quality, and junction details. <strong>Clean product = clean photos.</strong>
+                  </p>
+                </div>
+                <div className="bg-red-50 rounded-xl p-5 border border-red-100">
+                  <h4 className="font-bold text-red-900 mb-2">📐 Selective Angles</h4>
+                  <p className="text-sm text-red-800">
+                    Only showing angles that hide known counterfeit tells (base plate junction, pedestal, hardware inserts). <strong>Ask for the angles they didn&apos;t volunteer.</strong>
+                  </p>
+                </div>
+                <div className="bg-red-50 rounded-xl p-5 border border-red-100">
+                  <h4 className="font-bold text-red-900 mb-2">📏 Distance Shots</h4>
+                  <p className="text-sm text-red-800">
+                    Photographing from far away so you can&apos;t inspect weave quality, serial numbers, or finish details. <strong>Always request close-ups.</strong>
+                  </p>
+                </div>
+                <div className="bg-red-50 rounded-xl p-5 border border-red-100">
+                  <h4 className="font-bold text-red-900 mb-2">🖼️ Stolen Images</h4>
+                  <p className="text-sm text-red-800">
+                    Using genuine product photos from AXIS&apos;s website or other real listings. <strong>Reverse image search any listing photo.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Known counterfeit sources */}
             <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 mb-8">
               <h2 className="text-2xl font-black text-gray-900 mb-2">🕵️ Known Counterfeit Sources</h2>
@@ -706,6 +998,33 @@ export default function VerifyPage() {
               </div>
             </div>
 
+            {/* HM Carbon Mast Alert */}
+            <div className="bg-amber-50 border-2 border-amber-300 rounded-2xl p-6 sm:p-8 mb-8">
+              <h3 className="text-xl font-black text-amber-900 mb-3">⚠️ High-Value Targets: HM Carbon Masts</h3>
+              <p className="text-amber-800 mb-4">
+                HM (High Modulus) carbon masts are increasingly targeted by counterfeiters due to their high retail value ($800-1200+). 
+                Key things to know:
+              </p>
+              <ul className="space-y-2 text-amber-900 text-sm">
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-600 mt-0.5">●</span>
+                  <span><strong>Serial numbers on base plates</strong> tie directly to AXIS production records — they can verify the exact unit and batch.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-600 mt-0.5">●</span>
+                  <span><strong>Black overspray near the base plate</strong> is a standard AXIS manufacturing technique to cover where carbon naturally wrinkles during layup. Absence of this overspray is a strong counterfeit indicator.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-600 mt-0.5">●</span>
+                  <span><strong>Genuine masts always include an AXIS-branded cover.</strong> If the seller doesn&apos;t show one, they likely don&apos;t have one.</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-600 mt-0.5">●</span>
+                  <span><strong>Carbon weave flow near the base plate</strong> should be clean and smooth. Wrinkles or bunching = factory reject at best, counterfeit at worst.</span>
+                </li>
+              </ul>
+            </div>
+
             {/* How counterfeits are made */}
             <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 mb-8">
               <h3 className="text-xl font-black text-gray-900 mb-4">🏭 How Counterfeits Are Made</h3>
@@ -723,6 +1042,8 @@ export default function VerifyPage() {
                       <li>• Hand-trimmed trailing edges</li>
                       <li>• No quality control or testing</li>
                       <li>• No serial numbers</li>
+                      <li>• No branded covers/bags</li>
+                      <li>• No black overspray finishing</li>
                       <li>• Cost: $250-400 wholesale</li>
                     </ul>
                   </div>
@@ -734,6 +1055,8 @@ export default function VerifyPage() {
                       <li>• CNC-finished trailing edges</li>
                       <li>• Tested and quality-controlled</li>
                       <li>• Unique serial number engraved</li>
+                      <li>• Branded covers included</li>
+                      <li>• Black overspray at stress points</li>
                       <li>• Retail: $500-900+</li>
                     </ul>
                   </div>
@@ -779,7 +1102,10 @@ export default function VerifyPage() {
             <span className="text-lg sm:text-2xl font-bold">ADVISOR</span>
           </div>
           <p className="text-gray-400 text-xs sm:text-sm">
-            Anti-Counterfeit Center • Protecting the foiling community
+            Anti-Counterfeit Center • Protecting the foiling community • Wings &amp; Masts
+          </p>
+          <p className="text-gray-600 text-xs mt-2">
+            Intel sourced from verified field experts and documented counterfeit cases
           </p>
           <div className="mt-3 sm:mt-4 text-xs sm:text-sm text-gray-500">
             <a href="https://axisfoils.com" className="hover:text-white transition">
