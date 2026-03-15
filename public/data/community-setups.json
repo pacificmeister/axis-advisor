@@ -4,10 +4,84 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-11",
-    "total_riders": 95
+    "last_updated": "2026-03-15T06:55:34.906479",
+    "total_riders": 99
   },
   "riders": [
+    {
+      "id": "setup_2026_03_15_001",
+      "source": "FB post 1556212952143657",
+      "date": "2026-03-15",
+      "rider_name": "Darren Kite",
+      "weight": "72kg",
+      "experience": "advanced",
+      "location": "Victor Harbor, South Australia",
+      "disciplines": [
+        "wing"
+      ],
+      "setup": {
+        "front_wing": "Surge 830",
+        "stab": "300p",
+        "fuse": "Short Advanced",
+        "mast": "Aluminum integrated max"
+      },
+      "conditions": "waves, 25-35km/hr, medium-large swells",
+      "performance": "830: 33.7km/hr top speed, steady, maneuverable. Prefers 830 over 890 in these conditions.",
+      "otherThoughts": "Also rides Surge 890 with same 300p; 890 feels twitchy above 30km/hr in waves"
+    },
+    {
+      "id": "setup_2026_03_15_002",
+      "source": "FB post 1556212952143657 comment",
+      "date": "2026-03-15",
+      "rider_name": "Ian Sloan",
+      "role": "Top contributor",
+      "weight": "unknown",
+      "experience": "advanced",
+      "disciplines": [
+        "wing"
+      ],
+      "setup": {
+        "front_wing": "Surge 830",
+        "stab": "S40 (preferred over SS300 or SS320)"
+      },
+      "otherThoughts": "Prefers AV2 879 + SS320 over Surge in waves overall"
+    },
+    {
+      "id": "setup_2026_03_15_003",
+      "source": "FB Perry Hughes post",
+      "date": "2026-03-13",
+      "rider_name": "Perry Hughes",
+      "weight": "unknown",
+      "experience": "intermediate",
+      "disciplines": [
+        "wing"
+      ],
+      "setup": {
+        "front_wing": "Surge 830",
+        "stab": "Skinny 45 (preferred), Surf Skinny 300 (found tricky in chop)"
+      },
+      "otherThoughts": "SS300 tricky for intermediate in choppy; Skinny 45 awesome on 830; SS300 great on Surge 950"
+    },
+    {
+      "id": "setup_2026_03_15_004",
+      "source": "FB Peter Michl post",
+      "date": "2026-03-09",
+      "rider_name": "Peter Michl",
+      "weight": "unknown",
+      "experience": "advanced",
+      "location": "El Gouna, Egypt (Red Sea)",
+      "disciplines": [
+        "parawing_downwind"
+      ],
+      "setup": {
+        "front_wing": "Fireball 1350",
+        "stab": "Skinny 45",
+        "board": "120L Frankboard"
+      },
+      "conditions": "~25 knots, slow Red Sea swell",
+      "performance": "Impressed by speed range and maneuverability. Questions if Surge 1010 would excel in similar conditions.",
+      "otherThoughts": "Asking community for Surge 1010 split times in bay run conditions"
+    },
     {
       "id": 1,
       "weight": "85-95 kg",
