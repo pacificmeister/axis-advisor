@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 371,
+    "total_entries": 368,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,89 +13,9 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-15T13:55:03.222823"
+    "last_updated": "2026-03-10T14:17:35.267144"
   },
   "posts": [
-    {
-      "id": "post_2026_03_15_001",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "post_id": "1556212952143657",
-      "rider": "Darren Kite",
-      "rider_role": "Top contributor",
-      "rider_weight_kg": 72,
-      "date": "2026-03-15",
-      "time_posted": "~4h before 6am PT",
-      "foils_mentioned": [
-        "Surge 830",
-        "Surge 890"
-      ],
-      "stab": "300p",
-      "fuse": "Short Advanced",
-      "mast": "Aluminum integrated max",
-      "discipline": "wing foiling / Foildrive",
-      "location": "Victor Harbor, South Australia",
-      "conditions": "waves, solid swells, 25-35km/hr speeds",
-      "text": "Surge comparson 830 to 890. Rider 72kg. Aluminum integrated mast max system. I have been riding the Surge 890 for some time, been my go to wing. But getting cooked at 30plus km/hr... So today I did 2 batteries on the 890, and swapped to 830. Immediately I felt more comfortable and was more confident as the wave jacked up. I was topping out at 33.7km/hr where as on the 890 I maxed out at 30. Also the total overall average speeds were about 2 to 3 km/hr fast on the 830. My fear was it would be a bit twitchy, but it was not. Its still super manoeuvrable, but also steady. I am running a short advanced fuse and a 300p. The lift in the 830 was still fine and having a touch more speed in the reform it still glided through pretty well. Pretty stoked on them.",
-      "sentiment": "positive",
-      "key_insights": [
-        "830 outperforms 890 in wave riding above 25km/hr",
-        "Surge 830 top speed: 33.7km/hr vs 890 max 30km/hr in this session",
-        "2-3 km/hr faster average on 830",
-        "830 with 300p stab described as magic",
-        "890 can feel twitchy in bigger waves at speed",
-        "275p helps 890 in bigger swell but 830 still preferred",
-        "Surge series noted for steadiness/maneuverability combo"
-      ],
-      "reactions": 12,
-      "comments": 3,
-      "url": "https://www.facebook.com/groups/axisfoilriders/posts/1556212952143657/"
-    },
-    {
-      "id": "post_2026_03_15_002",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "post_id": "1555986298832989",
-      "rider": "Jimmy Jam Foils",
-      "rider_role": "Group expert",
-      "date": "2026-03-14",
-      "time_posted": "~11h before 6am PT March 15",
-      "foils_mentioned": [],
-      "discipline": "Foildrive / sit-down foiling",
-      "text": "Foildrive session with some team riders from Armstrong with the inventor of the Airchair, Mike Murphy, as our boat driver. Mike is 77 years young now and we are helping him figure out how many liter board to use with Foildrive. The doctors just told him he can no longer do backflips on the Sitdown foil. (For his 75th bday, he did 75 backflips behind the boat). Since he can no longer backflip he got a Foildrive to stay young. Rumor has it, hes now a dealer and has Armstrong mast. It is for everyone.",
-      "sentiment": "positive",
-      "key_insights": [
-        "Cross-brand content: Armstrong + Foildrive session",
-        "Mike Murphy (Airchair inventor) now using Foildrive",
-        "Foildrive positioned as accessible across age groups"
-      ],
-      "reactions": 8,
-      "comments": 0,
-      "url": "https://www.facebook.com/groups/axisfoilriders/posts/1555986298832989/"
-    },
-    {
-      "id": "post_2026_03_15_003",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "post_id": "1555471965551089",
-      "rider": "Mateo Guerin",
-      "rider_role": "Follow (external)",
-      "date": "2026-03-14",
-      "foils_mentioned": [
-        "unknown"
-      ],
-      "discipline": "unknown",
-      "text": "Some pics from a sunset session [9+ photos]",
-      "sentiment": "neutral",
-      "unanswered_question": "Gilles Onno (8h): Which foil u used?",
-      "key_insights": [
-        "Sunset session shared but foil brand not mentioned",
-        "Community asking which foil used \u2014 no response"
-      ],
-      "reactions": 4,
-      "comments": 1,
-      "url": "https://www.facebook.com/groups/axisfoilriders/posts/1555471965551089/"
-    },
     {
       "id": "post_0",
       "source": "facebook_axis_riders",
