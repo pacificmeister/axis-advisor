@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-15T06:55:34.906479",
-    "total_riders": 99
+    "last_updated": "2026-03-18T18:00:00",
+    "total_riders": 102
   },
   "riders": [
     {
@@ -3337,6 +3337,69 @@
         }
       },
       "source": "Mitch Batterham, AXIS Foil Riders FB, Mar 11 2026"
+    },
+    {
+      "id": "setup_2026_03_18_001",
+      "source": "FB post 1557963521968600",
+      "date": "2026-03-17",
+      "rider_name": "Thomas Boyce",
+      "weight": "215lbs (~98kg)",
+      "experience": "intermediate-advanced",
+      "location": "Unknown",
+      "disciplines": [
+        "winging"
+      ],
+      "setup": {
+        "front_wing": "Surge 1010",
+        "stab": "450/67",
+        "fuse": "Advanced Ultrashort",
+        "mast": "Unknown"
+      },
+      "conditions": "choppy/wave, 25-30kts wind",
+      "performance": "1010 + 450/67 dead easy for 215lb heavyweight winging. 350/63 ok but pitch surprises in chaotic conditions.",
+      "otherThoughts": "Very heavy rider needing large stab for Surge 1010"
+    },
+    {
+      "id": "setup_2026_03_18_002",
+      "source": "FB post 1547332029698416",
+      "date": "2026-03-18",
+      "rider_name": "Matthew Ross",
+      "weight": "92kg",
+      "experience": "advanced",
+      "location": "Unknown",
+      "disciplines": [
+        "wake/boat"
+      ],
+      "setup": {
+        "front_wing": "SO 960 (current), considering Surge 950",
+        "stab": "Unknown",
+        "fuse": "Unknown",
+        "mast": "Unknown"
+      },
+      "conditions": "Behind AXIS boat and MC x24",
+      "performance": "Rides SO 960 currently, asking about Surge 950",
+      "otherThoughts": "Advanced rider at 92kg behind direct drive boat wakes"
+    },
+    {
+      "id": "setup_2026_03_18_003",
+      "source": "FB post 1554683615629924",
+      "date": "2026-03-13",
+      "rider_name": "Jonathan Robert",
+      "weight": "66kg",
+      "experience": "intermediate-advanced",
+      "location": "Unknown",
+      "disciplines": [
+        "winging"
+      ],
+      "setup": {
+        "front_wing": "Surge 830",
+        "stab": "300 Surf Skinny or 320 SS",
+        "fuse": "Sillyshort",
+        "mast": "Unknown"
+      },
+      "conditions": "waves/winging",
+      "performance": "Sillyshort fuse far less prone to breaching than Ultrashort for given wings. For 66kg, longer fuses very difficult to balance.",
+      "otherThoughts": "Each fuse increment roughly = one size rear wing in pitch control"
     }
   ],
   "aggregations": {

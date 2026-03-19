@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 368,
+    "total_entries": 374,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-10T14:17:35.267144"
+    "last_updated": "2026-03-18T18:00:00"
   },
   "posts": [
     {
@@ -7445,6 +7445,101 @@
         "fuselage": "Short +60",
         "mast": "Integrated HM"
       }
+    },
+    {
+      "id": "post_368",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Darren Kite",
+      "text": "Surge comparison 830 to 890 with Foildrive. Rider 72kg. Surge 890 sweet zone 25km/hr, struggles at 30-35km/hr on bigger waves. Surge 830 more comfortable at speed, topped at 33.7km/hr. 2-3km/hr faster average. Not twitchy. Running short advanced fuse and 300p stabilizer.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surge 890"
+      ],
+      "rider_weight": 72,
+      "use_case": "foildrive",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-15T00:00:00"
+    },
+    {
+      "id": "post_369",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Surge 950 and 1010 are magical behind the boat. The 1010 has a hair better glide for camera pole use. The 950 would be a hair easier to do wake transfer. I would say grab the 950 unless heavier or riding smaller boat wakes.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "wake/boat",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-04T00:00:00"
+    },
+    {
+      "id": "post_370",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Stephen Westwood",
+      "text": "Testing 1010 and 950 on FoilDrive behind big boat wakes in Auckland harbour at 12-15 knots boat speed. 950 felt a lot faster and looser to turn. 1010 nearly as fast on GPS, hits 15 knots max. In choppy windy conditions the 1010 is my go to as it eats up the chop.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "foildrive",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-04T00:00:00"
+    },
+    {
+      "id": "post_371",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Sean Richardson",
+      "text": "For the Surges (I have every size including 1010) my preference for waves: Progressive 275-300 stabs because with wider chord they have more hold for pushing hard in bottom turns. Surf skinnies are quick and turn well but do not have as much hold to push against in waves or at lower speeds.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Surge"
+      ],
+      "rider_weight": null,
+      "use_case": "waves",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-03-17T00:00:00"
+    },
+    {
+      "id": "post_372",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Kuba Perkowski",
+      "text": "Switched from AK Plasma 1300cm2 to ART V2 1099 with crazyshort advance fuse and 359 skinny rear wing for light wind winging. Feels like a rodeo. Was comfortable on old Plasma. Advice received: go to Advance+ Ultrashort fuse and larger stabilizer (362-375).",
+      "foils_mentioned": [
+        "ART V2 1099"
+      ],
+      "rider_weight": null,
+      "use_case": "winging",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-13T00:00:00"
+    },
+    {
+      "id": "post_373",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Perry Hughes",
+      "text": "Surge 830 stab advice: Found surf skinny 300 tricky for intermediate winging in choppy conditions. Skinny 45 is awesome. Surf skinny 300 is amazing on the surge 950 though.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surge 950"
+      ],
+      "rider_weight": null,
+      "use_case": "winging",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-03-13T00:00:00"
     }
   ]
 }
