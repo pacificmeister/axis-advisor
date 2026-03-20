@@ -4,10 +4,61 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-18T18:00:00",
-    "total_riders": 102
+    "last_updated": "2026-03-19T18:00:00",
+    "total_riders": 105
   },
   "riders": [
+    {
+      "id": "setup_2026_03_19_001",
+      "source": "FB post axisfoilriders 2026-03-19",
+      "date": "2026-03-19",
+      "rider_name": "Brad Gordon",
+      "weight": "96kg",
+      "experience": "advanced",
+      "disciplines": [
+        "winging",
+        "surffoiling"
+      ],
+      "setup": {
+        "front_wing": "Surge 830",
+        "board": "320surf Ocean",
+        "notes": "Previously rode 780s. Surge 830 approx 20-30% better performer than Spitfire or Art v2. Upgraded from 780 setup."
+      },
+      "note": "Top contributor recommendation for 92kg winger: 20-30% better than ART v2"
+    },
+    {
+      "id": "setup_2026_03_19_002",
+      "source": "FB post axisfoilriders 2026-03-19",
+      "date": "2026-03-19",
+      "rider_name": "Sveny Foils",
+      "weight": "115kg",
+      "experience": "advanced",
+      "disciplines": [
+        "tow_foiling",
+        "winging"
+      ],
+      "setup": {
+        "front_wing": "Surge 780 (shoulder-high waves), Surge 830 (hip-high), Surge 890 (winging)",
+        "notes": "At 115kg: 780 for shoulder-high tow (need lots of wind to wing), 830 for hip-high, 890 for free ride winging"
+      },
+      "note": "Detailed weight-specific Surge sizing breakdown from top contributor"
+    },
+    {
+      "id": "setup_2026_03_19_003",
+      "source": "FB post axisfoilriders 2026-03-19",
+      "date": "2026-03-19",
+      "rider_name": "Cédric Okp",
+      "experience": "advanced",
+      "location": "El Gouna, Egypt",
+      "disciplines": [
+        "dockstart"
+      ],
+      "setup": {
+        "front_wing": "FB1350 (Freebird 1350)",
+        "notes": "Described as go-to dockstart foil. Morning holiday routine at El Gouna"
+      },
+      "note": "FB1350 praised for dockstart sessions"
+    },
     {
       "id": "setup_2026_03_15_001",
       "source": "FB post 1556212952143657",
@@ -849,10 +900,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiWxAxf",
       "date": "2026-03-08",
-      "name": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
+      "name": "Survey Rider (Varberg, Sweden. Beats most spots😃)",
       "weight": "85-95 kg / 187-209 lbs",
       "experience": "4+ years",
-      "location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
+      "location": "Varberg, Sweden. Beats most spots😃",
       "disciplines": [
         "Wing Foiling"
       ],
@@ -1824,10 +1875,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNg3H8J9",
       "date": "2026-03-09",
-      "name": "Survey Rider (Vend\u00e9e France)",
+      "name": "Survey Rider (Vendée France)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "4+ years",
-      "location": "Vend\u00e9e France",
+      "location": "Vendée France",
       "disciplines": [
         "Prone Surf",
         "Wing Foiling",
@@ -2360,7 +2411,7 @@
         },
         {
           "discipline": "SUP (Non-DW)",
-          "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
+          "front_wing": "Art 999 ( fireball 1250 when it’s small)",
           "rear_wing": "Skinny 40",
           "mast": "82cm HM carbon",
           "fuselage": "Black ultrashort"
@@ -2380,10 +2431,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiDUf3q",
       "date": "2026-03-09",
-      "name": "Survey Rider (France oc\u00e9an basque country)",
+      "name": "Survey Rider (France océan basque country)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "2-4 years",
-      "location": "France oc\u00e9an basque country",
+      "location": "France océan basque country",
       "disciplines": [
         "Downwind SUP",
         "Prone Surf",
@@ -2623,10 +2674,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNipQpDr",
       "date": "2026-03-09",
-      "name": "Survey Rider (Z\u00fcrich)",
+      "name": "Survey Rider (Zürich)",
       "weight": "Under 65 kg / 143 lbs",
       "experience": "2-4 years",
-      "location": "Z\u00fcrich",
+      "location": "Zürich",
       "disciplines": [
         "Pump/Flat Water",
         "Dock Start"
@@ -3629,7 +3680,7 @@
             "mentions": 1
           }
         ],
-        "note": "All high-aspect, 1300+ cm\u00b2 wings"
+        "note": "All high-aspect, 1300+ cm² wings"
       }
     },
     "trends": [
