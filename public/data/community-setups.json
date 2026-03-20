@@ -4,10 +4,37 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-19T18:00:00",
-    "total_riders": 105
+    "last_updated": "2026-03-20T13:01:00Z",
+    "total_riders": 106
   },
   "riders": [
+    {
+      "id": "setup_2026_03_20_001",
+      "source": "FB post axisfoilriders 2026-03-20",
+      "date": "2026-03-20",
+      "rider_name": "Yannick Favieres",
+      "weight": "97kg",
+      "age": "48",
+      "experience": "advanced",
+      "disciplines": [
+        "pumpfoil",
+        "dockstart"
+      ],
+      "setup": {
+        "front_wing": "Fireball 1750",
+        "mast": "80cm Fatty carbon",
+        "fuselage": "Fatty Short",
+        "stabilizer": "358/25 (preferred over 358/35)"
+      },
+      "speed_data_kmh": {
+        "fireball_1750": "15.5-18",
+        "fireball_1350": "17-20",
+        "art_pro_1401": "15-18",
+        "png_1310": "12-16"
+      },
+      "conditions": "8\u00b0C water, 5/4 wetsuit, dockstart",
+      "note": "First session Fireball 1750 review. 2-3x longer runs vs smaller foils. Easier dockstart than expected. Long-distance foil. Prefers 358/25 over 358/35 stabilizer. Carbon mast over aluminum."
+    },
     {
       "id": "setup_2026_03_19_001",
       "source": "FB post axisfoilriders 2026-03-19",
@@ -47,7 +74,7 @@
       "id": "setup_2026_03_19_003",
       "source": "FB post axisfoilriders 2026-03-19",
       "date": "2026-03-19",
-      "rider_name": "Cédric Okp",
+      "rider_name": "C\u00e9dric Okp",
       "experience": "advanced",
       "location": "El Gouna, Egypt",
       "disciplines": [
@@ -900,10 +927,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiWxAxf",
       "date": "2026-03-08",
-      "name": "Survey Rider (Varberg, Sweden. Beats most spots😃)",
+      "name": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
       "weight": "85-95 kg / 187-209 lbs",
       "experience": "4+ years",
-      "location": "Varberg, Sweden. Beats most spots😃",
+      "location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
       "disciplines": [
         "Wing Foiling"
       ],
@@ -1875,10 +1902,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNg3H8J9",
       "date": "2026-03-09",
-      "name": "Survey Rider (Vendée France)",
+      "name": "Survey Rider (Vend\u00e9e France)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "4+ years",
-      "location": "Vendée France",
+      "location": "Vend\u00e9e France",
       "disciplines": [
         "Prone Surf",
         "Wing Foiling",
@@ -2411,7 +2438,7 @@
         },
         {
           "discipline": "SUP (Non-DW)",
-          "front_wing": "Art 999 ( fireball 1250 when it’s small)",
+          "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
           "rear_wing": "Skinny 40",
           "mast": "82cm HM carbon",
           "fuselage": "Black ultrashort"
@@ -2431,10 +2458,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiDUf3q",
       "date": "2026-03-09",
-      "name": "Survey Rider (France océan basque country)",
+      "name": "Survey Rider (France oc\u00e9an basque country)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "2-4 years",
-      "location": "France océan basque country",
+      "location": "France oc\u00e9an basque country",
       "disciplines": [
         "Downwind SUP",
         "Prone Surf",
@@ -2674,10 +2701,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNipQpDr",
       "date": "2026-03-09",
-      "name": "Survey Rider (Zürich)",
+      "name": "Survey Rider (Z\u00fcrich)",
       "weight": "Under 65 kg / 143 lbs",
       "experience": "2-4 years",
-      "location": "Zürich",
+      "location": "Z\u00fcrich",
       "disciplines": [
         "Pump/Flat Water",
         "Dock Start"
@@ -3680,7 +3707,7 @@
             "mentions": 1
           }
         ],
-        "note": "All high-aspect, 1300+ cm² wings"
+        "note": "All high-aspect, 1300+ cm\u00b2 wings"
       }
     },
     "trends": [

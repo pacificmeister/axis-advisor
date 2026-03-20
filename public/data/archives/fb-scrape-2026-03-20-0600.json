@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "scrape_time": "2026-03-20T13:01:00Z",
+    "scrape_trigger": "cron_6am_pacific",
+    "scraper": "Herbert (Alex Foiler account)",
+    "group": "AXIS Foil Riders (axisfoilriders)",
+    "official_page": "axisfoils",
+    "sort": "New posts (chronological)",
+    "window": "Last 12 hours"
+  },
+  "riders_group_posts": [
+    {
+      "id": "post_20260320_001",
+      "poster": "Filipo Calippo Wolfsturm",
+      "time_ago": "3 hours ago",
+      "timestamp_approx": "2026-03-20T10:00:00Z",
+      "title": "Trade PNG V2 1400 <-> 1200",
+      "text": "Is someone in Europe interested in a trade? I have a PNG1400 V2 in perfect condition and would like to switch for a PNG 1200 V2. Just pm me, based in Hamburg - Germany",
+      "foils_mentioned": ["PNG 1400 V2", "PNG 1200 V2"],
+      "location": "Hamburg, Germany",
+      "type": "trade",
+      "reactions": 0,
+      "comments": [],
+      "sentiment": "neutral",
+      "scam_flag": false
+    },
+    {
+      "id": "post_20260320_002",
+      "poster": "Tom La Majorette",
+      "time_ago": "~5 hours ago",
+      "timestamp_approx": "2026-03-20T08:00:00Z",
+      "title": "Tribute to my 1401",
+      "text": "Tribute to my 1401 ♥️ Thanks for this winter Now time for new era 🔥 (shared from Instagram)",
+      "foils_mentioned": ["ART Pro 1401"],
+      "type": "ride_content",
+      "reactions": 2,
+      "comment_count": 4,
+      "comments": [
+        {
+          "author": "Jim Finnigan",
+          "time_ago": "2 hours ago",
+          "text": "What Fuselage and stabilizer would you recommend for pumping the 1401, please?",
+          "replied": false,
+          "unanswered": true
+        }
+      ],
+      "sentiment": "positive",
+      "scam_flag": false
+    },
+    {
+      "id": "post_20260320_003",
+      "poster": "Cédric Okp",
+      "badge": "Top contributor",
+      "time_ago": "~5 hours ago",
+      "timestamp_approx": "2026-03-20T08:00:00Z",
+      "text": "Morning holiday routine. FB1350 is my go to dockstart foil! love it. (Instagram reel from El Gouna) - never thought that I will ever dockstart in El Gouna as my post breakfast daily routine. Thank you @cooksclubelgouna @sherifredc",
+      "foils_mentioned": ["FB1350", "Fireball 1350"],
+      "discipline": "dockstart / pumpfoil",
+      "location": "El Gouna, Egypt",
+      "type": "ride_content",
+      "reactions": 0,
+      "comments": [],
+      "sentiment": "positive",
+      "scam_flag": false
+    },
+    {
+      "id": "post_20260320_004",
+      "poster": "Yannick Favieres",
+      "time_ago": "16 hours ago",
+      "timestamp_approx": "2026-03-19T21:00:00Z",
+      "title": "Fireball 1750 – First Session Feedback",
+      "text": "Setup: Fatty Short fuselage, 80cm Fatty carbon mast (first time on carbon), 358/35 and 358/25 stabilizers (strong preference for 25). Rider: 97kg, 48 years old, winter shape (+4-5kg raclette bonus). Around 5 sessions since December, 8°C water + 5/4 wetsuit. KEY OBSERVATIONS: Accessibility - big surprise despite wingspan, easier than 1350 for dead starts, closer to ART Pro 1401 ease. Efficiency - 2-3x longer runs, pumping less energy-consuming. Speed (Garmin dockstart): FB1750 ~15.5-18 km/h, FB1350 ~17-20 km/h, ART Pro 1401 ~15-18 km/h, PNG 1310 ~12-16 km/h. Low speed - can stay flying at low speed without stalling unlike 1350. Glide - long efficient phases. Junior test (38kg son): 1750 more difficult than 1350 for direction changes, son stays on 1350. Conclusion: clearly a long-distance oriented foil. Carbon mast worth it. For waves will go back to 1350 or ideally 1160.",
+      "foils_mentioned": ["Fireball 1750", "Fireball 1350", "ART Pro 1401", "PNG 1310"],
+      "rider_weight": "97kg",
+      "discipline": "pumpfoil / dockstart",
+      "mast": "80cm Fatty carbon",
+      "fuselage": "Fatty Short",
+      "stabilizers": ["358/35", "358/25 (preferred)"],
+      "type": "detailed_feedback",
+      "reactions": 0,
+      "comments": [],
+      "sentiment": "positive",
+      "hashtags": ["#axisfoils", "#fireball1750", "#pumpfoil", "#dockstart", "#foiladdict", "#foilinglife", "#glide", "#enduranceriding"],
+      "scam_flag": false
+    },
+    {
+      "id": "post_20260320_005",
+      "poster": "Tee Kay",
+      "time_ago": "22 hours ago",
+      "timestamp_approx": "2026-03-19T15:00:00Z",
+      "text": "Hi there, Looking to buy a Surge 830 and wondering if you have some thoughts on this foil vs the ART 939 V2. I have the 939 V2, and dont love the turning but the lift and glide and speed are perfect. for my weight (92KG) and conditions (20-35 Kn, shoulder hi winging) Would the Surge 830 have similar lower end? Does the Surge model have better or worse low end than the V2? Thanks!",
+      "foils_mentioned": ["Surge 830", "ART 939 V2"],
+      "rider_weight": "92kg",
+      "conditions": "20-35 knots, shoulder high winging",
+      "discipline": "winging",
+      "type": "product_question",
+      "reactions": 2,
+      "comment_count": 12,
+      "comments": [
+        {
+          "author": "Mark Shinn",
+          "badge": "All-star contributor",
+          "time_ago": "20 hours ago",
+          "text": "The Surge has a far superior low end than the ART v2 and is much easier to pump, that's in addition to probably being the best turning foil on the market right now. With the conditions you describe it seems like a perfect fit.",
+          "sentiment": "positive_surge",
+          "reactions": 2
+        },
+        {
+          "author": "Tee Kay",
+          "time_ago": "13 hours ago",
+          "text": "Mark Shinn thank you thats good to know!",
+          "type": "reply"
+        },
+        {
+          "author": "Matt Stockton",
+          "time_ago": "12 hours ago",
+          "text": "Mark Shinn if I have the 999 v2 as a session saver while riding the 830 surge as my daily driver, is it worth getting a big surge? Enough of a difference do you think?",
+          "type": "reply"
+        },
+        {
+          "author": "Brad Gordon",
+          "badge": "Top contributor",
+          "time_ago": "19 hours ago",
+          "text": "Yeah, at 96 kg, spent little time on the 839, but my go to was 780s. Now on 830/320surf Ocean winger. Dude, to try put it into perspective it's approx 20-30% better performer over Spitfire or Art v2. Nothing earth shattering but if your foil addict like most of us, and got the coin, just get one. Btw, I'm glad I got the 830 and not the 890. Overall the 830 has better glide with that loose feeling but not as twitchy as Art v2. Been messing with rear .05+ degree rear shims, helps with slight 'bucking'. Back to stock after 15 sessions. Preferred mast position is 2mm back from previous wing setups.",
+          "sentiment": "positive_surge",
+          "rider_weight": "96kg"
+        },
+        {
+          "author": "François Laborde-Laulhe",
+          "time_ago": "18 hours ago",
+          "text": "Art v2 939 is not a good wing for prone surfoiling. You don't have this surfy feeling. It's good for winging or parawing. I just got the surge 830 recently, And i can tell you, it's a total different machine. A lot more playful, you can really ride it like a small short board. You can push it hard on the turn, the best foil axis has ever created. Forgiving, easy and controllable during take off, a dream to pump. Before the 830, I tested the surge 890, and it was a bit too wide for my 74 kg. I'll keep it for small days.",
+          "sentiment": "very_positive_surge",
+          "rider_weight": "74kg",
+          "foils_mentioned": ["Surge 830", "Surge 890", "ART 939 V2"]
+        },
+        {
+          "author": "Giancarlo Jankie Avancini",
+          "time_ago": "4 hours ago",
+          "text": "As you asking for winging you need to compare the 939 V2 with the 890 Surge. You get a bit less speed but better tighter turning and pumping",
+          "type": "sizing_advice"
+        },
+        {
+          "author": "Matt Stockton",
+          "time_ago": "17 hours ago",
+          "text": "I've done the transition from art v2 to surge in the smaller sizes for bumps and waves. I honestly think they're better in every way, definitely in terms of pumping and easy wave riding, they transition really smoothly from rail to rail. I still ride the 999 as a session saver, though maybe after reading Mark's comment about low end it's time to try a bigger surge too!!",
+          "sentiment": "positive_surge",
+          "reactions": 2
+        }
+      ],
+      "sentiment": "very_positive_about_surge",
+      "scam_flag": false
+    },
+    {
+      "id": "post_20260320_006",
+      "poster": "Ingo Wagner",
+      "time_ago": "a day ago",
+      "timestamp_approx": "2026-03-19T13:00:00Z",
+      "text": "I use the Axis K/S Series 19mm Freeride Foil Mast in 82cm. After now 1 year riding 2 times a week one of the 2 long screws to attach the fuselage cannot be tightened. The thread has stripped. Mast is only used in sweet water. How can I get it tight again? Can I change or repair the threads?",
+      "foils_mentioned": ["K/S Series 19mm Freeride Foil Mast 82cm"],
+      "issue_type": "hardware_failure",
+      "type": "support_question",
+      "reactions": 3,
+      "comment_count": 16,
+      "comments": [
+        {
+          "author": "Dylan Vickerman",
+          "text": "You can buy a helicoil kit, re-tap the thread and insert the coils. Will be stronger than before if done correctly but needs to be done carefully. A helpful local engineer might do it for reasonable fee possibly.",
+          "reactions": 4
+        },
+        {
+          "author": "Kevin Henry",
+          "text": "Cross-threaded the screws last time?"
+        },
+        {
+          "author": "Adrian Roper",
+          "time_ago": "18h",
+          "text": "The mast is an aluminium extrusion. The holes run all the way through and the aluminium is tapped at each end. Threads are normally pretty durable. Options would be to cut shorter and re-tap the M8 thread or helicoil.",
+          "reactions": 7
+        },
+        {
+          "author": "Peter Kenny",
+          "text": "Cut 25mm off and retap the threads.",
+          "reactions": 4
+        },
+        {
+          "author": "Mark Horn",
+          "time_ago": "3h",
+          "text": "Helicoil is your best option. Just make sure each one is straight"
+        },
+        {
+          "author": "Yannick Favieres",
+          "text": "I've had this exact problem twice. Each time it started with difficulty screwing in, then the thread got damaged. First time the mast was less than 6 months old, went through warranty. Second time, rethreaded myself. In both cases screws were becoming hard to insert (slightly bent). Replace the screws immediately and it should solve the issue. Long-term torsion damages both screws and thread. Simply rethread your insert, and use new screws."
+        },
+        {
+          "author": "Jimmy Jam Foils",
+          "text": "Try re-tapping threads and using a new screw first. If that doesn't work could be easier to grab a new mast for around $100 than dealing with helicoil kit."
+        },
+        {
+          "author": "Björn Benckert",
+          "text": "You can buy insert threads and use them to rethread the hole."
+        },
+        {
+          "author": "Chris Bach",
+          "text": "[partial] Must be corrosion from all that sugar in the sweet water..."
+        }
+      ],
+      "sentiment": "negative_product_issue",
+      "scam_flag": false
+    }
+  ],
+  "official_page_posts": {
+    "last_post_date": "2026-01-18",
+    "posts_last_24h": [],
+    "recent_posts": [
+      {
+        "date": "2026-01-18",
+        "location": "Düsseldorf, Germany",
+        "text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour 🔥🔥🔥 Stoked to see our team getting amongst the good times and podiums 👏 #axisfoils...",
+        "reactions": 26,
+        "shares": 2,
+        "views": "1.7K",
+        "comments": []
+      },
+      {
+        "date": "2026-01-18",
+        "location": "Düsseldorf, Germany",
+        "text": "The AXIS stand at @bootduesseldorf in 30 seconds with @kaii.thompson @shinn_mark @axmann_p...",
+        "reactions": 41,
+        "shares": 3,
+        "views": "2.5K",
+        "comments": []
+      },
+      {
+        "date": "2026-01-17",
+        "location": "Düsseldorf, Germany",
+        "text": "We've landed at @bootduesseldorf Germany and we brought the good Scheiße! 🇩🇪 C...",
+        "reactions": 64,
+        "shares": 2,
+        "comments": [
+          {"author": "Robert Sellar", "text": "Awesome 😊", "time": "8 weeks ago"}
+        ]
+      }
+    ]
+  }
+}
