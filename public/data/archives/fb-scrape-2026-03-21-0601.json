@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "scraped_at": "2026-03-21T06:01:00-07:00",
+    "scraped_at_utc": "2026-03-21T13:01:00Z",
+    "window": "12h (2026-03-20 18:00 PDT to 2026-03-21 06:01 PDT)",
+    "scraper": "Herbert AI / Alex Foiler account",
+    "sources": ["AXIS Foil Riders FB Group", "AXIS Foils Official FB Page"]
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/?sorting_setting=CHRONOLOGICAL",
+    "members": "10.6K",
+    "sort": "New posts",
+    "posts_in_12h_window": [
+      {
+        "id": "1560779368353682",
+        "poster": "Darren Kite",
+        "badge": "Top contributor",
+        "timestamp_relative": "7h ago (~11 PM PDT Mar 20)",
+        "in_12h_window": true,
+        "hashtags": ["#Axissurge", "#foildrive"],
+        "text": "#Axissurge. #foildrive - Okay so heres the single wave taken out of an entire session. 71kg, Gen 2.5. Stat's for the Surge 890, Max speed 33.3km/hr on a 560m ride. Average 25km/hr. Perfect wing for these waves. Head+ wave. I waited for a bigger one. Full session before this 31km/hr Max. Smaller shoulder high waves. Short fuse and 300p. I still think the 300p is good for the 890 and 830. I think thats the Max though before I go to the 830. Smaller day and longer fatter sections so 890 suits that better.",
+        "rider_weight_kg": 71,
+        "foils_mentioned": ["Surge 890", "Surge 830"],
+        "stabs_mentioned": ["300p"],
+        "fuse_mentioned": "Short fuse",
+        "discipline": "wave foiling with FoilDrive",
+        "reactions": 3,
+        "comments": 2,
+        "sentiment": "positive",
+        "product_intel": "Surge 890 maxes out at 33.3km/hr on single wave, 560m ride. Prefers 890 over 830 for smaller/longer section waves at 71kg.",
+        "comments_list": [
+          {
+            "commenter": "Jonathan Robert",
+            "badge": "Top contributor",
+            "timestamp": "6h ago",
+            "text": "Interesting, I'm a bit lighter 66kg and finding 830 surge feels too big on anything over shoulder high. Tried 300 surf skinny, 300P and Skinny 35 and 45 all on ultrashort advance +. Plan on trying Sillyshort A+ had great success with that using Fireball 880 1000 and 1160. Have been thinking about getting 780 or 740 for anything over waist high. Just don't feel I can relax on the 830, gets this kinda weird fluttery feeling at top speed that I never seem to have with the Fireballs. Wonder if the weight of the Foil Drive calms things down a bit...",
+            "rider_weight_kg": 66,
+            "foils_mentioned": ["Surge 830", "Surge 780", "Surge 740", "Fireball 880", "Fireball 1000", "Fireball 1160"],
+            "stabs_mentioned": ["300 surf skinny", "300P", "Skinny 35", "Skinny 45"],
+            "fuse_mentioned": "ultrashort advance+"
+          },
+          {
+            "commenter": "Matt Stockton",
+            "badge": "Top contributor",
+            "timestamp": "7h ago",
+            "text": "Nice. We have real long lefts where I ride, 890 is consistently high 30s while the 830 is normally in the low 40s top speed wise. Still feel totally in control",
+            "rider_weight_kg": null,
+            "foils_mentioned": ["Surge 890", "Surge 830"],
+            "note": "830 reaches low 40s km/hr on long lefts, 890 is high 30s"
+          }
+        ]
+      }
+    ],
+    "posts_outside_12h_window_captured": [
+      {
+        "poster": "Simon Watson",
+        "badge": "Rising contributor",
+        "text": "Wanted BSC 970 Australia",
+        "type": "WTB post",
+        "foils_mentioned": ["BSC 970"]
+      },
+      {
+        "poster": "Jim Finnigan",
+        "text": "Advise please: I have a ARTpro1401 for light wind winging and loving it. For those zero wind days i want to try pump foiling on it. I have a Axis Hybrid midlength board and a SUP paddle to paddle up and then pump. What fuse and stab would people recommend to start my pump only journey, please? The choices are: Fuse - short or UltraShort. Stabilizer - pump-460, Progressive 425, Progressive 350, Progressive 275, skinny 360/45, Surf skinny 300/45",
+        "type": "question",
+        "unanswered": true,
+        "foils_mentioned": ["ART Pro 1401"],
+        "product_intel": "Pump foiling with ART Pro 1401 - fuse and stab selection question"
+      },
+      {
+        "poster": "Andrea Alessandri",
+        "status": "feeling happy",
+        "text": "Back on SP 1030 after several sessions on ART V2 1099... I am glad I didn't sell it, much more easy when water is a bit messy",
+        "type": "session report",
+        "foils_mentioned": ["SP 1030", "ART V2 1099"],
+        "sentiment": "positive",
+        "product_intel": "SP 1030 preferred over ART V2 1099 in choppier water"
+      },
+      {
+        "poster": "Filipo Calippo Wolfsturm",
+        "text": "Fireball 1750 – First Session Feedback. Setup: Fatty Short fuselage, 80cm Fatty carbon mast (first time on carbon... that hurts)",
+        "type": "session report / first review",
+        "foils_mentioned": ["Fireball 1750"],
+        "mast_mentioned": "Fatty carbon 80cm",
+        "fuse_mentioned": "Fatty Short",
+        "product_intel": "First session on Fireball 1750 - Fatty Short + Fatty carbon mast combo"
+      },
+      {
+        "poster": "Tom La Majorette",
+        "text": "Morning holiday routine. FB1350 is my go to dockstart foil! love it. https://www.instagram.com/p/DWFLO5ijLr3/",
+        "type": "session/promo",
+        "foils_mentioned": ["FB1350"],
+        "discipline": "dockstart",
+        "sentiment": "very positive"
+      },
+      {
+        "poster": "Cédric Okp",
+        "text": "Don't miss the weekly break! https://www.instagram.com/p/DV24qFljDke/",
+        "type": "promo/Instagram share"
+      },
+      {
+        "poster": "Yannick Favieres",
+        "text": "Fireball 1750 – First Session Feedback. Setup: Fatty Short fuselage, 80cm Fatty carbon mast. (Appears to be same or shared from Filipo)",
+        "foils_mentioned": ["Fireball 1750"]
+      },
+      {
+        "poster": "Tee Kay",
+        "text": "Hi there, Looking to buy a Surge 830 and wondering if you have some thoughts on this foil vs the ART 939 V2. I have the 939 V2, and dont love the turning but the lift and glide and speed are perfect. For my weight (92KG) and conditions (20-35 Kn, shoulder hi winging) Would the Surge 830 have similar lower end? Does the Surge model have better or worse low end than the V2?",
+        "rider_weight_kg": 92,
+        "type": "buying question",
+        "foils_mentioned": ["Surge 830", "ART 939 V2"],
+        "discipline": "winging",
+        "comments_summary": "Brad Gordon: 830 is 20-30% better than Spitfire/ART v2. Matt Stockton: Surge better in every way for pumping and wave riding, transition rail-to-rail very smooth.",
+        "sentiment": "comparison inquiry",
+        "reactions": 3,
+        "comments_count": 16
+      },
+      {
+        "poster": "Ingo Wagner",
+        "text": "I use the Axis K/S Series 19mm Freeride Foil Mast in 82cm. After 1 year riding 2x/week, one of the 2 long screws to attach the fuselage cannot be tightened. When I turn the screw, I can 'endless' tighten it. Thread seems stripped. Weeks before, screws didn't go in easy. Used Tef Gel. Mast is only used in sweet water.",
+        "type": "complaint / product issue",
+        "product_issue": "stripped thread in mast fuselage attachment - K/S Series 19mm Freeride Foil Mast 82cm",
+        "sentiment": "negative",
+        "urgency": "medium"
+      },
+      {
+        "poster": "Greg Tsuda",
+        "text": "I saw a post about a website that helps with the selection of foil setup. I can't seem to find it. Anyone know what it is?",
+        "type": "question",
+        "note": "Possibly looking for axis-advisor or similar tool"
+      },
+      {
+        "poster": "Matthew Ross",
+        "text": "Any info concerning that yellow mast 'Kaiwi' that was on the AWSI poster in September and that all the pro riders have been using lately?",
+        "type": "product inquiry",
+        "product_intel": "Yellow 'Kaiwi' mast spotted at AWSI September - being used by pro riders. Users want info.",
+        "urgency": "interesting - new product signal"
+      },
+      {
+        "poster": "Peter Blt",
+        "text": "Getting to grips with the AXIS Foils 1090 Tempo. High Tempo | Sup Foil Downwinding",
+        "type": "session report",
+        "foils_mentioned": ["Tempo 1090"],
+        "discipline": "SUP downwind",
+        "sentiment": "positive"
+      },
+      {
+        "poster": "Downwind Drifter",
+        "text": "Getting to grips with the AXIS Foils 1090 Tempo. High Tempo | Sup Foil Downwinding",
+        "type": "video/content",
+        "foils_mentioned": ["Tempo 1090"]
+      },
+      {
+        "poster": "Jimmy Jam Foils",
+        "badge": "Group expert",
+        "text": "The ultra pro dog leg is next level dong-kers! So good cause u get a turbo boost reward (start in Mario kart) if u stay high on the mast. As u start to slow down u...",
+        "type": "product review / enthusiasm",
+        "foils_mentioned": ["Ultra Pro mast"],
+        "product_intel": "Ultra Pro dogleg mast praised highly - 'turbo boost' reward for staying high on mast",
+        "sentiment": "very positive",
+        "reactions": 10,
+        "comments": 3
+      },
+      {
+        "poster": "David Draffan",
+        "text": "Hi. I wing mainly in large chop in open sea more than waves. Have ART V2 819 and Fireball 1000. Then Spitfire 720, 830 and 960. Would a Surge replace the 830 for the rough stuff. Any speed gains or just looseness? Thanks",
+        "type": "buying question",
+        "foils_mentioned": ["ART V2 819", "Fireball 1000", "Spitfire 720", "Spitfire 830", "Spitfire 960", "Surge 830"],
+        "discipline": "winging choppy open sea",
+        "sentiment": "inquiry"
+      },
+      {
+        "poster": "Michael Kihn",
+        "text": "Will anybody update the description of the Dock-board soon? The Dock 899 also...",
+        "type": "feedback",
+        "product_intel": "Users want updated Dock board description/specs for Dock 899"
+      },
+      {
+        "poster": "Jimmy Jam Foils",
+        "text": "Just a friendly PSA ~ the axis downwind boards are a little more advanced with the narrow width but are great boards for early takeoff, especially in a light wind region...",
+        "type": "tip / educational",
+        "badges": "Group expert"
+      },
+      {
+        "poster": "Perry Hughes",
+        "text": "Curious what stab people are running with the surge 830. I found the surf skinny 300 a bit tricky for my intermediate winger skills in choppy conditions. Skinny 45 is awesome. Surf skinny 300 is amazing on the surge 950 for my skill.",
+        "type": "stabilizer question",
+        "foils_mentioned": ["Surge 830", "Surge 950"],
+        "stabs_mentioned": ["Surf Skinny 300", "Skinny 45"],
+        "discipline": "winging",
+        "sentiment": "mixed",
+        "comments": 14,
+        "comments_summary": "Paul Hurley: 320 Surf Skinny, 300 too hard to control. Stephen Westwood: 300 Surf Skinny great for 830 winging, can't tell diff from 320."
+      },
+      {
+        "poster": "Nathan Hoaglund",
+        "text": "Looking for a Surge 740. Either used or a dealer that could do discount/free shipping and no tax to Florida.",
+        "type": "WTB",
+        "foils_mentioned": ["Surge 740"],
+        "comments": 14,
+        "comments_summary": "Steven Fisher: Where in Florida? Brad Gordon: 740 dam that's hot! What you doing with it - tow foiling, kite foiling?"
+      },
+      {
+        "poster": "Bo Swartwout",
+        "text": "Hello, I am looking for advice on rear wings to pair with my new 1010 Surge front wing.",
+        "type": "stabilizer question",
+        "foils_mentioned": ["Surge 1010"],
+        "unanswered": true
+      },
+      {
+        "poster": "Alex Barker",
+        "text": "Anyone with one of the new Frank Dart 100 or 110L variants able to share their board weight? What are they coming in at? Any feedback on the boards generally?",
+        "type": "product question",
+        "product_intel": "Frank Dart 100L and 110L board weight and feedback inquiry"
+      },
+      {
+        "poster": "Paul Shapiro",
+        "text": "Is there a video showing how the new Axis foil tracks and hardware work for attaching/detaching foil to Pocket Trench board? I understand how it drops in and slides forward, what I don't understand is tightening & loosening.",
+        "type": "product question",
+        "product_intel": "Pocket Trench board track and hardware explained - no video found yet",
+        "unanswered_partly": true
+      },
+      {
+        "poster": "Darren Kite (2nd post)",
+        "text": "Surge comparison 830 to 890. #Foildrive. Rider 72kg. Set up is Axis Aluminum integrated mast max system. I have been riding the Surge 890 for some time, been my go to wing. But getting cooked at 30+ km/hr on more solid swells. 25km/hr sweet zone for small to medium waves. As wave size increases so does speed especially on drop. I noticed at 30-35km/hr I struggled and had to get right on the front foot. So today did 2 batteries on...",
+        "rider_weight_kg": 72,
+        "type": "session comparison",
+        "foils_mentioned": ["Surge 830", "Surge 890"],
+        "mast_mentioned": "Axis Aluminum integrated mast max",
+        "discipline": "wave foiling FoilDrive",
+        "product_intel": "890 gets challenging at 30-35 km/hr on solid swell; switching to 830 tested. 25km/hr is sweet zone for 890.",
+        "sentiment": "positive / comparative"
+      },
+      {
+        "poster": "Jimmy Jam Foils",
+        "text": "Foildrive session with some team riders from Armstrong... with the inventor of the Airchair, Mike Murphy, as our boat driver.",
+        "type": "session/content",
+        "discipline": "FoilDrive / boat tow",
+        "note": "Cross-brand session with Armstrong"
+      },
+      {
+        "poster": "Shane Rodwell",
+        "text": "Shout out to anyone still riding one of these things in 2026 - the original AXIS DW board! With new boards going out of fashion before their paint job is even dry, 3 years is an eternity. It's such a great board - during the ongoing struggles I don't think I've ever felt that it's the board that's been holding me back",
+        "type": "community appreciation",
+        "product_intel": "Original AXIS DW board still praised in 2026 - longevity/timelessness highlighted",
+        "sentiment": "very positive"
+      },
+      {
+        "poster": "Peter Michl",
+        "status": "feeling happy at Osmosis Kiteboarding El Gouna",
+        "text": "Had an epic parawing downwind session in El Gouna (Red Sea, Egypt) in about 25 knots. Running the AXIS Fireball 1350 with a Skinny 45 stab on a 120L Frankboard. Really impressed again by the speed range and the maneuverability of the 1350 here. The Red Sea swell is relatively slow, but the Fireball still lets you accelerate when the wind picks up.",
+        "foils_mentioned": ["Fireball 1350"],
+        "stabs_mentioned": ["Skinny 45"],
+        "board": "120L Frankboard",
+        "discipline": "para-wing downwind",
+        "location": "El Gouna, Red Sea, Egypt",
+        "conditions": "25 knots",
+        "sentiment": "very positive",
+        "product_intel": "Fireball 1350 + Skinny 45 on 120L Frankboard for para-wing DW in 25kn - praised for speed range and maneuverability"
+      },
+      {
+        "poster": "Wayne Gao",
+        "text": "I have a question about the differences between the Fireball 880 (604cm²) and the Surge 740 (590cm²). They're about the same area but I prefer the Fireball's longer wingspan and higher AR. The Surge is obviously better at maneuvering on waves, but I don't think I'll really need that superpower. The 880 should be good enough at turning especially paired with surf skinny. The Fireball's gliding ability is just too good to miss.",
+        "type": "comparison question",
+        "foils_mentioned": ["Fireball 880", "Surge 740"],
+        "product_intel": "User prefers Fireball 880 for its wingspan and glide vs Surge 740 - interesting comparison request",
+        "rider_preference": "Fireball 880 for glide"
+      },
+      {
+        "poster": "Vangelis Evan Mavridoglou",
+        "text": "The perfect board for winging for me. At 88kg, the Mini Dart 80L is stable, quick to take off, and nimble. And I love the new impact vest from the 2026 AXIS/Vaikobi collab. Saved my ribs already on a taco impact earlier this year.",
+        "rider_weight_kg": 88,
+        "type": "product review",
+        "product_intel": "Mini Dart 80L praised at 88kg - stable, quick takeoff, nimble. AXIS/Vaikobi collab vest mentioned.",
+        "sentiment": "very positive"
+      },
+      {
+        "poster": "Deon Aumaier",
+        "text": "Looking for advice on Axis/Frank Mini Dart sizing, wanting to learn to parawing. ~60kg rider, usually prefer a smaller board. Kite/wing and foil drive background. New to parawing. 60L or 70L probably my best choices, but sold out in Aus.",
+        "rider_weight_kg": 60,
+        "type": "buying question",
+        "discipline": "para-wing",
+        "product_intel": "Mini Dart 60L and 70L SOLD OUT in Australia",
+        "supply_signal": true
+      },
+      {
+        "poster": "Márton Vara",
+        "text": "I'd like to gather info on ART Pro 1201 ONLY pure flatwater pumping. Difficult to find online. Want to know what speed people pump comfortably, how long, what helped improve pumping beyond 5 minutes.",
+        "type": "technique question",
+        "foils_mentioned": ["ART Pro 1201"],
+        "discipline": "flat water pump foiling",
+        "unanswered": true
+      },
+      {
+        "poster": "Phil Demeter",
+        "text": "I've been trying to get my hands on a Blast 85L board. Apparently the 85L versions are sold out, but the 75L versions are available. I'm newish/intermediate ~72kg without gear. I ride in mostly light wind conditions. Is the 75L a little bit of a stretch on the low side? Currently use a Froth 105L.",
+        "rider_weight_kg": 72,
+        "type": "board sizing question",
+        "product_intel": "Blast 85L SOLD OUT; 75L available. Intermediate rider at 72kg questioning if 75L is sufficient.",
+        "supply_signal": true
+      },
+      {
+        "poster": "Eric Bramlett",
+        "text": "I've been wondering if it's worth keeping my Regular Black Short Fuse. I practice dockstart, wing foil, and sup foil. About 64kg. 1300v2 with Skinny 55 and Ultrashort Advance+ for sup foil and dockstart. I like this setup. I was using the Short with SF960 and Progressive 375 for wingfoil on a 67L ML board. Still learning to gybe. But found the board feels way better with the Ultrashort Adv+.",
+        "rider_weight_kg": 64,
+        "type": "fuse question",
+        "foils_mentioned": ["PNG 1300v2", "Spitfire 960"],
+        "stabs_mentioned": ["Skinny 55", "Progressive 375"],
+        "fuse_mentioned": ["Short Fuse", "Ultrashort Advance+"],
+        "discipline": ["dockstart", "wing foil", "sup foil"]
+      },
+      {
+        "poster": "Jimmy Jam Foils (surge 950/1010)",
+        "text": "Surge 950 & 1010 are magical behind the boat. The footage is of the 1010 but was able to connect back to 3rd with the 950 with ease. The 1010 has a hair better glide...",
+        "type": "session / review",
+        "discipline": "wake foiling / boat tow",
+        "foils_mentioned": ["Surge 950", "Surge 1010"],
+        "product_intel": "Surge 950 and 1010 praised for wake/boat tow. 1010 has slightly better glide.",
+        "sentiment": "very positive"
+      },
+      {
+        "poster": "Armin Harich",
+        "text": "The Surge (here 950) is a real all-around weapon. But for speed I still prefer the Tempo with lower drag.",
+        "type": "comparison",
+        "foils_mentioned": ["Surge 950", "Tempo"],
+        "product_intel": "Tempo preferred over Surge 950 for speed/low drag"
+      },
+      {
+        "poster": "Cédric Okp",
+        "text": "Fatty & FB1350. Hell of a combo! https://www.instagram.com/p/DVWgMeZjG80/",
+        "type": "content/promo",
+        "foils_mentioned": ["FB1350"],
+        "mast_mentioned": "Fatty mast",
+        "sentiment": "very positive"
+      },
+      {
+        "poster": "Shaun Henderson",
+        "text": "I'm just starting to get good enough for DW Wingfoil runs. Trying to figure out foil size for consistent foiling while flagging out. General conditions are 1-2.5' bay bumps with wavelength from bump to bump max about 15'. Fetch about 10 miles. I'm 75kg, currently using surge 950, 320 surf skinny, 820pc mast, and +20 ultrashort fuse. When flagged out I'm finding it very hard to link bumps.",
+        "rider_weight_kg": 75,
+        "type": "technique/sizing question",
+        "foils_mentioned": ["Surge 950"],
+        "stabs_mentioned": ["320 Surf Skinny"],
+        "fuse_mentioned": "Ultrashort +20",
+        "mast_mentioned": "820pc",
+        "discipline": "downwind winging"
+      },
+      {
+        "poster": "Matthew Kyhnn",
+        "text": "I've been on the Surge 890 for winging and Foil Drive in waves and love it. I'm 75kgs. Now thinking about more upwind/downwind runs on Foil Drive, with hopes of getting into downwind missions. The 890 pops up quick and has heaps of range, but debating: drop to 830 and pair 950 for light wind/downwind, or keep 890 and go big with 1010. I'm thinking 890 and 950 might be too close. What do you reckon?",
+        "rider_weight_kg": 75,
+        "type": "sizing question",
+        "foils_mentioned": ["Surge 890", "Surge 830", "Surge 950", "Surge 1010"],
+        "discipline": "FoilDrive / downwind",
+        "sentiment": "positive about current setup",
+        "unanswered": true
+      },
+      {
+        "poster": "Jimmy Jam Foils (wakefoil)",
+        "text": "Finally getting some proper Wakefoil sessions now that the lake season is here. Been on a tow in & foildrive fix for winter. The Surge 1010 been great for chasing down...",
+        "type": "session / seasonal",
+        "discipline": "wakefoil",
+        "foils_mentioned": ["Surge 1010"],
+        "sentiment": "positive"
+      },
+      {
+        "poster": "Joshua Dobrzynski",
+        "text": "The Fatty mast is pretty sick! Mandatory for the 1750 but also so good with 1350. https://www.instagram.com/p/DVPCQqIjFDb/",
+        "type": "review",
+        "foils_mentioned": ["Fireball 1750", "Fireball 1350"],
+        "mast_mentioned": "Fatty mast",
+        "sentiment": "very positive",
+        "product_intel": "Fatty mast called 'mandatory' for Fireball 1750, also great with 1350"
+      },
+      {
+        "poster": "Ralph Germershausen",
+        "text": "Pump/Dockstart Setup suggestion? Any comments on pairing an existing PNG 1150 & PNG 1300 with an Axis Foil Advanced Short Fuselage? any (dis)advantages over standard short fuse? Also have 460v2 and 359/40 stab.",
+        "type": "setup question",
+        "foils_mentioned": ["PNG 1150", "PNG 1300"],
+        "stabs_mentioned": ["460v2", "359/40"],
+        "fuse_mentioned": "Advanced Short Fuselage vs standard Short",
+        "discipline": ["pump", "dockstart"]
+      },
+      {
+        "poster": "Matt Stockton",
+        "text": "Anyone using an Axis Blast for lighter wind winging wave riding? My daily driver is 55L @4'10. I wondered how well the blast would come off the water on lighter days. Was thinking 75 or 85L for those frustrating days where the wind is not quite enough. (Update: huge thanks to NZ Sailing/Watersports for loan of a 65 Blast!)",
+        "type": "board question / update",
+        "product_intel": "Blast 65L on loan from dealer to test for lighter wind wave riding - NZ Sailing/Watersports mentioned"
+      },
+      {
+        "poster": "Kyle Williams",
+        "text": "Looking for advice on Axis/Frank Mini Dart sizing, wanting to learn to parawing. ~60kg rider...",
+        "type": "sizing question",
+        "discipline": "para-wing"
+      }
+    ],
+    "scam_alerts": []
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": "6.1K",
+    "posts_last_24h": 0,
+    "most_recent_post": {
+      "timestamp": "5 weeks ago",
+      "location": "Baja California Sur, Mexico",
+      "text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wi...",
+      "topic": "Surge front wing - design/colorway inspiration",
+      "comments": [
+        {"commenter": "Kyriakos Giakoumaros", "text": "Wish i had this beauty when i was in Baja!", "answered": true, "response_by": "Vangelis Evan Mavridoglou", "response": "Anything we can do to bring you back"}
+      ]
+    },
+    "other_recent_posts": [
+      {"timestamp": "3 weeks ago", "location": "Düsseldorf, Germany", "topic": "Boot Düsseldorf pool riding event with team riders"},
+      {"timestamp": "3 weeks ago", "location": "Düsseldorf, Germany", "topic": "AXIS stand at Boot Düsseldorf - 30 second video"},
+      {"timestamp": "~4 weeks", "topic": "Boot Düsseldorf arrival - 'We brought the good Scheiße!'"},
+      {"timestamp": "~5 weeks", "topic": "Boot Düsseldorf invitation post"}
+    ],
+    "unanswered_questions": []
+  }
+}

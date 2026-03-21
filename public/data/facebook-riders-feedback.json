@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 368,
+    "total_entries": 378,
     "sources": {
-      "facebook_groups": 101,
+      "facebook_groups": 111,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-10T14:17:35.267144"
+    "last_updated": "2026-03-21T13:23:51.339097"
   },
   "posts": [
     {
@@ -7445,6 +7445,173 @@
         "fuselage": "Short +60",
         "mast": "Integrated HM"
       }
+    },
+    {
+      "id": "post_2026_03_21_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Darren Kite",
+      "text": "#Axissurge #foildrive - Surge 890 stats for single wave: Max speed 33.3km/hr on 560m ride. Average 25km/hr. 71kg, Gen 2.5 FoilDrive. Short fuse and 300p. 890 preferred over 830 for smaller/longer section waves.",
+      "foils_mentioned": [
+        "SURGE 890",
+        "SURGE 830"
+      ],
+      "rider_weight": 71,
+      "use_case": "wave",
+      "discipline": "FoilDrive wave",
+      "sentiment": "positive",
+      "type": "session_report",
+      "date": "2026-03-21T06:00:00-07:00",
+      "reactions": 3,
+      "comments": 2
+    },
+    {
+      "id": "post_2026_03_21_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jonathan Robert",
+      "text": "66kg finding 830 surge feels too big on anything over shoulder high. Tried 300 surf skinny, 300P and Skinny 35 and 45 all on ultrashort advance+. Weird fluttery feeling on Surge 830 at top speed. Fireballs feel better. Wondering if FoilDrive weight calms it down.",
+      "foils_mentioned": [
+        "SURGE 830",
+        "SURGE 780",
+        "SURGE 740",
+        "FIREBALL 880",
+        "FIREBALL 1000",
+        "FIREBALL 1160"
+      ],
+      "rider_weight": 66,
+      "use_case": "wave",
+      "discipline": "FoilDrive wave",
+      "sentiment": "mixed",
+      "type": "community",
+      "date": "2026-03-21T06:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Darren Kite",
+      "text": "Surge 830 vs 890 comparison at 72kg FoilDrive. Surge 890 sweet zone 25km/hr for small-medium waves. Gets challenging at 30-35km/hr on solid swell. Switching to 830 tested.",
+      "foils_mentioned": [
+        "SURGE 830",
+        "SURGE 890"
+      ],
+      "rider_weight": 72,
+      "use_case": "wave",
+      "discipline": "FoilDrive wave",
+      "sentiment": "positive",
+      "type": "comparison",
+      "date": "2026-03-21T05:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Perry Hughes",
+      "text": "Curious what stab people run with Surge 830. Surf skinny 300 tricky for intermediate in choppy conditions. Skinny 45 awesome. Surf skinny 300 amazing on 950.",
+      "foils_mentioned": [
+        "SURGE 830",
+        "SURGE 950"
+      ],
+      "rider_weight": null,
+      "use_case": "wing",
+      "sentiment": "mixed",
+      "type": "question",
+      "date": "2026-03-21T04:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_005",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Ultra Pro dogleg mast is next level! So good - get turbo boost reward if u stay high on mast. As u slow down u lose that advantage.",
+      "foils_mentioned": [
+        "ULTRA PRO MAST"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "positive",
+      "type": "product_review",
+      "date": "2026-03-21T03:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_006",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Filipo Calippo Wolfsturm",
+      "text": "Fireball 1750 first session feedback. Setup: Fatty Short fuselage, 80cm Fatty carbon mast. First time on carbon mast.",
+      "foils_mentioned": [
+        "FIREBALL 1750"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "type": "first_session_review",
+      "date": "2026-03-21T02:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_007",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Peter Michl",
+      "text": "Epic parawing downwind session in El Gouna, Red Sea in 25 knots. AXIS Fireball 1350 with Skinny 45 on 120L Frankboard. Really impressed by speed range and maneuverability of 1350.",
+      "foils_mentioned": [
+        "FIREBALL 1350"
+      ],
+      "rider_weight": null,
+      "use_case": "parawing_downwind",
+      "discipline": "para-wing downwind",
+      "sentiment": "positive",
+      "type": "session_report",
+      "date": "2026-03-21T01:00:00-07:00",
+      "location": "El Gouna, Red Sea, Egypt"
+    },
+    {
+      "id": "post_2026_03_21_008",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Surge 950 & 1010 are magical behind the boat. 1010 has a hair better glide. Both great for wake/boat tow.",
+      "foils_mentioned": [
+        "SURGE 950",
+        "SURGE 1010"
+      ],
+      "rider_weight": null,
+      "use_case": "wake",
+      "discipline": "wake foil / boat tow",
+      "sentiment": "positive",
+      "type": "session_report",
+      "date": "2026-03-20T20:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_009",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Joshua Dobrzynski",
+      "text": "The Fatty mast is pretty sick! Mandatory for the 1750 but also so good with 1350.",
+      "foils_mentioned": [
+        "FIREBALL 1750",
+        "FIREBALL 1350"
+      ],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "positive",
+      "type": "product_review",
+      "date": "2026-03-20T19:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_21_010",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Vangelis Evan Mavridoglou",
+      "text": "At 88kg, Mini Dart 80L is perfect for winging. Stable, quick to take off, nimble. AXIS/Vaikobi 2026 collab impact vest saved my ribs on a taco impact.",
+      "foils_mentioned": [],
+      "board_mentioned": "Mini Dart 80L",
+      "rider_weight": 88,
+      "use_case": "wing",
+      "sentiment": "positive",
+      "type": "product_review",
+      "date": "2026-03-20T18:00:00-07:00"
     }
   ]
 }

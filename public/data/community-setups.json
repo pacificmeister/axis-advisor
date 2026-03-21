@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-20T13:01:00Z",
-    "total_riders": 106
+    "last_updated": "2026-03-21T06:24:35.086128",
+    "total_riders": 111
   },
   "riders": [
     {
@@ -3478,6 +3478,71 @@
       "conditions": "waves/winging",
       "performance": "Sillyshort fuse far less prone to breaching than Ultrashort for given wings. For 66kg, longer fuses very difficult to balance.",
       "otherThoughts": "Each fuse increment roughly = one size rear wing in pitch control"
+    },
+    {
+      "id": "setup_2026_03_21_001",
+      "source": "FB post 1560779368353682",
+      "date": "2026-03-21",
+      "rider_name": "Darren Kite",
+      "weight": "71kg",
+      "discipline": "FoilDrive wave riding",
+      "front_wing": "Surge 890",
+      "stab": "300p",
+      "fuse": "Short fuse",
+      "gen": "2.5",
+      "conditions": "Head+ waves, 560m ride",
+      "notes": "Max speed 33.3km/hr on 890. Prefers 890 for smaller/longer section waves over 830. 25km/hr sweet zone.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "setup_2026_03_21_002",
+      "source": "FB post 1560779368353682 comment",
+      "date": "2026-03-21",
+      "rider_name": "Jonathan Robert",
+      "weight": "66kg",
+      "discipline": "FoilDrive wave riding",
+      "front_wing": "Surge 830 (struggling)",
+      "stab": "Tried: 300 surf skinny, 300P, Skinny 35, Skinny 45",
+      "fuse": "Ultrashort Advance+",
+      "notes": "830 too big over shoulder high at 66kg. Fluttery feeling at top speed. Considering 780 or 740.",
+      "sentiment": "mixed"
+    },
+    {
+      "id": "setup_2026_03_21_003",
+      "source": "FB Axis Foil Riders group",
+      "date": "2026-03-21",
+      "rider_name": "Darren Kite (2nd session)",
+      "weight": "72kg",
+      "discipline": "FoilDrive wave riding",
+      "front_wing": "Surge 890 vs 830 (testing)",
+      "mast": "Axis Aluminum integrated mast max",
+      "notes": "890 sweet zone ~25km/hr. Gets challenged 30-35km/hr on solid swell. Testing 830 on bigger waves.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "setup_2026_03_21_004",
+      "source": "FB Axis Foil Riders group",
+      "date": "2026-03-21",
+      "rider_name": "Peter Michl",
+      "discipline": "Para-wing downwind",
+      "front_wing": "Fireball 1350",
+      "stab": "Skinny 45",
+      "board": "120L Frankboard",
+      "location": "El Gouna, Red Sea, Egypt",
+      "conditions": "25 knots",
+      "notes": "Praised Fireball 1350 + Skinny 45 for speed range and maneuverability in para-wing DW.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "setup_2026_03_21_005",
+      "source": "FB Axis Foil Riders group",
+      "date": "2026-03-21",
+      "rider_name": "Vangelis Evan Mavridoglou",
+      "weight": "88kg",
+      "discipline": "winging",
+      "board": "Mini Dart 80L",
+      "notes": "Mini Dart 80L perfect for 88kg winger. Stable, quick takeoff, nimble. AXIS/Vaikobi 2026 collab vest mentioned.",
+      "sentiment": "positive"
     }
   ],
   "aggregations": {
