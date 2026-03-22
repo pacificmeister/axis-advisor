@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "scraped_at": "2026-03-22T13:03:00Z",
+    "scraped_by": "Herbert AI (Alex Foiler account)",
+    "window": "last 12 hours",
+    "sources": ["AXIS Foil Riders group", "AXIS Foils official page"]
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "members": 10600,
+    "posts_last_12h": [
+      {
+        "id": "1561757568255862",
+        "poster": "Niels van der Kaaij",
+        "time": "just now (~6:03 AM PDT 2026-03-22)",
+        "title": "HPS 930 + ART V2 879 comparison - wing foiling",
+        "text": "Shout out to my old HPS 930 with the 380 speed stab. Have not used this combi for almost a year and just a few days ago we got thermal side off wind 11 to 17 knots. Very patchy and due to low sea water temp (8°c) priorotizing fast on foil over glide. Amazing to experience how little is needed with a 5.0 wing and 92 liter board with rider weight of 91 KG in full wintersuit. While I have been using my most recent purchase, the ART V2 879 the HPS feels like I am on a full beginner foil and total relaxation. Combined with the huge backstab it feels like cheating in stall speed. Even toeside pumping on non existing bumps keeps you going, untill your own breath wears out. What is missing.... The glide! While getting going is so easy, once the gust is gone you have to keep pumping more instead of making use of the glide. For comparison my mate was on a AFS 1100 and super high aspect backstab and had less pumping to do. And his up wind game was next to nothing compared to my setup. What made me realize this session is the fun of knowing you can try some stuff, mess up and still get away with it. Super easy up and go, very low stall speed, playfull due to span of only 930 mm and great to get the feeling back of the magic of wingfoiling that got me in the first place.",
+        "foils_mentioned": ["HPS 930", "ART V2 879", "AFS 1100"],
+        "stabs_mentioned": ["380 speed stab"],
+        "boards_mentioned": ["92 liter board"],
+        "rider_weight": "91kg",
+        "discipline": "wing foiling",
+        "conditions": "thermal side off wind 11-17 knots, 8°C water temp",
+        "sentiment": "positive",
+        "reactions": 0,
+        "comments": 0,
+        "key_insight": "HPS 930 = super forgiving beginner-feel, great stall speed but lacks glide vs ART V2. ART V2 879 is a big step up in performance but less forgiving. AFS 1100 had better glide and upwind."
+      },
+      {
+        "id": "1561817184916567",
+        "poster": "Joe Bloggs",
+        "time": "2 hours ago (~4:03 AM PDT 2026-03-22)",
+        "title": "V3 windsurf fuselage - what's different from V2?",
+        "text": "Anyone got info on the V3 windsurf fuselage? How is it different to V2?",
+        "foils_mentioned": ["V3 windsurf fuselage", "V2 windsurf fuselage"],
+        "discipline": "windsurf",
+        "sentiment": "neutral / inquiry",
+        "reactions": 0,
+        "comments": 1,
+        "comments_detail": [
+          {
+            "commenter": "Adrian Roper",
+            "badges": ["Group expert", "All-star contributor"],
+            "time": "1 hour ago",
+            "text": "Much thicker and stronger around the mast hole. Also added zinc anode"
+          }
+        ],
+        "key_insight": "V3 windsurf fuselage: reinforced mast hole area + zinc anode added vs V2. Group expert confirms structural upgrade."
+      },
+      {
+        "id": "1561721174926168",
+        "poster": "Gary Pickburn",
+        "badge": "Top contributor",
+        "time": "4 hours ago (~2:03 AM PDT 2026-03-22)",
+        "title": "Do I go Fireball? which one?",
+        "text": "If I was gonna get a Fireball to replace my ArtPro1201 but better turning, and still get more glide than the Surge1010. Would a 1070 do it without too much overlap? COuld do 1250, but this is on an alloy mast so cautious about going too spanny. Mainly for foildrive in tiny beach waves, occasional light wind flat water winging. 105kg competent foiler, not that into downwinding. Current gear: ART V2 939 (general hooning), Surge 1010 and 890 (waves/FD), ART Pro 1201 (tiny FD conditions). 90cm HM Carbon for winging, 75cm 19mm Alloy for FD. 1201 = amazing glide, but slow and doesn't turn well even with 320 surf skinny. Surge 1010 = turns crazy good but lacks glide for tiny days, slow for winging.",
+        "foils_mentioned": ["Fireball 1070", "Fireball 1160", "Fireball 1250", "ART Pro 1201", "ART V2 939", "Surge 1010", "Surge 890"],
+        "stabs_mentioned": ["320 surf skinny", "Skinny 25"],
+        "masts_mentioned": ["90cm HM Carbon", "75cm 19mm Alloy"],
+        "rider_weight": "105kg",
+        "discipline": "foil drive, wing foiling",
+        "sentiment": "positive / inquiry",
+        "reactions": 1,
+        "comments": 7,
+        "comments_detail": [
+          {
+            "commenter": "Jonathan Robert",
+            "badge": "Top contributor",
+            "time": "3h",
+            "text": "1160 totally replaced my 1201. Feels smaller at first but very soon you get to understand the range and how turny it is.",
+            "reactions": 1
+          },
+          {
+            "commenter": "Tim VR",
+            "badge": "All-star contributor",
+            "time": "4h",
+            "text": "I recommend the 1250 on the ultrashort fuselage paired with the smallest stab your willing to go, I use the Skinny 25.",
+            "reactions": 1,
+            "replies": [
+              {
+                "commenter": "Gary Pickburn",
+                "time": "4h",
+                "text": "You recon it is still turny at that span? Would I gain much over the 1201? and can an alloy mast with 105kg on it handle the 1250?"
+              },
+              {
+                "commenter": "Tim VR",
+                "time": "4h",
+                "text": "Turns heap better than the 1201, the tiny stab helps. Insane glide. As long as your running the 19mm alloy mast you should be ok. The 1070 is too small for the conditions you mentioned.",
+                "reactions": 2
+              },
+              {
+                "commenter": "Scott Weston",
+                "time": "2h",
+                "text": "agree at your weight & those conditions the 1070 is too small"
+              },
+              {
+                "commenter": "Andy Corbe",
+                "time": "40m",
+                "text": "Agree."
+              }
+            ]
+          },
+          {
+            "commenter": "Andy Tamasese",
+            "time": "3h",
+            "text": "For sure go with 1160. 1250 is too close to the 1201. I got a 1250 to replace my 1201 but ended up buying an 1160 eventually and now owning all three I would have just went to 1160.",
+            "reactions": 0
+          }
+        ],
+        "key_insight": "For 105kg rider on alloy mast replacing ArtPro1201: community consensus is Fireball 1160 (not 1070 too small, not 1250 too close to 1201). 1160 is turnier than 1201 with great range. 1250 + ultrashort + Skinny 25 is the performance option if prioritizing glide."
+      }
+    ],
+    "scam_alerts": [],
+    "sale_listings_in_window": [
+      {
+        "poster": "Filipo Calippo Wolfsturm",
+        "title": "Trade PNG V2 1400 <-> 1200",
+        "text": "Is someone in Europe interested in a trade? I have a PNG1400 V2 in perfect condition and would like to switch for a PNG 1200 V2. Just pm me, based in Hamburg - Germany",
+        "type": "trade / not a scam",
+        "note": "Clean trade listing, not suspicious"
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": 6100,
+    "posts_last_24h": [],
+    "note": "No new posts in last 24h. Most recent post dated February 8, 2026 (Surge wing design/desert colorway concept post at Baja California Sur). Prior post: Boot Düsseldorf / Surf Foil World Tour coverage (~9 weeks ago). Page appears to post infrequently.",
+    "unanswered_questions": [
+      {
+        "post": "Surge Colorway/Design post (Feb 8)",
+        "commenter": "Kyriakos Giakoumaros",
+        "text": "Wish i had this beauty when i was in Baja!",
+        "axis_replied": true,
+        "axis_reply": "Vangelis Evan Mavridoglou (AXIS): Anything we can do to bring you back",
+        "status": "answered"
+      }
+    ]
+  }
+}

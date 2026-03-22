@@ -13,10 +13,51 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-22T01:00:00Z",
-    "total_posts": 386
+    "last_updated": "2026-03-22T13:03:00Z",
+    "total_posts": 389
   },
   "posts": [
+    {
+      "id": "fb_2026_03_22_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-22",
+      "rider": "Niels van der Kaaij",
+      "rider_weight": "91kg",
+      "discipline": "wing foiling",
+      "text": "Shout out to my old HPS 930 with the 380 speed stab. 5.0 wing, 92L board, 91kg rider, 11-17kn thermal side off wind, 8°C water. HPS 930 = super forgiving, amazing stall speed, easy toeside pumping, but lacks glide vs ART V2 879. ART V2 879 is a significant performance upgrade. AFS 1100 had better glide and upwind game.",
+      "foils_mentioned": ["HPS 930", "ART V2 879"],
+      "comparison_notes": "HPS 930 vs ART V2 879: HPS feels like 'beginner foil' by comparison. AFS 1100 (competitor) outperforms HPS 930 in glide/upwind.",
+      "sentiment": "positive",
+      "tags": ["wing_foil", "hps_930", "art_v2_879", "light_wind", "beginner_friendly", "glide_comparison"]
+    },
+    {
+      "id": "fb_2026_03_22_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-22",
+      "rider": "Joe Bloggs",
+      "discipline": "windsurf",
+      "text": "Q: V3 windsurf fuselage vs V2 differences? A (Adrian Roper, Group Expert): Much thicker and stronger around the mast hole. Also added zinc anode.",
+      "foils_mentioned": ["V3 windsurf fuselage"],
+      "product_intel": "V3 windsurf fuselage improvements over V2: reinforced mast hole area (thicker/stronger) + zinc anode added. Structural durability upgrade.",
+      "sentiment": "informational",
+      "tags": ["windsurf", "fuselage_v3", "product_upgrade", "mast_hole_reinforcement"]
+    },
+    {
+      "id": "fb_2026_03_22_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-22",
+      "rider": "Gary Pickburn",
+      "rider_weight": "105kg",
+      "discipline": "foil drive, wing foiling",
+      "text": "Fireball selection for 105kg rider on 19mm alloy mast, replacing ArtPro1201. Wants better turning than 1201 + more glide than Surge 1010. Community consensus: Fireball 1160 is the sweet spot. 1070 too small at 105kg. 1250 too close to 1201. Tim VR: 1250 + ultrashort + Skinny 25 turns better than 1201 + insane glide. Andy Tamasese: 1160 totally replaced his 1201 — turnier with great range.",
+      "foils_mentioned": ["Fireball 1160", "Fireball 1250", "Fireball 1070", "ART Pro 1201", "Surge 1010"],
+      "setup_recommendation": "105kg + alloy 19mm mast: Fireball 1160 (community favorite) or 1250 + ultrashort + Skinny 25 (performance option)",
+      "sentiment": "positive",
+      "tags": ["fireball", "fireball_1160", "fireball_1250", "heavy_rider", "alloy_mast", "foil_drive", "quiver_selection"]
+    },
     {
       "id": "post_0",
       "source": "facebook_axis_riders",

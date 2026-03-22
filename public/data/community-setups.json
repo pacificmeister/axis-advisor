@@ -4,10 +4,29 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-22T01:00:00Z",
-    "total_riders": 111
+    "last_updated": "2026-03-22T13:03:00Z",
+    "total_riders": 112
   },
   "riders": [
+    {
+      "id": "setup_2026_03_22_001",
+      "source": "FB post axisfoilriders 2026-03-22",
+      "date": "2026-03-22",
+      "rider_name": "Niels van der Kaaij",
+      "weight": "91kg",
+      "experience": "intermediate-advanced",
+      "disciplines": ["wing foiling"],
+      "setup": {
+        "front_wing": "HPS 930",
+        "stabilizer": "380 speed stab",
+        "board": "92L",
+        "wing": "5.0"
+      },
+      "also_rides": "ART V2 879",
+      "conditions": "11-17kn thermal, side off wind, 8°C water (winter)",
+      "notes": "HPS 930 + 380 speed stab at 91kg: super easy early flight, low stall speed, forgiving. Lacks glide vs ART V2 879. Good for messy water and recovery. 'Feels like cheating' for early flight.",
+      "sentiment": "positive on HPS 930 for beginner/easy conditions"
+    },
     {
       "id": "setup_2026_03_20_001",
       "source": "FB post axisfoilriders 2026-03-20",
