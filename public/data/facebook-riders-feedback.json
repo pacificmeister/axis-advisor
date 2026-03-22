@@ -13,7 +13,8 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-21T13:23:51.339097"
+    "last_updated": "2026-03-22T01:00:00Z",
+    "total_posts": 386
   },
   "posts": [
     {
@@ -7612,6 +7613,231 @@
       "sentiment": "positive",
       "type": "product_review",
       "date": "2026-03-20T18:00:00-07:00"
+    },
+    {
+      "id": "scan_20260322_01_darren_kite",
+      "timestamp": "2026-03-21T23:00:00Z",
+      "poster": "Darren Kite",
+      "poster_role": "Top contributor",
+      "weight_kg": 71,
+      "foils": [
+        "Surge 890",
+        "Surge 830"
+      ],
+      "mast": "Gen 2.5",
+      "fuse": "Short fuse",
+      "stab": "300p",
+      "discipline": "wave_winging",
+      "text": "#Axissurge #foildrive - Single wave taken out of entire session. 71kg, Gen 2.5. Surge 890, Max speed 33.3km/hr on 560m ride. Average 25km/hr. Perfect wing for these waves. Head+ wave. Short fuse and 300p. I still think the 300p is good for the 890 and 830. Thinking 830 for smaller days and longer fatter sections.",
+      "reactions": 4,
+      "comments": 3,
+      "sentiment": "positive",
+      "tags": [
+        "speed_data",
+        "surge",
+        "wave_riding",
+        "foildrive"
+      ],
+      "key_comments": [
+        {
+          "author": "Jonathan Robert (Top contributor)",
+          "weight_kg": 66,
+          "text": "66kg - finding 830 surge feels too big on anything over shoulder high. Tried 300 surf skinny, 300P, Skinny 35 and 45 all on ultrashort advance+. Planning to try Sillyshort A+ - had great success with that using Fireball...",
+          "reactions": 2
+        },
+        {
+          "author": "Matt Stockton (Top contributor)",
+          "text": "Real long lefts where I ride - 890 is consistently high 30s while the 830 is normally low 40s top speed. Still feel totally in control.",
+          "reactions": 1
+        }
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_02_jim_finnigan_pump",
+      "timestamp": "2026-03-21T03:00:00Z",
+      "poster": "Jim Finnigan",
+      "discipline": "pump_foiling",
+      "foils": [
+        "ARTpro 1401"
+      ],
+      "board": "Axis Hybrid mid-length",
+      "text": "Advise please: Have ARTpro1401 for light wind winging. For zero wind days want to try pump foiling on it. Have Axis Hybrid mid-length board and SUP paddle to paddle up then pump. What fuse and stab for pump only journey? Choices: Fuse - short or UltraShort. Stab - pump-460, Progressive 425, Progressive 350, Progressive 275, skinny 360/45, Surf skinny 300/45.",
+      "reactions": 2,
+      "comments": 4,
+      "sentiment": "question",
+      "tags": [
+        "pump_foiling",
+        "setup_advice",
+        "ARTpro1401"
+      ],
+      "key_comments": [
+        {
+          "author": "Angus Mackay",
+          "text": "640mm fuse and 460v2 stab are the best way to learn, then swap to your skinny 45",
+          "reactions": 1
+        },
+        {
+          "author": "Yannick Favieres",
+          "text": "For dock start, used 1401 with Progressive 450 - foil felt really good, very easy to start and turn. Then switched to 360/45 - much more glide, better speed sensation, more reactive overall...",
+          "reactions": 0
+        }
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_03_simon_watson_bsc970",
+      "timestamp": "2026-03-21T18:00:00Z",
+      "poster": "Simon Watson",
+      "poster_role": "Rising contributor",
+      "discipline": "buy_sell_trade",
+      "foils": [
+        "BSC 970"
+      ],
+      "location": "Australia",
+      "text": "Wanted: BSC 970 Australia",
+      "reactions": 0,
+      "comments": 0,
+      "sentiment": "neutral",
+      "tags": [
+        "wanted",
+        "BSC",
+        "australia",
+        "marketplace"
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_04_filipo_trade_png",
+      "timestamp": "2026-03-21T18:00:00Z",
+      "poster": "Filipo Calippo Wolfsturm",
+      "discipline": "buy_sell_trade",
+      "foils": [
+        "PNG V2 1400",
+        "PNG V2 1200"
+      ],
+      "location": "Hamburg, Germany",
+      "text": "Trade PNG V2 1400 <-> 1200. Looking for someone in Europe interested in a trade. PNG1400 V2 in perfect condition, would like to switch for PNG 1200 V2. Based in Hamburg, Germany.",
+      "reactions": 0,
+      "comments": 0,
+      "sentiment": "neutral",
+      "tags": [
+        "trade",
+        "PNG",
+        "europe",
+        "marketplace"
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_05_cedric_okp_fb1350",
+      "timestamp": "2026-03-21T08:00:00Z",
+      "poster": "Cedric Okp",
+      "poster_role": "Top contributor",
+      "foils": [
+        "FB 1350"
+      ],
+      "discipline": "dock_start",
+      "location": "El Gouna",
+      "text": "Morning holiday routine. FB1350 is my go to dockstart foil! Love it. Never thought I will ever dockstart in El Gouna as my post breakfast daily routine.",
+      "reactions": 1,
+      "comments": 0,
+      "sentiment": "positive",
+      "tags": [
+        "FB1350",
+        "dock_start",
+        "el_gouna",
+        "lifestyle"
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_06_andrea_sp1030",
+      "timestamp": "2026-03-20T12:00:00Z",
+      "poster": "Andrea Alessandri",
+      "foils": [
+        "SP 1030",
+        "ART V2 1099"
+      ],
+      "discipline": "winging",
+      "text": "Back on SP 1030 after several sessions on ART V2 1099. Glad I did not sell it - much more easy when water is a bit messy.",
+      "reactions": 4,
+      "comments": 0,
+      "sentiment": "positive",
+      "tags": [
+        "SP1030",
+        "ART_V2",
+        "comparison",
+        "choppy_conditions"
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_07_tee_kay_surge830_vs_art939",
+      "timestamp": "2026-03-19T20:00:00Z",
+      "poster": "Tee Kay",
+      "weight_kg": 92,
+      "foils": [
+        "Surge 830",
+        "ART 939 V2"
+      ],
+      "discipline": "winging",
+      "text": "Looking to buy Surge 830. Comparing vs ART 939 V2. I have the 939 V2, dont love the turning but lift/glide/speed are perfect. At 92KG, 20-35 knots, shoulder high winging. Would Surge 830 have similar lower end? Does Surge have better or worse low end than V2?",
+      "reactions": 4,
+      "comments": 17,
+      "sentiment": "question",
+      "tags": [
+        "surge_830",
+        "ART939",
+        "comparison",
+        "heavy_rider"
+      ],
+      "key_comments": [
+        {
+          "author": "Mark Shinn (All-star contributor)",
+          "text": "Surge has far superior low end than ART v2 and is much easier to pump. Probably the best turning foil on the market right now. With conditions described seems like a perfect fit.",
+          "reactions": 2
+        },
+        {
+          "author": "Brad Gordon (Top contributor)",
+          "weight_kg": 96,
+          "text": "At 96kg, spent little time on 839, go-to was 780s. Now on 830/320surf Ocean winger. Approximately 20-30% better performer over Spitfire or Art v2. Not earth shattering but if you are a foil addict...",
+          "reactions": 1
+        }
+      ],
+      "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_08_ingo_wagner_mast_thread",
+      "timestamp": "2026-03-19T03:02:00Z",
+      "poster": "Ingo Wagner",
+      "foils": [
+        "K/S Series 19mm Freeride Mast 82cm"
+      ],
+      "discipline": "efoil",
+      "text": "K/S Series 19mm Freeride Foil Mast 82cm - After 1 year riding 2x/week, one of the 2 long screws to attach fuselage cannot be tightened anymore. Thread stripped. Mast used only in fresh water. Thread seems to have moved down in mast.",
+      "reactions": 5,
+      "comments": 20,
+      "sentiment": "negative",
+      "tags": [
+        "mast_issue",
+        "thread_stripped",
+        "hardware_failure",
+        "warranty"
+      ],
+      "key_comments": [
+        {
+          "author": "Dylan Vickerman",
+          "text": "Can buy helicoil kit, re-tap the thread and insert coils. Stronger than before if done correctly but needs to be done carefully.",
+          "reactions": 4
+        },
+        {
+          "author": "Adrian Roper (Group expert, All-star contributor)",
+          "text": "Mast is aluminium extrusion, holes run all the way through and aluminium is tapped at each end. Options: cut shorter and re-tap M8 thread or helicoil.",
+          "reactions": 9
+        }
+      ],
+      "scan_date": "2026-03-22"
     }
   ]
 }

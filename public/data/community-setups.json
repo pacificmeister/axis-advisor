@@ -4,7 +4,7 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-21T06:24:35.086128",
+    "last_updated": "2026-03-22T01:00:00Z",
     "total_riders": 111
   },
   "riders": [
@@ -3543,6 +3543,79 @@
       "board": "Mini Dart 80L",
       "notes": "Mini Dart 80L perfect for 88kg winger. Stable, quick takeoff, nimble. AXIS/Vaikobi 2026 collab vest mentioned.",
       "sentiment": "positive"
+    },
+    {
+      "id": "rider_darren_kite_20260322",
+      "name": "Darren Kite",
+      "weight_kg": 71,
+      "discipline": "wave_winging",
+      "setup": {
+        "front_wing": "Surge 890",
+        "mast_gen": "Gen 2.5",
+        "fuse": "Short fuse",
+        "stab": "300p"
+      },
+      "conditions": "head+ waves",
+      "notes": "Max 33.3km/hr on 560m wave. Avg 25km/hr. Considering 830 for smaller days.",
+      "source_post": "scan_20260322_01_darren_kite",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "rider_jonathan_robert_20260322",
+      "name": "Jonathan Robert",
+      "weight_kg": 66,
+      "discipline": "wave_winging",
+      "setup": {
+        "front_wing": "Surge 830",
+        "fuse": "Ultrashort Advance+",
+        "stabs_tried": [
+          "300 surf skinny",
+          "300P",
+          "Skinny 35",
+          "Skinny 45"
+        ]
+      },
+      "notes": "830 surge feels too big for anything over shoulder high at 66kg. Planning to try Sillyshort A+.",
+      "source_post": "scan_20260322_01_darren_kite",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "rider_tee_kay_92kg_20260322",
+      "name": "Tee Kay",
+      "weight_kg": 92,
+      "discipline": "winging",
+      "setup": {
+        "front_wing": "ART 939 V2"
+      },
+      "conditions": "20-35 knots, shoulder high",
+      "notes": "Looking to upgrade to Surge 830 - loves lift/glide/speed but hates turning of ART V2",
+      "source_post": "scan_20260322_07_tee_kay_surge830_vs_art939",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "rider_brad_gordon_96kg_20260322",
+      "name": "Brad Gordon",
+      "weight_kg": 96,
+      "discipline": "winging",
+      "setup": {
+        "front_wing": "Surge 830",
+        "stab": "320surf Ocean winger"
+      },
+      "notes": "At 96kg, transitioned from 780s. Estimates ~20-30% better than Spitfire or ART v2.",
+      "source_post": "scan_20260322_07_tee_kay_surge830_vs_art939",
+      "date": "2026-03-22"
+    },
+    {
+      "id": "rider_cedric_okp_fb1350_20260322",
+      "name": "Cedric Okp",
+      "discipline": "dock_start",
+      "setup": {
+        "front_wing": "FB 1350"
+      },
+      "location": "El Gouna",
+      "notes": "Daily dock start routine, calls FB1350 his go-to dockstart foil.",
+      "source_post": "scan_20260322_05_cedric_okp_fb1350",
+      "date": "2026-03-22"
     }
   ],
   "aggregations": {

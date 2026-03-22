@@ -1,0 +1,109 @@
+{
+  "scan_metadata": {
+    "scan_time": "2026-03-22T01:00:00Z",
+    "scan_window": "Last 12 hours (6 AM - 6 PM Pacific, March 21 2026)",
+    "scanner": "Herbert AI (Alex Foiler account)",
+    "sources": [
+      "AXIS Foil Riders Group",
+      "AXIS Foils Official Page"
+    ]
+  },
+  "riders_group": {
+    "posts_in_window": [
+      {
+        "poster": "Darren Kite",
+        "age": "19h ago (outside 12h window by 7h)",
+        "text": "#Axissurge #foildrive - Single wave, 71kg, Gen 2.5. Surge 890 max 33.3km/hr on 560m. Avg 25km/hr.",
+        "foils": [
+          "Surge 890"
+        ],
+        "reactions": 4,
+        "comments": 3
+      },
+      {
+        "poster": "Simon Watson",
+        "age": "recent",
+        "text": "Wanted: BSC 970 in Australia",
+        "foils": [
+          "BSC 970"
+        ],
+        "marketplace": true
+      },
+      {
+        "poster": "Filipo Calippo Wolfsturm",
+        "age": "recent",
+        "text": "Trade PNG V2 1400 <-> 1200, Hamburg Germany",
+        "foils": [
+          "PNG V2 1400"
+        ],
+        "marketplace": true
+      },
+      {
+        "poster": "Jim Finnigan",
+        "age": "1 day (outside window)",
+        "text": "ARTpro1401 pump foiling advice - fuse/stab recommendations",
+        "foils": [
+          "ARTpro 1401"
+        ],
+        "question": true,
+        "comments": 4
+      },
+      {
+        "poster": "Tom La Majorette",
+        "age": "recent",
+        "text": "Tribute to my 1401 - transitioning to new era",
+        "foils": [
+          "ART 1401"
+        ],
+        "instagram_reel": true
+      },
+      {
+        "poster": "Cedric Okp",
+        "age": "recent",
+        "text": "Morning holiday dock start routine in El Gouna with FB1350",
+        "foils": [
+          "FB 1350"
+        ],
+        "sentiment": "very positive"
+      }
+    ],
+    "older_notable_posts": [
+      {
+        "poster": "Andrea Alessandri",
+        "age": "March 20",
+        "text": "Back on SP 1030 after sessions on ART V2 1099 - much easier in messy water",
+        "foils": [
+          "SP 1030",
+          "ART V2 1099"
+        ]
+      },
+      {
+        "poster": "Tee Kay",
+        "age": "2 days",
+        "text": "Surge 830 vs ART 939 V2 comparison at 92kg",
+        "foils": [
+          "Surge 830",
+          "ART 939 V2"
+        ],
+        "comments": 17
+      },
+      {
+        "poster": "Ingo Wagner",
+        "age": "2+ days",
+        "text": "K/S Series mast thread stripped after 1 year use",
+        "issue": "hardware_failure",
+        "comments": 20
+      }
+    ]
+  },
+  "official_page": {
+    "most_recent_post": {
+      "date": "February 8, 2026",
+      "text": "Surge front wings design concept - desert environment aesthetics. Colors: sun-baked yellows, mineral blacks, oxidized reds, sand neutrals.",
+      "reactions": 32,
+      "comments": 3,
+      "location": "Baja California Sur, Mexico"
+    },
+    "no_posts_last_24h": true
+  }
+}
