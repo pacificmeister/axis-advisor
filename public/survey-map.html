@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AXIS Foils — Global Rider Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0f0f11; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #f0f0f0; }
+  .header {
+    background: linear-gradient(135deg, #e62929 0%, #b01b1b 100%);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .header h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
+  .header h2 { font-size: 14px; font-weight: 400; opacity: 0.85; }
+  .header .count {
+    margin-left: auto;
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+  }
+  .header .count .num { font-size: 28px; font-weight: 800; }
+  .header .count .lbl { font-size: 11px; opacity: 0.8; text-transform: uppercase; letter-spacing: 1px; }
+  #map { width: 100%; height: calc(100vh - 80px); }
+  .leaflet-popup-content-wrapper {
+    background: #1a1a1f !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #e62929 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5) !important;
+  }
+  .leaflet-popup-tip { background: #1a1a1f !important; border: 1px solid #e62929 !important; }
+  .leaflet-popup-content { font-family: -apple-system, sans-serif; font-size: 13px; }
+  .region-legend {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    z-index: 1000;
+    background: rgba(15,15,17,0.92);
+    border: 1px solid #2a2a32;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 12px;
+    backdrop-filter: blur(10px);
+  }
+  .region-legend h3 { font-size: 13px; margin-bottom: 8px; color: #e62929; }
+  .region-legend .item { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .region-legend .dot { width: 10px; height: 10px; border-radius: 50%; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <h1>AXIS Foils — Global Rider Map</h1>
+    <h2>Setup Survey Respondents · March 2026</h2>
+  </div>
+  <div class="count">
+    <div class="num">177</div>
+    <div class="lbl">Riders Mapped</div>
+  </div>
+</div>
+<div id="map"></div>
+<div class="region-legend">
+  <h3>Regions</h3>
+  <div class="item"><div class="dot" style="background:#ef4444"></div> US West Coast (56)</div>
+  <div class="item"><div class="dot" style="background:#f59e0b"></div> France (18)</div>
+  <div class="item"><div class="dot" style="background:#10b981"></div> NZ / Australia (29)</div>
+  <div class="item"><div class="dot" style="background:#3b82f6"></div> Europe (33)</div>
+  <div class="item"><div class="dot" style="background:#8b5cf6"></div> US East / Inland (25)</div>
+  <div class="item"><div class="dot" style="background:#06b6d4"></div> Pacific / Other (16)</div>
+</div>
+<script>
+const map = L.map('map', {
+  center: [20, -20],
+  zoom: 2,
+  zoomControl: true,
+  scrollWheelZoom: true
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO',
+  maxZoom: 19
+}).addTo(map);
+
+function getColor(lat, lng) {
+  // US West Coast
+  if (lat > 20 && lat < 55 && lng < -100 && lng > -170) return '#ef4444';
+  // France
+  if (lat > 42 && lat < 52 && lng > -5 && lng < 9) return '#f59e0b';
+  // NZ/Australia
+  if (lat < -10 && lng > 100) return '#10b981';
+  // Europe (non-France)
+  if (lat > 35 && lat < 72 && lng > -15 && lng < 45) return '#3b82f6';
+  // US East / Inland
+  if (lat > 24 && lat < 50 && lng > -100 && lng < -60) return '#8b5cf6';
+  // Default
+  return '#06b6d4';
+}
+
+const pins = [{"loc": "Colorado Front Range / Lake Michigan", "lat": 39.66348676534771, "lng": -105.1586375699004}, {"loc": "Rhode Island", "lat": 41.33959908218186, "lng": -71.404681213363}, {"loc": "Varberg, Sweden. Beats most spots\ud83d\ude03", "lat": 43.64203792155832, "lng": 6.446507282647064}, {"loc": "Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to", "lat": 47.41661184913694, "lng": -122.0658807595876}, {"loc": "Maui Art the new Tempo582 and Pro801, tail 360 . Mast ultra Hi Modulus.", "lat": 20.56862191947903, "lng": -156.22964991333268}, {"loc": "Greece", "lat": 38.15422999858081, "lng": 23.483564144833075}, {"loc": "Hawaii", "lat": 21.210277764653522, "lng": -157.6077385810857}, {"loc": "Hood River", "lat": 45.671181623296, "lng": -121.48553337880692}, {"loc": "San Diego California", "lat": 32.7581946610557, "lng": -117.26791306167932}, {"loc": "Cannes", "lat": 43.59823215995871, "lng": 7.060527413162447}, {"loc": "Sydney", "lat": -34.1356078839961, "lng": 151.0319314915744}, {"loc": "Baltic Sea", "lat": 55.77314612259657, "lng": 14.098447512718735}, {"loc": "Oahu, Hawaii", "lat": 21.567648176692742, "lng": -157.91987441484392}, {"loc": "Southern Brittany - France", "lat": 48.160391932998174, "lng": -4.205314407533815}, {"loc": "Le Morne (Mauritius)", "lat": -20.53744726495709, "lng": 57.54002214278911}, {"loc": "La ventana", "lat": 24.294124379860357, "lng": -110.22094478462675}, {"loc": "Hobart, Tasmania", "lat": -42.770884157794725, "lng": 147.60724140754982}, {"loc": "Sicily", "lat": 37.839802019751886, "lng": 14.288119960451567}, {"loc": "Florida", "lat": 27.625022740854224, "lng": -82.75690004124746}, {"loc": "France", "lat": 46.46727894250275, "lng": 2.096276297112612}, {"loc": "Ross Bay, Victoria BC Canada", "lat": 48.45013104981809, "lng": -123.36979373116415}, {"loc": "West Oz", "lat": -31.765564616993526, "lng": 116.13112949900452}, {"loc": "The Gorge", "lat": 45.97096860056329, "lng": -121.44378521685546}, {"loc": "Greece, Crete Heraklion", "lat": 37.929638210873335, "lng": 23.97791087917953}, {"loc": "Naples Florida", "lat": 25.864615382455696, "lng": -81.59627482123923}, {"loc": "Maui, Australia", "lat": 20.73779849546539, "lng": -156.31357355867138}, {"loc": "Copenhagen and the west coast of Denmark", "lat": 55.477144540938774, "lng": 12.680957808112787}, {"loc": "Hyeres", "lat": 43.338026557578786, "lng": 5.841833904713582}, {"loc": "Santa Cruz California", "lat": 36.79437202358138, "lng": -122.06295150888175}, {"loc": "Tahiti French Polynesia", "lat": -17.30992862099689, "lng": -149.78086278228147}, {"loc": "NorCal - Bolinas, Crissy Field, Larkspur Landing", "lat": 37.95639259200446, "lng": -122.38600831147754}, {"loc": "Bretagne, France", "lat": 48.29816551818594, "lng": -4.236732838302905}, {"loc": "France pays de loire Bretagne", "lat": 48.222760518832715, "lng": -4.467617869767178}, {"loc": "Var France", "lat": 43.687951626852865, "lng": 6.227312704205098}, {"loc": "Poole", "lat": 50.86874315700245, "lng": -2.078841852652528}, {"loc": "Bay Area/ San Francisco", "lat": 37.632130410692525, "lng": -122.64661715709278}, {"loc": "Almanarre", "lat": 43.33133893378319, "lng": 6.0491735347982205}, {"loc": "San Francisco Bay Area", "lat": 37.657146213113975, "lng": -122.52939259058773}, {"loc": "Var", "lat": 43.248272655570645, "lng": 6.207856559530933}, {"loc": "Lake Champlain, NY", "lat": 44.23980934768486, "lng": -73.30080687738513}, {"loc": "South East coast of the U.K.", "lat": 51.0195562775193, "lng": 0.05596231621509601}, {"loc": "Bari Italy", "lat": 40.93827419704505, "lng": 17.084280936320972}, {"loc": "Balaton", "lat": 46.99411407596088, "lng": 17.433611463890852}, {"loc": "M\u00e9diterran\u00e9e Antibes", "lat": 43.4148318462118, "lng": 7.124056043741812}, {"loc": "yallingup", "lat": -33.611288094769684, "lng": 114.97437966532463}, {"loc": "Hawaii Kai Oahu", "lat": 21.244475532764685, "lng": -157.98520216557003}, {"loc": "Mission Bay, San Diego", "lat": 32.562240531078416, "lng": -117.02189358148057}, {"loc": "Sardinia", "lat": 40.1998709709204, "lng": 8.778670503964326}, {"loc": "Nelson NZ", "lat": -41.01904103951422, "lng": 172.99241171721982}, {"loc": "Lyttleton", "lat": -43.71633145403513, "lng": 172.94423088990322}, {"loc": "France, Normandie, Cotentin et Calvados", "lat": 49.46764803443162, "lng": -0.2861441263233204}, {"loc": "Cape cod", "lat": 41.56932742880057, "lng": -70.02931619734825}, {"loc": "Chile", "lat": -33.191362519435096, "lng": -70.50553052577294}, {"loc": "Perth, Western Australia", "lat": -31.900215429855916, "lng": 115.57362186059433}, {"loc": "Florida - St Petersburg", "lat": 27.737814792648795, "lng": -82.51335658132713}, {"loc": "San Francisco", "lat": 37.53298791326179, "lng": -122.42297857856578}, {"loc": "Columbia River Gorge", "lat": 45.67107789237283, "lng": -121.79733564575186}, {"loc": "Crissy Field", "lat": 38.042328038350895, "lng": -122.69832531058013}, {"loc": "Bolinas / Crissy field", "lat": 37.86338710777536, "lng": -122.39339193311149}, {"loc": "Chesapeake Bay", "lat": 36.984939498573056, "lng": -76.33256298583666}, {"loc": "Tahiti", "lat": -17.7545649550049, "lng": -149.4487590708897}, {"loc": "Apelviken, Sweden", "lat": 57.143255908760324, "lng": 12.10626036769109}, {"loc": "The Gorge, not Hood River :)", "lat": 45.61160272430145, "lng": -121.24622721029806}, {"loc": "Eyre peninsular", "lat": -32.91325951504018, "lng": 136.07632449420396}, {"loc": "Elizabeth City & Nags Head North Carolina", "lat": 36.03758014316362, "lng": -76.19069003425511}, {"loc": "Cape Town", "lat": -34.09531161255626, "lng": 18.6544255314052}, {"loc": "Switzerland", "lat": 47.23547199480075, "lng": 7.630798462932586}, {"loc": "Long Beach, La Ventana", "lat": 23.872609203798273, "lng": -109.8455423139906}, {"loc": "Brisbane", "lat": -27.29752798695599, "lng": 152.9566965083385}, {"loc": "Wakefoiling on Lewis smith lake in Alabama", "lat": 33.875525223227086, "lng": -87.32722428819054}, {"loc": "Western Bay of Plenty", "lat": -37.506242862695665, "lng": 176.3266666042508}, {"loc": "Scandinavia", "lat": 59.52524129540101, "lng": 18.288362006616243}, {"loc": "Lakes Baldeneysee and Xanten", "lat": 51.314785008590654, "lng": 6.810191792090092}, {"loc": "Cabarete", "lat": 19.935344824204314, "lng": -70.56861766346302}, {"loc": "Marblehead MA USA", "lat": 42.26258189890281, "lng": -70.93182345925433}, {"loc": "sunshine coast australia", "lat": -26.760814660598477, "lng": 153.34881992601797}, {"loc": "Western Australia", "lat": -32.17238651321872, "lng": 115.9823836303295}, {"loc": "The Gorge and La Ventana", "lat": 45.468743386331106, "lng": -121.52511710476142}, {"loc": "United Arab Emirates", "lat": 25.417888509347623, "lng": 55.233326339602385}, {"loc": "Crissy field", "lat": 37.63436712123736, "lng": -122.32881099708283}, {"loc": "Seattle/hood river", "lat": 45.990865040939276, "lng": -121.36822847178328}, {"loc": "Los Angeles. Malibu cabrillo seal beach", "lat": 34.1335350550122, "lng": -118.54546270191278}, {"loc": "Canary Island", "lat": 28.266552931903576, "lng": -15.3078277598369}, {"loc": "Hood river, la Ventana", "lat": 45.43651108990146, "lng": -121.73044263526837}, {"loc": "La Ventana, SF Bay Area, Gorge", "lat": 37.80522011045437, "lng": -122.41682989294354}, {"loc": "Uk south coast", "lat": 50.94017701801415, "lng": -0.9637413617959741}, {"loc": "Lakes in Germany", "lat": 51.18417567193816, "lng": 10.723442292983082}, {"loc": "M\u00e9diterran\u00e9e", "lat": 43.26965641642121, "lng": 5.435489710610578}, {"loc": "Serre Pon\u00e7ons lake French Alps", "lat": 44.61729543263769, "lng": 6.17845155275119}, {"loc": "New Zealand", "lat": -41.57720818733363, "lng": 174.79821105317663}, {"loc": "Marblehead, MA", "lat": 42.222666506866304, "lng": -70.66145675766552}, {"loc": "Lake district Uk", "lat": 54.683619698725614, "lng": -3.1257627834216257}, {"loc": "Vend\u00e9e France", "lat": 46.950409722368065, "lng": -1.2481370511559422}, {"loc": "Donauinsel (Vienna)", "lat": 48.122926660384586, "lng": 16.281532410813252}, {"loc": "Boise Idaho, hood river, cabarete", "lat": 45.443622013005005, "lng": -121.27371257110596}, {"loc": "California", "lat": 36.6529453470869, "lng": -119.4228173966405}, {"loc": "Auckland, New Zealand", "lat": -41.0273615965791, "lng": 174.91449045915866}, {"loc": "Oahu", "lat": 21.489587904813554, "lng": -158.1053667869335}, {"loc": "Milfontes, Ericeira , Peniche", "lat": 37.56318851268415, "lng": -8.670052149270159}, {"loc": "Switzerland", "lat": 47.23547199480075, "lng": 7.630798462932586}, {"loc": "La Ventana", "lat": 23.964509768436866, "lng": -110.2680590647176}, {"loc": "Honolulu", "lat": 21.20567718195983, "lng": -158.0753791142619}, {"loc": "San Francisco", "lat": 37.53298791326179, "lng": -122.42297857856578}, {"loc": "Bay of islands, NZ", "lat": -35.49801620613751, "lng": 173.86831390688766}, {"loc": "The Slot, Crissy", "lat": 37.63606586069368, "lng": -122.60826459099975}, {"loc": "New Plymouth, New Zealand", "lat": -41.192987809144384, "lng": 174.49564623980643}, {"loc": "Purdy, Tacoma Wa", "lat": 47.08325270002283, "lng": -122.2336906782943}, {"loc": "Bras\u00edlia, lago paranoa, Brazil", "lat": -3.8883624055763915, "lng": -38.80770912320231}, {"loc": "Denmark, Hanstholm", "lat": 56.07689330638892, "lng": 9.386875349791136}, {"loc": "Nor cal/southern Or coast", "lat": 37.83416557189486, "lng": -122.65651208088387}, {"loc": "Palanga, Lithuania", "lat": 56.061879790130284, "lng": 20.812449328348592}, {"loc": "New Bern & Morehead City, NC", "lat": 34.83820793823657, "lng": -76.88223159091923}, {"loc": "Gorge and Puget Sound", "lat": 45.45164505748675, "lng": -121.79228712067038}, {"loc": "north shore when it\u2019s micro", "lat": 21.532037462373346, "lng": -158.21814931897788}, {"loc": "Ukraine", "lat": 50.17891800203964, "lng": 30.465184920053225}, {"loc": "Rhodes, Greece", "lat": 38.12587659174636, "lng": 23.612745797571367}, {"loc": "Lutry, Leman Lake, Switzerland !", "lat": 46.70648871911449, "lng": 7.730018607611646}, {"loc": "France oc\u00e9an basque country", "lat": 46.59094905709262, "lng": 2.299805471415247}, {"loc": "Dunedin NZ", "lat": -45.85410976233319, "lng": 170.6797651573619}, {"loc": "Maui", "lat": 20.618071989363166, "lng": -156.33476624001491}, {"loc": "Bay Area", "lat": 37.75087119942776, "lng": -122.69751088827826}, {"loc": "South France", "lat": 43.4681139817495, "lng": 5.45483967454406}, {"loc": "South East coast of the U.K.", "lat": 51.0195562775193, "lng": 0.05596231621509601}, {"loc": "Auckland New Zealand", "lat": -41.169700622062926, "lng": 174.8497872380544}, {"loc": "Swiss Lakes, Solothurn", "lat": 47.40727553652196, "lng": 7.462629783935308}, {"loc": "Ukraine", "lat": 50.17891800203964, "lng": 30.465184920053225}, {"loc": "So Cal", "lat": 33.5761023507339, "lng": -117.79233680403047}, {"loc": "santa cruz", "lat": 37.180256212813106, "lng": -121.87124779504055}, {"loc": "Z\u00fcrich", "lat": 47.17058673220126, "lng": 8.60817816578612}, {"loc": "France la Baule", "lat": 47.516990651332264, "lng": -2.47959651654038}, {"loc": "Fr\u00e9jus - Saint-Rapha\u00ebl ( Var)", "lat": 43.42312069083543, "lng": 5.999040606629208}, {"loc": "West coast Ireland", "lat": 53.28974355483239, "lng": -9.003353101439739}, {"loc": "Western Australia", "lat": -32.17238651321872, "lng": 115.9823836303295}, {"loc": "Seitzerland", "lat": 47.16023383269603, "lng": 7.372253641563899}, {"loc": "Pompano beach florida", "lat": 27.849778809857778, "lng": -82.36810527527345}, {"loc": "Tahiti", "lat": -17.7545649550049, "lng": -149.4487590708897}, {"loc": "Oahu-Maui", "lat": 21.27044623638124, "lng": -157.70252584398628}, {"loc": "Normandie, Fuerteventura", "lat": 49.05777205211585, "lng": -0.553225200642514}, {"loc": "Saint Malo", "lat": 48.621066515145564, "lng": -1.7085028340032338}, {"loc": "Baltic sea", "lat": 55.375314122647524, "lng": 14.08097473062995}, {"loc": "Guadeloupe french caribeean island", "lat": 16.166224850638226, "lng": -61.33449500437084}, {"loc": "Lakes around Paris France, French West Coast (La Tranche sur mer,, Crozon, Normandy)", "lat": 46.5391394315984, "lng": 2.5015864048980463}, {"loc": "Nantes, France", "lat": 46.94788221723903, "lng": -1.5799845234731649}, {"loc": "Belgium", "lat": 51.09619313269827, "lng": 4.591697084814365}, {"loc": "San francisco", "lat": 37.58851119452311, "lng": -122.35213695140685}, {"loc": "Auckland", "lat": -37.019807159422626, "lng": 174.89704267856405}, {"loc": "New zealand", "lat": -41.09740021634168, "lng": 174.81912735005662}, {"loc": "Brazil, Cear\u00e1, Praia do Iguape, Praia do Futuro, Pecem , praia do Cumbuco.", "lat": -3.8764355426049195, "lng": -38.59256313130814}, {"loc": "Stavanger, Norway", "lat": 59.811161339283345, "lng": 10.69271818684545}, {"loc": "Sarasota FL", "lat": 27.184842903145494, "lng": -82.54564478080722}, {"loc": "Lake Champlain", "lat": 44.70173249407015, "lng": -73.3957596744752}, {"loc": "Auesee Germany", "lat": 51.02576821236457, "lng": 10.359035058652536}, {"loc": "Lakes in Arkansas", "lat": 34.99759681052435, "lng": -92.26838369290586}, {"loc": "Sydney", "lat": -34.1356078839961, "lng": 151.0319314915744}, {"loc": "Santa Cruz - Bay Area", "lat": 37.653707850908454, "lng": -122.36459424992293}, {"loc": "Sherman Island", "lat": 37.9920340877222, "lng": -121.61403815519301}, {"loc": "Northland New Zealand", "lat": -41.53904890766126, "lng": 174.6916888902344}, {"loc": "The Gorge/LaVentana", "lat": 45.87233654454705, "lng": -121.44665492444032}, {"loc": "Sydney Australia", "lat": -33.790183131530476, "lng": 151.48308660303908}, {"loc": "Inland Ohio lake.", "lat": 40.516923050107884, "lng": -82.97290718932074}, {"loc": "Cotton Tree Queensland", "lat": -26.80632124150642, "lng": 153.05639540676606}, {"loc": "Portugal / South", "lat": 38.723778123715945, "lng": -9.024783895043326}, {"loc": "Maui Tunisia", "lat": 20.649088424719036, "lng": -156.20970117112017}, {"loc": "Smith lake, alabama", "lat": 33.86190672523848, "lng": -86.94482043048117}, {"loc": "Ecuador", "lat": -1.9923098415972786, "lng": -80.84968191590443}, {"loc": "Huntington Beach", "lat": 33.431960200169954, "lng": -117.89053140116941}, {"loc": "Lake Neuchatel", "lat": 47.066560027925725, "lng": 6.869116914598905}, {"loc": "New Zealand", "lat": -41.57720818733363, "lng": 174.79821105317663}, {"loc": "Auckland, Whangapora", "lat": -36.76217963509649, "lng": 174.47894871545188}, {"loc": "Danemark", "lat": 56.28161552225823, "lng": 9.27032135897791}, {"loc": "Milfontes, Portugal", "lat": 38.59395285932021, "lng": -9.333333077396292}, {"loc": "Ireland, Mallorca, Fuerte", "lat": 53.229297633816294, "lng": -8.924623659047176}, {"loc": "Oslofjord Norway", "lat": 60.20387927665145, "lng": 10.536341132870163}, {"loc": "Christchurch, New Zealand", "lat": -41.40600522751281, "lng": 174.68646288266925}, {"loc": "Matanzas Chile", "lat": -33.64948568176555, "lng": -70.80879133060893}, {"loc": "South West of France", "lat": 44.780805845468905, "lng": -0.41087968776543426}, {"loc": "San Francisco Bay", "lat": 37.47057033127865, "lng": -122.66546958150721}];
+
+pins.forEach(p => {
+  const color = getColor(p.lat, p.lng);
+  const marker = L.circleMarker([p.lat, p.lng], {
+    radius: 6,
+    fillColor: color,
+    color: '#fff',
+    weight: 1,
+    opacity: 0.8,
+    fillOpacity: 0.85
+  }).addTo(map);
+  marker.bindPopup('<strong style="color:#e62929">' + p.loc + '</strong>');
+});
+</script>
+</body>
+</html>
