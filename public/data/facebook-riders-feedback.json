@@ -13,8 +13,8 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-22T13:03:00Z",
-    "total_posts": 389
+    "last_updated": "2026-03-23T01:00:00Z",
+    "total_posts": 394
   },
   "posts": [
     {
@@ -25,11 +25,21 @@
       "rider": "Niels van der Kaaij",
       "rider_weight": "91kg",
       "discipline": "wing foiling",
-      "text": "Shout out to my old HPS 930 with the 380 speed stab. 5.0 wing, 92L board, 91kg rider, 11-17kn thermal side off wind, 8°C water. HPS 930 = super forgiving, amazing stall speed, easy toeside pumping, but lacks glide vs ART V2 879. ART V2 879 is a significant performance upgrade. AFS 1100 had better glide and upwind game.",
-      "foils_mentioned": ["HPS 930", "ART V2 879"],
+      "text": "Shout out to my old HPS 930 with the 380 speed stab. 5.0 wing, 92L board, 91kg rider, 11-17kn thermal side off wind, 8\u00b0C water. HPS 930 = super forgiving, amazing stall speed, easy toeside pumping, but lacks glide vs ART V2 879. ART V2 879 is a significant performance upgrade. AFS 1100 had better glide and upwind game.",
+      "foils_mentioned": [
+        "HPS 930",
+        "ART V2 879"
+      ],
       "comparison_notes": "HPS 930 vs ART V2 879: HPS feels like 'beginner foil' by comparison. AFS 1100 (competitor) outperforms HPS 930 in glide/upwind.",
       "sentiment": "positive",
-      "tags": ["wing_foil", "hps_930", "art_v2_879", "light_wind", "beginner_friendly", "glide_comparison"]
+      "tags": [
+        "wing_foil",
+        "hps_930",
+        "art_v2_879",
+        "light_wind",
+        "beginner_friendly",
+        "glide_comparison"
+      ]
     },
     {
       "id": "fb_2026_03_22_002",
@@ -39,10 +49,17 @@
       "rider": "Joe Bloggs",
       "discipline": "windsurf",
       "text": "Q: V3 windsurf fuselage vs V2 differences? A (Adrian Roper, Group Expert): Much thicker and stronger around the mast hole. Also added zinc anode.",
-      "foils_mentioned": ["V3 windsurf fuselage"],
+      "foils_mentioned": [
+        "V3 windsurf fuselage"
+      ],
       "product_intel": "V3 windsurf fuselage improvements over V2: reinforced mast hole area (thicker/stronger) + zinc anode added. Structural durability upgrade.",
       "sentiment": "informational",
-      "tags": ["windsurf", "fuselage_v3", "product_upgrade", "mast_hole_reinforcement"]
+      "tags": [
+        "windsurf",
+        "fuselage_v3",
+        "product_upgrade",
+        "mast_hole_reinforcement"
+      ]
     },
     {
       "id": "fb_2026_03_22_003",
@@ -52,11 +69,25 @@
       "rider": "Gary Pickburn",
       "rider_weight": "105kg",
       "discipline": "foil drive, wing foiling",
-      "text": "Fireball selection for 105kg rider on 19mm alloy mast, replacing ArtPro1201. Wants better turning than 1201 + more glide than Surge 1010. Community consensus: Fireball 1160 is the sweet spot. 1070 too small at 105kg. 1250 too close to 1201. Tim VR: 1250 + ultrashort + Skinny 25 turns better than 1201 + insane glide. Andy Tamasese: 1160 totally replaced his 1201 — turnier with great range.",
-      "foils_mentioned": ["Fireball 1160", "Fireball 1250", "Fireball 1070", "ART Pro 1201", "Surge 1010"],
+      "text": "Fireball selection for 105kg rider on 19mm alloy mast, replacing ArtPro1201. Wants better turning than 1201 + more glide than Surge 1010. Community consensus: Fireball 1160 is the sweet spot. 1070 too small at 105kg. 1250 too close to 1201. Tim VR: 1250 + ultrashort + Skinny 25 turns better than 1201 + insane glide. Andy Tamasese: 1160 totally replaced his 1201 \u2014 turnier with great range.",
+      "foils_mentioned": [
+        "Fireball 1160",
+        "Fireball 1250",
+        "Fireball 1070",
+        "ART Pro 1201",
+        "Surge 1010"
+      ],
       "setup_recommendation": "105kg + alloy 19mm mast: Fireball 1160 (community favorite) or 1250 + ultrashort + Skinny 25 (performance option)",
       "sentiment": "positive",
-      "tags": ["fireball", "fireball_1160", "fireball_1250", "heavy_rider", "alloy_mast", "foil_drive", "quiver_selection"]
+      "tags": [
+        "fireball",
+        "fireball_1160",
+        "fireball_1250",
+        "heavy_rider",
+        "alloy_mast",
+        "foil_drive",
+        "quiver_selection"
+      ]
     },
     {
       "id": "post_0",
@@ -7879,6 +7910,198 @@
         }
       ],
       "scan_date": "2026-03-22"
+    },
+    {
+      "id": "scan_20260322_pm_01_paul_schnetker_surge_sizing",
+      "source": "axisfoilriders FB group",
+      "poster": "Paul Schnetker",
+      "timestamp": "2026-03-22T22:00:00Z",
+      "scan_time": "2026-03-23T01:00:00Z",
+      "post_type": "question",
+      "title": "Surge or Spitfire sizing for beginner wave rider, 85kg",
+      "text": "I am looking at buying a surge (or spitfire) on the Gold Coast Australia. I am 85kg, intermediate fliteboard L2 efoil rider (Axis wing adaptor) just starting to ride waves (rode 18 little rides last session). Any recommendations on size? Not sure how small I would enjoy and don't have funds for multiple wings. Thanks Paul",
+      "weight_kg": 85,
+      "discipline": [
+        "wave foiling",
+        "wing foiling"
+      ],
+      "foils_mentioned": [
+        "Surge",
+        "Spitfire",
+        "Spitfire 1100"
+      ],
+      "reactions": 0,
+      "comments_count": 1,
+      "sentiment": "neutral",
+      "key_feedback": "Beginner asking for wing size recommendation for wave foiling. 85kg, efoil background.",
+      "comments": [
+        {
+          "author": "Mark Madden",
+          "text": "I have a 1100 spit fire glides great on small waves I'm moving to armstrong so make me a stupid offer",
+          "timestamp_rel": "1h",
+          "note": "Selling 1100 Spitfire, moving to Armstrong brand"
+        }
+      ]
+    },
+    {
+      "id": "scan_20260322_pm_02_tom_la_majorette_front_wing",
+      "source": "axisfoilriders FB group",
+      "poster": "Tom La Majorette",
+      "timestamp": "2026-03-22T19:00:00Z",
+      "scan_time": "2026-03-23T01:00:00Z",
+      "post_type": "question",
+      "title": "Front wing advice 65kg - Surge 890/950/830 or Fireball for parawing/surfoiling/dockstart",
+      "text": "Hi, I'am looking for advice for a new front. I'am 65kg, For parawing, surfoiling <1m, dockstart full speed. Surge looks good but Which size 890? 950 or 830? Or fireball? I am afraid about thin chord and high aspect. Thank for your help",
+      "weight_kg": 65,
+      "discipline": [
+        "parawing",
+        "surf foiling",
+        "dock start"
+      ],
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950",
+        "Surge 830",
+        "Fireball"
+      ],
+      "reactions": 1,
+      "comments_count": 4,
+      "sentiment": "neutral",
+      "key_feedback": "65kg rider asking between Surge sizes and Fireball for multi-discipline use. Afraid of thin chord / high aspect.",
+      "comments": [
+        {
+          "author": "Steven Fisher",
+          "role": "Top contributor",
+          "text": "Do you want one foil to do all those disciplines? I would say Fireball for Parawinging and Dock and a Surge for prone. Your tail matters too. Go with a Surf Skinny for the tail.",
+          "timestamp_rel": "6h"
+        },
+        {
+          "author": "Tom La Majorette",
+          "text": "Steven Fisher yes one for all. It's for that, that hard to choose",
+          "timestamp_rel": "6h"
+        },
+        {
+          "author": "Liam Walton",
+          "role": "Top contributor",
+          "text": "I'm 78kgs and prone the 890 as a daily driver. Can link for 10mins in the surf. So the 830 at your weight for prone would be sick. That would be my recommendation purely for the prone side",
+          "timestamp_rel": "6h"
+        },
+        {
+          "author": "Tom La Majorette",
+          "text": "Liam Walton awesome thanks",
+          "timestamp_rel": "6h"
+        }
+      ]
+    },
+    {
+      "id": "scan_20260322_pm_03_niels_hps930_vs_art_v2",
+      "source": "axisfoilriders FB group",
+      "poster": "Niels van der Kaaij",
+      "timestamp": "2026-03-22T13:00:00Z",
+      "scan_time": "2026-03-23T01:00:00Z",
+      "post_type": "experience_report",
+      "title": "HPS 930 vs ART V2 879 comparison - light wind winging session",
+      "text": "Shout out to my old HPS 930 with the 380 speed stab. Have not used this combi for almost a year and just a few days ago we got thermal side off wind 11 to 17 knots. Very patchy and due to low sea water temp (8\u00b0c) prioritizing fast on foil over glide. Amazing to experience how little is needed with a 5.0 wing and 92 liter board with rider weight of 91 KG in full wintersuit. While I have been using my most recent purchase, the ART V2 879 the HPS feels like I am on a full beginner foil and total relaxation. Combined with the huge backstab it feels like cheating in stall speed. Even toeside pumping on non existing bumps keeps you going, until your own breath wears out. What is missing.... The glide! While getting going is so easy, once the gust is gone you have to keep pumping more instead of making use of the glide. For comparison my mate was on a AFS 1100 and super high aspect backstab and had less pumping to do. Super easy up and go, very low stall speed, playful due to span of only 930mm and great to get the feeling back of the magic of wingfoiling.",
+      "weight_kg": 91,
+      "discipline": [
+        "wing foiling"
+      ],
+      "foils_mentioned": [
+        "HPS 930",
+        "ART V2 879",
+        "AFS 1100"
+      ],
+      "stab_mentioned": [
+        "380 speed stab"
+      ],
+      "board": "92 liter 2025 Cruzader Diamond Pro 5'10 X 20\"",
+      "conditions": "11-17 knots thermal, 5.0 wing, 8\u00b0c water",
+      "reactions": 9,
+      "comments_count": 3,
+      "sentiment": "positive",
+      "key_feedback": "HPS 930 excels at low-wind, easy riding. ART V2 879 offers better glide. Comparison: HPS = easy/fun, ART = efficient glide.",
+      "comments": [
+        {
+          "author": "Ian Sloan",
+          "role": "Top contributor",
+          "text": "HPS 930 is a great foil. It was my go to for like 2 years. Spitfires have that same easy feeling.",
+          "reactions": 2
+        },
+        {
+          "author": "Niels van der Kaaij",
+          "text": "Good question! Have my 2025 cruzader diamond pro 5\"10 X 20\". For almost 9 months now and ride with 3.0 to 6.0 wingfoil only. It is full carbon. Mast is in position 8 to 9 and when brutal conditions I use a 1\u00b0 shim on mast plate for nose down.",
+          "note": "Reply about board details"
+        },
+        {
+          "author": "Szymon Urbanski",
+          "text": "How does gong board fit with Axis foil setup? I was thinking to pair it same way too",
+          "note": "No reply - UNANSWERED QUESTION"
+        }
+      ]
+    },
+    {
+      "id": "scan_20260322_pm_04_joe_bloggs_v3_fuselage",
+      "source": "axisfoilriders FB group",
+      "poster": "Joe Bloggs",
+      "timestamp": "2026-03-22T07:00:00Z",
+      "scan_time": "2026-03-23T01:00:00Z",
+      "post_type": "product_question",
+      "title": "V3 windsurf fuselage - differences from V2?",
+      "text": "Anyone got info on the V3 windsurf fuselage? How is it different to V2?",
+      "discipline": [
+        "windsurf foiling"
+      ],
+      "foils_mentioned": [
+        "V3 windsurf fuselage",
+        "V2 windsurf fuselage"
+      ],
+      "reactions": 0,
+      "comments_count": 3,
+      "sentiment": "neutral",
+      "key_feedback": "Community asking about V3 windsurf fuselage differences. Adrian Roper (Group Expert) answered.",
+      "comments": [
+        {
+          "author": "Adrian Roper",
+          "role": "Group expert / All-star contributor",
+          "text": "Much thicker and stronger around the mast hole. Also added zinc anode",
+          "timestamp_rel": "13h"
+        },
+        {
+          "author": "Paul Kelf",
+          "text": "Any dimensions, overall & front to mast",
+          "timestamp_rel": "11h",
+          "note": "No reply yet - UNANSWERED"
+        }
+      ]
+    },
+    {
+      "id": "scan_20260322_pm_05_dimitris_parawing_fireball1000_surge890",
+      "source": "axisfoilriders FB group",
+      "poster": "Dimitris Apalagakis",
+      "timestamp": "2026-03-18T10:00:00Z",
+      "scan_time": "2026-03-23T01:00:00Z",
+      "post_type": "session_video",
+      "title": "Parawinging Fireball 1000 & Surge 890 comparison video",
+      "text": "Parawinging Fireball 1000 (me) & Surge 890 (Cameron). Both foils work amazingly well with the Parawing couldn't be more fun. AXIS Foils | Surftoys.gr | The CHASE Project",
+      "discipline": [
+        "parawing"
+      ],
+      "foils_mentioned": [
+        "Fireball 1000",
+        "Surge 890"
+      ],
+      "reactions": 6,
+      "comments_count": 7,
+      "sentiment": "very_positive",
+      "key_feedback": "Both Fireball 1000 and Surge 890 work great with Parawing. Tom La Majorette commented asking about speed and low end comparison.",
+      "comments": [
+        {
+          "author": "Tom La Majorette",
+          "text": "What about speed? Low end for both? Which one is better?",
+          "timestamp_rel": "7h",
+          "note": "Unanswered in visible feed - 6 more replies to view"
+        }
+      ]
     }
   ]
 }

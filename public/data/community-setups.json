@@ -4,8 +4,8 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-22T13:03:00Z",
-    "total_riders": 112
+    "last_updated": "2026-03-23T01:00:00Z",
+    "total_riders": 120
   },
   "riders": [
     {
@@ -15,7 +15,9 @@
       "rider_name": "Niels van der Kaaij",
       "weight": "91kg",
       "experience": "intermediate-advanced",
-      "disciplines": ["wing foiling"],
+      "disciplines": [
+        "wing foiling"
+      ],
       "setup": {
         "front_wing": "HPS 930",
         "stabilizer": "380 speed stab",
@@ -23,7 +25,7 @@
         "wing": "5.0"
       },
       "also_rides": "ART V2 879",
-      "conditions": "11-17kn thermal, side off wind, 8°C water (winter)",
+      "conditions": "11-17kn thermal, side off wind, 8\u00b0C water (winter)",
       "notes": "HPS 930 + 380 speed stab at 91kg: super easy early flight, low stall speed, forgiving. Lacks glide vs ART V2 879. Good for messy water and recovery. 'Feels like cheating' for early flight.",
       "sentiment": "positive on HPS 930 for beginner/easy conditions"
     },
@@ -3635,6 +3637,70 @@
       "notes": "Daily dock start routine, calls FB1350 his go-to dockstart foil.",
       "source_post": "scan_20260322_05_cedric_okp_fb1350",
       "date": "2026-03-22"
+    },
+    {
+      "id": "rider_paul_schnetker_85kg_20260322pm",
+      "source": "FB post axisfoilriders 2026-03-22 PM",
+      "date": "2026-03-22",
+      "rider_name": "Paul Schnetker",
+      "weight": "85kg",
+      "experience": "beginner-intermediate",
+      "disciplines": [
+        "wave foiling",
+        "wing foiling"
+      ],
+      "board": "Fliteboard (eFoil)",
+      "setup": {
+        "note": "Seeking first surf wing - considering Surge or Spitfire"
+      },
+      "conditions": "Gold Coast Australia, small beach waves",
+      "notes": "efoil rider transitioning to surf foiling. 18 sessions. Seeking sizing advice for Surge/Spitfire."
+    },
+    {
+      "id": "rider_tom_la_majorette_65kg_20260322pm",
+      "source": "FB post axisfoilriders 2026-03-22 PM",
+      "date": "2026-03-22",
+      "rider_name": "Tom La Majorette",
+      "weight": "65kg",
+      "experience": "intermediate",
+      "disciplines": [
+        "parawing",
+        "surf foiling",
+        "dock start"
+      ],
+      "setup": {
+        "note": "Seeking front wing for multi-discipline: parawing + surfoiling + dockstart"
+      },
+      "considerations": [
+        "Surge 830",
+        "Surge 890",
+        "Surge 950",
+        "Fireball"
+      ],
+      "community_recs": "Surge 830 (65kg for prone), Fireball for parawing/dock",
+      "notes": "Community recommended: Fireball for parawing/dock, Surge 830 for prone at 65kg"
+    },
+    {
+      "id": "rider_niels_van_der_kaaij_91kg_hps930_20260322pm",
+      "source": "FB post axisfoilriders 2026-03-22 PM",
+      "date": "2026-03-22",
+      "rider_name": "Niels van der Kaaij",
+      "weight": "91kg",
+      "experience": "advanced",
+      "disciplines": [
+        "wing foiling"
+      ],
+      "board": "2025 Cruzader Diamond Pro 5'10 x 20\", 92L, full carbon",
+      "setup": {
+        "front_wing": "HPS 930",
+        "stab": "380 speed stab",
+        "comparison_wing": "ART V2 879",
+        "wing_size": "3.0-6.0m",
+        "mast_position": "8-9",
+        "shimming": "1\u00b0 nose down in brutal conditions"
+      },
+      "conditions": "11-17 knots thermal, 8\u00b0c water",
+      "notes": "HPS 930 easy/low stall speed vs ART V2 879 better glide. Comparing old vs new setup in light wind. Very detailed session report."
     }
   ],
   "aggregations": {
