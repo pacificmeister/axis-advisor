@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 378,
+    "total_entries": 381,
     "sources": {
-      "facebook_groups": 111,
+      "facebook_groups": 114,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,10 +13,68 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-23T01:00:00Z",
+    "last_updated": "2026-03-23T06:19:00Z",
     "total_posts": 394
   },
   "posts": [
+    {
+      "id": "fb_2026_03_23_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-23",
+      "rider": "Dmitry Evseev",
+      "discipline": "general/comparison",
+      "text": "Comparison of Axis foils video - Tempo 1090 vs Fireball 1070. Same wingspan, but Tempo is less draggy leading to less BPM. Community correctly identified Fireball 1070 on left (more BPM, 23km/h) and Tempo 1090 on right (less draggy, 19km/h). Video: 1K views, 10 reactions.",
+      "foils_mentioned": [
+        "Tempo 1090",
+        "Fireball 1070"
+      ],
+      "sentiment": "educational/comparison",
+      "reactions": 10,
+      "comments": 2,
+      "key_insight": "Tempo 1090 is less draggy than Fireball 1070 of same wingspan = lower BPM at same speed"
+    },
+    {
+      "id": "fb_2026_03_23_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-23",
+      "rider": "Darren Zielonka",
+      "rider_weight": null,
+      "discipline": "wakefoil/wingfoil/dockstart",
+      "text": "Mast size question: 820mm vs 750mm for wakefoil/wingfoil/dockstart. Community heavily favors 820mm. Perry Hughes: never uses 750 anymore. Reuben Williams: 82 is sweet spot for wing, surf, dock, tow, especially for breach prevention. David Donovan Bunn: bought 750, wishes he got 820.",
+      "foils_mentioned": [],
+      "mast_mentioned": [
+        "820mm Power Carbon",
+        "750mm"
+      ],
+      "sentiment": "positive/preference",
+      "reactions": 2,
+      "comments": 5,
+      "key_insight": "Community consensus: 820mm Power Carbon mast preferred over 750mm for versatility across disciplines"
+    },
+    {
+      "id": "fb_2026_03_23_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-23",
+      "rider": "Paul Schnetker",
+      "rider_weight": "85kg",
+      "discipline": "wave/efoil",
+      "location": "Gold Coast, Australia",
+      "text": "Intermediate 85kg efoil rider asking about Surge vs Spitfire for wave riding on Gold Coast. Sean Richardson (Top contributor, also 85kg, Gold Coast): recommends Surge 830. SurfFx has demos. Spitfire 780 was previous daily driver before Surges.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surge",
+        "Spitfire 780",
+        "Spitfire 1100"
+      ],
+      "dealer_mentioned": "SurfFx (Gold Coast, Australia)",
+      "sentiment": "recommendation/positive",
+      "reactions": 2,
+      "comments": 5,
+      "key_insight": "85kg rider Gold Coast: Surge 830 recommended for wave winging. SurfFx offers demos."
+    },
     {
       "id": "fb_2026_03_22_001",
       "source": "facebook_axis_riders",

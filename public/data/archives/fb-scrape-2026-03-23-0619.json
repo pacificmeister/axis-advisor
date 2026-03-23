@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "scan_date": "2026-03-23",
+    "scan_time": "06:19 AM Pacific",
+    "scan_type": "scheduled_12h",
+    "total_posts_captured": 2,
+    "total_posts_within_12h_window": 2,
+    "scraper": "Herbert/OpenClaw",
+    "sources": {
+      "riders_group": "https://www.facebook.com/groups/axisfoilriders/",
+      "official_page": "https://www.facebook.com/axisfoils"
+    }
+  },
+  "posts_within_12h": [
+    {
+      "id": "1562399681524984",
+      "poster": "Dmitry Evseev",
+      "posted_ago": "9h",
+      "approximate_time": "~2026-03-22 21:00 PDT",
+      "title": "Comparison of Axis foils. Which one is which?",
+      "text": "Comparison of Axis foils. Which one is which?\n\nAnswer options (pls answer in comment):\n⬅️ Tempo 1090 | Fireball 1070 ➡️\n⬅️ Tempo 1090 | Tempo 1090 ➡️\n⬅️ Fireball 1070 | Tempo 1090 ➡️\n⬅️ Fireball 1070 | Fireball 1070 ➡️\n\n[Video comparison: two riders, one at 23 KM/H pace 2:40, one at 19 KM/H pace 3:08]",
+      "reactions": 10,
+      "comments_count": 2,
+      "views": "1K",
+      "foils_mentioned": ["Tempo 1090", "Fireball 1070"],
+      "discipline": "general/comparison",
+      "sentiment": "curious/educational",
+      "comments": [
+        {
+          "commenter": "Maxime Meyer",
+          "text": "Fun game! I would say: Fireball 1070 on the left, Tempo 1090 on the right. Same wingspan more or less, but Tempo is less draggy, which leads to less BPM overall.",
+          "time": "7h ago",
+          "reactions": 2
+        },
+        {
+          "commenter": "Andrej Marconi",
+          "type": "reply to Maxime Meyer",
+          "text": "yes but look the stability on the board .....",
+          "time": "5h ago",
+          "reactions": 0
+        }
+      ]
+    },
+    {
+      "id": "1562340988197520",
+      "poster": "Darren Zielonka",
+      "poster_badge": "Rising contributor",
+      "posted_ago": "11h",
+      "approximate_time": "~2026-03-22 19:00 PDT",
+      "title": "Mast Size Question",
+      "text": "Does anyone prefer the 820mm over the 750mm for behind the boat or dock start? Pro?/cons? I'm looking for a power carbon mast and thinking 820mm to wakefoil, wingfoil, and dock start. I only want to buy one haha.",
+      "reactions": 2,
+      "comments_count": 5,
+      "foils_mentioned": [],
+      "mast_mentioned": ["820mm", "750mm", "Power Carbon"],
+      "discipline": "wakefoil/wingfoil/dockstart",
+      "sentiment": "question/seeking advice",
+      "comments": [
+        {
+          "commenter": "Perry Hughes",
+          "text": "I love my 820 for dock and wing, never use my old 750 anymore.",
+          "time": "10h ago"
+        },
+        {
+          "commenter": "Reuben Williams",
+          "badge": "Rising contributor",
+          "text": "If you Wingfoil in rough seas or waves, the extra length is always useful for breach prevention, 82 is my sweet spot for wing, surf, dock, tow.",
+          "time": "11h ago"
+        },
+        {
+          "commenter": "Matt Dill",
+          "text": "I hate anything over 80. Too long for me...",
+          "time": "11h ago"
+        },
+        {
+          "commenter": "Danny Perez",
+          "text": "Got the 750 c and 90 Alu 19. I prefer the 90.",
+          "time": "9h ago"
+        },
+        {
+          "commenter": "David Donovan Bunn",
+          "text": "I bought the 750, and it's fine, but wish I had bought the 820mm",
+          "time": "11h ago"
+        }
+      ]
+    }
+  ],
+  "posts_11_24h": [
+    {
+      "id": "1562194661545486",
+      "poster": "Paul Schnetker",
+      "posted_ago": "16h",
+      "title": "Surge/Spitfire recommendation for Gold Coast wave riding",
+      "text": "I am looking at buying a surge (or spitfire) on the Gold Coast Australia. I am 85kg, intermediate fliteboard L2 efoil rider (Axis wing adaptor) just starting to ride waves (rode 18 little rides last session). Any recommendations on size? Not sure how small I would enjoy and don't have funds for multiple wings. Thanks Paul",
+      "rider_weight": "85kg",
+      "discipline": "wave/efoil",
+      "foils_mentioned": ["Surge", "Spitfire"],
+      "sentiment": "question",
+      "comments": [
+        {
+          "commenter": "Mark Madden",
+          "text": "I have a 1100 spit fire glides great on small waves I'm moving to armstrong so make me a stupid offer",
+          "time": "13h ago"
+        },
+        {
+          "commenter": "Paul Schnetker",
+          "type": "reply to Mark Madden",
+          "text": "I have messaged you.",
+          "time": "11h ago"
+        },
+        {
+          "commenter": "Sean Richardson",
+          "badge": "Top contributor",
+          "text": "I'm 85kg live on the Gold Coast as well. I have most of the Surges. If it was just one - for me I'd go the 830 - ride mostly at the Alley, winging in waves. Check in with SurfFx - they have demos... take out the guesswork",
+          "time": "5h ago"
+        },
+        {
+          "commenter": "Sean Richardson",
+          "badge": "Top contributor",
+          "text": "Spitfire is a great wing as well. I've had all of them. 780 was my daily driver for the Alley before I got the Surges. DM me and if I'm down at the Alley, you could give one of mine a try if you can't demo one from SurfFx.",
+          "time": "4h ago"
+        },
+        {
+          "commenter": "Robert Sellar",
+          "text": "You want the surge,",
+          "time": "5h ago"
+        }
+      ]
+    },
+    {
+      "id": "1562094548222164",
+      "poster": "Tom La Majorette",
+      "posted_ago": "19h",
+      "title": "Front foil recommendation - 65kg parawing/surf/dockstart",
+      "text": "Hi, I'am looking for advice for a new front. I'am 65kg, For parawing, surfoiling <1m, dockstart full speed. Surge looks good but Which size 890? 950 or 830? Or fireball? I am afraid about thin chord and high aspect. Thank for your help",
+      "rider_weight": "65kg",
+      "discipline": "parawing/surf/dockstart",
+      "foils_mentioned": ["Surge 890", "Surge 950", "Surge 830", "Fireball"],
+      "sentiment": "question"
+    },
+    {
+      "id": "1561757568255862",
+      "poster": "Niels van der Kaaij",
+      "posted_ago": "~24h",
+      "title": "HPS 930 vs ART V2 879 comparison - wingfoil 91kg",
+      "text": "Shout out to my old HPS 930 with the 380 speed stab. 5.0 wing, 92L board, 91kg rider, 11-17kn thermal side off wind, 8°C water. Amazing experience with HPS 930. While I have been using my most recent purchase, the ART V2 879 the HPS feels like I am on a full...",
+      "rider_weight": "91kg",
+      "discipline": "wingfoil",
+      "foils_mentioned": ["HPS 930", "ART V2 879"]
+    }
+  ],
+  "official_page_scan": {
+    "url": "https://www.facebook.com/axisfoils",
+    "most_recent_post_date": "February 8, 2026",
+    "most_recent_post_topic": "Surge desert colorway - product design inspiration",
+    "posts_in_last_24h": 0,
+    "posts_in_last_7_days": 0,
+    "notes": "No new posts on official page in last 24h. Most recent post was Feb 8 (Surge colorway), Jan 18 (Boot Düsseldorf). 6.1K followers."
+  },
+  "scam_alerts": [],
+  "notable_intel": {
+    "product_comparisons": [
+      "Tempo 1090 vs Fireball 1070 - video comparison showing speed/BPM differences. Community consensus: Fireball 1070 = left (more BPM), Tempo 1090 = right (less draggy, less BPM)",
+      "820mm vs 750mm mast - strong community preference for 820mm for versatility (dock, wing, wake, surf). Multiple experienced riders say 820 is their go-to."
+    ],
+    "product_recommendations": [
+      "85kg Gold Coast rider: Community recommends Surge 830 for wave riding (Sean Richardson, Top contributor)",
+      "65kg multi-discipline: Steven Fisher recommends Fireball for parawing/dock, Surge for prone surf"
+    ],
+    "dealer_mentions": [
+      "SurfFx (Gold Coast) mentioned as offering demo sessions for Surge lineup"
+    ]
+  }
+}

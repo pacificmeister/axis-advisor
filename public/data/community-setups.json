@@ -4,10 +4,61 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-23T01:00:00Z",
-    "total_riders": 120
+    "last_updated": "2026-03-23T06:19:00Z",
+    "total_riders": 123
   },
   "riders": [
+    {
+      "id": "setup_2026_03_23_001",
+      "source": "FB post axisfoilriders 2026-03-23",
+      "date": "2026-03-23",
+      "rider_name": "Darren Zielonka",
+      "experience": "intermediate-advanced (Rising contributor)",
+      "disciplines": [
+        "wakefoil",
+        "wingfoil",
+        "dockstart"
+      ],
+      "equipment_mentioned": {
+        "mast": "Power Carbon 820mm (planning)",
+        "notes": "Asking 820 vs 750 for versatility. Community strongly recommends 820."
+      }
+    },
+    {
+      "id": "setup_2026_03_23_002",
+      "source": "FB comment axisfoilriders 2026-03-23",
+      "date": "2026-03-23",
+      "rider_name": "Reuben Williams",
+      "experience": "advanced (Rising contributor)",
+      "disciplines": [
+        "wingfoil",
+        "surf",
+        "dockstart",
+        "tow"
+      ],
+      "equipment_mentioned": {
+        "mast": "Power Carbon 820mm (82cm sweet spot)",
+        "notes": "82cm sweet spot for wing, surf, dock, tow. Extra length = breach prevention in rough seas/waves."
+      }
+    },
+    {
+      "id": "setup_2026_03_23_003",
+      "source": "FB comment axisfoilriders 2026-03-23",
+      "date": "2026-03-23",
+      "rider_name": "Sean Richardson",
+      "weight": "85kg",
+      "location": "Gold Coast, Australia",
+      "experience": "expert (Top contributor)",
+      "disciplines": [
+        "wingfoil",
+        "wave"
+      ],
+      "equipment_mentioned": {
+        "front_wing": "Surge 830 (primary, Gold Coast Alley)",
+        "previous": "Spitfire 780 (previous daily driver)",
+        "notes": "Has most Surge sizes. Recommends 830 for 85kg Gold Coast wave riding. SurfFx has demos."
+      }
+    },
     {
       "id": "setup_2026_03_22_001",
       "source": "FB post axisfoilriders 2026-03-22",
