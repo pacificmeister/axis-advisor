@@ -619,7 +619,7 @@
       <div class="subtitle">AXIS Foil Riders Community Survey</div>
       <div class="header-stats">
         <div class="header-stat">
-          <div class="val">138</div>
+          <div class="val">188</div>
           <div class="lbl">Responses</div>
         </div>
         <div class="header-stat">
@@ -662,7 +662,7 @@
       <div class="section-number">1</div>
       <div>
         <div class="section-title">Executive Summary</div>
-        <div class="section-sub">138 riders from 129 locations across 6 continents</div>
+        <div class="section-sub">188 riders from 150+ locations across 6 continents</div>
       </div>
     </div>
     <div class="section-divider"></div>
@@ -670,7 +670,7 @@
     <div class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-icon">🏄</div>
-        <div class="kpi-value">138</div>
+        <div class="kpi-value">188</div>
         <div class="kpi-label">Survey Responses</div>
         <div class="kpi-sub">~1.3% of 10,600-member Facebook group</div>
       </div>
@@ -803,7 +803,7 @@
     <div class="section-divider"></div>
 
     <div class="card">
-      <div class="card-title">% of 138 respondents who ride each discipline</div>
+      <div class="card-title">% of 188 respondents who ride each discipline</div>
       <div class="chart-wrap" style="height: 400px;">
         <canvas id="disciplineChart"></canvas>
       </div>
@@ -1162,7 +1162,7 @@
   <div class="footer-inner">
     <div class="footer-brand">AXIS Foil</div>
     <p>
-      Based on 138 anonymous responses from AXIS Foil Riders, March 2026<br>
+      Based on 188 anonymous responses from AXIS Foil Riders, March 2026<br>
       Compiled from the AXIS Foil Riders Facebook Group (10,500+ members) · Survey period: March 2026<br>
       Presented by Evan · Data represents real-world setup choices from active foil riders worldwide
     </p>
@@ -1233,7 +1233,7 @@ new Chart(document.getElementById('weightChart'), {
   data: {
     labels: ['75–85 kg', '65–75 kg', '85–95 kg', '95–105 kg', '<65 kg', '>105 kg'],
     datasets: [{
-      data: [49, 37, 24, 13, 10, 5],
+      data: [71, 48, 33, 16, 13, 7],
       backgroundColor: [RED, '#f59e0b', '#3b82f6', '#8b5cf6', '#10b981', '#06b6d4'],
       borderWidth: 2,
       borderColor: '#1a1a1f',
@@ -1261,7 +1261,7 @@ new Chart(document.getElementById('weightChart'), {
         borderColor: '#2a2a32',
         borderWidth: 1,
         callbacks: {
-          label: ctx => ` ${ctx.label}: ${ctx.raw} riders (${Math.round(ctx.raw/138*100)}%)`
+          label: ctx => ` ${ctx.label}: ${ctx.raw} riders (${Math.round(ctx.raw/188*100)}%)`
         }
       }
     }
@@ -1274,7 +1274,7 @@ new Chart(document.getElementById('expChart'), {
   data: {
     labels: ['4+ years', '2–4 years', '1–2 years', '<1 year'],
     datasets: [{
-      data: [83, 41, 12, 2],
+      data: [106, 60, 18, 3],
       backgroundColor: [RED, 'rgba(230,41,41,0.7)', 'rgba(230,41,41,0.45)', 'rgba(230,41,41,0.2)'],
       borderRadius: 5,
       borderSkipped: false
@@ -1308,9 +1308,9 @@ new Chart(document.getElementById('expChart'), {
 new Chart(document.getElementById('ageChart'), {
   type: 'bar',
   data: {
-    labels: ['46–55', '36–45', '25–35', 'Under 25', '56–65'],
+    labels: ['46–55', '56–65', '36–45', '25–35', '65+', 'Under 25'],
     datasets: [{
-      data: [9, 8, 3, 1, 1],
+      data: [52, 32, 30, 18, 6, 4],
       backgroundColor: [RED, 'rgba(230,41,41,0.75)', 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.3)', 'rgba(230,41,41,0.2)'],
       borderRadius: 5,
       borderSkipped: false
@@ -1331,7 +1331,7 @@ const discLabels = [
   'Prone Foiling', 'Dock Start', 'Pump/Flat Water', 'Foil Assist',
   'Wake Foiling', 'Tow-In Foiling', 'Kite Foiling', 'Efoil'
 ];
-const discData = [98, 64, 39, 53, 51, 48, 33, 32, 23, 22, 14, 3];
+const discData = [137, 73, 45, 62, 61, 57, 40, 45, 30, 25, 20, 6];
 new Chart(document.getElementById('disciplineChart'), {
   type: 'bar',
   data: {
@@ -1339,7 +1339,7 @@ new Chart(document.getElementById('disciplineChart'), {
     datasets: [{
       data: discData,
       backgroundColor: discData.map((v, i) => {
-        const intensity = 0.3 + (v / 98) * 0.7;
+        const intensity = 0.3 + (v / 137) * 0.7;
         return `rgba(230,41,41,${intensity})`;
       }),
       borderRadius: 5,
@@ -1420,68 +1420,68 @@ function makeDisciplineChart(id, labels, values) {
 
 // ── 5. WING FOILING ────────────────────────────────────────────────────
 makeDisciplineChart('wingChart',
-  ['Surge 890', 'Surge family', 'Art V2 family', 'Spitfire 780', 'Fireball 1070', 'Spitfire 1100'],
-  [8, 12, 6, 4, 4, 3]
+  ['Surge 890', 'Fireball 1070', 'Art V2 999', 'Spitfire 960', 'Surge 950', 'Surge 830'],
+  [7, 5, 4, 4, 4, 3]
 );
 
 // ── 6. DOWNWIND SUP ────────────────────────────────────────────────────
 makeDisciplineChart('dwChart',
-  ['Tempo family', 'Fireball 1070', 'Fireball 1250', 'Fireball 1160', 'Surge 1010', 'Tempo 960'],
-  [8, 5, 3, 3, 3, 4]
+  ['Fireball 1070', 'Fireball 1250', 'Tempo 960', 'Fireball 1160', 'Fireball 1000', 'Tempo 920'],
+  [6, 5, 4, 3, 2, 2]
 );
 
 // ── 7. PRONE ──────────────────────────────────────────────────────────
 makeDisciplineChart('proneChart',
-  ['Surge 890', 'Surge 830', 'Surge 950', 'Surge 1010', 'Spitfire 840', 'Art 899'],
-  [5, 3, 3, 2, 2, 1]
+  ['Surge 890', 'Surge 950', 'Surge 830', 'Surge 1010', 'Spitfire 840', 'Art 899'],
+  [8, 4, 3, 2, 2, 2]
 );
 
 // ── 8. PARAWING ────────────────────────────────────────────────────────
 makeDisciplineChart('paraChart',
-  ['Fireball 1070', 'Surge 890', 'Surge 1010', 'Fireball 1160', 'Surge 830', 'Fireball 1250'],
-  [4, 3, 3, 2, 2, 2]
+  ['Fireball 1070', 'Surge 830', 'Surge 1010', 'Surge 890', 'Fireball 1160', 'Fireball 1000'],
+  [6, 5, 7, 4, 2, 1]
 );
 
 // ── 9. TOW-IN ─────────────────────────────────────────────────────────
 makeDisciplineChart('towChart',
-  ['Surge 780', 'Surge 830', 'Spitfire 780', 'Spitfire 840', 'Surge 720'],
-  [3, 3, 2, 1, 1]
+  ['Surge 780', 'Surge 830', 'Spitfire 780', 'Spitfire 670', 'Spitfire 840'],
+  [2, 1, 1, 1, 1]
 );
 
 // ── 10. DOCK START ────────────────────────────────────────────────────
 makeDisciplineChart('dockChart',
-  ['PNG 1150', 'Fireball 1350', 'Fireball 1250', 'PNG V2 1300', 'Spitfire 1180', 'Surge 1010'],
-  [3, 3, 2, 2, 2, 1]
+  ['Fireball 1350', 'PNG 1300', 'Fireball 1250', 'PNG 1150', 'Fireball 1070', 'AP 1201'],
+  [5, 5, 3, 3, 1, 1]
 );
 
 // ── SUP NON-DW ────────────────────────────────────────────────────────
 makeDisciplineChart('supChart',
-  ['Surge 1010', 'Surge 890', 'Fireball 1160', 'Fireball 1250', 'Art 999'],
-  [3, 2, 2, 2, 1]
+  ['Surge 1010', 'Surge 830', 'Fireball 1070', 'Fireball 1250', 'Surge 890'],
+  [7, 3, 3, 3, 2]
 );
 
 // ── WAKE FOILING ──────────────────────────────────────────────────────
 makeDisciplineChart('wakeChart',
-  ['Surge 1010/950', 'Spitfire 960', 'PNG 910b', 'HPS 980', 'Fireball 1070', 'Surge 830'],
-  [2, 2, 1, 1, 1, 1]
+  ['Spitfire 960', 'Fireball 1070', 'Fireball 1160', 'PNG 910b', 'Surge 1010'],
+  [2, 2, 2, 1, 1]
 );
 
 // ── FOIL ASSIST ───────────────────────────────────────────────────────
 makeDisciplineChart('foilAssistChart',
-  ['Surge 1010/950', 'Surge 890', 'Fireball 1070', 'Art V2 999', 'Surge 740', 'Spitfire 840'],
-  [3, 2, 2, 1, 1, 1]
+  ['Surge 950', 'Surge 830', 'Surge 740', 'Spitfire 960', 'Surge 1010'],
+  [3, 2, 2, 2, 2]
 );
 
 // ── KITE FOILING ──────────────────────────────────────────────────────
 makeDisciplineChart('kiteChart',
-  ['Surge 830', 'Surge 780/890', 'Art Pro 1001', 'Art V2 819', 'HPS 650/700'],
+  ['Spitfire 780', 'Surge 830', 'Art Pro 1001', 'Art V2 819', 'HPS 650/700'],
   [2, 2, 1, 1, 1]
 );
 
 // ── 11. PUMP ──────────────────────────────────────────────────────────
 makeDisciplineChart('pumpChart',
-  ['Fireball 1350', 'Fireball 1250', 'Fireball 1500', 'Fireball 1750', 'PNG V2 1300', 'Fireball 2100'],
-  [4, 3, 3, 2, 2, 1]
+  ['Fireball 1350', 'Fireball 1500', 'Fireball 1250', 'Fireball 1750', 'PNG V2 1300', 'Fireball 2100'],
+  [4, 3, 2, 1, 1, 1]
 );
 
 // ── 12. SURGE COMPARISON CHART ────────────────────────────────────────
@@ -1492,7 +1492,7 @@ new Chart(document.getElementById('surgeChart'), {
     datasets: [
       {
         label: 'Surge',
-        data: [14, 12, 6, 5, 5, 3],
+        data: [17, 16, 7, 16, 12, 3],
         backgroundColor: SURGE + 'cc',
         borderColor: SURGE,
         borderWidth: 1,
@@ -1500,7 +1500,7 @@ new Chart(document.getElementById('surgeChart'), {
       },
       {
         label: 'Fireball',
-        data: [2, 3, 0, 6, 3, 8],
+        data: [2, 6, 0, 8, 6, 16],
         backgroundColor: FIREBALL + 'aa',
         borderColor: FIREBALL,
         borderWidth: 1,
@@ -1508,7 +1508,7 @@ new Chart(document.getElementById('surgeChart'), {
       },
       {
         label: 'ART / Spitfire',
-        data: [3, 8, 3, 1, 3, 2],
+        data: [4, 11, 4, 2, 4, 3],
         backgroundColor: ART + 'aa',
         borderColor: ART,
         borderWidth: 1,
@@ -1516,7 +1516,7 @@ new Chart(document.getElementById('surgeChart'), {
       },
       {
         label: 'Tempo',
-        data: [0, 0, 0, 2, 0, 8],
+        data: [0, 0, 0, 3, 0, 10],
         backgroundColor: TEMPO + 'aa',
         borderColor: TEMPO,
         borderWidth: 1,
