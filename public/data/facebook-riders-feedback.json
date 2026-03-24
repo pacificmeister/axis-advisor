@@ -13,8 +13,8 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T01:00:00Z",
-    "total_posts": 398
+    "last_updated": "2026-03-24T13:05:00Z",
+    "total_posts": 403
   },
   "posts": [
     {
@@ -24,17 +24,29 @@
       "date": "2026-03-23",
       "timestamp": "2026-03-23T08:00:00-07:00",
       "rider": "Vangelis Evan Mavridoglou",
-      "rider_badges": ["Group expert", "Rising contributor"],
+      "rider_badges": [
+        "Group expert",
+        "Rising contributor"
+      ],
       "discipline": "community_survey",
       "text": "We surveyed nearly 150 AXIS riders across 15+ countries. Results: Top Disciplines: 1. Wing Foiling 2. Downwind SUP 3. Parawing 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge, Fireball, Spitfire. Top Regions: US West Coast, NZ/Australia, Europe.",
-      "foils_mentioned": ["Surge", "Fireball", "Spitfire"],
+      "foils_mentioned": [
+        "Surge",
+        "Fireball",
+        "Spitfire"
+      ],
       "reactions_group": 17,
       "reactions_official": 7,
       "comments_group": 1,
       "survey_link": "https://docs.google.com/forms/d/e/1FAIpQLSeAaOSDn2dJu0aKkHARBbVfOw3sGgfT2-xyrv4e9PzaZ0BVDg/viewform",
       "sentiment": "positive",
       "notable_quote": "Turns off the back foot like surfing. The Surge is a game changer.",
-      "discipline_rankings": {"1": "Wing Foiling", "2": "Downwind SUP", "3": "Parawing", "4": "Prone"},
+      "discipline_rankings": {
+        "1": "Wing Foiling",
+        "2": "Downwind SUP",
+        "3": "Parawing",
+        "4": "Prone"
+      },
       "rider_weight_range": "65-85 kg"
     },
     {
@@ -8180,6 +8192,84 @@
           "note": "Unanswered in visible feed - 6 more replies to view"
         }
       ]
+    },
+    {
+      "id": "2026-03-24-dan-f-jim-swan-river",
+      "date": "2026-03-24",
+      "author": "Dan F Jim",
+      "text": "Making the most of the wind season here in WA. Loving wing foiling in the Swan River! #Wingfoiling #swanriver #australia #axis #duotone",
+      "gear": [
+        "Axis (wing)",
+        "Duotone"
+      ],
+      "discipline": "wingfoil",
+      "location": "Swan River, WA Australia",
+      "sentiment": "positive",
+      "reactions": 0,
+      "comments": 0
+    },
+    {
+      "id": "2026-03-24-niels-hps930-artv2",
+      "date": "2026-03-24",
+      "author": "Niels van der Kaaij",
+      "text": "Shout out to HPS 930 with 380 speed stab. Amazing how little is needed with 5.0 wing and 92L board at 91kg in full wintersuit. Comparing to ART V2 879 - HPS feels like a full [foil].",
+      "gear": [
+        "HPS 930",
+        "380 speed stab",
+        "ART V2 879"
+      ],
+      "rider_weight_kg": 91,
+      "board_volume_L": 92,
+      "wing_size": "5.0",
+      "conditions": "11-17 knots, 8\u00b0C water",
+      "discipline": "wingfoil",
+      "sentiment": "positive",
+      "reactions": 10,
+      "comments": 4,
+      "key_insight": "HPS 930 still impressive vs new ART V2 879; Spitfires noted as similar easy feeling (Ian Sloan)"
+    },
+    {
+      "id": "2026-03-24-paul-schnetker-surge-advice",
+      "date": "2026-03-24",
+      "author": "Paul Schnetker",
+      "text": "Looking to buy Surge or Spitfire on Gold Coast, 85kg, intermediate efoil rider starting waves. Sean Richardson (also 85kg, GC) recommends Surge 830.",
+      "gear": [
+        "Surge 830",
+        "Spitfire 1100"
+      ],
+      "rider_weight_kg": 85,
+      "location": "Gold Coast, Australia",
+      "discipline": "wave foil / efoil transition",
+      "sentiment": "question",
+      "reactions": 2,
+      "comments": 6,
+      "community_advice": "Surge 830 recommended for 85kg wave/wing rider at Gold Coast; SurfFx has demos"
+    },
+    {
+      "id": "2026-03-24-mast-size-820-vs-750",
+      "date": "2026-03-24",
+      "author": "Darren Zielonka",
+      "text": "Does anyone prefer the 820mm over the 750mm for behind the boat or dock start? Looking for one carbon mast for wakefoil/wingfoil/dock start.",
+      "gear": [
+        "820mm carbon mast",
+        "750mm carbon mast"
+      ],
+      "discipline": "dock start / wake foil / wingfoil",
+      "sentiment": "question",
+      "reactions": 3,
+      "comments": 8,
+      "community_advice": "820mm preferred over 750mm - extra length helps breach prevention in rough seas (Reuben Williams); Perry Hughes uses 820 exclusively"
+    },
+    {
+      "id": "2026-03-24-survey-axis-setups",
+      "date": "2026-03-24",
+      "author": "Vangelis Evan Mavridoglou",
+      "text": "AXIS surveyed nearly 150 riders across 15+ countries. Results coming. Survey still open via docs.google.com/What's Your Favorite AXIS Setup?",
+      "is_official_content": true,
+      "source_also": "AXIS Foils official page (22h ago)",
+      "reactions": 17,
+      "comments": 1,
+      "sentiment": "positive/community-building"
     }
   ]
 }

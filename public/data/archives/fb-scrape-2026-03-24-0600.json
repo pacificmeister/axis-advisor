@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "scraped_at": "2026-03-24T13:05:00Z",
+    "run_label": "6AM Pacific automated scan",
+    "scraper": "Herbert AI (OpenClaw browser)",
+    "account": "alexfoiler611@gmail.com"
+  },
+  "riders_group": {
+    "name": "AXIS Foil Riders",
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "members": 10600,
+    "posts_today": 3,
+    "posts_last_month": 91,
+    "sort": "Newest first (chronological)",
+    "posts_last_12h": [
+      {
+        "id": "post_dan_f_jim_2h",
+        "author": "Dan F Jim",
+        "posted_ago": "2 hours ago",
+        "text": "Making the most of the wind season here in WA. Now looking for some storm winds In the next few months! Loving wing foiling in the sawn river!\n\nCaption: Catching some air on the Swan River with my trusty Axis and Duotone gear! #Wingfoiling #swanriver #australia #axis #duotone",
+        "photo": "Instagram cross-post, wing foiling on Swan River, WA Australia",
+        "discipline": "wing foiling",
+        "gear_mentioned": ["Axis (unspecified wing)", "Duotone gear"],
+        "location": "Swan River, Western Australia",
+        "sentiment": "positive",
+        "reactions": 0,
+        "comments": 0
+      },
+      {
+        "id": "post_jon_eddy_6h",
+        "author": "Jon Eddy",
+        "posted_ago": "6 hours ago",
+        "text": "They latest race, surf and dock Axis gear with international team rider Kai Thompson",
+        "linked_content": {
+          "source": "SURF FX (surffxstore)",
+          "title": "What's new at Axis with Kai Thompson",
+          "url": "https://www.youtube.com/watch?v=jOgkjAQkHpo",
+          "original_post_time": "8 hours ago (SURF FX page)"
+        },
+        "discipline": "general / product promo",
+        "gear_mentioned": ["Kai Thompson", "race gear", "surf gear", "dock gear"],
+        "sentiment": "positive/promotional",
+        "reactions": 3,
+        "comments": 0
+      },
+      {
+        "id": "post_vangelis_survey",
+        "author": "Vangelis Evan Mavridoglou",
+        "role": "Group expert, Rising contributor",
+        "posted_ago": "estimated ~10h ago (3rd newest post today)",
+        "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change.\nThe results are in, and some of them surprised us.\nWant your setup counted? Takes 3 minutes.",
+        "linked_content": {
+          "source": "docs.google.com",
+          "title": "What's Your Favorite AXIS Setup?"
+        },
+        "note": "Same content also posted by AXIS Foils official page 22h ago",
+        "reactions": 17,
+        "comments": 1,
+        "discipline": "community survey",
+        "sentiment": "positive/engaging"
+      }
+    ],
+    "posts_last_24h_older": [
+      {
+        "author": "Dmitry Evseev",
+        "posted_ago": "1 day",
+        "text": "Comparison of Axis foils. Which one is which?\nAnswer options (pls answer in comment):\nTempo 1090 | Fireball 1070",
+        "key_comments": [
+          {
+            "author": "Maxime Meyer",
+            "text": "Fun game! I would say: Fireball 1070 on the left, Tempo 1090 on the right. Same wingspan more or less, but Tempo is less draggy, which leads to less BPM overall.",
+            "likes": 2
+          }
+        ],
+        "reactions": 11,
+        "comments": 3,
+        "foils_mentioned": ["Tempo 1090", "Fireball 1070"],
+        "sentiment": "neutral/educational"
+      },
+      {
+        "author": "Darren Zielonka",
+        "role": "Rising contributor",
+        "posted_ago": "1 day",
+        "text": "Mast Size Question\nDoes anyone prefer the 820mm over the 750mm for behind the boat or dock start? Pro?/cons?\nI'm looking for a power carbon mast and thinking 820mm to wakefoil, wingfoil, and dock start. I only want to buy one haha.",
+        "key_comments": [
+          {
+            "author": "Perry Hughes",
+            "text": "I love my 820 for dock and wing, never use my old 750 anymore."
+          },
+          {
+            "author": "Reuben Williams",
+            "role": "Rising contributor",
+            "text": "If you Wingfoil in rough seas or waves, the extra length is always useful for breach prevention, 82 is my sweet spot for wing, surf, dock, tow."
+          }
+        ],
+        "reactions": 3,
+        "comments": 8,
+        "gear_mentioned": ["820mm carbon mast", "750mm carbon mast"],
+        "disciplines": ["wake foil", "wing foil", "dock start"],
+        "sentiment": "question/advice-seeking"
+      },
+      {
+        "author": "Paul Schnetker",
+        "posted_ago": "1 day",
+        "text": "I am looking at buying a surge (or spitfire) on the Gold Coast Australia. I am 85kg, intermediate fliteboad L2 efoil rider (Axis wing adaptor) just starting to ride waves (rode 18 little rides last session). Any recommendations on size? Not sure how small I would enjoy and don't have funds for multiple wings.",
+        "rider_weight_kg": 85,
+        "location": "Gold Coast, Australia",
+        "skill_level": "intermediate",
+        "key_comments": [
+          {
+            "author": "Mark Madden",
+            "text": "I have a 1100 spit fire glides great on small waves I'm moving to armstrong so make me a stupid offer"
+          },
+          {
+            "author": "Sean Richardson",
+            "role": "Top contributor",
+            "text": "I'm 85kg live on the Gold Coast as well. I have most of the Surges. If it was just one - for me I'd go the 830 - ride mostly at the Alley, winging in waves. Check in with SurfFx - they have demos… take out the guesswork"
+          }
+        ],
+        "reactions": 2,
+        "comments": 6,
+        "foils_mentioned": ["Surge", "Spitfire 1100", "Surge 830"],
+        "discipline": "efoil / wave foiling",
+        "sentiment": "question/buying-advice"
+      },
+      {
+        "author": "Tom La Majorette",
+        "posted_ago": "1 day",
+        "text": "Hi, I'm looking for advice for a new front [See more]",
+        "rider_weight_kg": 65,
+        "key_comments": [
+          {
+            "author": "Sean Richardson",
+            "role": "Top contributor",
+            "text": "Robert Sellar dock starts the Surge I think - he might have some ideas. I wingfoil in waves and it's the Surge all the way. Have no fear of short chord, high aspect - these wings lift like no other. I wing in the 830 in 13-14knots"
+          },
+          {
+            "author": "Steven Fisher",
+            "role": "Top contributor",
+            "text": "Do you want one foil to do all those disciplines? I would say Fireball for Parawinging and Dock and a Surge for prone. Your tail matters too. Go with a Surf Skinny for the tail."
+          }
+        ],
+        "reactions": 2,
+        "comments": 17,
+        "foils_mentioned": ["Fireball", "Surge", "Surf Skinny tail"],
+        "disciplines": ["parawinging", "dock start", "prone"],
+        "sentiment": "question/buying-advice"
+      },
+      {
+        "author": "Niels van der Kaaij",
+        "posted_ago": "1 day",
+        "text": "Shout out to my old HPS 930 with the 380 speed stab.\nHave not used this combi for almost a year and just a few days ago we got thermal side off wind 11 to 17 knots. Very patchy and due to low sea water temp (8°c) priorotizing fast on foil over glide. Amazing to experience how little is needed with a 5.0 wing and 92 liter board with rider weight of 91 KG in full wintersuit. While I have been using my most recent purchase, the ART V2 879 the HPS feels like I am on a full...",
+        "rider_weight_kg": 91,
+        "gear_mentioned": ["HPS 930", "380 speed stab", "ART V2 879"],
+        "board": "2025 Cruzader Diamond Pro 5'10 x 20\"",
+        "wing": "5.0",
+        "board_liters": 92,
+        "key_comments": [
+          {
+            "author": "Ian Sloan",
+            "role": "Top contributor",
+            "text": "HPS 930 is a great foil. It was my go to for like 2 years. Spitfires have that same easy feeling."
+          }
+        ],
+        "reactions": 10,
+        "comments": 4,
+        "discipline": "wing foiling",
+        "sentiment": "positive/review"
+      }
+    ],
+    "scam_alerts": []
+  },
+  "official_page": {
+    "name": "AXIS Foils",
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": 6100,
+    "posts_last_24h": [
+      {
+        "author": "AXIS Foils",
+        "posted_ago": "22 hours ago",
+        "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. [See more]\ndocs.google.com - What's Your Favorite AXIS Setup?",
+        "reactions": 7,
+        "comments": 0,
+        "unanswered_questions": "No customer questions to answer",
+        "note": "Survey link - likely collecting data for product development"
+      }
+    ],
+    "recent_older_posts": [
+      {
+        "posted_ago": "~2 months",
+        "text": "AXIS Foils is at Baja California Sur, Mexico. When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wi...",
+        "reactions": 32,
+        "comments": 3,
+        "shares": 2,
+        "key_comments": [
+          {
+            "author": "Kyriakos Giakoumaros",
+            "text": "Wish i had this beauty when i was in Baja!"
+          },
+          {
+            "author": "Vangelis Evan Mavridoglou",
+            "text": "Kyriakos Giakoumaros Anything we can do to bring you back"
+          }
+        ]
+      },
+      {
+        "posted_ago": "~9 weeks",
+        "location": "Düsseldorf, Germany (boot Düsseldorf trade show)",
+        "posts": [
+          "TIME IS HAPPENING (Turnstile) - surf foil world tour at boot Düsseldorf pool - 26 reactions, 1.7K views",
+          "AXIS stand at @bootduesseldorf in 30 seconds - 41 reactions, 2.5K views",
+          "We've landed at @bootduesseldorf Germany and we brought the good Scheiße! - 64 reactions, 1 comment (Robert Sellar: 'Awesome')"
+        ]
+      }
+    ],
+    "unanswered_customer_questions": []
+  }
+}

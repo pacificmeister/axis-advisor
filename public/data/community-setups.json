@@ -5,7 +5,9 @@
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
-    "total_riders": 123
+    "total_riders": 123,
+    "lastUpdated": "2026-03-24T13:05:00Z",
+    "totalRiders": 126
   },
   "riders": [
     {
@@ -3752,6 +3754,54 @@
       },
       "conditions": "11-17 knots thermal, 8\u00b0c water",
       "notes": "HPS 930 easy/low stall speed vs ART V2 879 better glide. Comparing old vs new setup in light wind. Very detailed session report."
+    },
+    {
+      "id": "2026-03-24-niels-vdk-91kg",
+      "date": "2026-03-24",
+      "name": "Niels van der Kaaij",
+      "weight_kg": 91,
+      "board": "2025 Cruzader Diamond Pro 5'10 x 20\"",
+      "board_volume_L": 92,
+      "wings_used": [
+        "5.0"
+      ],
+      "foils": {
+        "front": [
+          "HPS 930",
+          "ART V2 879"
+        ],
+        "tail": [
+          "380 speed stab"
+        ]
+      },
+      "discipline": "wingfoil",
+      "conditions_noted": "11-17 knots, 8\u00b0C water",
+      "notes": "91kg in full wintersuit, HPS 930 still performs excellently vs newer ART V2"
+    },
+    {
+      "id": "2026-03-24-paul-schnetker-85kg",
+      "date": "2026-03-24",
+      "name": "Paul Schnetker",
+      "weight_kg": 85,
+      "location": "Gold Coast, Australia",
+      "foils": {
+        "efoil_adapter": "Axis wing adaptor on Fliteboard L2"
+      },
+      "considering": [
+        "Surge 830",
+        "Spitfire 1100"
+      ],
+      "discipline": "efoil/wave foil",
+      "skill_level": "intermediate",
+      "notes": "Just starting waves, 18 rides, transitioning from efoil to wave foil"
+    },
+    {
+      "id": "2026-03-24-reuben-williams-wing-surf",
+      "date": "2026-03-24",
+      "name": "Reuben Williams",
+      "role": "Rising contributor",
+      "mast": "820mm",
+      "notes": "820mm sweet spot for wing, surf, dock, tow in rough seas; extra length for breach prevention"
     }
   ],
   "aggregations": {
