@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 368,
+    "total_entries": 377,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-10T14:17:35.267144"
+    "last_updated": "2026-03-24T14:25:00Z"
   },
   "posts": [
     {
@@ -7445,6 +7445,144 @@
         "fuselage": "Short +60",
         "mast": "Integrated HM"
       }
+    },
+    {
+      "id": "surffx-kai-thompson-1",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson (80kg, AXIS team rider, DW racer): Tempo 1020 is go-to travel race wing, covers 10-30+ knots. 'Insanely overpowered at 30 and they handle it \u2014 no question in riding ability because they're so stiff.' Pairs with 360 T25 tail, 72cm UHM mast, Advance Plus Ultrashort fuse. Steps to 960 then 890 as wind increases.",
+      "foils_mentioned": [
+        "Tempo 1020",
+        "Tempo 960",
+        "Tempo 890"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "downwind_racing",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-2",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson: Adrian redesigned the entire fuselage system for Tempos \u2014 wing design didn't fit existing fuselages. Post-Hawaii switched from weave carbon exterior to unicarbon all-through, gaining 24% more stiffness over prototype.",
+      "foils_mentioned": [
+        "Tempo"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "product_development",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-3",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson (80kg): Surge 830 is daily driver for surf, winging, downwind, Foil Drive. 'I take it everywhere.' 80cm mast + Ultrashort fuse, pairs with 345 tail. Goes bigger rear wing for dock starts or cruisy surf.",
+      "foils_mentioned": [
+        "Surge 830"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "surf_wing_foildrive",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-4",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson (80kg): Used Surge 950 for dock start comp at Boot D\u00fcsseldorf \u2014 beat riders with dedicated starting foils. 'Made a few people think differently.' 830+950 covers everything including dock starts.",
+      "foils_mentioned": [
+        "Surge 950",
+        "Surge 830"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "dock_starting",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-5",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson: Surge has forward drive from Fireball DNA. Riders from ART V2 surprised they don't need as big a Surge as expected. Forward drive is #1 unexpected selling point, not just roll/turn.",
+      "foils_mentioned": [
+        "Surge",
+        "ART V2",
+        "Fireball"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "transition_advice",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-6",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson: Surge on Foil Drive is awesome \u2014 really nice efficient glide cruising without drag. 'Way more freedom' than typical surf setups. Pairs well with all foil assist stuff.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "foil_drive",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-7",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson (80kg): Fireball 1500 for pump/flat water/dock starts. Pairs with 30 skinny tail, Advance Plus Ultrashort fuse. At 80kg doesn't need fatty mast system.",
+      "foils_mentioned": [
+        "Fireball 1500"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "pump_flatwater",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-8",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson: Fatty mast = 95mm profile mast cut down, fatter from base all through. MUST pair with fatty fuselage. For heavier riders on Fireballs. Nicolas Iten did ~5 hours / ~70km on Fireball 1750 around a lake.",
+      "foils_mentioned": [
+        "Fireball 1750"
+      ],
+      "rider_weight": "80kg",
+      "use_case": "endurance_pump",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
+    },
+    {
+      "id": "surffx-kai-thompson-9",
+      "source": "youtube_interview",
+      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "rider": "Kai Thompson",
+      "text": "Kai Thompson: Tahitian Foil Fest coming May 8-17 \u2014 surf foiling, downwind, dock starting, wake foiling. Training for all Hawaii races.",
+      "foils_mentioned": [],
+      "rider_weight": "80kg",
+      "use_case": "events",
+      "sentiment": "positive",
+      "type": "expert_review",
+      "date": "2026-03-24"
     }
   ]
 }
