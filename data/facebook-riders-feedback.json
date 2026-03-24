@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 399,
+    "total_entries": 402,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:02:00Z"
+    "last_updated": "2026-03-24T08:04:55Z"
   },
   "posts": [
     {
@@ -7986,6 +7986,51 @@
       "type": "expert",
       "date": "2025-06-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=k7UpV9s50Zs"
+    },
+    {
+      "id": "post_86",
+      "source": "youtube_olivia_athlete",
+      "source_label": "Olivia Piana - From Athlete to AXIS Role (Boot Düsseldorf, Feb 2025)",
+      "rider": "Olivia Piana",
+      "text": "New job at AXIS: developing AXIS in Europe. First time at Boot Düsseldorf show for AXIS (last time was 10 years ago). Challenge: 60+ front wings is a lot to explain to customers. Pump foiling growing in landlocked European markets — accessible for kids, no wind dependency.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "market development",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2025-02-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=lo79LfQm_W8"
+    },
+    {
+      "id": "post_87",
+      "source": "youtube_olivia_maliko",
+      "source_label": "Olivia Piana DW Foiling on Maui (Jul 2025)",
+      "rider": "Olivia Piana",
+      "text": "Raced Maliko on the 'new 650 axis foil' (Tempo 1020, 650cm² area). Was a bit too big for the bumps — average speed slightly lower. Chosen for endurance/pumping through the flat section at the end. The Fireball is the top-demand AXIS product in Europe right now.",
+      "foils_mentioned": [
+        "Tempo 1020",
+        "Fireball"
+      ],
+      "rider_weight": null,
+      "use_case": "downwind racing",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2025-07-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=4kxeJc-kQVg"
+    },
+    {
+      "id": "post_88",
+      "source": "youtube_olivia_maliko",
+      "source_label": "Olivia Piana DW Foiling on Maui (Jul 2025)",
+      "rider": "Olivia Piana",
+      "text": "On AXIS European market: Axis is making the best gear. It's a niche market for people who want the best stuff. We need to give a lot of attention to passionate riders who want this kind of gear. Adrian is able to make foils that work from super light wind to strong conditions — the range of conditions is incredible.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "general",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "date": "2025-07-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=4kxeJc-kQVg"
     }
   ]
 }

@@ -13,9 +13,10 @@
       "youtube-batch1-adrian-roper-2025",
       "youtube-batch2-reviews-comparisons-2025-2026",
       "youtube-batch3-competitive-intel-foildrive",
-      "youtube-batch4-team-riders-2023-2025"
+      "youtube-batch4-team-riders-2023-2025",
+      "youtube-batch5-olivia-piana-2025"
     ],
-    "last_updated": "2026-03-24T08:02:00Z"
+    "last_updated": "2026-03-24T08:04:55Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -602,7 +603,8 @@
         "Tempo construction: Uni-direction carbon (no woven) on outside gives 25% more stiffness. Led to discovery for further development.",
         "Kiwi mast (new downwind-specific mast) in development — only prototypes exist as of Nov 2025. Not yet released.",
         "Foil Drive pocket board (AWSI 2025): Covered trench, fiberglass around battery pocket for signal transparency. Battery slides in, locked with 2 bolts. Very clean, low drag profile.",
-        "Tempo key reason for new fuselage (Adrian AWSI 2025): 16 aspect ratio wings are too thin for any existing fuselage. Titanium grub-screw expansion plate system creates rigid joint."
+        "Tempo key reason for new fuselage (Adrian AWSI 2025): 16 aspect ratio wings are too thin for any existing fuselage. Titanium grub-screw expansion plate system creates rigid joint.",
+        "Olivia Piana confirmed racing Tempo 1020 (650cm² area) at 2025 Maliko Downwind race. Noted it was 'a bit too big for bumps' — average speed lower. But chosen for endurance/flat sections at end."
       ]
     },
     "Surge": {
@@ -1242,6 +1244,40 @@
         "Luke's Surge 890 surfs harder than his old Spitfire 780 and pumps 10x longer",
         "Made finals at Croisic dock start with Surge 1010 (alongside Gray Morris and Kai Thompson, all ~100kg)"
       ]
+    },
+    "Olivia Piana": {
+      "weight_kg": null,
+      "location": "Portugal / Europe",
+      "role": "AXIS Europe Development, Former World Record DW holder",
+      "disciplines": [
+        "downwind SUP foiling",
+        "wave foiling",
+        "winging",
+        "wing foiling"
+      ],
+      "background": "10 years elite SUP racing. Switched post-COVID to winging → SUP foil → DW foiling. Holds/held M2M women's record.",
+      "known_setups": {
+        "maliko_race_2025": "Tempo 1020 (650cm² area) — confirmed in Jul 2025 Maliko race video",
+        "preferred": "Smaller foils for bumpy conditions; bigger (Tempo 1020) for flat sections/endurance"
+      },
+      "key_facts": [
+        "First employee in AXIS Europe development role (as of early 2025)",
+        "One of very few women in foiling industry leadership",
+        "Reports to Evan and Adrian at AXIS",
+        "Fireball is the top-selling AXIS product in Europe per her Jul 2025 report",
+        "Has done Maliko multiple times — prefers bumpy over flat conditions",
+        "Described AXIS as 'one of the brands that makes the best gear'",
+        "Friends and races with Frank Maffei, Thiago, Nick at Maliko"
+      ]
+    }
+  },
+  "market_intel": {
+    "europe_2025": {
+      "source": "Olivia Piana, AXIS Europe - Jul 2025 (Maliko)",
+      "top_demand": "Fireball series — biggest demand across Europe",
+      "notes": "AXIS expanding in Europe — lots of work needed for brand awareness. 60+ front wings is confusing for customers.",
+      "pump_foiling": "Growing in Europe especially landlocked regions (Germany/Switzerland/lakes). Pump foiling seen as accessibility play for kids and non-coastal riders.",
+      "new_products": "Olivia teased 'incredible new stuff coming' in Jul 2025. Likely Surge range (confirmed Nov 2025)."
     }
   }
 }
