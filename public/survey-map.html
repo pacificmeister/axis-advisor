@@ -42,15 +42,15 @@
     bottom: 30px;
     left: 10px;
     z-index: 1000;
-    background: rgba(15,15,17,0.92);
-    border: 1px solid #2a2a32;
+    background: rgba(255,255,255,0.92);
+    border: 1px solid #ddd;
     border-radius: 10px;
     padding: 14px 18px;
     font-size: 12px;
     backdrop-filter: blur(10px);
   }
   .region-legend h3 { font-size: 13px; margin-bottom: 8px; color: #e62929; }
-  .region-legend .item { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+  .region-legend .item { display: flex; align-items: center; gap: 8px; margin: 4px 0; color: #333; }
   .region-legend .dot { width: 10px; height: 10px; border-radius: 50%; }
 </style>
 </head>
@@ -83,9 +83,13 @@ const map = L.map('map', {
   scrollWheelZoom: true
 });
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CARTO',
   maxZoom: 19
+}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager_only_labels/{z}/{x}/{y}{r}.png', {
+  maxZoom: 19,
+  opacity: 0.6
 }).addTo(map);
 
 function getColor(lat, lng) {
