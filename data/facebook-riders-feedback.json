@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 408,
+    "total_entries": 410,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:15:15Z"
+    "last_updated": "2026-03-24T08:26:51Z"
   },
   "posts": [
     {
@@ -8150,6 +8150,39 @@
       },
       "date": "2024-12-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=TXKNOdugD20"
+    },
+    {
+      "id": "post_95",
+      "source": "youtube_yvon_pngv2",
+      "source_label": "Yvon Labarthe - PNG V2 1200 & 1400 Review (French, Apr 2025)",
+      "rider": "Yvon Labarthe",
+      "text": "PNG V2 1200 (120cm span): Perfect for complete beginners 85-120kg. Uses BLACK fuselage. Very beginner, lots of lift, very maneuverable. If under 85kg with experience → PNG V2 1300 is better. Heavier riders (95-100kg+) make it faster = more fun.",
+      "foils_mentioned": [
+        "PNG V2 1200"
+      ],
+      "rider_weight": 75,
+      "use_case": "beginner dock start, light wind wing",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2025-04-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=AqnKQR3WjYo"
+    },
+    {
+      "id": "post_96",
+      "source": "youtube_yvon_pngv2",
+      "source_label": "Yvon Labarthe - PNG V2 1200 & 1400 Review (French, Apr 2025)",
+      "rider": "Yvon Labarthe",
+      "text": "PNG V2 1400 — huge surprise! (140cm span, cruises 13.8-13.9 km/h). With Fireball 1350 in winter I last 3 minutes. With the 1400 → 7-8 minutes below 160 BPM. Recovers the ease-of-use from PNG V1 1300 that PNG V2 1300 lost. Patrick at 112kg gets 15-16 km/h on it.",
+      "foils_mentioned": [
+        "PNG V2 1400",
+        "Fireball 1350"
+      ],
+      "rider_weight": 75,
+      "use_case": "pump foiling, winter sessions, long distance",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "date": "2025-04-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=AqnKQR3WjYo"
     }
   ]
 }

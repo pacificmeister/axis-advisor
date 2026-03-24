@@ -16,9 +16,10 @@
       "youtube-batch4-team-riders-2023-2025",
       "youtube-batch5-olivia-piana-2025",
       "youtube-batch6-frank-maffei-dw-2024",
-      "youtube-batch7-french-videos-2024-2025"
+      "youtube-batch7-french-videos-2024-2025",
+      "youtube-batch7-yvon-pngv2-french-2025"
     ],
-    "last_updated": "2026-03-24T08:15:15Z"
+    "last_updated": "2026-03-24T08:26:51Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -62,6 +63,11 @@
         "wrong": "Kiwi mast available to buy",
         "correct": "Kiwi downwind mast is in prototype phase only — not released (as of Nov 2025)",
         "note": "Adrian Roper mentioned it exists but they don't release products until totally happy."
+      },
+      {
+        "wrong": "PNG V2 1200 on Red fuselage",
+        "correct": "PNG V2 1200 uses BLACK fuselage (unlike original PNG which used Red)",
+        "note": "Yvon Labarthe confirmed in Apr 2025 review. Important change from PNG V1 range."
       }
     ]
   },
@@ -767,9 +773,11 @@
       "fuselage": "Black Series (unlike original PNG which uses Red)",
       "models": {
         "PNG V2 1200": {
-          "highlight": "Most forgiving V2 option",
-          "notes": "Aspect ratio 8. Easy, forgiving, dock start friendly. Great for beginners and heavy riders.",
-          "rider_feedback": "Dominic Hoskins (80kg): Great upgrade on PNG 1150. Easier to dock start, more forgiving in every aspect."
+          "highlight": "Entry-level for heavy beginners (85-120kg)",
+          "notes": "Yvon Labarthe (75kg): For complete beginners >85kg up to 120kg. Goes on BLACK fuselage (unlike original PNG). 120cm span, very maneuverable. Lots of lift at low speed, not fast. Heavier riders (95-100kg+) make it go faster. If <85kg with experience → PNG V2 1300 is better.",
+          "weight_range": "85-120kg beginners primarily",
+          "fuselage": "Black Series (NOT Red!)",
+          "rider_feedback": "Yvon (75kg): Tried it in small waves — turns very nicely. Can do some DW. Perfect beginner wing for heavier riders."
         },
         "PNG V2 1300": {
           "highlight": "Mark Shinn's 'first choice, session saver'",
@@ -779,9 +787,10 @@
           "rider_feedback": "Mark Shinn: 'V2 feels like a much smaller foil in terms of controllability. The mind-of-its-own feeling is gone.' V1 comparison: V2 is faster, better glide, better control, same pump or slightly better."
         },
         "PNG V2 1400": {
-          "highlight": "Easiest dock start foil ever (Dominic, 80kg)",
-          "notes": "Aspect ratio 10.99. Easiest consistent dock start foil. Amazing glide. More demanding at 80kg — heavier riders control it better.",
-          "rider_feedback": "Dominic Hoskins (80kg): 'I've never found an easier foil to dock start. The consistency is crazy. But at my weight, if I'm off balance, it can throw me.'"
+          "highlight": "Yvon's winter pump favorite — 7-8 minutes vs 3 min on Fireball 1350",
+          "notes": "Yvon Labarthe (75kg): 140cm span, cruises 13.8-13.9 km/h. HUGE surprise — pumps 7-8 min without going anaerobic vs only 3 min on Fireball 1350. Heart under 160 BPM. Recovers ease-of-use from PNG V1 1300. Patrick (112kg) gets 15-16 km/h on it.",
+          "weight_range": "All weights — heavier riders especially love it",
+          "rider_feedback": "Yvon: Recovered that easy feeling from PNG V1 1300 — which PNG V2 1300 lost in pursuit of more speed/glide. Best winter pump foil for those who love pumping long."
         }
       },
       "expert_quotes": [
@@ -804,6 +813,16 @@
           "expert": "Mark Shinn",
           "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 — it's the session saver.",
           "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs ART Pro 1401."
+        },
+        {
+          "expert": "Yvon Labarthe",
+          "quote": "PNG V2 1200 — for complete beginners 85-120kg. Goes on BLACK fuselage. Super maneuverable at 120cm span. Very beginner, lots of lift at low speed. If under 85kg with experience, take the V2 1300 instead.",
+          "context": "French YouTube review, Apr 2025. Yvon Labarthe (75kg)."
+        },
+        {
+          "expert": "Yvon Labarthe",
+          "quote": "PNG V2 1400 — a big surprise! With Fireball 1350 in winter (water at 6°C), I only last 3 minutes. With the 1400 I easily pump 7-8 minutes without going over 160 BPM. Very easy, not demanding. Patrick at 112kg gets 15-16 km/h on it.",
+          "context": "French YouTube review, Apr 2025. Yvon Labarthe (75kg)."
         }
       ]
     }
@@ -1125,6 +1144,12 @@
           "weight_kg": null,
           "text": "PNG V2 1300 is my session saver — first wing into my bag on any trip. 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer. Consistently 22-25 km/h, up to 30 km/h in waves.",
           "foil": "PNG V2 1300"
+        },
+        {
+          "rider": "Yvon Labarthe",
+          "weight_kg": 75,
+          "text": "PNG V2 1400 — 7-8 minutes pump in winter vs 3 minutes on Fireball 1350. Heart under 160 BPM. Cruises 13.8-13.9 km/h. Not as fast but WAY more endurance. Perfect winter pump foil.",
+          "foil": "PNG V2 1400"
         }
       ],
       "ART V2": [
