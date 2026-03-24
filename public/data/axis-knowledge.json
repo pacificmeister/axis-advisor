@@ -12,9 +12,10 @@
       "facebook-riders-feedback.json",
       "youtube-batch1-adrian-roper-2025",
       "youtube-batch2-reviews-comparisons-2025-2026",
-      "youtube-batch3-competitive-intel-foildrive"
+      "youtube-batch3-competitive-intel-foildrive",
+      "youtube-batch4-team-riders-2023-2025"
     ],
-    "last_updated": "2026-03-24T07:59:21Z"
+    "last_updated": "2026-03-24T08:02:00Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -108,6 +109,26 @@
           "expert": "James Casey",
           "quote": "Start downwind on the PNG 1300 — big span catches small wind swell. It'll teach you to catch bumps.",
           "context": "Downwind progression advice"
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow — really slow.",
+          "context": "AXIS Team Rider, Nov 2024. Heavy rider on PNG V2 1300 vs V1."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "My PNG V2 1300 setup: 82cm High Modulus Power Carbon mast, Crazy Short Advance Plus fuselage, Skinny 40 stabilizer. The crazy short gives great balance between pump frequency and carving. Psycho Short turns even better but loses pump ability.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 setup."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "PNG V2 1300 control is truly a level above V1. The old 1300 sometimes felt like it had a mind of its own. That feeling is gone. V2 feels like a much smaller foil in terms of controllability.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs V1."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 — it's the session saver.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs ART Pro 1401."
         }
       ],
       "community_insights": [
@@ -323,10 +344,12 @@
           "notes": "UK prone conditions, less advanced winging"
         },
         "Spitfire 900": {
-          "notes": "Intermediate conditions"
+          "notes": "Extra glide vs 840. Love for smaller days and downwinding. Add Skinny rears to transform into faster DW foil."
         },
         "Spitfire 840": {
-          "notes": "UK prone conditions"
+          "notes": "UK prone conditions",
+          "rider_setup": "Luke Atkinson (Hawaii): Advance Plus Crazy Short fuse + 250 Progressive rear",
+          "rider_feedback": "Luke Atkinson: 'Turns so well, so sharp, so responsive in waves. My favorite Spitfire size.'"
         },
         "Spitfire 780": {
           "notes": "Advanced powered conditions"
@@ -344,6 +367,18 @@
       "community_insights": [
         "Spitfire 1180 is a top choice for the 2nd wing in downwind progression — handles chop better than pure ART",
         "Pair with Advance fuselage and small Progressive rears for maximum carve"
+      ],
+      "expert_quotes": [
+        {
+          "expert": "Luke Atkinson",
+          "quote": "Spitfire 840 in waves: so sharp, so responsive, turns so well. My favorite. Paired with Advanced Plus Crazy Short fuselage and 250 Progressive rear.",
+          "context": "AXIS Team Rider, launch video Jun 2023. Hawaii."
+        },
+        {
+          "expert": "Luke Atkinson",
+          "quote": "Spitfire 900 — extra glide, perfect for smaller days and going downwind. To speed up any Spitfire, pair with skinny rears — opens up a whole new world of downwinding and glide.",
+          "context": "AXIS Team Rider, launch video Jun 2023."
+        }
       ]
     },
     "Fireball": {
@@ -691,6 +726,61 @@
         "Christian: Fireball 1250 = amazing light wind downwind/power wing foil. Prefers smooth drawn-out turns, not snappy. Very high aspect foils don't lock in well in lots of water movement when winging upwind.",
         "Size comparison: Surge A890 more forgiving than Spitfire 780 despite bigger span. Moving from ART V2 triple9 → recommend Surge 890 or 950. Moving from ART V2 819 → Surge 830."
       ]
+    },
+    "PNG V2": {
+      "name": "PNG V2",
+      "tagline": "Upgraded pump-and-glide — faster, better control than original PNG",
+      "character": "Same great lift as PNG but noticeably more speed, better control, and better glide. Same foil section as Fireball for excellent low-speed lift.",
+      "who_its_for": "All weights needing pump/dock start/light wind capability. Heavier riders' go-to (Mark Shinn's 'session saver').",
+      "disciplines": [
+        "pump foiling",
+        "downwind",
+        "dock start",
+        "light wind winging",
+        "small waves"
+      ],
+      "fuselage": "Black Series (unlike original PNG which uses Red)",
+      "models": {
+        "PNG V2 1200": {
+          "highlight": "Most forgiving V2 option",
+          "notes": "Aspect ratio 8. Easy, forgiving, dock start friendly. Great for beginners and heavy riders.",
+          "rider_feedback": "Dominic Hoskins (80kg): Great upgrade on PNG 1150. Easier to dock start, more forgiving in every aspect."
+        },
+        "PNG V2 1300": {
+          "highlight": "Mark Shinn's 'first choice, session saver'",
+          "notes": "Aspect ratio 10.36. Speed: 22-25 km/h regular, 29-30 km/h in waves. Significantly faster than V1. Best versatility/control balance. First wing in Mark's bag on any trip.",
+          "weight_range": "All weights, especially heavier riders",
+          "rider_setup": "Mark Shinn: 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer",
+          "rider_feedback": "Mark Shinn: 'V2 feels like a much smaller foil in terms of controllability. The mind-of-its-own feeling is gone.' V1 comparison: V2 is faster, better glide, better control, same pump or slightly better."
+        },
+        "PNG V2 1400": {
+          "highlight": "Easiest dock start foil ever (Dominic, 80kg)",
+          "notes": "Aspect ratio 10.99. Easiest consistent dock start foil. Amazing glide. More demanding at 80kg — heavier riders control it better.",
+          "rider_feedback": "Dominic Hoskins (80kg): 'I've never found an easier foil to dock start. The consistency is crazy. But at my weight, if I'm off balance, it can throw me.'"
+        }
+      },
+      "expert_quotes": [
+        {
+          "expert": "Mark Shinn",
+          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow — really slow.",
+          "context": "AXIS Team Rider, Nov 2024. Heavy rider on PNG V2 1300 vs V1."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "My PNG V2 1300 setup: 82cm High Modulus Power Carbon mast, Crazy Short Advance Plus fuselage, Skinny 40 stabilizer. The crazy short gives great balance between pump frequency and carving. Psycho Short turns even better but loses pump ability.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 setup."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "PNG V2 1300 control is truly a level above V1. The old 1300 sometimes felt like it had a mind of its own. That feeling is gone. V2 feels like a much smaller foil in terms of controllability.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs V1."
+        },
+        {
+          "expert": "Mark Shinn",
+          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 — it's the session saver.",
+          "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs ART Pro 1401."
+        }
+      ]
     }
   },
   "fuselage_guide": {
@@ -1004,6 +1094,12 @@
           "weight_kg": null,
           "text": "Learned on PNG 1310 & 1300. Went from standard to Advanced+ fuselage and it made the foils so much more responsive for such large spans.",
           "foil": "PNG 1310"
+        },
+        {
+          "rider": "Mark Shinn",
+          "weight_kg": null,
+          "text": "PNG V2 1300 is my session saver — first wing into my bag on any trip. 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer. Consistently 22-25 km/h, up to 30 km/h in waves.",
+          "foil": "PNG V2 1300"
         }
       ],
       "ART V2": [
@@ -1118,6 +1214,34 @@
       "AK": {
         "Tracer 1030": "Full plane foil — smooth riding. Axis doesn't offer full-plane connection for front wings."
       }
+    }
+  },
+  "rider_profiles": {
+    "Luke Atkinson": {
+      "weight_kg": 95,
+      "location": "Lennox Head, Byron Bay, Australia",
+      "role": "AXIS Team Rider, Foil Drive Team Rider",
+      "disciplines": [
+        "prone foiling",
+        "wave winging",
+        "dock start",
+        "downwind",
+        "foil drive"
+      ],
+      "known_setups": {
+        "wave_winging": "Surge 890, 345 Skinny rear, Advance Ultrashort fuse",
+        "dock_start": "Surge 1010 (Croisic comp)",
+        "spitfire_era": "Spitfire 840, Advance Plus Crazy Short fuse, 250 Progressive rear",
+        "foil_drive": "AXIS prone board 29L/43cm, 90cm mast, prototype surge-family wing ~900-1000 span",
+        "downwind": "72cm mast"
+      },
+      "key_facts": [
+        "95kg at time of Foil Drive podcast (Jun 2025)",
+        "Won Foil Fest comp at Point Plumber, Australia",
+        "Former kite surfing national titles winner",
+        "Luke's Surge 890 surfs harder than his old Spitfire 780 and pumps 10x longer",
+        "Made finals at Croisic dock start with Surge 1010 (alongside Gray Morris and Kai Thompson, all ~100kg)"
+      ]
     }
   }
 }

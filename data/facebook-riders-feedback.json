@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 395,
+    "total_entries": 399,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T07:59:21Z"
+    "last_updated": "2026-03-24T08:02:00Z"
   },
   "posts": [
     {
@@ -7910,6 +7910,82 @@
       "type": "manufacturer",
       "date": "2024-07-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=7U3iLT_203U"
+    },
+    {
+      "id": "post_82",
+      "source": "youtube_mark_shinn",
+      "source_label": "Mark Shinn on PNG 1300 V2 (Nov 2024)",
+      "rider": "Mark Shinn",
+      "text": "PNG V2 1300 is my session saver. First wing into my bag on any trip. The old 1300 was too slow — V2 rides 22-25 km/h, up to 30 km/h in waves. Control is a level above — mind-of-its-own feeling is gone. Setup: 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer.",
+      "foils_mentioned": [
+        "PNG V2 1300"
+      ],
+      "rider_weight": null,
+      "use_case": "pump foiling, downwind, dock start, small waves",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "setup": {
+        "front_wing": "PNG V2 1300",
+        "rear_wing": "Skinny 40",
+        "fuselage": "Crazy Short Advance Plus",
+        "mast": "82cm High Modulus Power Carbon"
+      },
+      "date": "2024-11-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=2FvgrMd-Xr4"
+    },
+    {
+      "id": "post_83",
+      "source": "youtube_mark_shinn",
+      "source_label": "Mark Shinn on PNG 1300 V2 (Nov 2024)",
+      "rider": "Mark Shinn",
+      "text": "PNG V2 1300 vs ART Pro 1401: the 1401 has more glide and is easier to suck energy from, but it's a handful in complicated conditions. PNG V2 1300 is more versatile. When conditions are complicated → 1300. When water is clear → 1401. Only taking one? PNG V2 1300.",
+      "foils_mentioned": [
+        "PNG V2 1300",
+        "ART Pro 1401"
+      ],
+      "rider_weight": null,
+      "use_case": "pump foiling, downwind",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2024-11-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=2FvgrMd-Xr4"
+    },
+    {
+      "id": "post_84",
+      "source": "youtube_luke_spitfire",
+      "source_label": "Luke Atkinson introduces Spitfire (Jun 2023)",
+      "rider": "Luke Atkinson",
+      "text": "Spitfire 840: incredibly sharp turns, so responsive in waves. My go-to setup: Advance Plus Crazy Short fuse + 250 Progressive rear. For more speed and downwinding: swap to Skinny rears — opens a whole new world of glide.",
+      "foils_mentioned": [
+        "Spitfire 840",
+        "Spitfire 900"
+      ],
+      "rider_weight": 95,
+      "use_case": "wave riding, downwind",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "setup": {
+        "front_wing": "Spitfire 840",
+        "rear_wing": "250 Progressive (surf) or Skinny (DW)",
+        "fuselage": "Advance Plus Crazy Short",
+        "mast": null
+      },
+      "date": "2023-06-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=dNg_NiHrOeY"
+    },
+    {
+      "id": "post_85",
+      "source": "youtube_foil_drive_podcast",
+      "source_label": "Luke Atkinson - Foil Drive Podcast (Jun 2025)",
+      "rider": "Luke Atkinson",
+      "text": "For Foil Drive comp at Point Plumber: rode Axis prone board 29L/43cm (personal prone board), 90cm mast (want more clearance from pod), Foil Drive Max battery + 3-blade prop, prototype Surge-family wing ~900-1000 span. 95kg so 29L is challenging — need a dedicated FD board.",
+      "foils_mentioned": [],
+      "rider_weight": 95,
+      "use_case": "foil drive, wave riding",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2025-06-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=k7UpV9s50Zs"
     }
   ]
 }
