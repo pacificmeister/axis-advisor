@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 392,
+    "total_entries": 395,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T07:56:54Z"
+    "last_updated": "2026-03-24T07:59:21Z"
   },
   "posts": [
     {
@@ -7856,6 +7856,60 @@
       },
       "date": "2026-02-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=DmFlXafgPG0"
+    },
+    {
+      "id": "post_79",
+      "source": "youtube_competitive_intel",
+      "source_label": "Why I changed from Axis to Duotone (Ash, Dec 2024)",
+      "rider": "Ash (UK wing rider)",
+      "text": "3 years on AXIS, progressed BSC 890 → HPS range (1050/980/930/830). ART V1 didn't work in our choppy tidal waters — aggressive stall, hard to get up, excessive front foot pressure at speed. ART Pro 1051 even worse. Spitfire 840 needed bigger waves than available locally. Eventually switched to Duotone Glide 2.0.",
+      "foils_mentioned": [
+        "BSC 890",
+        "HPS 1050",
+        "HPS 980",
+        "HPS 930",
+        "HPS 830",
+        "ART V1 999",
+        "ART Pro 1051",
+        "Spitfire 840",
+        "Spitfire 900"
+      ],
+      "rider_weight": null,
+      "use_case": "winging, UK chop/tidal",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=E98mhD0-X_w"
+    },
+    {
+      "id": "post_80",
+      "source": "youtube_competitive_intel",
+      "source_label": "Why I changed from Axis to Duotone (Ash, Dec 2024)",
+      "rider": "Ash (UK wing rider)",
+      "text": "AXIS criticisms: 1) ART V1 couldn't handle choppy water. 2) Fuselage design requires expensive ultra-HM carbon. 3) Ultra-HM tapered mast at £3000 — no cheaper tapered option for small winging foils. 4) Brand direction seemed to go toward DW/prone, not winging. ART V2 might have solved some issues but never tried due to appearance and cost.",
+      "foils_mentioned": [
+        "ART V2"
+      ],
+      "rider_weight": null,
+      "use_case": "winging",
+      "sentiment": "negative",
+      "type": "community",
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=E98mhD0-X_w"
+    },
+    {
+      "id": "post_81",
+      "source": "youtube_foil_drive_integrated",
+      "source_label": "AXIS Foil Drive Integrated Mast (Jul 2024)",
+      "rider": "AXIS reviewer",
+      "text": "AXIS Foil Drive Integrated Mast: uses 82cm aluminum mast with cables built inside. Works with Foil Drive Max and Slim Gen 2. Motor pod available at 15cm, 20cm, 25cm from base plate — or 75cm from base plate for efoiling/cruising. Makes deployment much faster for family use.",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "foil drive",
+      "sentiment": "very_positive",
+      "type": "manufacturer",
+      "date": "2024-07-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=7U3iLT_203U"
     }
   ]
 }

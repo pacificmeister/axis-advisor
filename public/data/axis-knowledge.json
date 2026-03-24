@@ -11,9 +11,10 @@
       "yvon-feedback.json",
       "facebook-riders-feedback.json",
       "youtube-batch1-adrian-roper-2025",
-      "youtube-batch2-reviews-comparisons-2025-2026"
+      "youtube-batch2-reviews-comparisons-2025-2026",
+      "youtube-batch3-competitive-intel-foildrive"
     ],
-    "last_updated": "2026-03-24T07:56:54Z"
+    "last_updated": "2026-03-24T07:59:21Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -1051,6 +1052,11 @@
       "issue": "Rushing downwind progression",
       "description": "Moving to high-aspect wings (ART Pro, Fireball) before consistently catching bumps on PNG 1300.",
       "solution": "Stay on PNG 1300 until you consistently link bumps. Then step to Spitfire 1180 or ART Pro 1201."
+    },
+    {
+      "issue": "ART V1 in choppy/tidal water",
+      "description": "Original ART series (V1) struggles significantly in choppy water with tidal currents. Aggressive stall, excessive front foot pressure. Only 899 size works reasonably well in chop.",
+      "solution": "Switch to ART V2 for choppy conditions — designed with these issues fixed. Spitfire also better in chop than ART V1."
     }
   ],
   "anti_counterfeiting": {
@@ -1061,6 +1067,57 @@
       "location": "On the fiberglass isolation barrier of the wing",
       "note": "Adrian Roper: 'We've had quite a bit of copying from Chinese companies building fake Axis stuff. This helps stop that.' Plan to add to all products going forward.",
       "source": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025"
+    }
+  },
+  "competitive_intel": {
+    "reasons_riders_leave": {
+      "title": "Why Riders Switch Away from AXIS",
+      "last_updated": "2026-03-24",
+      "sources": [
+        "YouTube: 'Why I changed from Axis to Duotone' - Dec 2024"
+      ],
+      "issues": [
+        {
+          "issue": "Original ART V1 choppy water performance",
+          "detail": "ART V1 wings don't like turbulent water with tidal currents. Aggressive stall at low speed. Excessive front foot pressure at speed. 899 was the only size that worked well in chop.",
+          "resolved_by": "ART V2 addressed these issues significantly"
+        },
+        {
+          "issue": "ART Pro aggressive stall / hard to get up",
+          "detail": "ART Pro 1051 harder to get going than ART V1, more aggressive stall. Not fun to turn in choppy water.",
+          "resolved_by": "Fireball and ART V2 have more forgiving behavior"
+        },
+        {
+          "issue": "Fuselage design requiring ultra-HM carbon",
+          "detail": "AXIS fuselage beds down INTO the wing (making it thinner), requiring more expensive ultra-HM carbon to maintain strength. Customer pays premium for manufacturing constraint not design benefit.",
+          "status": "Ongoing structural concern — accurate for older wings"
+        },
+        {
+          "issue": "Perception of brand direction (prone/DW focused, not winging)",
+          "detail": "Long-time winger felt AXIS direction shifted heavily toward downwind/prone/pump in 2023-2024 period, less focus on pure winging performance.",
+          "status": "Partially addressed with Surge (2025) and continued ART V2 development"
+        },
+        {
+          "issue": "Ultra-HM Mast pricing for small foil riders",
+          "detail": "Tapered carbon mast (£3000) aimed at large-span DW foils. No cheaper tapered mast option for winging with smaller span wings.",
+          "status": "Valid concern — AXIS mast lineup focuses on DW performance"
+        }
+      ],
+      "advisory_note": "These concerns are valuable for understanding AXIS weaknesses vs competitors. The ART V2 (2024) and Surge (2025) address wave performance issues. Pricing and mast range remain valid concerns for some riders."
+    },
+    "competitor_comparisons": {
+      "Duotone": {
+        "Glide V2": "Full plane foil — smoother entry feeling. Rider Ash switched to Duotone Glide 2.0 from AXIS HPS/ART range. Found Duotone HA foils more playful, better low end, no aggressive stall vs AXIS ART V1.",
+        "Whiz": "Like a Spitfire with better low end and more carve capability. Lacks speed vs AXIS.",
+        "SLS Mast": "Tapered mast at ~£1300 vs AXIS Ultra-HM at ~£3000. Significant price advantage."
+      },
+      "North": {
+        "MA V2 1050": "Fantastically forgiving and playful mid-aspect. No ton of glide but very easy to use.",
+        "HM Mast": "New HM tapered mast — well-received in market"
+      },
+      "AK": {
+        "Tracer 1030": "Full plane foil — smooth riding. Axis doesn't offer full-plane connection for front wings."
+      }
     }
   }
 }
