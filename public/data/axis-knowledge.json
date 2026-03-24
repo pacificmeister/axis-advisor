@@ -10,9 +10,10 @@
       "axis-product-reference.md",
       "yvon-feedback.json",
       "facebook-riders-feedback.json",
-      "youtube-batch1-adrian-roper-2025"
+      "youtube-batch1-adrian-roper-2025",
+      "youtube-batch2-reviews-comparisons-2025-2026"
     ],
-    "last_updated": "2026-03-24T14:52:11Z"
+    "last_updated": "2026-03-24T07:56:54Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -111,7 +112,16 @@
       "community_insights": [
         "PNG 1310 is the world record pump foil — it's not just marketing",
         "Danny Perez: Went from standard to Advance+ fuselage and it made the foils so much more responsive for such large spans",
-        "Shaun Henderson: 1150 is what I learned to wing and dock start with — Advance fuselage is much better for pumping"
+        "Shaun Henderson: 1150 is what I learned to wing and dock start with — Advance fuselage is much better for pumping",
+        "Dominic Hoskins (80kg, Netherlands, Oct 2025): PNG V2 1200 has aspect ratio 8, PNG V2 1300 has aspect ratio 10.36. 1300 is noticeably faster/glidier.",
+        "Dominic (80kg): PNG V2 1400 is the easiest dock start foil he's ever used. Consistent, solid platform. But at 80kg can be unforgiving if balance is off — heavier riders get more control.",
+        "Dominic: PNG 1310 original — most aggressive lift in AXIS range. Best for heavyweight sub-paddle-ups. But requires pause after dock jump to stabilize before pumping. Very aggressive stall.",
+        "Dominic: Art Pro 1401 and 1201 are solid pump foils but now superseded by PNG V2 1300 and 1400 for most riders.",
+        "Dominic on ART V2: Swiss Army knife of AXIS range — does everything well. 979 and 879 his choice for messy Dutch North Sea conditions. They cut through chaos without wobble.",
+        "Dominic: Fireballs changed his life. The under-camber section created user-friendly performance. Range is incredible — can handle small micro-bumps AND huge conditions in one session.",
+        "Dominic: Fireball 1350 — dock start from static. Ultra Pro carbon mast essential for no wobble. Turn it with conviction, not hesitation.",
+        "Dominic: Tempo 1020 with Ti Link fuselage and Skinny 30 — blown away by how easy it was. Accessible to more than just elites. Not a surf foil though — kept rolling unexpectedly. Needs rider experience.",
+        "Dominic: Tempo doesn't stop rolling until you stop it. Not skittish or dangerous, but different from surf foils. Takes 10-20 minutes to adapt, then it's amazing."
       ]
     },
     "BSC": {
@@ -278,7 +288,10 @@
       "community_insights": [
         "Yvon: ART v2 turns 5-10% better rail-to-rail but Fireball has 25% more glide — pick your priority",
         "ART V2 879 is excellent for tow/wing, not for pumping",
-        "Better than original ART in choppy UK conditions"
+        "Better than original ART in choppy UK conditions",
+        "Dominic Hoskins (80kg): ART V2 = Swiss Army knife of AXIS range. Does everything well. 979/879 his choice for Dutch North Sea — messy, inconsistent, fast-ramping conditions.",
+        "ART V2 turns faster than equivalent span suggests — wide cord in middle gives great purchase, taper to tips allows quick roll.",
+        "ART V2 NOT surfy-feeling despite working in surf. Turns like cross between high-aspect and surf foil — everything done at pace. Very different character from Surge."
       ]
     },
     "Spitfire": {
@@ -427,7 +440,13 @@
         "Fireball has 25% MORE glide than equivalent ART V2 — use Fireball for pumping, ART V2 for turning",
         "FB 1160 is Yvon's favorite summer all-rounder — rides all boats, downwind, super long downwind",
         "Dmitry Evseev (75kg): FB 940 needs good waves/wind but flies when conditions cooperate",
-        "Nicolas Iten did nearly 5 hours on the Fireball 1750 around a lake — ~70km. (Kai Thompson, SurfFX interview Mar 2026)"
+        "Nicolas Iten did nearly 5 hours on the Fireball 1750 around a lake — ~70km. (Kai Thompson, SurfFX interview Mar 2026)",
+        "Dominic Hoskins: Fireballs are the most versatile range AXIS has produced — handles micro-bumps AND big conditions in one session. Fireballs beat ART V2 in pumping ease and range.",
+        "Dominic: Fireball 1350 can be dock-started from static. Ultra Pro Carbon mast essential. Turn with conviction not hesitation. New even-bigger sizes coming but hush-hush (as of Oct 2025).",
+        "Fireball 1500/1750 review (Meton Foil, Feb 2026): 1750 has aspect ratio 20.12, 1500 has AR 17. Paired with Skinny 25 stab and Psycho Short fuse for full efficiency. Very pitch-sensitive — needs training.",
+        "Fireball 1750 tip (Meton Foil): Use Fatty Mast for control. 1750 is NOT a beginner foil — very delicate pitch axis. Small movements needed. Nicolai Iten uses custom smaller stab for world record runs.",
+        "Fireball 1500 recommended setup: Fatty fuse (Ultrashort) + Skinny 30 rear = less pitch-sensitive than psycho-short setup. Better for most riders to start with.",
+        "Meton Foil recommendation: If choosing between 1500 and 1750 → go 1500 with psycho-short fuse + smaller tail for best efficiency/control balance."
       ],
       "design_notes": {
         "camber": "High camber foil section (3.7% vs 2.5% for older ART Pro/Spitfire). Creates excellent low-speed lift but higher drag at speed. Offset by narrow span = very low drag overall.",
@@ -545,7 +564,9 @@
         "Tempo/Fireball tip: Do LESS pumping on first ride. The foil runs free with very little drag. Pumping like crazy fights the design.",
         "Titanium fuselage required for Tempo because wings are so thin (<10mm at edge) that aluminum wouldn't work. Grub screw expansion plate creates rigid joint.",
         "Tempo construction: Uni-direction carbon (no woven) on outside gives 25% more stiffness. Led to discovery for further development.",
-        "Kiwi mast (new downwind-specific mast) in development — only prototypes exist as of Nov 2025. Not yet released."
+        "Kiwi mast (new downwind-specific mast) in development — only prototypes exist as of Nov 2025. Not yet released.",
+        "Foil Drive pocket board (AWSI 2025): Covered trench, fiberglass around battery pocket for signal transparency. Battery slides in, locked with 2 bolts. Very clean, low drag profile.",
+        "Tempo key reason for new fuselage (Adrian AWSI 2025): 16 aspect ratio wings are too thin for any existing fuselage. Titanium grub-screw expansion plate system creates rigid joint."
       ]
     },
     "Surge": {
@@ -660,7 +681,14 @@
         "Gray Morris (100kg): Also rode the 1010 in Croisic dock start event and made the finals.",
         "Adrian: Surge tip design — flat middle section then turn-down tip (not full arc) = free surfing feel, no locked turns.",
         "Surge is NOT a replacement for Spitfire — Spitfire better for CL foiling. Surge better for prone, wave surfing, winging in swell.",
-        "Surge 890 at 100kg (Luke): use with 345 rear skinny, Advance Ultrashort fuse as go-to setup."
+        "Surge 890 at 100kg (Luke): use with 345 rear skinny, Advance Ultrashort fuse as go-to setup.",
+        "Christian (Wing Server, Feb 2026): Surge A890 fits perfectly between Spitfire and ART V2. Very forgiving and stable in messy water — can continuously adjust foil angle without stalling. Not as fast as ART V2 but similar glide.",
+        "Christian: Surge excels when pushed in hard turns using energy from bumps and swell. Better pop for jumping than Spitfire at same size. Still need to size correctly — 890 may be big if coming from Spitfire 780.",
+        "Christian: When to choose ART V2 879 over Surge: fast moving waves, can keep up with pocket. Generates way more speed. But Surge is looser and more forgiving on smaller/messier days.",
+        "Christian: For overhead powerful waves where you don't need glide, Spitfire 780 still best. In those conditions, going too big on any foil = getting spit out.",
+        "Christian: ART V2 879 is standout size. On smaller days, switch to A939 or 999 — they glide better at lower speeds.",
+        "Christian: Fireball 1250 = amazing light wind downwind/power wing foil. Prefers smooth drawn-out turns, not snappy. Very high aspect foils don't lock in well in lots of water movement when winging upwind.",
+        "Size comparison: Surge A890 more forgiving than Spitfire 780 despite bigger span. Moving from ART V2 triple9 → recommend Surge 890 or 950. Moving from ART V2 819 → Surge 830."
       ]
     }
   },

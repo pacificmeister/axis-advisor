@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 387,
+    "total_entries": 392,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T07:53:37Z"
+    "last_updated": "2026-03-24T07:56:54Z"
   },
   "posts": [
     {
@@ -7756,6 +7756,106 @@
       "type": "manufacturer",
       "date": "2025-11-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=OamwSb6DKDY"
+    },
+    {
+      "id": "post_74",
+      "source": "youtube_wing_server",
+      "source_label": "Wing Server - Surge vs ART V2 vs Spitfire vs Fireball (Feb 2026)",
+      "rider": "Christian (Wing Server)",
+      "text": "Surge 890 fits perfectly between Spitfire and ART V2. Very forgiving in messy water — can adjust foil angle continuously without stalling. Great for hard turns using wave energy. For fast-moving waves where you need pocket performance, ART V2 879 is better.",
+      "foils_mentioned": [
+        "Surge 890",
+        "ART V2 879",
+        "Spitfire 780"
+      ],
+      "rider_weight": null,
+      "use_case": "wave winging, prone",
+      "sentiment": "positive",
+      "type": "expert",
+      "date": "2026-02-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=YruNiFi4YhM"
+    },
+    {
+      "id": "post_75",
+      "source": "youtube_wing_server",
+      "source_label": "Wing Server - Surge vs ART V2 vs Spitfire vs Fireball (Feb 2026)",
+      "rider": "Christian (Wing Server)",
+      "text": "Size transition guide: Coming from ART V2 999 → Surge 890 or 950. From ART V2 819 → Surge 830. Use wingspan comparison, not area. Surge 890 more forgiving than Spitfire 780 despite being bigger span.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 950",
+        "Surge 830",
+        "ART V2 999",
+        "ART V2 819"
+      ],
+      "rider_weight": null,
+      "use_case": "general",
+      "sentiment": "neutral",
+      "type": "expert",
+      "date": "2026-02-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=YruNiFi4YhM"
+    },
+    {
+      "id": "post_76",
+      "source": "youtube_dominic_hoskins",
+      "source_label": "Full AXIS Range Review 2025 (Dominic Hoskins, Oct 2025)",
+      "rider": "Dominic Hoskins",
+      "text": "ART V2 is the Swiss Army knife of the AXIS range — does everything well. In Dutch North Sea (messy, inconsistent, fast-ramping), the 979 and 879 are my go-to. They cut through chaos without wobble. Not surfy-feeling despite working well in surf.",
+      "foils_mentioned": [
+        "ART V2 979",
+        "ART V2 879"
+      ],
+      "rider_weight": 80,
+      "use_case": "winging, North Sea conditions",
+      "sentiment": "very_positive",
+      "type": "community",
+      "date": "2025-10-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=iYxYwu15cuE"
+    },
+    {
+      "id": "post_77",
+      "source": "youtube_dominic_hoskins",
+      "source_label": "Full AXIS Range Review 2025 (Dominic Hoskins, Oct 2025)",
+      "rider": "Dominic Hoskins",
+      "text": "Tempo 1020 with Ti Link fuselage and Skinny 30 — blown away by how easy it was. Not just for elites. BUT: it keeps rolling until you stop it. Different from surf foils. Takes 10-20 min to adapt. Not a surf foil but amazingly fun for DW, power wing, foil drive.",
+      "foils_mentioned": [
+        "Tempo 1020"
+      ],
+      "rider_weight": 80,
+      "use_case": "downwind, power winging, foil drive",
+      "sentiment": "very_positive",
+      "type": "community",
+      "setup": {
+        "front_wing": "Tempo 1020",
+        "rear_wing": "Skinny 30",
+        "fuselage": "Ti Link Titanium",
+        "mast": null
+      },
+      "date": "2025-10-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=iYxYwu15cuE"
+    },
+    {
+      "id": "post_78",
+      "source": "youtube_meton_foil",
+      "source_label": "Honest Review Fireball 1500 & 1750 (Meton Foil, ~Feb 2026)",
+      "rider": "Meton Foil reviewer",
+      "text": "Fireball 1750: AR 20.12, truly insane glide. Use Fatty Mast — essential for control. Super pitch-sensitive, NOT a beginner foil. Small movements only. World record holder Nicolai Iten uses custom smaller stab. If I choose: Fireball 1500 with Psycho Short fuse + smaller tail for best efficiency balance.",
+      "foils_mentioned": [
+        "Fireball 1750",
+        "Fireball 1500"
+      ],
+      "rider_weight": null,
+      "use_case": "dock start pump, long distance",
+      "sentiment": "positive",
+      "type": "community",
+      "setup": {
+        "front_wing": "Fireball 1500",
+        "rear_wing": "Skinny 30",
+        "fuselage": "Fatty Ultrashort",
+        "mast": "Fatty Mast"
+      },
+      "date": "2026-02-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=DmFlXafgPG0"
     }
   ]
 }
