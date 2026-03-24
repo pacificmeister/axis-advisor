@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "scan_timestamp": "2026-03-23T18:00:00-07:00",
+    "scan_timestamp_utc": "2026-03-24T01:00:00Z",
+    "window": "last 12 hours",
+    "sources": [
+      "AXIS Foil Riders FB Group (10.6K members) - chronological sort",
+      "AXIS Foils Official Page"
+    ],
+    "scanner": "Herbert AI (Alex Foiler account)"
+  },
+  "new_posts_12h": [
+    {
+      "id": "fb_2026_03_23_pm_001",
+      "source": "AXIS Foil Riders Group + AXIS Foils Official Page (cross-posted)",
+      "poster": "Vangelis Evan Mavridoglou",
+      "poster_badges": ["Group expert", "Rising contributor"],
+      "timestamp_relative": "10 hours ago (~8 AM Pacific)",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some of them surprised us. Want your setup counted? Takes 3 minutes. [Google Form link]. Top Disciplines: 1. Wing Foiling 2. Downwind SUP 3. Parawing 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge · Fireball · Spitfire. Top Regions replied: US West Coast · NZ/Australia · Europe. Quote: 'Turns off the back foot like surfing. The Surge is a game changer.'",
+      "reactions": 17,
+      "reaction_breakdown": "14 Like + 3 Love",
+      "comments": 1,
+      "survey_link": "https://docs.google.com/forms/d/e/1FAIpQLSeAaOSDn2dJu0aKkHARBbVfOw3sGgfT2-xyrv4e9PzaZ0BVDg/viewform",
+      "foils_mentioned": ["Surge", "Fireball", "Spitfire"],
+      "disciplines": ["Wing Foiling", "Downwind SUP", "Parawing", "Prone"],
+      "sentiment": "positive/informational",
+      "discipline_rankings": {
+        "1": "Wing Foiling",
+        "2": "Downwind SUP",
+        "3": "Parawing",
+        "4": "Prone"
+      },
+      "rider_weight_range": "65-85 kg",
+      "notable_quote": "Turns off the back foot like surfing. The Surge is a game changer."
+    }
+  ],
+  "recent_posts_beyond_12h_notable": [
+    {
+      "id": "fb_2026_03_23_recent_001",
+      "poster": "Dmitry Evseev",
+      "timestamp_relative": "21 hours ago",
+      "title": "Comparison of Axis foils. Which one is which?",
+      "text": "Side-by-side video comparison of Tempo 1090 vs Fireball 1070 (4-minute video). Community quiz format. Maxime Meyer (19h ago) correctly identified: 'Fireball 1070 on the left, Tempo 1090 on the right. Same wingspan more or less, but Tempo is less draggy, which leads to less BPM overall.'",
+      "reactions": 10,
+      "comments": 3,
+      "foils_mentioned": ["Tempo 1090", "Fireball 1070"],
+      "sentiment": "educational/engaging"
+    },
+    {
+      "id": "fb_2026_03_23_recent_002",
+      "poster": "Darren Zielonka",
+      "poster_badges": ["Rising contributor"],
+      "timestamp_relative": "~22 hours ago",
+      "title": "Mast Size Question - 820mm vs 750mm",
+      "text": "Does anyone prefer the 820mm over the 750mm for behind the boat or dock start? I'm looking for a power carbon mast and thinking 820mm to wakefoil, wingfoil, and dock start. Comments: Perry Hughes: 'I love my 820 for dock and wing, never use my old 750 anymore.' Reuben Williams: 'If you Wingfoil in rough seas or waves, the extra length is always useful for breach prevention, 82 is my sweet spot for wing, surf, dock, tow.'",
+      "reactions": 3,
+      "comments": 7,
+      "products_mentioned": ["Power carbon mast 820mm", "Power carbon mast 750mm"],
+      "sentiment": "positive - 820mm consensus",
+      "community_consensus": "820mm preferred over 750mm for versatility across disciplines"
+    },
+    {
+      "id": "fb_2026_03_23_recent_003",
+      "poster": "Paul Schnetker",
+      "timestamp_relative": "~1 day ago",
+      "text": "Looking to buy Surge or Spitfire on Gold Coast Australia. 85kg, intermediate efoil rider (Axis wing adaptor), just starting to ride waves. Recommendations on size? Sean Richardson (Top contributor, 16h ago): 'I'm 85kg live on the Gold Coast as well. I have most of the Surges. If it was just one - for me I'd go the 830 - ride mostly at the Alley, winging in waves. Check in with SurfFx - they have demos.' Mark Madden: 'I have a 1100 Spitfire - glides great on small waves - I'm moving to Armstrong so make me a stupid offer.'",
+      "reactions": 2,
+      "comments": 6,
+      "foils_mentioned": ["Surge 830", "Spitfire 1100"],
+      "rider_weight": "85kg",
+      "discipline": "wingfoil/waves",
+      "sentiment": "positive - Surge 830 recommended",
+      "notable": "dealer mention - SurfFx Gold Coast has demos",
+      "competitive_mention": "Armstrong (rider switching from AXIS to Armstrong)"
+    },
+    {
+      "id": "fb_2026_03_23_recent_004",
+      "poster": "Tom La Majorette",
+      "timestamp_relative": "~1 day ago",
+      "text": "Looking for advice on new front wing. 65kg. 17 comments total. Sean Richardson (16h ago): 'Robert Sellar dock starts the Surge I think. I wingfoil in waves and it's the Surge all the way. Have no fear of short chord, high aspect - these wings lift like no other. I wing in the 830 in 13-14knots.' Steven Fisher (Top contributor, 1d): 'Do you want one foil to do all those disciplines? I would say Fireball for Parawinging and Dock and a Surge for prone. Your tail matters too. Go with a Surf Skinny for the tail.'",
+      "reactions": 2,
+      "comments": 17,
+      "rider_weight": "65kg",
+      "foils_mentioned": ["Surge 830", "Fireball"],
+      "sentiment": "positive - active advice thread"
+    }
+  ],
+  "official_page_posts_24h": [
+    {
+      "id": "official_2026_03_23_001",
+      "poster": "AXIS Foils (official)",
+      "timestamp_relative": "10 hours ago",
+      "text": "Same survey post as Vangelis cross-posted. Reactions: 7 (4 Like + 3 Love). 0 comments visible.",
+      "reactions": 7,
+      "comments": 0,
+      "unanswered_customer_questions": "No customer questions visible - no comments section engagement"
+    },
+    {
+      "id": "official_recent_001",
+      "poster": "AXIS Foils (official)",
+      "timestamp_relative": "~6 weeks ago (visible on page)",
+      "title": "Surge colorways - desert inspiration from Baja California Sur",
+      "text": "Desert-inspired colorways, surface treatment and textures for Surge front wings. High UV, wide temperature ranges.",
+      "reactions": 32,
+      "shares": 2,
+      "comments": 3,
+      "unanswered_questions": "Kyriakos Giakoumaros: 'Wish i had this beauty when i was in Baja!' - no unanswered questions per se.",
+      "location": "Baja California Sur, Mexico"
+    },
+    {
+      "id": "official_recent_002",
+      "poster": "AXIS Foils (official)",
+      "timestamp_relative": "~3 weeks ago (visible on page)",
+      "title": "Boot Düsseldorf - Surf Foil World Tour",
+      "text": "Team at pool at @bootduesseldorf for @surffoilworldtour. Team getting podiums.",
+      "reactions": 26,
+      "shares": 2,
+      "views": "1.7K",
+      "comments": 0,
+      "location": "Düsseldorf, Germany"
+    }
+  ]
+}

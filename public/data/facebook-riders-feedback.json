@@ -13,10 +13,30 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-23T06:19:00Z",
-    "total_posts": 394
+    "last_updated": "2026-03-24T01:00:00Z",
+    "total_posts": 398
   },
   "posts": [
+    {
+      "id": "fb_2026_03_23_pm_001",
+      "source": "facebook_axis_riders + official_page",
+      "source_label": "AXIS Foil Riders (10.6K members) + AXIS Foils Official Page",
+      "date": "2026-03-23",
+      "timestamp": "2026-03-23T08:00:00-07:00",
+      "rider": "Vangelis Evan Mavridoglou",
+      "rider_badges": ["Group expert", "Rising contributor"],
+      "discipline": "community_survey",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries. Results: Top Disciplines: 1. Wing Foiling 2. Downwind SUP 3. Parawing 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge, Fireball, Spitfire. Top Regions: US West Coast, NZ/Australia, Europe.",
+      "foils_mentioned": ["Surge", "Fireball", "Spitfire"],
+      "reactions_group": 17,
+      "reactions_official": 7,
+      "comments_group": 1,
+      "survey_link": "https://docs.google.com/forms/d/e/1FAIpQLSeAaOSDn2dJu0aKkHARBbVfOw3sGgfT2-xyrv4e9PzaZ0BVDg/viewform",
+      "sentiment": "positive",
+      "notable_quote": "Turns off the back foot like surfing. The Surge is a game changer.",
+      "discipline_rankings": {"1": "Wing Foiling", "2": "Downwind SUP", "3": "Parawing", "4": "Prone"},
+      "rider_weight_range": "65-85 kg"
+    },
     {
       "id": "fb_2026_03_23_001",
       "source": "facebook_axis_riders",
