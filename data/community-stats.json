@@ -1,786 +1,69 @@
 {
   "meta": {
-    "version": "1.0",
-    "source": "AXIS Setup Survey March 2026",
-    "respondents": 68,
-    "description": "Real-world setup choices from 68 AXIS riders, segmented by discipline and weight"
+    "total_responses": 227,
+    "date": "2026-03-24",
+    "source": "Google Forms survey"
   },
   "disciplines": {
-    "dock_start": {
-      "total_setups": 25,
+    "Downwind SUP": {
+      "riders": 82,
       "top_front_wings": [
         {
-          "wing": "PNG 1150",
+          "wing": "Fireball 1070",
+          "count": 6
+        },
+        {
+          "wing": "Fireball 1250",
+          "count": 5
+        },
+        {
+          "wing": "Tempo 960",
+          "count": 4
+        },
+        {
+          "wing": "Fireball 1160",
+          "count": 4
+        },
+        {
+          "wing": "Surge 1010",
           "count": 3
         },
         {
-          "wing": "Fireball 1070",
-          "count": 1
-        },
-        {
-          "wing": "AP 1201",
-          "count": 1
-        },
-        {
-          "wing": "950 surge ",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1350 ",
-          "count": 1
-        },
-        {
-          "wing": "1350",
-          "count": 1
-        },
-        {
-          "wing": "Spitfire 1180",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1350",
-          "count": 1
-        },
-        {
-          "wing": "PNG 1200 v2 ",
-          "count": 1
-        },
-        {
-          "wing": "Same as my previous answers ",
-          "count": 1
-        }
-      ],
-      "top_rear_wings": [
-        {
-          "wing": "350 Skinny ",
-          "count": 1
-        },
-        {
-          "wing": "400P",
-          "count": 1
-        },
-        {
-          "wing": "320 surf skinny",
-          "count": 1
-        },
-        {
-          "wing": "375 progressive",
-          "count": 1
-        },
-        {
-          "wing": "Prog 300",
-          "count": 1
-        },
-        {
-          "wing": "Ketos pk50 ",
-          "count": 1
-        },
-        {
-          "wing": "SS300",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 358/25",
-          "count": 1
-        }
-      ],
-      "top_fuselages": [
-        {
-          "fuse": "Black ultrashort",
+          "wing": "PNG 1300 v2",
           "count": 2
         },
         {
-          "fuse": "Black Ultrashort ",
-          "count": 1
-        },
-        {
-          "fuse": "Black Adv+ short",
-          "count": 1
-        },
-        {
-          "fuse": "Black ultra short ",
-          "count": 1
-        },
-        {
-          "fuse": "Advanced Ultrashort",
-          "count": 1
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 6,
-          "top_wings": [
-            {
-              "wing": "AP 1201",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1350 ",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 1180",
-              "count": 1
-            },
-            {
-              "wing": "PNG 1200 v2 ",
-              "count": 1
-            },
-            {
-              "wing": "1401",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 8,
-          "top_wings": [
-            {
-              "wing": "PNG 1150",
-              "count": 3
-            },
-            {
-              "wing": "950 surge ",
-              "count": 1
-            },
-            {
-              "wing": "1250 fireball ",
-              "count": 1
-            },
-            {
-              "wing": "PNG 1300 v2",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1250",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": "1350",
-              "count": 1
-            },
-            {
-              "wing": "Surge 1010 and Png 1300",
-              "count": 1
-            },
-            {
-              "wing": "1350 fireball or 1400 png v2",
-              "count": 1
-            },
-            {
-              "wing": "1750 fireball or 1500 fireball",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Fireball 1350",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 6,
-          "top_wings": [
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            },
-            {
-              "wing": "Same as my previous answers ",
-              "count": 1
-            },
-            {
-              "wing": "Art pro 1201",
-              "count": 1
-            },
-            {
-              "wing": "1300 PNG V2",
-              "count": 1
-            },
-            {
-              "wing": "Fb 1350/1250",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "downwind": {
-      "total_setups": 30,
-      "top_front_wings": [
-        {
-          "wing": "Tempo 960",
-          "count": 3
-        },
-        {
-          "wing": "Fireball 1070",
-          "count": 3
+          "wing": "Fireball 1000",
+          "count": 2
         },
         {
           "wing": "1250 fireball",
           "count": 2
         },
         {
-          "wing": "Tempo, 920-960-1020",
-          "count": 1
+          "wing": "Fireball 1350",
+          "count": 2
         },
         {
-          "wing": "Fireball 1000",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 940",
-          "count": 1
-        },
-        {
-          "wing": "Tempo 1020, surge 830",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1250",
-          "count": 1
-        },
-        {
-          "wing": "Tempo",
-          "count": 1
-        },
-        {
-          "wing": "Chopped artpro 1001 (to 840)",
-          "count": 1
+          "wing": "Tempo 920",
+          "count": 2
         }
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 25 & 30",
-          "count": 1
+          "wing": "Skinny 35",
+          "count": 5
         },
         {
-          "wing": "Skinny 358/30 and the 25",
-          "count": 1
-        },
-        {
-          "wing": "50 skinny ",
-          "count": 1
-        },
-        {
-          "wing": "350 Skinny ",
-          "count": 1
-        },
-        {
-          "wing": "Ultra 30",
-          "count": 1
-        },
-        {
-          "wing": "30 TI link, 300 surf skinny",
-          "count": 1
-        },
-        {
-          "wing": "Speed 420",
-          "count": 1
-        },
-        {
-          "wing": "Chopped skinny 45 (to 300)",
-          "count": 1
-        }
-      ],
-      "top_fuselages": [
-        {
-          "fuse": "Ti Link",
-          "count": 3
-        },
-        {
-          "fuse": "Ultrashort",
-          "count": 3
-        },
-        {
-          "fuse": "Ti link",
-          "count": 2
-        },
-        {
-          "fuse": "Short",
-          "count": 2
-        },
-        {
-          "fuse": "Black ultrashort",
-          "count": 2
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 8,
-          "top_wings": [
-            {
-              "wing": "Tempo, 920-960-1020",
-              "count": 1
-            },
-            {
-              "wing": "Tempo",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1160",
-              "count": 1
-            },
-            {
-              "wing": "FB 1070",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 11,
-          "top_wings": [
-            {
-              "wing": "Tempo 960",
-              "count": 2
-            },
-            {
-              "wing": "Fireball 1000",
-              "count": 1
-            },
-            {
-              "wing": "Tempo 1020, surge 830",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1250",
-              "count": 1
-            },
-            {
-              "wing": "Chopped artpro 1001 (to 840)",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 6,
-          "top_wings": [
-            {
-              "wing": "Fireball 1070",
-              "count": 2
-            },
-            {
-              "wing": "1250",
-              "count": 1
-            },
-            {
-              "wing": "1250 fireball",
-              "count": 1
-            },
-            {
-              "wing": "Tempo 1090 fireball 1160",
-              "count": 1
-            },
-            {
-              "wing": "960 tempo",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 3,
-          "top_wings": [
-            {
-              "wing": "surge 1010 foildrive",
-              "count": 1
-            },
-            {
-              "wing": "Depends on conditions.  Wind against tide then surge 1010.  Light winds fireball 1350",
-              "count": 1
-            },
-            {
-              "wing": "1020 and 1090 Tempo",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Fireball 940",
-              "count": 1
-            }
-          ]
-        },
-        ">105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "1250 fireball",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "foil_assist": {
-      "total_setups": 13,
-      "top_front_wings": [
-        {
-          "wing": "Konrad lx760 (but will try a surge)",
-          "count": 1
-        },
-        {
-          "wing": "surge 1010 950",
-          "count": 1
-        },
-        {
-          "wing": "Surge 890 / fireball 1070 ",
-          "count": 1
-        },
-        {
-          "wing": "Surge 1010/950",
-          "count": 1
-        },
-        {
-          "wing": "BSC 890",
-          "count": 1
-        },
-        {
-          "wing": "Same as my previous answers ",
-          "count": 1
-        },
-        {
-          "wing": "Surje",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1010.. or Art V2 1099",
-          "count": 1
-        },
-        {
-          "wing": "surge 950/890/830",
-          "count": 1
-        },
-        {
-          "wing": "Spitfire 840 ",
-          "count": 1
-        }
-      ],
-      "top_rear_wings": [
-        {
-          "wing": "45 skinny",
-          "count": 1
-        },
-        {
-          "wing": "surf skinny 300 320",
-          "count": 1
-        },
-        {
-          "wing": "Prog 375 ",
-          "count": 1
-        },
-        {
-          "wing": "300 Surf Skinny",
-          "count": 1
-        },
-        {
-          "wing": "400",
-          "count": 1
-        },
-        {
-          "wing": "300",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 359",
-          "count": 1
-        },
-        {
-          "wing": "surf 320",
-          "count": 1
-        }
-      ],
-      "top_fuselages": [
-        {
-          "fuse": "Ultra adv+",
-          "count": 1
-        },
-        {
-          "fuse": "ultrashort",
-          "count": 1
-        },
-        {
-          "fuse": "Short -20 ",
-          "count": 1
-        },
-        {
-          "fuse": "Black/Ulta/Crazy Advance+",
-          "count": 1
-        },
-        {
-          "fuse": "Advanced 700",
-          "count": 1
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "Konrad lx760 (but will try a surge)",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890 / fireball 1070 ",
-              "count": 1
-            },
-            {
-              "wing": "BSC 890",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1010.. or Art V2 1099",
-              "count": 1
-            },
-            {
-              "wing": "Surge 740",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": "Surje",
-              "count": 1
-            },
-            {
-              "wing": "surge 950/890/830",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 840 ",
-              "count": 1
-            },
-            {
-              "wing": "ART 999 v2",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Surge 1010/950",
-              "count": 1
-            },
-            {
-              "wing": "Surge 950",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "surge 1010 950",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Same as my previous answers ",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "kite": {
-      "total_setups": 6,
-      "top_front_wings": [
-        {
-          "wing": "Art pro 1001",
-          "count": 1
-        },
-        {
-          "wing": "HPS 650/700",
-          "count": 1
-        },
-        {
-          "wing": "Previously spit 840 and recently surge 780 and 890",
-          "count": 1
-        },
-        {
-          "wing": "Art v2 819",
-          "count": 1
-        },
-        {
-          "wing": "Surge 830, 899",
-          "count": 1
-        },
-        {
-          "wing": "Surge 830",
-          "count": 1
-        }
-      ],
-      "top_rear_wings": [
-        {
-          "wing": "360/45 skinny",
-          "count": 1
-        },
-        {
-          "wing": "surf skinny 320",
-          "count": 1
-        },
-        {
-          "wing": "Surf skinn 320 and 300 (I haven\u2019t tried any others)",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 359/40",
-          "count": 1
-        },
-        {
-          "wing": "320 surf akinny",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 320",
-          "count": 1
-        }
-      ],
-      "top_fuselages": [
-        {
-          "fuse": "Crazy short advance +",
-          "count": 1
-        },
-        {
-          "fuse": "ultrashort",
-          "count": 1
-        },
-        {
-          "fuse": "Ultra",
-          "count": 1
-        },
-        {
-          "fuse": "Black adv+ ultrashort",
-          "count": 1
-        },
-        {
-          "fuse": "Short +60",
-          "count": 1
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Art pro 1001",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Art v2 819",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Previously spit 840 and recently surge 780 and 890",
-              "count": 1
-            },
-            {
-              "wing": "Surge 830",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "HPS 650/700",
-              "count": 1
-            },
-            {
-              "wing": "Surge 830, 899",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "parawing": {
-      "total_setups": 25,
-      "top_front_wings": [
-        {
-          "wing": "Fireball 1070",
-          "count": 3
-        },
-        {
-          "wing": "Surge 890",
-          "count": 2
-        },
-        {
-          "wing": "surge 1010",
-          "count": 2
-        },
-        {
-          "wing": "Fireball 940",
-          "count": 1
-        },
-        {
-          "wing": "1010 surge ",
-          "count": 1
-        },
-        {
-          "wing": "Surge 830",
-          "count": 1
-        },
-        {
-          "wing": "830",
-          "count": 1
-        },
-        {
-          "wing": "Modified 951",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1160 ",
-          "count": 1
-        },
-        {
-          "wing": "1070",
-          "count": 1
-        }
-      ],
-      "top_rear_wings": [
-        {
-          "wing": "Surf skinny 300",
+          "wing": "Skinny 45",
           "count": 4
         },
         {
-          "wing": "Skinny 35",
+          "wing": "45 skinny",
+          "count": 3
+        },
+        {
+          "wing": "Surf skinny 300",
           "count": 2
         },
         {
@@ -788,224 +71,186 @@
           "count": 2
         },
         {
-          "wing": "320",
+          "wing": "35",
+          "count": 2
+        },
+        {
+          "wing": "Ti Link 360/25, Surf Skinny 300",
           "count": 1
         },
         {
-          "wing": "Surf 280",
+          "wing": "Skinny 25 & 30",
           "count": 1
         },
         {
-          "wing": "300 surf skinny ",
+          "wing": "Tempo 30",
           "count": 1
         },
         {
-          "wing": "45 skinny",
+          "wing": "Skinny 358/30 and the 25",
           "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "82 HM Carbon",
+          "count": 3
         },
         {
-          "wing": "surf skinny 320",
-          "count": 1
+          "wing": "UHM 800",
+          "count": 2
+        },
+        {
+          "wing": "80cm UHM pro",
+          "count": 2
+        },
+        {
+          "wing": "UHM Pro 80",
+          "count": 2
+        },
+        {
+          "wing": "82 HM",
+          "count": 2
+        },
+        {
+          "wing": "72 uhm",
+          "count": 2
+        },
+        {
+          "wing": "72 UHM",
+          "count": 2
+        },
+        {
+          "wing": "HM 82",
+          "count": 2
+        },
+        {
+          "wing": "75cm HM",
+          "count": 2
+        },
+        {
+          "wing": "80 ultra",
+          "count": 2
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Short",
+          "wing": "Ti link",
+          "count": 5
+        },
+        {
+          "wing": "Black ultrashort",
+          "count": 5
+        },
+        {
+          "wing": "Ti Link",
           "count": 4
         },
         {
-          "fuse": "Black ultrashort",
-          "count": 2
+          "wing": "Short",
+          "count": 4
         },
         {
-          "fuse": "Ultra short AD+",
-          "count": 1
+          "wing": "Ultrashort",
+          "count": 4
         },
         {
-          "fuse": "Adv+ 640",
-          "count": 1
-        },
-        {
-          "fuse": "Short adv +",
-          "count": 1
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 6,
-          "top_wings": [
-            {
-              "wing": "Fireball 1070",
-              "count": 2
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1160 ",
-              "count": 1
-            },
-            {
-              "wing": "surge 1010",
-              "count": 1
-            },
-            {
-              "wing": "740 Surge",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 8,
-          "top_wings": [
-            {
-              "wing": "Fireball 940",
-              "count": 1
-            },
-            {
-              "wing": "830",
-              "count": 1
-            },
-            {
-              "wing": "Modified 951",
-              "count": 1
-            },
-            {
-              "wing": "Fireball ",
-              "count": 1
-            },
-            {
-              "wing": "Art999 / fireball 1250 in small conditions ",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": "1070",
-              "count": 1
-            },
-            {
-              "wing": "1250 ",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1250 and 1160",
-              "count": 1
-            },
-            {
-              "wing": "1350 fireball 950 surge 1070 fireball",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "surge 1010",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1160",
-              "count": 1
-            },
-            {
-              "wing": "Surge 950",
-              "count": 1
-            },
-            {
-              "wing": "Surge 1010",
-              "count": 1
-            },
-            {
-              "wing": "Tempo 1020 and 1090",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Surge 830",
-              "count": 1
-            }
-          ]
-        },
-        ">105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "1010 surge ",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "prone": {
-      "total_setups": 26,
-      "top_front_wings": [
-        {
-          "wing": "Surge 890",
+          "wing": "Black Ultrashort",
           "count": 3
         },
         {
-          "wing": "Surge 950",
+          "wing": "Black ultra short",
+          "count": 3
+        },
+        {
+          "wing": "Tilink",
           "count": 2
+        },
+        {
+          "wing": "Ultrashort advance",
+          "count": 1
+        },
+        {
+          "wing": "Black Plus Crazy Short, Ti Link 360",
+          "count": 1
+        }
+      ]
+    },
+    "Prone": {
+      "riders": 66,
+      "top_front_wings": [
+        {
+          "wing": "Surge 890",
+          "count": 9
+        },
+        {
+          "wing": "Surge 950",
+          "count": 4
         },
         {
           "wing": "Surge 830",
-          "count": 2
-        },
-        {
-          "wing": "Spirt fire 780",
-          "count": 1
+          "count": 3
         },
         {
           "wing": "Surge 1010",
-          "count": 1
+          "count": 2
         },
         {
-          "wing": "Fireball 100",
-          "count": 1
-        },
-        {
-          "wing": "1010 surge ",
-          "count": 1
-        },
-        {
-          "wing": "830 surge ",
-          "count": 1
+          "wing": "Spitfire 960",
+          "count": 2
         },
         {
           "wing": "Surge",
-          "count": 1
+          "count": 2
         },
         {
           "wing": "Spitfire 840",
-          "count": 1
+          "count": 2
+        },
+        {
+          "wing": "Art 899",
+          "count": 2
+        },
+        {
+          "wing": "890 surge",
+          "count": 2
+        },
+        {
+          "wing": "1070 fireball",
+          "count": 2
         }
       ],
       "top_rear_wings": [
         {
           "wing": "300 surf skinny",
+          "count": 4
+        },
+        {
+          "wing": "Surf Skinny 300",
           "count": 3
+        },
+        {
+          "wing": "Skinny 50",
+          "count": 2
+        },
+        {
+          "wing": "280 Surf Skinny",
+          "count": 2
+        },
+        {
+          "wing": "35 skinny",
+          "count": 2
+        },
+        {
+          "wing": "skinny",
+          "count": 1
         },
         {
           "wing": "Surf skinny 280/43",
           "count": 1
         },
         {
-          "wing": "Skinny 50",
-          "count": 1
-        },
-        {
-          "wing": "350 Skinny ",
+          "wing": "350 Skinny",
           "count": 1
         },
         {
@@ -1013,582 +258,303 @@
           "count": 1
         },
         {
-          "wing": "400 progressive",
+          "wing": "Skinny 360",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "UHM Pro 80",
+          "count": 3
+        },
+        {
+          "wing": "82 HM Carbon",
+          "count": 2
+        },
+        {
+          "wing": "UHM 80",
+          "count": 2
+        },
+        {
+          "wing": "Uhm 80",
+          "count": 2
+        },
+        {
+          "wing": "80 uhm",
+          "count": 2
+        },
+        {
+          "wing": "80cm UHM",
+          "count": 2
+        },
+        {
+          "wing": "80cm",
           "count": 1
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Pro Ultra High modulus 800",
           "count": 1
         },
         {
-          "wing": "surf skinny 300 or 320",
+          "wing": "80cm Pro Ultra HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "90 UHM",
           "count": 1
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Black ultrashort ",
-          "count": 2
+          "wing": "Black Ultrashort",
+          "count": 6
         },
         {
-          "fuse": "Black ultra short ",
-          "count": 2
+          "wing": "Ultrashort",
+          "count": 5
         },
         {
-          "fuse": "Black Ultrashort",
-          "count": 2
+          "wing": "Black ultrashort",
+          "count": 4
         },
         {
-          "fuse": "Black silly short",
+          "wing": "Black ultra short",
+          "count": 3
+        },
+        {
+          "wing": "Crazy short",
+          "count": 3
+        },
+        {
+          "wing": "Crazy Short",
+          "count": 3
+        },
+        {
+          "wing": "Black ultrashort advance +",
           "count": 1
         },
         {
-          "fuse": "Black Ultrashort ",
+          "wing": "Black silly short",
+          "count": 1
+        },
+        {
+          "wing": "Black Crazy Short Adv+",
+          "count": 1
+        },
+        {
+          "wing": "short | ultra short Adv +",
           "count": 1
         }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 7,
-          "top_wings": [
-            {
-              "wing": "Surge",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 840",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Art v2 939 , surge 830 /890 , fireball 1070",
-              "count": 1
-            },
-            {
-              "wing": "Surge 840",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 8,
-          "top_wings": [
-            {
-              "wing": "Spirt fire 780",
-              "count": 1
-            },
-            {
-              "wing": "830 surge ",
-              "count": 1
-            },
-            {
-              "wing": "Art 899",
-              "count": 1
-            },
-            {
-              "wing": "890 surge ",
-              "count": 1
-            },
-            {
-              "wing": "Art",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "Previously Spitfire 960 and more recently Surge 890 and 1100 for smaller days",
-              "count": 1
-            },
-            {
-              "wing": "Surge 950",
-              "count": 1
-            },
-            {
-              "wing": "950 surge",
-              "count": 1
-            },
-            {
-              "wing": "890 surge",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "surge 1010 or surge 950",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Fireball 100",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            }
-          ]
-        },
-        ">105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Surge 1010",
-              "count": 1
-            },
-            {
-              "wing": "1010 surge ",
-              "count": 1
-            }
-          ]
-        }
-      }
+      ]
     },
-    "pump": {
-      "total_setups": 17,
+    "Wing Foiling": {
+      "riders": 169,
       "top_front_wings": [
         {
-          "wing": "Fireball 1250",
-          "count": 2
+          "wing": "Surge 890",
+          "count": 8
         },
         {
-          "wing": "Fb 1500 for speed, 1750 for long endurance and a lot of kilometers, 2100 for ultra long runs",
-          "count": 1
+          "wing": "Fireball 1070",
+          "count": 7
         },
         {
-          "wing": "fireball 1350",
-          "count": 1
+          "wing": "Surge 950",
+          "count": 6
         },
         {
-          "wing": "Fireball 1350 ",
-          "count": 1
+          "wing": "Spitfire 960",
+          "count": 5
         },
         {
-          "wing": " Fireball 1750 / 1350",
-          "count": 1
+          "wing": "Surge 830",
+          "count": 4
         },
         {
-          "wing": "Fireball 1350",
-          "count": 1
+          "wing": "Art v2 999",
+          "count": 4
         },
         {
-          "wing": "PNG 1150",
-          "count": 1
+          "wing": "Spitfire 1180",
+          "count": 3
         },
-        {
-          "wing": "1250 fireball",
-          "count": 1
-        },
-        {
-          "wing": "1500",
-          "count": 1
-        },
-        {
-          "wing": "1401",
-          "count": 1
-        }
-      ],
-      "top_rear_wings": [
-        {
-          "wing": "Skinny 358/25",
-          "count": 2
-        },
-        {
-          "wing": "Speed 420",
-          "count": 1
-        },
-        {
-          "wing": "As small as possible, if the water is calm: the new 20 skinny, otherwise 25 skinny",
-          "count": 1
-        },
-        {
-          "wing": "skinny 45",
-          "count": 1
-        },
-        {
-          "wing": "Ketos pk50",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 30",
-          "count": 1
-        },
-        {
-          "wing": "Still figuring it out",
-          "count": 1
-        },
-        {
-          "wing": "358",
-          "count": 1
-        }
-      ],
-      "top_fuselages": [
-        {
-          "fuse": "Black ultrashort ",
-          "count": 2
-        },
-        {
-          "fuse": "Black ultrashort adv+",
-          "count": 1
-        },
-        {
-          "fuse": "Psycho black adv. +",
-          "count": 1
-        },
-        {
-          "fuse": "sillyshort",
-          "count": 1
-        },
-        {
-          "fuse": "One ocean titanium 58cm",
-          "count": 1
-        }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": "Fb 1500 for speed, 1750 for long endurance and a lot of kilometers, 2100 for ultra long runs",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1350 ",
-              "count": 1
-            },
-            {
-              "wing": "1401",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1350 or 1500",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "Fireball 1250",
-              "count": 2
-            },
-            {
-              "wing": "PNG 1150",
-              "count": 1
-            },
-            {
-              "wing": "1500",
-              "count": 1
-            },
-            {
-              "wing": "PNG",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": " Fireball 1750 / 1350",
-              "count": 1
-            },
-            {
-              "wing": "1250 fireball",
-              "count": 1
-            },
-            {
-              "wing": "1500 Fireball or 1750 Fireball",
-              "count": 1
-            },
-            {
-              "wing": "1750 fireball",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "fireball 1350",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1350",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "PNG 1300 V2",
-              "count": 1
-            },
-            {
-              "wing": "Fb 1500",
-              "count": 1
-            }
-          ]
-        }
-      }
-    },
-    "sup": {
-      "total_setups": 19,
-      "top_front_wings": [
         {
           "wing": "Surge 1010",
           "count": 3
         },
         {
-          "wing": "Surge 890",
-          "count": 2
+          "wing": "Spitfire 900",
+          "count": 3
         },
         {
-          "wing": "Fireball 1250",
-          "count": 2
-        },
-        {
-          "wing": "Fireball 1160",
-          "count": 1
-        },
-        {
-          "wing": "Chopped 1001 to 840",
-          "count": 1
-        },
-        {
-          "wing": "1350",
-          "count": 1
-        },
-        {
-          "wing": "999",
-          "count": 1
-        },
-        {
-          "wing": "1180",
-          "count": 1
-        },
-        {
-          "wing": "Art 999 ( fireball 1250 when it\u2019s small)",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1070",
-          "count": 1
+          "wing": "Spitfire 780",
+          "count": 3
         }
       ],
       "top_rear_wings": [
         {
-          "wing": "Surf Skinny 300",
-          "count": 1
-        },
-        {
-          "wing": "350 Skinny ",
-          "count": 1
-        },
-        {
-          "wing": "Speed 420",
-          "count": 1
-        },
-        {
-          "wing": "Chopped skinny 45 to 300",
-          "count": 1
-        },
-        {
-          "wing": "250 Progressive ",
-          "count": 1
-        },
-        {
-          "wing": "358",
-          "count": 1
-        },
-        {
-          "wing": "300/60 progressive ",
-          "count": 1
-        },
-        {
           "wing": "Skinny 40",
-          "count": 1
+          "count": 8
+        },
+        {
+          "wing": "Skinny 55",
+          "count": 5
+        },
+        {
+          "wing": "Skinny",
+          "count": 5
+        },
+        {
+          "wing": "40 skinny",
+          "count": 3
+        },
+        {
+          "wing": "360 skinny",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 50",
+          "count": 3
+        },
+        {
+          "wing": "Surf skinny 320",
+          "count": 3
+        },
+        {
+          "wing": "375 Progressive",
+          "count": 3
+        },
+        {
+          "wing": "325 Progressive",
+          "count": 3
+        },
+        {
+          "wing": "375 progressive",
+          "count": 2
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "90cm HM Carbon",
+          "count": 4
+        },
+        {
+          "wing": "82cm HM Carbon",
+          "count": 3
+        },
+        {
+          "wing": "90cm UHM",
+          "count": 3
+        },
+        {
+          "wing": "80 uhm",
+          "count": 3
+        },
+        {
+          "wing": "90cm Aluminum",
+          "count": 3
+        },
+        {
+          "wing": "82 HM",
+          "count": 3
+        },
+        {
+          "wing": "90cm HM",
+          "count": 3
+        },
+        {
+          "wing": "90cm aluminium",
+          "count": 2
+        },
+        {
+          "wing": "82cm Aluminium",
+          "count": 2
+        },
+        {
+          "wing": "UHM pro 90",
+          "count": 2
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Black ultrashort ",
+          "wing": "Black ultrashort",
+          "count": 14
+        },
+        {
+          "wing": "Black short",
+          "count": 7
+        },
+        {
+          "wing": "Black Ultrashort",
+          "count": 6
+        },
+        {
+          "wing": "Ultrashort",
+          "count": 6
+        },
+        {
+          "wing": "Black Short",
+          "count": 4
+        },
+        {
+          "wing": "Ti link",
+          "count": 3
+        },
+        {
+          "wing": "Ultra short",
+          "count": 3
+        },
+        {
+          "wing": "Black Adv+ Short",
           "count": 2
         },
         {
-          "fuse": "Ultra short AD+",
-          "count": 1
+          "wing": "Black Ultrashort Advance",
+          "count": 2
         },
         {
-          "fuse": "Black Ultrashort ",
-          "count": 1
-        },
-        {
-          "fuse": "Black ultrashort adv+",
-          "count": 1
-        },
-        {
-          "fuse": "Black ultrashort advance ",
-          "count": 1
+          "wing": "Black ultrashort advanced +",
+          "count": 2
         }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Surge 1010",
-              "count": 1
-            },
-            {
-              "wing": "1180",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            },
-            {
-              "wing": "Surge 880",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "Fireball 1250",
-              "count": 1
-            },
-            {
-              "wing": "Chopped 1001 to 840",
-              "count": 1
-            },
-            {
-              "wing": "Art 999 ( fireball 1250 when it\u2019s small)",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": " Surge 950 or fireball 1070",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 7,
-          "top_wings": [
-            {
-              "wing": "1350",
-              "count": 1
-            },
-            {
-              "wing": "999",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1160, Art pro 999",
-              "count": 1
-            },
-            {
-              "wing": "1350 fireball 1070 fireball or 1010 surge",
-              "count": 1
-            },
-            {
-              "wing": "890 surge or 950 surge",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Surge 1010",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Fireball 1160",
-              "count": 1
-            }
-          ]
-        }
-      }
+      ]
     },
-    "tow": {
-      "total_setups": 13,
+    "Kite Foiling": {
+      "riders": 25,
       "top_front_wings": [
         {
           "wing": "Spitfire 780",
-          "count": 1
+          "count": 2
         },
         {
-          "wing": "Surge 780 ",
-          "count": 1
+          "wing": "Surge 830",
+          "count": 2
         },
         {
           "wing": "Spitfire 840",
           "count": 1
         },
         {
-          "wing": "Same as prone",
+          "wing": "HPS 650",
           "count": 1
         },
         {
-          "wing": "Art 799 / v2 939 / surge 830 ",
+          "wing": "720 Proto wing",
           "count": 1
         },
         {
-          "wing": "830 aurge",
+          "wing": "Surge 1010",
           "count": 1
         },
         {
-          "wing": "Surge 780",
+          "wing": "Na",
           "count": 1
         },
         {
-          "wing": "F-One Sk8 650",
+          "wing": "Fireball 1070",
           "count": 1
         },
         {
-          "wing": "Art pro 699",
+          "wing": "Art pro 1001",
           "count": 1
         },
         {
@@ -1598,7 +564,369 @@
       ],
       "top_rear_wings": [
         {
+          "wing": "325 Progressive",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 40",
+          "count": 2
+        },
+        {
+          "wing": "skinny 360",
+          "count": 1
+        },
+        {
+          "wing": "progressive 325",
+          "count": 1
+        },
+        {
+          "wing": "425 (not sure which. Model)",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "Skinny 45",
+          "count": 1
+        },
+        {
+          "wing": "360/45 skinny",
+          "count": 1
+        },
+        {
+          "wing": "300 progressive",
+          "count": 1
+        },
+        {
+          "wing": "surf skinny 320",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "90cm Aluminum",
+          "count": 2
+        },
+        {
+          "wing": "85cm Aluminum",
+          "count": 2
+        },
+        {
+          "wing": "82 HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "75cm aluminum",
+          "count": 1
+        },
+        {
+          "wing": "82cm hm",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "90cm UHM Pro",
+          "count": 1
+        },
+        {
+          "wing": "82 hm carbon",
+          "count": 1
+        },
+        {
+          "wing": "90cm aluminum",
+          "count": 1
+        },
+        {
+          "wing": "82 high mod carbon",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Black ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Black Advance + Ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Black Adv+ short",
+          "count": 1
+        },
+        {
+          "wing": "Black ultrashort advanced +",
+          "count": 1
+        },
+        {
+          "wing": "Red fuselage",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "Crazy short advance +",
+          "count": 1
+        },
+        {
+          "wing": "Advanced plus ultrashort",
+          "count": 1
+        },
+        {
+          "wing": "ultrashort",
+          "count": 1
+        },
+        {
+          "wing": "Ultra",
+          "count": 1
+        }
+      ]
+    },
+    "Wake Foiling": {
+      "riders": 39,
+      "top_front_wings": [
+        {
+          "wing": "Spitfire 960",
+          "count": 3
+        },
+        {
+          "wing": "Fireball 1070",
+          "count": 2
+        },
+        {
+          "wing": "Fireball 1160",
+          "count": 2
+        },
+        {
+          "wing": "BSC1060",
+          "count": 1
+        },
+        {
+          "wing": "PNG 910b or Spitfire 960",
+          "count": 1
+        },
+        {
+          "wing": "PNG 910b",
+          "count": 1
+        },
+        {
+          "wing": "1030 spitfire",
+          "count": 1
+        },
+        {
+          "wing": "Anything",
+          "count": 1
+        },
+        {
+          "wing": "900 sf",
+          "count": 1
+        },
+        {
+          "wing": "Unknown",
+          "count": 1
+        }
+      ],
+      "top_rear_wings": [
+        {
+          "wing": "Progressive 325",
+          "count": 2
+        },
+        {
+          "wing": "Skinny 40",
+          "count": 2
+        },
+        {
+          "wing": "440 freeride",
+          "count": 1
+        },
+        {
+          "wing": "Prog 350",
+          "count": 1
+        },
+        {
+          "wing": "Progressive 375",
+          "count": 1
+        },
+        {
+          "wing": "375 progressive",
+          "count": 1
+        },
+        {
+          "wing": "325 progressive",
+          "count": 1
+        },
+        {
+          "wing": "55 skinny",
+          "count": 1
+        },
+        {
+          "wing": "Speed 380",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "90cm aluminium",
+          "count": 1
+        },
+        {
+          "wing": "750 HM",
+          "count": 1
+        },
+        {
+          "wing": "75cm HM carbon",
+          "count": 1
+        },
+        {
+          "wing": "82 power carbon",
+          "count": 1
+        },
+        {
+          "wing": "82 cm HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "80uhm",
+          "count": 1
+        },
+        {
+          "wing": "Aluminum 75cm",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "82 HMPC",
+          "count": 1
+        },
+        {
+          "wing": "82cm Aluminum",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Black Ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Black ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Short",
+          "count": 2
+        },
+        {
+          "wing": "Red short fuse",
+          "count": 1
+        },
+        {
+          "wing": "US",
+          "count": 1
+        },
+        {
+          "wing": "Black ultra",
+          "count": 1
+        },
+        {
+          "wing": "Black short adv +",
+          "count": 1
+        },
+        {
+          "wing": "Black ultrashort advanced",
+          "count": 1
+        },
+        {
+          "wing": "Psykoshort",
+          "count": 1
+        },
+        {
+          "wing": "Black ultrashort adv plus",
+          "count": 1
+        }
+      ]
+    },
+    "Tow-In": {
+      "riders": 29,
+      "top_front_wings": [
+        {
+          "wing": "Surge 780",
+          "count": 2
+        },
+        {
+          "wing": "Surge 830",
+          "count": 1
+        },
+        {
+          "wing": "Sptifire 840",
+          "count": 1
+        },
+        {
+          "wing": "Spitfire 780",
+          "count": 1
+        },
+        {
+          "wing": "Spitfire 670",
+          "count": 1
+        },
+        {
+          "wing": "Art 699",
+          "count": 1
+        },
+        {
+          "wing": "Not with axis",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "Spitfire 840",
+          "count": 1
+        },
+        {
+          "wing": "Same as prone",
+          "count": 1
+        }
+      ],
+      "top_rear_wings": [
+        {
+          "wing": "Surf Skinny 300",
+          "count": 2
+        },
+        {
+          "wing": "Surf skinny",
+          "count": 2
+        },
+        {
+          "wing": "35 skinny",
+          "count": 2
+        },
+        {
+          "wing": "340",
+          "count": 1
+        },
+        {
           "wing": "Surf skinny 280/43",
+          "count": 1
+        },
+        {
+          "wing": "325p tail with 0.5 shim",
           "count": 1
         },
         {
@@ -1606,346 +934,903 @@
           "count": 1
         },
         {
-          "wing": "Skinny 365/55 ",
+          "wing": "325 progressive",
           "count": 1
         },
         {
-          "wing": "Prog 375 / surf 300 ",
+          "wing": "Na",
           "count": 1
         },
         {
-          "wing": "Surf skinny",
+          "wing": "Skinny 365/55",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "PRO Ultra High Modulus",
           "count": 1
         },
         {
-          "wing": "Progressive 280",
+          "wing": "90cm UHM",
           "count": 1
         },
         {
-          "wing": "160",
+          "wing": "Ultra 800",
           "count": 1
         },
         {
-          "wing": "35 skinny",
+          "wing": "1050 UHM",
+          "count": 1
+        },
+        {
+          "wing": "90 uhm",
+          "count": 1
+        },
+        {
+          "wing": "900 UHM",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "900 HMPC",
+          "count": 1
+        },
+        {
+          "wing": "80 uhm pro",
+          "count": 1
+        },
+        {
+          "wing": "80 Pro Mast",
           "count": 1
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Black silly short",
+          "wing": "Black ultrashort",
+          "count": 3
+        },
+        {
+          "wing": "Black Advanced Crazy Short",
           "count": 1
         },
         {
-          "fuse": "Short adv +",
+          "wing": "Black short",
           "count": 1
         },
         {
-          "fuse": "Advanced short ",
+          "wing": "Black silly short",
           "count": 1
         },
         {
-          "fuse": "Ultra short adv",
+          "wing": "Black 780 Adv+",
           "count": 1
         },
         {
-          "fuse": "Black Crazyshort",
+          "wing": "Short adv +",
+          "count": 1
+        },
+        {
+          "wing": "Na",
+          "count": 1
+        },
+        {
+          "wing": "Advanced short",
+          "count": 1
+        },
+        {
+          "wing": "Advanced plus ultrashort",
+          "count": 1
+        },
+        {
+          "wing": "Ultra Short A+",
           "count": 1
         }
-      ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 3,
-          "top_wings": [
-            {
-              "wing": "Same as prone",
-              "count": 1
-            },
-            {
-              "wing": "Art 799 / v2 939 / surge 830 ",
-              "count": 1
-            },
-            {
-              "wing": "720 Surge",
-              "count": 1
-            }
-          ]
-        },
-        "75-85kg": {
-          "count": 4,
-          "top_wings": [
-            {
-              "wing": "Spitfire 780",
-              "count": 1
-            },
-            {
-              "wing": "Surge 780",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 720",
-              "count": 1
-            },
-            {
-              "wing": "Surge 950",
-              "count": 1
-            }
-          ]
-        },
-        "85-95kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Art pro 699",
-              "count": 1
-            },
-            {
-              "wing": "840 surge",
-              "count": 1
-            }
-          ]
-        },
-        "95-105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Spitfire 840",
-              "count": 1
-            },
-            {
-              "wing": "830 aurge",
-              "count": 1
-            }
-          ]
-        },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "F-One Sk8 650",
-              "count": 1
-            }
-          ]
-        },
-        ">105kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Surge 780 ",
-              "count": 1
-            }
-          ]
-        }
-      }
+      ]
     },
-    "wake": {
-      "total_setups": 10,
+    "Windsurf Foiling": {
+      "riders": 4,
       "top_front_wings": [
         {
-          "wing": "PNG 910b or Spitfire 960",
+          "wing": "Spitfire 960",
           "count": 1
         },
         {
-          "wing": "HPS980 ",
+          "wing": "Art v2 879",
           "count": 1
         },
         {
-          "wing": "960 Spitfire",
+          "wing": "Art 1099, art 899, spitfire 900, art pro 1201",
           "count": 1
         },
         {
-          "wing": "Art 799 / art v2 939 /surge 830 ",
-          "count": 1
-        },
-        {
-          "wing": "Surge 1010/950 Fireball 1070",
-          "count": 1
-        },
-        {
-          "wing": "Surge",
-          "count": 1
-        },
-        {
-          "wing": "Surge 1010, Spitfire 1100",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1070",
-          "count": 1
-        },
-        {
-          "wing": "Spifire 840",
-          "count": 1
-        },
-        {
-          "wing": "Fireball 1160",
+          "wing": "ZFoils",
           "count": 1
         }
       ],
       "top_rear_wings": [
         {
-          "wing": "Prog 350",
+          "wing": "Progressive 375",
           "count": 1
         },
         {
-          "wing": "365/55 skinny ",
+          "wing": "Skinny 362",
           "count": 1
         },
         {
-          "wing": "Skinny 35",
+          "wing": "Prog 375",
           "count": 1
         },
         {
-          "wing": "Surf 300 / prog 375 ",
+          "wing": "ZFoils",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "Aluminum 90cm",
           "count": 1
         },
         {
-          "wing": "300 Surf Skinny",
+          "wing": "90 uhm pro",
           "count": 1
         },
         {
-          "wing": "300",
+          "wing": "Alu 82",
           "count": 1
         },
         {
-          "wing": "Skinny 358/35",
-          "count": 1
-        },
-        {
-          "wing": "SKINNY - 358/30",
+          "wing": "ZFoils",
           "count": 1
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Advanced short ",
+          "wing": "Black windsurf V3 / 899",
           "count": 1
         },
         {
-          "fuse": "Black ultrashort advance",
+          "wing": "Black Short advance+",
           "count": 1
         },
         {
-          "fuse": "Ultra short 640 ",
+          "wing": "Windsurf v2",
           "count": 1
         },
         {
-          "fuse": "Black Short Advance +",
+          "wing": "ZFoils",
+          "count": 1
+        }
+      ]
+    },
+    "Long Distance Pump": {
+      "riders": 44,
+      "top_front_wings": [
+        {
+          "wing": "Fireball 1350",
+          "count": 5
+        },
+        {
+          "wing": "Fireball 1500",
+          "count": 3
+        },
+        {
+          "wing": "1401",
+          "count": 2
+        },
+        {
+          "wing": "Fireball 1250",
+          "count": 2
+        },
+        {
+          "wing": "1160 fireball for flat water sup paddle ups",
           "count": 1
         },
         {
-          "fuse": "Ultrashort ",
+          "wing": "Fireball 1750",
+          "count": 1
+        },
+        {
+          "wing": "Png 1300 v2 png1310",
+          "count": 1
+        },
+        {
+          "wing": "PNG1400 / fb1350",
+          "count": 1
+        },
+        {
+          "wing": "AP 1401",
+          "count": 1
+        },
+        {
+          "wing": "Fireball1350",
           "count": 1
         }
       ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Art 799 / art v2 939 /surge 830 ",
-              "count": 1
-            },
-            {
-              "wing": "Surge 1010, Spitfire 1100",
-              "count": 1
-            }
-          ]
+      "top_rear_wings": [
+        {
+          "wing": "35 skinny",
+          "count": 3
         },
-        "75-85kg": {
-          "count": 3,
-          "top_wings": [
-            {
-              "wing": "PNG 910b or Spitfire 960",
-              "count": 1
-            },
-            {
-              "wing": "Surge",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1160",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "40 skinny",
+          "count": 2
         },
-        "85-95kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Surge 1010/950 Fireball 1070",
-              "count": 1
-            },
-            {
-              "wing": "Spifire 840",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "Skinny 45",
+          "count": 2
         },
-        "95-105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "HPS980 ",
-              "count": 1
-            },
-            {
-              "wing": "960 Spitfire",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "Skinny 25",
+          "count": 2
         },
-        "<65kg": {
-          "count": 1,
-          "top_wings": [
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "Skinny 358/25",
+          "count": 2
+        },
+        {
+          "wing": "Skinny 40",
+          "count": 2
+        },
+        {
+          "wing": "375 progressive",
+          "count": 1
+        },
+        {
+          "wing": "35 Skinny",
+          "count": 1
+        },
+        {
+          "wing": "Skinny 55",
+          "count": 1
+        },
+        {
+          "wing": "Skinny30",
+          "count": 1
         }
-      }
+      ],
+      "top_masts": [
+        {
+          "wing": "82 HM carbon",
+          "count": 2
+        },
+        {
+          "wing": "82cm HM Carbon",
+          "count": 2
+        },
+        {
+          "wing": "75",
+          "count": 2
+        },
+        {
+          "wing": "75 hm carbon",
+          "count": 1
+        },
+        {
+          "wing": "80 Fatty",
+          "count": 1
+        },
+        {
+          "wing": "72uhm pro",
+          "count": 1
+        },
+        {
+          "wing": "HM Carbon 82cm",
+          "count": 1
+        },
+        {
+          "wing": "UHMpc82",
+          "count": 1
+        },
+        {
+          "wing": "Fatty mast 800",
+          "count": 1
+        },
+        {
+          "wing": "Alluminum 75",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Short",
+          "count": 2
+        },
+        {
+          "wing": "Crazy short",
+          "count": 2
+        },
+        {
+          "wing": "Black ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Black ultrashort advance +",
+          "count": 1
+        },
+        {
+          "wing": "Fatty Short Adv+",
+          "count": 1
+        },
+        {
+          "wing": "Advanced +",
+          "count": 1
+        },
+        {
+          "wing": "Black short adv.",
+          "count": 1
+        },
+        {
+          "wing": "Black adv crazyshort",
+          "count": 1
+        },
+        {
+          "wing": "Short 64",
+          "count": 1
+        }
+      ]
     },
-    "wing": {
-      "total_setups": 47,
+    "Dock Start": {
+      "riders": 64,
       "top_front_wings": [
         {
-          "wing": "Surge 890",
+          "wing": "Fireball 1350",
+          "count": 5
+        },
+        {
+          "wing": "PNG 1300",
           "count": 3
         },
         {
-          "wing": "Spitfire 780",
+          "wing": "Fireball 1250",
           "count": 3
         },
         {
-          "wing": "Spitfire 1100",
+          "wing": "PNG 1150",
+          "count": 3
+        },
+        {
+          "wing": "1401",
+          "count": 2
+        },
+        {
+          "wing": "PNG 1300 v2",
+          "count": 2
+        },
+        {
+          "wing": "Png v2 1300",
           "count": 2
         },
         {
           "wing": "Fireball 1070",
-          "count": 2
-        },
-        {
-          "wing": "Art v2 999",
-          "count": 2
-        },
-        {
-          "wing": "Surge 780",
-          "count": 2
-        },
-        {
-          "wing": "Surge 890, 1010 desperately waiting for the Surge 1150",
           "count": 1
         },
         {
-          "wing": "ARTV2 879",
+          "wing": "V2 PNG 1300",
           "count": 1
         },
         {
-          "wing": "Art v2 819 & Surge 890",
+          "wing": "AP 1201",
+          "count": 1
+        }
+      ],
+      "top_rear_wings": [
+        {
+          "wing": "Skinny 40",
+          "count": 5
+        },
+        {
+          "wing": "Skinny 45",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 25",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 35",
+          "count": 2
+        },
+        {
+          "wing": "Skinny 30",
+          "count": 2
+        },
+        {
+          "wing": "Skinny 50",
           "count": 1
         },
         {
-          "wing": "Fireball 880",
+          "wing": "350 Skinny",
+          "count": 1
+        },
+        {
+          "wing": "280 Surf Skinny",
+          "count": 1
+        },
+        {
+          "wing": "400P",
+          "count": 1
+        },
+        {
+          "wing": "320 surf skinny",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "75 Alu",
+          "count": 3
+        },
+        {
+          "wing": "82cm HM Carbon",
+          "count": 2
+        },
+        {
+          "wing": "UHM Pro 80",
+          "count": 2
+        },
+        {
+          "wing": "75 HM",
+          "count": 2
+        },
+        {
+          "wing": "75",
+          "count": 2
+        },
+        {
+          "wing": "Alu 82",
+          "count": 2
+        },
+        {
+          "wing": "UHM Pro 80 cm",
+          "count": 2
+        },
+        {
+          "wing": "80cm Pro Ultra HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "80cm UHM",
+          "count": 1
+        },
+        {
+          "wing": "Kaiwi 78",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Ultrashort",
+          "count": 5
+        },
+        {
+          "wing": "Black ultrashort",
+          "count": 4
+        },
+        {
+          "wing": "Black Ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Short",
+          "count": 2
+        },
+        {
+          "wing": "Black ulttashort advance",
+          "count": 1
+        },
+        {
+          "wing": "Black Crazy Short Adv+",
+          "count": 1
+        },
+        {
+          "wing": "Black Adv+ short",
+          "count": 1
+        },
+        {
+          "wing": "Black ultra short",
+          "count": 1
+        },
+        {
+          "wing": "Black short adv.",
+          "count": 1
+        },
+        {
+          "wing": "Ultrashort advance plus",
+          "count": 1
+        }
+      ]
+    },
+    "SUP Foiling": {
+      "riders": 53,
+      "top_front_wings": [
+        {
+          "wing": "Surge 1010",
+          "count": 8
+        },
+        {
+          "wing": "Surge 830",
+          "count": 4
+        },
+        {
+          "wing": "Fireball 1250",
+          "count": 4
+        },
+        {
+          "wing": "Fireball 1070",
+          "count": 3
+        },
+        {
+          "wing": "Surge 890",
+          "count": 2
+        },
+        {
+          "wing": "Fireball 1160",
+          "count": 1
+        },
+        {
+          "wing": "HPS 1050",
+          "count": 1
+        },
+        {
+          "wing": "1350fb or 1100 sf",
+          "count": 1
+        },
+        {
+          "wing": "Fb1250 / fb1350 / surge1010",
+          "count": 1
+        },
+        {
+          "wing": "Fireball1160/1250",
+          "count": 1
+        }
+      ],
+      "top_rear_wings": [
+        {
+          "wing": "Surf Skinny 300",
+          "count": 3
+        },
+        {
+          "wing": "40 skinny",
+          "count": 3
+        },
+        {
+          "wing": "300 surf skinny",
+          "count": 2
+        },
+        {
+          "wing": "Skinny 45",
+          "count": 2
+        },
+        {
+          "wing": "35 skinny",
+          "count": 2
+        },
+        {
+          "wing": "350 Skinny",
+          "count": 1
+        },
+        {
+          "wing": "Surf 345",
+          "count": 1
+        },
+        {
+          "wing": "Skinny 365/55",
+          "count": 1
+        },
+        {
+          "wing": "55 skinny",
+          "count": 1
+        },
+        {
+          "wing": "Skinny40",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "72 UHM",
+          "count": 2
+        },
+        {
+          "wing": "82cm HM Carbon",
+          "count": 2
+        },
+        {
+          "wing": "72 uhm",
+          "count": 2
+        },
+        {
+          "wing": "82 HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "HM 900",
+          "count": 1
+        },
+        {
+          "wing": "80cm Pro Ultra HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "82cm carbon",
+          "count": 1
+        },
+        {
+          "wing": "82cm Alu",
+          "count": 1
+        },
+        {
+          "wing": "80uhm",
+          "count": 1
+        },
+        {
+          "wing": "HM Carbon 82cm.",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Black ultrashort",
+          "count": 5
+        },
+        {
+          "wing": "Ultrashort",
+          "count": 3
+        },
+        {
+          "wing": "Black Ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Black ultra short",
+          "count": 2
+        },
+        {
+          "wing": "Black short",
+          "count": 2
+        },
+        {
+          "wing": "Crazyshort",
+          "count": 2
+        },
+        {
+          "wing": "Crazy short",
+          "count": 2
+        },
+        {
+          "wing": "Black ultrashort advance +",
+          "count": 1
+        },
+        {
+          "wing": "Ultra short AD+",
+          "count": 1
+        },
+        {
+          "wing": "Black Adv Crazy Short",
+          "count": 1
+        }
+      ]
+    },
+    "Parawing": {
+      "riders": 71,
+      "top_front_wings": [
+        {
+          "wing": "Fireball 1070",
+          "count": 7
+        },
+        {
+          "wing": "Surge 830",
+          "count": 6
+        },
+        {
+          "wing": "Surge 1010",
+          "count": 5
+        },
+        {
+          "wing": "Surge 890",
+          "count": 4
+        },
+        {
+          "wing": "Fireball 1000",
+          "count": 3
+        },
+        {
+          "wing": "surge 1010",
+          "count": 3
+        },
+        {
+          "wing": "Fireball 1160",
+          "count": 2
+        },
+        {
+          "wing": "1070",
+          "count": 2
+        },
+        {
+          "wing": "Fireball 940",
+          "count": 1
+        },
+        {
+          "wing": "1010 surge",
+          "count": 1
+        }
+      ],
+      "top_rear_wings": [
+        {
+          "wing": "Skinny 40",
+          "count": 6
+        },
+        {
+          "wing": "Skinny 35",
+          "count": 5
+        },
+        {
+          "wing": "Surf skinny 300",
+          "count": 4
+        },
+        {
+          "wing": "45 skinny",
+          "count": 4
+        },
+        {
+          "wing": "Skinny 360",
+          "count": 3
+        },
+        {
+          "wing": "300 surf skinny",
+          "count": 2
+        },
+        {
+          "wing": "35 skinny",
+          "count": 2
+        },
+        {
+          "wing": "surf skinny 320",
+          "count": 2
+        },
+        {
+          "wing": "30",
+          "count": 2
+        },
+        {
+          "wing": "40 skinny",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "82cm HM Carbon",
+          "count": 3
+        },
+        {
+          "wing": "80 uhm",
+          "count": 2
+        },
+        {
+          "wing": "80cm UHM",
+          "count": 2
+        },
+        {
+          "wing": "75",
+          "count": 2
+        },
+        {
+          "wing": "UHM Pro 80",
+          "count": 2
+        },
+        {
+          "wing": "82 HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "900mm Carbon HM",
+          "count": 1
+        },
+        {
+          "wing": "HM 900",
+          "count": 1
+        },
+        {
+          "wing": "Ultra 80",
+          "count": 1
+        },
+        {
+          "wing": "Uhm 80",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Black ultrashort",
+          "count": 7
+        },
+        {
+          "wing": "Short",
+          "count": 5
+        },
+        {
+          "wing": "Black short",
+          "count": 4
+        },
+        {
+          "wing": "Ultrashort",
+          "count": 3
+        },
+        {
+          "wing": "Crazy short",
+          "count": 2
+        },
+        {
+          "wing": "Ultra",
+          "count": 2
+        },
+        {
+          "wing": "Ultra short",
+          "count": 2
+        },
+        {
+          "wing": "Black ultrashort advance +",
+          "count": 1
+        },
+        {
+          "wing": "Black Ultrashort Advance",
+          "count": 1
+        },
+        {
+          "wing": "Ultra short AD+",
+          "count": 1
+        }
+      ]
+    },
+    "Foil Assist": {
+      "riders": 55,
+      "top_front_wings": [
+        {
+          "wing": "Surge 950",
+          "count": 5
+        },
+        {
+          "wing": "Surge 830",
+          "count": 2
+        },
+        {
+          "wing": "Surge 740",
+          "count": 2
+        },
+        {
+          "wing": "Spitfire 960",
+          "count": 2
+        },
+        {
+          "wing": "Surge",
+          "count": 2
+        },
+        {
+          "wing": "Surge 1010",
+          "count": 2
+        },
+        {
+          "wing": "Surge 890",
+          "count": 2
+        },
+        {
+          "wing": "BSC 1060",
+          "count": 1
+        },
+        {
+          "wing": "Sf960",
+          "count": 1
+        },
+        {
+          "wing": "HPS 1050",
           "count": 1
         }
       ],
@@ -1955,196 +1840,239 @@
           "count": 2
         },
         {
-          "wing": "Surf Skinny 300",
+          "wing": "45 skinny",
           "count": 2
         },
         {
-          "wing": "320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830",
+          "wing": "Skinny 50",
+          "count": 2
+        },
+        {
+          "wing": "surf 320",
+          "count": 2
+        },
+        {
+          "wing": "Surf skinny 320",
+          "count": 2
+        },
+        {
+          "wing": "300 surf skinny",
           "count": 1
         },
         {
-          "wing": "Surf Skinny 320 or Skinny 40",
+          "wing": "425 Progressive",
           "count": 1
         },
         {
-          "wing": "280/43 surf skinny",
+          "wing": "Surf Skinny 280",
           "count": 1
         },
         {
-          "wing": "350 Skinny ",
+          "wing": "375 progressive",
           "count": 1
         },
         {
-          "wing": "365 45 skinny",
+          "wing": "325 Progressive",
+          "count": 1
+        }
+      ],
+      "top_masts": [
+        {
+          "wing": "82 cm HM Carbon",
+          "count": 2
+        },
+        {
+          "wing": "82 HM carbon",
           "count": 1
         },
         {
-          "wing": "320 surf",
+          "wing": "82cm Aluminum",
+          "count": 1
+        },
+        {
+          "wing": "90cm UHM",
+          "count": 1
+        },
+        {
+          "wing": "Power carbon 90",
+          "count": 1
+        },
+        {
+          "wing": "82cm HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "75 hm",
+          "count": 1
+        },
+        {
+          "wing": "Ultra integrated 80 mast",
+          "count": 1
+        },
+        {
+          "wing": "80cm Integrated HM Carbon",
+          "count": 1
+        },
+        {
+          "wing": "82 cm alum",
           "count": 1
         }
       ],
       "top_fuselages": [
         {
-          "fuse": "Ultrashort",
-          "count": 3
+          "wing": "Black ultrashort",
+          "count": 4
         },
         {
-          "fuse": "Black ultrashort",
+          "wing": "Ultrashort",
           "count": 2
         },
         {
-          "fuse": "Black adv+ ultrashort",
-          "count": 2
-        },
-        {
-          "fuse": "Short advance+ and short advance +20. +20 is used in bigger waves.  ",
+          "wing": "Black ultrashort advance+",
           "count": 1
         },
         {
-          "fuse": "US for waves, Short for speed or flat water",
+          "wing": "Red Short Advance",
+          "count": 1
+        },
+        {
+          "wing": "Black Ultrashort Adv+",
+          "count": 1
+        },
+        {
+          "wing": "black Ultrashort advanced +",
+          "count": 1
+        },
+        {
+          "wing": "Black ultrashort adv plus",
+          "count": 1
+        },
+        {
+          "wing": "Black adv Crazyshort",
+          "count": 1
+        },
+        {
+          "wing": "Advanced + Ultrashort",
+          "count": 1
+        },
+        {
+          "wing": "red short",
+          "count": 1
+        }
+      ]
+    },
+    "Efoil": {
+      "riders": 7,
+      "top_front_wings": [
+        {
+          "wing": "PNG 1310",
+          "count": 1
+        },
+        {
+          "wing": "Same as foil assist",
+          "count": 1
+        },
+        {
+          "wing": "Surge 740",
+          "count": 1
+        },
+        {
+          "wing": "Spitfire 960",
+          "count": 1
+        },
+        {
+          "wing": "Art v1 899",
+          "count": 1
+        },
+        {
+          "wing": "Slingshot manta",
           "count": 1
         }
       ],
-      "by_weight": {
-        "65-75kg": {
-          "count": 9,
-          "top_wings": [
-            {
-              "wing": "Art v2 819 & Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Art V2 999",
-              "count": 1
-            },
-            {
-              "wing": "Surge for freeride",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 840",
-              "count": 1
-            },
-            {
-              "wing": "Art pro 751 + 851 + Fireball 1000",
-              "count": 1
-            }
-          ]
+      "top_rear_wings": [
+        {
+          "wing": "400 Freeride",
+          "count": 1
         },
-        "75-85kg": {
-          "count": 14,
-          "top_wings": [
-            {
-              "wing": "ARTV2 879",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 880",
-              "count": 1
-            },
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Chopped 1001 (to 840)",
-              "count": 1
-            },
-            {
-              "wing": "SF 840 / 960, ART v2 939",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "Fliteboard 245",
+          "count": 1
         },
-        "85-95kg": {
-          "count": 11,
-          "top_wings": [
-            {
-              "wing": "Surge 890, 1010 desperately waiting for the Surge 1150",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 900",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 780",
-              "count": 1
-            },
-            {
-              "wing": "Previously spitfire 960 and recently surge 890 and 1100",
-              "count": 1
-            },
-            {
-              "wing": "Fireball 1070",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "460v2",
+          "count": 1
         },
-        "95-105kg": {
-          "count": 6,
-          "top_wings": [
-            {
-              "wing": "Spitfire 1100",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 960",
-              "count": 1
-            },
-            {
-              "wing": "surge 1010 surge 950",
-              "count": 1
-            },
-            {
-              "wing": "830 surge",
-              "count": 1
-            },
-            {
-              "wing": "Art V2 879, surge 830",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "359/40 skinny",
+          "count": 1
         },
-        "<65kg": {
-          "count": 5,
-          "top_wings": [
-            {
-              "wing": "ART V2 819",
-              "count": 1
-            },
-            {
-              "wing": "ART v2 819",
-              "count": 1
-            },
-            {
-              "wing": "spitfire 1100",
-              "count": 1
-            },
-            {
-              "wing": "ART pro 751",
-              "count": 1
-            },
-            {
-              "wing": "Art v2 999",
-              "count": 1
-            }
-          ]
-        },
-        ">105kg": {
-          "count": 2,
-          "top_wings": [
-            {
-              "wing": "Surge 890",
-              "count": 1
-            },
-            {
-              "wing": "Spitfire 1100",
-              "count": 1
-            }
-          ]
+        {
+          "wing": "Large",
+          "count": 1
         }
-      }
+      ],
+      "top_masts": [
+        {
+          "wing": "82cm Aluminum",
+          "count": 1
+        },
+        {
+          "wing": "75cm HM",
+          "count": 1
+        },
+        {
+          "wing": "75cm Lift",
+          "count": 1
+        },
+        {
+          "wing": "72cm alu",
+          "count": 1
+        }
+      ],
+      "top_fuselages": [
+        {
+          "wing": "Black ultrashort",
+          "count": 2
+        },
+        {
+          "wing": "Red Short",
+          "count": 1
+        },
+        {
+          "wing": "Stock slingshot",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "demographics": {
+    "weight": {
+      "Over 105 kg / 231 lbs": 11,
+      "Under 65 kg / 143 lbs": 14,
+      "85-95 kg / 187-209 lbs": 42,
+      "95-105 kg / 209-231 lbs": 22,
+      "75-85 kg / 165-187 lbs": 85,
+      "65-75 kg / 143-165 lbs": 53
+    },
+    "experience": {
+      "2-4 years": 72,
+      "4+ years": 127,
+      "1-2 years": 24,
+      "Less than 1 year": 3
+    },
+    "gender": {
+      "Male": 170,
+      "Female": 9,
+      "Non-binary": 1
+    },
+    "age": {
+      "36-45": 39,
+      "25-35": 23,
+      "46-55": 60,
+      "65+": 10,
+      "56-65": 44,
+      "Under 25": 5,
+      "Prefer not to say": 1
     }
   }
 }

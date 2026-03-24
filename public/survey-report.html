@@ -3,1746 +3,1791 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AXIS Foils Setup Survey Report — March 2026</title>
+<title>AXIS Foils Community Survey Report — March 2026</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg-primary: #0f0f11;
-    --bg-card: #1a1a1f;
-    --bg-card-alt: #141418;
-    --border: #2a2a32;
-    --border-accent: #3a1a1a;
-    --text-primary: #f0f0f0;
-    --text-secondary: #9ca3af;
-    --text-muted: #6b7280;
-    --red-primary: #e62929;
-    --red-light: #ff3b3b;
-    --red-dark: #b01b1b;
-    --red-glow: rgba(230, 41, 41, 0.15);
-    --surge: #10b981;
-    --fireball: #ef4444;
-    --tempo: #f59e0b;
-    --art: #8b5cf6;
-    --spitfire: #3b82f6;
-    --png: #06b6d4;
-    --surge-glow: rgba(16, 185, 129, 0.12);
+    --bg: #0d1b2a;
+    --card: #152234;
+    --border: #1e3450;
+    --teal: #00b2b4;
+    --teal2: #38bda0;
+    --text: #e2e8f0;
+    --muted: #718096;
+    --accent: #f6ad55;
   }
-
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; }
+  a { color: var(--teal); text-decoration: none; }
+  a:hover { text-decoration: underline; }
 
-  body {
-    background: var(--bg-primary);
-    color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    line-height: 1.6;
-    min-height: 100vh;
-  }
-
-  /* ── HEADER ─────────────────────────────────────── */
-  .header {
-    background: linear-gradient(135deg, #1a0505 0%, #120808 40%, #0a0a0f 100%);
-    border-bottom: 2px solid var(--red-primary);
-    padding: 40px 60px 36px;
-    position: relative;
-    overflow: hidden;
-  }
-  .header::before {
-    content: '';
-    position: absolute;
-    top: -60px; right: -60px;
-    width: 300px; height: 300px;
-    background: radial-gradient(circle, rgba(230,41,41,0.18) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .header::after {
-    content: '';
-    position: absolute;
-    bottom: -40px; left: 30%;
-    width: 200px; height: 200px;
-    background: radial-gradient(circle, rgba(230,41,41,0.08) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .header-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-  }
-  .logo-mark {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-shrink: 0;
-  }
-  .axis-logo-svg {
-    width: 72px;
-    height: 72px;
-  }
-  .logo-text h1 {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: var(--red-primary);
-    margin-bottom: 4px;
-  }
-  .logo-text h2 {
-    font-size: 26px;
-    font-weight: 700;
-    color: var(--text-primary);
-    letter-spacing: -0.5px;
-    line-height: 1.2;
-  }
-  .header-meta {
-    text-align: right;
-    flex-shrink: 0;
-  }
-  .header-meta .date {
-    font-size: 12px;
-    color: var(--red-primary);
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 600;
-    margin-bottom: 8px;
-  }
-  .header-meta .subtitle {
-    font-size: 14px;
-    color: var(--text-secondary);
-  }
-  .header-stats {
-    display: flex;
-    gap: 2px;
-    margin-top: 14px;
-    justify-content: flex-end;
-  }
-  .header-stat {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 8px 16px;
-    text-align: center;
-  }
-  .header-stat .val {
-    font-size: 20px;
-    font-weight: 800;
-    color: var(--red-light);
-    line-height: 1;
-  }
-  .header-stat .lbl {
-    font-size: 10px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 3px;
-  }
-
-  /* ── NAV ─────────────────────────────────────────── */
-  .nav {
-    background: var(--bg-card-alt);
+  /* Header */
+  .site-header {
+    background: linear-gradient(135deg, #0a1628 0%, #0d2240 50%, #0a1628 100%);
     border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    padding: 0 60px;
-  }
-  .nav-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    gap: 4px;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-  .nav-inner::-webkit-scrollbar { display: none; }
-  .nav-link {
-    display: block;
-    padding: 14px 18px;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    text-decoration: none;
-    white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    transition: color 0.2s, border-color 0.2s;
-  }
-  .nav-link:hover {
-    color: var(--text-primary);
-    border-bottom-color: var(--red-primary);
-  }
-
-  /* ── MAIN LAYOUT ──────────────────────────────────── */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 60px 80px;
-  }
-
-  /* ── SECTIONS ─────────────────────────────────────── */
-  .section {
-    margin-bottom: 60px;
-  }
-  .section-header {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 28px;
-  }
-  .section-number {
-    width: 34px; height: 34px;
-    background: var(--red-primary);
-    color: white;
-    font-size: 13px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    flex-shrink: 0;
-  }
-  .section-title {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--text-primary);
-  }
-  .section-sub {
-    font-size: 13px;
-    color: var(--text-muted);
-    margin-top: 2px;
-  }
-  .section-divider {
-    width: 100%;
-    height: 1px;
-    background: linear-gradient(90deg, var(--border) 0%, transparent 100%);
-    margin-bottom: 28px;
-  }
-
-  /* ── CARDS ───────────────────────────────────────── */
-  .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 28px;
-  }
-  .card-title {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-  }
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .grid-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-  }
-
-  /* ── EXECUTIVE SUMMARY KPI CARDS ─────────────────── */
-  .kpi-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-    margin-bottom: 28px;
-  }
-  .kpi-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 24px 20px;
-    position: relative;
-    overflow: hidden;
-  }
-  .kpi-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    background: var(--red-primary);
-  }
-  .kpi-card .kpi-icon {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-  .kpi-card .kpi-value {
-    font-size: 36px;
-    font-weight: 800;
-    color: var(--text-primary);
-    line-height: 1;
-    margin-bottom: 6px;
-  }
-  .kpi-card .kpi-label {
-    font-size: 12px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-  }
-  .kpi-card .kpi-sub {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 8px;
-    border-top: 1px solid var(--border);
-    padding-top: 8px;
-  }
-
-  /* ── INSIGHT QUOTE ───────────────────────────────── */
-  .insight-box {
-    background: linear-gradient(135deg, #1a1a24, #12121a);
-    border: 1px solid #2a2a3a;
-    border-left: 3px solid var(--red-primary);
-    border-radius: 8px;
-    padding: 20px 24px;
-    margin-bottom: 16px;
-  }
-  .insight-box p {
-    font-size: 14px;
-    color: var(--text-secondary);
-    line-height: 1.7;
-  }
-  .insight-box strong {
-    color: var(--text-primary);
-  }
-
-  /* ── SURGE HIGHLIGHT ─────────────────────────────── */
-  .surge-section {
-    background: linear-gradient(135deg, #061a11 0%, #071610 60%, #050d0a 100%);
-    border: 1px solid rgba(16,185,129,0.3);
-    border-radius: 16px;
-    padding: 36px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 28px;
-  }
-  .surge-section::before {
-    content: '';
-    position: absolute;
-    top: -50px; right: -50px;
-    width: 250px; height: 250px;
-    background: radial-gradient(circle, rgba(16,185,129,0.12) 0%, transparent 70%);
-    pointer-events: none;
-  }
-  .surge-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(16,185,129,0.15);
-    border: 1px solid rgba(16,185,129,0.4);
-    border-radius: 20px;
-    padding: 6px 14px;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: var(--surge);
-    margin-bottom: 16px;
-  }
-  .surge-title {
-    font-size: 28px;
-    font-weight: 800;
-    color: var(--text-primary);
-    margin-bottom: 10px;
-  }
-  .surge-sub {
-    font-size: 14px;
-    color: var(--text-secondary);
-    max-width: 700px;
-    line-height: 1.7;
-    margin-bottom: 24px;
-  }
-  .surge-quotes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-    margin-top: 20px;
-  }
-  .surge-quote {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(16,185,129,0.15);
-    border-radius: 8px;
-    padding: 16px;
-    font-size: 13px;
-    color: var(--text-secondary);
-    font-style: italic;
-    line-height: 1.6;
-  }
-  .surge-quote::before {
-    content: '"';
-    font-size: 24px;
-    color: var(--surge);
-    font-style: normal;
-    display: block;
-    margin-bottom: 4px;
-    line-height: 1;
-  }
-
-  /* ── DISCIPLINE WING CARD ─────────────────────────── */
-  .disc-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  /* ── TAKEAWAYS ───────────────────────────────────── */
-  .takeaway-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .takeaway-list li {
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px 20px;
-  }
-  .takeaway-icon {
-    font-size: 20px;
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
-  .takeaway-content strong {
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-  }
-  .takeaway-content span {
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-  }
-
-  /* ── GEO BARS ────────────────────────────────────── */
-  .geo-bar-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-  .geo-label {
-    width: 120px;
-    font-size: 13px;
-    color: var(--text-secondary);
-    text-align: right;
-    flex-shrink: 0;
-  }
-  .geo-bar-track {
-    flex: 1;
-    height: 8px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  .geo-bar-fill {
-    height: 100%;
-    border-radius: 4px;
-    transition: width 1s ease;
-  }
-  .geo-count {
-    width: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-primary);
-    flex-shrink: 0;
-  }
-  .geo-pct {
-    width: 38px;
-    font-size: 12px;
-    color: var(--text-muted);
-    flex-shrink: 0;
-    text-align: right;
-  }
-
-  /* ── LEGEND ──────────────────────────────────────── */
-  .legend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  .legend-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 12px;
-    color: var(--text-secondary);
-    font-weight: 500;
-  }
-  .legend-dot {
-    width: 10px; height: 10px;
-    border-radius: 2px;
-    flex-shrink: 0;
-  }
-
-  /* ── FOOTER ──────────────────────────────────────── */
-  .footer {
-    background: var(--bg-card-alt);
-    border-top: 1px solid var(--border);
-    padding: 28px 60px;
+    padding: 2rem 1.5rem;
     text-align: center;
   }
-  .footer-inner {
-    max-width: 1200px;
-    margin: 0 auto;
+  .site-header h1 { font-size: 2rem; font-weight: 700; color: var(--teal); letter-spacing: -0.5px; }
+  .site-header p { color: var(--muted); margin-top: 0.4rem; }
+  .nav-links { margin-top: 1rem; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; font-size: 0.9rem; }
+  
+  /* Stats bar */
+  .stats-bar {
+    display: flex; flex-wrap: wrap; gap: 1rem;
+    padding: 1.5rem;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    justify-content: center;
   }
-  .footer p {
-    font-size: 12px;
-    color: var(--text-muted);
-    line-height: 1.8;
+  .stat-pill {
+    background: rgba(0,178,180,0.12);
+    border: 1px solid rgba(0,178,180,0.3);
+    border-radius: 999px;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
   }
-  .footer .footer-brand {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--red-primary);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+  .stat-pill strong { color: var(--teal); }
+
+  /* Content */
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+  
+  section { margin-bottom: 3rem; }
+  section h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--teal);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
   }
 
-  /* ── CHART CONTAINERS ─────────────────────────────── */
-  .chart-wrap {
-    position: relative;
+  /* Chart cards */
+  .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.2rem;
   }
-  .chart-wrap canvas {
-    max-width: 100%;
+  .chart-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem;
   }
+  .chart-card h3 { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; font-weight: 500; }
+  .chart-container { position: relative; height: 200px; }
+  .chart-container.tall { height: 280px; }
 
-  /* ── COMPONENT TABLE ─────────────────────────────── */
-  .comp-item {
+  /* Discipline overview chart */
+  .disc-overview-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .disc-chart-container { position: relative; height: 340px; }
+  
+  /* Timeline */
+  .timeline-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .timeline-chart-container { position: relative; height: 200px; }
+
+  /* Per-discipline cards */
+  .disc-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+  }
+  .disc-card-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.04);
+    padding: 1rem 1.5rem;
+    background: rgba(0,178,180,0.06);
+    border-bottom: 1px solid var(--border);
   }
-  .comp-item:last-child { border-bottom: none; }
-  .comp-rank {
-    width: 26px; height: 26px;
-    background: rgba(230,41,41,0.12);
-    border: 1px solid rgba(230,41,41,0.2);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
+  .disc-card-header h3 { font-size: 1.1rem; font-weight: 600; }
+  .disc-count {
+    background: rgba(0,178,180,0.2);
+    color: var(--teal);
+    border-radius: 999px;
+    padding: 0.2rem 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .disc-charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+  .chart-wrap h4 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+  .chart-wrap canvas { max-height: 220px; }
+
+  /* New badge */
+  .new-badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #1a1a1a;
+    font-size: 0.7rem;
     font-weight: 700;
-    color: var(--red-primary);
-    flex-shrink: 0;
-  }
-  .comp-name {
-    flex: 1;
-    margin: 0 12px;
-    font-size: 13px;
-    color: var(--text-primary);
-    font-weight: 500;
-  }
-  .comp-bar-track {
-    width: 120px;
-    height: 6px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 3px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .comp-bar-fill {
-    height: 100%;
-    border-radius: 3px;
-    background: var(--red-primary);
-  }
-  .comp-count {
-    width: 40px;
-    text-align: right;
-    font-size: 12px;
-    color: var(--text-muted);
-    flex-shrink: 0;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
   }
 
-  /* ── PRINT ───────────────────────────────────────── */
-  @media print {
-    body { background: white; color: black; }
-    .nav { display: none; }
-    .header { background: #e62929; color: white; print-color-adjust: exact; }
-    .card { border: 1px solid #ddd; background: white; page-break-inside: avoid; }
-    .section { page-break-inside: avoid; }
-    .container { padding: 20px; }
-    .kpi-card { border: 1px solid #ddd; background: white; }
-    .footer { border-top: 1px solid #ddd; background: white; }
-    .surge-section { background: #f0fdf4; border: 1px solid #10b981; }
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
   }
 
-  @media (max-width: 900px) {
-    .header { padding: 24px 24px 20px; }
-    .header-inner { flex-direction: column; align-items: flex-start; }
-    .header-meta { text-align: left; }
-    .header-stats { justify-content: flex-start; flex-wrap: wrap; }
-    .container { padding: 24px; }
-    .nav { padding: 0 24px; }
-    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-    .grid-2, .disc-grid { grid-template-columns: 1fr; }
-    .grid-3 { grid-template-columns: 1fr; }
-    .surge-quotes { grid-template-columns: 1fr; }
-    .footer { padding: 20px 24px; }
+  @media (max-width: 600px) {
+    .site-header h1 { font-size: 1.4rem; }
+    .charts-grid { grid-template-columns: 1fr; }
+    .disc-charts-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
 <body>
 
-<!-- ═══ HEADER ═══════════════════════════════════════════════════════════ -->
-<header class="header">
-  <div class="header-inner">
-    <div class="logo-mark">
-      <!-- AXIS Logo Mark (stylized A) -->
-      <svg class="axis-logo-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect width="80" height="80" rx="14" fill="#e62929"/>
-        <path d="M40 12L14 62h14l5-10h14l5 10h14L40 12zm0 18l5 12H35l5-12z" fill="white"/>
-      </svg>
-      <div class="logo-text">
-        <h1>AXIS Foils</h1>
-        <h2>Setup Survey Report<br>March 2026</h2>
-      </div>
-    </div>
-    <div class="header-meta">
-      <div class="date">📅 March 23, 2026</div>
-      <div class="subtitle">AXIS Foils Riders Community Survey</div>
-      <div class="header-stats">
-        <div class="header-stat">
-          <div class="val">188</div>
-          <div class="lbl">Responses</div>
-        </div>
-        <div class="header-stat">
-          <div class="val">3.2</div>
-          <div class="lbl">Avg Disciplines</div>
-        </div>
-        <div class="header-stat">
-          <div class="val">129</div>
-          <div class="lbl">Locations</div>
-        </div>
-        <div class="header-stat">
-          <div class="val">6</div>
-          <div class="lbl">Continents</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<header class="site-header">
+  <h1>🏄 AXIS Foils Community Survey</h1>
+  <p>March 2026 Results — 227 Responses</p>
+  <nav class="nav-links">
+    <a href="/index.html">← Advisor</a>
+    <a href="/survey-map.html">🗺️ Rider Map</a>
+    <a href="/insights.html">📊 Insights</a>
+  </nav>
 </header>
 
-<!-- ═══ NAV ══════════════════════════════════════════════════════════════ -->
-<nav class="nav">
-  <div class="nav-inner">
-    <a class="nav-link" href="#exec">Executive Summary</a>
-    <a class="nav-link" href="#demo">Demographics</a>
-    <a class="nav-link" href="#disciplines">Disciplines</a>
-    <a class="nav-link" href="#frontwings">Front Wings</a>
-    <a class="nav-link" href="#surge">The Surge Effect</a>
-    <a class="nav-link" href="#components">Components</a>
-    <a class="nav-link" href="#geo">Geographic Reach</a>
-    <a class="nav-link" href="#takeaways">Key Takeaways</a>
-  </div>
-</nav>
-
-<!-- ═══ MAIN ══════════════════════════════════════════════════════════════ -->
-<main class="container">
-
-  <!-- ① EXECUTIVE SUMMARY -->
-  <section class="section" id="exec">
-    <div class="section-header">
-      <div class="section-number">1</div>
-      <div>
-        <div class="section-title">Executive Summary</div>
-        <div class="section-sub">188 riders from 150+ locations across 6 continents</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="kpi-grid">
-      <div class="kpi-card">
-        <div class="kpi-icon">🏄</div>
-        <div class="kpi-value">188</div>
-        <div class="kpi-label">Survey Responses</div>
-        <div class="kpi-sub">~1.3% of 10,600-member Facebook group</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon">🎯</div>
-        <div class="kpi-value">3.5</div>
-        <div class="kpi-label">Avg Disciplines</div>
-        <div class="kpi-sub">Typical AXIS rider is highly multi-sport</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon">⚖️</div>
-        <div class="kpi-value">75–85kg</div>
-        <div class="kpi-label">Median Rider Weight</div>
-        <div class="kpi-sub">36% of respondents in this range</div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-icon">📅</div>
-        <div class="kpi-value">59%</div>
-        <div class="kpi-label">4+ Years Foiling</div>
-        <div class="kpi-sub">Highly experienced rider base</div>
-      </div>
-    </div>
-
-    <div class="insight-box">
-      <p>AXIS riders are <strong>seasoned multi-disciplinarians</strong>. The average respondent foils across 3.5 disciplines, spanning wing, downwind, prone, and parawing. The community skews experienced (88% with 2+ years), globally distributed, and actively curious about new gear. <strong>The Surge family has emerged as the breakout product</strong> — dominating prone foiling and rapidly gaining ground in wing and parawing.</p>
-    </div>
-
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-title">🏆 Universal Setup (Most Commonly Cited)</div>
-        <div class="comp-item">
-          <div class="comp-rank">🏄</div>
-          <div class="comp-name">Front Wing: <strong>Surge 890</strong></div>
-          <div class="comp-count">#1 overall</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank">🪶</div>
-          <div class="comp-name">Rear Wing: <strong>Surf Skinny 300</strong></div>
-          <div class="comp-count">22+ mentions</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank">⚙️</div>
-          <div class="comp-name">Fuselage: <strong>Black Ultrashort</strong></div>
-          <div class="comp-count">35+ mentions</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank">📏</div>
-          <div class="comp-name">Mast: <strong>80cm UHM Carbon</strong></div>
-          <div class="comp-count">~25 mentions</div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-title">📊 Discipline Leader by Category</div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3);color:#10b981">S</div>
-          <div class="comp-name">Wing Foiling — <strong>Surge family</strong></div>
-          <div class="comp-count">🥇 #1 (48 setups)</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3);color:#ef4444">F</div>
-          <div class="comp-name">Parawing — <strong>Fireball 1070</strong></div>
-          <div class="comp-count">🥇 #1 (25 setups)</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3);color:#10b981">S</div>
-          <div class="comp-name">Prone Foiling — <strong>Surge 890</strong></div>
-          <div class="comp-count">🥇 Clear #1</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(245,158,11,0.15);border-color:rgba(245,158,11,0.3);color:#f59e0b">T</div>
-          <div class="comp-name">Downwind SUP — <strong>Tempo family</strong></div>
-          <div class="comp-count">🥇 Dominant</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(239,68,68,0.15);border-color:rgba(239,68,68,0.3);color:#ef4444">F</div>
-          <div class="comp-name">Pump/Dock Start — <strong>Fireball range</strong></div>
-          <div class="comp-count">🥇 Dominant</div>
-        </div>
-        <div class="comp-item">
-          <div class="comp-rank" style="background:rgba(16,185,129,0.15);border-color:rgba(16,185,129,0.3);color:#10b981">S</div>
-          <div class="comp-name">Tow-In — <strong>Surge 780/830</strong></div>
-          <div class="comp-count">🥇 Clear #1</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ② DEMOGRAPHICS -->
-  <section class="section" id="demo">
-    <div class="section-header">
-      <div class="section-number">2</div>
-      <div>
-        <div class="section-title">Demographics</div>
-        <div class="section-sub">Who is the AXIS rider?</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="grid-3">
-      <div class="card" style="grid-column: 1;">
-        <div class="card-title">⚖️ Weight Distribution</div>
-        <div class="chart-wrap" style="height:280px; display:flex; align-items:center; justify-content:center;">
-          <canvas id="weightChart"></canvas>
-        </div>
-      </div>
-      <div class="card" style="grid-column: 2;">
-        <div class="card-title">📅 Experience Levels</div>
-        <div class="chart-wrap" style="height:280px;">
-          <canvas id="expChart"></canvas>
-        </div>
-      </div>
-      <div class="card" style="grid-column: 3;">
-        <div class="card-title">🎂 Age Groups (23 responses)</div>
-        <div class="chart-wrap" style="height:280px;">
-          <canvas id="ageChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ③ DISCIPLINE PARTICIPATION -->
-  <section class="section" id="disciplines">
-    <div class="section-header">
-      <div class="section-number">3</div>
-      <div>
-        <div class="section-title">Discipline Participation</div>
-        <div class="section-sub">Average rider participates in 3.5 disciplines — true multi-sport athletes</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="card">
-      <div class="card-title">% of 188 respondents who ride each discipline</div>
-      <div class="chart-wrap" style="height: 400px;">
-        <canvas id="disciplineChart"></canvas>
-      </div>
-    </div>
-  </section>
-
-  <!-- ④ TOP FRONT WINGS BY DISCIPLINE -->
-  <section class="section" id="frontwings">
-    <div class="section-header">
-      <div class="section-number">4</div>
-      <div>
-        <div class="section-title">Top Front Wings by Discipline</div>
-        <div class="section-sub">Real-world choices from riders — what's actually in their quivers</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="legend">
-      <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Surge</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Fireball</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Tempo</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>ART</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Spitfire</div>
-      <div class="legend-item"><div class="legend-dot" style="background:#06b6d4"></div>PNG</div>
-    </div>
-
-    <div class="disc-grid">
-      <!-- Wing Foiling -->
-      <div class="card">
-        <div class="card-title">🌬️ Wing Foiling — 48 setups (70%)</div>
-        <div class="chart-wrap" style="height:220px;">
-          <canvas id="wingChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Downwind SUP -->
-      <div class="card">
-        <div class="card-title">🌊 Downwind SUP — 30 setups (44%)</div>
-        <div class="chart-wrap" style="height:220px;">
-          <canvas id="dwChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Prone -->
-      <div class="card">
-        <div class="card-title">🏄 Prone Foiling — 26 setups (38%)</div>
-        <div class="chart-wrap" style="height:220px;">
-          <canvas id="proneChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Parawing -->
-      <div class="card">
-        <div class="card-title">🪂 Parawing — 25 setups (37%)</div>
-        <div class="chart-wrap" style="height:220px;">
-          <canvas id="paraChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Tow-In -->
-      <div class="card">
-        <div class="card-title">🚤 Tow-In Foiling — 13 setups (19%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="towChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Dock Start -->
-      <div class="card">
-        <div class="card-title">🛥️ Dock Start — 26 setups (38%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="dockChart"></canvas>
-        </div>
-      </div>
-
-      <!-- SUP Non-DW -->
-      <div class="card">
-        <div class="card-title">🏄‍♂️ SUP Foiling (Non-DW) — 19 setups (28%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="supChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Wake Foiling -->
-      <div class="card">
-        <div class="card-title">🚤 Wake Foiling — 13 setups (19%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="wakeChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Foil Assist -->
-      <div class="card">
-        <div class="card-title">🔋 Foil Assist — 14 setups (21%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="foilAssistChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Kite Foiling -->
-      <div class="card">
-        <div class="card-title">🪁 Kite Foiling — 6 setups (9%)</div>
-        <div class="chart-wrap" style="height:200px;">
-          <canvas id="kiteChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Pump / Flat Water (full width) -->
-      <div class="card" style="grid-column: 1 / -1;">
-        <div class="card-title">⚡ Long Distance Pump / Flat Water — 18 setups (26%)</div>
-        <div class="chart-wrap" style="height:180px;">
-          <canvas id="pumpChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑤ THE SURGE EFFECT -->
-  <section class="section" id="surge">
-    <div class="section-header">
-      <div class="section-number">5</div>
-      <div>
-        <div class="section-title">The Surge Effect</div>
-        <div class="section-sub">A product that's redefining multiple disciplines at once</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="surge-section">
-      <div class="surge-badge">⚡ Breakout Product 2025–2026</div>
-      <div class="surge-title">The Surge Is Taking Over</div>
-      <div class="surge-sub">
-        Across prone, wing, parawing, tow-in, and SUP — the Surge family consistently appears as the #1 choice or fastest-growing wing. Riders repeatedly describe it as a <em>"game changer"</em> — often switching from Spitfire or ART after their first session. Its unique ability to turn sharply while maintaining glide and pump efficiency makes it a true multi-discipline tool.
-      </div>
-      <div class="surge-quotes">
-        <div class="surge-quote">The Surge is a game changer. Turns off the back foot like surfing. I've literally felt my riding improve overnight.</div>
-        <div class="surge-quote">Surge absolutely dominates prone. Riders rave about the turning and pump ability. "Game changer" mentioned multiple times.</div>
-        <div class="surge-quote">Previously on Spitfire 960, now on Surge 890. The difference is night and day for wave riding — it just goes where you look.</div>
-      </div>
-    </div>
-
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-title">📊 Surge vs Other Families by Discipline</div>
-        <div class="chart-wrap" style="height:320px;">
-          <canvas id="surgeChart"></canvas>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-title">🏆 Surge Size Popularity (mentions across all disciplines)</div>
-        <div class="chart-wrap" style="height:320px;">
-          <canvas id="surgeSizeChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑥ UNIVERSAL COMPONENTS -->
-  <section class="section" id="components">
-    <div class="section-header">
-      <div class="section-number">6</div>
-      <div>
-        <div class="section-title">Universal Components</div>
-        <div class="section-sub">The rear wings, fuselages, and masts riders trust across disciplines</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="grid-3">
-      <!-- Rear Wings -->
-      <div class="card">
-        <div class="card-title">🪶 Top Rear Wings</div>
-        <div class="chart-wrap" style="height:280px;">
-          <canvas id="rearWingChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Fuselages -->
-      <div class="card">
-        <div class="card-title">⚙️ Top Fuselages</div>
-        <div class="chart-wrap" style="height:280px;">
-          <canvas id="fuseChart"></canvas>
-        </div>
-      </div>
-
-      <!-- Masts -->
-      <div class="card">
-        <div class="card-title">📏 Top Masts</div>
-        <div class="chart-wrap" style="height:280px;">
-          <canvas id="mastChart"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <div class="insight-box" style="margin-top:20px;">
-      <p><strong>The universal rig:</strong> Black Ultrashort fuse + Surf Skinny 300 rear wing + 80cm UHM Carbon mast works across nearly every discipline. This modularity is a key AXIS strength — riders can swap just the front wing and ride from prone to wing to parawing without changing anything else.</p>
-    </div>
-  </section>
-
-  <!-- ⑦ GEOGRAPHIC REACH -->
-  <section class="section" id="geo">
-    <div class="section-header">
-      <div class="section-number">7</div>
-      <div>
-        <div class="section-title">Geographic Reach</div>
-        <div class="section-sub">67 unique locations across 6 continents — AXIS is everywhere</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <div class="grid-2">
-      <div class="card">
-        <div class="card-title">🌍 Riders by Region</div>
-        <div class="chart-wrap" style="height:300px;">
-          <canvas id="geoChart"></canvas>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-title">📍 Top Countries / Locations</div>
-        <div style="padding-top: 8px;">
-          <div class="geo-bar-row">
-            <div class="geo-label">New Zealand</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:87%;background:#10b981;"></div></div>
-            <div class="geo-count">7</div><div class="geo-pct">10%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Switzerland</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:62%;background:#3b82f6;"></div></div>
-            <div class="geo-count">5</div><div class="geo-pct">7%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Australia</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:62%;background:#10b981;"></div></div>
-            <div class="geo-count">5</div><div class="geo-pct">7%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">France</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#3b82f6;"></div></div>
-            <div class="geo-count">4</div><div class="geo-pct">6%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">California</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#f59e0b;"></div></div>
-            <div class="geo-count">4</div><div class="geo-pct">6%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Oregon/Gorge</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:50%;background:#f59e0b;"></div></div>
-            <div class="geo-count">4</div><div class="geo-pct">6%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Portugal</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:37%;background:#3b82f6;"></div></div>
-            <div class="geo-count">3</div><div class="geo-pct">4%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Hawaii</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:37%;background:#f59e0b;"></div></div>
-            <div class="geo-count">3</div><div class="geo-pct">4%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Germany</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:25%;background:#3b82f6;"></div></div>
-            <div class="geo-count">2</div><div class="geo-pct">3%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Greece</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:25%;background:#3b82f6;"></div></div>
-            <div class="geo-count">2</div><div class="geo-pct">3%</div>
-          </div>
-          <div class="geo-bar-row">
-            <div class="geo-label">Other (57+ locs)</div>
-            <div class="geo-bar-track"><div class="geo-bar-fill" style="width:100%;background:#6b7280;"></div></div>
-            <div class="geo-count">~27</div><div class="geo-pct">40%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ⑧ KEY TAKEAWAYS -->
-  <section class="section" id="takeaways">
-    <div class="section-header">
-      <div class="section-number">8</div>
-      <div>
-        <div class="section-title">Key Takeaways</div>
-        <div class="section-sub">Strategic insights from 68 real-world setups</div>
-      </div>
-    </div>
-    <div class="section-divider"></div>
-
-    <ul class="takeaway-list">
-      <li>
-        <div class="takeaway-icon">🚀</div>
-        <div class="takeaway-content">
-          <strong>The Surge Is the Breakout Product of 2025–2026</strong>
-          <span>Surge dominates prone (#1 across all weights), is the fastest-growing choice in wing foiling, and is now penetrating tow-in, parawing, and SUP. Riders consistently report switching from Spitfire/ART and never looking back. The "game changer" phrase appears multiple times unprompted.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">🌊</div>
-        <div class="takeaway-content">
-          <strong>Tempo Owns Downwind — Fireball Is Universal Speed</strong>
-          <span>Tempo (960–1090) is the definitive DW choice for performance riders chasing speed. Fireball 1070 is the "Swiss Army knife" — appearing in Wing, DW, Parawing, Prone, and even Dock Start setups. The 1070 size specifically is the single most versatile wing in the range.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">⚙️</div>
-        <div class="takeaway-content">
-          <strong>Modularity Is AXIS's Most Valued Competitive Advantage</strong>
-          <span>Riders repeatedly cite the ability to swap just one component — front wing, fuselage, or rear wing — to transform a setup across disciplines. The Black Ultrashort + Surf Skinny 300 + 80cm UHM combination works from prone to wing to parawing. This cross-compatibility drives loyalty and upsell.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">📦</div>
-        <div class="takeaway-content">
-          <strong>Supply & Distribution Gaps Are Real Frustrations</strong>
-          <span>Multiple riders mention difficulty getting Surge wings (especially in Germany, South Africa). One rider specifically sold their Spitfire 1180 waiting for the Surge 1150. Demand clearly outpaces availability in certain markets — a distribution opportunity.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">🌍</div>
-        <div class="takeaway-content">
-          <strong>Global Reach — Local Gaps in Distribution</strong>
-          <span>67 unique locations across 6 continents proves AXIS has true global reach — but feedback from South Africa, Ukraine, and inland Europe highlights unserved distribution territory. Switzerland alone has 5 respondents who are active community builders wanting official support.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">🎯</div>
-        <div class="takeaway-content">
-          <strong>Experienced Riders Drive Community Wisdom</strong>
-          <span>88% have 2+ years of foiling experience, and 59% have 4+ years. This isn't a beginner survey — it's data from the community's most engaged and influential members. Their setups reflect genuine performance optimization, not marketing influence. These are the people who recommend gear to newcomers.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">📈</div>
-        <div class="takeaway-content">
-          <strong>Product Gaps The Community Is Asking For</strong>
-          <span>Surge 1150 (multiple requests), larger Tempos for heavier DW riders (>1090), bigger Surge sizes for lake/bay downwind runs, and a Surf Skinny 340 (specifically requested to pair with Surge 830). Riders are clearly signaling the next product tier they'll buy the moment it's available.</span>
-        </div>
-      </li>
-      <li>
-        <div class="takeaway-icon">💡</div>
-        <div class="takeaway-content">
-          <strong>The Advisor Tool Has Real-World Data to Build On</strong>
-          <span>With 68 setups mapped by weight, experience, and discipline, the AXIS Advisor now has a genuine recommendation engine grounded in community truth — not just catalog logic. The sweet spot: Surge 890 + Surf Skinny 300 + Black Ultrashort + 80cm UHM = the setup that covers prone, wing, parawing, and SUP for most 75–85kg riders.</span>
-        </div>
-      </li>
-    </ul>
-  </section>
-
-</main>
-
-<!-- ═══ WORLD RECORD HIGHLIGHT ════════════════════════════════════════════ -->
-<div class="section" style="margin-top: 40px;">
-  <div class="section-header">
-    <div class="section-icon">🏆</div>
-    <div>
-      <div class="section-title">World Record — Pump Foil</div>
-      <div class="section-sub">Nicolas Iten breaks his own record on AXIS gear</div>
-    </div>
-  </div>
-  <div class="card" style="border-left: 3px solid #f59e0b;">
-    <div style="display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 260px;">
-        <div style="font-size: 36px; font-weight: 800; color: #f59e0b; letter-spacing: -1px;">73.6 km · 4h 55m</div>
-        <div style="color: #9ca3af; margin-top: 4px;">Non-stop pump foiling · Lake Sempach, Switzerland · 6°C water & air</div>
-        <div style="margin-top: 16px; color: #f0f0f0; line-height: 1.6;">
-          Nicolas Iten holds the pump foil world record — 73.6 km in 4 hours 55 minutes of non-stop pumping, on a <strong style="color: #e62929;">full AXIS setup</strong>. Stopped only due to wind. Believes 100 km is possible in better conditions.
-        </div>
-        <div style="margin-top: 16px; padding: 12px; background: rgba(230,41,41,0.08); border-radius: 8px; font-size: 13px;">
-          <strong style="color: #e62929;">Setup:</strong><br>
-          Fireball 1750 · Dock 899 board · Fatty 80 mast · Fatty Psycho fuse · Proto Skinny rear wing
-        </div>
-        <div style="margin-top: 12px;">
-          <a href="https://www.instagram.com/reel/DV8ENz0Dbdr/" target="_blank" style="color: #e62929; text-decoration: none; font-size: 13px;">📸 Watch the reel on Instagram →</a>
-        </div>
-      </div>
-      <div style="min-width: 140px; text-align: center;">
-        <div style="font-size: 48px; font-weight: 800; color: #e62929;">73.6</div>
-        <div style="color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Kilometers</div>
-        <div style="margin-top: 12px; font-size: 36px; font-weight: 800; color: #10b981;">4:55</div>
-        <div style="color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">Hours non-stop</div>
-      </div>
-    </div>
-    <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid #2a2a32; font-style: italic; color: #9ca3af; font-size: 13px;">
-      "New record, 73.6km and 4:55 nonstop pumping with FB1750. Too much wind, but great shape test — water and air 6 degrees. Confident that 100km could be possible with better circumstances."
-    </div>
-  </div>
-
-  <div class="card" style="border-left: 3px solid #10b981; margin-top: 16px;">
-    <div style="display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
-      <div style="flex: 1; min-width: 260px;">
-        <div style="font-size: 36px; font-weight: 800; color: #10b981; letter-spacing: -1px;">1-Hour Distance Record</div>
-        <div style="color: #9ca3af; margin-top: 4px;">August 24, 2025 · Lake Sempach, Switzerland</div>
-        <div style="margin-top: 16px; color: #f0f0f0; line-height: 1.6;">
-          Nicolas Iten also holds the 1-hour pump foil distance record — pumping exactly <strong style="color: #10b981;">20.13 km in 60:00</strong> at an average speed of 20.13 KPH with remarkable consistency across every split.
-        </div>
-        <div style="margin-top: 16px; padding: 12px; background: rgba(16,185,129,0.08); border-radius: 8px; font-size: 13px;">
-          <strong style="color: #10b981;">Garmin Stats:</strong><br>
-          Avg pace: 2:59/km · Best pace: 2:51/km · Avg HR: 172 bpm · Max HR: 193 bpm
-        </div>
-      </div>
-      <div style="min-width: 140px; text-align: center;">
-        <div style="font-size: 48px; font-weight: 800; color: #10b981;">20.13</div>
-        <div style="color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">KM in 1 hour</div>
-        <div style="margin-top: 12px; font-size: 36px; font-weight: 800; color: #f59e0b;">20.13</div>
-        <div style="color: #6b7280; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;">KPH average</div>
-      </div>
-    </div>
-  </div>
+<div class="stats-bar">
+  <div class="stat-pill"><strong>227</strong> total responses</div>
+  <div class="stat-pill"><strong>+39</strong> new since last update</div>
+  <div class="stat-pill"><strong>13</strong> disciplines tracked</div>
+  <div class="stat-pill"><strong>708</strong> setup entries</div>
+  <div class="stat-pill">First: <strong>2026-03-08</strong></div>
+  <div class="stat-pill">Latest: <strong>2026-03-24</strong></div>
 </div>
 
-<!-- ═══ FOOTER ════════════════════════════════════════════════════════════ -->
-<footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-brand">AXIS Foils</div>
-    <p>
-      Based on 188 anonymous responses from AXIS Foil Riders, March 2026<br>
-      Compiled from the AXIS Foil Riders Facebook Group (10,500+ members) · Survey period: March 2026<br>
-      Presented by Evan · Data represents real-world setup choices from active foil riders worldwide
-    </p>
-  </div>
+<div class="container">
+
+  <!-- Timeline -->
+  <section>
+    <h2>📅 Response Timeline</h2>
+    <div class="timeline-card">
+      <div class="timeline-chart-container">
+        <canvas id="timelineChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demographics -->
+  <section>
+    <h2>👤 Demographics</h2>
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Rider Weight</h3>
+        <div class="chart-container"><canvas id="weightChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Foiling Experience</h3>
+        <div class="chart-container"><canvas id="expChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Age Groups</h3>
+        <div class="chart-container"><canvas id="ageChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Gender</h3>
+        <div class="chart-container"><canvas id="genderChart"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discipline Overview -->
+  <section>
+    <h2>🏄 Discipline Breakdown</h2>
+    <div class="disc-overview-card">
+      <div class="disc-chart-container">
+        <canvas id="discChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Per-Discipline Details -->
+  <section>
+    <h2>🔧 Setup Details by Discipline</h2>
+    
+    <div class="disc-card" id="disc-wing_foiling">
+      <div class="disc-card-header">
+        <h3>Wing Foiling</h3>
+        <span class="disc-count">169 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_wing_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_wing_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_wing_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_wing_foiling"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-downwind_sup">
+      <div class="disc-card-header">
+        <h3>Downwind SUP</h3>
+        <span class="disc-count">82 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_downwind_sup"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_downwind_sup"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_downwind_sup"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_downwind_sup"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-parawing">
+      <div class="disc-card-header">
+        <h3>Parawing</h3>
+        <span class="disc-count">71 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_parawing"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_parawing"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_parawing"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_parawing"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-prone">
+      <div class="disc-card-header">
+        <h3>Prone</h3>
+        <span class="disc-count">66 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_prone"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_prone"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_prone"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_prone"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-dock_start">
+      <div class="disc-card-header">
+        <h3>Dock Start</h3>
+        <span class="disc-count">64 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_dock_start"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_dock_start"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_dock_start"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_dock_start"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-foil_assist">
+      <div class="disc-card-header">
+        <h3>Foil Assist</h3>
+        <span class="disc-count">55 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_foil_assist"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_foil_assist"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_foil_assist"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_foil_assist"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-sup_foiling">
+      <div class="disc-card-header">
+        <h3>SUP Foiling</h3>
+        <span class="disc-count">53 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_sup_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_sup_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_sup_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_sup_foiling"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-long_distance_pump">
+      <div class="disc-card-header">
+        <h3>Long Distance Pump</h3>
+        <span class="disc-count">44 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_long_distance_pump"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_long_distance_pump"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_long_distance_pump"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_long_distance_pump"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-wake_foiling">
+      <div class="disc-card-header">
+        <h3>Wake Foiling</h3>
+        <span class="disc-count">39 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_wake_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_wake_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_wake_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_wake_foiling"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-tow_in">
+      <div class="disc-card-header">
+        <h3>Tow-In</h3>
+        <span class="disc-count">29 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_tow_in"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_tow_in"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_tow_in"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_tow_in"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-kite_foiling">
+      <div class="disc-card-header">
+        <h3>Kite Foiling</h3>
+        <span class="disc-count">25 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_kite_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_kite_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_kite_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_kite_foiling"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-efoil">
+      <div class="disc-card-header">
+        <h3>Efoil</h3>
+        <span class="disc-count">7 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_efoil"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_efoil"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_efoil"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_efoil"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="disc-card" id="disc-windsurf_foiling">
+      <div class="disc-card-header">
+        <h3>Windsurf Foiling</h3>
+        <span class="disc-count">4 riders</span>
+      </div>
+      <div class="disc-charts-grid">
+
+        <div class="chart-wrap">
+          <h4>Front Wings</h4>
+          <canvas id="fw_windsurf_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Rear Wings</h4>
+          <canvas id="rw_windsurf_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Masts</h4>
+          <canvas id="mast_windsurf_foiling"></canvas>
+        </div>
+
+        <div class="chart-wrap">
+          <h4>Fuselages</h4>
+          <canvas id="fuse_windsurf_foiling"></canvas>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  Data from Google Forms community survey · 227 responses collected between 2026-03-08 and 2026-03-24 · AXIS Foils Advisor
 </footer>
 
-<!-- ═══ CHART.JS ═══════════════════════════════════════════════════════════ -->
 <script>
-// ── GLOBAL DEFAULTS ──────────────────────────────────────────────────────
-Chart.defaults.color = '#9ca3af';
-Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif";
-Chart.defaults.font.size = 12;
+Chart.defaults.color = '#a0aec0';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
 
-const RED = '#e62929';
-const RED_DIM = 'rgba(230,41,41,0.7)';
-const SURGE = '#10b981';
-const FIREBALL = '#ef4444';
-const TEMPO = '#f59e0b';
-const ART = '#8b5cf6';
-const SPITFIRE = '#3b82f6';
-const PNG = '#06b6d4';
-const GREY = '#4b5563';
-
-// Helper to get consistent wing color
-function wingColor(name) {
-  const n = name.toLowerCase();
-  if (n.includes('surge')) return SURGE;
-  if (n.includes('fireball') || n.includes('fb')) return FIREBALL;
-  if (n.includes('tempo')) return TEMPO;
-  if (n.includes('art')) return ART;
-  if (n.includes('spitfire') || n.includes('sf') || n.includes('spit')) return SPITFIRE;
-  if (n.includes('png')) return PNG;
-  return GREY;
-}
-
-const chartOpts = (horizontal = false) => ({
-  indexAxis: horizontal ? 'y' : 'x',
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: { display: false },
-    tooltip: {
-      backgroundColor: '#1a1a1f',
-      borderColor: '#2a2a32',
-      borderWidth: 1,
-      titleColor: '#f0f0f0',
-      bodyColor: '#9ca3af',
-      padding: 10,
-    }
-  },
-  scales: {
-    x: {
-      grid: { color: 'rgba(255,255,255,0.04)' },
-      border: { color: 'rgba(255,255,255,0.08)' },
-      ticks: { color: '#6b7280', maxRotation: 0 }
-    },
-    y: {
-      grid: { color: 'rgba(255,255,255,0.04)' },
-      border: { color: 'rgba(255,255,255,0.08)' },
-      ticks: { color: '#9ca3af' }
-    }
-  }
-});
-
-// ── 1. WEIGHT DONUT ────────────────────────────────────────────────────
-new Chart(document.getElementById('weightChart'), {
-  type: 'doughnut',
+// Timeline
+new Chart(document.getElementById('timelineChart'), {
+  type: 'line',
   data: {
-    labels: ['75–85 kg', '65–75 kg', '85–95 kg', '95–105 kg', '<65 kg', '>105 kg'],
+    labels: ["2026-03-08", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-14", "2026-03-15", "2026-03-16", "2026-03-18", "2026-03-20", "2026-03-23", "2026-03-24"],
     datasets: [{
-      data: [71, 48, 33, 16, 13, 7],
-      backgroundColor: [RED, '#f59e0b', '#3b82f6', '#8b5cf6', '#10b981', '#06b6d4'],
-      borderWidth: 2,
-      borderColor: '#1a1a1f',
-      hoverOffset: 6
+      data: [21, 34, 15, 13, 8, 40, 5, 1, 4, 2, 1, 60, 23],
+      borderColor: 'rgba(0,178,180,0.9)',
+      backgroundColor: 'rgba(0,178,180,0.1)',
+      fill: true,
+      tension: 0.3,
+      pointRadius: 3,
+      pointBackgroundColor: 'rgba(0,178,180,1)',
     }]
   },
   options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    cutout: '62%',
-    plugins: {
-      legend: {
-        display: true,
-        position: 'bottom',
-        labels: {
-          color: '#9ca3af',
-          font: { size: 11 },
-          padding: 10,
-          boxWidth: 12,
-          boxHeight: 12
-        }
-      },
-      tooltip: {
-        backgroundColor: '#1a1a1f',
-        borderColor: '#2a2a32',
-        borderWidth: 1,
-        callbacks: {
-          label: ctx => ` ${ctx.label}: ${ctx.raw} riders (${Math.round(ctx.raw/188*100)}%)`
-        }
-      }
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#718096', maxRotation: 45 }, grid: { color: 'rgba(255,255,255,0.04)' } },
+      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
     }
   }
 });
 
-// ── 2. EXPERIENCE BAR ──────────────────────────────────────────────────
+// Weight
+new Chart(document.getElementById('weightChart'), {
+  type: 'bar',
+  data: {
+    labels: ["<65kg", "65-75kg", "75-85kg", "85-95kg", "95-105kg", ">105kg"],
+    datasets: [{ data: [14, 53, 85, 42, 22, 11], backgroundColor: 'rgba(0,178,180,0.75)', borderRadius: 4 }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { display: false } },
+      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
+    }
+  }
+});
+
+// Experience
 new Chart(document.getElementById('expChart'), {
   type: 'bar',
   data: {
-    labels: ['4+ years', '2–4 years', '1–2 years', '<1 year'],
-    datasets: [{
-      data: [106, 60, 18, 3],
-      backgroundColor: [RED, 'rgba(230,41,41,0.7)', 'rgba(230,41,41,0.45)', 'rgba(230,41,41,0.2)'],
-      borderRadius: 5,
-      borderSkipped: false
-    }]
+    labels: ["Less than 1 year", "1-2 years", "2-4 years", "4+ years"],
+    datasets: [{ data: [3, 24, 72, 127], backgroundColor: 'rgba(56,189,160,0.75)', borderRadius: 4 }]
   },
   options: {
-    ...chartOpts(false),
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
     scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af' } },
-      y: {
-        grid: { color: 'rgba(255,255,255,0.04)' },
-        ticks: {
-          color: '#6b7280',
-          callback: v => v + ' riders'
-        }
-      }
-    },
-    plugins: {
-      ...chartOpts().plugins,
-      tooltip: {
-        ...chartOpts().plugins.tooltip,
-        callbacks: {
-          label: ctx => ` ${ctx.raw} riders (${Math.round(ctx.raw/68*100)}%)`
-        }
-      }
+      x: { ticks: { color: '#a0aec0', font: { size: 11 } }, grid: { display: false } },
+      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
     }
   }
 });
 
-// ── 3. AGE GROUPS ─────────────────────────────────────────────────────
+// Age
 new Chart(document.getElementById('ageChart'), {
   type: 'bar',
   data: {
-    labels: ['46–55', '56–65', '36–45', '25–35', '65+', 'Under 25'],
-    datasets: [{
-      data: [52, 32, 30, 18, 6, 4],
-      backgroundColor: [RED, 'rgba(230,41,41,0.75)', 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.3)', 'rgba(230,41,41,0.2)'],
-      borderRadius: 5,
-      borderSkipped: false
-    }]
+    labels: ["Under 25", "25-35", "36-45", "46-55", "Over 55"],
+    datasets: [{ data: [5, 23, 39, 60, 0], backgroundColor: 'rgba(99,179,237,0.75)', borderRadius: 4 }]
   },
   options: {
-    ...chartOpts(false),
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
     scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af', maxRotation: 30 } },
-      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } }
+      x: { ticks: { color: '#a0aec0', font: { size: 11 } }, grid: { display: false } },
+      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
     }
   }
 });
 
-// ── 4. DISCIPLINE PARTICIPATION ────────────────────────────────────────
-const discLabels = [
-  'Wing Foiling', 'DW SUP Foiling', 'SUP (Non-DW)', 'Parawing',
-  'Prone Foiling', 'Dock Start', 'Pump/Flat Water', 'Foil Assist',
-  'Wake Foiling', 'Tow-In Foiling', 'Kite Foiling', 'Efoil'
-];
-const discData = [137, 73, 45, 62, 61, 57, 40, 45, 30, 25, 20, 6];
-new Chart(document.getElementById('disciplineChart'), {
-  type: 'bar',
-  data: {
-    labels: discLabels,
-    datasets: [{
-      data: discData,
-      backgroundColor: discData.map((v, i) => {
-        const intensity = 0.3 + (v / 137) * 0.7;
-        return `rgba(230,41,41,${intensity})`;
-      }),
-      borderRadius: 5,
-      borderSkipped: false
-    }]
-  },
-  options: {
-    ...chartOpts(true),
-    scales: {
-      x: {
-        grid: { color: 'rgba(255,255,255,0.04)' },
-        ticks: {
-          color: '#6b7280',
-          callback: v => v + ' riders'
-        },
-        max: 55
-      },
-      y: {
-        grid: { display: false },
-        ticks: { color: '#9ca3af', font: { size: 12 } }
-      }
-    },
-    plugins: {
-      ...chartOpts().plugins,
-      tooltip: {
-        ...chartOpts().plugins.tooltip,
-        callbacks: {
-          label: ctx => ` ${ctx.raw} riders — ${Math.round(ctx.raw/68*100)}% of respondents`
-        }
-      }
-    }
-  }
-});
-
-// ── HELPER: Make horizontal bar chart for discipline front wings ────────
-function makeDisciplineChart(id, labels, values) {
-  const colors = labels.map(wingColor);
-  new Chart(document.getElementById(id), {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [{
-        data: values,
-        backgroundColor: colors.map(c => c + 'cc'),
-        borderColor: colors,
-        borderWidth: 1,
-        borderRadius: 4,
-        borderSkipped: false
-      }]
-    },
-    options: {
-      ...chartOpts(true),
-      scales: {
-        x: {
-          grid: { color: 'rgba(255,255,255,0.04)' },
-          ticks: { color: '#6b7280' },
-          max: Math.max(...values) + 2
-        },
-        y: {
-          grid: { display: false },
-          ticks: { color: '#e0e0e0', font: { size: 11 } }
-        }
-      },
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#1a1a1f',
-          borderColor: '#2a2a32',
-          borderWidth: 1,
-          callbacks: {
-            label: ctx => ` ${ctx.raw} mentions`
-          }
-        }
-      }
-    }
-  });
-}
-
-// ── 5. WING FOILING ────────────────────────────────────────────────────
-makeDisciplineChart('wingChart',
-  ['Surge 890', 'Fireball 1070', 'Art V2 999', 'Spitfire 960', 'Surge 950', 'Surge 830'],
-  [7, 5, 4, 4, 4, 3]
-);
-
-// ── 6. DOWNWIND SUP ────────────────────────────────────────────────────
-makeDisciplineChart('dwChart',
-  ['Fireball 1070', 'Fireball 1250', 'Tempo 960', 'Fireball 1160', 'Fireball 1000', 'Tempo 920'],
-  [6, 5, 4, 3, 2, 2]
-);
-
-// ── 7. PRONE ──────────────────────────────────────────────────────────
-makeDisciplineChart('proneChart',
-  ['Surge 890', 'Surge 950', 'Surge 830', 'Surge 1010', 'Spitfire 840', 'Art 899'],
-  [8, 4, 3, 2, 2, 2]
-);
-
-// ── 8. PARAWING ────────────────────────────────────────────────────────
-makeDisciplineChart('paraChart',
-  ['Fireball 1070', 'Surge 830', 'Surge 1010', 'Surge 890', 'Fireball 1160', 'Fireball 1000'],
-  [6, 5, 7, 4, 2, 1]
-);
-
-// ── 9. TOW-IN ─────────────────────────────────────────────────────────
-makeDisciplineChart('towChart',
-  ['Surge 780', 'Surge 830', 'Spitfire 780', 'Spitfire 670', 'Spitfire 840'],
-  [2, 1, 1, 1, 1]
-);
-
-// ── 10. DOCK START ────────────────────────────────────────────────────
-makeDisciplineChart('dockChart',
-  ['Fireball 1350', 'PNG 1300', 'Fireball 1250', 'PNG 1150', 'Fireball 1070', 'AP 1201'],
-  [5, 5, 3, 3, 1, 1]
-);
-
-// ── SUP NON-DW ────────────────────────────────────────────────────────
-makeDisciplineChart('supChart',
-  ['Surge 1010', 'Surge 830', 'Fireball 1070', 'Fireball 1250', 'Surge 890'],
-  [7, 3, 3, 3, 2]
-);
-
-// ── WAKE FOILING ──────────────────────────────────────────────────────
-makeDisciplineChart('wakeChart',
-  ['Spitfire 960', 'Fireball 1070', 'Fireball 1160', 'PNG 910b', 'Surge 1010'],
-  [2, 2, 2, 1, 1]
-);
-
-// ── FOIL ASSIST ───────────────────────────────────────────────────────
-makeDisciplineChart('foilAssistChart',
-  ['Surge 950', 'Surge 830', 'Surge 740', 'Spitfire 960', 'Surge 1010'],
-  [3, 2, 2, 2, 2]
-);
-
-// ── KITE FOILING ──────────────────────────────────────────────────────
-makeDisciplineChart('kiteChart',
-  ['Spitfire 780', 'Surge 830', 'Art Pro 1001', 'Art V2 819', 'HPS 650/700'],
-  [2, 2, 1, 1, 1]
-);
-
-// ── 11. PUMP ──────────────────────────────────────────────────────────
-makeDisciplineChart('pumpChart',
-  ['Fireball 1350', 'Fireball 1500', 'Fireball 1250', 'Fireball 1750', 'PNG V2 1300', 'Fireball 2100'],
-  [4, 3, 2, 1, 1, 1]
-);
-
-// ── 12. SURGE COMPARISON CHART ────────────────────────────────────────
-new Chart(document.getElementById('surgeChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Prone', 'Wing Foiling', 'Tow-In', 'Parawing', 'SUP Non-DW', 'Downwind'],
-    datasets: [
-      {
-        label: 'Surge',
-        data: [17, 16, 7, 16, 12, 3],
-        backgroundColor: SURGE + 'cc',
-        borderColor: SURGE,
-        borderWidth: 1,
-        borderRadius: 4
-      },
-      {
-        label: 'Fireball',
-        data: [2, 6, 0, 8, 6, 16],
-        backgroundColor: FIREBALL + 'aa',
-        borderColor: FIREBALL,
-        borderWidth: 1,
-        borderRadius: 4
-      },
-      {
-        label: 'ART / Spitfire',
-        data: [4, 11, 4, 2, 4, 3],
-        backgroundColor: ART + 'aa',
-        borderColor: ART,
-        borderWidth: 1,
-        borderRadius: 4
-      },
-      {
-        label: 'Tempo',
-        data: [0, 0, 0, 3, 0, 10],
-        backgroundColor: TEMPO + 'aa',
-        borderColor: TEMPO,
-        borderWidth: 1,
-        borderRadius: 4
-      }
-    ]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: true,
-        position: 'top',
-        labels: { color: '#9ca3af', font: { size: 11 }, boxWidth: 12, padding: 12 }
-      },
-      tooltip: {
-        backgroundColor: '#1a1a1f',
-        borderColor: '#2a2a32',
-        borderWidth: 1,
-        callbacks: { label: ctx => ` ${ctx.dataset.label}: ${ctx.raw} mentions` }
-      }
-    },
-    scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#9ca3af' } },
-      y: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } }
-    }
-  }
-});
-
-// ── 13. SURGE SIZE POPULARITY ─────────────────────────────────────────
-new Chart(document.getElementById('surgeSizeChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Surge 890', 'Surge 1010', 'Surge 830/840', 'Surge 950', 'Surge 780', 'Surge 1150+'],
-    datasets: [{
-      data: [16, 10, 9, 6, 5, 3],
-      backgroundColor: [
-        SURGE,
-        SURGE + 'cc',
-        SURGE + 'aa',
-        SURGE + '88',
-        SURGE + '66',
-        SURGE + '44'
-      ],
-      borderRadius: 5,
-      borderSkipped: false
-    }]
-  },
-  options: {
-    ...chartOpts(true),
-    scales: {
-      x: {
-        grid: { color: 'rgba(255,255,255,0.04)' },
-        ticks: { color: '#6b7280' }
-      },
-      y: {
-        grid: { display: false },
-        ticks: { color: '#e0e0e0', font: { size: 12 } }
-      }
-    }
-  }
-});
-
-// ── 14. REAR WINGS ────────────────────────────────────────────────────
-new Chart(document.getElementById('rearWingChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Surf Skinny 300', 'Skinny 35/40/45', 'Progressive 280/300', 'Skinny 358/30', 'Surf Skinny 320'],
-    datasets: [{
-      data: [22, 15, 7, 6, 5],
-      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.2)'],
-      borderRadius: 4,
-      borderSkipped: false
-    }]
-  },
-  options: {
-    ...chartOpts(true),
-    scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
-      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
-    }
-  }
-});
-
-// ── 15. FUSELAGES ─────────────────────────────────────────────────────
-new Chart(document.getElementById('fuseChart'), {
-  type: 'bar',
-  data: {
-    labels: ['Black Ultrashort', 'Short', 'Crazyshort', 'Ti Link', 'US Advance+', 'Psycho/Sillyshort'],
-    datasets: [{
-      data: [35, 11, 8, 6, 5, 5],
-      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.25)', 'rgba(230,41,41,0.15)'],
-      borderRadius: 4,
-      borderSkipped: false
-    }]
-  },
-  options: {
-    ...chartOpts(true),
-    scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
-      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
-    }
-  }
-});
-
-// ── 16. MASTS ────────────────────────────────────────────────────────
-new Chart(document.getElementById('mastChart'), {
-  type: 'bar',
-  data: {
-    labels: ['80cm UHM/HM C', '82cm HM Carbon', '75cm HM/Alu', '90cm HM/UHM', '72cm UHM'],
-    datasets: [{
-      data: [25, 12, 10, 8, 6],
-      backgroundColor: [RED, RED_DIM, 'rgba(230,41,41,0.5)', 'rgba(230,41,41,0.35)', 'rgba(230,41,41,0.2)'],
-      borderRadius: 4,
-      borderSkipped: false
-    }]
-  },
-  options: {
-    ...chartOpts(true),
-    scales: {
-      x: { grid: { color: 'rgba(255,255,255,0.04)' }, ticks: { color: '#6b7280' } },
-      y: { grid: { display: false }, ticks: { color: '#9ca3af', font: { size: 11 } } }
-    }
-  }
-});
-
-// ── 17. GEOGRAPHIC DOUGHNUT ───────────────────────────────────────────
-new Chart(document.getElementById('geoChart'), {
+// Gender
+new Chart(document.getElementById('genderChart'), {
   type: 'doughnut',
   data: {
-    labels: ['Oceania (NZ + Aus)', 'Europe', 'North America', 'Africa / Middle East', 'Other'],
+    labels: ["Male", "Female", "Non-binary"],
     datasets: [{
-      data: [12, 20, 14, 4, 18],
-      backgroundColor: [SURGE, SPITFIRE, TEMPO, FIREBALL, GREY],
+      data: [170, 9, 1],
+      backgroundColor: ['rgba(0,178,180,0.8)','rgba(246,173,85,0.8)','rgba(56,189,160,0.8)','rgba(160,174,192,0.5)'],
+      borderColor: '#152234',
       borderWidth: 2,
-      borderColor: '#1a1a1f',
-      hoverOffset: 6
     }]
   },
   options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    cutout: '58%',
-    plugins: {
-      legend: {
-        display: true,
-        position: 'bottom',
-        labels: {
-          color: '#9ca3af',
-          font: { size: 11 },
-          padding: 10,
-          boxWidth: 12
-        }
-      },
-      tooltip: {
-        backgroundColor: '#1a1a1f',
-        borderColor: '#2a2a32',
-        borderWidth: 1,
-        callbacks: {
-          label: ctx => ` ${ctx.label}: ~${ctx.raw} riders`
-        }
-      }
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { color: '#a0aec0', boxWidth: 12 } } }
+  }
+});
+
+// Discipline overview
+new Chart(document.getElementById('discChart'), {
+  type: 'bar',
+  data: {
+    labels: ["Wing Foiling", "Downwind SUP", "Parawing", "Prone", "Dock Start", "Foil Assist", "SUP Foiling", "Long Distance Pump", "Wake Foiling", "Tow-In", "Kite Foiling", "Efoil", "Windsurf Foiling"],
+    datasets: [{
+      data: [169, 82, 71, 66, 64, 55, 53, 44, 39, 29, 25, 7, 4],
+      backgroundColor: [
+        'rgba(0,178,180,0.8)','rgba(56,189,160,0.8)','rgba(99,179,237,0.8)',
+        'rgba(246,173,85,0.8)','rgba(184,160,220,0.8)','rgba(252,129,74,0.8)',
+        'rgba(104,211,145,0.8)','rgba(237,137,54,0.8)','rgba(160,174,192,0.8)',
+        'rgba(236,201,75,0.8)','rgba(154,230,180,0.8)','rgba(251,182,206,0.8)',
+        'rgba(190,227,248,0.8)',
+      ],
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true },
+      y: { ticks: { color: '#e2e8f0', font: { size: 12 } }, grid: { display: false } }
     }
   }
 });
+
+// Per-discipline charts
+
+  if(document.getElementById('fw_wing_foiling')) {
+    new Chart(document.getElementById('fw_wing_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Surge 890", "Fireball 1070", "Surge 950", "Spitfire 960", "Surge 830", "Art v2 999", "Spitfire 1180", "Surge 1010"],
+        datasets: [{ data: [8, 7, 6, 5, 4, 4, 3, 3], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_wing_foiling')) {
+    new Chart(document.getElementById('rw_wing_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Skinny 40", "Skinny 55", "Skinny", "40 skinny", "360 skinny", "Skinny 50", "Surf skinny 320", "375 Progressive"],
+        datasets: [{ data: [8, 5, 5, 3, 3, 3, 3, 3], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_wing_foiling')) {
+    new Chart(document.getElementById('mast_wing_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["90cm HM Carbon", "82cm HM Carbon", "90cm UHM", "80 uhm", "90cm Aluminum", "82 HM", "90cm HM", "90cm aluminium"],
+        datasets: [{ data: [4, 3, 3, 3, 3, 3, 3, 2], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_wing_foiling')) {
+    new Chart(document.getElementById('fuse_wing_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Black short", "Black Ultrashort", "Ultrashort", "Black Short", "Ti link", "Ultra short", "Black Adv+ Short"],
+        datasets: [{ data: [14, 7, 6, 6, 4, 3, 3, 2], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_downwind_sup')) {
+    new Chart(document.getElementById('fw_downwind_sup'), {
+      type: 'bar',
+      data: {
+        labels: ["Fireball 1070", "Fireball 1250", "Tempo 960", "Fireball 1160", "Surge 1010", "PNG 1300 v2", "Fireball 1000", "1250 fireball"],
+        datasets: [{ data: [6, 5, 4, 4, 3, 2, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_downwind_sup')) {
+    new Chart(document.getElementById('rw_downwind_sup'), {
+      type: 'bar',
+      data: {
+        labels: ["Skinny 35", "Skinny 45", "45 skinny", "Surf skinny 300", "35 skinny", "35", "Ti Link 360/25, Surf Skinny 300", "Skinny 25 & 30"],
+        datasets: [{ data: [5, 4, 3, 2, 2, 2, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_downwind_sup')) {
+    new Chart(document.getElementById('mast_downwind_sup'), {
+      type: 'bar',
+      data: {
+        labels: ["82 HM Carbon", "UHM 800", "80cm UHM pro", "UHM Pro 80", "82 HM", "72 uhm", "72 UHM", "HM 82"],
+        datasets: [{ data: [3, 2, 2, 2, 2, 2, 2, 2], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_downwind_sup')) {
+    new Chart(document.getElementById('fuse_downwind_sup'), {
+      type: 'bar',
+      data: {
+        labels: ["Ti link", "Black ultrashort", "Ti Link", "Short", "Ultrashort", "Black Ultrashort", "Black ultra short", "Tilink"],
+        datasets: [{ data: [5, 5, 4, 4, 4, 3, 3, 2], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_parawing')) {
+    new Chart(document.getElementById('fw_parawing'), {
+      type: 'bar',
+      data: {
+        labels: ["Fireball 1070", "Surge 830", "Surge 1010", "Surge 890", "Fireball 1000", "surge 1010", "Fireball 1160", "1070"],
+        datasets: [{ data: [7, 6, 5, 4, 3, 3, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_parawing')) {
+    new Chart(document.getElementById('rw_parawing'), {
+      type: 'bar',
+      data: {
+        labels: ["Skinny 40", "Skinny 35", "Surf skinny 300", "45 skinny", "Skinny 360", "300 surf skinny", "35 skinny", "surf skinny 320"],
+        datasets: [{ data: [6, 5, 4, 4, 3, 2, 2, 2], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_parawing')) {
+    new Chart(document.getElementById('mast_parawing'), {
+      type: 'bar',
+      data: {
+        labels: ["82cm HM Carbon", "80 uhm", "80cm UHM", "75", "UHM Pro 80", "82 HM Carbon", "900mm Carbon HM", "HM 900"],
+        datasets: [{ data: [3, 2, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_parawing')) {
+    new Chart(document.getElementById('fuse_parawing'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Short", "Black short", "Ultrashort", "Crazy short", "Ultra", "Ultra short", "Black ultrashort advance +"],
+        datasets: [{ data: [7, 5, 4, 3, 2, 2, 2, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_prone')) {
+    new Chart(document.getElementById('fw_prone'), {
+      type: 'bar',
+      data: {
+        labels: ["Surge 890", "Surge 950", "Surge 830", "Surge 1010", "Spitfire 960", "Surge", "Spitfire 840", "Art 899"],
+        datasets: [{ data: [9, 4, 3, 2, 2, 2, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_prone')) {
+    new Chart(document.getElementById('rw_prone'), {
+      type: 'bar',
+      data: {
+        labels: ["300 surf skinny", "Surf Skinny 300", "Skinny 50", "280 Surf Skinny", "35 skinny", "skinny", "Surf skinny 280/43", "350 Skinny"],
+        datasets: [{ data: [4, 3, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_prone')) {
+    new Chart(document.getElementById('mast_prone'), {
+      type: 'bar',
+      data: {
+        labels: ["UHM Pro 80", "82 HM Carbon", "UHM 80", "Uhm 80", "80 uhm", "80cm UHM", "80cm", "Pro Ultra High modulus 800"],
+        datasets: [{ data: [3, 2, 2, 2, 2, 2, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_prone')) {
+    new Chart(document.getElementById('fuse_prone'), {
+      type: 'bar',
+      data: {
+        labels: ["Black Ultrashort", "Ultrashort", "Black ultrashort", "Black ultra short", "Crazy short", "Crazy Short", "Black ultrashort advance +", "Black silly short"],
+        datasets: [{ data: [6, 5, 4, 3, 3, 3, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_dock_start')) {
+    new Chart(document.getElementById('fw_dock_start'), {
+      type: 'bar',
+      data: {
+        labels: ["Fireball 1350", "PNG 1300", "Fireball 1250", "PNG 1150", "1401", "PNG 1300 v2", "Png v2 1300", "Fireball 1070"],
+        datasets: [{ data: [5, 3, 3, 3, 2, 2, 2, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_dock_start')) {
+    new Chart(document.getElementById('rw_dock_start'), {
+      type: 'bar',
+      data: {
+        labels: ["Skinny 40", "Skinny 45", "Skinny 25", "Skinny 35", "Skinny 30", "Skinny 50", "350 Skinny", "280 Surf Skinny"],
+        datasets: [{ data: [5, 3, 3, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_dock_start')) {
+    new Chart(document.getElementById('mast_dock_start'), {
+      type: 'bar',
+      data: {
+        labels: ["75 Alu", "82cm HM Carbon", "UHM Pro 80", "75 HM", "75", "Alu 82", "UHM Pro 80 cm", "80cm Pro Ultra HM Carbon"],
+        datasets: [{ data: [3, 2, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_dock_start')) {
+    new Chart(document.getElementById('fuse_dock_start'), {
+      type: 'bar',
+      data: {
+        labels: ["Ultrashort", "Black ultrashort", "Black Ultrashort", "Short", "Black ulttashort advance", "Black Crazy Short Adv+", "Black Adv+ short", "Black ultra short"],
+        datasets: [{ data: [5, 4, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_foil_assist')) {
+    new Chart(document.getElementById('fw_foil_assist'), {
+      type: 'bar',
+      data: {
+        labels: ["Surge 950", "Surge 830", "Surge 740", "Spitfire 960", "Surge", "Surge 1010", "Surge 890", "BSC 1060"],
+        datasets: [{ data: [5, 2, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_foil_assist')) {
+    new Chart(document.getElementById('rw_foil_assist'), {
+      type: 'bar',
+      data: {
+        labels: ["Surf skinny 300", "45 skinny", "Skinny 50", "surf 320", "Surf skinny 320", "300 surf skinny", "425 Progressive", "Surf Skinny 280"],
+        datasets: [{ data: [2, 2, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_foil_assist')) {
+    new Chart(document.getElementById('mast_foil_assist'), {
+      type: 'bar',
+      data: {
+        labels: ["82 cm HM Carbon", "82 HM carbon", "82cm Aluminum", "90cm UHM", "Power carbon 90", "82cm HM Carbon", "75 hm", "Ultra integrated 80 mast"],
+        datasets: [{ data: [2, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_foil_assist')) {
+    new Chart(document.getElementById('fuse_foil_assist'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Ultrashort", "Black ultrashort advance+", "Red Short Advance", "Black Ultrashort Adv+", "black Ultrashort advanced +", "Black ultrashort adv plus", "Black adv Crazyshort"],
+        datasets: [{ data: [4, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_sup_foiling')) {
+    new Chart(document.getElementById('fw_sup_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Surge 1010", "Surge 830", "Fireball 1250", "Fireball 1070", "Surge 890", "Fireball 1160", "HPS 1050", "1350fb or 1100 sf"],
+        datasets: [{ data: [8, 4, 4, 3, 2, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_sup_foiling')) {
+    new Chart(document.getElementById('rw_sup_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Surf Skinny 300", "40 skinny", "300 surf skinny", "Skinny 45", "35 skinny", "350 Skinny", "Surf 345", "Skinny 365/55"],
+        datasets: [{ data: [3, 3, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_sup_foiling')) {
+    new Chart(document.getElementById('mast_sup_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["72 UHM", "82cm HM Carbon", "72 uhm", "82 HM Carbon", "HM 900", "80cm Pro Ultra HM Carbon", "82cm carbon", "82cm Alu"],
+        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_sup_foiling')) {
+    new Chart(document.getElementById('fuse_sup_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Ultrashort", "Black Ultrashort", "Black ultra short", "Black short", "Crazyshort", "Crazy short", "Black ultrashort advance +"],
+        datasets: [{ data: [5, 3, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_long_distance_pump')) {
+    new Chart(document.getElementById('fw_long_distance_pump'), {
+      type: 'bar',
+      data: {
+        labels: ["Fireball 1350", "Fireball 1500", "1401", "Fireball 1250", "1160 fireball for flat water sup paddle ups", "Fireball 1750", "Png 1300 v2 png1310", "PNG1400 / fb1350"],
+        datasets: [{ data: [5, 3, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_long_distance_pump')) {
+    new Chart(document.getElementById('rw_long_distance_pump'), {
+      type: 'bar',
+      data: {
+        labels: ["35 skinny", "40 skinny", "Skinny 45", "Skinny 25", "Skinny 358/25", "Skinny 40", "375 progressive", "35 Skinny"],
+        datasets: [{ data: [3, 2, 2, 2, 2, 2, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_long_distance_pump')) {
+    new Chart(document.getElementById('mast_long_distance_pump'), {
+      type: 'bar',
+      data: {
+        labels: ["82 HM carbon", "82cm HM Carbon", "75", "75 hm carbon", "80 Fatty", "72uhm pro", "HM Carbon 82cm", "UHMpc82"],
+        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_long_distance_pump')) {
+    new Chart(document.getElementById('fuse_long_distance_pump'), {
+      type: 'bar',
+      data: {
+        labels: ["Ultrashort", "Short", "Crazy short", "Black ultrashort", "Black ultrashort advance +", "Fatty Short Adv+", "Advanced +", "Black short adv."],
+        datasets: [{ data: [2, 2, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_wake_foiling')) {
+    new Chart(document.getElementById('fw_wake_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Spitfire 960", "Fireball 1070", "Fireball 1160", "BSC1060", "PNG 910b or Spitfire 960", "PNG 910b", "1030 spitfire", "Anything"],
+        datasets: [{ data: [3, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_wake_foiling')) {
+    new Chart(document.getElementById('rw_wake_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Progressive 325", "Skinny 40", "440 freeride", "Prog 350", "Progressive 375", "375 progressive", "325 progressive", "55 skinny"],
+        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_wake_foiling')) {
+    new Chart(document.getElementById('mast_wake_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["90cm aluminium", "750 HM", "75cm HM carbon", "82 power carbon", "82 cm HM Carbon", "80uhm", "Aluminum 75cm", "Na"],
+        datasets: [{ data: [1, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_wake_foiling')) {
+    new Chart(document.getElementById('fuse_wake_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Black Ultrashort", "Black ultrashort", "Short", "Red short fuse", "US", "Black ultra", "Black short adv +", "Black ultrashort advanced"],
+        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_tow_in')) {
+    new Chart(document.getElementById('fw_tow_in'), {
+      type: 'bar',
+      data: {
+        labels: ["Surge 780", "Surge 830", "Sptifire 840", "Spitfire 780", "Spitfire 670", "Art 699", "Not with axis", "Na"],
+        datasets: [{ data: [2, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_tow_in')) {
+    new Chart(document.getElementById('rw_tow_in'), {
+      type: 'bar',
+      data: {
+        labels: ["Surf Skinny 300", "Surf skinny", "35 skinny", "340", "Surf skinny 280/43", "325p tail with 0.5 shim", "320 surf", "325 progressive"],
+        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_tow_in')) {
+    new Chart(document.getElementById('mast_tow_in'), {
+      type: 'bar',
+      data: {
+        labels: ["PRO Ultra High Modulus", "90cm UHM", "Ultra 800", "1050 UHM", "90 uhm", "900 UHM", "Na", "900 HMPC"],
+        datasets: [{ data: [1, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_tow_in')) {
+    new Chart(document.getElementById('fuse_tow_in'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Black Advanced Crazy Short", "Black short", "Black silly short", "Black 780 Adv+", "Short adv +", "Na", "Advanced short"],
+        datasets: [{ data: [3, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_kite_foiling')) {
+    new Chart(document.getElementById('fw_kite_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Spitfire 780", "Surge 830", "Spitfire 840", "HPS 650", "720 Proto wing", "Surge 1010", "Na", "Fireball 1070"],
+        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_kite_foiling')) {
+    new Chart(document.getElementById('rw_kite_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["325 Progressive", "Skinny 40", "skinny 360", "progressive 325", "425 (not sure which. Model)", "Na", "Skinny 45", "360/45 skinny"],
+        datasets: [{ data: [3, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_kite_foiling')) {
+    new Chart(document.getElementById('mast_kite_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["90cm Aluminum", "85cm Aluminum", "82 HM Carbon", "75cm aluminum", "82cm hm", "Na", "90cm UHM Pro", "82 hm carbon"],
+        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_kite_foiling')) {
+    new Chart(document.getElementById('fuse_kite_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Black Advance + Ultrashort", "Black Adv+ short", "Black ultrashort advanced +", "Red fuselage", "Na", "Crazy short advance +", "Advanced plus ultrashort"],
+        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_efoil')) {
+    new Chart(document.getElementById('fw_efoil'), {
+      type: 'bar',
+      data: {
+        labels: ["PNG 1310", "Same as foil assist", "Surge 740", "Spitfire 960", "Art v1 899", "Slingshot manta"],
+        datasets: [{ data: [1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_efoil')) {
+    new Chart(document.getElementById('rw_efoil'), {
+      type: 'bar',
+      data: {
+        labels: ["400 Freeride", "Fliteboard 245", "460v2", "359/40 skinny", "Large"],
+        datasets: [{ data: [1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_efoil')) {
+    new Chart(document.getElementById('mast_efoil'), {
+      type: 'bar',
+      data: {
+        labels: ["82cm Aluminum", "75cm HM", "75cm Lift", "72cm alu"],
+        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_efoil')) {
+    new Chart(document.getElementById('fuse_efoil'), {
+      type: 'bar',
+      data: {
+        labels: ["Black ultrashort", "Red Short", "Stock slingshot"],
+        datasets: [{ data: [2, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fw_windsurf_foiling')) {
+    new Chart(document.getElementById('fw_windsurf_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Spitfire 960", "Art v2 879", "Art 1099, art 899, spitfire 900, art pro 1201", "ZFoils"],
+        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('rw_windsurf_foiling')) {
+    new Chart(document.getElementById('rw_windsurf_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Progressive 375", "Skinny 362", "Prog 375", "ZFoils"],
+        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('mast_windsurf_foiling')) {
+    new Chart(document.getElementById('mast_windsurf_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Aluminum 90cm", "90 uhm pro", "Alu 82", "ZFoils"],
+        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
+  if(document.getElementById('fuse_windsurf_foiling')) {
+    new Chart(document.getElementById('fuse_windsurf_foiling'), {
+      type: 'bar',
+      data: {
+        labels: ["Black windsurf V3 / 899", "Black Short advance+", "Windsurf v2", "ZFoils"],
+        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
+          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+        }
+      }
+    });
+  }
+
 </script>
 </body>
 </html>
