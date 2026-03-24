@@ -14,9 +14,10 @@
       "youtube-batch2-reviews-comparisons-2025-2026",
       "youtube-batch3-competitive-intel-foildrive",
       "youtube-batch4-team-riders-2023-2025",
-      "youtube-batch5-olivia-piana-2025"
+      "youtube-batch5-olivia-piana-2025",
+      "youtube-batch6-frank-maffei-dw-2024"
     ],
-    "last_updated": "2026-03-24T08:04:55Z"
+    "last_updated": "2026-03-24T08:07:37Z"
   },
   "corrections": {
     "title": "Common Mistakes & Non-Existent Products",
@@ -483,7 +484,12 @@
         "Fireball 1500/1750 review (Meton Foil, Feb 2026): 1750 has aspect ratio 20.12, 1500 has AR 17. Paired with Skinny 25 stab and Psycho Short fuse for full efficiency. Very pitch-sensitive — needs training.",
         "Fireball 1750 tip (Meton Foil): Use Fatty Mast for control. 1750 is NOT a beginner foil — very delicate pitch axis. Small movements needed. Nicolai Iten uses custom smaller stab for world record runs.",
         "Fireball 1500 recommended setup: Fatty fuse (Ultrashort) + Skinny 30 rear = less pitch-sensitive than psycho-short setup. Better for most riders to start with.",
-        "Meton Foil recommendation: If choosing between 1500 and 1750 → go 1500 with psycho-short fuse + smaller tail for best efficiency/control balance."
+        "Meton Foil recommendation: If choosing between 1500 and 1750 → go 1500 with psycho-short fuse + smaller tail for best efficiency/control balance.",
+        "Frank Boards/NZ rider (80-83kg, Dec 2024): Fireballs are downwind weapons. Incredibly slick, fast, good bottom end. Roll very freely — surprising for a high-aspect foil. Haven't hit stall point. Teaches you to foil — clear inputs make everything improve.",
+        "Frank Boards: Fireball rear wing sweet spot = Skinny 40. Went to 30 and 25 but 25 too cerebral — can't feel it. For racing go smaller; for DW enjoyment, 40 is perfect.",
+        "Frank Boards fuse setup for Fireballs: Short fuse (70cm Advance Plus). Going more basic gave better flow and feel. Mid-range foils don't need tiny technical fuses — they hold you back.",
+        "Frank teaser Dec 2024: 'Bigger foils coming from AXIS that are absolutely amazing — get your name on the waiting list.' (Confirmed later as Fireball 1500/1750/Tempo releases)",
+        "Frank Boards: Sam Loader interested in smallest Fireballs for towing — likes glidey foil that won't keep slowing down even at high speed in big conditions."
       ],
       "design_notes": {
         "camber": "High camber foil section (3.7% vs 2.5% for older ART Pro/Spitfire). Creates excellent low-speed lift but higher drag at speed. Offset by narrow span = very low drag overall.",
@@ -1269,6 +1275,27 @@
         "Described AXIS as 'one of the brands that makes the best gear'",
         "Friends and races with Frank Maffei, Thiago, Nick at Maliko"
       ]
+    },
+    "Frank Maffei": {
+      "weight_kg": 82,
+      "location": "New Zealand / Maliko, Maui (visits)",
+      "role": "Frank Boards shaper, DW foil evangelist, AXIS user",
+      "disciplines": [
+        "downwind SUP foiling",
+        "winging",
+        "parawing"
+      ],
+      "known_setups": {
+        "fireball_dw": "Fireball (various sizes) + Skinny 40 rear + Short Advance Plus fuse (70cm) + 72cm Pro mast",
+        "fuse_philosophy": "Short (70cm) for Fireballs/mid-range. Silly Short (56cm) for bigger foils. Crazy Short (60cm) for smaller."
+      },
+      "key_facts": [
+        "Shaped boards used by AXIS twins (Perth, etc.) and Pace",
+        "Present at Maliko races with AXIS team",
+        "Friends with Olivia Piana, Thiago (meets at Maliko)",
+        "Helped sand/prepare AXIS masts in Maui for Tempo race system",
+        "Teased 'incredible bigger foils coming' Dec 2024 (pre-Tempo/1500/1750 release)"
+      ]
     }
   },
   "market_intel": {
@@ -1279,5 +1306,22 @@
       "pump_foiling": "Growing in Europe especially landlocked regions (Germany/Switzerland/lakes). Pump foiling seen as accessibility play for kids and non-coastal riders.",
       "new_products": "Olivia teased 'incredible new stuff coming' in Jul 2025. Likely Surge range (confirmed Nov 2025)."
     }
+  },
+  "shimming_guide": {
+    "title": "AXIS Shimming Guide",
+    "source": "Frank Boards Fiji Recap, Dec 2024 + community knowledge",
+    "positive_shimming": {
+      "effect": "Increases differential between front and rear — more lift from rear wing",
+      "use_case": "When rear foil feels slightly too small for conditions. Increases range.",
+      "max_recommended": "0.5 degrees. Above that = too porpoisy. Better to just size up rear wing.",
+      "practical_note": "Like going up one rear wing size without actually changing the wing."
+    },
+    "negative_shimming": {
+      "effect": "Flattens rear wing angle — less drag, releases handbrake. More glide, more slick.",
+      "use_case": "Speed-focused downwind. Race setup. Removing excess drag.",
+      "max_recommended": "0.25 degrees. Above that at 80kg+ = nose-down tendency at speed.",
+      "practical_note": "Rear wing still fully active for turns and pumping. Just less engaged for normal travel. Like taking handbrake off 2 clicks."
+    },
+    "warning": "Frank Boards (80-83kg): going past 0.25° negative shim caused system to pull down (negative lift) at speed. Not safe."
   }
 }

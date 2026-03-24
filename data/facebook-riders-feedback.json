@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 402,
+    "total_entries": 405,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:04:55Z"
+    "last_updated": "2026-03-24T08:07:37Z"
   },
   "posts": [
     {
@@ -8031,6 +8031,60 @@
       "type": "expert",
       "date": "2025-07-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=4kxeJc-kQVg"
+    },
+    {
+      "id": "post_89",
+      "source": "youtube_frank_fiji",
+      "source_label": "Frank Boards Fiji Recap (Dec 2024)",
+      "rider": "Frank Maffei (Frank Boards)",
+      "text": "Just got Fireballs — they are downwind weapons. Slick, fast, great bottom end, roll freely for high-aspect. Clear inputs teaching me to foil better. Haven't found the stall point yet. Sweet spot: Skinny 40 rear + Short (70cm) Advance Plus fuse. 25 Skinny was too cerebral — can't feel it.",
+      "foils_mentioned": [
+        "Fireball"
+      ],
+      "rider_weight": 82,
+      "use_case": "downwind, winging",
+      "sentiment": "very_positive",
+      "type": "community",
+      "setup": {
+        "front_wing": "Fireball (various)",
+        "rear_wing": "Skinny 40",
+        "fuselage": "Short Advance Plus 70cm",
+        "mast": "72cm Pro Carbon"
+      },
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=F6hMPB2RquY"
+    },
+    {
+      "id": "post_90",
+      "source": "youtube_frank_fiji",
+      "source_label": "Frank Boards Fiji Recap (Dec 2024)",
+      "rider": "Frank Maffei (Frank Boards)",
+      "text": "Shimming guide: Max +0.5° positive shim before it gets porpoisy. Max -0.25° negative shim at 80kg+ before system pulls nose-down at speed. Negative shimming is like taking 2 clicks off a handbrake — more glide, rear wing still active for pumps/turns.",
+      "foils_mentioned": [],
+      "rider_weight": 82,
+      "use_case": "setup tuning",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=F6hMPB2RquY"
+    },
+    {
+      "id": "post_91",
+      "source": "youtube_frank_fiji",
+      "source_label": "Frank Boards Fiji Recap (Dec 2024)",
+      "rider": "Frank Maffei (Frank Boards)",
+      "text": "Hot tip Dec 2024: 'If you do downwind with a wing or paddle, get your name on the waiting list for the bigger foils coming from AXIS. They are absolutely amazing. Trust me on that.' (This was before Fireball 1500/1750 and Tempo public launch.)",
+      "foils_mentioned": [
+        "Fireball 1500",
+        "Fireball 1750",
+        "Tempo"
+      ],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "very_positive",
+      "type": "community",
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=F6hMPB2RquY"
     }
   ]
 }
