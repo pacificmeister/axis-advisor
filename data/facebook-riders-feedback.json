@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 405,
+    "total_entries": 408,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:07:37Z"
+    "last_updated": "2026-03-24T08:15:15Z"
   },
   "posts": [
     {
@@ -8085,6 +8085,71 @@
       "type": "community",
       "date": "2024-12-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=F6hMPB2RquY"
+    },
+    {
+      "id": "post_92",
+      "source": "youtube_olivia_png_fr",
+      "source_label": "Olivia Piana on AXIS PNG V1 & V2 (French, Dec 2024)",
+      "rider": "Olivia Piana",
+      "text": "PNG V2 1300 vs V1: Same slight improvement in surface (1632cm²) but the GLIDE is completely different. 'C'est une vraie évolution' (true evolution). Better turning too. For dock start: use Ultrashort fuse + 375 stab. DW beginners: move mast back or PNG will lift too early.",
+      "foils_mentioned": [
+        "PNG V2 1300",
+        "PNG 1150"
+      ],
+      "rider_weight": 67,
+      "use_case": "dock start, DW beginner, light wind winging",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "setup": {
+        "front_wing": "PNG 1150",
+        "rear_wing": "375",
+        "fuselage": "Ultrashort",
+        "mast": null
+      },
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=a7WHN5Ecus8"
+    },
+    {
+      "id": "post_93",
+      "source": "youtube_gamme_axis_2025_fr",
+      "source_label": "Gamme AXIS 2025 - Philippe Apman (French, Dec 2024)",
+      "rider": "Philippe Apman",
+      "text": "ART V2 (AR 10) = most versatile single wing in AXIS range. Good for wave, surf, wing, DW. For riders who don't specialize. ART V2 vs Fireball: slightly less glide but better turning. More compact = easier to bank. If I want one wing for everything = ART V2.",
+      "foils_mentioned": [
+        "ART V2",
+        "ART V2 1099",
+        "ART V2 819"
+      ],
+      "rider_weight": 70,
+      "use_case": "all-around",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=TXKNOdugD20"
+    },
+    {
+      "id": "post_94",
+      "source": "youtube_gamme_axis_2025_fr",
+      "source_label": "Gamme AXIS 2025 - Philippe Apman (French, Dec 2024)",
+      "rider": "Philippe Apman",
+      "text": "Fireball 940 is my daily DW foil at 70kg. AR 13-14, 3.7% camber. Don't compare by area! 1000 span Fireball (773cm²) performs like 900-950cm² equivalence. Rear wing: Skinny 30 with Short 70cm fuse. Can go to 25 but that's extreme — must add +0.25° positive shim.",
+      "foils_mentioned": [
+        "Fireball 940",
+        "Fireball 1000",
+        "Fireball 880"
+      ],
+      "rider_weight": 70,
+      "use_case": "downwind racing",
+      "sentiment": "very_positive",
+      "type": "expert",
+      "setup": {
+        "front_wing": "Fireball 940",
+        "rear_wing": "Skinny 30",
+        "fuselage": "Short 70cm",
+        "mast": null
+      },
+      "date": "2024-12-01T00:00:00",
+      "source_url": "https://www.youtube.com/watch?v=TXKNOdugD20"
     }
   ]
 }
