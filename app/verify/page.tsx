@@ -765,30 +765,7 @@ export default function VerifyPage() {
               )}
             </div>
 
-            {/* Authorized Dealers */}
-            <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8">
-              <h3 className="text-xl font-black text-gray-900 mb-4">🏪 Buy from Authorized Dealers</h3>
-              <p className="text-gray-600 mb-4">
-                The safest way to get genuine AXIS foils. If a deal seems too good to be true, buy direct instead.
-              </p>
-              <div className="grid sm:grid-cols-2 gap-3">
-                {AUTHORIZED_DEALERS.map(dealer => (
-                  <a
-                    key={dealer.name}
-                    href={dealer.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-between bg-gray-50 hover:bg-green-50 border border-gray-200 hover:border-green-300 rounded-xl px-4 py-3 transition group"
-                  >
-                    <div>
-                      <span className="font-bold text-gray-900 group-hover:text-green-700">{dealer.name}</span>
-                      <span className="text-gray-500 text-sm ml-2">({dealer.region})</span>
-                    </div>
-                    <span className="text-gray-400 group-hover:text-green-600">→</span>
-                  </a>
-                ))}
-              </div>
-            </div>
+            {/* Authorized Dealers section removed per Evan's request */}
           </div>
         )}
 
