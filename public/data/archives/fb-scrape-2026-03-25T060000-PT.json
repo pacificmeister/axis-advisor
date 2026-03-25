@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "scrape_time": "2026-03-25T13:16:00Z",
+    "scrape_local": "2026-03-25T06:16:00-07:00",
+    "window": "12h",
+    "window_start": "2026-03-24T18:00:00-07:00",
+    "window_end": "2026-03-25T06:00:00-07:00",
+    "sources": ["AXIS Foil Riders group (10.6K members)", "AXIS Foils official page"],
+    "scraper": "Herbert/OpenClaw automated scrape",
+    "note": "6 AM Pacific scheduled scrape"
+  },
+  "riders_group_posts_12h": [
+    {
+      "id": "fb_2026_03_25_am_001",
+      "poster": "Niels van der Kaaij",
+      "time_ago": "4h",
+      "timestamp_approx": "2026-03-25T02:00:00-07:00",
+      "text": "New name, same data. Enjoy! www.foildata.app — shares screenshot of AXIS Advisor / foildata.app foil comparison tool. Shows Fireball 880 vs ART V2 879 radar chart comparison.",
+      "reactions": 4,
+      "comments": 3,
+      "discipline": "tool/community",
+      "sentiment": "positive",
+      "notable": "foildata.app is new name for AXIS Advisor foil comparison tool. Minor bug report from Stephen Westwood: submit review broken ('Something went wrong. Please try again.'). Niels confirmed and fixed it within 2 hours.",
+      "comments_detail": [
+        {"commenter": "Stephen Westwood", "text": "The submit review isn't working: Something went wrong. Please try again.", "time": "3h"},
+        {"commenter": "Niels van der Kaaij", "text": "Stephen Westwood on it right away, thanks for telling!", "time": "3h"},
+        {"commenter": "Niels van der Kaaij", "text": "fixed!", "time": "1h"}
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_am_002",
+      "poster": "Jon Eddy",
+      "time_ago": "3h",
+      "timestamp_approx": "2026-03-25T03:00:00-07:00",
+      "text": "They latest race, surf and dock Axis gear with international team rider Kai Thompson — shared Surf FX YouTube video: 'What's new at Axis with Kai Thompson' https://www.youtube.com/watch?v=jOgkjAQkHpo",
+      "reactions": 11,
+      "comments": 0,
+      "discipline": "general/marketing",
+      "sentiment": "positive",
+      "notable": "High engagement (11 reactions). Surf FX dealer promoting new AXIS gear via Kai Thompson team rider video.",
+      "comments_detail": []
+    },
+    {
+      "id": "fb_2026_03_25_am_003",
+      "poster": "Vangelis Evan Mavridoglou",
+      "time_ago": "6h (approx)",
+      "timestamp_approx": "2026-03-25T00:00:00-07:00",
+      "group_role": "Group expert / Rising contributor",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some of them surprised us. Want your setup counted? Takes 3 minutes. [links to Google Form]",
+      "reactions": 18,
+      "comments": 1,
+      "discipline": "community",
+      "sentiment": "positive/informational",
+      "notable": "Community survey collecting AXIS setup data. Very high reactions (18). Appears posted by Vangelis who is Group Expert and associated with AXIS Foils.",
+      "comments_detail": []
+    },
+    {
+      "id": "fb_2026_03_25_am_004",
+      "poster": "Darren Zielonka",
+      "time_ago": "7h",
+      "timestamp_approx": "2026-03-24T23:00:00-07:00",
+      "text": "Mast Size Question - Does anyone prefer the 820mm over the 750mm for behind the boat or dock start? Pro/cons? I'm looking for a power carbon mast and thinking 820mm to wakefoil, wingfoil, and dock start. I only want to buy one haha.",
+      "reactions": 4,
+      "comments": 11,
+      "discipline": "wakefoil/wingfoil/dockstart",
+      "sentiment": "neutral/inquiry",
+      "foils_mentioned": [],
+      "masts_mentioned": ["820mm Power Carbon", "750mm Power Carbon"],
+      "notable": "Common multi-discipline mast sizing question. Community responded: 82cm is sweet spot for wing + dock. 750C vs 90Alu comparison mentioned.",
+      "comments_detail": [
+        {"commenter": "Reuben Williams", "text": "If you Wingfoil in rough seas or waves, the extra length is always useful for breach prevention, 82 is my sweet spot for wing, surf, dock, tow.", "time": "2d"},
+        {"commenter": "Danny Perez", "text": "Got the 750 c and 90 Alu 19. I prefer to 90.", "time": "2d"}
+      ]
+    }
+  ],
+  "riders_group_recent_24h_context": [
+    {
+      "poster": "Michael Kihn",
+      "time_ago": "16h",
+      "text": "FB1750 rear wing question for Long Distance Pumping. Setup: Advance+ Psychoshort Fatty Fuse + 80cm Fatty Carbon Mast. Community responses: 358/25 stab recommended at 68-98kg.",
+      "discipline": "pump/dockstart",
+      "foils_mentioned": ["FB1750"],
+      "masts_mentioned": ["80cm Fatty Carbon"],
+      "rider_weight": "not mentioned",
+      "sentiment": "inquiry",
+      "notable": "FB1750 described as 'very pitch sensitive' by William Vosburgh (68kg)"
+    },
+    {
+      "poster": "Peter Michl",
+      "location": "El Gouna, Egypt / Osmosis Kiteboarding",
+      "time_ago": "~16h",
+      "text": "Had an epic parawing downwind session in El Gouna (Red Sea, Egypt) in about 25 knots. Running the AXIS Fireball 1350 with a Skinny 45 stab on a 120L Frankboard. Really impressed again by the speed range and the maneuverability of the 1350 here. The Red Sea swell is relatively slow, but the Fireball still lets you accelerate when the wind picks up.",
+      "reactions": 5,
+      "comments": 17,
+      "discipline": "parawing/downwind",
+      "foils_mentioned": ["Fireball 1350"],
+      "stabs_mentioned": ["Skinny 45"],
+      "board": "120L Frankboard",
+      "sentiment": "very positive",
+      "notable": "Mark Shinn (All-star): 1350 is his mainstay quiver — flatwater pump, paddle up, parawing or DW SUP. Pairs with Skinny 40 + Psychoshort fuse."
+    },
+    {
+      "poster": "Dmitry Evseev",
+      "time_ago": "2d",
+      "text": "Comparison of Axis foils. Which one is which? Answer options: Tempo 1090 | Fireball 1070 (video comparison)",
+      "reactions": 14,
+      "comments": 9,
+      "discipline": "comparison/educational",
+      "foils_mentioned": ["Tempo 1090", "Fireball 1070"],
+      "sentiment": "positive/fun",
+      "notable": "Community identified correctly: Fireball 1070 on left, Tempo 1090 on right. Maxime Meyer: 'Same wingspan more or less, but Tempo is less draggy, which leads to less BPM overall.'"
+    },
+    {
+      "poster": "Paul Schnetker",
+      "time_ago": "2d",
+      "rider_weight": "85kg",
+      "discipline": "wave",
+      "foils_mentioned": ["Surge", "Spitfire"],
+      "text": "Looking to buy a surge (or spitfire) on the Gold Coast Australia. 85kg, intermediate efoil rider (Axis wing adaptor) starting to ride waves (18 little rides last session). Any recommendations on size?",
+      "notable": "Mark Madden offering Spitfire 1100 for sale (moving to Armstrong). Sean Richardson (Top Contributor) recommended Spitfire, offered demo via SurfFx."
+    },
+    {
+      "poster": "Yannick Favieres",
+      "time_ago": "~1d",
+      "text": "Fireball 1750 - First Session Feedback. Setup: Fatty Short fuselage, 80cm Fatty Carbon mast. 98kg rider.",
+      "discipline": "pump/dockstart",
+      "foils_mentioned": ["Fireball 1750"],
+      "rider_weight": "98kg",
+      "sentiment": "positive (first session)",
+      "notable": "New Fireball 1750 first session. Carbon mast noted as expensive ('that hurts'). Video attached."
+    }
+  ],
+  "official_page_posts": [
+    {
+      "poster": "AXIS Foils",
+      "date": "2026-03-23",
+      "time": "7:52 AM",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. [links to Google Form]",
+      "reactions": 7,
+      "comments": 1,
+      "unanswered_questions": [
+        {
+          "commenter": "Katrin Kolo (Top fan)",
+          "question": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+          "time": "23h",
+          "answered_by_axis": false
+        }
+      ]
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Baja California Sur, Mexico",
+      "date": "~6 weeks ago",
+      "text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wide temperature range…",
+      "reactions": 32,
+      "comments": 3,
+      "sentiment": "brand/design"
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Düsseldorf, Germany",
+      "date": "~boot Düsseldorf event",
+      "text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour. Stoked to see our team getting amongst the good times and podiums.",
+      "reactions": 26,
+      "comments": 0,
+      "views": "1.7K",
+      "sentiment": "positive/event"
+    }
+  ]
+}

@@ -6,10 +6,67 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-24T13:05:00Z",
-    "totalRiders": 126
+    "lastUpdated": "2026-03-25T06:16:00-07:00",
+    "totalRiders": 129
   },
   "riders": [
+    {
+      "id": "setup_2026_03_25_003",
+      "source": "FB post axisfoilriders 2026-03-25",
+      "date": "2026-03-25",
+      "rider_name": "Mark Shinn",
+      "rider_role": "All-star contributor",
+      "discipline": "multi (pump/paddle/parawing/DW SUP)",
+      "front_wing": "Fireball 1350",
+      "stab": "Skinny 40",
+      "fuselage": "Psychoshort",
+      "notes": "1350 is main quiver foil - can flatwater pump, paddle up, parawing or DW SUP DW. Rarely does trips without it.",
+      "sentiment": "very positive",
+      "tags": [
+        "fireball1350",
+        "multi_discipline",
+        "mark_shinn"
+      ]
+    },
+    {
+      "id": "setup_2026_03_25_002",
+      "source": "FB post axisfoilriders 2026-03-25",
+      "date": "2026-03-25",
+      "rider_name": "Peter Michl",
+      "rider_weight": null,
+      "discipline": "parawing/downwind",
+      "front_wing": "Fireball 1350",
+      "stab": "Skinny 45",
+      "board": "120L Frankboard",
+      "location": "El Gouna, Red Sea, Egypt",
+      "conditions": "25 knots, slow swell",
+      "notes": "Epic parawing downwind session. Impressed by speed range and maneuverability. Fireball 1350 allows acceleration when wind picks up on slow swell.",
+      "sentiment": "very positive",
+      "tags": [
+        "fireball1350",
+        "parawing",
+        "downwind",
+        "el_gouna"
+      ]
+    },
+    {
+      "id": "setup_2026_03_25_001",
+      "source": "FB post axisfoilriders 2026-03-25",
+      "date": "2026-03-25",
+      "rider_name": "Yannick Favieres",
+      "rider_weight": "98kg",
+      "discipline": "pump/dockstart",
+      "front_wing": "Fireball 1750",
+      "fuselage": "Fatty Short",
+      "mast": "80cm Fatty Carbon",
+      "notes": "First session on FB1750. Carbon mast was expensive investment. 98kg rider.",
+      "sentiment": "positive",
+      "tags": [
+        "FB1750",
+        "first_session",
+        "pump"
+      ]
+    },
     {
       "id": "setup_2026_03_23_001",
       "source": "FB post axisfoilriders 2026-03-23",

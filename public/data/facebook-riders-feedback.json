@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 404,
+    "total_entries": 408,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 17,
@@ -13,10 +13,98 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T18:22:00-07:00",
-    "total_posts": 403
+    "last_updated": "2026-03-25T06:16:00-07:00",
+    "total_posts": 408
   },
   "posts": [
+    {
+      "id": "fb_2026_03_25_am_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-24T23:00:00-07:00",
+      "rider": "Darren Zielonka",
+      "rider_weight": null,
+      "discipline": "wakefoil/wingfoil/dockstart",
+      "text": "Mast size question: 820mm vs 750mm Power Carbon for behind-the-boat, dock start, wingfoil. Want one mast for all three. Community says 82cm is sweet spot for rough water wing + dock. 750C also viable.",
+      "reactions": 4,
+      "comments": 11,
+      "sentiment": "inquiry",
+      "masts_mentioned": [
+        "820mm Power Carbon",
+        "750mm Power Carbon",
+        "90cm Alu"
+      ],
+      "tags": [
+        "mast",
+        "sizing",
+        "wakefoil",
+        "dockstart"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_am_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T00:00:00-07:00",
+      "rider": "Vangelis Evan Mavridoglou (Group Expert)",
+      "discipline": "community/survey",
+      "text": "AXIS rider survey collecting setup data from 150+ riders across 15+ countries. Google Form link shared.",
+      "reactions": 18,
+      "comments": 1,
+      "sentiment": "positive/informational",
+      "tags": [
+        "survey",
+        "community_data",
+        "vangelis",
+        "axis_official_adjacent"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_am_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T03:00:00-07:00",
+      "rider": "Jon Eddy / Surf FX",
+      "discipline": "general/marketing",
+      "text": "New Axis gear with Kai Thompson - Surf FX YouTube video: race, surf and dock gear. https://www.youtube.com/watch?v=jOgkjAQkHpo",
+      "reactions": 11,
+      "comments": 0,
+      "sentiment": "positive",
+      "tags": [
+        "surf_fx",
+        "kai_thompson",
+        "new_gear",
+        "video",
+        "dealer"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_am_001",
+      "post_id": "1564174931347459",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T02:00:00-07:00",
+      "rider": "Niels van der Kaaij",
+      "discipline": "tool/community",
+      "text": "New name, same data. Enjoy! www.foildata.app \u2014 AXIS Advisor foil comparison tool rebranded to foildata.app. Bug report: submit review broken (fixed within 2h). Fireball 880 vs ART V2 879 radar chart shown.",
+      "reactions": 4,
+      "comments": 3,
+      "sentiment": "positive",
+      "foils_mentioned": [
+        "Fireball 880",
+        "ART V2 879"
+      ],
+      "tags": [
+        "foildata.app",
+        "tool",
+        "comparison",
+        "bug_fix"
+      ]
+    },
     {
       "id": "fb_2026_03_24_pm_001",
       "post_id": "1563789871385965",
