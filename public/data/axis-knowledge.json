@@ -935,7 +935,8 @@
       "Fatty mast system: 95mm profile mast cut down \u2014 fatter from base all the way through. MUST pair with fatty fuselage (wider mounting). Recommended for heavier riders (80kg+) on Fireballs. Lighter riders (sub-80kg) can use standard mast. (Kai Thompson / SurfFX, Mar 2026)",
       "Fatty mast stiffness test (Adrian Roper, Nov 2025): 900mm mast, 25kg side load. 19mm Alum: 38mm bend. Power Carbon: ~29mm. Power Carbon HM: ~23mm. Ultra Pro: ~19mm. FATTY MAST: 11mm. Nearly DOUBLE the stiffness of Ultra Pro. Required for 1500/1750 span wings.",
       "Mast thickness impacts wing selection (Adrian): 1750 span = fatty mast. Under 1350 span at <90kg = Ultra Pro. Mix-match at your own peril.",
-      "New Kiwi mast for DW coming (Adrian, Nov 2025) \u2014 only 11mm through bottom, absolute min drag for Tempo system under 90kg. Not released yet."
+      "New Kiwi mast for DW coming (Adrian, Nov 2025) \u2014 only 11mm through bottom, absolute min drag for Tempo system under 90kg. Not released yet.",
+      "Downwind recommendation (all levels): 75cm for Aluminium or Power Carbon masts, 72cm for Ultra Pro Carbon mast. (Per Evan, Mar 2026)"
     ]
   },
   "downwind_progression": {
@@ -944,31 +945,31 @@
       {
         "step": 1,
         "wing": "PNG 1300",
-        "description": "Learn to catch bumps. Big span, forgiving, catches small wind swell. James Casey's recommendation for DW beginners.",
+        "description": "Learn to catch bumps. Big span, forgiving, catches small wind swell. James Casey's recommendation for DW beginners. Mast: 75cm Aluminium/Power Carbon or 72cm Ultra Pro Carbon.",
         "skill_level": "Beginner DW"
       },
       {
         "step": 2,
         "wing": "ART Pro 1201 or Spitfire 1180",
-        "description": "Step up to higher aspect. ART Pro 1201 for speed-focused, Spitfire 1180 for those wanting chop forgiveness.",
+        "description": "Step up to higher aspect. ART Pro 1201 for speed-focused, Spitfire 1180 for those wanting chop forgiveness. Mast: 75cm Aluminium/Power Carbon or 72cm Ultra Pro Carbon.",
         "skill_level": "Intermediate DW"
       },
       {
         "step": 3,
         "wing": "Fireball (1070-1160) or ART Pro 951",
-        "description": "Elite downwind performance. Fireball 1160 = Fred Bonnet's top pick. ART Pro 951 = Kai Lenny's race wing.",
+        "description": "Elite downwind performance. Fireball 1160 = Fred Bonnet's top pick. ART Pro 951 = Kai Lenny's race wing. Mast: 75cm Aluminium/Power Carbon or 72cm Ultra Pro Carbon.",
         "skill_level": "Advanced DW"
       },
       {
         "step": 4,
         "wing": "Tempo 960/1090",
-        "description": "The next level. Ultra-high-aspect, Ti Link fuselage, maximum efficiency. For serious competitors.",
+        "description": "The next level. Ultra-high-aspect, Ti Link fuselage, maximum efficiency. For serious competitors. Mast: 75cm Aluminium/Power Carbon or 72cm Ultra Pro Carbon.",
         "skill_level": "Expert DW / Racing"
       },
       {
         "step": 1.5,
         "wing": "Surge 1010 (or 1080/1150 when available)",
-        "description": "Alternative to PNG 1300 for beginners who want wave/surf capability. Easy to control, early lift, great pump. Yvon Labarthe: 'Best wing for dock start engagement.' Bigger sizes coming for heavier rider DW beginners.",
+        "description": "Alternative to PNG 1300 for beginners who want wave/surf capability. Easy to control, early lift, great pump. Yvon Labarthe: 'Best wing for dock start engagement.' Bigger sizes coming for heavier rider DW beginners. Mast: 75cm Aluminium/Power Carbon or 72cm Ultra Pro Carbon.",
         "skill_level": "Beginner DW (alternative path)"
       }
     ]
@@ -1019,7 +1020,7 @@
       "front_wing": "PNG 1300",
       "rear_wing": "Freeride or Progressive",
       "fuselage": "Red Short",
-      "mast": "82-90cm Aluminum",
+      "mast": "75cm Aluminium or Power Carbon / 72cm Ultra Pro Carbon",
       "notes": "Big span to catch small bumps. Don't rush to smaller wings \u2014 stay here until you catch bumps consistently."
     },
     "downwind_intermediate": {
@@ -1027,7 +1028,7 @@
       "front_wing": "Fireball 1160 or Spitfire 1180",
       "rear_wing": "Skinny 30-35",
       "fuselage": "Black Ultrashort",
-      "mast": "Power Carbon 82-90cm",
+      "mast": "75cm Power Carbon or 72cm Ultra Pro Carbon",
       "notes": "Fred Bonnet: FB 1160 is 'unbelievable, effortless' for intermediate/advanced SUP DW."
     },
     "downwind_advanced": {
@@ -1035,7 +1036,7 @@
       "front_wing": "Tempo 1090 or Fireball 1070",
       "rear_wing": "Skinny 30 (DW) / Skinny 35 (upwind)",
       "fuselage": "Ti Link 70cm (Tempo) or Black Psycho Short (Fireball)",
-      "mast": "Ultra Pro Carbon or Power Carbon",
+      "mast": "75cm Power Carbon or 72cm Ultra Pro Carbon",
       "notes": "Yvon: Tempo 1090 = 15-20% less effort than FB 1070. Philippe: Tempo 960 and 1090 cover most Leucate race forecasts."
     },
     "pump_foiling_endurance": {
@@ -1043,7 +1044,7 @@
       "front_wing": "PNG 1310 (pump record) or Fireball 1500/1750 (endurance)",
       "rear_wing": "Skinny 25 (with 1500) or smallest available",
       "fuselage": "Silly Short or Psycho Short",
-      "mast": "Fatty mast for 1500/1750. Ultra Pro if <85kg and using 1500.",
+      "mast": "75cm Power Carbon or 72cm Ultra Pro Carbon",
       "notes": "Yvon: FB 1750 opens the hour of pumping to everyone. Silly Short or Psycho Short fuselage for maximum pump efficiency."
     }
   },
