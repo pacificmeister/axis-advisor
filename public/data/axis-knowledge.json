@@ -1000,12 +1000,12 @@
       "notes": "Speed and versatility. HPS 880 requires good body mechanics to manage pitch."
     },
     "advanced_winging_prone": {
-      "title": "Advanced Winging/Prone",
-      "front_wing": "ART 999 or Spitfire 900",
+      "title": "Advanced Winging",
+      "front_wing": "Fireball 1000, Surge 830, or Tempo 1020",
       "rear_wing": "Progressive 275 or smaller",
       "fuselage": "Advance Ultrashort or Crazy Short (Black)",
       "mast": "Power Carbon 90cm",
-      "notes": "Maximum performance. ART needs Power Carbon to perform properly."
+      "notes": "Fireball 1000 for speed/glide, Surge 830 for surf-style freedom & Foil Drive, Tempo 1020 for max efficiency & racing. All three are top-tier winging platforms for experienced riders."
     },
     "advanced_surf": {
       "title": "Advanced Surf (Wave Riding)",
