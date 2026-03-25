@@ -47,21 +47,21 @@
       {
         "wrong": "Fatty mast for winging",
         "correct": "Fatty mast for 1500+ span wings AND heavy riders",
-        "note": "Not just for winging — it's for high-load situations"
+        "note": "Not just for winging \u2014 it's for high-load situations"
       },
       {
         "wrong": "Compare wing sizes by area",
         "correct": "Compare by span (rough guide) or actual CFD data",
-        "note": "Adrian Roper: Area is meaningless across different aspect ratios. Tempo 1020 (650cm²), FB 1000 (773cm²), ART V2 999 (1024cm²) all get up the same. Only span is a rough guide."
+        "note": "Adrian Roper: Area is meaningless across different aspect ratios. Tempo 1020 (650cm\u00b2), FB 1000 (773cm\u00b2), ART V2 999 (1024cm\u00b2) all get up the same. Only span is a rough guide."
       },
       {
         "wrong": "Surge replaces the Spitfire",
-        "correct": "Surge is a different wing — better for waves/prone. Spitfire still better for CL foiling.",
+        "correct": "Surge is a different wing \u2014 better for waves/prone. Spitfire still better for CL foiling.",
         "note": "Luke Atkinson (Nov 2025): Spitfire better for controlled foiling (CL), Surge better for prone wave riding and winging in swell."
       },
       {
         "wrong": "Kiwi mast available to buy",
-        "correct": "Kiwi downwind mast is in prototype phase only — not released (as of Nov 2025)",
+        "correct": "Kiwi downwind mast is in prototype phase only \u2014 not released (as of Nov 2025)",
         "note": "Adrian Roper mentioned it exists but they don't release products until totally happy."
       },
       {
@@ -116,12 +116,12 @@
       "expert_quotes": [
         {
           "expert": "James Casey",
-          "quote": "Start downwind on the PNG 1300 — big span catches small wind swell. It'll teach you to catch bumps.",
+          "quote": "Start downwind on the PNG 1300 \u2014 big span catches small wind swell. It'll teach you to catch bumps.",
           "context": "Downwind progression advice"
         },
         {
           "expert": "Mark Shinn",
-          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow — really slow.",
+          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow \u2014 really slow.",
           "context": "AXIS Team Rider, Nov 2024. Heavy rider on PNG V2 1300 vs V1."
         },
         {
@@ -136,33 +136,33 @@
         },
         {
           "expert": "Mark Shinn",
-          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 — it's the session saver.",
+          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 \u2014 it's the session saver.",
           "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs ART Pro 1401."
         }
       ],
       "community_insights": [
-        "PNG 1310 is the world record pump foil — it's not just marketing",
+        "PNG 1310 is the world record pump foil \u2014 it's not just marketing",
         "Danny Perez: Went from standard to Advance+ fuselage and it made the foils so much more responsive for such large spans",
-        "Shaun Henderson: 1150 is what I learned to wing and dock start with — Advance fuselage is much better for pumping",
+        "Shaun Henderson: 1150 is what I learned to wing and dock start with \u2014 Advance fuselage is much better for pumping",
         "Dominic Hoskins (80kg, Netherlands, Oct 2025): PNG V2 1200 has aspect ratio 8, PNG V2 1300 has aspect ratio 10.36. 1300 is noticeably faster/glidier.",
-        "Dominic (80kg): PNG V2 1400 is the easiest dock start foil he's ever used. Consistent, solid platform. But at 80kg can be unforgiving if balance is off — heavier riders get more control.",
-        "Dominic: PNG 1310 original — most aggressive lift in AXIS range. Best for heavyweight sub-paddle-ups. But requires pause after dock jump to stabilize before pumping. Very aggressive stall.",
+        "Dominic (80kg): PNG V2 1400 is the easiest dock start foil he's ever used. Consistent, solid platform. But at 80kg can be unforgiving if balance is off \u2014 heavier riders get more control.",
+        "Dominic: PNG 1310 original \u2014 most aggressive lift in AXIS range. Best for heavyweight sub-paddle-ups. But requires pause after dock jump to stabilize before pumping. Very aggressive stall.",
         "Dominic: Art Pro 1401 and 1201 are solid pump foils but now superseded by PNG V2 1300 and 1400 for most riders.",
-        "Dominic on ART V2: Swiss Army knife of AXIS range — does everything well. 979 and 879 his choice for messy Dutch North Sea conditions. They cut through chaos without wobble.",
-        "Dominic: Fireballs changed his life. The under-camber section created user-friendly performance. Range is incredible — can handle small micro-bumps AND huge conditions in one session.",
-        "Dominic: Fireball 1350 — dock start from static. Ultra Pro carbon mast essential for no wobble. Turn it with conviction, not hesitation.",
-        "Dominic: Tempo 1020 with Ti Link fuselage and Skinny 30 — blown away by how easy it was. Accessible to more than just elites. Not a surf foil though — kept rolling unexpectedly. Needs rider experience.",
+        "Dominic on ART V2: Swiss Army knife of AXIS range \u2014 does everything well. 979 and 879 his choice for messy Dutch North Sea conditions. They cut through chaos without wobble.",
+        "Dominic: Fireballs changed his life. The under-camber section created user-friendly performance. Range is incredible \u2014 can handle small micro-bumps AND huge conditions in one session.",
+        "Dominic: Fireball 1350 \u2014 dock start from static. Ultra Pro carbon mast essential for no wobble. Turn it with conviction, not hesitation.",
+        "Dominic: Tempo 1020 with Ti Link fuselage and Skinny 30 \u2014 blown away by how easy it was. Accessible to more than just elites. Not a surf foil though \u2014 kept rolling unexpectedly. Needs rider experience.",
         "Dominic: Tempo doesn't stop rolling until you stop it. Not skittish or dangerous, but different from surf foils. Takes 10-20 minutes to adapt, then it's amazing.",
-        "Philippe Apman (70kg, AXIS team): PNG V2 1300 has AR 10.3, surface 1632cm². Best start DW wing. In wing: use for very light conditions (<10 knots at 70kg).",
-        "Olivia Piana (~65-70kg): PNG 1150 is excellent for dock start — very tolerant. Her setup: Ultrashort fuse + 375 stab.",
-        "Olivia: PNG V2 1300 glide is completely different from V1. 'Vraie évolution' (true evolution). Slightly smaller, less lift, but glide is in another class. Also turns better than V1.",
-        "DW beginner tip from Olivia: Position mast BACK on the board when starting DW. Big PNGs lift very early — too far forward = board bounces off water before you're ready.",
-        "Gamme axis positioning: BSC (easy surf/foil start) → PNG (more glide, dock start, light DW) → HPS (faster, DW progression) → ART V2 (all-around HA) → Fireball (DW/race)"
+        "Philippe Apman (70kg, AXIS team): PNG V2 1300 has AR 10.3, surface 1632cm\u00b2. Best start DW wing. In wing: use for very light conditions (<10 knots at 70kg).",
+        "Olivia Piana (~65-70kg): PNG 1150 is excellent for dock start \u2014 very tolerant. Her setup: Ultrashort fuse + 375 stab.",
+        "Olivia: PNG V2 1300 glide is completely different from V1. 'Vraie \u00e9volution' (true evolution). Slightly smaller, less lift, but glide is in another class. Also turns better than V1.",
+        "DW beginner tip from Olivia: Position mast BACK on the board when starting DW. Big PNGs lift very early \u2014 too far forward = board bounces off water before you're ready.",
+        "Gamme axis positioning: BSC (easy surf/foil start) \u2192 PNG (more glide, dock start, light DW) \u2192 HPS (faster, DW progression) \u2192 ART V2 (all-around HA) \u2192 Fireball (DW/race)"
       ]
     },
     "BSC": {
       "name": "BSC (Broad Spectrum Carve)",
-      "tagline": "The best all-rounder — does everything well",
+      "tagline": "The best all-rounder \u2014 does everything well",
       "character": "Early pop-up, maneuverable, forgiving. Not as fast as HPS/ART but more user-friendly. True all-rounder that works for everything.",
       "who_its_for": "Beginners to intermediates wanting versatility. Anyone who does multiple disciplines on one wing.",
       "disciplines": [
@@ -173,8 +173,8 @@
         "wake foiling"
       ],
       "fuselage_guide": {
-        "large_BSC": "Red fuselage (BSC 1060, 1120 — thicker, larger span wings)",
-        "small_BSC": "Black fuselage (BSC 890 and below — thinner profile wings)"
+        "large_BSC": "Red fuselage (BSC 1060, 1120 \u2014 thicker, larger span wings)",
+        "small_BSC": "Black fuselage (BSC 890 and below \u2014 thinner profile wings)"
       },
       "models": {
         "BSC 1120": {
@@ -210,13 +210,13 @@
       },
       "expert_quotes": [],
       "community_insights": [
-        "BSC 1060 is the go-to recommendation for 75-90kg beginners — it forgives mistakes while building skills",
-        "BSC 810 is one of the most popular sizes across all riders — great stepping stone to HPS"
+        "BSC 1060 is the go-to recommendation for 75-90kg beginners \u2014 it forgives mistakes while building skills",
+        "BSC 810 is one of the most popular sizes across all riders \u2014 great stepping stone to HPS"
       ]
     },
     "HPS": {
       "name": "HPS (High Performance Speed)",
-      "tagline": "Speed + accessibility — the natural next step from BSC",
+      "tagline": "Speed + accessibility \u2014 the natural next step from BSC",
       "character": "Fast, glidey, needs more speed to get up. Natural stepping stone from BSC. Pairs well with Progressive and Speed rear wings.",
       "who_its_for": "Intermediate to advanced riders wanting speed and efficiency without going full high-aspect",
       "disciplines": [
@@ -226,8 +226,8 @@
       ],
       "fuselage": "Black Series",
       "warnings": [
-        "HPS 880 can have pitch control challenges for some riders — if you're fighting it up/down, that's normal early on",
-        "Needs more water speed to get up compared to BSC — make sure your technique is solid first"
+        "HPS 880 can have pitch control challenges for some riders \u2014 if you're fighting it up/down, that's normal early on",
+        "Needs more water speed to get up compared to BSC \u2014 make sure your technique is solid first"
       ],
       "models": {
         "HPS 1050": {
@@ -242,13 +242,13 @@
         }
       },
       "community_insights": [
-        "HPS 880 pitch issues are real but manageable — give it time and focus on smooth body movements",
-        "Great stepping stone between BSC and ART — speed-focused riders love it"
+        "HPS 880 pitch issues are real but manageable \u2014 give it time and focus on smooth body movements",
+        "Great stepping stone between BSC and ART \u2014 speed-focused riders love it"
       ]
     },
     "ART": {
       "name": "ART (AXIS Research Team)",
-      "tagline": "Pinnacle high-aspect performance — not for choppy water",
+      "tagline": "Pinnacle high-aspect performance \u2014 not for choppy water",
       "character": "Frictionless glide, reduced chord, high aspect. Needs Power Carbon mast and Advance fuselage for best results. NOT for turbulent water.",
       "who_its_for": "Advanced winging and prone riders who have mastered HPS. Smooth water specialists.",
       "disciplines": [
@@ -257,18 +257,18 @@
         "racing"
       ],
       "fuselage": "Black Advance Series",
-      "mast_recommendation": "Power Carbon (essential) — ART needs stiffness",
+      "mast_recommendation": "Power Carbon (essential) \u2014 ART needs stiffness",
       "warnings": [
-        "NOT for beginners or choppy water — this is an advanced tool",
-        "ART in turbulent/choppy conditions is frustrating — Spitfire or ART V2 handles chop better",
+        "NOT for beginners or choppy water \u2014 this is an advanced tool",
+        "ART in turbulent/choppy conditions is frustrating \u2014 Spitfire or ART V2 handles chop better",
         "Requires Power Carbon mast for proper performance"
       ],
       "models": {
         "ART 1099": {
-          "notes": "Biggest ART — light wind specialist"
+          "notes": "Biggest ART \u2014 light wind specialist"
         },
         "ART 999": {
-          "notes": "Most popular ART size — the benchmark"
+          "notes": "Most popular ART size \u2014 the benchmark"
         },
         "ART 899": {
           "notes": "Mid-size speed option"
@@ -278,9 +278,9 @@
         }
       },
       "community_insights": [
-        "Yvon Labarthe: ART V2 1099 has 25% less glide than FB 1160 — Fireball wins for pumping",
-        "ART V2 939 turns 10-15% better than FB 1000 — better for wing/tow",
-        "ART V2 879 behind a boat in towing — turns like crazy"
+        "Yvon Labarthe: ART V2 1099 has 25% less glide than FB 1160 \u2014 Fireball wins for pumping",
+        "ART V2 939 turns 10-15% better than FB 1000 \u2014 better for wing/tow",
+        "ART V2 879 behind a boat in towing \u2014 turns like crazy"
       ]
     },
     "ART Pro": {
@@ -300,20 +300,20 @@
           "weight_range": "All advanced riders"
         },
         "ART Pro 951": {
-          "highlight": "Kai Lenny's race wing (5th at Molokai to Oahu)",
-          "notes": "Elite racing performance. Step 3 in downwind progression (or alternative to Fireball).",
+          "highlight": "Former Kai Lenny race wing (5th at M2O). He has since moved to Tempo 960.",
+          "notes": "Elite racing performance. Kai Lenny raced this before switching to Tempo. Still a strong DW option for advanced lighter riders.",
           "weight_range": "Advanced lighter riders"
         }
       },
       "community_insights": [
-        "Kai Lenny used the ART Pro 951 to finish 5th at Molokai to Oahu — says everything about its performance",
-        "Philippe Apman: ART Pro (AR ~12) — DW, free ride, long distance, GPS speed records. 2.7% camber = lighter, can pull max speed. Better Vmax than Fireball but Fireball has better average speed.",
+        "Kai Lenny previously raced the ART Pro 951 (5th at M2O) before switching to the Tempo 960 for all DW racing.",
+        "Philippe Apman: ART Pro (AR ~12) \u2014 DW, free ride, long distance, GPS speed records. 2.7% camber = lighter, can pull max speed. Better Vmax than Fireball but Fireball has better average speed.",
         "ART Pro 1201 = long-time Philippe's favorite for DW. ART Pro 1051 is the smallest he used regularly in winging (but prefers Spitfire for winging unless very light conditions)."
       ]
     },
     "ART V2": {
       "name": "ART V2 (2024)",
-      "tagline": "More forgiving ART — Spitfire Pro character",
+      "tagline": "More forgiving ART \u2014 Spitfire Pro character",
       "character": "Spitfire's turn + forgiveness with ART's glide and speed. Better for UK/choppy conditions. Great intermediate downwind option.",
       "who_its_for": "Advanced riders who want ART performance with more forgiveness. Choppy water riders.",
       "disciplines": [
@@ -324,12 +324,12 @@
       ],
       "fuselage": "Black Series",
       "community_insights": [
-        "Yvon: ART v2 turns 5-10% better rail-to-rail but Fireball has 25% more glide — pick your priority",
+        "Yvon: ART v2 turns 5-10% better rail-to-rail but Fireball has 25% more glide \u2014 pick your priority",
         "ART V2 879 is excellent for tow/wing, not for pumping",
         "Better than original ART in choppy UK conditions",
-        "Dominic Hoskins (80kg): ART V2 = Swiss Army knife of AXIS range. Does everything well. 979/879 his choice for Dutch North Sea — messy, inconsistent, fast-ramping conditions.",
-        "ART V2 turns faster than equivalent span suggests — wide cord in middle gives great purchase, taper to tips allows quick roll.",
-        "ART V2 NOT surfy-feeling despite working in surf. Turns like cross between high-aspect and surf foil — everything done at pace. Very different character from Surge.",
+        "Dominic Hoskins (80kg): ART V2 = Swiss Army knife of AXIS range. Does everything well. 979/879 his choice for Dutch North Sea \u2014 messy, inconsistent, fast-ramping conditions.",
+        "ART V2 turns faster than equivalent span suggests \u2014 wide cord in middle gives great purchase, taper to tips allows quick roll.",
+        "ART V2 NOT surfy-feeling despite working in surf. Turns like cross between high-aspect and surf foil \u2014 everything done at pace. Very different character from Surge.",
         "Philippe Apman: ART V2 (AR 10) = most versatile single wing if you only want one. Good for wave, surf, wing, DW. Not specialized for any discipline but competent at all.",
         "ART V2 vs Fireball (Philippe): ART V2 slightly less glide/speed but slightly better turning than new Fireballs. More compact so easier to bank without losing support.",
         "ART V2 characteristic: Better turning than Fireball, less glide. For mixed riders (not DW-specialist)."
@@ -337,7 +337,7 @@
     },
     "Spitfire": {
       "name": "Spitfire",
-      "tagline": "Wave riding specialist — sharp turns, handles turbulence",
+      "tagline": "Wave riding specialist \u2014 sharp turns, handles turbulence",
       "character": "Sharp, smooth turns. Handles turbulence better than ART. Pair with Advance fuselages + small progressive rears for max carve.",
       "who_its_for": "Wave riders (winging, prone), choppy downwind riders, UK-style conditions",
       "disciplines": [
@@ -384,9 +384,9 @@
         }
       },
       "community_insights": [
-        "Spitfire 1180 is a top choice for the 2nd wing in downwind progression — handles chop better than pure ART",
+        "Spitfire 1180 is a top choice for the 2nd wing in downwind progression \u2014 handles chop better than pure ART",
         "Pair with Advance fuselage and small Progressive rears for maximum carve",
-        "Philippe Apman: Spitfire range 680-1180 span, AR ~8. True shortboard feel — radical rail-to-rail. Program: wave + winging for riders wanting short, radical turns. NOT for longboard-style carving.",
+        "Philippe Apman: Spitfire range 680-1180 span, AR ~8. True shortboard feel \u2014 radical rail-to-rail. Program: wave + winging for riders wanting short, radical turns. NOT for longboard-style carving.",
         "Philippe: Spitfire in waves: radical, shortboard turns, stays up well even at small sizes. Good for learning progression and intermediate winging."
       ],
       "expert_quotes": [
@@ -397,14 +397,14 @@
         },
         {
           "expert": "Luke Atkinson",
-          "quote": "Spitfire 900 — extra glide, perfect for smaller days and going downwind. To speed up any Spitfire, pair with skinny rears — opens up a whole new world of downwinding and glide.",
+          "quote": "Spitfire 900 \u2014 extra glide, perfect for smaller days and going downwind. To speed up any Spitfire, pair with skinny rears \u2014 opens up a whole new world of downwinding and glide.",
           "context": "AXIS Team Rider, launch video Jun 2023."
         }
       ]
     },
     "Fireball": {
       "name": "Fireball",
-      "tagline": "F1 of downwind foiling — high camber speed machine",
+      "tagline": "F1 of downwind foiling \u2014 high camber speed machine",
       "character": "High camber (new for AXIS), ~13 AR, very low stall speed despite high performance. Gets up early, fast top end. The benchmark for SUP downwind racing.",
       "who_its_for": "SUP downwind racers, advanced riders wanting elite DW performance, step 3 in DW progression",
       "disciplines": [
@@ -417,7 +417,7 @@
       "models": {
         "Fireball 1160": {
           "highlight": "Fred Bonnet's top pick for intermediate/advanced SUP DW",
-          "notes": "Fred Bonnet: 'Unbelievable, effortless.' Yvon's favorite summer all-rounder. Starts in inverted or normal in water >16°C.",
+          "notes": "Fred Bonnet: 'Unbelievable, effortless.' Yvon's favorite summer all-rounder. Starts in inverted or normal in water >16\u00b0C.",
           "weight_range": "70-90kg"
         },
         "Fireball 1070": {
@@ -437,7 +437,7 @@
         },
         "Fireball 880": {
           "highlight": "Advanced performance wing",
-          "notes": "Smaller, faster — for advanced riders in powered conditions",
+          "notes": "Smaller, faster \u2014 for advanced riders in powered conditions",
           "weight_range": "55-75kg"
         },
         "Fireball 1250": {
@@ -451,13 +451,13 @@
           "weight_range": "All weights for light wind"
         },
         "Fireball 1500": {
-          "highlight": "Magic pumping machine — doubles pump time vs 1350",
+          "highlight": "Magic pumping machine \u2014 doubles pump time vs 1350",
           "notes": "Yvon Labarthe: 'Magic! Cruising speed 17-18 km/h. You will almost double your pumping time with the 1500 compared to the 1350.' REQUIRES Fatty mast for >85kg riders. Pair with Silly Short or Psycho Short fuse and Skinny 25.",
           "weight_range": "All weights. <85kg: Ultra Pro mast OK. >85kg: MUST use Fatty mast."
         },
         "Fireball 1750": {
           "highlight": "Opens 1-hour pumping to everyone",
-          "notes": "Yvon: 'The FB 1750 opens the hour of pumping to everyone.' Ultra Pro mast bends under load — use Fatty mast. REQUIRES Fatty mast for >85kg.",
+          "notes": "Yvon: 'The FB 1750 opens the hour of pumping to everyone.' Ultra Pro mast bends under load \u2014 use Fatty mast. REQUIRES Fatty mast for >85kg.",
           "weight_range": "All weights. Fatty mast required for >85kg. Ultra Pro bends under this wing."
         }
       },
@@ -474,7 +474,7 @@
         },
         {
           "expert": "Fred Bonnet",
-          "quote": "Fireball 1160 — unbelievable, effortless.",
+          "quote": "Fireball 1160 \u2014 unbelievable, effortless.",
           "context": "Top pick for intermediate/advanced SUP DW"
         },
         {
@@ -494,22 +494,22 @@
         }
       ],
       "community_insights": [
-        "Fireball has 25% MORE glide than equivalent ART V2 — use Fireball for pumping, ART V2 for turning",
-        "FB 1160 is Yvon's favorite summer all-rounder — rides all boats, downwind, super long downwind",
+        "Fireball has 25% MORE glide than equivalent ART V2 \u2014 use Fireball for pumping, ART V2 for turning",
+        "FB 1160 is Yvon's favorite summer all-rounder \u2014 rides all boats, downwind, super long downwind",
         "Dmitry Evseev (75kg): FB 940 needs good waves/wind but flies when conditions cooperate",
-        "Nicolas Iten did nearly 5 hours on the Fireball 1750 around a lake — ~70km. (Kai Thompson, SurfFX interview Mar 2026)",
-        "Dominic Hoskins: Fireballs are the most versatile range AXIS has produced — handles micro-bumps AND big conditions in one session. Fireballs beat ART V2 in pumping ease and range.",
+        "Nicolas Iten did nearly 5 hours on the Fireball 1750 around a lake \u2014 ~70km. (Kai Thompson, SurfFX interview Mar 2026)",
+        "Dominic Hoskins: Fireballs are the most versatile range AXIS has produced \u2014 handles micro-bumps AND big conditions in one session. Fireballs beat ART V2 in pumping ease and range.",
         "Dominic: Fireball 1350 can be dock-started from static. Ultra Pro Carbon mast essential. Turn with conviction not hesitation. New even-bigger sizes coming but hush-hush (as of Oct 2025).",
-        "Fireball 1500/1750 review (Meton Foil, Feb 2026): 1750 has aspect ratio 20.12, 1500 has AR 17. Paired with Skinny 25 stab and Psycho Short fuse for full efficiency. Very pitch-sensitive — needs training.",
-        "Fireball 1750 tip (Meton Foil): Use Fatty Mast for control. 1750 is NOT a beginner foil — very delicate pitch axis. Small movements needed. Nicolai Iten uses custom smaller stab for world record runs.",
+        "Fireball 1500/1750 review (Meton Foil, Feb 2026): 1750 has aspect ratio 20.12, 1500 has AR 17. Paired with Skinny 25 stab and Psycho Short fuse for full efficiency. Very pitch-sensitive \u2014 needs training.",
+        "Fireball 1750 tip (Meton Foil): Use Fatty Mast for control. 1750 is NOT a beginner foil \u2014 very delicate pitch axis. Small movements needed. Nicolai Iten uses custom smaller stab for world record runs.",
         "Fireball 1500 recommended setup: Fatty fuse (Ultrashort) + Skinny 30 rear = less pitch-sensitive than psycho-short setup. Better for most riders to start with.",
-        "Meton Foil recommendation: If choosing between 1500 and 1750 → go 1500 with psycho-short fuse + smaller tail for best efficiency/control balance.",
-        "Frank Boards/NZ rider (80-83kg, Dec 2024): Fireballs are downwind weapons. Incredibly slick, fast, good bottom end. Roll very freely — surprising for a high-aspect foil. Haven't hit stall point. Teaches you to foil — clear inputs make everything improve.",
-        "Frank Boards: Fireball rear wing sweet spot = Skinny 40. Went to 30 and 25 but 25 too cerebral — can't feel it. For racing go smaller; for DW enjoyment, 40 is perfect.",
-        "Frank Boards fuse setup for Fireballs: Short fuse (70cm Advance Plus). Going more basic gave better flow and feel. Mid-range foils don't need tiny technical fuses — they hold you back.",
-        "Frank teaser Dec 2024: 'Bigger foils coming from AXIS that are absolutely amazing — get your name on the waiting list.' (Confirmed later as Fireball 1500/1750/Tempo releases)",
-        "Frank Boards: Sam Loader interested in smallest Fireballs for towing — likes glidey foil that won't keep slowing down even at high speed in big conditions.",
-        "Philippe Apman (70kg): Fireball AR 13-14, 3.7% camber. Don't compare by area! Fireball 1000 (773cm²) performs like 900-950cm² due to high aspect. Always compare by span.",
+        "Meton Foil recommendation: If choosing between 1500 and 1750 \u2192 go 1500 with psycho-short fuse + smaller tail for best efficiency/control balance.",
+        "Frank Boards/NZ rider (80-83kg, Dec 2024): Fireballs are downwind weapons. Incredibly slick, fast, good bottom end. Roll very freely \u2014 surprising for a high-aspect foil. Haven't hit stall point. Teaches you to foil \u2014 clear inputs make everything improve.",
+        "Frank Boards: Fireball rear wing sweet spot = Skinny 40. Went to 30 and 25 but 25 too cerebral \u2014 can't feel it. For racing go smaller; for DW enjoyment, 40 is perfect.",
+        "Frank Boards fuse setup for Fireballs: Short fuse (70cm Advance Plus). Going more basic gave better flow and feel. Mid-range foils don't need tiny technical fuses \u2014 they hold you back.",
+        "Frank teaser Dec 2024: 'Bigger foils coming from AXIS that are absolutely amazing \u2014 get your name on the waiting list.' (Confirmed later as Fireball 1500/1750/Tempo releases)",
+        "Frank Boards: Sam Loader interested in smallest Fireballs for towing \u2014 likes glidey foil that won't keep slowing down even at high speed in big conditions.",
+        "Philippe Apman (70kg): Fireball AR 13-14, 3.7% camber. Don't compare by area! Fireball 1000 (773cm\u00b2) performs like 900-950cm\u00b2 due to high aspect. Always compare by span.",
         "Philippe: Fireball 940 = his daily DW foil. Fireball 880 is smallest. For riders over 1000 span equivalence, move to ART Pro for bigger sizes.",
         "Philippe: Fireball rear wing recommendations: Skinny 30 with 70cm Short fuse. Can go 25 but that's extreme. Skinny 35 is max for heavier riders with Ultrashort fuse.",
         "Fireball vs ART Pro speed: Fireball has higher average speed (higher camber). ART Pro has better top/max speed (lighter camber 2.7%). Fireball is more gentle stall point."
@@ -518,12 +518,12 @@
         "camber": "High camber foil section (3.7% vs 2.5% for older ART Pro/Spitfire). Creates excellent low-speed lift but higher drag at speed. Offset by narrow span = very low drag overall.",
         "pump_style": "Flat pump (tap tap tap) vs oscillating pump on older wings. Suits longer fuse + smaller rear. This is why Dylan uses 25 skinny with the 1070.",
         "straight_median_line": "All Fireballs use straight median line (thickest point in straight line tip-to-tip). Makes behavior consistent at all speeds. Enables tiny rear wings.",
-        "reflex": "Hollow/reflex on underside trailing edge is NOT camber — it's reflex. Many people confuse these. Camber is the invisible line between top and bottom surfaces."
+        "reflex": "Hollow/reflex on underside trailing edge is NOT camber \u2014 it's reflex. Many people confuse these. Camber is the invisible line between top and bottom surfaces."
       }
     },
     "Tempo": {
       "name": "Tempo",
-      "tagline": "Next-gen ultra-high-aspect DW — Ti Link required",
+      "tagline": "Next-gen ultra-high-aspect DW \u2014 Ti Link required",
       "character": "Ultra-High Modulus carbon with Ti Link titanium fuselage. Higher aspect ratios, lower volumes. Greater hydrodynamic efficiency. Carries more speed and glide than equivalent Fireball.",
       "who_its_for": "Intermediate to advanced DW/SUP riders wanting maximum efficiency. Leucate/racing conditions.",
       "disciplines": [
@@ -531,14 +531,15 @@
         "downwind racing",
         "pumping"
       ],
-      "fuselage": "ONLY 70cm fuselage available — Short Advance Plus. No choice in length currently.",
+      "fuselage": "ONLY 70cm fuselage available \u2014 Short Advance Plus. No choice in length currently.",
       "fuselage_note": "Mark Shinn: 'There is only 70cm available for the Tempo. We don't have a choice in that... Sometimes Adrian makes our life simple!'",
       "models": {
         "Tempo 960": {
           "highlight": "Approximate equivalent to Fireball 940 but more speed/glide",
           "notes": "Philippe Axman: 'Plenty of speed to win a race.' Use 30 rear wing or below.",
           "rear_wing": "30 or below",
-          "equivalent_fireball": "~FB 940"
+          "equivalent_fireball": "~FB 940",
+          "rider_feedback": "Kai Lenny's current race wing \u2014 switched from ART Pro 951 to Tempo 960 for all DW racing."
         },
         "Tempo 1020": {
           "highlight": "For offshore/windy swell conditions",
@@ -547,8 +548,8 @@
           "rider_feedback": "Kai Thompson (80kg): Go-to travel wing, covers 10-30+ knots. \"Insanely overpowered at 30 and they handle it.\" Pairs with 360 T25 tail, 72cm UHM mast, Advance Plus Ultrashort fuse."
         },
         "Tempo 1090": {
-          "highlight": "Biggest Tempo — nothing glides better in the world",
-          "notes": "Philippe Axman: 'More glide and speed than FB [1070].' Yvon: 'Nothing glides better in the world. 15-20% less effort than FB 1070.' REQUIRES integrated tail fuselage — normal stab adapter adds crazy brake.",
+          "highlight": "Biggest Tempo \u2014 nothing glides better in the world",
+          "notes": "Philippe Axman: 'More glide and speed than FB [1070].' Yvon: 'Nothing glides better in the world. 15-20% less effort than FB 1070.' REQUIRES integrated tail fuselage \u2014 normal stab adapter adds crazy brake.",
           "rear_wing": "30 for DW, 35 for upwind leg",
           "equivalent_fireball": "~FB 1070 low end"
         },
@@ -556,9 +557,9 @@
           "rider_feedback": "Kai Thompson (80kg): High-wind option when it's nuking."
         }
       },
-      "tempo_sizing_guide": "Tempo 960 ≈ Fireball 940 | Tempo 1090 ≈ Fireball 1070 (but with more glide and speed)",
-      "rear_wing_guide": "Tempo 1090 → 30 rear (DW), 35 rear (upwind). Above 35 = gain upwind but lose glide and pumping. Tempo 960 → 30 or below.",
-      "stab_note": "Tempo rear wings are REVISED SKINNIES MONOBLOC — not standard Skinny stabs. Order specifically for Tempo.",
+      "tempo_sizing_guide": "Tempo 960 \u2248 Fireball 940 | Tempo 1090 \u2248 Fireball 1070 (but with more glide and speed)",
+      "rear_wing_guide": "Tempo 1090 \u2192 30 rear (DW), 35 rear (upwind). Above 35 = gain upwind but lose glide and pumping. Tempo 960 \u2192 30 or below.",
+      "stab_note": "Tempo rear wings are REVISED SKINNIES MONOBLOC \u2014 not standard Skinny stabs. Order specifically for Tempo.",
       "expert_quotes": [
         {
           "expert": "Philippe Axman",
@@ -572,7 +573,7 @@
         },
         {
           "expert": "Yvon Labarthe",
-          "quote": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm² less. Turns better, glides better. 15-20% less effort than FB 1070.",
+          "quote": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm\u00b2 less. Turns better, glides better. 15-20% less effort than FB 1070.",
           "context": "Tempo 1090 review"
         },
         {
@@ -582,22 +583,22 @@
         },
         {
           "expert": "Kai Thompson",
-          "quote": "Adrian had to redesign the entire fuselage system for the Tempos — the wing design didn't fit any existing fuselage. After Hawaii they switched from weave carbon to unicarbon all the way through, gaining 24% more stiffness.",
+          "quote": "Adrian had to redesign the entire fuselage system for the Tempos \u2014 the wing design didn't fit any existing fuselage. After Hawaii they switched from weave carbon to unicarbon all the way through, gaining 24% more stiffness.",
           "context": "AXIS team rider (80kg, DW racer), SurfFX interview Mar 2026. Explaining Tempo development."
         },
         {
           "expert": "Kai Thompson",
-          "quote": "From the Tempos I'm getting consistency mostly. That's the biggest thing. You can be insanely overpowered on the 1020 at 30 knots and they handle it — there's no question in the riding ability because they're so stiff.",
+          "quote": "From the Tempos I'm getting consistency mostly. That's the biggest thing. You can be insanely overpowered on the 1020 at 30 knots and they handle it \u2014 there's no question in the riding ability because they're so stiff.",
           "context": "AXIS team rider (80kg), SurfFX interview Mar 2026. On Tempo performance."
         },
         {
           "expert": "Adrian Roper",
-          "quote": "The Tempo 1020 is my travel wing. With 650cm² area, I can do 145-230 second paces and be comfortable everywhere. Range is insane.",
+          "quote": "The Tempo 1020 is my travel wing. With 650cm\u00b2 area, I can do 145-230 second paces and be comfortable everywhere. Range is insane.",
           "context": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025. Adrian Roper (CEO) on Tempo 1020."
         },
         {
           "expert": "Adrian Roper",
-          "quote": "With the Tempo, the trick is to do less — people pump like crazy on first run. Just back off and let it do its work. Very little drag, it runs free.",
+          "quote": "With the Tempo, the trick is to do less \u2014 people pump like crazy on first run. Just back off and let it do its work. Very little drag, it runs free.",
           "context": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025. On Tempo riding technique."
         },
         {
@@ -607,7 +608,7 @@
         },
         {
           "expert": "Adrian Roper",
-          "quote": "Kai Lenny started on Fireballs when he joined, then switched to the Tempo. He's run virtually every race in Hawaii, Northshore, Oahu, France — basically everywhere since then.",
+          "quote": "Kai Lenny started on Fireballs when he joined, then switched to the Tempo. He's run virtually every race in Hawaii, Northshore, Oahu, France \u2014 basically everywhere since then.",
           "context": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025."
         },
         {
@@ -617,28 +618,28 @@
         },
         {
           "expert": "Adrian Roper",
-          "quote": "Don't compare wings by area — it's meaningless. Tempo 1020 (650cm²), ART V2 999 (1024cm²), Fireball 1000 (773cm²) all get up the same. Only span is a rough guide; real comparison needs CFD.",
+          "quote": "Don't compare wings by area \u2014 it's meaningless. Tempo 1020 (650cm\u00b2), ART V2 999 (1024cm\u00b2), Fireball 1000 (773cm\u00b2) all get up the same. Only span is a rough guide; real comparison needs CFD.",
           "context": "The Foil Shop, Nov 2025. Critical correction on wing area comparison."
         }
       ],
       "community_insights": [
-        "Tempo not yet available in Europe warehouse as of early 2026 — order to home country first",
-        "Tempo transition from Fireball is 'not really hard — similar DNA' (Philippe Axman)",
+        "Tempo not yet available in Europe warehouse as of early 2026 \u2014 order to home country first",
+        "Tempo transition from Fireball is 'not really hard \u2014 similar DNA' (Philippe Axman)",
         "For Leucate competition: Tempo 960 and 1090 should cover most forecasts (Philippe Axman)",
         "Adrian Roper: 9 out of top 20 at Maui Race Series (M2M and M2O) on Axis Tempo. The dominant DW race foil currently.",
-        "Tempo 1020 is Adrian's personal travel wing — range from 145s/km to 230s/km pace. He uses it when conditions are questionable.",
+        "Tempo 1020 is Adrian's personal travel wing \u2014 range from 145s/km to 230s/km pace. He uses it when conditions are questionable.",
         "Tempo/Fireball tip: Do LESS pumping on first ride. The foil runs free with very little drag. Pumping like crazy fights the design.",
         "Titanium fuselage required for Tempo because wings are so thin (<10mm at edge) that aluminum wouldn't work. Grub screw expansion plate creates rigid joint.",
         "Tempo construction: Uni-direction carbon (no woven) on outside gives 25% more stiffness. Led to discovery for further development.",
-        "Kiwi mast (new downwind-specific mast) in development — only prototypes exist as of Nov 2025. Not yet released.",
+        "Kiwi mast (new downwind-specific mast) in development \u2014 only prototypes exist as of Nov 2025. Not yet released.",
         "Foil Drive pocket board (AWSI 2025): Covered trench, fiberglass around battery pocket for signal transparency. Battery slides in, locked with 2 bolts. Very clean, low drag profile.",
         "Tempo key reason for new fuselage (Adrian AWSI 2025): 16 aspect ratio wings are too thin for any existing fuselage. Titanium grub-screw expansion plate system creates rigid joint.",
-        "Olivia Piana confirmed racing Tempo 1020 (650cm² area) at 2025 Maliko Downwind race. Noted it was 'a bit too big for bumps' — average speed lower. But chosen for endurance/flat sections at end."
+        "Olivia Piana confirmed racing Tempo 1020 (650cm\u00b2 area) at 2025 Maliko Downwind race. Noted it was 'a bit too big for bumps' \u2014 average speed lower. But chosen for endurance/flat sections at end."
       ]
     },
     "Surge": {
       "name": "Surge",
-      "tagline": "The wave weapon — back-foot surfing soul restored",
+      "tagline": "The wave weapon \u2014 back-foot surfing soul restored",
       "character": "Pure surf feel: instant response, shortboard snap, smooth rail-to-rail flow. First AXIS wing with moustache tips. Early lift despite relatively short span. Insane range from knee-high mush to outer-reef freight trains.",
       "who_its_for": "Wave riders first and foremost. Intermediate+ riders who want to shred, not just glide.",
       "disciplines": [
@@ -652,7 +653,7 @@
       "not_ideal_for": "Flat water blasting (use ART V2 or Fireball instead), pure pump foiling",
       "models": {
         "Surge 830": {
-          "highlight": "Smallest Surge — advanced wave performance",
+          "highlight": "Smallest Surge \u2014 advanced wave performance",
           "notes": "Aurelien J (75kg): Very comfortable, turns well, confidence-inspiring. Uses Advance Ultrashort fuse, Skinny 360. 'Makes it feel alive and like it wants to turn.'",
           "rider_feedback": "Aurelien J (75kg): Very comfortable, turns well, confidence-inspiring Kai Thompson (80kg): Daily driver for surf, winging, downwind, Foil Drive. 80cm mast + Ultrashort fuse. Pairs with 345 tail."
         },
@@ -664,13 +665,13 @@
         },
         "Surge 950": {
           "notes": "Mid-size wave all-rounder",
-          "rider_feedback": "Kai Thompson (80kg): Best for dock starting competition. Won Boot Düsseldorf dock start event using this surf wing against dedicated race/starting foils."
+          "rider_feedback": "Kai Thompson (80kg): Best for dock starting competition. Won Boot D\u00fcsseldorf dock start event using this surf wing against dedicated race/starting foils."
         },
         "Surge 1010": {
           "highlight": "Mark Shinn's 'Best AXIS foil I've ridden to date'",
           "notes": "Best dock start pump wing per multiple team riders. Great for people learning to downwind (easy control, good pump). Kai, Luke, Gray Morris all rode 1010 in Croisic dock start.",
           "rider_feedback": "Mark Shinn: 'Best AXIS foil I've ridden to date'",
-          "weight_range": "Works well for heavier riders too — Gray Morris (100kg) made finals at Croisic dock start",
+          "weight_range": "Works well for heavier riders too \u2014 Gray Morris (100kg) made finals at Croisic dock start",
           "future": "Larger sizes (1080, 1150) in development per Nov 2025 hint"
         }
       },
@@ -688,32 +689,32 @@
         },
         {
           "expert": "Kai Thompson",
-          "quote": "The Surge 830 is my go-to for surf, winging, downwind, Foil Drive — I take it everywhere. The 830 and 950 cover me for everything including dock starts.",
+          "quote": "The Surge 830 is my go-to for surf, winging, downwind, Foil Drive \u2014 I take it everywhere. The 830 and 950 cover me for everything including dock starts.",
           "context": "AXIS team rider (80kg), SurfFX interview Mar 2026. On Surge versatility."
         },
         {
           "expert": "Kai Thompson",
-          "quote": "I used the Surge 950 for dock starting comp at Boot Düsseldorf — beat guys running dedicated starting foils with a surf wing. Made a few people think differently.",
+          "quote": "I used the Surge 950 for dock starting comp at Boot D\u00fcsseldorf \u2014 beat guys running dedicated starting foils with a surf wing. Made a few people think differently.",
           "context": "AXIS team rider (80kg), SurfFX interview Mar 2026. On Surge in dock start competition."
         },
         {
           "expert": "Kai Thompson",
-          "quote": "If you're foil driving and have Axis, the Surge is awesome — really nice efficient glide cruising without the drag. Some surf setups are more draggy and less pumpy. This has way more freedom.",
+          "quote": "If you're foil driving and have Axis, the Surge is awesome \u2014 really nice efficient glide cruising without the drag. Some surf setups are more draggy and less pumpy. This has way more freedom.",
           "context": "AXIS team rider (80kg), SurfFX interview Mar 2026. On Surge with Foil Drive."
         },
         {
           "expert": "Adrian Roper",
-          "quote": "The Surge is a pure surf wing by design — but it happens to be really good for dock start pump, power wing, and even learning to downwind in bigger sizes. It does everything.",
+          "quote": "The Surge is a pure surf wing by design \u2014 but it happens to be really good for dock start pump, power wing, and even learning to downwind in bigger sizes. It does everything.",
           "context": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025"
         },
         {
           "expert": "Adrian Roper",
-          "quote": "With the Surge, the key innovation is a flat middle section then turn-down at the tips — not a full arc. Full arc locks into turns. Ours lets you surf freely, engage a bottom turn, and whack the lip. Free, not locked.",
+          "quote": "With the Surge, the key innovation is a flat middle section then turn-down at the tips \u2014 not a full arc. Full arc locks into turns. Ours lets you surf freely, engage a bottom turn, and whack the lip. Free, not locked.",
           "context": "The Foil Shop Tempo & Surge Deep Dive, Nov 2025. On moustache/dihedral design."
         },
         {
           "expert": "Luke Atkinson",
-          "quote": "At 100kg I ride the 890 and it packs way above its weight in terms of lift and turning. My go-to for prone, sub-paddle, parawing, winging — pretty much anything. The 830 is next as my main prone wing.",
+          "quote": "At 100kg I ride the 890 and it packs way above its weight in terms of lift and turning. My go-to for prone, sub-paddle, parawing, winging \u2014 pretty much anything. The 830 is next as my main prone wing.",
           "context": "The Foil Shop, Nov 2025. Luke Atkinson, AXIS team rider, ~100kg"
         },
         {
@@ -723,44 +724,44 @@
         },
         {
           "expert": "Luke Atkinson",
-          "quote": "The 1010 works fantastic for dock start — it enters the water really well because of the moustache tips. Even Yvon Labarthe said it was the best wing he'd ever used for engaging from a dock start.",
+          "quote": "The 1010 works fantastic for dock start \u2014 it enters the water really well because of the moustache tips. Even Yvon Labarthe said it was the best wing he'd ever used for engaging from a dock start.",
           "context": "The Foil Shop, Nov 2025. On dock start competition in Croisic/Crozon."
         },
         {
           "expert": "Mark Shinn",
-          "quote": "From the moment I got on it, the foil said — is that it? I can do more than that. You end up rolling harder every turn trying to find the limit. And I haven't found it yet.",
+          "quote": "From the moment I got on it, the foil said \u2014 is that it? I can do more than that. You end up rolling harder every turn trying to find the limit. And I haven't found it yet.",
           "context": "Adrian + Mark Shinn on Surge, Nov 2025. On Surge roll and turn character."
         },
         {
           "expert": "Mark Shinn",
-          "quote": "The Surge resolves exactly what I always wanted from the Fireball — the glide and pump are there, but now you can make aggressive turns. It pumps like the Fireball — you can feel the Fireball in the Surge.",
+          "quote": "The Surge resolves exactly what I always wanted from the Fireball \u2014 the glide and pump are there, but now you can make aggressive turns. It pumps like the Fireball \u2014 you can feel the Fireball in the Surge.",
           "context": "Adrian + Mark Shinn on Surge, Nov 2025."
         }
       ],
       "community_insights": [
         "Aurelien J (75kg) on Surge 830: Very comfortable, turns well, confidence-inspiring. Advance Ultrashort fuse + Skinny 360.",
         "Jerome: Skinny Surf 280 is the go-to rear wing for parawing with Surge",
-        "Mark Shinn: 'Best AXIS foil I've ridden to date' — for the Surge 1010",
-        "Riders transitioning from ART V2 find they don't need as big a Surge as expected. The forward drive (from Fireball DNA) is the #1 unexpected selling point — not just the roll/turn feel. (SurfFX / Kai Thompson, Mar 2026)",
+        "Mark Shinn: 'Best AXIS foil I've ridden to date' \u2014 for the Surge 1010",
+        "Riders transitioning from ART V2 find they don't need as big a Surge as expected. The forward drive (from Fireball DNA) is the #1 unexpected selling point \u2014 not just the roll/turn feel. (SurfFX / Kai Thompson, Mar 2026)",
         "Luke Atkinson (100kg) on Surge 890: Surfs harder than Spitfire 780 and pumps 10x longer. All-around do-everything wing.",
-        "Luke Atkinson: Surge 1010 was best dock start wing — even Yvon Labarthe said it was the best he'd tried for dock start engagement.",
-        "Surge rear wing recommendation: Luke uses Surf Skinny 300 as main surf skinny — pumps better than progressives, turns better than regular skinnies. At 100kg, 280 felt insufficient pump, 320 felt too stiff.",
+        "Luke Atkinson: Surge 1010 was best dock start wing \u2014 even Yvon Labarthe said it was the best he'd tried for dock start engagement.",
+        "Surge rear wing recommendation: Luke uses Surf Skinny 300 as main surf skinny \u2014 pumps better than progressives, turns better than regular skinnies. At 100kg, 280 felt insufficient pump, 320 felt too stiff.",
         "Gray Morris (100kg): Also rode the 1010 in Croisic dock start event and made the finals.",
-        "Adrian: Surge tip design — flat middle section then turn-down tip (not full arc) = free surfing feel, no locked turns.",
-        "Surge is NOT a replacement for Spitfire — Spitfire better for CL foiling. Surge better for prone, wave surfing, winging in swell.",
+        "Adrian: Surge tip design \u2014 flat middle section then turn-down tip (not full arc) = free surfing feel, no locked turns.",
+        "Surge is NOT a replacement for Spitfire \u2014 Spitfire better for CL foiling. Surge better for prone, wave surfing, winging in swell.",
         "Surge 890 at 100kg (Luke): use with 345 rear skinny, Advance Ultrashort fuse as go-to setup.",
-        "Christian (Wing Server, Feb 2026): Surge A890 fits perfectly between Spitfire and ART V2. Very forgiving and stable in messy water — can continuously adjust foil angle without stalling. Not as fast as ART V2 but similar glide.",
-        "Christian: Surge excels when pushed in hard turns using energy from bumps and swell. Better pop for jumping than Spitfire at same size. Still need to size correctly — 890 may be big if coming from Spitfire 780.",
+        "Christian (Wing Server, Feb 2026): Surge A890 fits perfectly between Spitfire and ART V2. Very forgiving and stable in messy water \u2014 can continuously adjust foil angle without stalling. Not as fast as ART V2 but similar glide.",
+        "Christian: Surge excels when pushed in hard turns using energy from bumps and swell. Better pop for jumping than Spitfire at same size. Still need to size correctly \u2014 890 may be big if coming from Spitfire 780.",
         "Christian: When to choose ART V2 879 over Surge: fast moving waves, can keep up with pocket. Generates way more speed. But Surge is looser and more forgiving on smaller/messier days.",
         "Christian: For overhead powerful waves where you don't need glide, Spitfire 780 still best. In those conditions, going too big on any foil = getting spit out.",
-        "Christian: ART V2 879 is standout size. On smaller days, switch to A939 or 999 — they glide better at lower speeds.",
+        "Christian: ART V2 879 is standout size. On smaller days, switch to A939 or 999 \u2014 they glide better at lower speeds.",
         "Christian: Fireball 1250 = amazing light wind downwind/power wing foil. Prefers smooth drawn-out turns, not snappy. Very high aspect foils don't lock in well in lots of water movement when winging upwind.",
-        "Size comparison: Surge A890 more forgiving than Spitfire 780 despite bigger span. Moving from ART V2 triple9 → recommend Surge 890 or 950. Moving from ART V2 819 → Surge 830."
+        "Size comparison: Surge A890 more forgiving than Spitfire 780 despite bigger span. Moving from ART V2 triple9 \u2192 recommend Surge 890 or 950. Moving from ART V2 819 \u2192 Surge 830."
       ]
     },
     "PNG V2": {
       "name": "PNG V2",
-      "tagline": "Upgraded pump-and-glide — faster, better control than original PNG",
+      "tagline": "Upgraded pump-and-glide \u2014 faster, better control than original PNG",
       "character": "Same great lift as PNG but noticeably more speed, better control, and better glide. Same foil section as Fireball for excellent low-speed lift.",
       "who_its_for": "All weights needing pump/dock start/light wind capability. Heavier riders' go-to (Mark Shinn's 'session saver').",
       "disciplines": [
@@ -774,10 +775,10 @@
       "models": {
         "PNG V2 1200": {
           "highlight": "Entry-level for heavy beginners (85-120kg)",
-          "notes": "Yvon Labarthe (75kg): For complete beginners >85kg up to 120kg. Goes on BLACK fuselage (unlike original PNG). 120cm span, very maneuverable. Lots of lift at low speed, not fast. Heavier riders (95-100kg+) make it go faster. If <85kg with experience → PNG V2 1300 is better.",
+          "notes": "Yvon Labarthe (75kg): For complete beginners >85kg up to 120kg. Goes on BLACK fuselage (unlike original PNG). 120cm span, very maneuverable. Lots of lift at low speed, not fast. Heavier riders (95-100kg+) make it go faster. If <85kg with experience \u2192 PNG V2 1300 is better.",
           "weight_range": "85-120kg beginners primarily",
           "fuselage": "Black Series (NOT Red!)",
-          "rider_feedback": "Yvon (75kg): Tried it in small waves — turns very nicely. Can do some DW. Perfect beginner wing for heavier riders."
+          "rider_feedback": "Yvon (75kg): Tried it in small waves \u2014 turns very nicely. Can do some DW. Perfect beginner wing for heavier riders."
         },
         "PNG V2 1300": {
           "highlight": "Mark Shinn's 'first choice, session saver'",
@@ -787,16 +788,16 @@
           "rider_feedback": "Mark Shinn: 'V2 feels like a much smaller foil in terms of controllability. The mind-of-its-own feeling is gone.' V1 comparison: V2 is faster, better glide, better control, same pump or slightly better."
         },
         "PNG V2 1400": {
-          "highlight": "Yvon's winter pump favorite — 7-8 minutes vs 3 min on Fireball 1350",
-          "notes": "Yvon Labarthe (75kg): 140cm span, cruises 13.8-13.9 km/h. HUGE surprise — pumps 7-8 min without going anaerobic vs only 3 min on Fireball 1350. Heart under 160 BPM. Recovers ease-of-use from PNG V1 1300. Patrick (112kg) gets 15-16 km/h on it.",
-          "weight_range": "All weights — heavier riders especially love it",
-          "rider_feedback": "Yvon: Recovered that easy feeling from PNG V1 1300 — which PNG V2 1300 lost in pursuit of more speed/glide. Best winter pump foil for those who love pumping long."
+          "highlight": "Yvon's winter pump favorite \u2014 7-8 minutes vs 3 min on Fireball 1350",
+          "notes": "Yvon Labarthe (75kg): 140cm span, cruises 13.8-13.9 km/h. HUGE surprise \u2014 pumps 7-8 min without going anaerobic vs only 3 min on Fireball 1350. Heart under 160 BPM. Recovers ease-of-use from PNG V1 1300. Patrick (112kg) gets 15-16 km/h on it.",
+          "weight_range": "All weights \u2014 heavier riders especially love it",
+          "rider_feedback": "Yvon: Recovered that easy feeling from PNG V1 1300 \u2014 which PNG V2 1300 lost in pursuit of more speed/glide. Best winter pump foil for those who love pumping long."
         }
       },
       "expert_quotes": [
         {
           "expert": "Mark Shinn",
-          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow — really slow.",
+          "quote": "The PNG V2 1300 blows the V1 away in speed. Consistently happy riding at 22-25 km/h, in wave riding up to 29-30 km/h. The old 1300 was slow \u2014 really slow.",
           "context": "AXIS Team Rider, Nov 2024. Heavy rider on PNG V2 1300 vs V1."
         },
         {
@@ -811,17 +812,17 @@
         },
         {
           "expert": "Mark Shinn",
-          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 — it's the session saver.",
+          "quote": "PNG V2 1300 vs Art Pro 1401: The 1401 has more glide and is easier to suck energy from. But the 1300 is more versatile and easier to use. When conditions are complicated, 1300. When water is clear, 1401. If I can only have one, it's the 1300 \u2014 it's the session saver.",
           "context": "AXIS Team Rider, Nov 2024. PNG V2 1300 vs ART Pro 1401."
         },
         {
           "expert": "Yvon Labarthe",
-          "quote": "PNG V2 1200 — for complete beginners 85-120kg. Goes on BLACK fuselage. Super maneuverable at 120cm span. Very beginner, lots of lift at low speed. If under 85kg with experience, take the V2 1300 instead.",
+          "quote": "PNG V2 1200 \u2014 for complete beginners 85-120kg. Goes on BLACK fuselage. Super maneuverable at 120cm span. Very beginner, lots of lift at low speed. If under 85kg with experience, take the V2 1300 instead.",
           "context": "French YouTube review, Apr 2025. Yvon Labarthe (75kg)."
         },
         {
           "expert": "Yvon Labarthe",
-          "quote": "PNG V2 1400 — a big surprise! With Fireball 1350 in winter (water at 6°C), I only last 3 minutes. With the 1400 I easily pump 7-8 minutes without going over 160 BPM. Very easy, not demanding. Patrick at 112kg gets 15-16 km/h on it.",
+          "quote": "PNG V2 1400 \u2014 a big surprise! With Fireball 1350 in winter (water at 6\u00b0C), I only last 3 minutes. With the 1400 I easily pump 7-8 minutes without going over 160 BPM. Very easy, not demanding. Patrick at 112kg gets 15-16 km/h on it.",
           "context": "French YouTube review, Apr 2025. Yvon Labarthe (75kg)."
         }
       ]
@@ -836,7 +837,7 @@
         "PNG",
         "large Spitfire"
       ],
-      "note": "Essential for big span wings — strongest connection",
+      "note": "Essential for big span wings \u2014 strongest connection",
       "sizes": {
         "Standard": "Best for riders 240lb+ or largest wings",
         "Short": "Best for riders ~180lb, most common Red option",
@@ -856,19 +857,19 @@
         "smaller BSC"
       ],
       "sizes": {
-        "Standard": "Beginners — maximum stability",
+        "Standard": "Beginners \u2014 maximum stability",
         "Short": "Learning",
-        "Ultrashort": "Most popular intermediate/advanced — sweet spot of maneuverability and stability",
+        "Ultrashort": "Most popular intermediate/advanced \u2014 sweet spot of maneuverability and stability",
         "Crazy Short": "Advanced performance",
         "Silly Short": "Expert pump foiling",
-        "Psycho Short": "Extreme pump — used by Mark Shinn with Fireball 1350"
+        "Psycho Short": "Extreme pump \u2014 used by Mark Shinn with Fireball 1350"
       }
     },
     "advance_plus": {
       "description": "Mast position 60mm further forward vs standard fuselage.",
       "use_case": "Advanced surf performance, tight turns on waves",
       "best_with": "ART wings, Spitfire, for maximum carve",
-      "note": "NOT called 'Advance 20' — the correct name is 'Advance+'"
+      "note": "NOT called 'Advance 20' \u2014 the correct name is 'Advance+'"
     },
     "ti_link": {
       "description": "Aerospace-grade titanium, machined to absolute precision.",
@@ -906,7 +907,7 @@
     },
     "power_carbon": {
       "name": "Power Carbon",
-      "character": "Game changer stiffness — immediate response",
+      "character": "Game changer stiffness \u2014 immediate response",
       "who_its_for": "Advanced riders, big guys, biggest wings, those pushing limits",
       "notes": "Essential for ART series to get proper performance. 'More positive feel with immediate response'",
       "when_to_upgrade": "When you feel flex limiting your performance, or riding ART series"
@@ -916,14 +917,14 @@
       "character": "Military-grade carbon, ultimate stiffness",
       "who_its_for": "Elite performance, when you want the absolute best",
       "notes": "Yvon Labarthe: Ultra Pro slides super well but bends under Fireball 1750 load. Use Fatty mast for 1500+.",
-      "cost": "Outrageously expensive — for those who must have the best"
+      "cost": "Outrageously expensive \u2014 for those who must have the best"
     },
     "fatty_mast": {
       "name": "Power Carbon FATTY / Fatty Mast",
       "character": "Extra torsional stiffness for extreme loads",
       "who_its_for": "1500+ span wings (Fireball 1500, 1750) AND heavy riders (85kg+) pushing limits",
       "critical_note": "REQUIRED for Fireball 1500/1750 if rider is >85kg. Ultra Pro mast bends under 1750. Yvon confirmed.",
-      "common_misconception": "Not just for 'winging' — for high-load situations regardless of discipline"
+      "common_misconception": "Not just for 'winging' \u2014 for high-load situations regardless of discipline"
     },
     "carbon_integrated_foil_drive": {
       "name": "Carbon Integrated Foil Drive",
@@ -931,10 +932,10 @@
       "notes": "Special mast accommodating Foil Drive unit. Battery sits in board cutout."
     },
     "notes": [
-      "Fatty mast system: 95mm profile mast cut down — fatter from base all the way through. MUST pair with fatty fuselage (wider mounting). Recommended for heavier riders (80kg+) on Fireballs. Lighter riders (sub-80kg) can use standard mast. (Kai Thompson / SurfFX, Mar 2026)",
+      "Fatty mast system: 95mm profile mast cut down \u2014 fatter from base all the way through. MUST pair with fatty fuselage (wider mounting). Recommended for heavier riders (80kg+) on Fireballs. Lighter riders (sub-80kg) can use standard mast. (Kai Thompson / SurfFX, Mar 2026)",
       "Fatty mast stiffness test (Adrian Roper, Nov 2025): 900mm mast, 25kg side load. 19mm Alum: 38mm bend. Power Carbon: ~29mm. Power Carbon HM: ~23mm. Ultra Pro: ~19mm. FATTY MAST: 11mm. Nearly DOUBLE the stiffness of Ultra Pro. Required for 1500/1750 span wings.",
       "Mast thickness impacts wing selection (Adrian): 1750 span = fatty mast. Under 1350 span at <90kg = Ultra Pro. Mix-match at your own peril.",
-      "New Kiwi mast for DW coming (Adrian, Nov 2025) — only 11mm through bottom, absolute min drag for Tempo system under 90kg. Not released yet."
+      "New Kiwi mast for DW coming (Adrian, Nov 2025) \u2014 only 11mm through bottom, absolute min drag for Tempo system under 90kg. Not released yet."
     ]
   },
   "downwind_progression": {
@@ -974,15 +975,15 @@
   },
   "setup_guides": {
     "beginner_winging_80kg": {
-      "title": "Beginner Winging — ~80kg Rider",
+      "title": "Beginner Winging \u2014 ~80kg Rider",
       "front_wing": "BSC 1060",
       "rear_wing": "Freeride 440/90",
       "fuselage": "Red Short",
-      "mast": "75cm Aluminum 19mm (learning) → 90cm (progressing)",
+      "mast": "75cm Aluminum 19mm (learning) \u2192 90cm (progressing)",
       "notes": "Most forgiving setup. Focus on getting up and controlling altitude before worrying about performance."
     },
     "beginner_winging_heavy": {
-      "title": "Beginner Winging — 90kg+ Rider",
+      "title": "Beginner Winging \u2014 90kg+ Rider",
       "front_wing": "BSC 1120",
       "rear_wing": "Freeride 440/90",
       "fuselage": "Red Standard",
@@ -1014,15 +1015,15 @@
       "notes": "Surge is purpose-built for waves. Jerome recommends Surf Skinny 280 for parawing specifically."
     },
     "downwind_beginner": {
-      "title": "Downwind — Beginner",
+      "title": "Downwind \u2014 Beginner",
       "front_wing": "PNG 1300",
       "rear_wing": "Freeride or Progressive",
       "fuselage": "Red Short",
       "mast": "82-90cm Aluminum",
-      "notes": "Big span to catch small bumps. Don't rush to smaller wings — stay here until you catch bumps consistently."
+      "notes": "Big span to catch small bumps. Don't rush to smaller wings \u2014 stay here until you catch bumps consistently."
     },
     "downwind_intermediate": {
-      "title": "Downwind — Intermediate",
+      "title": "Downwind \u2014 Intermediate",
       "front_wing": "Fireball 1160 or Spitfire 1180",
       "rear_wing": "Skinny 30-35",
       "fuselage": "Black Ultrashort",
@@ -1030,7 +1031,7 @@
       "notes": "Fred Bonnet: FB 1160 is 'unbelievable, effortless' for intermediate/advanced SUP DW."
     },
     "downwind_advanced": {
-      "title": "Downwind — Advanced/Racing",
+      "title": "Downwind \u2014 Advanced/Racing",
       "front_wing": "Tempo 1090 or Fireball 1070",
       "rear_wing": "Skinny 30 (DW) / Skinny 35 (upwind)",
       "fuselage": "Ti Link 70cm (Tempo) or Black Psycho Short (Fireball)",
@@ -1070,13 +1071,13 @@
         {
           "rider": "Fred Bonnet",
           "weight_kg": null,
-          "text": "Fireball 1160 — unbelievable, effortless. Top pick for intermediate/advanced SUP downwind.",
+          "text": "Fireball 1160 \u2014 unbelievable, effortless. Top pick for intermediate/advanced SUP downwind.",
           "foil": "Fireball 1160"
         },
         {
           "rider": "Dmitry Evseev",
           "weight_kg": 75,
-          "text": "FB 940 is my favorite — needs good waves/wind but flies when conditions cooperate.",
+          "text": "FB 940 is my favorite \u2014 needs good waves/wind but flies when conditions cooperate.",
           "foil": "Fireball 940"
         }
       ],
@@ -1084,7 +1085,7 @@
         {
           "rider": "Yvon Labarthe",
           "weight_kg": null,
-          "text": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm² less. 15-20% less effort than FB 1070.",
+          "text": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm\u00b2 less. 15-20% less effort than FB 1070.",
           "foil": "Tempo 1090"
         },
         {
@@ -1096,13 +1097,13 @@
         {
           "rider": "Adrian Roper",
           "weight_kg": null,
-          "text": "Tempo 920 was my Maui race wing. Never felt I needed anything bigger for the races. Tried the 890 — wish I'd used that for all of them. Speed and carry is insane.",
+          "text": "Tempo 920 was my Maui race wing. Never felt I needed anything bigger for the races. Tried the 890 \u2014 wish I'd used that for all of them. Speed and carry is insane.",
           "foil": "Tempo 920"
         },
         {
           "rider": "Adrian Roper",
           "weight_kg": null,
-          "text": "For France races I use the Tempo 1020. That's my wing when conditions are questionable — range from 145s/km to 230s/km.",
+          "text": "For France races I use the Tempo 1020. That's my wing when conditions are questionable \u2014 range from 145s/km to 230s/km.",
           "foil": "Tempo 1020"
         }
       ],
@@ -1128,7 +1129,7 @@
         {
           "rider": "Luke Atkinson",
           "weight_kg": 100,
-          "text": "Surge 1010 with 890 ultra short fuse and 345 rear — Grey Morris and I both used for dock start competition at Croisic. Made finals. Incredibly reliable for dock start.",
+          "text": "Surge 1010 with 890 ultra short fuse and 345 rear \u2014 Grey Morris and I both used for dock start competition at Croisic. Made finals. Incredibly reliable for dock start.",
           "foil": "Surge 1010"
         }
       ],
@@ -1142,13 +1143,13 @@
         {
           "rider": "Mark Shinn",
           "weight_kg": null,
-          "text": "PNG V2 1300 is my session saver — first wing into my bag on any trip. 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer. Consistently 22-25 km/h, up to 30 km/h in waves.",
+          "text": "PNG V2 1300 is my session saver \u2014 first wing into my bag on any trip. 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer. Consistently 22-25 km/h, up to 30 km/h in waves.",
           "foil": "PNG V2 1300"
         },
         {
           "rider": "Yvon Labarthe",
           "weight_kg": 75,
-          "text": "PNG V2 1400 — 7-8 minutes pump in winter vs 3 minutes on Fireball 1350. Heart under 160 BPM. Cruises 13.8-13.9 km/h. Not as fast but WAY more endurance. Perfect winter pump foil.",
+          "text": "PNG V2 1400 \u2014 7-8 minutes pump in winter vs 3 minutes on Fireball 1350. Heart under 160 BPM. Cruises 13.8-13.9 km/h. Not as fast but WAY more endurance. Perfect winter pump foil.",
           "foil": "PNG V2 1400"
         }
       ],
@@ -1156,13 +1157,13 @@
         {
           "rider": "Yvon Labarthe",
           "weight_kg": null,
-          "text": "With ART V2 1099, I have 25% less glide than FB 1160 — Fireball wins for pumping. ART v2 turns 5-10% better rail-to-rail.",
+          "text": "With ART V2 1099, I have 25% less glide than FB 1160 \u2014 Fireball wins for pumping. ART v2 turns 5-10% better rail-to-rail.",
           "foil": "ART V2 1099"
         },
         {
           "rider": "Yvon Labarthe",
           "weight_kg": null,
-          "text": "ART v2 879 behind a boat in towing — ça tourne grave! (turns like crazy). For wing, everyone loves ART v2.",
+          "text": "ART v2 879 behind a boat in towing \u2014 \u00e7a tourne grave! (turns like crazy). For wing, everyone loves ART v2.",
           "foil": "ART V2 879"
         }
       ]
@@ -1171,12 +1172,12 @@
   "common_pitfalls": [
     {
       "issue": "HPS 880 pitch control",
-      "description": "Some riders struggle with pitch control on the HPS 880 — over-correcting up/down. This is normal early on. Focus on smooth, gradual body movements rather than reactive corrections.",
+      "description": "Some riders struggle with pitch control on the HPS 880 \u2014 over-correcting up/down. This is normal early on. Focus on smooth, gradual body movements rather than reactive corrections.",
       "solution": "Give it time. Use Advance fuselage and proper mast. Most riders get past this within 5-10 sessions."
     },
     {
       "issue": "ART in choppy water",
-      "description": "Standard ART wings struggle in turbulent/choppy conditions — they're designed for smooth water. Using ART in chop leads to frustration.",
+      "description": "Standard ART wings struggle in turbulent/choppy conditions \u2014 they're designed for smooth water. Using ART in chop leads to frustration.",
       "solution": "Use ART V2 or Spitfire for choppy conditions. Save ART for smooth water days."
     },
     {
@@ -1191,7 +1192,7 @@
     },
     {
       "issue": "Tempo with wrong rear wing adapter",
-      "description": "Using a normal stab adapter with Skinny rear wings on Tempo adds significant drag ('crazy brake' — Yvon).",
+      "description": "Using a normal stab adapter with Skinny rear wings on Tempo adds significant drag ('crazy brake' \u2014 Yvon).",
       "solution": "MUST use Tempo's integrated tail fuselage. Order Tempo-specific revised Skinny monobloc stabs."
     },
     {
@@ -1202,7 +1203,7 @@
     {
       "issue": "ART V1 in choppy/tidal water",
       "description": "Original ART series (V1) struggles significantly in choppy water with tidal currents. Aggressive stall, excessive front foot pressure. Only 899 size works reasonably well in chop.",
-      "solution": "Switch to ART V2 for choppy conditions — designed with these issues fixed. Spitfire also better in chop than ART V1."
+      "solution": "Switch to ART V2 for choppy conditions \u2014 designed with these issues fixed. Spitfire also better in chop than ART V1."
     }
   ],
   "anti_counterfeiting": {
@@ -1236,7 +1237,7 @@
         {
           "issue": "Fuselage design requiring ultra-HM carbon",
           "detail": "AXIS fuselage beds down INTO the wing (making it thinner), requiring more expensive ultra-HM carbon to maintain strength. Customer pays premium for manufacturing constraint not design benefit.",
-          "status": "Ongoing structural concern — accurate for older wings"
+          "status": "Ongoing structural concern \u2014 accurate for older wings"
         },
         {
           "issue": "Perception of brand direction (prone/DW focused, not winging)",
@@ -1245,24 +1246,24 @@
         },
         {
           "issue": "Ultra-HM Mast pricing for small foil riders",
-          "detail": "Tapered carbon mast (£3000) aimed at large-span DW foils. No cheaper tapered mast option for winging with smaller span wings.",
-          "status": "Valid concern — AXIS mast lineup focuses on DW performance"
+          "detail": "Tapered carbon mast (\u00a33000) aimed at large-span DW foils. No cheaper tapered mast option for winging with smaller span wings.",
+          "status": "Valid concern \u2014 AXIS mast lineup focuses on DW performance"
         }
       ],
       "advisory_note": "These concerns are valuable for understanding AXIS weaknesses vs competitors. The ART V2 (2024) and Surge (2025) address wave performance issues. Pricing and mast range remain valid concerns for some riders."
     },
     "competitor_comparisons": {
       "Duotone": {
-        "Glide V2": "Full plane foil — smoother entry feeling. Rider Ash switched to Duotone Glide 2.0 from AXIS HPS/ART range. Found Duotone HA foils more playful, better low end, no aggressive stall vs AXIS ART V1.",
+        "Glide V2": "Full plane foil \u2014 smoother entry feeling. Rider Ash switched to Duotone Glide 2.0 from AXIS HPS/ART range. Found Duotone HA foils more playful, better low end, no aggressive stall vs AXIS ART V1.",
         "Whiz": "Like a Spitfire with better low end and more carve capability. Lacks speed vs AXIS.",
-        "SLS Mast": "Tapered mast at ~£1300 vs AXIS Ultra-HM at ~£3000. Significant price advantage."
+        "SLS Mast": "Tapered mast at ~\u00a31300 vs AXIS Ultra-HM at ~\u00a33000. Significant price advantage."
       },
       "North": {
         "MA V2 1050": "Fantastically forgiving and playful mid-aspect. No ton of glide but very easy to use.",
-        "HM Mast": "New HM tapered mast — well-received in market"
+        "HM Mast": "New HM tapered mast \u2014 well-received in market"
       },
       "AK": {
-        "Tracer 1030": "Full plane foil — smooth riding. Axis doesn't offer full-plane connection for front wings."
+        "Tracer 1030": "Full plane foil \u2014 smooth riding. Axis doesn't offer full-plane connection for front wings."
       }
     }
   },
@@ -1303,9 +1304,9 @@
         "winging",
         "wing foiling"
       ],
-      "background": "10 years elite SUP racing. Switched post-COVID to winging → SUP foil → DW foiling. Holds/held M2M women's record.",
+      "background": "10 years elite SUP racing. Switched post-COVID to winging \u2192 SUP foil \u2192 DW foiling. Holds/held M2M women's record.",
       "known_setups": {
-        "maliko_race_2025": "Tempo 1020 (650cm² area) — confirmed in Jul 2025 Maliko race video",
+        "maliko_race_2025": "Tempo 1020 (650cm\u00b2 area) \u2014 confirmed in Jul 2025 Maliko race video",
         "preferred": "Smaller foils for bumpy conditions; bigger (Tempo 1020) for flat sections/endurance",
         "png_dock_start": "PNG 1150, Ultrashort fuse, 375 stab"
       },
@@ -1314,7 +1315,7 @@
         "One of very few women in foiling industry leadership",
         "Reports to Evan and Adrian at AXIS",
         "Fireball is the top-selling AXIS product in Europe per her Jul 2025 report",
-        "Has done Maliko multiple times — prefers bumpy over flat conditions",
+        "Has done Maliko multiple times \u2014 prefers bumpy over flat conditions",
         "Described AXIS as 'one of the brands that makes the best gear'",
         "Friends and races with Frank Maffei, Thiago, Nick at Maliko"
       ],
@@ -1345,8 +1346,8 @@
   "market_intel": {
     "europe_2025": {
       "source": "Olivia Piana, AXIS Europe - Jul 2025 (Maliko)",
-      "top_demand": "Fireball series — biggest demand across Europe",
-      "notes": "AXIS expanding in Europe — lots of work needed for brand awareness. 60+ front wings is confusing for customers.",
+      "top_demand": "Fireball series \u2014 biggest demand across Europe",
+      "notes": "AXIS expanding in Europe \u2014 lots of work needed for brand awareness. 60+ front wings is confusing for customers.",
       "pump_foiling": "Growing in Europe especially landlocked regions (Germany/Switzerland/lakes). Pump foiling seen as accessibility play for kids and non-coastal riders.",
       "new_products": "Olivia teased 'incredible new stuff coming' in Jul 2025. Likely Surge range (confirmed Nov 2025)."
     }
@@ -1355,17 +1356,17 @@
     "title": "AXIS Shimming Guide",
     "source": "Frank Boards Fiji Recap, Dec 2024 + community knowledge",
     "positive_shimming": {
-      "effect": "Increases differential between front and rear — more lift from rear wing",
+      "effect": "Increases differential between front and rear \u2014 more lift from rear wing",
       "use_case": "When rear foil feels slightly too small for conditions. Increases range.",
       "max_recommended": "0.5 degrees. Above that = too porpoisy. Better to just size up rear wing.",
       "practical_note": "Like going up one rear wing size without actually changing the wing."
     },
     "negative_shimming": {
-      "effect": "Flattens rear wing angle — less drag, releases handbrake. More glide, more slick.",
+      "effect": "Flattens rear wing angle \u2014 less drag, releases handbrake. More glide, more slick.",
       "use_case": "Speed-focused downwind. Race setup. Removing excess drag.",
       "max_recommended": "0.25 degrees. Above that at 80kg+ = nose-down tendency at speed.",
       "practical_note": "Rear wing still fully active for turns and pumping. Just less engaged for normal travel. Like taking handbrake off 2 clicks."
     },
-    "warning": "Frank Boards (80-83kg): going past 0.25° negative shim caused system to pull down (negative lift) at speed. Not safe."
+    "warning": "Frank Boards (80-83kg): going past 0.25\u00b0 negative shim caused system to pull down (negative lift) at speed. Not safe."
   }
 }
