@@ -8,18 +8,32 @@
   },
   "demographics": {
     "weight": {
-      "65-75 kg / 143-165 lbs": 53,
-      "75-85 kg / 165-187 lbs": 85,
+      "Over 105 kg / 231 lbs": 11,
+      "Under 65 kg / 143 lbs": 14,
       "85-95 kg / 187-209 lbs": 42,
       "95-105 kg / 209-231 lbs": 22,
-      "Over 105 kg / 231 lbs": 11,
-      "Under 65 kg / 143 lbs": 14
+      "75-85 kg / 165-187 lbs": 85,
+      "65-75 kg / 143-165 lbs": 53
     },
     "experience": {
-      "1-2 years": 24,
       "2-4 years": 72,
       "4+ years": 127,
+      "1-2 years": 24,
       "Less than 1 year": 3
+    },
+    "age": {
+      "36-45": 39,
+      "25-35": 23,
+      "46-55": 60,
+      "65+": 10,
+      "56-65": 44,
+      "Under 25": 5,
+      "Prefer not to say": 1
+    },
+    "gender": {
+      "Male": 170,
+      "Female": 9,
+      "Non-binary": 1
     }
   },
   "disciplines": {
@@ -253,23 +267,23 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 35",
+          "wing": "Skinny 350/35",
           "count": 11
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 8
         },
         {
           "wing": "Surf Skinny 300",
-          "count": 5
+          "count": 4
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 358/30",
           "count": 3
         },
         {
-          "wing": "Skinny 25",
+          "wing": "Skinny 358/25",
           "count": 3
         },
         {
@@ -277,11 +291,11 @@
           "count": 3
         },
         {
-          "wing": "Skinny 30",
+          "wing": "Skinny 362/50",
           "count": 2
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 359/40",
           "count": 2
         },
         {
@@ -301,11 +315,7 @@
           "count": 1
         },
         {
-          "wing": "350 Skinny",
-          "count": 1
-        },
-        {
-          "wing": "Surf Skinny 345",
+          "wing": "345 surf",
           "count": 1
         },
         {
@@ -317,7 +327,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 55",
+          "wing": "Skinny 365/55",
           "count": 1
         },
         {
@@ -338,6 +348,10 @@
         },
         {
           "wing": "Skinny 30 Tilink/ skinny surf 320",
+          "count": 1
+        },
+        {
+          "wing": "Skinny 359",
           "count": 1
         },
         {
@@ -369,11 +383,15 @@
           "count": 1
         },
         {
+          "wing": "Skinny35",
+          "count": 1
+        },
+        {
           "wing": "P325",
           "count": 1
         },
         {
-          "wing": "Surf Skinny 280",
+          "wing": "280 Surf Skinny and 25 Skinny Link",
           "count": 1
         },
         {
@@ -417,10 +435,6 @@
           "count": 1
         },
         {
-          "wing": "Skinny 358/30",
-          "count": 1
-        },
-        {
           "wing": "40 link, 30mm skinny",
           "count": 1
         },
@@ -454,6 +468,10 @@
         },
         {
           "wing": "320 Skinny Surf",
+          "count": 1
+        },
+        {
+          "wing": "Surfskinny 300",
           "count": 1
         }
       ],
@@ -1153,26 +1171,26 @@
       "top_rear_wings": [
         {
           "wing": "Surf Skinny 300",
-          "count": 12
+          "count": 11
         },
         {
-          "wing": "Surf Skinny 280",
-          "count": 5
-        },
-        {
-          "wing": "Surf Skinny 320",
+          "wing": "Surf Skinny 280/43",
           "count": 4
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 350/35",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 362/50",
           "count": 2
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Surf Skinny 320",
           "count": 2
         },
         {
-          "wing": "Skinny 35",
+          "wing": "Skinny 360/45",
           "count": 2
         },
         {
@@ -1180,11 +1198,11 @@
           "count": 2
         },
         {
-          "wing": "skinny",
-          "count": 1
+          "wing": "Progressive 325",
+          "count": 2
         },
         {
-          "wing": "350 Skinny",
+          "wing": "Skinny",
           "count": 1
         },
         {
@@ -1228,6 +1246,14 @@
           "count": 1
         },
         {
+          "wing": "surf skinny 300 or 320",
+          "count": 1
+        },
+        {
+          "wing": "Surf skinny 320 and 300",
+          "count": 1
+        },
+        {
           "wing": "Skinny 365",
           "count": 1
         },
@@ -1240,7 +1266,11 @@
           "count": 1
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
+          "count": 1
+        },
+        {
+          "wing": "280 surf",
           "count": 1
         },
         {
@@ -1264,10 +1294,6 @@
           "count": 1
         },
         {
-          "wing": "325 progressive and 35 skinny",
-          "count": 1
-        },
-        {
           "wing": "SKINNY - 358/30",
           "count": 1
         },
@@ -1277,10 +1303,6 @@
         },
         {
           "wing": "Kpart carve v2 140",
-          "count": 1
-        },
-        {
-          "wing": "Progressive 325",
           "count": 1
         },
         {
@@ -1305,6 +1327,10 @@
         },
         {
           "wing": "280/43 surf sinny",
+          "count": 1
+        },
+        {
+          "wing": "Skinny surf 320",
           "count": 1
         }
       ],
@@ -2175,32 +2201,36 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 16
         },
         {
-          "wing": "Skinny 45",
-          "count": 14
-        },
-        {
-          "wing": "Surf Skinny 320",
-          "count": 14
-        },
-        {
-          "wing": "Surf Skinny 300",
-          "count": 10
+          "wing": "Skinny 360/45",
+          "count": 15
         },
         {
           "wing": "Progressive 375",
-          "count": 7
+          "count": 10
         },
         {
-          "wing": "Skinny 55",
-          "count": 7
+          "wing": "Surf Skinny 320",
+          "count": 10
+        },
+        {
+          "wing": "Skinny 365/55",
+          "count": 9
         },
         {
           "wing": "Progressive 400",
           "count": 6
+        },
+        {
+          "wing": "Surf Skinny 300",
+          "count": 5
+        },
+        {
+          "wing": "Skinny 362/50",
+          "count": 5
         },
         {
           "wing": "Skinny",
@@ -2211,10 +2241,6 @@
           "count": 5
         },
         {
-          "wing": "Skinny 50",
-          "count": 4
-        },
-        {
           "wing": "Progressive 300",
           "count": 4
         },
@@ -2223,7 +2249,11 @@
           "count": 4
         },
         {
-          "wing": "Skinny 362",
+          "wing": "Skinny 350/35",
+          "count": 3
+        },
+        {
+          "wing": "Progressive 420",
           "count": 2
         },
         {
@@ -2235,15 +2265,7 @@
           "count": 2
         },
         {
-          "wing": "Skinny 35",
-          "count": 2
-        },
-        {
-          "wing": "Skinny 365/55",
-          "count": 2
-        },
-        {
-          "wing": "370 Freeride",
+          "wing": "Freeride 370",
           "count": 2
         },
         {
@@ -2251,11 +2273,11 @@
           "count": 2
         },
         {
-          "wing": "420 Progressive / 362 Skinny",
+          "wing": "320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830",
           "count": 1
         },
         {
-          "wing": "320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830",
+          "wing": "Surf Skinny 320 or Skinny 40",
           "count": 1
         },
         {
@@ -2263,15 +2285,7 @@
           "count": 1
         },
         {
-          "wing": "350 Skinny",
-          "count": 1
-        },
-        {
-          "wing": "375 Progresive",
-          "count": 1
-        },
-        {
-          "wing": "Surf Skinny 345",
+          "wing": "345 surf",
           "count": 1
         },
         {
@@ -2279,11 +2293,19 @@
           "count": 1
         },
         {
-          "wing": "Skinny 30",
+          "wing": "Surf skinny 300 - skinny 45",
           "count": 1
         },
         {
-          "wing": "Surf Skinny 280",
+          "wing": "Skinny 358/30",
+          "count": 1
+        },
+        {
+          "wing": "Surf 280",
+          "count": 1
+        },
+        {
+          "wing": "Skinny45",
           "count": 1
         },
         {
@@ -2299,10 +2321,6 @@
           "count": 1
         },
         {
-          "wing": "420 progressive",
-          "count": 1
-        },
-        {
           "wing": "Skinny 355",
           "count": 1
         },
@@ -2312,10 +2330,6 @@
         },
         {
           "wing": "Skinny 300",
-          "count": 1
-        },
-        {
-          "wing": "375 Progressive, 365/55 Skinny",
           "count": 1
         },
         {
@@ -2339,11 +2353,23 @@
           "count": 1
         },
         {
+          "wing": "Surfskinny 320",
+          "count": 1
+        },
+        {
           "wing": "380 speed",
           "count": 1
         },
         {
           "wing": "Progressive Series",
+          "count": 1
+        },
+        {
+          "wing": "surf skinny 320 300",
+          "count": 1
+        },
+        {
+          "wing": "Surf skinny 320 and 300",
           "count": 1
         },
         {
@@ -2379,10 +2405,6 @@
           "count": 1
         },
         {
-          "wing": "Progressive 375 (have some Skinnies, still figuring it out)",
-          "count": 1
-        },
-        {
           "wing": "Ss 320",
           "count": 1
         },
@@ -2407,10 +2429,6 @@
           "count": 1
         },
         {
-          "wing": "Skinny 362/50",
-          "count": 1
-        },
-        {
           "wing": "325",
           "count": 1
         },
@@ -2427,11 +2445,15 @@
           "count": 1
         },
         {
-          "wing": "365 Progressive",
+          "wing": "Progressive 365",
           "count": 1
         },
         {
           "wing": "362 skinny",
+          "count": 1
+        },
+        {
+          "wing": "Surf skinny 300 I think",
           "count": 1
         },
         {
@@ -2447,11 +2469,23 @@
           "count": 1
         },
         {
+          "wing": "Skinny surf 300",
+          "count": 1
+        },
+        {
           "wing": "Skinny /30",
           "count": 1
         },
         {
           "wing": "320 Surf. Skinny",
+          "count": 1
+        },
+        {
+          "wing": "Surfskinny 300",
+          "count": 1
+        },
+        {
+          "wing": "Skinny surf 300, ti skinny 45",
           "count": 1
         }
       ],
@@ -3534,11 +3568,11 @@
           "count": 4
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 3
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 3
         },
         {
@@ -3865,15 +3899,11 @@
           "count": 3
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 3
         },
         {
           "wing": "Surf Skinny 320",
-          "count": 2
-        },
-        {
-          "wing": "Skinny 35",
           "count": 2
         },
         {
@@ -3885,7 +3915,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 55",
+          "wing": "Skinny 365/55",
           "count": 1
         },
         {
@@ -3894,6 +3924,14 @@
         },
         {
           "wing": "365/55 skinny",
+          "count": 1
+        },
+        {
+          "wing": "Skinny 350/35",
+          "count": 1
+        },
+        {
+          "wing": "Skinny35",
           "count": 1
         },
         {
@@ -4324,15 +4362,7 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Surf Skinny 280",
-          "count": 3
-        },
-        {
-          "wing": "Progressive 325",
-          "count": 3
-        },
-        {
-          "wing": "Skinny 35",
+          "wing": "Surf Skinny 280/43",
           "count": 3
         },
         {
@@ -4340,11 +4370,23 @@
           "count": 2
         },
         {
+          "wing": "Progressive 325",
+          "count": 2
+        },
+        {
           "wing": "Surf Skinny",
           "count": 2
         },
         {
+          "wing": "Skinny 350/35",
+          "count": 2
+        },
+        {
           "wing": "Surf Skinny 345",
+          "count": 1
+        },
+        {
+          "wing": "325p tail with 0.5 shim",
           "count": 1
         },
         {
@@ -4353,6 +4395,10 @@
         },
         {
           "wing": "Skinny 365/55",
+          "count": 1
+        },
+        {
+          "wing": "35skinny",
           "count": 1
         },
         {
@@ -4380,7 +4426,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 1
         },
         {
@@ -4595,7 +4641,7 @@
           "count": 2
         },
         {
-          "wing": "Skinny 362",
+          "wing": "Skinny 360/45",
           "count": 1
         },
         {
@@ -4782,35 +4828,31 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 5
         },
         {
-          "wing": "Skinny 35",
+          "wing": "Skinny 350/35",
           "count": 5
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 5
         },
         {
-          "wing": "Skinny 30",
+          "wing": "Skinny 358/25",
+          "count": 5
+        },
+        {
+          "wing": "Skinny 358/30",
           "count": 4
-        },
-        {
-          "wing": "Skinny 25",
-          "count": 3
         },
         {
           "wing": "Progressive 375",
           "count": 2
         },
         {
-          "wing": "Skinny 55",
-          "count": 2
-        },
-        {
-          "wing": "Skinny 358/25",
+          "wing": "Skinny 365/55",
           "count": 2
         },
         {
@@ -5389,24 +5431,24 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 40",
-          "count": 7
+          "wing": "Skinny 359/40",
+          "count": 6
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 5
         },
         {
-          "wing": "Skinny 25",
-          "count": 4
+          "wing": "Skinny 358/25",
+          "count": 5
         },
         {
-          "wing": "Skinny 30",
-          "count": 4
+          "wing": "Skinny 358/30",
+          "count": 5
         },
         {
-          "wing": "Skinny 35",
-          "count": 3
+          "wing": "Skinny 350/35",
+          "count": 4
         },
         {
           "wing": "Progressive 400",
@@ -5417,19 +5459,19 @@
           "count": 2
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 362/50",
           "count": 1
         },
         {
-          "wing": "350 Skinny",
+          "wing": "Surf Skinny 280/43",
           "count": 1
         },
         {
-          "wing": "Surf Skinny 280",
+          "wing": "Progressive 475",
           "count": 1
         },
         {
-          "wing": "475 progressive",
+          "wing": "Skinny 359",
           "count": 1
         },
         {
@@ -5481,10 +5523,6 @@
           "count": 1
         },
         {
-          "wing": "Skinny 358/25",
-          "count": 1
-        },
-        {
           "wing": "Still figuring it out",
           "count": 1
         },
@@ -5513,7 +5551,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 55",
+          "wing": "Skinny 365/55",
           "count": 1
         },
         {
@@ -5522,10 +5560,6 @@
         },
         {
           "wing": "other brand",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 358/30",
           "count": 1
         },
         {
@@ -6105,22 +6139,26 @@
       "top_rear_wings": [
         {
           "wing": "Surf Skinny 300",
-          "count": 8
+          "count": 7
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 5
         },
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 350/35",
           "count": 3
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 360/45",
+          "count": 3
+        },
+        {
+          "wing": "Skinny 365/55",
           "count": 2
         },
         {
-          "wing": "Skinny 35",
+          "wing": "Skinny 362/50",
           "count": 2
         },
         {
@@ -6128,19 +6166,7 @@
           "count": 2
         },
         {
-          "wing": "350 Skinny",
-          "count": 1
-        },
-        {
           "wing": "Surf Skinny 345",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 365/55",
-          "count": 1
-        },
-        {
-          "wing": "Skinny 55",
           "count": 1
         },
         {
@@ -6180,7 +6206,7 @@
           "count": 1
         },
         {
-          "wing": "250 Progressive",
+          "wing": "Progressive 250",
           "count": 1
         },
         {
@@ -6225,6 +6251,10 @@
         },
         {
           "wing": "43/280 surf skinny",
+          "count": 1
+        },
+        {
+          "wing": "Surfskinny 300",
           "count": 1
         },
         {
@@ -6747,15 +6777,15 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 12
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 8
         },
         {
-          "wing": "Skinny 35",
+          "wing": "Skinny 350/35",
           "count": 8
         },
         {
@@ -6764,18 +6794,18 @@
         },
         {
           "wing": "Surf Skinny 320",
-          "count": 5
+          "count": 4
         },
         {
-          "wing": "Surf Skinny 280",
-          "count": 2
-        },
-        {
-          "wing": "Skinny 30",
+          "wing": "Skinny 358/30",
           "count": 2
         },
         {
           "wing": "320",
+          "count": 1
+        },
+        {
+          "wing": "Surf 280",
           "count": 1
         },
         {
@@ -6787,7 +6817,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 362/50",
           "count": 1
         },
         {
@@ -6800,6 +6830,10 @@
         },
         {
           "wing": "P350",
+          "count": 1
+        },
+        {
+          "wing": "Surf Skinny 280/43",
           "count": 1
         },
         {
@@ -6831,7 +6865,7 @@
           "count": 1
         },
         {
-          "wing": "60 progr",
+          "wing": "Progressive 60",
           "count": 1
         },
         {
@@ -6856,6 +6890,10 @@
         },
         {
           "wing": "Skiny 35",
+          "count": 1
+        },
+        {
+          "wing": "Skinny Surf 320",
           "count": 1
         }
       ],
@@ -7462,16 +7500,16 @@
       ],
       "top_rear_wings": [
         {
-          "wing": "Surf Skinny 300",
-          "count": 7
-        },
-        {
-          "wing": "Skinny 45",
+          "wing": "Skinny 360/45",
           "count": 7
         },
         {
           "wing": "Surf Skinny 320",
-          "count": 6
+          "count": 5
+        },
+        {
+          "wing": "Surf Skinny 300",
+          "count": 4
         },
         {
           "wing": "Progressive 375",
@@ -7482,7 +7520,7 @@
           "count": 3
         },
         {
-          "wing": "Skinny 50",
+          "wing": "Skinny 362/50",
           "count": 2
         },
         {
@@ -7490,7 +7528,7 @@
           "count": 1
         },
         {
-          "wing": "Surf Skinny 280",
+          "wing": "Surf Skinny 280/43",
           "count": 1
         },
         {
@@ -7498,11 +7536,11 @@
           "count": 1
         },
         {
-          "wing": "Skinny 55",
+          "wing": "Skinny 365/55",
           "count": 1
         },
         {
-          "wing": "progressive 420",
+          "wing": "Progressive 420",
           "count": 1
         },
         {
@@ -7514,11 +7552,19 @@
           "count": 1
         },
         {
+          "wing": "300 Surf",
+          "count": 1
+        },
+        {
           "wing": "SS 320",
           "count": 1
         },
         {
           "wing": "Freeride",
+          "count": 1
+        },
+        {
+          "wing": "surf skinny 300 320",
           "count": 1
         },
         {
@@ -7530,11 +7576,15 @@
           "count": 1
         },
         {
+          "wing": "Surf skinny 300 or skinny 362/50",
+          "count": 1
+        },
+        {
           "wing": "400",
           "count": 1
         },
         {
-          "wing": "370 freeride",
+          "wing": "Freeride 370",
           "count": 1
         },
         {
@@ -7542,11 +7592,15 @@
           "count": 1
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359",
           "count": 1
         },
         {
           "wing": "362 skinny",
+          "count": 1
+        },
+        {
+          "wing": "Surf Skinny 320, Skinny 40",
           "count": 1
         },
         {
@@ -7949,7 +8003,7 @@
           "count": 1
         },
         {
-          "wing": "Skinny 40",
+          "wing": "Skinny 359/40",
           "count": 1
         },
         {
