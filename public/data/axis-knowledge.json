@@ -1041,11 +1041,11 @@
     },
     "pump_foiling_endurance": {
       "title": "Pump Foiling / Endurance",
-      "front_wing": "PNG 1310 (pump record) or Fireball 1500/1750 (endurance)",
-      "rear_wing": "Skinny 25 (with 1500) or smallest available",
-      "fuselage": "Silly Short or Psycho Short",
-      "mast": "75cm Power Carbon or 72cm Ultra Pro Carbon",
-      "notes": "Yvon: FB 1750 opens the hour of pumping to everyone. Silly Short or Psycho Short fuselage for maximum pump efficiency."
+      "front_wing": "PNG V2 1200/1300/1400 (learning & progression), Fireball 1500 (advanced performance), Fireball 1750 (world records & extra long rides)",
+      "rear_wing": "Skinny 358/25 (for Fireball 1750 specifically)",
+      "fuselage": "Fatty Psycho Short (for Fireball 1750), Silly Short or Psycho Short (for others)",
+      "mast": "Fatty 80cm (required for Fireball 1750), 75cm Power Carbon or 72cm Ultra Pro Carbon (for PNG V2 / Fireball 1500)",
+      "notes": "PNG V2 range for learning to pump and progression. Fireball 1500 for advanced high-performance pumpers. Fireball 1750 for world records and ultra-endurance \u2014 current world record holder. 1750 specific setup: Fatty 80cm mast + Fatty Psycho Short fuse + Skinny 358/25 rear."
     }
   },
   "rider_insights": {
