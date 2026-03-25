@@ -56,7 +56,7 @@ export default function BrowsePage() {
       displayName: 'ART Pro',
       category: 'current',
       description: 'High-performance all-rounder with exceptional glide and speed. Bridges the gap between ART efficiency and real-world usability. Smooth, fast, versatile. Wing, DW, tow. 1001-1201cm².',
-      image: 'https://axisfoils.com/cdn/shop/files/ArtPro_family-flat_1296x.jpg?v=1709855469'
+      image: 'https://cdn.shopify.com/s/files/1/0076/2006/7439/files/ARTPRO_1001_45.jpg?v=1692863332'
     },
     {
       name: 'Fireball',
