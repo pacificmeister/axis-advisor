@@ -260,8 +260,10 @@ export default function BrowsePage() {
   // Count foils per series from actual data
   // Map display names to data series names where they differ
   const seriesNameMap: Record<string, string> = {
-    'PNG v2': 'PNG',  // Current PNG v2 uses 'PNG' in data
-    'PNG (Legacy)': 'PNG_LEGACY',  // No legacy PNG data currently
+    'ART V2': 'ART v2',
+    'ART Pro': 'ARTPRO',
+    'PNG v2': 'PNG v2',
+    'PNG (Legacy)': 'PNG_LEGACY',
   };
   
   const getSeriesCount = (seriesName: string) => {
