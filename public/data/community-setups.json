@@ -4044,5 +4044,78 @@
       "Strong demand for Surge 1150 (not yet released)",
       "Fireball 1070 is the most versatile wing (appears in 5 disciplines)"
     ]
+  },
+  "setups": [
+    {
+      "id": "cs_2026_03_24_pm_001",
+      "date": "2026-03-24",
+      "source": "fb_post_1563789871385965",
+      "rider": "Michael Kihn",
+      "weight": "72kg",
+      "foil": "FB1750",
+      "mast": "80cm Fatty",
+      "fuse": "Advance+ Psychoshort Fatty",
+      "stab_options": [
+        "Surf Skinny 300/45",
+        "280/43"
+      ],
+      "discipline": "Long Distance Pumping",
+      "notes": "Asking community for stab recommendation"
+    },
+    {
+      "id": "cs_2026_03_24_pm_002",
+      "date": "2026-03-24",
+      "source": "fb_post_1563789871385965",
+      "rider": "Yannick Favieres",
+      "weight": "98kg",
+      "foil": "FB1750",
+      "mast": "80cm Fatty",
+      "fuse": "Advance+ Psychoshort Fatty",
+      "stab": "358/25",
+      "discipline": "Long Distance Pumping"
+    },
+    {
+      "id": "cs_2026_03_24_pm_003",
+      "date": "2026-03-24",
+      "source": "fb_post_1563789871385965",
+      "rider": "William Vosburgh",
+      "weight": "68kg",
+      "foil": "FB1750",
+      "mast": "80cm Fatty",
+      "fuse": "Advance+ Psychoshort Fatty",
+      "stab": "358/25",
+      "discipline": "unknown",
+      "notes": "First and only Axis setup. Very pitch sensitive vs other brands"
+    },
+    {
+      "id": "cs_2026_03_24_pm_004",
+      "date": "2026-03-24",
+      "source": "fb_post_1563789871385965",
+      "rider": "Deon Aumaier",
+      "foil": "FB1750",
+      "mast": "80cm Fatty",
+      "fuse": "FATTY Ultrashort",
+      "stab": "358/30",
+      "discipline": "unknown",
+      "notes": "FB1750 pitch sensitive even with ultrashort fuse"
+    },
+    {
+      "id": "cs_2026_03_24_pm_005",
+      "date": "2026-03-24",
+      "source": "fb_post_1563789871385965",
+      "rider": "Peter Michl",
+      "weight": "90kg (dry)",
+      "stab_dockstart": "Skinny 30",
+      "stab_flatwater": "Skinny 40-45",
+      "shims": "none",
+      "discipline": [
+        "dockstart",
+        "flatwater paddle-up"
+      ],
+      "notes": "Weight-specific stab guidance for FB1750 dockstart vs flatwater"
+    }
+  ],
+  "meta": {
+    "last_updated": "2026-03-24T18:22:00-07:00"
   }
 }

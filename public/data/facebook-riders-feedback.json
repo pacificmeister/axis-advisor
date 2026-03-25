@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 381,
+    "total_entries": 404,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 17,
@@ -13,10 +13,74 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T13:05:00Z",
+    "last_updated": "2026-03-24T18:22:00-07:00",
     "total_posts": 403
   },
   "posts": [
+    {
+      "id": "fb_2026_03_24_pm_001",
+      "post_id": "1563789871385965",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-24",
+      "timestamp": "2026-03-24T14:00:00-07:00",
+      "rider": "Michael Kihn",
+      "rider_weight": "72kg",
+      "discipline": "pump/dockstart/flatwater",
+      "text": "FB1750 + Advance+ Psychoshort Fuse + 80cm Fatty Mast for Long Distance Pumping. Community stab recommendations: 358/25 for 68-98kg riders, 30cm for dockstarts, 40-45cm for flatwater paddle-ups. FB1750 noted as very pitch sensitive by multiple riders. Surf Skinny 300/45 and 280/43 discussed as stab options.",
+      "foils_mentioned": [
+        "FB1750"
+      ],
+      "mast_mentioned": [
+        "80cm Fatty Mast"
+      ],
+      "stab_mentioned": [
+        "358/25",
+        "358/30",
+        "Surf Skinny 300/45",
+        "280/43"
+      ],
+      "fuse_mentioned": [
+        "Advance+ Psychoshort Fatty Fuse",
+        "FATTY Ultrashort"
+      ],
+      "reactions": 1,
+      "comments": 6,
+      "sentiment": "question/seeking_advice",
+      "key_insights": [
+        "FB1750 pitch sensitivity is a known issue - multiple riders report it",
+        "Stab 358/25 popular for pump with heavier riders 68-98kg",
+        "Peter Michl 90kg recommends 30 stab for dockstarts, 40-45 for flatwater",
+        "FATTY Ultrashort fuse still results in pitch sensitivity on FB1750"
+      ],
+      "community_setups": [
+        {
+          "rider": "Yannick Favieres",
+          "weight": "98kg",
+          "foil": "FB1750",
+          "stab": "358/25",
+          "fuse": "Advance+ Psychoshort Fatty",
+          "mast": "80cm Fatty"
+        },
+        {
+          "rider": "William Vosburgh",
+          "weight": "68kg",
+          "foil": "FB1750",
+          "stab": "358/25",
+          "fuse": "Advance+ Psychoshort Fatty",
+          "mast": "80cm Fatty",
+          "note": "Very pitch sensitive, first Axis setup"
+        },
+        {
+          "rider": "Peter Michl",
+          "weight": "90kg",
+          "stab_dockstart": "30",
+          "stab_flatwater": "40-45",
+          "shims": "none"
+        }
+      ],
+      "notable_quote": "The 1750 is already so pitch sensitive even with ultrashort fuse (Deon Aumaier)"
+    },
     {
       "id": "fb_2026_03_23_pm_001",
       "source": "facebook_axis_riders + official_page",

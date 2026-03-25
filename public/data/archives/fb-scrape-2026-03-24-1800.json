@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "scan_timestamp": "2026-03-24T18:22:00-07:00",
+    "scan_type": "scheduled_12h",
+    "window": "Last 12 hours (6 AM to 6 PM PDT)",
+    "sources_scanned": ["AXIS Foil Riders Group", "AXIS Foils Official Page"],
+    "total_posts_new": 1,
+    "total_posts_active_comments": 5,
+    "scanner": "Herbert AI (Alex Foiler account)"
+  },
+  "posts": [
+    {
+      "id": "fb_2026_03_24_1800_001",
+      "post_id": "1563789871385965",
+      "source": "AXIS Foil Riders Group",
+      "url": "https://www.facebook.com/groups/axisfoilriders/posts/1563789871385965/",
+      "posted_time": "~4h ago (~14:00 PDT)",
+      "poster": "Michael Kihn",
+      "title": "FB1750 - Rear",
+      "text": "Hey guys, what rear wing are you riding your FB1750 with? I am mainly looking into Long Distance Pumping either from dock or via flatwater paddle-up as the main disciplines! Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast. Rider: 72kg",
+      "foils_mentioned": ["FB1750"],
+      "mast_mentioned": ["80cm Fatty Mast"],
+      "fuse_mentioned": ["Advance+ Psychoshort Fatty Fuse"],
+      "stab_mentioned": ["Surf Skinny 300/45", "280/43", "358/25", "358/30"],
+      "rider_weight": "72kg",
+      "discipline": ["Long Distance Pumping", "dock start", "flatwater paddle-up"],
+      "reactions": 1,
+      "comments_count": 6,
+      "sentiment": "question/seeking_advice",
+      "new_post": true,
+      "comments": [
+        {
+          "author": "Yannick Favieres",
+          "text": "For me, the same setup. I'm currently 98 kg, and I'm using the 358/25.",
+          "time": "4h",
+          "rider_weight": "98kg",
+          "stab": "358/25"
+        },
+        {
+          "author": "Michael Kihn",
+          "text": "@Yannick Favieres My Skinnies are all part of other setups and I got the Surf Skinny 300/45 and 280/43 lying around. Wondering if they could be a good fit? Anybody tried out that combo?",
+          "time": "4h"
+        },
+        {
+          "author": "William Vosburgh",
+          "text": "358/25 on Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast. 68 kg. First and only Axis setup. Far more pitch sensitive than anything else I've ridden.",
+          "time": "1h",
+          "rider_weight": "68kg",
+          "stab": "358/25",
+          "notable": "Pitch sensitivity complaint on FB1750"
+        },
+        {
+          "author": "Tom La Majorette",
+          "text": "I have 1500, I'm riding that in 40cm2. I guess with 1750, it's will be great too",
+          "time": "4h"
+        },
+        {
+          "author": "Deon Aumaier",
+          "text": "Great Post! I have the very similar kit. FB 1750, 80cm FATTY Mast. Except I went w/FATTY Ultrashort fuse. My stab, skinny 358/30. I'm curious about the super short fuse. Easier to turn? The 1750 is already so pitch sensitive even with ultrashort?",
+          "time": "4h",
+          "foils_mentioned": ["FB 1750"],
+          "stab": "358/30",
+          "fuse": "FATTY Ultrashort",
+          "notable": "FB1750 pitch sensitivity issue even with ultrashort fuse"
+        },
+        {
+          "author": "Peter Michl",
+          "text": "30 for dockstarts. 40 or 45 for flatwater paddle ups. No shims. 90kg dry.",
+          "time": "4h",
+          "rider_weight": "90kg",
+          "stab_sizes": ["30", "40-45"],
+          "discipline": ["dockstart", "flatwater paddle-up"]
+        }
+      ],
+      "key_insights": [
+        "FB1750 + Advance+ Psychoshort Fuse + 80cm Fatty Mast is a common pump setup",
+        "Multiple riders report FB1750 is very pitch sensitive",
+        "Stab size split: 358/25 popular for heavier riders (68-98kg), 30cm for dock starts, 40-45 for flatwater",
+        "Surf Skinny 300/45 and 280/43 mentioned as potential alternatives"
+      ]
+    }
+  ],
+  "active_posts_recent_comments": [
+    {
+      "post_id": "1562399681524984",
+      "poster": "Dmitry Evseev",
+      "title": "Comparison of Axis foils - Which one is which? (Tempo 1090 vs Fireball 1070)",
+      "original_post_age": "1d",
+      "recent_comment_time": "5h",
+      "recent_commenter": "Dmitriy Sokolov",
+      "recent_comment": "А какой ты использовал говорили что на 1350 катал (Translation: What did you use, they said you rode the 1350)",
+      "reactions": 13,
+      "comments": 4,
+      "foils_mentioned": ["Tempo 1090", "Fireball 1070"],
+      "key_info": "Community quiz post - Fireball 1070 (left) vs Tempo 1090 (right). Same wingspan, Tempo less draggy. Community answer: Fireball 1070 left, Tempo 1090 right."
+    },
+    {
+      "post_id": "1562340988197520",
+      "poster": "Darren Zielonka",
+      "title": "Mast Size Question - 820mm vs 750mm",
+      "original_post_age": "1d",
+      "recent_comment_time": "11-13h",
+      "reactions": 4,
+      "comments": 11,
+      "notable_new_comments": [
+        {
+          "author": "Jimmy Jam Foils",
+          "time": "11h",
+          "text": "82cm is good for behind the boat. Sweet spot range is 75~82cm. I teach with 75cm but once you know how to foil 80~82 best for boat wake. Longer allows harder carving. For beach starts shorter is good. I have 75cm, 82cm, 105cm in 19mm aluminum and 72cm, 80cm, 90cm UHM carbon available to demo.",
+          "notable": "Dealer/instructor has extensive mast inventory to demo"
+        },
+        {
+          "author": "Mark Shinn",
+          "time": "13h",
+          "text": "Not sure that the 75 is a great option for winging. I think 82 is the go to with zero hesitation.",
+          "notable": "AXIS team/partner Mark Shinn endorses 820mm for wing"
+        }
+      ],
+      "key_consensus": "820mm mast overwhelmingly preferred over 750mm by community and experts"
+    },
+    {
+      "post_id": "1562194661545486",
+      "poster": "Paul Schnetker",
+      "title": "Surge vs Spitfire for waves, Gold Coast - 85kg",
+      "original_post_age": "2d",
+      "recent_comment_time": "5h",
+      "reactions": 2,
+      "comments": 8,
+      "recent_commenters": ["Leonardo Loppi"],
+      "notable_new_comments": [
+        {
+          "author": "Leonardo Loppi",
+          "time": "5h",
+          "text": "Sean Richardson do you think Surge (830 or 890) is a good foil in messy washing wavy water? Or Spit still better?",
+          "is_unanswered_question": true
+        },
+        {
+          "author": "Leonardo Loppi",
+          "time": "5h",
+          "text": "Jake David full set-up? stab?",
+          "is_unanswered_question": true
+        }
+      ]
+    },
+    {
+      "poster": "Dan F Jim",
+      "title": "Wingfoiling on Swan River, WA Australia",
+      "posted_time": "recent (exact time obfuscated)",
+      "text": "Making the most of the wind season here in WA. Now looking for some storm winds in the next few months! Loving wing foiling in the sawn river! Via Instagram: Catching some air on the Swan River with my trusty Axis and Duotone gear! #Wingfoiling #swanriver #australia #axis #duotone",
+      "foils": "Axis (unspecified)",
+      "gear": "Duotone",
+      "sentiment": "positive/stoke",
+      "reactions": 0,
+      "comments": 0,
+      "discipline": "wingfoil"
+    },
+    {
+      "poster": "Jon Eddy",
+      "title": "SURF FX video - What's new at Axis with Kai Thompson",
+      "text": "They latest race, surf and dock Axis gear with international team rider Kai Thompson. YouTube: https://www.youtube.com/watch?v=jOgkjAQkHpo",
+      "source": "SURF FX YouTube",
+      "reactions": 10,
+      "discipline": ["race", "surf", "dock start"],
+      "notable": "Team rider Kai Thompson featured"
+    },
+    {
+      "poster": "Vangelis Evan Mavridoglou",
+      "role": "Group expert, Rising contributor",
+      "title": "AXIS Setup Survey - Results from 150 riders",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some of them surprised us. Want your setup counted? Takes 3 minutes.",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLSeAaOSDn2dJu0aKkHARBbVfOw3sGgfT2-xyrv4e9PzaZ0BVDg/viewform",
+      "reactions": 18,
+      "comments": 1,
+      "notable": "Cross-posted from AXIS Foils official page"
+    }
+  ],
+  "axis_official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": "6.1K",
+    "posts_last_24h": [
+      {
+        "title": "AXIS Setup Survey - What's Your Favorite AXIS Setup?",
+        "posted": "Yesterday at 7:52 AM (2026-03-23)",
+        "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change.",
+        "link": "docs.google.com/What's Your Favorite AXIS Setup?",
+        "reactions": 7,
+        "comments": 1,
+        "unanswered_questions": [
+          {
+            "author": "Katrin Kolo",
+            "badge": "Top fan",
+            "time": "11h",
+            "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+            "status": "UNANSWERED - 11 hours, no AXIS response"
+          }
+        ]
+      }
+    ]
+  },
+  "scam_alerts": [],
+  "notable_observations": [
+    "FB1750 pitch sensitivity is a recurring theme - multiple riders mention it",
+    "820mm mast strong consensus winner over 750mm with both community and AXIS partner Mark Shinn",
+    "Surge vs Spitfire debate active, particularly for messy wave conditions",
+    "Female rider representation question raised by Top Fan Katrin Kolo - unanswered by AXIS",
+    "SURF FX active dealer relationship evident - sharing Kai Thompson content"
+  ]
+}
