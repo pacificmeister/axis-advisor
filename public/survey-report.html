@@ -31,7 +31,7 @@
   .site-header h1 { font-size: 2rem; font-weight: 700; color: var(--teal); letter-spacing: -0.5px; }
   .site-header p { color: var(--muted); margin-top: 0.4rem; }
   .nav-links { margin-top: 1rem; display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; font-size: 0.9rem; }
-  
+
   /* Stats bar */
   .stats-bar {
     display: flex; flex-wrap: wrap; gap: 1rem;
@@ -51,7 +51,7 @@
 
   /* Content */
   .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
-  
+
   section { margin-bottom: 3rem; }
   section h2 {
     font-size: 1.3rem;
@@ -86,7 +86,7 @@
     padding: 1.5rem;
   }
   .disc-chart-container { position: relative; height: 340px; }
-  
+
   /* Timeline */
   .timeline-card {
     background: var(--card);
@@ -172,14 +172,13 @@
   <p>March 2026 Results — 227 Responses</p>
   <nav class="nav-links">
     <a href="/">← Advisor</a>
-    <a href="/survey-map.html">🗺️ Rider Map</a>
     <a href="/insights">📊 Insights</a>
+    <a href="/survey-map.html">🗺️ Map</a>
   </nav>
 </header>
 
 <div class="stats-bar">
   <div class="stat-pill"><strong>227</strong> total responses</div>
-  <div class="stat-pill"><strong>+39</strong> new since last update</div>
   <div class="stat-pill"><strong>13</strong> disciplines tracked</div>
   <div class="stat-pill"><strong>708</strong> setup entries</div>
   <div class="stat-pill">First: <strong>2026-03-08</strong></div>
@@ -234,381 +233,186 @@
   <!-- Per-Discipline Details -->
   <section>
     <h2>🔧 Setup Details by Discipline</h2>
-    
+
+    <!-- Wing Foiling -->
     <div class="disc-card" id="disc-wing_foiling">
       <div class="disc-card-header">
         <h3>Wing Foiling</h3>
         <span class="disc-count">169 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_wing_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_wing_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_wing_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_wing_foiling"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_wing_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_wing_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_wing_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_wing_foiling"></canvas></div>
       </div>
     </div>
 
+    <!-- Downwind SUP -->
     <div class="disc-card" id="disc-downwind_sup">
       <div class="disc-card-header">
         <h3>Downwind SUP</h3>
         <span class="disc-count">82 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_downwind_sup"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_downwind_sup"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_downwind_sup"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_downwind_sup"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_downwind_sup"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_downwind_sup"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_downwind_sup"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_downwind_sup"></canvas></div>
       </div>
     </div>
 
+    <!-- Parawing -->
     <div class="disc-card" id="disc-parawing">
       <div class="disc-card-header">
         <h3>Parawing</h3>
         <span class="disc-count">71 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_parawing"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_parawing"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_parawing"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_parawing"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_parawing"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_parawing"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_parawing"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_parawing"></canvas></div>
       </div>
     </div>
 
+    <!-- Prone -->
     <div class="disc-card" id="disc-prone">
       <div class="disc-card-header">
         <h3>Prone</h3>
         <span class="disc-count">66 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_prone"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_prone"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_prone"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_prone"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_prone"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_prone"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_prone"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_prone"></canvas></div>
       </div>
     </div>
 
+    <!-- Dock Start -->
     <div class="disc-card" id="disc-dock_start">
       <div class="disc-card-header">
         <h3>Dock Start</h3>
         <span class="disc-count">64 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_dock_start"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_dock_start"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_dock_start"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_dock_start"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_dock_start"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_dock_start"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_dock_start"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_dock_start"></canvas></div>
       </div>
     </div>
 
+    <!-- Foil Assist -->
     <div class="disc-card" id="disc-foil_assist">
       <div class="disc-card-header">
         <h3>Foil Assist</h3>
         <span class="disc-count">55 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_foil_assist"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_foil_assist"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_foil_assist"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_foil_assist"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_foil_assist"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_foil_assist"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_foil_assist"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_foil_assist"></canvas></div>
       </div>
     </div>
 
+    <!-- SUP Foiling -->
     <div class="disc-card" id="disc-sup_foiling">
       <div class="disc-card-header">
         <h3>SUP Foiling</h3>
         <span class="disc-count">53 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_sup_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_sup_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_sup_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_sup_foiling"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_sup_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_sup_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_sup_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_sup_foiling"></canvas></div>
       </div>
     </div>
 
+    <!-- Long Distance Pump -->
     <div class="disc-card" id="disc-long_distance_pump">
       <div class="disc-card-header">
         <h3>Long Distance Pump</h3>
         <span class="disc-count">44 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_long_distance_pump"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_long_distance_pump"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_long_distance_pump"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_long_distance_pump"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_long_distance_pump"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_long_distance_pump"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_long_distance_pump"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_long_distance_pump"></canvas></div>
       </div>
     </div>
 
+    <!-- Wake Foiling -->
     <div class="disc-card" id="disc-wake_foiling">
       <div class="disc-card-header">
         <h3>Wake Foiling</h3>
         <span class="disc-count">39 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_wake_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_wake_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_wake_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_wake_foiling"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_wake_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_wake_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_wake_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_wake_foiling"></canvas></div>
       </div>
     </div>
 
+    <!-- Tow-In -->
     <div class="disc-card" id="disc-tow_in">
       <div class="disc-card-header">
         <h3>Tow-In</h3>
         <span class="disc-count">29 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_tow_in"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_tow_in"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_tow_in"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_tow_in"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_tow_in"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_tow_in"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_tow_in"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_tow_in"></canvas></div>
       </div>
     </div>
 
+    <!-- Kite Foiling -->
     <div class="disc-card" id="disc-kite_foiling">
       <div class="disc-card-header">
         <h3>Kite Foiling</h3>
         <span class="disc-count">25 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_kite_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_kite_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_kite_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_kite_foiling"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_kite_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_kite_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_kite_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_kite_foiling"></canvas></div>
       </div>
     </div>
 
+    <!-- Efoil -->
     <div class="disc-card" id="disc-efoil">
       <div class="disc-card-header">
         <h3>Efoil</h3>
         <span class="disc-count">7 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_efoil"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_efoil"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_efoil"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_efoil"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_efoil"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_efoil"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_efoil"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_efoil"></canvas></div>
       </div>
     </div>
 
+    <!-- Windsurf Foiling -->
     <div class="disc-card" id="disc-windsurf_foiling">
       <div class="disc-card-header">
         <h3>Windsurf Foiling</h3>
         <span class="disc-count">4 riders</span>
       </div>
       <div class="disc-charts-grid">
-
-        <div class="chart-wrap">
-          <h4>Front Wings</h4>
-          <canvas id="fw_windsurf_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Rear Wings</h4>
-          <canvas id="rw_windsurf_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Masts</h4>
-          <canvas id="mast_windsurf_foiling"></canvas>
-        </div>
-
-        <div class="chart-wrap">
-          <h4>Fuselages</h4>
-          <canvas id="fuse_windsurf_foiling"></canvas>
-        </div>
+        <div class="chart-wrap"><h4>Front Wings</h4><canvas id="fw_windsurf_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Rear Wings</h4><canvas id="rw_windsurf_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Masts</h4><canvas id="mast_windsurf_foiling"></canvas></div>
+        <div class="chart-wrap"><h4>Fuselages</h4><canvas id="fuse_windsurf_foiling"></canvas></div>
       </div>
     </div>
 
@@ -624,18 +428,52 @@
 Chart.defaults.color = '#a0aec0';
 Chart.defaults.borderColor = 'rgba(255,255,255,0.06)';
 
-// Timeline
+// Shared chart options helpers
+function hbarOpts(color) {
+  return {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true },
+      y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
+    }
+  };
+}
+
+function vbarOpts() {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      x: { ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { display: false } },
+      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
+    }
+  };
+}
+
+function makeHbar(id, labels, data, color) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  new Chart(el, {
+    type: 'bar',
+    data: { labels: labels, datasets: [{ data: data, backgroundColor: color, borderRadius: 4 }] },
+    options: hbarOpts(color)
+  });
+}
+
+// ── Timeline ──────────────────────────────────────────────────────────────────
 new Chart(document.getElementById('timelineChart'), {
   type: 'line',
   data: {
-    labels: ["2026-03-08", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-14", "2026-03-15", "2026-03-16", "2026-03-18", "2026-03-20", "2026-03-23", "2026-03-24"],
+    labels: ["2026-03-08","2026-03-09","2026-03-10","2026-03-11","2026-03-12","2026-03-13","2026-03-14","2026-03-15","2026-03-16","2026-03-18","2026-03-20","2026-03-23","2026-03-24"],
     datasets: [{
       data: [21, 34, 15, 13, 8, 40, 5, 1, 4, 2, 1, 60, 23],
       borderColor: 'rgba(0,178,180,0.9)',
       backgroundColor: 'rgba(0,178,180,0.1)',
-      fill: true,
-      tension: 0.3,
-      pointRadius: 3,
+      fill: true, tension: 0.3, pointRadius: 3,
       pointBackgroundColor: 'rgba(0,178,180,1)',
     }]
   },
@@ -649,67 +487,42 @@ new Chart(document.getElementById('timelineChart'), {
   }
 });
 
-// Weight
+// ── Demographics ──────────────────────────────────────────────────────────────
 new Chart(document.getElementById('weightChart'), {
   type: 'bar',
   data: {
-    labels: ["<65kg", "65-75kg", "75-85kg", "85-95kg", "95-105kg", ">105kg"],
+    labels: ["<65kg","65-75kg","75-85kg","85-95kg","95-105kg",">105kg"],
     datasets: [{ data: [14, 53, 85, 42, 22, 11], backgroundColor: 'rgba(0,178,180,0.75)', borderRadius: 4 }]
   },
-  options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { ticks: { color: '#a0aec0', font: { size: 10 } }, grid: { display: false } },
-      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
-    }
-  }
+  options: vbarOpts()
 });
 
-// Experience
 new Chart(document.getElementById('expChart'), {
   type: 'bar',
   data: {
-    labels: ["Less than 1 year", "1-2 years", "2-4 years", "4+ years"],
+    labels: ["<1 year","1-2 years","2-4 years","4+ years"],
     datasets: [{ data: [3, 24, 72, 127], backgroundColor: 'rgba(56,189,160,0.75)', borderRadius: 4 }]
   },
-  options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { ticks: { color: '#a0aec0', font: { size: 11 } }, grid: { display: false } },
-      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
-    }
-  }
+  options: vbarOpts()
 });
 
-// Age
 new Chart(document.getElementById('ageChart'), {
   type: 'bar',
   data: {
-    labels: ["Under 25", "25-35", "36-45", "46-55", "Over 55"],
-    datasets: [{ data: [5, 23, 39, 60, 0], backgroundColor: 'rgba(99,179,237,0.75)', borderRadius: 4 }]
+    labels: ["Under 25","25-35","36-45","46-55","56-65","65+"],
+    datasets: [{ data: [5, 23, 39, 60, 44, 10], backgroundColor: 'rgba(99,179,237,0.75)', borderRadius: 4 }]
   },
-  options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { display: false } },
-    scales: {
-      x: { ticks: { color: '#a0aec0', font: { size: 11 } }, grid: { display: false } },
-      y: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
-    }
-  }
+  options: vbarOpts()
 });
 
-// Gender
 new Chart(document.getElementById('genderChart'), {
   type: 'doughnut',
   data: {
-    labels: ["Male", "Female", "Non-binary"],
+    labels: ["Male","Female","Non-binary"],
     datasets: [{
       data: [170, 9, 1],
-      backgroundColor: ['rgba(0,178,180,0.8)','rgba(246,173,85,0.8)','rgba(56,189,160,0.8)','rgba(160,174,192,0.5)'],
-      borderColor: '#152234',
-      borderWidth: 2,
+      backgroundColor: ['rgba(0,178,180,0.8)','rgba(246,173,85,0.8)','rgba(56,189,160,0.8)'],
+      borderColor: '#152234', borderWidth: 2,
     }]
   },
   options: {
@@ -718,11 +531,11 @@ new Chart(document.getElementById('genderChart'), {
   }
 });
 
-// Discipline overview
+// ── Discipline Overview ───────────────────────────────────────────────────────
 new Chart(document.getElementById('discChart'), {
   type: 'bar',
   data: {
-    labels: ["Wing Foiling", "Downwind SUP", "Parawing", "Prone", "Dock Start", "Foil Assist", "SUP Foiling", "Long Distance Pump", "Wake Foiling", "Tow-In", "Kite Foiling", "Efoil", "Windsurf Foiling"],
+    labels: ["Wing Foiling","Downwind SUP","Parawing","Prone","Dock Start","Foil Assist","SUP Foiling","Long Distance Pump","Wake Foiling","Tow-In","Kite Foiling","Efoil","Windsurf Foiling"],
     datasets: [{
       data: [169, 82, 71, 66, 64, 55, 53, 44, 39, 29, 25, 7, 4],
       backgroundColor: [
@@ -746,1047 +559,330 @@ new Chart(document.getElementById('discChart'), {
   }
 });
 
-// Per-discipline charts
+// ── Wing Foiling ──────────────────────────────────────────────────────────────
+makeHbar('fw_wing_foiling',
+  ["Surge 890","Fireball 1070","Surge 950","Spitfire 960","Surge 830","ART V2 999","Spitfire 1180","Surge 1010","Spitfire 900","Spitfire 780"],
+  [8, 7, 6, 5, 4, 4, 3, 3, 3, 3],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_wing_foiling')) {
-    new Chart(document.getElementById('fw_wing_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Surge 890", "Fireball 1070", "Surge 950", "Spitfire 960", "Surge 830", "Art v2 999", "Spitfire 1180", "Surge 1010"],
-        datasets: [{ data: [8, 7, 6, 5, 4, 4, 3, 3], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_wing_foiling',
+  ["Skinny 40","Skinny 55","Skinny","Progressive 375","Skinny 50","Surf Skinny 320","Progressive 325"],
+  [14, 5, 5, 5, 3, 3, 3],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_wing_foiling')) {
-    new Chart(document.getElementById('rw_wing_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Skinny 40", "Skinny 55", "Skinny", "40 skinny", "360 skinny", "Skinny 50", "Surf skinny 320", "375 Progressive"],
-        datasets: [{ data: [8, 5, 5, 3, 3, 3, 3, 3], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_wing_foiling',
+  ["90cm HM Carbon","82cm HM Carbon","90cm UHM","80 uhm","90cm Aluminum","82 HM","90cm HM","90cm aluminium","82cm Aluminium","UHM pro 90"],
+  [4, 3, 3, 3, 3, 3, 3, 2, 2, 2],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_wing_foiling')) {
-    new Chart(document.getElementById('mast_wing_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["90cm HM Carbon", "82cm HM Carbon", "90cm UHM", "80 uhm", "90cm Aluminum", "82 HM", "90cm HM", "90cm aluminium"],
-        datasets: [{ data: [4, 3, 3, 3, 3, 3, 3, 2], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_wing_foiling',
+  ["Black ultrashort","Black short","Black Ultrashort","Ultrashort","Black Short","Ti link","Ultra short","Black Adv+ Short","Black Ultrashort Advance","Black ultrashort advanced +"],
+  [14, 7, 6, 6, 4, 3, 3, 2, 2, 2],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_wing_foiling')) {
-    new Chart(document.getElementById('fuse_wing_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Black short", "Black Ultrashort", "Ultrashort", "Black Short", "Ti link", "Ultra short", "Black Adv+ Short"],
-        datasets: [{ data: [14, 7, 6, 6, 4, 3, 3, 2], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Downwind SUP ──────────────────────────────────────────────────────────────
+makeHbar('fw_downwind_sup',
+  ["Fireball 1070","Fireball 1250","Tempo 960","Fireball 1160","Surge 1010","PNG 1300 v2","Fireball 1000","1250 fireball","Fireball 1350","Tempo 920"],
+  [6, 5, 4, 4, 3, 2, 2, 2, 2, 2],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_downwind_sup')) {
-    new Chart(document.getElementById('fw_downwind_sup'), {
-      type: 'bar',
-      data: {
-        labels: ["Fireball 1070", "Fireball 1250", "Tempo 960", "Fireball 1160", "Surge 1010", "PNG 1300 v2", "Fireball 1000", "1250 fireball"],
-        datasets: [{ data: [6, 5, 4, 4, 3, 2, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_downwind_sup',
+  ["Skinny 35","Skinny 45","Skinny 25","Surf Skinny 300","Skinny 30"],
+  [9, 7, 3, 2, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_downwind_sup')) {
-    new Chart(document.getElementById('rw_downwind_sup'), {
-      type: 'bar',
-      data: {
-        labels: ["Skinny 35", "Skinny 45", "45 skinny", "Surf skinny 300", "35 skinny", "35", "Ti Link 360/25, Surf Skinny 300", "Skinny 25 & 30"],
-        datasets: [{ data: [5, 4, 3, 2, 2, 2, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_downwind_sup',
+  ["82 HM Carbon","UHM 800","80cm UHM pro","UHM Pro 80","82 HM","72 uhm","72 UHM","HM 82","75cm HM","80 ultra"],
+  [3, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_downwind_sup')) {
-    new Chart(document.getElementById('mast_downwind_sup'), {
-      type: 'bar',
-      data: {
-        labels: ["82 HM Carbon", "UHM 800", "80cm UHM pro", "UHM Pro 80", "82 HM", "72 uhm", "72 UHM", "HM 82"],
-        datasets: [{ data: [3, 2, 2, 2, 2, 2, 2, 2], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_downwind_sup',
+  ["Ti link","Black ultrashort","Ti Link","Short","Ultrashort","Black Ultrashort","Black ultra short","Tilink","Ultrashort advance"],
+  [5, 5, 4, 4, 4, 3, 3, 2, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_downwind_sup')) {
-    new Chart(document.getElementById('fuse_downwind_sup'), {
-      type: 'bar',
-      data: {
-        labels: ["Ti link", "Black ultrashort", "Ti Link", "Short", "Ultrashort", "Black Ultrashort", "Black ultra short", "Tilink"],
-        datasets: [{ data: [5, 5, 4, 4, 4, 3, 3, 2], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Parawing ──────────────────────────────────────────────────────────────────
+makeHbar('fw_parawing',
+  ["Fireball 1070","Surge 830","Surge 1010","Surge 890","Fireball 1000","Fireball 1160","1070","Fireball 940"],
+  [7, 6, 8, 4, 3, 2, 2, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_parawing')) {
-    new Chart(document.getElementById('fw_parawing'), {
-      type: 'bar',
-      data: {
-        labels: ["Fireball 1070", "Surge 830", "Surge 1010", "Surge 890", "Fireball 1000", "surge 1010", "Fireball 1160", "1070"],
-        datasets: [{ data: [7, 6, 5, 4, 3, 3, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_parawing',
+  ["Skinny 40","Skinny 35","Surf Skinny 300","Skinny 45","Surf Skinny 320","Skinny 30"],
+  [10, 7, 6, 4, 2, 2],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_parawing')) {
-    new Chart(document.getElementById('rw_parawing'), {
-      type: 'bar',
-      data: {
-        labels: ["Skinny 40", "Skinny 35", "Surf skinny 300", "45 skinny", "Skinny 360", "300 surf skinny", "35 skinny", "surf skinny 320"],
-        datasets: [{ data: [6, 5, 4, 4, 3, 2, 2, 2], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_parawing',
+  ["82cm HM Carbon","80 uhm","80cm UHM","75","UHM Pro 80","82 HM Carbon","900mm Carbon HM","HM 900","Ultra 80","Uhm 80"],
+  [3, 2, 2, 2, 2, 1, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_parawing')) {
-    new Chart(document.getElementById('mast_parawing'), {
-      type: 'bar',
-      data: {
-        labels: ["82cm HM Carbon", "80 uhm", "80cm UHM", "75", "UHM Pro 80", "82 HM Carbon", "900mm Carbon HM", "HM 900"],
-        datasets: [{ data: [3, 2, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_parawing',
+  ["Black ultrashort","Short","Black short","Ultrashort","Crazy short","Ultra","Ultra short","Black ultrashort advance +","Black Ultrashort Advance","Ultra short AD+"],
+  [7, 5, 4, 3, 2, 2, 2, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_parawing')) {
-    new Chart(document.getElementById('fuse_parawing'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Short", "Black short", "Ultrashort", "Crazy short", "Ultra", "Ultra short", "Black ultrashort advance +"],
-        datasets: [{ data: [7, 5, 4, 3, 2, 2, 2, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Prone ─────────────────────────────────────────────────────────────────────
+makeHbar('fw_prone',
+  ["Surge 890","Surge 950","Surge 830","Surge 1010","Spitfire 960","Surge","Spitfire 840","Art 899","890 surge","1070 fireball"],
+  [9, 4, 3, 2, 2, 2, 2, 2, 2, 2],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_prone')) {
-    new Chart(document.getElementById('fw_prone'), {
-      type: 'bar',
-      data: {
-        labels: ["Surge 890", "Surge 950", "Surge 830", "Surge 1010", "Spitfire 960", "Surge", "Spitfire 840", "Art 899"],
-        datasets: [{ data: [9, 4, 3, 2, 2, 2, 2, 2], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_prone',
+  ["Surf Skinny 300","Surf Skinny 280","Skinny 35","Skinny 50","Surf Skinny 320","Skinny 40","Skinny"],
+  [7, 3, 3, 2, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_prone')) {
-    new Chart(document.getElementById('rw_prone'), {
-      type: 'bar',
-      data: {
-        labels: ["300 surf skinny", "Surf Skinny 300", "Skinny 50", "280 Surf Skinny", "35 skinny", "skinny", "Surf skinny 280/43", "350 Skinny"],
-        datasets: [{ data: [4, 3, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_prone',
+  ["UHM Pro 80","82 HM Carbon","UHM 80","Uhm 80","80 uhm","80cm UHM","90 UHM"],
+  [3, 2, 2, 2, 2, 2, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_prone')) {
-    new Chart(document.getElementById('mast_prone'), {
-      type: 'bar',
-      data: {
-        labels: ["UHM Pro 80", "82 HM Carbon", "UHM 80", "Uhm 80", "80 uhm", "80cm UHM", "80cm", "Pro Ultra High modulus 800"],
-        datasets: [{ data: [3, 2, 2, 2, 2, 2, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_prone',
+  ["Black Ultrashort","Ultrashort","Black ultrashort","Black ultra short","Crazy short","Crazy Short"],
+  [6, 5, 4, 3, 3, 3],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_prone')) {
-    new Chart(document.getElementById('fuse_prone'), {
-      type: 'bar',
-      data: {
-        labels: ["Black Ultrashort", "Ultrashort", "Black ultrashort", "Black ultra short", "Crazy short", "Crazy Short", "Black ultrashort advance +", "Black silly short"],
-        datasets: [{ data: [6, 5, 4, 3, 3, 3, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Dock Start ────────────────────────────────────────────────────────────────
+makeHbar('fw_dock_start',
+  ["Fireball 1350","PNG 1300","Fireball 1250","PNG 1150","1401","PNG 1300 v2","PNG V2 1300","Fireball 1070","V2 PNG 1300","AP 1201"],
+  [5, 3, 3, 3, 2, 2, 2, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_dock_start')) {
-    new Chart(document.getElementById('fw_dock_start'), {
-      type: 'bar',
-      data: {
-        labels: ["Fireball 1350", "PNG 1300", "Fireball 1250", "PNG 1150", "1401", "PNG 1300 v2", "Png v2 1300", "Fireball 1070"],
-        datasets: [{ data: [5, 3, 3, 3, 2, 2, 2, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_dock_start',
+  ["Skinny 40","Skinny 45","Skinny 25","Skinny 35","Skinny 30","Skinny 50","Surf Skinny 280","Progressive 400","Surf Skinny 320"],
+  [5, 3, 3, 3, 2, 1, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_dock_start')) {
-    new Chart(document.getElementById('rw_dock_start'), {
-      type: 'bar',
-      data: {
-        labels: ["Skinny 40", "Skinny 45", "Skinny 25", "Skinny 35", "Skinny 30", "Skinny 50", "350 Skinny", "280 Surf Skinny"],
-        datasets: [{ data: [5, 3, 3, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_dock_start',
+  ["75 Alu","82cm HM Carbon","UHM Pro 80","75 HM","75","Alu 82","UHM Pro 80 cm"],
+  [3, 2, 2, 2, 2, 2, 2],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_dock_start')) {
-    new Chart(document.getElementById('mast_dock_start'), {
-      type: 'bar',
-      data: {
-        labels: ["75 Alu", "82cm HM Carbon", "UHM Pro 80", "75 HM", "75", "Alu 82", "UHM Pro 80 cm", "80cm Pro Ultra HM Carbon"],
-        datasets: [{ data: [3, 2, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_dock_start',
+  ["Ultrashort","Black ultrashort","Black Ultrashort","Short","Black Crazy Short Adv+","Black Adv+ short","Black ultra short"],
+  [5, 4, 2, 2, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_dock_start')) {
-    new Chart(document.getElementById('fuse_dock_start'), {
-      type: 'bar',
-      data: {
-        labels: ["Ultrashort", "Black ultrashort", "Black Ultrashort", "Short", "Black ulttashort advance", "Black Crazy Short Adv+", "Black Adv+ short", "Black ultra short"],
-        datasets: [{ data: [5, 4, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Foil Assist ───────────────────────────────────────────────────────────────
+makeHbar('fw_foil_assist',
+  ["Surge 950","Surge 830","Surge 740","Spitfire 960","Surge","Surge 1010","Surge 890"],
+  [5, 2, 2, 2, 2, 2, 2],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_foil_assist')) {
-    new Chart(document.getElementById('fw_foil_assist'), {
-      type: 'bar',
-      data: {
-        labels: ["Surge 950", "Surge 830", "Surge 740", "Spitfire 960", "Surge", "Surge 1010", "Surge 890", "BSC 1060"],
-        datasets: [{ data: [5, 2, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_foil_assist',
+  ["Surf Skinny 320","Surf Skinny 300","Skinny 45","Skinny 50","Progressive 425","Surf Skinny 280","Progressive 375","Progressive 325"],
+  [4, 3, 2, 2, 1, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_foil_assist')) {
-    new Chart(document.getElementById('rw_foil_assist'), {
-      type: 'bar',
-      data: {
-        labels: ["Surf skinny 300", "45 skinny", "Skinny 50", "surf 320", "Surf skinny 320", "300 surf skinny", "425 Progressive", "Surf Skinny 280"],
-        datasets: [{ data: [2, 2, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_foil_assist',
+  ["82 cm HM Carbon","82 HM carbon","82cm Aluminum","90cm UHM","Power carbon 90","82cm HM Carbon","75 hm","Ultra integrated 80 mast"],
+  [2, 1, 1, 1, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_foil_assist')) {
-    new Chart(document.getElementById('mast_foil_assist'), {
-      type: 'bar',
-      data: {
-        labels: ["82 cm HM Carbon", "82 HM carbon", "82cm Aluminum", "90cm UHM", "Power carbon 90", "82cm HM Carbon", "75 hm", "Ultra integrated 80 mast"],
-        datasets: [{ data: [2, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_foil_assist',
+  ["Black ultrashort","Ultrashort","Black ultrashort advance+","Red Short Advance","Black Ultrashort Adv+","black Ultrashort advanced +","Black ultrashort adv plus","Black adv Crazyshort"],
+  [4, 2, 1, 1, 1, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_foil_assist')) {
-    new Chart(document.getElementById('fuse_foil_assist'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Ultrashort", "Black ultrashort advance+", "Red Short Advance", "Black Ultrashort Adv+", "black Ultrashort advanced +", "Black ultrashort adv plus", "Black adv Crazyshort"],
-        datasets: [{ data: [4, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── SUP Foiling ───────────────────────────────────────────────────────────────
+makeHbar('fw_sup_foiling',
+  ["Surge 1010","Surge 830","Fireball 1250","Fireball 1070","Surge 890","Fireball 1160","HPS 1050"],
+  [8, 4, 4, 3, 2, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_sup_foiling')) {
-    new Chart(document.getElementById('fw_sup_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Surge 1010", "Surge 830", "Fireball 1250", "Fireball 1070", "Surge 890", "Fireball 1160", "HPS 1050", "1350fb or 1100 sf"],
-        datasets: [{ data: [8, 4, 4, 3, 2, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_sup_foiling',
+  ["Surf Skinny 300","Skinny 40","Skinny 35","Skinny 45","Skinny 55","Surf Skinny 345"],
+  [5, 4, 3, 2, 2, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_sup_foiling')) {
-    new Chart(document.getElementById('rw_sup_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Surf Skinny 300", "40 skinny", "300 surf skinny", "Skinny 45", "35 skinny", "350 Skinny", "Surf 345", "Skinny 365/55"],
-        datasets: [{ data: [3, 3, 2, 2, 2, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_sup_foiling',
+  ["72 UHM","82cm HM Carbon","72 uhm","82 HM Carbon","HM 900","80cm Pro Ultra HM Carbon"],
+  [2, 2, 2, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_sup_foiling')) {
-    new Chart(document.getElementById('mast_sup_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["72 UHM", "82cm HM Carbon", "72 uhm", "82 HM Carbon", "HM 900", "80cm Pro Ultra HM Carbon", "82cm carbon", "82cm Alu"],
-        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_sup_foiling',
+  ["Black ultrashort","Ultrashort","Black Ultrashort","Black ultra short","Black short","Crazyshort","Crazy short"],
+  [5, 3, 2, 2, 2, 2, 2],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_sup_foiling')) {
-    new Chart(document.getElementById('fuse_sup_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Ultrashort", "Black Ultrashort", "Black ultra short", "Black short", "Crazyshort", "Crazy short", "Black ultrashort advance +"],
-        datasets: [{ data: [5, 3, 2, 2, 2, 2, 2, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Long Distance Pump ────────────────────────────────────────────────────────
+makeHbar('fw_long_distance_pump',
+  ["Fireball 1350","Fireball 1500","1401","Fireball 1250","Fireball 1750","PNG1400 / fb1350","AP 1401"],
+  [5, 3, 2, 2, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_long_distance_pump')) {
-    new Chart(document.getElementById('fw_long_distance_pump'), {
-      type: 'bar',
-      data: {
-        labels: ["Fireball 1350", "Fireball 1500", "1401", "Fireball 1250", "1160 fireball for flat water sup paddle ups", "Fireball 1750", "Png 1300 v2 png1310", "PNG1400 / fb1350"],
-        datasets: [{ data: [5, 3, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_long_distance_pump',
+  ["Skinny 35","Skinny 40","Skinny 25","Skinny 45","Progressive 375","Skinny 55","Skinny 30"],
+  [4, 4, 4, 2, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_long_distance_pump')) {
-    new Chart(document.getElementById('rw_long_distance_pump'), {
-      type: 'bar',
-      data: {
-        labels: ["35 skinny", "40 skinny", "Skinny 45", "Skinny 25", "Skinny 358/25", "Skinny 40", "375 progressive", "35 Skinny"],
-        datasets: [{ data: [3, 2, 2, 2, 2, 2, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_long_distance_pump',
+  ["82 HM carbon","82cm HM Carbon","75","75 hm carbon","80 Fatty","72uhm pro","HM Carbon 82cm"],
+  [2, 2, 2, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_long_distance_pump')) {
-    new Chart(document.getElementById('mast_long_distance_pump'), {
-      type: 'bar',
-      data: {
-        labels: ["82 HM carbon", "82cm HM Carbon", "75", "75 hm carbon", "80 Fatty", "72uhm pro", "HM Carbon 82cm", "UHMpc82"],
-        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_long_distance_pump',
+  ["Ultrashort","Short","Crazy short","Black ultrashort","Black ultrashort advance +","Fatty Short Adv+","Advanced +"],
+  [2, 2, 2, 2, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_long_distance_pump')) {
-    new Chart(document.getElementById('fuse_long_distance_pump'), {
-      type: 'bar',
-      data: {
-        labels: ["Ultrashort", "Short", "Crazy short", "Black ultrashort", "Black ultrashort advance +", "Fatty Short Adv+", "Advanced +", "Black short adv."],
-        datasets: [{ data: [2, 2, 2, 2, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Wake Foiling ──────────────────────────────────────────────────────────────
+makeHbar('fw_wake_foiling',
+  ["Spitfire 960","Fireball 1070","Fireball 1160","BSC1060","PNG 910b or Spitfire 960","PNG 910b","1030 spitfire"],
+  [3, 2, 2, 1, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_wake_foiling')) {
-    new Chart(document.getElementById('fw_wake_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Spitfire 960", "Fireball 1070", "Fireball 1160", "BSC1060", "PNG 910b or Spitfire 960", "PNG 910b", "1030 spitfire", "Anything"],
-        datasets: [{ data: [3, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_wake_foiling',
+  ["Progressive 325","Skinny 40","Progressive 375","Freeride 440","Progressive 350","Skinny 55","Speed 380"],
+  [3, 2, 2, 1, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_wake_foiling')) {
-    new Chart(document.getElementById('rw_wake_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Progressive 325", "Skinny 40", "440 freeride", "Prog 350", "Progressive 375", "375 progressive", "325 progressive", "55 skinny"],
-        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_wake_foiling',
+  ["90cm aluminium","750 HM","75cm HM carbon","82 power carbon","82 cm HM Carbon","80uhm","Aluminum 75cm"],
+  [1, 1, 1, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_wake_foiling')) {
-    new Chart(document.getElementById('mast_wake_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["90cm aluminium", "750 HM", "75cm HM carbon", "82 power carbon", "82 cm HM Carbon", "80uhm", "Aluminum 75cm", "Na"],
-        datasets: [{ data: [1, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_wake_foiling',
+  ["Black Ultrashort","Black ultrashort","Short","Red short fuse","Black ultra","Black short adv +","Black ultrashort advanced"],
+  [2, 2, 2, 1, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_wake_foiling')) {
-    new Chart(document.getElementById('fuse_wake_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Black Ultrashort", "Black ultrashort", "Short", "Red short fuse", "US", "Black ultra", "Black short adv +", "Black ultrashort advanced"],
-        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Tow-In ────────────────────────────────────────────────────────────────────
+makeHbar('fw_tow_in',
+  ["Surge 780","Surge 830","Sptifire 840","Spitfire 780","Spitfire 670","Art 699","Spitfire 840","Same as prone"],
+  [2, 1, 1, 1, 1, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_tow_in')) {
-    new Chart(document.getElementById('fw_tow_in'), {
-      type: 'bar',
-      data: {
-        labels: ["Surge 780", "Surge 830", "Sptifire 840", "Spitfire 780", "Spitfire 670", "Art 699", "Not with axis", "Na"],
-        datasets: [{ data: [2, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_tow_in',
+  ["Surf Skinny 300","Surf Skinny","Skinny 35","Progressive 325","Surf Skinny 280","Surf Skinny 320","Skinny 55"],
+  [2, 2, 2, 2, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_tow_in')) {
-    new Chart(document.getElementById('rw_tow_in'), {
-      type: 'bar',
-      data: {
-        labels: ["Surf Skinny 300", "Surf skinny", "35 skinny", "340", "Surf skinny 280/43", "325p tail with 0.5 shim", "320 surf", "325 progressive"],
-        datasets: [{ data: [2, 2, 2, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_tow_in',
+  ["PRO Ultra High Modulus","90cm UHM","Ultra 800","1050 UHM","90 uhm","900 UHM","900 HMPC","80 uhm pro","80 Pro Mast"],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_tow_in')) {
-    new Chart(document.getElementById('mast_tow_in'), {
-      type: 'bar',
-      data: {
-        labels: ["PRO Ultra High Modulus", "90cm UHM", "Ultra 800", "1050 UHM", "90 uhm", "900 UHM", "Na", "900 HMPC"],
-        datasets: [{ data: [1, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_tow_in',
+  ["Black ultrashort","Black Advanced Crazy Short","Black short","Black silly short","Black 780 Adv+","Short adv +","Advanced short","Advanced plus ultrashort","Ultra Short A+"],
+  [3, 1, 1, 1, 1, 1, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_tow_in')) {
-    new Chart(document.getElementById('fuse_tow_in'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Black Advanced Crazy Short", "Black short", "Black silly short", "Black 780 Adv+", "Short adv +", "Na", "Advanced short"],
-        datasets: [{ data: [3, 1, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Kite Foiling ──────────────────────────────────────────────────────────────
+makeHbar('fw_kite_foiling',
+  ["Spitfire 780","Surge 830","Spitfire 840","HPS 650","Surge 1010","Fireball 1070","Art pro 1001","Spitfire 720"],
+  [2, 2, 1, 1, 1, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_kite_foiling')) {
-    new Chart(document.getElementById('fw_kite_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Spitfire 780", "Surge 830", "Spitfire 840", "HPS 650", "720 Proto wing", "Surge 1010", "Na", "Fireball 1070"],
-        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_kite_foiling',
+  ["Progressive 325","Skinny 40","Progressive 425","Skinny 45","Progressive 300","Surf Skinny 320"],
+  [4, 4, 1, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_kite_foiling')) {
-    new Chart(document.getElementById('rw_kite_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["325 Progressive", "Skinny 40", "skinny 360", "progressive 325", "425 (not sure which. Model)", "Na", "Skinny 45", "360/45 skinny"],
-        datasets: [{ data: [3, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_kite_foiling',
+  ["90cm Aluminum","85cm Aluminum","82 HM Carbon","75cm aluminum","82cm hm","90cm UHM Pro","82 hm carbon","90cm aluminum"],
+  [2, 2, 1, 1, 1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_kite_foiling')) {
-    new Chart(document.getElementById('mast_kite_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["90cm Aluminum", "85cm Aluminum", "82 HM Carbon", "75cm aluminum", "82cm hm", "Na", "90cm UHM Pro", "82 hm carbon"],
-        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_kite_foiling',
+  ["Black ultrashort","Black Advance + Ultrashort","Black Adv+ short","Black ultrashort advanced +","Red fuselage","Crazy short advance +","Advanced plus ultrashort","ultrashort"],
+  [2, 2, 1, 1, 1, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_kite_foiling')) {
-    new Chart(document.getElementById('fuse_kite_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Black Advance + Ultrashort", "Black Adv+ short", "Black ultrashort advanced +", "Red fuselage", "Na", "Crazy short advance +", "Advanced plus ultrashort"],
-        datasets: [{ data: [2, 2, 1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Efoil ─────────────────────────────────────────────────────────────────────
+makeHbar('fw_efoil',
+  ["PNG 1310","Surge 740","Spitfire 960","Art v1 899","Slingshot manta"],
+  [1, 1, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_efoil')) {
-    new Chart(document.getElementById('fw_efoil'), {
-      type: 'bar',
-      data: {
-        labels: ["PNG 1310", "Same as foil assist", "Surge 740", "Spitfire 960", "Art v1 899", "Slingshot manta"],
-        datasets: [{ data: [1, 1, 1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_efoil',
+  ["Freeride 400","Fliteboard 245","460 V2","Skinny 40","Large"],
+  [1, 1, 1, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_efoil')) {
-    new Chart(document.getElementById('rw_efoil'), {
-      type: 'bar',
-      data: {
-        labels: ["400 Freeride", "Fliteboard 245", "460v2", "359/40 skinny", "Large"],
-        datasets: [{ data: [1, 1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_efoil',
+  ["82cm Aluminum","75cm HM","75cm Lift","72cm alu"],
+  [1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_efoil')) {
-    new Chart(document.getElementById('mast_efoil'), {
-      type: 'bar',
-      data: {
-        labels: ["82cm Aluminum", "75cm HM", "75cm Lift", "72cm alu"],
-        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_efoil',
+  ["Black ultrashort","Red Short","Stock slingshot"],
+  [2, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
-  if(document.getElementById('fuse_efoil')) {
-    new Chart(document.getElementById('fuse_efoil'), {
-      type: 'bar',
-      data: {
-        labels: ["Black ultrashort", "Red Short", "Stock slingshot"],
-        datasets: [{ data: [2, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+// ── Windsurf Foiling ──────────────────────────────────────────────────────────
+makeHbar('fw_windsurf_foiling',
+  ["Spitfire 960","ART V2 879","Art 1099 / Art 899 / Spitfire 900 / Art pro 1201","ZFoils"],
+  [1, 1, 1, 1],
+  'rgba(0,178,180,0.8)'
+);
 
-  if(document.getElementById('fw_windsurf_foiling')) {
-    new Chart(document.getElementById('fw_windsurf_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Spitfire 960", "Art v2 879", "Art 1099, art 899, spitfire 900, art pro 1201", "ZFoils"],
-        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(0,178,180,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('rw_windsurf_foiling',
+  ["Progressive 375","Skinny 40","ZFoils"],
+  [2, 1, 1],
+  'rgba(56,189,160,0.8)'
+);
 
-  if(document.getElementById('rw_windsurf_foiling')) {
-    new Chart(document.getElementById('rw_windsurf_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Progressive 375", "Skinny 362", "Prog 375", "ZFoils"],
-        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(56,189,160,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('mast_windsurf_foiling',
+  ["Aluminum 90cm","90 uhm pro","Alu 82","ZFoils"],
+  [1, 1, 1, 1],
+  'rgba(99,179,237,0.8)'
+);
 
-  if(document.getElementById('mast_windsurf_foiling')) {
-    new Chart(document.getElementById('mast_windsurf_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Aluminum 90cm", "90 uhm pro", "Alu 82", "ZFoils"],
-        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(99,179,237,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
-
-  if(document.getElementById('fuse_windsurf_foiling')) {
-    new Chart(document.getElementById('fuse_windsurf_foiling'), {
-      type: 'bar',
-      data: {
-        labels: ["Black windsurf V3 / 899", "Black Short advance+", "Windsurf v2", "ZFoils"],
-        datasets: [{ data: [1, 1, 1, 1], backgroundColor: 'rgba(246,173,85,0.8)', borderRadius: 4 }]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-          x: { ticks: { color: '#a0aec0' }, grid: { color: 'rgba(255,255,255,0.05)' } },
-          y: { ticks: { color: '#e2e8f0', font: { size: 11 } }, grid: { display: false } }
-        }
-      }
-    });
-  }
+makeHbar('fuse_windsurf_foiling',
+  ["Black windsurf V3 / 899","Black Short advance+","Windsurf v2","ZFoils"],
+  [1, 1, 1, 1],
+  'rgba(246,173,85,0.8)'
+);
 
 </script>
 </body>
