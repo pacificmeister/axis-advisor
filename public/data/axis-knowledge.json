@@ -829,15 +829,14 @@
     }
   },
   "fuselage_guide": {
-    "overview": "AXIS fuselages come in Red and Black series. Red for larger/thicker wings (BSC, PNG, Spitfire). Black for thinner/performance wings (ART, HPS, Fireball, Tempo, Surge).",
+    "overview": "AXIS fuselages come in Red and Black series. Red for larger/thicker wings (BSC, PNG). Black for thinner/performance wings (ART, ART V2, ART Pro, HPS, Fireball, Tempo, Surge, Spitfire, BSC 890 and smaller).",
     "red_series": {
       "description": "3/4 block aluminum, 4x 8mm bolts in T-formation. Strongest connection on market.",
       "use_with": [
-        "BSC",
-        "PNG",
-        "large Spitfire"
+        "PNG series (all sizes)",
+        "BSC 1060, 1120 (thick profile)"
       ],
-      "note": "Essential for big span wings \u2014 strongest connection",
+      "note": "3/4 block aluminum \u2014 strongest connection",
       "sizes": {
         "Standard": "Best for riders 240lb+ or largest wings",
         "Short": "Best for riders ~180lb, most common Red option",
@@ -849,12 +848,13 @@
     "black_series": {
       "description": "Thinner head, 2x 8mm + 2x 6mm bolts. Less drag for performance wings.",
       "use_with": [
-        "HPS",
-        "ART",
-        "Fireball",
-        "Tempo",
-        "Surge",
-        "smaller BSC"
+        "ART, ART V2, ART Pro",
+        "HPS (all sizes)",
+        "Fireball (all sizes)",
+        "Tempo (Ti Link preferred)",
+        "Surge (all sizes)",
+        "Spitfire (all sizes)",
+        "BSC 890 and smaller"
       ],
       "sizes": {
         "Standard": "Beginners \u2014 maximum stability",
