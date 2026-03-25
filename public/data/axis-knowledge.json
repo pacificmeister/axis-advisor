@@ -992,12 +992,12 @@
       "notes": "Extra lift and stability for heavier riders. Red Standard fuselage essential for this weight."
     },
     "intermediate_allround": {
-      "title": "Intermediate All-Round",
-      "front_wing": "HPS 880 or BSC 810",
+      "title": "Intermediate Winging",
+      "front_wing": "Spitfire 900, Surge 890, or ART V2 939",
       "rear_wing": "Progressive 300 or Freeride",
       "fuselage": "Ultrashort (Black)",
       "mast": "90cm Aluminum or Power Carbon",
-      "notes": "Speed and versatility. HPS 880 requires good body mechanics to manage pitch."
+      "notes": "Spitfire 900 for chop forgiveness & versatility, Surge 890 for surf-oriented progression, ART V2 939 as the all-round Swiss Army knife."
     },
     "advanced_winging_prone": {
       "title": "Advanced Winging",
