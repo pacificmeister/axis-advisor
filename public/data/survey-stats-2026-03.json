@@ -1,13 +1,13 @@
 {
   "meta": {
+    "source": "AXIS Setup Survey (Google Forms)",
+    "title": "AXIS Community Setup Survey \u2014 March 2026",
     "total_responses": 227,
-    "date": "2026-03-24",
-    "first_response": "2026-03-08T16:43:06.842722Z",
-    "last_response": "2026-03-24T18:22:44.370773Z",
-    "source": "Google Forms API (live pull)"
+    "date_captured": "2026-03-24",
+    "platform": "Google Forms"
   },
   "demographics": {
-    "weight": {
+    "weight_distribution": {
       "Over 105 kg / 231 lbs": 11,
       "Under 65 kg / 143 lbs": 14,
       "85-95 kg / 187-209 lbs": 42,
@@ -21,21 +21,423 @@
       "1-2 years": 24,
       "Less than 1 year": 3
     },
-    "age": {
-      "36-45": 39,
-      "25-35": 23,
-      "46-55": 60,
-      "65+": 10,
-      "56-65": 44,
-      "Under 25": 5,
-      "Prefer not to say": 1
+    "locations": [
+      "Scotland",
+      "Scandinavia",
+      "Auckland, New Zealand",
+      "The Gorge/LaVentana",
+      "Sarasota FL",
+      "M\u00e9diterran\u00e9e",
+      "Denmark, Hanstholm",
+      "Canary Island",
+      "Lakes around Paris France, French West Coast (La Tranche sur mer,, Crozon, Normandy)",
+      "yallingup",
+      "Apelviken, Sweden",
+      "United Arab Emirates",
+      "Lake district Uk",
+      "Washoe Lake NV",
+      "Oahu-Maui",
+      "France",
+      "Ottawa River",
+      "Stavanger, Norway",
+      "Ireland, Mallorca, Fuerte",
+      "Vend\u00e9e France",
+      "Sherman Island",
+      "Ecuador",
+      "Purdy, Tacoma Wa",
+      "Ireland west coast",
+      "Saint Malo",
+      "Swiss Lakes, Solothurn",
+      "NorCal - Bolinas, Crissy Field, Larkspur Landing",
+      "Smith lake, alabama",
+      "Santa Cruz - Bay Area",
+      "Lake Neuchatel",
+      "Bonaire",
+      "Tampa,Fl",
+      "La ventana",
+      "Cape Town",
+      "Mediterranean Sea",
+      "Baltic sea",
+      "Hyeres",
+      "Belgium",
+      "Norway",
+      "France pays de loire Bretagne",
+      "New Zealand",
+      "Queenstown NZ",
+      "Bretagne, France",
+      "Greece, Crete Heraklion",
+      "Wakefoiling on Lewis smith lake in Alabama",
+      "Hawaii",
+      "France la Baule",
+      "Perth, Western Australia",
+      "Southern Brittany - France",
+      "long island, ny",
+      "Maine",
+      "Almanarre",
+      "Tahiti",
+      "Europe",
+      "Santa Cruz California",
+      "Lakes in Germany",
+      "Lutry, Leman Lake, Switzerland !",
+      "Sicily",
+      "Normandie, Fuerteventura",
+      "San Francisco bay",
+      "Auesee Germany",
+      "La Ventana, SF Bay Area, Gorge",
+      "Cape cod",
+      "Tasman Nelson nz",
+      "South East coast of the U.K.",
+      "Poole",
+      "Eyre peninsular",
+      "Tahiti French Polynesia",
+      "Lyttleton",
+      "Seattle/hood river",
+      "Long Beach, La Ventana",
+      "Z\u00fcrich",
+      "La Ventana",
+      "Var",
+      "Bay Area/ San Francisco",
+      "West Oz",
+      "The Gorge",
+      "The Gorge, not Hood River :)",
+      "Panama Bocas del Toro",
+      "M\u00e9diterran\u00e9e Antibes",
+      "New zealand",
+      "Hood River",
+      "Greece",
+      "Chesapeake Bay",
+      "north shore when it\u2019s micro",
+      "New Plymouth, New Zealand",
+      "santa cruz",
+      "Maui, Australia",
+      "San Francisco Bay",
+      "Maui Art the new Tempo582 and Pro801, tail 360 . Mast ultra Hi Modulus.",
+      "Robe South Australia",
+      "Bay of islands, NZ",
+      "Western Bay of Plenty",
+      "Seitzerland",
+      "Pompano beach florida",
+      "Palanga, Lithuania",
+      "Hobart, Tasmania",
+      "Nor cal/southern Or coast",
+      "Crissy field",
+      "Ross Bay, Victoria BC Canada",
+      "Sweden",
+      "Mission Bay, San Diego",
+      "Ocean",
+      "Nantes, France",
+      "Western Australia",
+      "North Sea",
+      "Nelson NZ",
+      "Huntington Beach",
+      "Milfontes, Portugal",
+      "Marblehead, MA",
+      "Torquay Australia",
+      "Hawaii Kai Oahu",
+      "Baltic Sea",
+      "Var France",
+      "Chile",
+      "Serre Pon\u00e7ons lake French Alps",
+      "Oslofjord Norway",
+      "Christchurch, New Zealand",
+      "Great lakes",
+      "West coast Ireland",
+      "Milfontes, Ericeira , Peniche",
+      "Balaton",
+      "Lakes in Arkansas",
+      "Bay Area",
+      "France, Normandie, Cotentin et Calvados",
+      "Rhodes, Greece",
+      "Auckland",
+      "Lake Champlain",
+      "Cannes",
+      "Maui Tunisia",
+      "Naples Florida",
+      "Auckland, Whangapora",
+      "Germany",
+      "Inland Ohio lake.",
+      "Oahu, Hawaii",
+      "Varberg, Sweden. Beats most spots\ud83d\ude03",
+      "Fremantle",
+      "LA",
+      "3rd Ave",
+      "Reno Tahoe",
+      "San Diego California",
+      "Copenhagen and the west coast of Denmark",
+      "Colorado Front Range / Lake Michigan",
+      "Japan",
+      "Ukraine",
+      "Bolinas / Crissy field",
+      "South Coast UK",
+      "\u00d8stlandet",
+      "Florida - St Petersburg",
+      "Los Angeles. Malibu cabrillo seal beach",
+      "Lake Zurich",
+      "Crissy Field",
+      "Bras\u00edlia, lago paranoa, Brazil",
+      "Columbia River Gorge",
+      "Auckland New Zealand",
+      "California",
+      "Switzerland",
+      "Danemark",
+      "Honolulu",
+      "France oc\u00e9an basque country",
+      "Florida",
+      "Sydney Australia",
+      "Gorge and Puget Sound",
+      "Guadeloupe french caribeean island",
+      "Maui",
+      "San Francisco",
+      "San francisco",
+      "Fr\u00e9jus - Saint-Rapha\u00ebl ( Var)",
+      "Omaha New Zealand East Coast",
+      "Oahu",
+      "The Slot, Crissy",
+      "Muriwai",
+      "Marblehead MA USA",
+      "Cotton Tree Queensland",
+      "Dunedin NZ",
+      "Brisbane",
+      "Lakes Baldeneysee and Xanten",
+      "Hood river, la Ventana",
+      "Sydney australia",
+      "Elizabeth City & Nags Head North Carolina",
+      "The Gorge and La Ventana",
+      "So Cal",
+      "Bari Italy",
+      "Le Morne (Mauritius)",
+      "sunshine coast australia",
+      "Whangaparaoa, Auckland",
+      "Lake Champlain, NY",
+      "Lake Pupuke or Manly Auckland, New Zealand",
+      "San Francisco Bay Area",
+      "Sardinia",
+      "South West of France",
+      "Uk south coast",
+      "Melbourne",
+      "France almanare /west cost",
+      "New Brighton, Christchurch",
+      "Northland New Zealand",
+      "Portugal / South",
+      "Seattle",
+      "Matanzas Chile",
+      "South France",
+      "Donauinsel (Vienna)",
+      "New Bern & Morehead City, NC",
+      "Sydney",
+      "Boise Idaho, hood river, cabarete",
+      "Brazil, Cear\u00e1, Praia do Iguape, Praia do Futuro, Pecem , praia do Cumbuco.",
+      "Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to",
+      "Cabarete",
+      "Rhode Island"
+    ]
+  },
+  "discipline_participation": {
+    "Downwind SUP Foiling": {
+      "yes": 82,
+      "no": 145,
+      "pct": 36
     },
-    "gender": {
-      "Male": 170,
-      "Female": 9,
-      "Non-binary": 1
+    "Prone Foiling (Surf)": {
+      "yes": 66,
+      "no": 161,
+      "pct": 29
+    },
+    "Wing Foiling": {
+      "yes": 169,
+      "no": 58,
+      "pct": 74
+    },
+    "Kite Foiling": {
+      "yes": 25,
+      "no": 202,
+      "pct": 11
+    },
+    "Wake Foiling": {
+      "yes": 39,
+      "no": 188,
+      "pct": 17
+    },
+    "Tow-In Foiling": {
+      "yes": 29,
+      "no": 198,
+      "pct": 13
+    },
+    "Windsurf Foiling": {
+      "yes": 4,
+      "no": 223,
+      "pct": 2
+    },
+    "Long Distance Pump / Flat Water": {
+      "yes": 44,
+      "no": 183,
+      "pct": 19
+    },
+    "Dock Start": {
+      "yes": 64,
+      "no": 163,
+      "pct": 28
+    },
+    "SUP Foiling (Non-Downwind)": {
+      "yes": 53,
+      "no": 174,
+      "pct": 23
+    },
+    "Parawing": {
+      "yes": 71,
+      "no": 156,
+      "pct": 31
+    },
+    "Foil Assist": {
+      "yes": 55,
+      "no": 172,
+      "pct": 24
+    },
+    "Efoil": {
+      "yes": 7,
+      "no": 220,
+      "pct": 3
     }
   },
+  "top_wings_by_discipline": {
+    "Downwind SUP Foiling": {
+      "responses": 82,
+      "top": [
+        "Fireball 1070",
+        "Fireball 1250",
+        "Tempo 960",
+        "Fireball 1160",
+        "Surge 1010"
+      ]
+    },
+    "Prone Foiling (Surf)": {
+      "responses": 66,
+      "top": [
+        "Surge 890",
+        "Surge 950",
+        "Surge 830",
+        "Surge 1010",
+        "Spitfire 960"
+      ]
+    },
+    "Wing Foiling": {
+      "responses": 169,
+      "top": [
+        "Surge 890",
+        "Fireball 1070",
+        "Surge 950",
+        "Spitfire 960",
+        "Surge 830"
+      ]
+    },
+    "Kite Foiling": {
+      "responses": 25,
+      "top": [
+        "Spitfire 780",
+        "Surge 830",
+        "Spitfire 840",
+        "HPS 650",
+        "720 Proto wing"
+      ]
+    },
+    "Wake Foiling": {
+      "responses": 39,
+      "top": [
+        "Spitfire 960",
+        "Fireball 1070",
+        "Fireball 1160",
+        "BSC1060",
+        "PNG 910b or Spitfire 960"
+      ]
+    },
+    "Tow-In Foiling": {
+      "responses": 29,
+      "top": [
+        "Surge 780",
+        "Surge 830",
+        "Sptifire 840",
+        "Spitfire 780",
+        "Spitfire 670"
+      ]
+    },
+    "Windsurf Foiling": {
+      "responses": 4,
+      "top": [
+        "Spitfire 960",
+        "Art v2 879",
+        "Art 1099, art 899, spitfire 900, art pro 1201",
+        "ZFoils"
+      ]
+    },
+    "Long Distance Pump / Flat Water": {
+      "responses": 44,
+      "top": [
+        "Fireball 1350",
+        "Fireball 1500",
+        "1401",
+        "Fireball 1250",
+        "1160 fireball for flat water sup paddle ups"
+      ]
+    },
+    "Dock Start": {
+      "responses": 64,
+      "top": [
+        "Fireball 1350",
+        "PNG 1300",
+        "Fireball 1250",
+        "PNG 1150",
+        "1401"
+      ]
+    },
+    "SUP Foiling (Non-Downwind)": {
+      "responses": 53,
+      "top": [
+        "Surge 1010",
+        "Surge 830",
+        "Fireball 1250",
+        "Fireball 1070",
+        "Surge 890"
+      ]
+    },
+    "Parawing": {
+      "responses": 71,
+      "top": [
+        "Fireball 1070",
+        "Surge 830",
+        "Surge 1010",
+        "Surge 890",
+        "Fireball 1000"
+      ]
+    },
+    "Foil Assist": {
+      "responses": 55,
+      "top": [
+        "Surge 950",
+        "Surge 830",
+        "Surge 740",
+        "Spitfire 960",
+        "Surge"
+      ]
+    },
+    "Efoil": {
+      "responses": 7,
+      "top": [
+        "PNG 1310",
+        "Same as foil assist",
+        "Surge 740",
+        "Spitfire 960",
+        "Art v1 899"
+      ]
+    }
+  },
+  "product_demand_signals": [
+    "Surge 830 is the #1 front wing across multiple disciplines",
+    "Skinny 360/45 is the most popular rear wing overall (61 mentions)",
+    "Wing Foiling dominates with 169 riders (74%)",
+    "Parawing growing fast with 71 riders",
+    "75-85kg is the most common weight bracket",
+    "56% have 4+ years foiling experience"
+  ],
   "disciplines": {
     "Downwind SUP Foiling": {
       "total_setups": 82,
