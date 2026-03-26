@@ -132,7 +132,7 @@ export default function InsightsPage() {
   const [survey, setSurvey] = useState<SurveyData | null>(null);
   const [youtube, setYoutube] = useState<YouTubeData | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('series');
-  const [activeSeries, setActiveSeries] = useState<string>('Fireball');
+  const [activeSeries, setActiveSeries] = useState<string>('Surge');
   const [ytSeriesFilter, setYtSeriesFilter] = useState<string>('all');
   const [ytAuthorityFilter, setYtAuthorityFilter] = useState<string>('all');
 
