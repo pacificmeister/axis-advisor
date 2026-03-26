@@ -6,10 +6,99 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-25T18:00:00-07:00",
-    "totalRiders": 131
+    "lastUpdated": "2026-03-26T06:01:00-07:00",
+    "totalRiders": 135
   },
   "riders": [
+    {
+      "id": "setup_2026_03_26_am_001",
+      "source": "FB post axisfoilriders 2026-03-26 (AM)",
+      "date": "2026-03-26",
+      "rider_name": "Michael Kihn",
+      "rider_role": "All-star contributor",
+      "rider_weight_kg": 72,
+      "discipline": "pumping_ldp",
+      "front_wing": "FB1750",
+      "fuselage": "Advance+ Psychoshort Fatty Fuse",
+      "mast": "Fatty Mast 80cm",
+      "stab": "Skinny 25 (recommended by Mark Shinn)",
+      "notes": "Long distance pumping from dock or flatwater paddle-up. Mark Shinn recommends Skinny 25 at 72kg on short fuse.",
+      "sentiment": "question/seeking advice",
+      "tags": [
+        "fb1750",
+        "pumping",
+        "ldp",
+        "fatty_fuse",
+        "fatty_mast",
+        "72kg",
+        "skinny25"
+      ]
+    },
+    {
+      "id": "setup_2026_03_26_am_002",
+      "source": "FB post axisfoilriders 2026-03-26 (AM)",
+      "date": "2026-03-26",
+      "rider_name": "Mick Evans",
+      "rider_role": "Rising contributor",
+      "rider_weight_kg": 100,
+      "discipline": "foil_drive",
+      "mast": "Fatty Mast",
+      "fuselage": "Fatty Fuse",
+      "foil_drive": "Max or Fusion",
+      "notes": "~100kg rider using Fatty mast+fuse with foil drive. Mark Shinn (also ~100kg) confirms works well with all FD units.",
+      "sentiment": "question/seeking advice",
+      "tags": [
+        "fatty_mast",
+        "fatty_fuse",
+        "foil_drive",
+        "100kg",
+        "heavy_rider"
+      ]
+    },
+    {
+      "id": "setup_2026_03_26_am_003",
+      "source": "FB post axisfoilriders 2026-03-26 (AM)",
+      "date": "2026-03-26",
+      "rider_name": "Josh N Jay",
+      "discipline": "prone",
+      "front_wing": "Surge 890",
+      "board": "Amos Nitro",
+      "mast_shim": "1 degree",
+      "notes": "Amos Nitro board has nose-up geometry. 1deg mast shim resolves: smoother takeoffs, better foot position. Key tip for Nitro owners.",
+      "sentiment": "positive/tip",
+      "tags": [
+        "amos_nitro",
+        "surge890",
+        "mast_shim",
+        "prone",
+        "tip"
+      ]
+    },
+    {
+      "id": "setup_2026_03_26_am_004",
+      "source": "FB post axisfoilriders 2026-03-26 (AM)",
+      "date": "2026-03-26",
+      "rider_name": "Niels van der Kaaij",
+      "rider_weight_kg": 91,
+      "discipline": "wingfoil",
+      "front_wing": "HPS 930",
+      "stab": "380 speed stab",
+      "board": "2025 Cruzader Diamond Pro 5'10 x 20\" 92L",
+      "wing_size": "5.0",
+      "water_temp": "8C",
+      "wind_range": "11-17 knots thermal",
+      "notes": "91kg in full winter suit at 8C water, 11-17kn thermals. HPS 930 with 380 speed stab still works amazingly on 92L board with 5.0 wing. Comparing to ART V2 879 (new purchase).",
+      "sentiment": "positive",
+      "tags": [
+        "hps930",
+        "speed_stab",
+        "wingfoil",
+        "91kg",
+        "winter",
+        "cruzader",
+        "art_v2"
+      ]
+    },
     {
       "id": "setup_2026_03_25_pm_002",
       "source": "FB post axisfoilriders 2026-03-25 (PM)",

@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "scrape_timestamp": "2026-03-26T06:01:00-07:00",
+    "scrape_period": "last 12 hours",
+    "group": "AXIS Foil Riders (10.6K members)",
+    "official_page": "AXIS Foils (6.1K followers)",
+    "operator": "Herbert/Alex Foiler account"
+  },
+  "riders_group_posts": [
+    {
+      "poster": "Jane Bassett",
+      "timestamp": "~1 hour ago",
+      "type": "marketplace_listing",
+      "text": "Ozone Rise V1 5'1 (75L) Wingfoil board for sale. £649, Chichester, West Sussex.",
+      "foil_mentioned": null,
+      "board_mentioned": "Ozone Rise V1 75L",
+      "comments": 0,
+      "reactions": 0,
+      "scam_flag": false,
+      "notes": "Non-AXIS gear. Board sale in UK."
+    },
+    {
+      "poster": "Josh N Jay",
+      "timestamp": "recent (within 12h)",
+      "type": "tip_product_feedback",
+      "text": "Axis/Amos Nitro tip - I recently bought an Amos Nitro for prone and noticed straight away it didn't feel right. Mast pushed forward was way too much lift (Surge890) and twitchy as hell. Moving the mast back I noticed the Nitro tapers off (rocker) which causes the board to run nose high when on foil. This also affects takeoffs, pumping and makes foot position unforgiving. The Answer: 1deg Mast shim! Now takeoffs are smooth and predictable, foot position is forgiving.",
+      "foil_mentioned": ["Surge 890"],
+      "board_mentioned": "Amos Nitro",
+      "comments": 16,
+      "reactions": 13,
+      "sentiment": "informative/constructive",
+      "key_insight": "Amos Nitro board has inherent 1° nose-up geometry - fix with mast shim",
+      "comments_detail": [
+        {"commenter": "Mike Holland", "text": "Yep in the early days of foiling, boards still had some tail rocker, it sucked!", "age": "10h"},
+        {"commenter": "Liam Walton (Top contributor)", "text": "I sold mine after 2 sessions. Mast tracks are too far forward and the board has built in 1° angle difference between the mast tracks and the top so it will always ride nose up. I don't think I even got it up and foiling", "age": "3h"}
+      ]
+    },
+    {
+      "poster": "Mick Evans",
+      "timestamp": "recent (within 12h)",
+      "type": "question",
+      "text": "Fatty Mast and foil drive! Hi legends, Any power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive, max or fusion they could share please? Thanks Mick.",
+      "foil_mentioned": ["Fatty Mast"],
+      "rider_weight": "100kg",
+      "discipline": "foil drive",
+      "comments": 3,
+      "reactions": 0,
+      "sentiment": "question",
+      "comments_detail": [
+        {"commenter": "Mark Shinn (All-star contributor)", "text": "Not sure I am a power athlete but I am around that weight and have extensive experience with the AXIS Foils Fatty mast and fuse! I have used it with the Fusion, Max and Slim..... not sure the unit you bolt it too makes any difference. The Universal pod…[See more]", "age": "3-4h"},
+        {"commenter": "Jimmy Jam Foils (Group expert)", "text": "Deon Aumaier has a fatty and Foildrives with it I believe. Using 1750", "age": "9h"}
+      ]
+    },
+    {
+      "poster": "Niels van der Kaaij",
+      "timestamp": "recent (within 12h)",
+      "type": "announcement",
+      "text": "New name, same data. Enjoy! www.foildata.app",
+      "foil_mentioned": null,
+      "comments": 4,
+      "reactions": 12,
+      "sentiment": "positive",
+      "notes": "foildata.app rebranded. Community tool for AXIS data.",
+      "comments_detail": [
+        {"commenter": "Stephen Westwood (Top contributor)", "text": "The submit review isn't working: Something went wrong. Please try again.", "age": "1d"},
+        {"commenter": "Jeff Ward (Legendary)", "text": "[liked post]", "age": "19h"}
+      ]
+    },
+    {
+      "poster": "Michael Kihn",
+      "timestamp": "recent (within 12h, morning)",
+      "type": "question",
+      "text": "FB1750 - Rear wing question. Hey guys, what rear wing are you riding your FB1750 with? I am mainly looking into Long Distance Pumping either from dock or via flatwater paddle-up as the main disciplines! Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast",
+      "foil_mentioned": ["FB1750", "Fatty Fuse", "Fatty Mast 80cm"],
+      "rider_weight": "72kg (from comments)",
+      "discipline": "pumping/LDP",
+      "comments": 12,
+      "reactions": 1,
+      "sentiment": "question",
+      "comments_detail": [
+        {"commenter": "Mark Shinn (All-star contributor)", "text": "Depending on how sensitive you are as a rider you are probably looking at a Skinny 35, 30 or 25..... AT 72 kg the ideal set up is going to be the 25 but it will probably take a few sessions to get used to the pitch..... on such a short fuse the sensitiv…[See more]", "age": "3h"},
+        {"commenter": "Deon Aumaier (Top contributor)", "text": "Michael Kihn Great Post! I have the very similar kit.…[See more]", "age": "1d"}
+      ]
+    },
+    {
+      "poster": "Dan F Jim",
+      "timestamp": "recent (within 12h)",
+      "type": "session_share",
+      "text": "Making the most of the wind season here in WA. Now looking for some storm winds in the next few months! Loving wing foiling in the Swan River! Catching some air on the Swan River with my trusty Axis and Duotone gear! #Wingfoiling #swanriver #australia #axis #duotone",
+      "foil_mentioned": ["Axis (unspecified)"],
+      "discipline": "wingfoil",
+      "location": "Swan River, WA, Australia",
+      "comments": 0,
+      "reactions": 0,
+      "sentiment": "positive"
+    },
+    {
+      "poster": "Jon Eddy / SURF FX",
+      "timestamp": "recent (within 12h)",
+      "type": "shared_content",
+      "text": "The latest race, surf and dock Axis gear with international team rider Kai Thompson. YouTube: What's new at Axis with Kai Thompson https://www.youtube.com/watch?v=jOgkjAQkHpo",
+      "foil_mentioned": ["race", "surf", "dock gear"],
+      "athlete": "Kai Thompson",
+      "comments": 0,
+      "reactions": 13,
+      "sentiment": "positive",
+      "notes": "SURF FX dealer sharing new Axis products YouTube video"
+    },
+    {
+      "poster": "Vangelis Evan Mavridoglou",
+      "timestamp": "recent (within 12h)",
+      "type": "community_research",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some of them surprised us. Want your setup counted? Takes 3 minutes.",
+      "foil_mentioned": null,
+      "comments": 1,
+      "reactions": 18,
+      "sentiment": "positive",
+      "notes": "Community survey by axis-advisor group. Google Docs form. 150+ riders, 15+ countries. High engagement."
+    }
+  ],
+  "official_page_posts_24h": [
+    {
+      "poster": "AXIS Foils (official)",
+      "timestamp": "March 23, 7:52 AM",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change.",
+      "link": "docs.google.com - What's Your Favorite AXIS Setup?",
+      "reactions": 7,
+      "comments": 1,
+      "comments_detail": [
+        {"commenter": "Katrin Kolo", "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!", "age": "1d", "answered_by_axis": false}
+      ],
+      "unanswered_questions": ["Katrin Kolo asking about female rider breakdown in survey results - unanswered by AXIS"]
+    }
+  ],
+  "older_official_page_posts": [
+    {
+      "poster": "AXIS Foils (official)",
+      "timestamp": "~6 weeks ago",
+      "text": "Baja California Sur, Mexico - When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV...",
+      "reactions": 32,
+      "comments": 3,
+      "shares": 2
+    },
+    {
+      "poster": "AXIS Foils (official)",
+      "timestamp": "~9 weeks ago",
+      "location": "Düsseldorf, Germany (boot show)",
+      "text": "AXIS stand at bootduesseldorf in 30 seconds",
+      "reactions": 41,
+      "shares": 3,
+      "views": 2500
+    },
+    {
+      "poster": "AXIS Foils (official)",
+      "timestamp": "~9 weeks ago",
+      "location": "Düsseldorf, Germany",
+      "text": "We've landed at bootduesseldorf and we brought the good Scheiße!",
+      "reactions": 64,
+      "comments": 1,
+      "unanswered_complaint": "Max Toft: 'Hi AXIS, any chance of a reply to either my emails or Facebook messages?' - 9 weeks ago, UNANSWERED"
+    }
+  ]
+}

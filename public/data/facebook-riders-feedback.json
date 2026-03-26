@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 414,
+    "total_entries": 419,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 17,
@@ -13,10 +13,133 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-25T18:00:00-07:00",
-    "total_posts": 414
+    "last_updated": "2026-03-26T06:01:00-07:00",
+    "total_posts": 419
   },
   "posts": [
+    {
+      "id": "fb_2026_03_26_am_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "rider": "Josh N Jay",
+      "discipline": "prone",
+      "text": "Axis/Amos Nitro tip: board has built-in 1\u00b0 nose-up geometry due to rocker at mast track area. Causes excess lift, twitchiness, unforgiving foot position. Fix: 1deg mast shim. Now takeoffs are smooth and predictable.",
+      "equipment_mentioned": [
+        "Amos Nitro board",
+        "Surge 890"
+      ],
+      "reactions": 13,
+      "comments": 16,
+      "sentiment": "informative",
+      "issue_type": "board_geometry_tip",
+      "resolution": "1deg mast shim resolves nose-up tendency",
+      "tags": [
+        "amos_nitro",
+        "board",
+        "mast_shim",
+        "prone",
+        "tip",
+        "surge890"
+      ]
+    },
+    {
+      "id": "fb_2026_03_26_am_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "rider": "Mick Evans",
+      "rider_weight_kg": 100,
+      "discipline": "foil_drive",
+      "text": "Any power athletes at ~100kg with experience fatty mast + fuse with foil drive (Max or Fusion)?",
+      "equipment_mentioned": [
+        "Fatty Mast",
+        "Fatty Fuse",
+        "Foil Drive Max",
+        "Foil Drive Fusion"
+      ],
+      "reactions": 0,
+      "comments": 3,
+      "sentiment": "question",
+      "issue_type": "setup_question",
+      "resolution": "Mark Shinn (100kg) confirms Fatty mast+fuse works with all FD units (Fusion/Max/Slim). Universal pod.",
+      "tags": [
+        "fatty_mast",
+        "foil_drive",
+        "heavy_rider",
+        "100kg",
+        "question"
+      ]
+    },
+    {
+      "id": "fb_2026_03_26_am_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "rider": "Michael Kihn",
+      "rider_weight_kg": 72,
+      "discipline": "pumping_ldp",
+      "text": "FB1750 - what rear wing for long distance pumping from dock or flatwater paddle-up? Running Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast.",
+      "equipment_mentioned": [
+        "FB1750",
+        "Fatty Fuse Advance+ Psychoshort",
+        "Fatty Mast 80cm"
+      ],
+      "reactions": 1,
+      "comments": 12,
+      "sentiment": "question",
+      "issue_type": "setup_question",
+      "resolution": "Mark Shinn recommends Skinny 25/30/35 depending on sensitivity. At 72kg, Skinny 25 ideal on short fuse.",
+      "tags": [
+        "fb1750",
+        "rear_wing",
+        "pumping",
+        "ldp",
+        "fatty_mast",
+        "72kg"
+      ]
+    },
+    {
+      "id": "fb_2026_03_26_am_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "rider": "Vangelis Evan Mavridoglou",
+      "discipline": "all",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some surprised us.",
+      "equipment_mentioned": [],
+      "reactions": 18,
+      "comments": 1,
+      "sentiment": "positive",
+      "issue_type": "community_research",
+      "tags": [
+        "survey",
+        "community",
+        "axis_advisor",
+        "150_riders",
+        "15_countries"
+      ]
+    },
+    {
+      "id": "fb_2026_03_26_am_005",
+      "source": "facebook_axis_foils_official",
+      "source_label": "AXIS Foils Official Page (6.1K followers)",
+      "date": "2026-03-23",
+      "rider": "AXIS Foils (official)",
+      "discipline": "all",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries. Want your setup counted? Takes 3 minutes.",
+      "equipment_mentioned": [],
+      "reactions": 7,
+      "comments": 1,
+      "sentiment": "positive",
+      "issue_type": "official_announcement",
+      "unanswered_question": "Katrin Kolo: 'What percentage of answers is female riders (in each discipline if possible and especially dockstarting)?' - no AXIS reply",
+      "tags": [
+        "official",
+        "survey",
+        "rider_data"
+      ]
+    },
     {
       "id": "fb_2026_03_25_pm_006",
       "source": "facebook_axis_riders",
