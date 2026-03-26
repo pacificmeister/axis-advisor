@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 408,
+    "total_entries": 414,
     "sources": {
       "facebook_groups": 114,
       "expert_reviews": 17,
@@ -13,10 +13,194 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-25T06:16:00-07:00",
-    "total_posts": 408
+    "last_updated": "2026-03-25T18:00:00-07:00",
+    "total_posts": 414
   },
   "posts": [
+    {
+      "id": "fb_2026_03_25_pm_006",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "rider": "Ingo Wagner",
+      "discipline": "maintenance",
+      "text": "K/S Series 19mm Freeride Foil Mast 82cm: after 1 year riding 2x/week, fuselage attachment screw thread stripped. Cannot tighten anymore, thread seems to have moved. Used only in freshwater.",
+      "equipment_mentioned": [
+        "K/S Series 19mm Freeride Foil Mast 82cm"
+      ],
+      "reactions": 5,
+      "comments": 25,
+      "sentiment": "negative",
+      "issue_type": "hardware_failure",
+      "resolution": "Community suggests helicoil repair or re-tap M8 thread (Adrian Roper, Group expert)",
+      "tags": [
+        "mast",
+        "thread_failure",
+        "k_s_series",
+        "19mm",
+        "maintenance",
+        "product_issue"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_pm_005",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "rider": "Paul Schnetker",
+      "rider_weight": 85,
+      "rider_weight_unit": "kg",
+      "discipline": "wave/surf",
+      "text": "Looking at buying a Surge or Spitfire on Gold Coast Australia. 85kg, intermediate fliteboard L2 efoil rider (Axis wing adaptor), just starting to ride waves. Need sizing recommendation.",
+      "reactions": 2,
+      "comments": 9,
+      "sentiment": "inquiry",
+      "location": "Gold Coast, Australia",
+      "wings_mentioned": [
+        "Surge",
+        "Spitfire 780",
+        "Spitfire 1100"
+      ],
+      "dealer_mentioned": "SurfFx (Gold Coast demo opportunity)",
+      "tags": [
+        "surge",
+        "spitfire",
+        "sizing",
+        "wave",
+        "australia",
+        "85kg",
+        "beginner_wave"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_pm_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-23T09:00:00-07:00",
+      "rider": "Dmitry Evseev",
+      "discipline": "community/education",
+      "text": "Comparison of Axis foils. Which one is which? Tempo 1090 | Fireball 1070",
+      "reactions": 16,
+      "comments": 9,
+      "sentiment": "educational",
+      "wings_mentioned": [
+        "Tempo 1090",
+        "Fireball 1070"
+      ],
+      "community_insight": "Tempo 1090 vs Fireball 1070: same wingspan approx, Tempo is less draggy leading to less BPM overall (per Maxime Meyer)",
+      "tags": [
+        "tempo1090",
+        "fireball1070",
+        "comparison",
+        "product_education"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_pm_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T10:00:00-07:00",
+      "rider": "Michael Kihn",
+      "rider_role": "All-star contributor",
+      "rider_weight": 68,
+      "rider_weight_unit": "kg",
+      "discipline": "pump/dockstart/flatwater",
+      "text": "Looking for rear wing for FB1750, mainly Long Distance Pumping from dock or flatwater paddle-up. Running Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast.",
+      "title": "FB1750 - Rear",
+      "reactions": 1,
+      "comments": 10,
+      "sentiment": "inquiry",
+      "wings_mentioned": [
+        "FB1750",
+        "358/25 rear"
+      ],
+      "equipment_mentioned": [
+        "Advance+ Psychoshort Fuse",
+        "Fatty Mast 80cm"
+      ],
+      "setup": {
+        "rider": "William Vosburgh",
+        "weight_kg": 68,
+        "front_wing": "FB1750",
+        "rear_wing": "358/25",
+        "fuselage": "Advance+ Psychoshort Fatty Fuse",
+        "mast": "80cm Fatty Mast",
+        "notes": "First and only Axis setup. Far more pitch sensitive than anything else I have ridden."
+      },
+      "tags": [
+        "FB1750",
+        "pump",
+        "dockstart",
+        "fatty_mast",
+        "rear_wing_question"
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_pm_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T03:00:00-07:00",
+      "rider": "Niels van der Kaaij",
+      "discipline": "community_tool",
+      "text": "New name, same data. Enjoy! www.foildata.app",
+      "reactions": 11,
+      "comments": 4,
+      "sentiment": "positive",
+      "tags": [
+        "foildata",
+        "community_tool"
+      ],
+      "comments_detail": [
+        {
+          "author": "Stephen Westwood",
+          "role": "Top contributor",
+          "age": "15h",
+          "text": "The submit review isn't working: Something went wrong. Please try again.",
+          "type": "bug_report"
+        },
+        {
+          "author": "Jeff Ward",
+          "age": "7h",
+          "text": "Legendary",
+          "likes": 1
+        }
+      ]
+    },
+    {
+      "id": "fb_2026_03_25_pm_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-25",
+      "timestamp": "2026-03-25T18:00:00-07:00",
+      "rider": "Mick Evans",
+      "rider_weight": 100,
+      "rider_weight_unit": "kg",
+      "discipline": "foil_drive",
+      "text": "Any power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive, max or fusion they could share please?",
+      "title": "Fatty Mast and foil drive!",
+      "reactions": 0,
+      "comments": 0,
+      "sentiment": "inquiry",
+      "masts_mentioned": [
+        "Fatty Mast 80cm"
+      ],
+      "equipment_mentioned": [
+        "Fatty Fuse",
+        "Foil Drive Max",
+        "Foil Drive Fusion"
+      ],
+      "unanswered": true,
+      "tags": [
+        "fatty_mast",
+        "foil_drive",
+        "heavy_rider",
+        "100kg",
+        "new_post"
+      ]
+    },
     {
       "id": "fb_2026_03_25_am_004",
       "source": "facebook_axis_riders",

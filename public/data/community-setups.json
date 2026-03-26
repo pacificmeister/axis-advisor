@@ -6,10 +6,54 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-25T06:16:00-07:00",
-    "totalRiders": 129
+    "lastUpdated": "2026-03-25T18:00:00-07:00",
+    "totalRiders": 131
   },
   "riders": [
+    {
+      "id": "setup_2026_03_25_pm_002",
+      "source": "FB post axisfoilriders 2026-03-25 (PM)",
+      "date": "2026-03-25",
+      "rider_name": "Brad Gordon",
+      "rider_role": "Top contributor",
+      "rider_weight_kg": 96,
+      "discipline": "wing foiling",
+      "location": "La Ventana, Baja California Sur",
+      "front_wing": "Surge 830",
+      "fuselage": "Ultrashort",
+      "stab": "Surf stab 320",
+      "board": "75L Blast",
+      "notes": "Love love 830 with new ultrashort fuse, and surf stab 320 on 75L Blast, killer combo. One of the fastest, carviest craft on the water.",
+      "sentiment": "very positive",
+      "tags": [
+        "surge830",
+        "ultrashort_fuse",
+        "surf_stab",
+        "wave",
+        "96kg",
+        "la_ventana"
+      ]
+    },
+    {
+      "id": "setup_2026_03_25_pm_001",
+      "source": "FB post axisfoilriders 2026-03-25 (PM)",
+      "date": "2026-03-25",
+      "rider_name": "William Vosburgh",
+      "rider_weight_kg": 68,
+      "discipline": "pump/dockstart/flatwater",
+      "front_wing": "FB1750",
+      "rear_wing": "358/25",
+      "fuselage": "Advance+ Psychoshort Fatty Fuse",
+      "mast": "80cm Fatty Mast",
+      "notes": "First and only Axis setup. Far more pitch sensitive than anything else I have ridden.",
+      "sentiment": "neutral (notable sensitivity)",
+      "tags": [
+        "FB1750",
+        "pump",
+        "fatty_mast",
+        "68kg"
+      ]
+    },
     {
       "id": "setup_2026_03_25_003",
       "source": "FB post axisfoilriders 2026-03-25",
