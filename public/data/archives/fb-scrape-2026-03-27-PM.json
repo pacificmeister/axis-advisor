@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "scrape_timestamp": "2026-03-27T21:39:00Z",
+    "scrape_window": "PM run (6 PM Pacific)",
+    "scraper": "Herbert AI (OpenClaw)",
+    "account": "Alex Foiler",
+    "sources_checked": [
+      "AXIS Foil Riders group (sorted by New Posts)",
+      "AXIS Foils Official Page (FAILED - page inaccessible/redirecting)"
+    ]
+  },
+  "issues": {
+    "official_page": "AXIS Foils official FB page (axisfoils) inaccessible - URL consistently redirecting to Facebook Marketplace listings. Possible causes: page privacy settings, URL slug conflict, or account restrictions. All direct URL formats tried: /axisfoils, /axisfoils/, profile.php?id=100063600613802, /AXIS-Foils-109895724736427 — all returned either Marketplace or 'content not available'."
+  },
+  "posts_last_12h": [
+    {
+      "id": "post_2026_03_27_pm_001",
+      "poster": "Doug D PFoiler",
+      "poster_role": "Top contributor",
+      "timestamp": "~1h ago (approx 20:30 UTC / 1:30 PM Pacific)",
+      "post_text": "Hybrid Carbon foil boards\nWas wondering anyone in the know if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing",
+      "foils_mentioned": ["Axis hybrid carbon foil boards"],
+      "discipline": "parawing",
+      "rider_weight": null,
+      "comments": [],
+      "reactions": 0,
+      "comment_count": 0,
+      "sentiment": "curious/question",
+      "tags": ["board design", "parawing", "hybrid carbon", "shaper question"]
+    },
+    {
+      "id": "post_2026_03_27_pm_002",
+      "poster": "Jimmy Jam Foils",
+      "poster_role": "Group expert",
+      "timestamp": "~20h ago (approx 01:39 UTC March 27)",
+      "post_text": "Happy birthday to this Hawaiian hammah Jason foil fever … stoked to get to ride with him all week here in Southern California. New integrated mast so good he won't let anyone else demo it. 😄",
+      "foils_mentioned": ["AXIS integrated mast (new)"],
+      "discipline": "general foiling",
+      "rider_weight": null,
+      "comments": [
+        {
+          "commenter": "Chad Barr",
+          "text": "That mast is a game changer!",
+          "timestamp": "1h ago",
+          "reactions": 0
+        },
+        {
+          "commenter": "Adrian Roper",
+          "roles": ["Group expert", "All-star contributor"],
+          "text": "Happy Birthday Jason, enjoy that California weed....",
+          "timestamp": "19h ago",
+          "reactions": 1
+        }
+      ],
+      "reactions": 20,
+      "reaction_breakdown": {"Like": 19, "Love": 1},
+      "comment_count": 2,
+      "sentiment": "very positive",
+      "tags": ["integrated mast", "new product", "Southern California", "product excitement"]
+    }
+  ],
+  "posts_12h_to_24h": [
+    {
+      "id": "post_2026_03_27_pm_003",
+      "poster": "Andrew D C Earles",
+      "poster_role": null,
+      "timestamp": "~1d ago",
+      "post_text": "Hi all. Has anyone got experience using PNGv2 1200 for wake or wing foiling?\nI'd like to get one for dock starts but would like to know what it's like for other winging and wake foiling. Thanks!\nI'm a beginner at dock starts. intermediate wing foiler and tow foiler. I use art pro v2 999 and HPS1050. I'm 77kg",
+      "foils_mentioned": ["PNGv2 1200", "art pro v2 999", "HPS1050"],
+      "discipline": ["dock start", "wing foiling", "wake foiling"],
+      "rider_weight_kg": 77,
+      "comments": [
+        {
+          "commenter": "Matthew Ross",
+          "roles": ["All-star contributor"],
+          "text": "I have used it for both. Wing in sub 10 knot wind. It's very slow and turns have to be deliberate and slow. Wake is fine. You can 15 wakes back but same thing. It likes to go straight and is super hard to turn.",
+          "timestamp": "1d ago",
+          "reactions": 1
+        },
+        {
+          "commenter": "Ian Lauder",
+          "roles": ["Rising contributor"],
+          "text": "Wide wings are a PITA to control on boat wakes, too wide to control well. Even the PNG 1150 was hard to ride on a boat wake. The couple times I've tried wider wings it wasn't worth it. Now to pull up in the flats and drop the handle to just pump is…",
+          "timestamp": "1d ago",
+          "reactions": 2,
+          "note": "text truncated - See more button not expanded"
+        }
+      ],
+      "reactions": null,
+      "comment_count": 6,
+      "sentiment": "seeking advice - mixed community feedback",
+      "tags": ["PNGv2 1200", "dock start", "wake foiling", "beginner", "77kg"]
+    },
+    {
+      "id": "post_2026_03_27_pm_004",
+      "poster": "Michael Kihn",
+      "poster_role": "All-star contributor",
+      "timestamp": "~1d ago",
+      "post_text": "Maiden Voyage FB1750 Ecuador",
+      "foils_mentioned": ["FB1750"],
+      "discipline": "general foiling",
+      "rider_weight": null,
+      "location": "Ecuador (Andes highlands/lagoons)",
+      "comments": [
+        {
+          "commenter": "William Vosburgh",
+          "text": "What fuse? Water looks nice and warm",
+          "timestamp": "1d ago"
+        },
+        {
+          "commenter": "Carlo Prado S",
+          "text": "That is up in the lagoons up in the highlands, Andes. Water definitely is not warm.lol",
+          "timestamp": "1d ago",
+          "reactions": 2
+        }
+      ],
+      "reactions": 22,
+      "comment_count": 9,
+      "sentiment": "positive",
+      "tags": ["FB1750", "maiden voyage", "Ecuador", "Andes"]
+    },
+    {
+      "id": "post_2026_03_27_pm_005",
+      "poster": "Niels van der Kaaij",
+      "poster_role": null,
+      "timestamp": "~2d ago",
+      "post_text": "New name, same data. Enjoy! www.foildata.app",
+      "foils_mentioned": [],
+      "discipline": "general",
+      "comments": [
+        {
+          "commenter": "Stephen Westwood",
+          "roles": ["Top contributor"],
+          "text": "The submit review isn't working: Something went wrong. Please try again.",
+          "timestamp": "2d ago"
+        },
+        {
+          "commenter": "Jeff Ward",
+          "text": "Legendary",
+          "timestamp": "2d ago"
+        }
+      ],
+      "reactions": 12,
+      "comment_count": 4,
+      "sentiment": "positive",
+      "tags": ["foildata.app", "data tool", "community tool"]
+    },
+    {
+      "id": "post_2026_03_27_pm_006",
+      "poster": "Josh N Jay",
+      "poster_role": null,
+      "timestamp": "~1d ago",
+      "post_text": "Axis/Amos Nitro tip - I recently bought an Amos Nitro for prone and noticed straight away it didn't feel right. Mast pushed forward was way too much lift (Surge890) and twitchy as hell. Moving the mast back I noticed the Nitro tapers off (rocker) which causes the board to run nose high when on foil. This also affects takeoffs, pumping and makes foot position unforgiving.\nThe Answer: 1deg Mast shim! Now takeoffs are smooth and predictable, foot position is forgiving, most im… [see more]",
+      "foils_mentioned": ["Amos Nitro", "Surge 890"],
+      "discipline": "prone",
+      "rider_weight": null,
+      "tip_type": "setup tip",
+      "comments": [
+        {
+          "commenter": "Mike Holland",
+          "text": "Yep in the early days of foiling, boards still had some tail rocker, it sucked!",
+          "timestamp": "1d ago",
+          "replies": 4
+        },
+        {
+          "commenter": "Chris Middleton",
+          "roles": ["Rising contributor"],
+          "text": "I had axis art v2 with JS Eagle 2 a while back, always wanted to nosedive, even when fully forward in the tracks. Looked like a flat board rocker. Improved with a mast shim but still frustrating. I'm on amos raptor and surge, no shim, seems a much bett…",
+          "timestamp": "1d ago"
+        }
+      ],
+      "reactions": 21,
+      "comment_count": 19,
+      "sentiment": "positive/helpful tip",
+      "tags": ["Amos Nitro", "mast shim", "1 degree", "setup tip", "prone", "Surge 890"]
+    },
+    {
+      "id": "post_2026_03_27_pm_007",
+      "poster": "Mick Evans",
+      "poster_role": "Rising contributor",
+      "timestamp": "~1d ago",
+      "post_text": "Fatty Mast and foil drive!\nHi legends,\nAny power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive, max or fusion they could share please?\nThanks Mick.",
+      "foils_mentioned": ["AXIS Fatty Mast", "Foil Drive Max", "Foil Drive Fusion"],
+      "discipline": "efoil/foil drive",
+      "rider_weight_kg": 100,
+      "comments": [
+        {
+          "commenter": "Mark Shinn",
+          "roles": ["All-star contributor"],
+          "text": "Not sure I am a power athlete but I am around that weight and have extensive experience with the AXIS Foils Fatty mast and fuse! I have used it with the Fusion, Max and Slim..... not sure the unit you bolt it too makes any difference. The Universal pod… [see more]",
+          "timestamp": "1d ago",
+          "note": "edited"
+        },
+        {
+          "commenter": "Jimmy Jam Foils",
+          "roles": ["Group expert"],
+          "text": "Deon Aumaier has a fatty and Foildrives with it I believe. Using 1750",
+          "timestamp": "1d ago"
+        }
+      ],
+      "reactions": null,
+      "comment_count": 3,
+      "sentiment": "seeking advice",
+      "tags": ["Fatty Mast", "Foil Drive", "100kg", "heavy rider", "efoil", "1750"]
+    },
+    {
+      "id": "post_2026_03_27_pm_008",
+      "poster": "Dan F Jim",
+      "poster_role": null,
+      "timestamp": "~3d ago (WA wing foiling)",
+      "post_text": "Making the most of the wind season here in WA. Now looking for some storm winds In the next few months! Loving wing foiling in the swan river!\nCatching some air on the Swan River with my trusty Axis and Duotone gear! #Wingfoiling #swanriver #australia #axis #duotone",
+      "foils_mentioned": ["Axis (unspecified)"],
+      "discipline": "wing foiling",
+      "location": "Swan River, Western Australia",
+      "comments": [],
+      "reactions": null,
+      "comment_count": 0,
+      "sentiment": "positive",
+      "tags": ["wing foiling", "Australia", "Duotone", "Instagram share"]
+    },
+    {
+      "id": "post_2026_03_27_pm_009",
+      "poster": "Jon Eddy",
+      "poster_role": null,
+      "timestamp": "~3d ago",
+      "post_text": "They latest race, surf and dock Axis gear with international team rider Kai Thompson",
+      "shared_from": "SURF FX",
+      "foils_mentioned": ["AXIS race", "AXIS surf", "AXIS dock gear"],
+      "discipline": "racing, surf, dock",
+      "comments": [],
+      "reactions": 13,
+      "youtube_link": "https://www.youtube.com/watch?v=jOgkjAQkHpo",
+      "video_title": "What's new at Axis with Kai Thompson",
+      "sentiment": "positive/promo",
+      "tags": ["Kai Thompson", "SURF FX", "YouTube", "new product", "race", "surf", "dock"]
+    },
+    {
+      "id": "post_2026_03_27_pm_010",
+      "poster": "Vangelis Evan Mavridoglou",
+      "poster_role": "Group expert, Rising contributor",
+      "timestamp": "~10h ago",
+      "post_text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change.\nThe results are in, and some of them surprised us.\nWant your setup counted? Takes 3 minutes.… [see more]",
+      "link": "docs.google.com - What's Your Favorite AXIS Setup?",
+      "foils_mentioned": [],
+      "discipline": "community survey",
+      "comments": [],
+      "reactions": 18,
+      "comment_count": 1,
+      "sentiment": "positive/informational",
+      "tags": ["survey", "community setup", "150 riders", "15 countries"]
+    }
+  ],
+  "scam_alerts": [],
+  "official_page_posts": null,
+  "official_page_status": "INACCESSIBLE - see issues above"
+}

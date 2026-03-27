@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 410,
+    "total_entries": 420,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,9 +13,101 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:26:51Z"
+    "last_updated": "2026-03-27T21:39:00Z"
   },
   "posts": [
+    {
+      "id": "post_2026_03_27_pm_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Doug D PFoiler",
+      "text": "Hybrid Carbon foil boards - Was wondering anyone in the know if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing",
+      "foils_mentioned": [
+        "Axis hybrid carbon foil board"
+      ],
+      "rider_weight": null,
+      "use_case": "parawing",
+      "sentiment": "curious",
+      "date": "2026-03-27",
+      "tags": [
+        "board design",
+        "parawing",
+        "hybrid carbon",
+        "shaper"
+      ]
+    },
+    {
+      "id": "post_2026_03_27_pm_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Happy birthday to this Hawaiian hammah Jason foil fever - stoked to get to ride with him all week here in Southern California. New integrated mast so good he won't let anyone else demo it.",
+      "foils_mentioned": [
+        "AXIS integrated mast (new)"
+      ],
+      "rider_weight": null,
+      "use_case": "general",
+      "sentiment": "very positive",
+      "date": "2026-03-27",
+      "tags": [
+        "integrated mast",
+        "new product",
+        "Southern California"
+      ],
+      "product_intel": "New AXIS integrated mast receiving strong praise - rider calling it a game changer (Chad Barr comment). Rider possessive of demo unit."
+    },
+    {
+      "id": "post_2026_03_27_pm_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Andrew D C Earles",
+      "text": "Has anyone got experience using PNGv2 1200 for wake or wing foiling? I'm a beginner at dock starts, intermediate wing foiler and tow foiler. I use art pro v2 999 and HPS1050. I'm 77kg",
+      "foils_mentioned": [
+        "PNGv2 1200",
+        "art pro v2 999",
+        "HPS1050"
+      ],
+      "rider_weight": 77,
+      "use_case": "dock start, wake foiling, wing foiling",
+      "sentiment": "seeking advice",
+      "date": "2026-03-27",
+      "community_response": "Community feedback: Matthew Ross says PNGv2 1200 is very slow for wing in sub 10 knots, hard to turn. Ian Lauder says wide wings PITA on boat wakes."
+    },
+    {
+      "id": "post_2026_03_27_pm_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Josh N Jay",
+      "text": "Axis/Amos Nitro tip - bought an Amos Nitro for prone, noticed Nitro tapers off (rocker) causing board to run nose high. Answer: 1deg Mast shim! Now takeoffs smooth and predictable, foot position forgiving.",
+      "foils_mentioned": [
+        "Amos Nitro",
+        "Surge 890"
+      ],
+      "rider_weight": null,
+      "use_case": "prone",
+      "sentiment": "positive/helpful",
+      "date": "2026-03-27",
+      "tip_type": "setup",
+      "setup_tip": "1 degree mast shim fixes Amos Nitro board rocker issue for prone foiling"
+    },
+    {
+      "id": "post_2026_03_27_pm_005",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Mick Evans",
+      "text": "Fatty Mast and foil drive! Any power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive, max or fusion?",
+      "foils_mentioned": [
+        "AXIS Fatty Mast",
+        "Foil Drive Max",
+        "Foil Drive Fusion",
+        "AXIS 1750"
+      ],
+      "rider_weight": 100,
+      "use_case": "foil drive",
+      "sentiment": "seeking advice",
+      "date": "2026-03-27",
+      "community_response": "Mark Shinn (All-star, ~100kg) has extensive experience with Fatty mast and all FoilDrive models. Jimmy Jam Foils mentions Deon Aumaier uses fatty + FoilDrive with 1750."
+    },
     {
       "id": "post_0",
       "source": "facebook_axis_riders",
