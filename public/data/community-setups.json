@@ -6,10 +6,39 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-26T06:01:00-07:00",
-    "totalRiders": 135
+    "lastUpdated": "2026-03-27T01:07:52Z",
+    "totalRiders": 137
   },
   "riders": [
+    {
+      "id": "setup_2026_03_26_pm_001",
+      "source": "FB post axisfoilriders 2026-03-26 (PM)",
+      "date": "2026-03-26",
+      "rider_name": "Michael Kihn (Maiden Voyage FB1750 Ecuador)",
+      "rider_role": "All-star contributor",
+      "rider_weight_kg": 72,
+      "discipline": "pump_ldp",
+      "front_wing": "FB1750",
+      "fuse": "Advance+ (Psychoshort)",
+      "rear_wing": "Skinny 25",
+      "mast": "Fatty Mast 80cm",
+      "board": "unknown",
+      "location": "Ecuador Andes highlands",
+      "notes": "Maiden voyage FB1750. vs 1400V2: much more efficient for LDP. Paddle-up 15% harder but worth it. 16C water, 2400m altitude.",
+      "sentiment": "very_positive"
+    },
+    {
+      "id": "setup_2026_03_26_pm_002",
+      "source": "FB post axisfoilriders 2026-03-26 (PM)",
+      "date": "2026-03-26",
+      "rider_name": "Andrew D C Earles",
+      "rider_weight_kg": 77,
+      "discipline": "wing + tow + dock_start",
+      "front_wing": "art pro v2 999 / considering PNGv2 1200",
+      "front_wing_alt": "HPS1050",
+      "notes": "77kg, beginner dock starts, intermediate wing+tow foiler. Community recommends dedicated wings per discipline - Spitfire 960 for wake, not PNG 1200.",
+      "sentiment": "question_seeking_advice"
+    },
     {
       "id": "setup_2026_03_26_am_001",
       "source": "FB post axisfoilriders 2026-03-26 (AM)",

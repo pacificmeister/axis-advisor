@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "scan_time": "2026-03-27T01:07:52Z",
+    "scan_label": "2026-03-26 6:00 PM Pacific",
+    "window": "Last 12 hours (6 AM - 6 PM Pacific)",
+    "scanner": "Herbert AI",
+    "sources_checked": ["AXIS Foil Riders Group", "AXIS Foils Official Page"]
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "members": 10600,
+    "posts_in_window": [
+      {
+        "id": "1565372467894372",
+        "poster": "Andrew D C Earles",
+        "age": "7 hours ago",
+        "in_window": true,
+        "title": "PNGv2 1200 for wake/wing foiling question",
+        "text": "Hi all. Has anyone got experience using PNGv2 1200 for wake or wing foiling? I'd like to get one for dock starts but would like to know what it's like for other winging and wake foiling. I'm a beginner at dock starts, intermediate wing foiler and tow foiler. I use art pro v2 999 and HPS1050. I'm 77kg",
+        "discipline": ["wing", "wake", "dock_start"],
+        "rider_weight_kg": 77,
+        "equipment_mentioned": ["PNGv2 1200", "art pro v2 999", "HPS1050"],
+        "reactions": 0,
+        "comments": 6,
+        "sentiment": "question",
+        "comments_data": [
+          {
+            "commenter": "Matthew Ross",
+            "role": "All-star contributor",
+            "age": "6 hours ago",
+            "text": "I have used it for both. Wing in sub 10 knot wind. It's very slow and turns have to be deliberate and slow. Wake is fine. You can 15 wakes back but same thing. It likes to go straight and is super hard to turn.",
+            "sentiment": "mixed",
+            "replies": [
+              {"commenter": "Andrew D C Earles", "text": "thanks!"}
+            ]
+          },
+          {
+            "commenter": "Ian Lauder",
+            "role": "Rising contributor",
+            "age": "7 hours ago",
+            "text": "Wide wings are a PITA to control on boat wakes, too wide to control well. Even the PNG 1150 was hard to ride on a boat wake. The couple times I've tried wider wings it wasn't worth it. Now to pull up in the flats and drop the handle to just pump is doable. But wider the wing, harder the start is too, need to keep them dead level on the pull up. One of the better Axis wing's we've liked for boat wake foiling this last year is the Spitfire 960. Better off getting dedicated wings for each discipline.",
+            "sentiment": "negative_for_purpose",
+            "equipment_mentioned": ["PNG 1150", "Spitfire 960"],
+            "replies": [
+              {"commenter": "Andrew D C Earles", "text": "thank you!"}
+            ]
+          },
+          {
+            "commenter": "Michael Witcoskie",
+            "age": "5 hours ago",
+            "text": "I've used the 1200 behind the boat. Advanced fuse. I like it. It does turn some but not great. Much better than the 1150. Haven't used it for dockstart yet.",
+            "sentiment": "mildly_positive",
+            "equipment_mentioned": ["PNGv2 1200", "Advanced fuse"],
+            "reactions": 1
+          },
+          {
+            "commenter": "Andrew D C Earles",
+            "age": "4 hours ago",
+            "text": "Thanks!"
+          }
+        ]
+      },
+      {
+        "id": "1565271404571145",
+        "poster": "Michael Kihn",
+        "role": "All-star contributor",
+        "age": "10 hours ago",
+        "in_window": true,
+        "title": "Maiden Voyage FB1750 Ecuador",
+        "text": "Maiden Voyage FB1750 Ecuador (photo post, lake/lagoon in the Andes/Ecuador highlands at 2400m altitude, 16 degrees water temp)",
+        "discipline": ["pump_ldp"],
+        "equipment_mentioned": ["FB1750", "Psychoshort", "Skinny 25", "Advance+ fuse", "Fatty Mast", "1400V2"],
+        "rider_weight_kg": 72,
+        "reactions": 17,
+        "comment_count": 7,
+        "sentiment": "very_positive",
+        "comments_data": [
+          {
+            "commenter": "Carlo Prado S",
+            "age": "5h",
+            "text": "That is up in the lagoons up in the highlands, Andes. Water definitely is not warm. lol",
+            "replies": [
+              {"commenter": "Michael Kihn", "text": "16 degrees! And on 2400m altitude.. that's the main issue for my lunges! haha"}
+            ]
+          },
+          {
+            "commenter": "William Vosburgh",
+            "age": "8h",
+            "text": "What fuse? Water looks nice and warm",
+            "replies": [
+              {"commenter": "Jason Hendsch", "text": "I can attest to the fact that that water ain't warm"},
+              {"commenter": "William Vosburgh", "text": "Gotta be better than this [photo]"},
+              {"commenter": "Michael Kihn", "text": "William Vosburgh Psychoshort and Skinny 25.. which I had been riding on my 1400V2.. very similar sensation in pitch control! But the efficiency! After 5 minutes on my 1400 I wouldn't be able to talk afterwards haha The 1750 allows me to talk after pumping it the same duration.. no idea if that helps anybody. PS: Paddle up on the 1750 was 15% harder than on the 1400V2 - acceptable!", "sentiment": "very_positive"}
+            ]
+          },
+          {
+            "commenter": "Jonny Twofifty",
+            "age": "8h",
+            "text": "the nice thing with such a wide foil is that even if you fall on it, you can't stab yourself with the end",
+            "reactions": 1
+          }
+        ],
+        "key_insight": "FB1750 vs 1400V2: Much more efficient for pumping/LDP. Paddle-up 15% harder but worth it for endurance gains. Fuse: Psychoshort + Skinny 25 on Fatty Mast."
+      },
+      {
+        "id": "8172272006164114",
+        "poster": "Jane Bassett",
+        "age": "recent",
+        "in_window": true,
+        "type": "for_sale",
+        "title": "For Sale: Ozone Rise V1 5'1 (75L) Wingfoil board",
+        "text": "£649 Chichester, West Sussex - Ozone Rise V1 5'1 (75L) Wingfoil board",
+        "discipline": ["wing"],
+        "equipment_mentioned": ["Ozone Rise V1 wingfoil board"],
+        "reactions": 0,
+        "comments": 0,
+        "scam_flag": false,
+        "note": "Standard for-sale listing, non-AXIS equipment (Ozone board), no scam indicators"
+      }
+    ],
+    "notable_older_posts": [
+      {
+        "id": "1564771827954436",
+        "poster": "Josh N Jay",
+        "age": "23 hours ago",
+        "in_window": false,
+        "title": "Axis/Amos Nitro tip - 1deg mast shim fix",
+        "text": "Axis/Amos Nitro tip - board has built-in nose-up geometry due to rocker at mast track. Fix: 1deg Mast shim! Now takeoffs smooth and predictable, foot position forgiving, board level when on foil.",
+        "discipline": ["prone"],
+        "equipment_mentioned": ["Amos Nitro board", "Surge 890"],
+        "reactions": 18,
+        "comments": 19,
+        "sentiment": "positive_tip_sharing",
+        "high_engagement": true
+      },
+      {
+        "id": "1564746494623636",
+        "poster": "Mick Evans",
+        "age": "a day ago",
+        "in_window": false,
+        "title": "Fatty Mast and foil drive compatibility",
+        "text": "Any power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive (max or fusion)?",
+        "discipline": ["pump_ldp"],
+        "rider_weight_kg": 100,
+        "equipment_mentioned": ["Fatty Mast", "Foil Drive Max", "Foil Drive Fusion"],
+        "reactions": 0,
+        "comments": 3,
+        "key_comment": "Mark Shinn (All-star): Universal pod fits JUST with no keys, can be tight. Used with Fusion, Max and Slim. Any wing over 120cm span use Fatty without hesitation. For waves prefers Integrated mast for efficiency and tighter turns. Jimmy Jam Foils: Deon Aumaier uses Fatty with FoilDrive and 1750."
+      },
+      {
+        "id": "1564174931347459",
+        "poster": "Niels van der Kaaij",
+        "age": "a day ago",
+        "in_window": false,
+        "title": "foildata.app - New name, same data",
+        "text": "New name, same data. Enjoy! www.foildata.app",
+        "discipline": ["all"],
+        "reactions": 12,
+        "comments": 4,
+        "note": "Former AXIS Advisor-type tool rebranded to foildata.app. Worth monitoring as competition.",
+        "issue": "Stephen Westwood reports submit review button broken: 'Something went wrong. Please try again.'"
+      },
+      {
+        "id": "1563789871385965",
+        "poster": "Michael Kihn",
+        "age": "2+ days",
+        "in_window": false,
+        "title": "FB1750 Rear wing question",
+        "text": "What rear wing are you riding your FB1750 with? Mainly looking into Long Distance Pumping - dock start or flatwater paddle-up. Setup: Advance+ Psychoshort Fatty Fuse and 80cm Fatty Mast",
+        "equipment_mentioned": ["FB1750", "Advance+ fuse", "Psychoshort", "Fatty Mast 80cm"],
+        "rider_weight_kg": 72,
+        "discipline": ["pump_ldp"],
+        "comments": 12,
+        "key_comment": "Mark Shinn: At 72kg looking at Skinny 35, 30 or 25. Ideal is 25 but takes a few sessions to get used to pitch on short fuse. Deon Aumaier: Great post, has similar kit."
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": 6100,
+    "most_recent_post_age": "3 days ago",
+    "posts_last_24h": 0,
+    "note": "No new official posts in last 24 hours",
+    "latest_post": {
+      "age": "3 days ago (March 23)",
+      "type": "survey_results",
+      "title": "What's Your Favorite AXIS Setup? - Survey Results",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. Results: Top Disciplines: 1. Wing Foiling 2. Downwind SUP 3. Parawing 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge, Fireball, Spitfire. Top Regions: US West Coast, NZ/Australia, Europe. Survey now at 241 responses.",
+      "reactions": 7,
+      "comments": 1,
+      "comment": {
+        "commenter": "Katrin Kolo",
+        "age": "2 days ago",
+        "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+        "unanswered_originally": true,
+        "axis_replied_11h_ago": "AXIS Foils replied 11 hours ago with fresh survey data (241 responses)",
+        "axis_reply_text": "Just pulled fresh from the survey (now at 241 responses):... [See more]"
+      }
+    },
+    "second_post": {
+      "age": "February 8",
+      "location": "Baja California Sur, Mexico",
+      "text": "Surge colorway design process post - desert environment inspired, industrial design focus",
+      "reactions": 33,
+      "comments": 3,
+      "shares": 2
+    }
+  }
+}

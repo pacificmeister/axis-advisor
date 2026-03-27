@@ -13,10 +13,58 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-26T06:01:00-07:00",
-    "total_posts": 419
+    "last_updated": "2026-03-27T01:07:52Z",
+    "total_posts": 423
   },
   "posts": [
+    {
+      "id": "fb_2026_03_26_pm_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "time": "PM",
+      "rider": "Andrew D C Earles",
+      "discipline": ["wing", "wake", "dock_start"],
+      "rider_weight_kg": 77,
+      "text": "PNGv2 1200 question for wake/wing: 77kg intermediate wing+tow foiler, beginner dock starts. Currently on art pro v2 999 + HPS1050. Community consensus: PNGv2 1200 is straight-running, hard to turn. Spitfire 960 better for boat wake. Best to get dedicated wings per discipline.",
+      "equipment_mentioned": ["PNGv2 1200", "art pro v2 999", "HPS1050", "PNG 1150", "Spitfire 960"],
+      "sentiment": "neutral_question",
+      "comments": 6,
+      "key_feedback": "PNGv2 1200 usable for wake/wing but sluggish and straight-tracking. PNG 1150 was also hard on wake. Spitfire 960 recommended for wake foiling."
+    },
+    {
+      "id": "fb_2026_03_26_pm_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "time": "PM",
+      "rider": "Michael Kihn",
+      "rider_role": "All-star contributor",
+      "discipline": ["pump_ldp"],
+      "rider_weight_kg": 72,
+      "text": "FB1750 maiden voyage in Ecuador highlands (2400m altitude, 16C water). vs 1400V2: significantly more efficient. 1400 exhausts me in 5 min; 1750 I can still talk. Paddle-up 15% harder but worth it. Setup: Psychoshort + Skinny 25 + Advance+ fuse + 80cm Fatty Mast.",
+      "equipment_mentioned": ["FB1750", "1400V2", "Psychoshort", "Skinny 25", "Advance+ fuse", "Fatty Mast 80cm"],
+      "sentiment": "very_positive",
+      "reactions": 17,
+      "comments": 7,
+      "location": "Ecuador, Andes",
+      "key_feedback": "FB1750 dramatically more efficient than 1400V2 for LDP pumping. Paddle-up 15% harder - acceptable trade-off."
+    },
+    {
+      "id": "fb_2026_03_26_pm_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "date": "2026-03-26",
+      "time": "PM",
+      "rider": "Mick Evans",
+      "rider_weight_kg": 100,
+      "discipline": ["pump_ldp", "wing"],
+      "text": "Power athletes ~100kg: Fatty Mast + Fuse compatibility with Foil Drive Max or Fusion. Mark Shinn (All-star, ~100kg): Universal pod fits tight, need care with bolts. Any wing 120cm+ span use Fatty. Prefers Fatty on bigger wings vs Integrated. Jimmy Jam: Deon Aumaier runs fatty + FoilDrive with 1750.",
+      "equipment_mentioned": ["Fatty Mast", "Foil Drive Max", "Foil Drive Fusion", "FB1750"],
+      "sentiment": "informative",
+      "comments": 3,
+      "key_feedback": "Fatty Mast + FoilDrive: Universal pod fits but tight - use clamp to align bolts. Preferred for wings 120cm+ span."
+    },
     {
       "id": "fb_2026_03_26_am_001",
       "source": "facebook_axis_riders",
