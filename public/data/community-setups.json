@@ -6,11 +6,30 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-27T21:39:00Z",
-    "totalRiders": 140,
+    "lastUpdated": "2026-03-28T06:01:00-07:00",
+    "totalRiders": 141,
     "updated": "2026-03-27T18:06:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_03_28_am_001",
+      "source": "FB post axisfoilriders 2026-03-28 (AM)",
+      "date": "2026-03-28",
+      "rider_name": "Mick Evans",
+      "rider_role": "Rising contributor",
+      "rider_weight_kg": 100,
+      "setups": [
+        {
+          "discipline": "prone/efoil",
+          "front_wing": "FB1750",
+          "mast": "Fatty Mast 80cm",
+          "fuse": "Fatty Fuse",
+          "drive": "FoilDrive (Max or Fusion)",
+          "notes": "Looking for advice on Fatty Mast + FoilDrive setup at 100kg"
+        }
+      ],
+      "scraped_at": "2026-03-28T06:01:00-07:00"
+    },
     {
       "id": "setup_2026_03_27_pm_001",
       "source": "FB post axisfoilriders 2026-03-27 (PM)",
