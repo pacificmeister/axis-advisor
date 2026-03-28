@@ -3,355 +3,539 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AXIS Riders Worldwide — 227 Responses</title>
+<title>🌍 AXIS Riders Worldwide — 246 Responses</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1b2a; color: #e2e8f0; }
-  
-  .header {
-    background: linear-gradient(135deg, #0a1628 0%, #0d2240 60%, #0a1628 100%);
-    border-bottom: 1px solid #1e3450;
-    padding: 1rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-  }
-  .header-left h1 { font-size: 1.3rem; font-weight: 700; color: #00b2b4; }
-  .header-left p { color: #718096; font-size: 0.85rem; }
-  .header-right { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
-  .nav-link { color: #00b2b4; font-size: 0.85rem; text-decoration: none; padding: 0.3rem 0.8rem; border: 1px solid rgba(0,178,180,0.3); border-radius: 6px; }
-  .nav-link:hover { background: rgba(0,178,180,0.1); }
-  
-  .legend {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    padding: 0.6rem 1.2rem;
-    background: rgba(13,27,42,0.9);
-    border-bottom: 1px solid #1e3450;
-    font-size: 0.8rem;
-  }
-  .legend-item { display: flex; align-items: center; gap: 0.4rem; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
-  
-  #map { height: calc(100vh - 120px); width: 100%; }
-  
-  .leaflet-popup-content-wrapper {
-    background: #152234;
-    color: #e2e8f0;
-    border: 1px solid #1e3450;
-    border-radius: 8px;
-  }
-  .leaflet-popup-tip { background: #152234; }
-  .popup-location { font-weight: 600; color: #00b2b4; margin-bottom: 0.3rem; }
-  .popup-detail { font-size: 0.85rem; color: #a0aec0; }
-  .popup-discs { font-size: 0.8rem; color: #68d391; margin-top: 0.3rem; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1b2a; color: #e2e8f0; overflow: hidden; }
+
+.header {
+  background: linear-gradient(135deg, #0a1628 0%, #0d2240 60%, #0a1628 100%);
+  border-bottom: 1px solid #1e3450;
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  z-index: 1000;
+  position: relative;
+}
+.header-left h1 { font-size: 1.1rem; font-weight: 700; color: #00b2b4; }
+.header-left p { color: #718096; font-size: 0.78rem; }
+.header-right { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.nav-link { color: #00b2b4; font-size: 0.8rem; text-decoration: none; padding: 0.25rem 0.6rem; border: 1px solid rgba(0,178,180,0.3); border-radius: 6px; }
+.nav-link:hover { background: rgba(0,178,180,0.1); }
+
+/* Filter bar */
+.filter-bar {
+  background: rgba(10,22,40,0.95);
+  border-bottom: 1px solid #1e3450;
+  padding: 0.4rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  z-index: 999;
+  position: relative;
+}
+.filter-label { color: #718096; font-size: 0.75rem; font-weight: 600; white-space: nowrap; }
+.filter-btn {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.05);
+  color: #a0aec0;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.filter-btn:hover { border-color: rgba(0,178,180,0.5); color: #e2e8f0; }
+.filter-btn.active {
+  background: rgba(0,178,180,0.2);
+  border-color: #00b2b4;
+  color: #00b2b4;
+  font-weight: 600;
+}
+.filter-btn.wing-mode-btn { border-color: rgba(251,191,36,0.4); color: #fbbf24; }
+.filter-btn.wing-mode-btn.active { background: rgba(251,191,36,0.2); border-color: #fbbf24; color: #fbbf24; }
+
+/* Legend */
+.legend-row {
+  background: rgba(13,27,42,0.95);
+  border-bottom: 1px solid #1e3450;
+  padding: 0.3rem 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  z-index: 998;
+  position: relative;
+}
+.legend-item { display: flex; align-items: center; gap: 0.35rem; color: #a0aec0; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+#map {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+}
+#map-wrap {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content-area {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  background: rgba(10,22,40,0.97);
+  border-right: 1px solid #1e3450;
+  overflow-y: auto;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-header {
+  padding: 0.8rem 1rem 0.5rem;
+  border-bottom: 1px solid #1e3450;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #00b2b4;
+}
+.region-section { padding: 0.6rem 1rem; border-bottom: 1px solid rgba(30,52,80,0.5); }
+.region-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.region-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.region-subsection { margin-top: 0.3rem; }
+.region-sublabel { font-size: 0.7rem; color: #718096; font-weight: 600; margin-bottom: 0.2rem; }
+.region-item { font-size: 0.72rem; color: #a0aec0; padding: 0.1rem 0; display: flex; justify-content: space-between; }
+.region-item .count { color: #00b2b4; font-weight: 600; }
+
+/* Summary float panel */
+#summary-panel {
+  position: absolute;
+  bottom: 20px;
+  left: 290px;
+  background: rgba(10,22,40,0.95);
+  border: 1px solid #00b2b4;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  z-index: 500;
+  min-width: 220px;
+  max-width: 300px;
+  display: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+#summary-panel h3 { font-size: 0.85rem; color: #00b2b4; margin-bottom: 0.5rem; }
+.summary-wing { font-size: 0.78rem; color: #e2e8f0; padding: 0.15rem 0; display: flex; justify-content: space-between; }
+.summary-wing .cnt { color: #00b2b4; font-weight: 600; margin-left: 0.5rem; }
+.summary-close { float: right; cursor: pointer; color: #718096; font-size: 0.9rem; }
+
+/* Popups */
+.leaflet-popup-content-wrapper {
+  background: #152234;
+  color: #e2e8f0;
+  border: 1px solid #1e3450;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.leaflet-popup-tip { background: #152234; }
+.popup-location { font-weight: 700; color: #00b2b4; margin-bottom: 0.3rem; font-size: 0.9rem; }
+.popup-meta { font-size: 0.78rem; color: #718096; margin-bottom: 0.4rem; }
+.popup-disc { font-size: 0.78rem; padding: 0.15rem 0; border-bottom: 1px solid rgba(30,52,80,0.5); }
+.popup-disc:last-child { border-bottom: none; }
+.popup-disc-name { color: #68d391; font-weight: 600; }
+.popup-disc-wing { color: #a0aec0; margin-left: 0.5rem; }
+.popup-disc-wing.highlighted { color: #fbbf24; font-weight: 600; }
+
+@media (max-width: 700px) {
+  .sidebar { display: none; }
+  #summary-panel { left: 10px; bottom: 10px; }
+}
 </style>
 </head>
 <body>
 
-<div class="header">
-  <div class="header-left">
-    <h1>🌍 227 AXIS Riders Worldwide</h1>
-    <p>221 locations mapped · March 2026 Community Survey</p>
+<div class="page-layout">
+  <div class="header">
+    <div class="header-left">
+      <h1>🌍 AXIS Riders Worldwide — 246 Responses</h1>
+      <p>241 locations mapped · March 2026 Community Survey</p>
+    </div>
+    <div class="header-right">
+      <a href="/" class="nav-link">← Advisor</a>
+      <a href="/survey-report.html" class="nav-link">📊 Report</a>
+      <a href="/insights" class="nav-link">💡 Insights</a>
+    </div>
   </div>
-  <div class="header-right">
-    <a href="/" class="nav-link">← Advisor</a>
-    <a href="/survey-report.html" class="nav-link">📊 Report</a>
-    <a href="/insights" class="nav-link">💡 Insights</a>
+
+  <div class="filter-bar">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-disc="all" onclick="setFilter('all')">🌍 All</button>
+    <button class="filter-btn" data-disc="Downwind SUP" onclick="setFilter('Downwind SUP')">🏄 DW SUP</button>
+    <button class="filter-btn" data-disc="Prone" onclick="setFilter('Prone')">🌊 Prone</button>
+    <button class="filter-btn" data-disc="Wing Foiling" onclick="setFilter('Wing Foiling')">🪁 Wing</button>
+    <button class="filter-btn" data-disc="Kite Foiling" onclick="setFilter('Kite Foiling')">🪂 Kite</button>
+    <button class="filter-btn" data-disc="Wake Foiling" onclick="setFilter('Wake Foiling')">🚤 Wake</button>
+    <button class="filter-btn" data-disc="Tow-In Foiling" onclick="setFilter('Tow-In Foiling')">🛥️ Tow-In</button>
+    <button class="filter-btn" data-disc="Windsurf Foiling" onclick="setFilter('Windsurf Foiling')">🏄 Wind</button>
+    <button class="filter-btn" data-disc="Long Distance Pump" onclick="setFilter('Long Distance Pump')">🔄 LDP</button>
+    <button class="filter-btn" data-disc="Dock Start" onclick="setFilter('Dock Start')">⚓ Dock</button>
+    <button class="filter-btn" data-disc="SUP Foiling" onclick="setFilter('SUP Foiling')">🏄 SUP</button>
+    <button class="filter-btn" data-disc="Parawing" onclick="setFilter('Parawing')">🪂 Para</button>
+    <button class="filter-btn" data-disc="Foil Assist" onclick="setFilter('Foil Assist')">⚡ Assist</button>
+    <button class="filter-btn" data-disc="Efoil" onclick="setFilter('Efoil')">⚡ Efoil</button>
+    <span style="margin-left:auto"></span>
+    <button class="filter-btn wing-mode-btn" id="wingModeBtn" onclick="toggleWingMode()">🎨 Wing Colors</button>
+  </div>
+
+  <div class="legend-row" id="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Americas (99)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Europe (82)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Oceania (53)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Asia (1)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>Africa (6)</div>
+  </div>
+
+  <div class="content-area">
+    <!-- Sidebar: Regional breakdown -->
+    <div class="sidebar">
+      <div class="sidebar-header">📊 Regional Breakdown</div>
+      <div id="regional-content"></div>
+    </div>
+
+    <div id="map-wrap">
+      <div id="map"></div>
+      <!-- Floating summary panel -->
+      <div id="summary-panel">
+        <span class="summary-close" onclick="closeSummary()">✕</span>
+        <h3 id="summary-title">Top Wings</h3>
+        <div id="summary-body"></div>
+      </div>
+    </div>
   </div>
 </div>
-
-<div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Americas (92)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Europe (76)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Oceania (46)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Asia (1)</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>Africa (6)</div>
-</div>
-
-<div id="map"></div>
 
 <script>
-var map = L.map('map', {
-  center: [20, 10],
-  zoom: 2,
-  zoomControl: true,
-});
+var MARKERS_DATA = [{"lat": -36.7947, "lng": 174.7799, "region": "Oceania", "location": "Lake Pupuke or Manly Auckland, New Zealand", "weight": "Over 105 kg / 231 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Wing Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "ART 1099 V1", "Wake Foiling": "BSC1060"}}, {"lat": 54.5444, "lng": 15.2485, "region": "Europe", "location": "Europe", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Long Distance Pump", "SUP Foiling", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "Surge 830", "Prone": "Surge 830", "Wing Foiling": "Strong wing - surge 830, light wind - 1070 fireball ", "Long Distance Pump": "1160 fireball for flat water sup paddle ups", "SUP Foiling": "Surge 830", "Parawing": "Fireball 1000", "Foil Assist": "Surge 830"}}, {"lat": 42.0167, "lng": -87.4843, "region": "Americas", "location": "Colorado Front Range / Lake Michigan", "weight": "Over 105 kg / 231 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling", "Foil Assist", "Efoil"], "wings": {"Wing Foiling": "PNG V2 1300", "Kite Foiling": "Spitfire 840", "Foil Assist": "BSC 1060", "Efoil": "PNG 1310"}}, {"lat": 41.5657, "lng": -71.4616, "region": "Americas", "location": "Rhode Island", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Downwind SUP", "Tow-In Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "Surge 1010, Tempo 1020, Surge 830", "Tow-In Foiling": "Surge 830", "SUP Foiling": "Surge 830"}}, {"lat": 57.0927, "lng": 12.2582, "region": "Europe", "location": "Varberg, Sweden. Beats most spots😃", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890, 1010 desperately waiting for the Surge 1150"}}, {"lat": -41.2767, "lng": 174.7801, "region": "Oceania", "location": "New Zealand ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "65+", "discs": ["Wing Foiling", "Kite Foiling", "SUP Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Surge 950"}}, {"lat": 45.7015, "lng": -121.5215, "region": "Americas", "location": "Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "ARTV2 879", "Wake Foiling": "PNG 910b or Spitfire 960"}}, {"lat": 47.2282, "lng": 8.7331, "region": "Europe", "location": "Lake Zurich ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Fireball 1250", "Parawing": "Fireball 1000"}}, {"lat": 20.799, "lng": -156.3506, "region": "Americas", "location": "Maui Art the new Tempo582 and Pro801, tail 360 . Mast ultra Hi Modulus.", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Tow-In Foiling"], "wings": {"Wing Foiling": "Art 801", "Tow-In Foiling": "Sptifire 840"}}, {"lat": 36.1955, "lng": 138.2396, "region": "Asia", "location": "Japan", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wake Foiling", "Long Distance Pump", "Dock Start", "Foil Assist"], "wings": {"Wake Foiling": "Spitfire 960", "Long Distance Pump": "1401", "Dock Start": "1401", "Foil Assist": "Sf960"}}, {"lat": 39.0933, "lng": 21.8072, "region": "Europe", "location": "Greece ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo, 920-960-1020", "Wing Foiling": "Art v2 819 & Surge 890", "SUP Foiling": "Surge 890", "Parawing": "Surge 890"}}, {"lat": 50.8075, "lng": -1.0003, "region": "Europe", "location": "South Coast UK", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Dock Start"], "wings": {"Downwind SUP": "PNG 1300 v2", "Wing Foiling": "Spitfire 960", "Dock Start": "PNG 1300 v2"}}, {"lat": 20.8168, "lng": -156.3238, "region": "Americas", "location": "Hawaii ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Prone"], "wings": {"Downwind SUP": "Tempo 960 ", "Prone": "Artv2 879"}}, {"lat": 45.7146, "lng": -121.5167, "region": "Americas", "location": "Hood River ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 870"}}, {"lat": 32.7216, "lng": -117.1539, "region": "Americas", "location": "San Diego California ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Tow-In Foiling"], "wings": {"Downwind SUP": "Fireball 1000", "Prone": "Spirt fire 780", "Wing Foiling": "Fireball 880", "Tow-In Foiling": "Spitfire 780"}}, {"lat": 43.5425, "lng": 7.0329, "region": "Europe", "location": "Cannes ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Wing Foiling"], "wings": {"Downwind SUP": "Fireball 1160"}}, {"lat": -33.8623, "lng": 151.1904, "region": "Oceania", "location": "Sydney", "weight": "Over 105 kg / 231 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Prone"], "wings": {"Downwind SUP": "1250 fireball", "Prone": "Surge 1010"}}, {"lat": 56.9902, "lng": 18.9979, "region": "Europe", "location": "Baltic Sea", "weight": "Under 65 kg / 143 lbs", "exp": "4+ years", "age": "Under 25", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Dock Start", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 940", "Prone": "Fireball 100", "Wing Foiling": "ART V2 819", "Dock Start": "Fireball 1070", "SUP Foiling": "Fireball 1160"}}, {"lat": 21.2898, "lng": -157.8659, "region": "Americas", "location": "Oahu, Hawaii ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Tow-In Foiling", "Long Distance Pump", "Dock Start", "Foil Assist"], "wings": {"Downwind SUP": "Fireball 1070", "Prone": "Surge 740", "Tow-In Foiling": "Spitfire 670", "Long Distance Pump": "Fireball 1750", "Dock Start": "V2 PNG 1300", "Foil Assist": "Surge 740"}}, {"lat": 47.4978, "lng": -3.0191, "region": "Europe", "location": "Southern Brittany - France", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Windsurf Foiling"], "wings": {"Windsurf Foiling": "Spitfire 960"}}, {"lat": -36.3716, "lng": 174.7134, "region": "Oceania", "location": "Omaha New Zealand East Coast", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 1030"}}, {"lat": -20.4538, "lng": 57.3249, "region": "Africa", "location": "Le Morne (Mauritius)", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Parawing"], "wings": {"Parawing": "Fireball 940"}}, {"lat": -38.3275, "lng": 144.3144, "region": "Oceania", "location": "Torquay Australia ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "1070 fireball", "Wing Foiling": "1250 fireball", "SUP Foiling": "Surge 830"}}, {"lat": -38.3275, "lng": 144.3144, "region": "Oceania", "location": "Surfcoast, victoria", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP"], "wings": {"Downwind SUP": "Fireball 1250"}}, {"lat": 24.0458, "lng": -109.9929, "region": "Americas", "location": "La ventana", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Wake Foiling", "Foil Assist", "Efoil"], "wings": {"Wing Foiling": "ART V2 819", "Wake Foiling": "PNG 910b", "Foil Assist": "HPS 1050", "Efoil": "Same as foil assist "}}, {"lat": -42.8858, "lng": 147.3309, "region": "Oceania", "location": "Hobart, Tasmania", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "Art V2 999", "Dock Start": "AP 1201"}}, {"lat": 37.6132, "lng": 13.9979, "region": "Europe", "location": "Sicily", "weight": "85-95 kg / 187-209 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890 - spitfire 900 - spitfire 1100"}}, {"lat": 27.6835, "lng": -81.5104, "region": "Americas", "location": "Florida", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "65+", "discs": ["Wing Foiling", "Kite Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Fireball 1070", "Kite Foiling": "HPS 650", "Wake Foiling": "1030 spitfire", "Foil Assist": "Spitfire 1030"}}, {"lat": 46.2428, "lng": 2.2226, "region": "Europe", "location": "France ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP"], "wings": {"Downwind SUP": "Tempo 960"}}, {"lat": 48.4179, "lng": -123.391, "region": "Americas", "location": "Ross Bay, Victoria BC Canada", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "SUP Foiling"], "wings": {"Wing Foiling": "HPS 930", "SUP Foiling": "HPS 1050"}}, {"lat": 59.9122, "lng": 10.7481, "region": "Europe", "location": "Østlandet", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Tempo 890", "Wake Foiling": "Anything", "Foil Assist": "All"}}, {"lat": -31.9682, "lng": 115.855, "region": "Oceania", "location": "West Oz", "weight": "Over 105 kg / 231 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Prone", "Wing Foiling", "Tow-In Foiling", "Parawing"], "wings": {"Prone": "1010 surge ", "Wing Foiling": "Surge 890", "Tow-In Foiling": "Surge 780 ", "Parawing": "1010 surge "}}, {"lat": 45.6966, "lng": -121.533, "region": "Americas", "location": "The Gorge", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "ART v2 819", "Parawing": "Surge 830"}}, {"lat": 35.3544, "lng": 25.1351, "region": "Europe", "location": "Greece, Crete Heraklion", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump"], "wings": {"Downwind SUP": "Fireball 1350", "Wing Foiling": "Spitfire 1180", "Long Distance Pump": "Png 1300 v2 png1310"}}, {"lat": 26.1469, "lng": -81.8024, "region": "Americas", "location": "Naples Florida ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Wake Foiling", "SUP Foiling", "Foil Assist"], "wings": {"Downwind SUP": "For surf 1100 sf. For sup DW 1350 FB. For bigger surf 900 sf", "Wing Foiling": "Low wind, 1100 sf. High wind 900 sf", "Wake Foiling": "900 sf", "SUP Foiling": "1350fb or 1100 sf", "Foil Assist": "1100 sf"}}, {"lat": -37.7986, "lng": 144.9448, "region": "Oceania", "location": "Maui, Australia", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "", "discs": ["Downwind SUP", "Prone", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Tempo 1020, surge 830", "Prone": "830 surge ", "Dock Start": "950 surge ", "Parawing": "830"}}, {"lat": 55.6875, "lng": 12.5584, "region": "Europe", "location": "Copenhagen and the west coast of Denmark ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Long Distance Pump", "Dock Start", "SUP Foiling"], "wings": {"Downwind SUP": "fb1250", "Long Distance Pump": "PNG1400 / fb1350", "Dock Start": "PNG1400 / fb1350", "SUP Foiling": "Fb1250 / fb1350 / surge1010"}}, {"lat": 43.1032, "lng": 6.1192, "region": "Europe", "location": "Hyeres", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Dock Start", "Foil Assist"], "wings": {"Downwind SUP": "Tempo 920", "Prone": "Surge 890", "Wing Foiling": "Surge 830", "Dock Start": "Surge 1010 or Fireball 1160", "Foil Assist": "Surge 830"}}, {"lat": 47.3889, "lng": 8.5466, "region": "Europe", "location": "Zürich/Switzerland", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "Spitfire 840", "Dock Start": "PNG 1400"}}, {"lat": 24.0407, "lng": -109.9941, "region": "Americas", "location": "La Ventana, Greece ", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 960, spitfire 920"}}, {"lat": 44.6858, "lng": -69.365, "region": "Americas", "location": "Maine ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "Dock Start", "SUP Foiling", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "Fireball 1070, Fireball 1250", "Wing Foiling": "FB 1070, ", "Long Distance Pump": "AP 1401", "Dock Start": "AP 1401", "SUP Foiling": "Fireball 1250", "Parawing": "FB 1070", "Foil Assist": "Fireball 1060"}}, {"lat": 36.96, "lng": -122.0138, "region": "Americas", "location": "Santa Cruz California ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Tow-In Foiling", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo 1020, fireball 1000", "Tow-In Foiling": "Art 699", "Dock Start": "PNG 1300", "SUP Foiling": "Fireball 1070 ", "Parawing": "Fireball 1000 "}}, {"lat": -37.1697, "lng": 139.7531, "region": "Oceania", "location": "Robe South Australia", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "65+", "discs": ["Prone", "Foil Assist"], "wings": {"Prone": "Spitfire 960", "Foil Assist": "Spitfire 960 or Surge 890"}}, {"lat": -17.6422, "lng": -149.4164, "region": "Americas", "location": "Tahiti French Polynesia ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone"], "wings": {"Downwind SUP": "Tempo 960/1020/1090 - Surge 950", "Prone": "Surge 950"}}, {"lat": 37.8935, "lng": -122.6851, "region": "Americas", "location": "NorCal - Bolinas, Crissy Field, Larkspur Landing", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Prone", "Wing Foiling"], "wings": {"Prone": "980 or 930", "Wing Foiling": "930 or ART999"}}, {"lat": 48.1906, "lng": -2.9414, "region": "Europe", "location": "Bretagne, France ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Windsurf Foiling", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Fireball 1250", "Wing Foiling": "Art v2 999", "Windsurf Foiling": "Art v2 879", "Dock Start": "Png 1300", "Parawing": "Fireball 1070"}}, {"lat": 47.7587, "lng": -0.7337, "region": "Europe", "location": "France pays de loire Bretagne ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Fireball 1160", "Wing Foiling": "Fireball 1070", "Long Distance Pump": "Fireball1350", "SUP Foiling": "Fireball1160/1250", "Parawing": "Fireball1160"}}, {"lat": 43.4076, "lng": 6.1941, "region": "Europe", "location": "Var France ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Tow-In Foiling", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "Tempo 960 1020 1090", "Prone": "Not with axis ", "Wing Foiling": "Not with axis", "Tow-In Foiling": "Not with axis ", "Parawing": "Not with axis ", "Foil Assist": "Not with axis "}}, {"lat": 50.7235, "lng": -1.9755, "region": "Europe", "location": "Poole", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Wing Foiling": "Surge 890", "Dock Start": "PNg1150"}}, {"lat": 37.7619, "lng": -122.43, "region": "Americas", "location": "Bay Area/ San Francisco ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling"], "wings": {"Wing Foiling": "Spitfire 960", "Kite Foiling": "720 Proto wing"}}, {"lat": 27.9406, "lng": -82.4416, "region": "Americas", "location": "Tampa,Fl", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Wing Foiling", "Wake Foiling", "Dock Start"], "wings": {"Wing Foiling": "Png1300v2", "Wake Foiling": "Unknown", "Dock Start": "PNG1300v2"}}, {"lat": 9.8857, "lng": -85.5264, "region": "Americas", "location": "Costa Rica Samara El torito Foil Park ", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Prone", "Dock Start"], "wings": {"Prone": "Art V2 839", "Dock Start": "Art pro 1401"}}, {"lat": -1.851, "lng": -78.1668, "region": "Americas", "location": "Ecuador ", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Prone", "Wing Foiling", "Kite Foiling", "Tow-In Foiling"], "wings": {"Prone": "Surge 890 ", "Wing Foiling": "Same as prone "}}, {"lat": 40.7952, "lng": -73.1165, "region": "Americas", "location": "long island, ny", "weight": "95-105 kg / 209-231 lbs", "exp": "1-2 years", "age": "56-65", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "bsc 1060", "Foil Assist": "ong 1300"}}, {"lat": 43.0429, "lng": 6.1037, "region": "Europe", "location": "Almanarre", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Wing Foiling", "Kite Foiling", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Fireball 1250", "Dock Start": "Fireball 1250", "Parawing": "Surge 890"}}, {"lat": 37.7578, "lng": -122.4169, "region": "Americas", "location": "San Francisco Bay Area", "weight": "Over 105 kg / 231 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 1100"}}, {"lat": 43.4133, "lng": 6.1865, "region": "Europe", "location": "Var", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Kite Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Surge 1010", "Wing Foiling": "Surge 1010", "Kite Foiling": "Surge 1010", "SUP Foiling": "Surge 1010", "Parawing": "Surge 1020"}}, {"lat": 44.488, "lng": -73.3478, "region": "Americas", "location": "Lake Champlain, NY", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Prone", "Wing Foiling", "Kite Foiling", "Wake Foiling", "Tow-In Foiling", "Long Distance Pump", "Dock Start", "Parawing", "Foil Assist"], "wings": {"Prone": "Na", "Wing Foiling": "Na", "Kite Foiling": "Na", "Wake Foiling": "Na", "Tow-In Foiling": "Na", "Long Distance Pump": "FB1750 and PNG1300", "Dock Start": "Same", "Parawing": "Na", "Foil Assist": "Na"}}, {"lat": 50.9867, "lng": 1.0094, "region": "Europe", "location": "South East coast of the U.K.", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling"], "wings": {"Wing Foiling": "BSC970", "Kite Foiling": "Spitfire 780"}}, {"lat": 41.1043, "lng": 16.8716, "region": "Europe", "location": "Bari Italy", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "", "discs": ["Downwind SUP", "Long Distance Pump", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1250", "Long Distance Pump": "Fireball 1250", "SUP Foiling": "Fireball 1250"}}, {"lat": 46.848, "lng": 17.7483, "region": "Europe", "location": "Balaton", "weight": "75-85 kg / 165-187 lbs", "exp": "", "age": "56-65", "discs": ["Downwind SUP", "Wing Foiling", "Parawing"], "wings": {"Downwind SUP": "1010 surge 1180 spitty", "Wing Foiling": "890 surge", "Parawing": "1010/890Surgd"}}, {"lat": 43.5861, "lng": 7.1243, "region": "Europe", "location": "Méditerranée Antibes ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Spitfire 960", "Foil Assist": "Spitfire 960"}}, {"lat": -33.643, "lng": 114.9746, "region": "Oceania", "location": "yallingup", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Prone"], "wings": {"Prone": "surge 950"}}, {"lat": 21.3051, "lng": -157.7165, "region": "Americas", "location": "Hawaii Kai Oahu", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Long Distance Pump"], "wings": {"Downwind SUP": "1020 Tempo", "Prone": "1000 fireball", "Long Distance Pump": "Fireball 1070"}}, {"lat": 32.7469, "lng": -117.2267, "region": "Americas", "location": "Mission Bay, San Diego ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Wake Foiling", "Tow-In Foiling"], "wings": {"Wing Foiling": "Spitfire 1100", "Wake Foiling": "HPS980 ", "Tow-In Foiling": "Spitfire 840"}}, {"lat": -37.814, "lng": 144.9706, "region": "Oceania", "location": "Melbourne ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 830"}}, {"lat": 40.1351, "lng": 9.0028, "region": "Europe", "location": "Sardinia", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Wake Foiling", "Tow-In Foiling"], "wings": {"Downwind SUP": "Tempo", "Prone": "Surge", "Wing Foiling": "Surge for freeride", "Wake Foiling": "Same as Prone", "Tow-In Foiling": "Same as prone"}}, {"lat": -41.2804, "lng": 173.266, "region": "Oceania", "location": "Nelson NZ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "ART1099, ART939"}}, {"lat": -43.6046, "lng": 172.7061, "region": "Oceania", "location": "Lyttleton ", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "", "discs": ["Prone", "Wing Foiling"], "wings": {"Prone": "Spitfire 840", "Wing Foiling": "Spitfire 840"}}, {"lat": 49.1439, "lng": -1.5199, "region": "Europe", "location": "France, Normandie, Cotentin et Calvados ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Long Distance Pump", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1070", "Prone": "Surge 890", "Long Distance Pump": "Fireball 1350", "SUP Foiling": "Surge 1010"}}, {"lat": 12.1989, "lng": -68.2466, "region": "Americas", "location": "Bonaire", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "PNG 830"}}, {"lat": 41.6759, "lng": -70.0173, "region": "Americas", "location": "Cape cod ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Wake Foiling", "SUP Foiling", "Parawing", "Foil Assist"], "wings": {"Wing Foiling": "Art V2 939 or spitfire 780", "SUP Foiling": "Bigger spitfires", "Parawing": "Bigger spitfires ", "Foil Assist": "Medium spitfires "}}, {"lat": -35.6557, "lng": -71.5289, "region": "Americas", "location": "Chile", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Long Distance Pump", "Foil Assist"], "wings": {"Downwind SUP": "Fireball 1350", "Prone": "Surge, size depend the swell", "Wing Foiling": "Surge", "Long Distance Pump": "Fireball 1350", "Foil Assist": "Surge"}}, {"lat": 45.4414, "lng": -75.6975, "region": "Americas", "location": "Ottawa River", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Surge 1010", "Parawing": "Surge 1010"}}, {"lat": -31.9545, "lng": 115.8789, "region": "Oceania", "location": "Perth, Western Australia ", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "56-65", "discs": ["Wing Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Wing Foiling": "HPS930", "Wake Foiling": "HPS 930-1050", "Foil Assist": "HPS930"}}, {"lat": 27.7789, "lng": -82.6454, "region": "Americas", "location": "Florida - St Petersburg ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "V2 939"}}, {"lat": 37.7725, "lng": -122.4107, "region": "Americas", "location": "San Francisco", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Prone", "Wing Foiling", "Kite Foiling", "Wake Foiling", "Long Distance Pump", "Dock Start", "Parawing", "Foil Assist"], "wings": {"Prone": "Spitfires. Change size depending on waves.", "Wing Foiling": "Art 999v2", "Kite Foiling": "Fireball 1070", "Wake Foiling": "Spitfire 960", "Long Distance Pump": "Spitfire 1270, fireball 1350", "Dock Start": "1401. Fireball 1350", "Parawing": "999v2 or fireball ", "Foil Assist": "Spitfire 1270"}}, {"lat": 45.6876, "lng": -121.5195, "region": "Americas", "location": "Columbia River Gorge", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 900"}}, {"lat": 37.7849, "lng": -122.4642, "region": "Americas", "location": "Crissy Field", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Prone", "Wing Foiling"], "wings": {"Prone": "Spitfire 840", "Wing Foiling": "spitfire 840"}}, {"lat": 53.7146, "lng": -9.5108, "region": "Europe", "location": "Ireland west coast", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "SPITFIRE 840 AND 1100"}}, {"lat": 37.9243, "lng": -122.7192, "region": "Americas", "location": "Bolinas / Crissy field", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "Under 25", "discs": ["Prone", "Wing Foiling", "Long Distance Pump", "Dock Start", "Foil Assist"], "wings": {"Prone": "Surge 830 or 890", "Wing Foiling": "Fireball 940", "Long Distance Pump": "PNG 1300", "Dock Start": "1300 PNG", "Foil Assist": "830 Surge"}}, {"lat": 38.0053, "lng": -76.1836, "region": "Americas", "location": "Chesapeake Bay", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 1030, Fireball 1250"}}, {"lat": -17.6467, "lng": -149.4238, "region": "Americas", "location": "Tahiti", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "Under 25", "discs": ["Downwind SUP", "Prone", "Dock Start", "SUP Foiling"], "wings": {"Downwind SUP": "Tempo 890", "Prone": "Surge 780", "Dock Start": "Artv2 999", "SUP Foiling": "Tempo 890"}}, {"lat": 55.9919, "lng": 2.9841, "region": "Europe", "location": "North Sea", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 780"}}, {"lat": 56.9137, "lng": 12.4878, "region": "Europe", "location": "Apelviken, Sweden", "weight": "85-95 kg / 187-209 lbs", "exp": "1-2 years", "age": "46-55", "discs": ["Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Wing Foiling": "Surge 890", "SUP Foiling": "Surge 950 or FB 1250", "Parawing": "Surge950"}}, {"lat": 45.7254, "lng": -121.5214, "region": "Americas", "location": "The Gorge, not Hood River :)", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "Surge 890", "Dock Start": "PNG 1150"}}, {"lat": -33.516, "lng": 135.4964, "region": "Oceania", "location": "Eyre peninsular", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Chopped artpro 1001 (to 840)", "Prone": "Art 899", "Wing Foiling": "Chopped 1001 (to 840)", "Dock Start": "PNG 1150", "SUP Foiling": "Chopped 1001 to 840", "Parawing": "Modified 951"}}, {"lat": -36.8371, "lng": 174.7794, "region": "Oceania", "location": "Auckland", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Wing Foiling"], "wings": {"Downwind SUP": "ART Pro 1201", "Prone": "ART V2 1099", "Wing Foiling": "ART V2 939"}}, {"lat": 36.095, "lng": -75.7419, "region": "Americas", "location": "Elizabeth City & Nags Head North Carolina ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Wake Foiling", "Dock Start", "Foil Assist", "Efoil"], "wings": {"Wing Foiling": "V2 939", "Wake Foiling": "Spitfire 960", "Dock Start": "PNG 1300", "Foil Assist": "V2 939", "Efoil": "Spitfire 960"}}, {"lat": 51.1677, "lng": 10.4713, "region": "Europe", "location": "Germany", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Fireball 1070"}}, {"lat": -33.9069, "lng": 18.422, "region": "Africa", "location": "Cape Town", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "", "discs": ["Kite Foiling", "Parawing", "Foil Assist"], "wings": {"Kite Foiling": "Art pro 1001", "Parawing": "Fireball 1070", "Foil Assist": "Konrad lx760 (but will try a surge)"}}, {"lat": 24.0407, "lng": -109.9941, "region": "Americas", "location": "H.r. Ventana", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "960 spitfire"}}, {"lat": 46.8213, "lng": 8.21, "region": "Europe", "location": "Switzerland", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Long Distance Pump", "Dock Start"], "wings": {"Long Distance Pump": "Fb 1500 for speed, 1750 for long endurance and a lot of kilometers, 2100 for ultra long runs", "Dock Start": "Same setup as already mentioned"}}, {"lat": 24.0591, "lng": -109.9801, "region": "Americas", "location": "Long Beach, La Ventana", "weight": "Under 65 kg / 143 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "I love all my front wings! My go to and most ridden is my ART999🩷"}}, {"lat": -27.4619, "lng": 153.0196, "region": "Oceania", "location": "Brisbane", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "PNG 1300 v2", "Wing Foiling": "Surge 959", "Long Distance Pump": "PNG 1300 v2", "Parawing": "Art pro 1201", "Foil Assist": "Art pro 1201"}}, {"lat": 34.9855, "lng": 17.9999, "region": "Africa", "location": "Mediterranean Sea ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Fireball 1070", "Wing Foiling": "Surge 830", "Long Distance Pump": "Fire ball 1500", "Dock Start": "Fireball 1500", "Parawing": "Surge 830"}}, {"lat": 34.0557, "lng": -87.0867, "region": "Americas", "location": "Wakefoiling on Lewis smith lake in Alabama ", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "Spitfire 960", "Wake Foiling": "960 Spitfire"}}, {"lat": -41.28, "lng": 173.2747, "region": "Oceania", "location": "Tasman Nelson nz", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Spitfire 1030", "Parawing": "Spitfire 1180"}}, {"lat": 43.4899, "lng": -84.0024, "region": "Americas", "location": "Great lakes", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Kite Foiling", "Wake Foiling", "Tow-In Foiling"], "wings": {"Downwind SUP": "Fireball 1160", "Kite Foiling": "Spitfire 720", "Wake Foiling": "819 artv2 ", "Tow-In Foiling": "819 artv2 "}}, {"lat": -37.6975, "lng": 176.0836, "region": "Oceania", "location": "Western Bay of Plenty", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Surge 950", "Foil Assist": "Surge 950"}}, {"lat": 47.2282, "lng": 8.6789, "region": "Europe", "location": "Wädenswil near Zürich CH", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "46-55", "discs": ["Wing Foiling", "Windsurf Foiling", "Long Distance Pump"], "wings": {"Wing Foiling": "BSC 1060", "Windsurf Foiling": "HA 900", "Long Distance Pump": "FB1500"}}, {"lat": 62.0158, "lng": 15.001, "region": "Europe", "location": "Scandinavia", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Art pro 751 + 851 + Fireball 1000"}}, {"lat": 51.4374, "lng": 6.8682, "region": "Europe", "location": "Lakes Baldeneysee and Xanten", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Long Distance Pump", "Dock Start", "Foil Assist"], "wings": {"Wing Foiling": "ART Series", "Long Distance Pump": "Png Series", "Dock Start": "PNG", "Foil Assist": "PNG 1300 and BSC"}}, {"lat": 19.7592, "lng": -70.4238, "region": "Americas", "location": "Cabarete", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Prone", "Parawing"], "wings": {"Downwind SUP": "ART999", "Prone": "ART999", "Parawing": "Fireball 1010"}}, {"lat": 42.4944, "lng": -70.861, "region": "Americas", "location": "Marblehead MA USA", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 960"}}, {"lat": -26.6326, "lng": 153.076, "region": "Oceania", "location": "sunshine coast australia", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Kite Foiling", "Long Distance Pump", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "surge 1010 foildrive", "Prone": "surge 1010 or surge 950", "Wing Foiling": "surge 1010 surge 950", "Kite Foiling": "HPS 650/700", "Long Distance Pump": "fireball 1350", "Parawing": "surge 1010", "Foil Assist": "surge 1010 950"}}, {"lat": -31.9689, "lng": 115.8671, "region": "Oceania", "location": "Western Australia", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Tow-In Foiling", "Long Distance Pump", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Surge 740, 830 and Tempo 960", "Prone": "Surge 740,780", "Tow-In Foiling": "Surge 740 and ART Pro 751", "Long Distance Pump": "Surge 1010 and PNG 1300", "Dock Start": "Surge 1010 and PNG 1010", "Parawing": "Surge 830"}}, {"lat": 45.6862, "lng": -121.5107, "region": "Americas", "location": "The Gorge and La Ventana ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Fireball 830", "Parawing": "Surge 1010"}}, {"lat": 23.4106, "lng": 53.8507, "region": "Africa", "location": "United Arab Emirates", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Prone", "Wing Foiling", "Kite Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Prone": "Previously Spitfire 960 and more recently Surge 890 and 1100 for smaller days", "Wing Foiling": "Previously spitfire 960 and recently surge 890 and 1100", "Kite Foiling": "Previously spit 840 and recently surge 780 and 890", "Wake Foiling": "Same as others", "Foil Assist": "Same as others"}}, {"lat": 37.7849, "lng": -122.4642, "region": "Americas", "location": "Crissy field ", "weight": "75-85 kg / 165-187 lbs", "exp": "Less than 1 year", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "I have a few. Spitfire 1030 and 900 and artv2 999"}}, {"lat": 45.6982, "lng": -121.5231, "region": "Americas", "location": "Seattle/hood river ", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Art v2 999"}}, {"lat": 24.0458, "lng": -109.9929, "region": "Americas", "location": "La Ventana ", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "ARTv2 939"}}, {"lat": 34.044, "lng": -118.7943, "region": "Americas", "location": "Los Angeles. Malibu cabrillo seal beach ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Tow-In Foiling", "Dock Start", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1070 png 1300 1100 sf", "Prone": "Surge 830 and spitfire 840", "Wing Foiling": "1010 surge", "Tow-In Foiling": "830 surge ", "Dock Start": "PNG 1300", "SUP Foiling": "1010 surge"}}, {"lat": 39.2552, "lng": -119.7825, "region": "Americas", "location": "Washoe Lake NV", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1201 and 1300", "Wing Foiling": "fireball 1000", "SUP Foiling": "1201", "Parawing": "art v2 939"}}, {"lat": 28.1359, "lng": -15.439, "region": "Africa", "location": "Canary Island", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone"], "wings": {"Downwind SUP": "Fireball 1000", "Prone": "V2 939"}}, {"lat": -41.2804, "lng": 173.266, "region": "Oceania", "location": "Nz", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1201", "Prone": "Surge 890", "Dock Start": "1201 ", "SUP Foiling": "Surge 890 or 1201 ", "Parawing": "Same "}}, {"lat": 45.7168, "lng": -121.5088, "region": "Americas", "location": "Hood river, la Ventana ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling", "Foil Assist", "Efoil"], "wings": {}}, {"lat": 24.0612, "lng": -109.9783, "region": "Americas", "location": "La Ventana, SF Bay Area, Gorge", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Wing Foiling": "Surge 1010, fireball 1000", "SUP Foiling": "spitfire 1100 or 960", "Parawing": "surge 1010"}}, {"lat": 50.8072, "lng": -0.9802, "region": "Europe", "location": "Uk south coast", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 720"}}, {"lat": 51.1467, "lng": 10.4337, "region": "Europe", "location": "Lakes in Germany ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1250", "Wing Foiling": "Fireball 1070", "Long Distance Pump": " Fireball 1750 / 1350", "Dock Start": "1350", "SUP Foiling": "1350", "Parawing": "1070"}}, {"lat": 55.9919, "lng": 2.9841, "region": "Europe", "location": "North Sea", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "ART V2 879"}}, {"lat": 43.5783, "lng": 7.1376, "region": "Europe", "location": "Méditerranée", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Art 899", "SUP Foiling": "Surge 830", "Parawing": "Surge 830"}}, {"lat": -36.8291, "lng": 174.759, "region": "Oceania", "location": "Auckland New Zealand", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Kite Foiling", "Parawing"], "wings": {"Wing Foiling": "Art pro 951", "Kite Foiling": "Levitaz R5"}}, {"lat": -45.0287, "lng": 168.6572, "region": "Oceania", "location": "Queenstown NZ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Kite Foiling", "Tow-In Foiling", "SUP Foiling", "Foil Assist"], "wings": {"Kite Foiling": "Surge 740", "Tow-In Foiling": "Have been running v2819 and spitfire 720 but aniticipate just using surge 740", "SUP Foiling": "Have only done a little on SF1030 but intend using surge 950", "Foil Assist": "Surge 950"}}, {"lat": 44.5397, "lng": 6.3443, "region": "Europe", "location": "Serre Ponçons lake French Alps", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Wing Foiling", "Kite Foiling", "Wake Foiling", "Long Distance Pump", "Dock Start", "Parawing"], "wings": {"Wing Foiling": "Art 899 v1", "Wake Foiling": "Fireball 1070", "Long Distance Pump": "Fireball 1500", "Dock Start": "Fireball 1070 and 1500 and art pro 1201", "Parawing": "Fireball 1070"}}, {"lat": -41.2767, "lng": 174.7801, "region": "Oceania", "location": "New Zealand ", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "", "discs": ["Downwind SUP", "Prone", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "FB 1070", "Prone": "Surge 890", "Dock Start": "Spitfire 1180", "SUP Foiling": "Surge 1010", "Parawing": "surge 1010"}}, {"lat": 42.5138, "lng": -70.8484, "region": "Americas", "location": "Marblehead, MA", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "SF 840 / 960, ART v2 939", "Wake Foiling": "Same as wing"}}, {"lat": 52.3676, "lng": 4.9041, "region": "Europe", "location": "Netherlands ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Downwind SUP", "SUP Foiling", "Foil Assist"], "wings": {"Downwind SUP": "Spitfire 1180", "SUP Foiling": "Spitfire 1180", "Foil Assist": "Fireball 1250"}}, {"lat": 54.4397, "lng": -3.0678, "region": "Europe", "location": "Lake district Uk", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "", "discs": ["Long Distance Pump", "Dock Start", "Parawing"], "wings": {"Long Distance Pump": "Fireball 1350", "Dock Start": "Fireball 1350", "Parawing": "Fireball 1160"}}, {"lat": -36.8406, "lng": 174.7816, "region": "Oceania", "location": "Whangaparaoa, Auckland", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1350 or 1250", "Wing Foiling": "Art v2 1099", "SUP Foiling": "Art v2 1099"}}, {"lat": 37.8024, "lng": -122.4458, "region": "Americas", "location": "Crissy Field, San Francisco", "weight": "Over 105 kg / 231 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "ART v2 999"}}, {"lat": -32.0539, "lng": 115.7415, "region": "Oceania", "location": "Fremantle", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Art v2 819", "Parawing": "Surge 830"}}, {"lat": 46.2139, "lng": 2.2203, "region": "Europe", "location": "Vendée France ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "", "discs": ["Prone", "Wing Foiling", "Wake Foiling", "Tow-In Foiling", "Dock Start", "Foil Assist"], "wings": {"Prone": "Art v2 939 , surge 830 /890 , fireball 1070", "Wing Foiling": "Fireball 1070 / png v2 1200 / v2 939 ", "Wake Foiling": "Art 799 / art v2 939 /surge 830 ", "Tow-In Foiling": "Art 799 / v2 939 / surge 830 ", "Dock Start": "PNG 1200 v2 ", "Foil Assist": "Surge 890 / fireball 1070 "}}, {"lat": 48.1956, "lng": 16.3683, "region": "Europe", "location": "Donauinsel (Vienna)", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 1180"}}, {"lat": 45.7176, "lng": -121.531, "region": "Americas", "location": "Boise Idaho, hood river, cabarete", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling", "Long Distance Pump", "Dock Start", "Efoil"], "wings": {"Wing Foiling": "Art v2 999", "Kite Foiling": "Art v2 819", "Long Distance Pump": "PNG 1150", "Dock Start": "PNG 1150", "Efoil": "Art v1 899"}}, {"lat": 32.7329, "lng": -117.1715, "region": "Americas", "location": "California", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Prone", "Wing Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Prone": "Spitfire 960", "Wing Foiling": "Spitfire 1180", "Wake Foiling": "Spitfire 1030", "Foil Assist": "Spitfire 960"}}, {"lat": -41.2821, "lng": 174.7658, "region": "Oceania", "location": "Auckland, New Zealand", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Prone", "Wing Foiling", "Wake Foiling", "Foil Assist"], "wings": {"Prone": "Surge 950", "Wing Foiling": "Suge 950/830 Fireball 1070", "Wake Foiling": "Surge 1010/950 Fireball 1070", "Foil Assist": "Surge 1010/950"}}, {"lat": 21.2913, "lng": -157.878, "region": "Americas", "location": "Oahu", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["SUP Foiling"], "wings": {"SUP Foiling": "Spitfire 840"}}, {"lat": 56.4752, "lng": -4.197, "region": "Europe", "location": "Scotland", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 900"}}, {"lat": 39.3933, "lng": -9.3104, "region": "Europe", "location": "Milfontes, Ericeira , Peniche", "weight": "65-75 kg / 143-165 lbs", "exp": "Less than 1 year", "age": "46-55", "discs": ["Foil Assist"], "wings": {"Foil Assist": "BSC 890"}}, {"lat": 46.8213, "lng": 8.21, "region": "Europe", "location": "Switzerland ", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Dock Start", "Foil Assist"], "wings": {"Wing Foiling": "spitfire 1100", "Dock Start": "Same as my previous answers ", "Foil Assist": "Same as my previous answers "}}, {"lat": 24.0458, "lng": -109.9929, "region": "Americas", "location": "La Ventana ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "999v2"}}, {"lat": 21.3111, "lng": -157.8704, "region": "Americas", "location": "Honolulu ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Wing Foiling", "Long Distance Pump", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1250 fireball", "Wing Foiling": "939", "Long Distance Pump": "1250 fireball", "SUP Foiling": "999", "Parawing": "1250 "}}, {"lat": 37.7725, "lng": -122.4107, "region": "Americas", "location": "San Francisco ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "65+", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Art v2 937", "Foil Assist": "Surge 1010"}}, {"lat": -35.2333, "lng": 174.0928, "region": "Oceania", "location": "Bay of islands, NZ", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "ART pro 751", "Dock Start": "Art pro 1201"}}, {"lat": 37.8024, "lng": -122.4458, "region": "Americas", "location": "The Slot, Crissy", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890 (new) "}}, {"lat": -41.267, "lng": 174.7843, "region": "Oceania", "location": "New Plymouth, New Zealand ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Prone", "Long Distance Pump", "Dock Start"], "wings": {"Downwind SUP": "920 Tempo", "Prone": "890 surge ", "Long Distance Pump": "1500", "Dock Start": "1250 fireball "}}, {"lat": 47.4016, "lng": -122.6113, "region": "Americas", "location": "Purdy, Tacoma Wa", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "46-55", "discs": ["Prone", "Wing Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Prone": "Surge 950", "Wing Foiling": "Surge 950", "Long Distance Pump": "Spitfire 1180", "Dock Start": "1180"}}, {"lat": -15.7916, "lng": -47.8473, "region": "Americas", "location": "Brasília, lago paranoa, Brazil", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "Art 899", "Kite Foiling": "Art 899", "Wake Foiling": "Art999v2"}}, {"lat": 57.1282, "lng": 8.6128, "region": "Europe", "location": "Denmark, Hanstholm ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Long Distance Pump", "Dock Start", "SUP Foiling"], "wings": {"Wing Foiling": "Spitfire 780", "Long Distance Pump": "1401", "Dock Start": "1401", "SUP Foiling": "1180"}}, {"lat": 42.0121, "lng": -124.0059, "region": "Americas", "location": "Nor cal/southern Or coast", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Kite Foiling", "Tow-In Foiling"], "wings": {"Wing Foiling": "830 surge", "Kite Foiling": "Surge 830, 899", "Tow-In Foiling": "830 aurge"}}, {"lat": -33.8623, "lng": 151.1904, "region": "Oceania", "location": "Sydney", "weight": "85-95 kg / 187-209 lbs", "exp": "Less than 1 year", "age": "46-55", "discs": ["Tow-In Foiling", "Foil Assist"], "wings": {"Tow-In Foiling": "Spitfire 960", "Foil Assist": "Spitfire 960"}}, {"lat": 55.9113, "lng": 21.0844, "region": "Europe", "location": "Palanga, Lithuania", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Dock Start", "Parawing"], "wings": {"Wing Foiling": "Art Pro 1201, Spitfire 960 (980)", "Dock Start": "Art pro1201, PNG1050", "Parawing": "Art pro1201"}}, {"lat": 34.7185, "lng": -76.7487, "region": "Americas", "location": "New Bern & Morehead City, NC", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "PNG1150 is my most used, but enjoy HPS980 when wind is up. Would like to switch to Spitfire 1180 & 1100 ", "Dock Start": "PNG1310"}}, {"lat": 47.5113, "lng": -122.2731, "region": "Americas", "location": "Gorge and Puget Sound", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890"}}, {"lat": 21.6384, "lng": -157.9287, "region": "Americas", "location": "north shore when it’s micro", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Prone"], "wings": {"Prone": "910"}}, {"lat": 48.3742, "lng": 31.158, "region": "Europe", "location": "Ukraine ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Wake Foiling", "Long Distance Pump", "Dock Start", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "Fireball", "Prone": "Art", "Wing Foiling": "Fireball ", "Wake Foiling": "Surge", "Long Distance Pump": "PNG", "Dock Start": "PNG 1300 v2", "Parawing": "Fireball ", "Foil Assist": "Surje"}}, {"lat": 39.0933, "lng": 21.8439, "region": "Europe", "location": "Rhodes, Greece", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Art V2 879, surge 830", "Parawing": "Surge 950"}}, {"lat": 46.8054, "lng": 8.2376, "region": "Europe", "location": "Lutry, Leman Lake, Switzerland ! ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Long Distance Pump", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "fireball 1250 (art 1401 for the flat)", "Long Distance Pump": "Fireball 1250", "Dock Start": "Fireball 1250", "SUP Foiling": "Art 999 ( fireball 1250 when it’s small)", "Parawing": "Art999 / fireball 1250 in small conditions "}}, {"lat": 46.2167, "lng": 2.2242, "region": "Europe", "location": "France océan basque country ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Fireball 1070", "Prone": "Surge 840", "Wing Foiling": "Surge 890", "SUP Foiling": "Fireball 1070", "Parawing": "Fireball 1070"}}, {"lat": -45.8651, "lng": 170.5142, "region": "Oceania", "location": "Dunedin NZ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Tow-In Foiling", "Parawing", "Foil Assist"], "wings": {"Downwind SUP": "Fireball ", "Prone": "Surge", "Tow-In Foiling": "Surge and ARTV2", "Parawing": "Fireball and Surge", "Foil Assist": "Surge 890"}}, {"lat": 20.7876, "lng": -156.3393, "region": "Americas", "location": "Maui", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Tow-In Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo 960", "Prone": "Surge 830", "Wing Foiling": "Surge 780", "Tow-In Foiling": "Surge 780", "SUP Foiling": "Surge 890", "Parawing": "Surge 890"}}, {"lat": 37.776, "lng": -122.4324, "region": "Americas", "location": "Bay Area ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Long Distance Pump", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1020 tempo", "Prone": "Art v2 879", "Long Distance Pump": "Fireball 1500", "SUP Foiling": "Fireball 1250", "Parawing": "Tempo 1020"}}, {"lat": 46.2217, "lng": 2.2272, "region": "Europe", "location": "South France ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "ART V2 939"}}, {"lat": 33.6444, "lng": -118.015, "region": "Americas", "location": "Huntington Beach ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Prone", "Dock Start"], "wings": {"Prone": "1070 fireball ", "Dock Start": "1020"}}, {"lat": 50.9867, "lng": 1.0094, "region": "Europe", "location": "South East coast of the U.K.", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Kite Foiling"], "wings": {"Wing Foiling": "BSC970", "Kite Foiling": "Spitfire 780"}}, {"lat": -36.8291, "lng": 174.759, "region": "Oceania", "location": "Auckland New Zealand", "weight": "95-105 kg / 209-231 lbs", "exp": "1-2 years", "age": "", "discs": ["Downwind SUP", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Depends on conditions.  Wind against tide then surge 1010.  Light winds fireball 1350", "SUP Foiling": "Surge 1010", "Parawing": "Surge 1010"}}, {"lat": 47.1961, "lng": 7.5228, "region": "Europe", "location": "Swiss Lakes, Solothurn", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Downwind SUP", "Wake Foiling", "Long Distance Pump", "Dock Start", "Foil Assist"], "wings": {"Downwind SUP": "ART V2 999", "Wake Foiling": "Surge 1010, Spitfire 1100", "Long Distance Pump": "Fireball 1350 or 1500", "Dock Start": "PNG V2 1300, Spitfire 1180, Art Pro, Fireball 1350 or 1250", "Foil Assist": "Fireball 1010.. or Art V2 1099"}}, {"lat": 48.3742, "lng": 31.158, "region": "Europe", "location": "Ukraine", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Kite Foiling", "Long Distance Pump", "Dock Start", "Parawing"], "wings": {"Wing Foiling": "PNG1400, HPS700", "Kite Foiling": "HPS700", "Long Distance Pump": "PNG1400 v2", "Dock Start": "PNGv2-1400", "Parawing": "PNG1150"}}, {"lat": 37.7698, "lng": -122.4079, "region": "Americas", "location": "San Francisco bay", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling", "Parawing"], "wings": {"Wing Foiling": "Fireball 940", "Parawing": "Fireball 1070"}}, {"lat": -33.8877, "lng": 151.2261, "region": "Oceania", "location": "Sydney australia", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Art pro 1051", "Foil Assist": "Surge 950"}}, {"lat": 34.0379, "lng": -117.7149, "region": "Americas", "location": "So Cal", "weight": "Under 65 kg / 143 lbs", "exp": "4+ years", "age": "", "discs": ["Prone", "Wake Foiling", "Tow-In Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Prone": "Fireball 1070", "Wake Foiling": "Fireball 1070", "Tow-In Foiling": "F-One Sk8 650", "Long Distance Pump": "PNG 1300 V2", "Dock Start": "1300 PNG V2"}}, {"lat": 46.2314, "lng": 2.2191, "region": "Europe", "location": "France almanare /west cost ", "weight": "Over 105 kg / 231 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Wake Foiling", "Parawing"], "wings": {"Downwind SUP": "Fireball range ", "Prone": "1070 fireball ", "Wake Foiling": "Same as surfoil ", "Parawing": "1079"}}, {"lat": 36.9655, "lng": -122.0437, "region": "Americas", "location": "santa cruz ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "surge 950", "Foil Assist": "surge 950/890/830"}}, {"lat": 47.3889, "lng": 8.5466, "region": "Europe", "location": "Zürich", "weight": "Under 65 kg / 143 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Long Distance Pump", "Dock Start"], "wings": {"Long Distance Pump": "Fb 1500", "Dock Start": "Fb 1350/1250"}}, {"lat": 46.2253, "lng": 2.2054, "region": "Europe", "location": "France la Baule ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Dock Start", "Parawing"], "wings": {"Dock Start": "Fireball 1350", "Parawing": "Surge 890"}}, {"lat": 43.4089, "lng": 6.2134, "region": "Europe", "location": "Fréjus - Saint-Raphaël ( Var)", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Downwind SUP", "Dock Start"], "wings": {"Downwind SUP": "Fireball 1250", "Dock Start": "Fireball 1250"}}, {"lat": 53.4934, "lng": -9.7848, "region": "Europe", "location": "West coast Ireland ", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Tow-In Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo 1090 fireball 1160", "Wing Foiling": "Art pro 999", "Tow-In Foiling": "Art pro 699", "SUP Foiling": "Fireball 1160, Art pro 999", "Parawing": "Fireball 1250 and 1160"}}, {"lat": -36.8371, "lng": 174.7794, "region": "Oceania", "location": "Auckland", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "Under 25", "discs": ["Downwind SUP", "Wing Foiling", "Tow-In Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "Surge 1010", "Wing Foiling": "Tempo 890", "Tow-In Foiling": "Spitfire 620", "SUP Foiling": "Surge 1010"}}, {"lat": -43.5063, "lng": 172.7016, "region": "Oceania", "location": "New Brighton, Christchurch ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Surge 950", "Foil Assist": "Same setup 950 Surge"}}, {"lat": -31.9689, "lng": 115.8671, "region": "Oceania", "location": "Western Australia ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Tow-In Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Spitfire 780", "Tow-In Foiling": "Spitfire 720", "Foil Assist": "Spitfire 840 "}}, {"lat": 47.1392, "lng": -2.2264, "region": "Europe", "location": "France Préfailles", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Prone", "Wing Foiling"], "wings": {"Prone": "art 939", "Wing Foiling": "spitefire 720"}}, {"lat": 46.8, "lng": 8.2341, "region": "Europe", "location": "Seitzerland", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Wake Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Wake Foiling": "Spifire 840", "Long Distance Pump": "1500 Fireball or 1750 Fireball", "Dock Start": "Surge 1010 and Png 1300"}}, {"lat": 27.6713, "lng": -81.5265, "region": "Americas", "location": "Pompano beach florida", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Fireball 1070", "Prone": "950 surge", "Wing Foiling": "830 surge 950 surge 939v2.", "Dock Start": "1350 fireball or 1400 png v2", "SUP Foiling": "1350 fireball 1070 fireball or 1010 surge", "Parawing": "1350 fireball 950 surge 1070 fireball"}}, {"lat": 48.8566, "lng": 2.3522, "region": "Europe", "location": "Paris France", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Prone", "Wing Foiling", "Long Distance Pump", "Dock Start", "SUP Foiling", "Foil Assist"], "wings": {"Prone": "SpitFire 960", "Wing Foiling": "ArtPro 1201", "Long Distance Pump": "ArtPro 1201", "Dock Start": "ArtPro 1201", "SUP Foiling": "ArtPro 1401", "Foil Assist": "SpitFire 960"}}, {"lat": -41.2828, "lng": 174.7896, "region": "Oceania", "location": "LA", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "899"}}, {"lat": -17.6467, "lng": -149.4238, "region": "Americas", "location": "Tahiti ", "weight": "Under 65 kg / 143 lbs", "exp": "4+ years", "age": "Under 25", "discs": ["Downwind SUP", "Prone", "Dock Start"], "wings": {"Downwind SUP": "890 tempo", "Prone": "819 artV2 ", "Dock Start": "939 spitfire"}}, {"lat": 20.7845, "lng": -156.3309, "region": "Americas", "location": "Oahu-Maui", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "", "discs": ["Downwind SUP", "Prone", "Tow-In Foiling", "Long Distance Pump", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo 920", "Prone": "Surge 720", "Tow-In Foiling": "720 Surge", "Long Distance Pump": "N/A", "SUP Foiling": "Surge 880", "Parawing": "740 Surge"}}, {"lat": 28.3563, "lng": -14.0478, "region": "Africa", "location": "Normandie, Fuerteventura", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Dock Start", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "FB 1160", "Prone": "Artv2 et surge 950", "Wing Foiling": "SF900", "Dock Start": "Png v2 1300", "SUP Foiling": "Artv2 1099, fb 1160", "Parawing": "Artv2 1099"}}, {"lat": 48.6686, "lng": -2.0063, "region": "Europe", "location": "Saint Malo ", "weight": "65-75 kg / 143-165 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Wing Foiling", "SUP Foiling"], "wings": {"Wing Foiling": "Artt v2 879", "SUP Foiling": "Spitfire 1100"}}, {"lat": 56.9902, "lng": 18.9979, "region": "Europe", "location": "Baltic sea", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "879"}}, {"lat": 16.2529, "lng": -61.5603, "region": "Americas", "location": "Guadeloupe french caribeean island", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "SUP Foiling"], "wings": {"Downwind SUP": "Tempo 1020 ", "SUP Foiling": "Fireball 940"}}, {"lat": 46.2396, "lng": 2.2092, "region": "Europe", "location": "Lakes around Paris France, French West Coast (La Tranche sur mer,, Crozon, Normandy)", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Dock Start", "Parawing", "Foil Assist"], "wings": {"Wing Foiling": "Fireball 1070-1000-880, Surge 890", "Dock Start": "Fireball 1350", "Parawing": "Fireball 1350, Spitfire 960", "Foil Assist": "Fireball 1070-1000, Surge 890"}}, {"lat": 46.2078, "lng": 2.2171, "region": "Europe", "location": "Nantes, France", "weight": "Over 105 kg / 231 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "ART V2 999", "Dock Start": "Fireball 1750, PNG V2 1400"}}, {"lat": 50.5018, "lng": 4.4631, "region": "Europe", "location": "Belgium", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Wing Foiling", "Kite Foiling", "Dock Start", "Parawing"], "wings": {"Downwind SUP": "Fireball 1250", "Wing Foiling": "Surge 830", "Kite Foiling": "Surge 830", "Dock Start": "Fireball 1350", "Parawing": "Surge 1010"}}, {"lat": 56.8925, "lng": 12.4857, "region": "Europe", "location": "Sweden", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Wake Foiling", "Windsurf Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Wake Foiling": "Spitfire 900", "Windsurf Foiling": "Art 1099, art 899, spitfire 900, art pro 1201", "Long Distance Pump": "Png 1150 and spitfire 1180", "Dock Start": "Png 1150 and spitfire 1180"}}, {"lat": 37.7725, "lng": -122.4107, "region": "Americas", "location": "San francisco", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1070 🤩", "SUP Foiling": "Fireball 1070"}}, {"lat": -36.8371, "lng": 174.7794, "region": "Oceania", "location": "Auckland", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "1160 fireball", "SUP Foiling": "1160 fb", "Parawing": "Any"}}, {"lat": -41.2767, "lng": 174.7801, "region": "Oceania", "location": "New zealand", "weight": "75-85 kg / 165-187 lbs", "exp": "Less than 1 year", "age": "56-65", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Surge", "Foil Assist": "Surge"}}, {"lat": 45.6924, "lng": -121.5134, "region": "Americas", "location": "Seattle", "weight": "Over 105 kg / 231 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "HPS1050"}}, {"lat": -3.7265, "lng": -38.5294, "region": "Americas", "location": "Brazil, Ceará, Praia do Iguape, Praia do Futuro, Pecem , praia do Cumbuco.", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Tow-In Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Art 899 ", "Prone": "Art 899 ", "Wing Foiling": "Broad Spectrum carve 890 ", "Tow-In Foiling": "Art 899", "SUP Foiling": "Art 899 ", "Parawing": "Art 899 "}}, {"lat": 58.9733, "lng": 5.7221, "region": "Europe", "location": "Stavanger, Norway", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Spitfire 900"}}, {"lat": 27.3352, "lng": -82.533, "region": "Americas", "location": "Sarasota FL", "weight": "Over 105 kg / 231 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Wing Foiling", "Wake Foiling"], "wings": {"Wing Foiling": "PNG1300 v2 and art 1099 V2", "Wake Foiling": "Art 1099"}}, {"lat": 44.4909, "lng": -73.3553, "region": "Americas", "location": "Lake Champlain ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Wing Foiling", "Kite Foiling", "Parawing"], "wings": {"Downwind SUP": "PNG 1300 V2", "Wing Foiling": "ART 939 V2 ", "Kite Foiling": "ART 879 V2", "Parawing": "Surge 830"}}, {"lat": 51.1857, "lng": 10.4406, "region": "Europe", "location": "Auesee Germany ", "weight": "Under 65 kg / 143 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "Art v2 999", "Dock Start": "Png v2 1200"}}, {"lat": -27.4619, "lng": 153.0196, "region": "Oceania", "location": "Brisbane", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Wing Foiling", "Wake Foiling", "Windsurf Foiling"], "wings": {"Wing Foiling": "HPS 980", "Wake Foiling": "PNG 1010", "Windsurf Foiling": "ZFoils"}}, {"lat": 34.7556, "lng": -92.2774, "region": "Americas", "location": "Lakes in Arkansas", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wake Foiling", "Foil Assist"], "wings": {"Wake Foiling": "ART 939 ", "Foil Assist": "ART V2-999 "}}, {"lat": -33.8623, "lng": 151.1904, "region": "Oceania", "location": "Sydney ", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Surge 1010", "Wing Foiling": "Surge 1010", "SUP Foiling": "Surge 1010", "Parawing": "Surge 1010"}}, {"lat": 36.956, "lng": -122.0139, "region": "Americas", "location": "Santa Cruz - Bay Area", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Prone", "Wing Foiling", "Parawing", "Foil Assist"], "wings": {"Prone": "spitfire 900", "Wing Foiling": "fireball 1070", "Parawing": "1070", "Foil Assist": "spitfire 900"}}, {"lat": 38.0276, "lng": -121.7847, "region": "Americas", "location": "Sherman Island", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890"}}, {"lat": -41.2732, "lng": 174.7932, "region": "Oceania", "location": "Northland New Zealand", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "Prefer not to say", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Parawing"], "wings": {"Downwind SUP": "1020 and 1090 Tempo", "Prone": "Surge 890", "Wing Foiling": "Tempo 1020", "Parawing": "Tempo 1020 and 1090"}}, {"lat": 45.6866, "lng": -121.5128, "region": "Americas", "location": "The Gorge/LaVentana", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Parawing", "Foil Assist"], "wings": {"Wing Foiling": "Fireball 1070", "Parawing": "Fireball 1070", "Foil Assist": "ART 999 v2"}}, {"lat": -33.8877, "lng": 151.2261, "region": "Oceania", "location": "Sydney Australia", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "SUP Foiling"], "wings": {"Downwind SUP": "FB 1070", "Prone": "Surge 890", "SUP Foiling": "Surge 1010"}}, {"lat": -36.8371, "lng": 174.7794, "region": "Oceania", "location": "Auckland", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Efoil"], "wings": {"Wing Foiling": "Fireball 880", "Efoil": "PNG 1200"}}, {"lat": 40.0117, "lng": -82.8967, "region": "Americas", "location": "Inland Ohio lake.", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "HPS 930"}}, {"lat": 43.4899, "lng": -84.0024, "region": "Americas", "location": "Michigan", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Wing Foiling", "Kite Foiling", "Wake Foiling", "Long Distance Pump", "Dock Start", "Efoil"], "wings": {"Wing Foiling": "Spitfire and art v2", "Kite Foiling": "Art and spitfire", "Wake Foiling": "Spitfire 960", "Long Distance Pump": "PNG 1400 v2"}}, {"lat": 37.7957, "lng": -122.4667, "region": "Americas", "location": "3rd Ave", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Prone", "Wing Foiling", "Tow-In Foiling", "Parawing", "Foil Assist"], "wings": {"Prone": "Surge 890", "Wing Foiling": "Fireball 1070", "Tow-In Foiling": "ART 879 v2", "Parawing": "Fireball 1070", "Foil Assist": "Surge 890"}}, {"lat": -26.6631, "lng": 153.0651, "region": "Oceania", "location": "Cotton Tree Queensland ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Prone"], "wings": {"Prone": "Surge 890"}}, {"lat": 37.2141, "lng": -8.5152, "region": "Europe", "location": "Portugal / South", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Wake Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "Tempo 1090 or Fireball 1070", "Prone": "Spitfire 840/ but now since a week the Surge 890, and even Surge 950, for wen it’s super small with mid lengt board, so mutch fun", "Wake Foiling": "Fireball 1160", "SUP Foiling": " Surge 950 or fireball 1070", "Parawing": "Tempo 1090 fireball 1070"}}, {"lat": 9.3497, "lng": -82.2506, "region": "Americas", "location": "Panama Bocas del Toro", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "65+", "discs": ["Wing Foiling", "Long Distance Pump", "Foil Assist", "Efoil"], "wings": {"Wing Foiling": "Fireball 1070", "Long Distance Pump": "Fireball 1350", "Foil Assist": "Fireball 1070", "Efoil": "Slingshot manta"}}, {"lat": 20.8084, "lng": -156.3378, "region": "Americas", "location": "Maui Tunisia ", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "56-65", "discs": ["Downwind SUP", "Wing Foiling", "SUP Foiling", "Parawing"], "wings": {"Downwind SUP": "ART pro 1201", "Wing Foiling": "ART pro 939 ", "SUP Foiling": "ART 1201 pro", "Parawing": "ART 1201"}}, {"lat": 34.0318, "lng": -87.0629, "region": "Americas", "location": "Smith lake, alabama", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "25-35", "discs": ["Wake Foiling", "Long Distance Pump", "Dock Start"], "wings": {"Wake Foiling": "Fireball 1160", "Long Distance Pump": "Fireball 1160", "Dock Start": "Foreball 1160"}}, {"lat": 39.5393, "lng": -119.8265, "region": "Americas", "location": "Reno Tahoe ", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Surge 890"}}, {"lat": -1.851, "lng": -78.1668, "region": "Americas", "location": "Ecuador ", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Wing Foiling", "Tow-In Foiling"], "wings": {"Wing Foiling": "Art v2 819", "Tow-In Foiling": "I ride code for Tow.  We only have room in the boat for one setup "}}, {"lat": -36.8244, "lng": 174.4631, "region": "Oceania", "location": "Muriwai", "weight": "Over 105 kg / 231 lbs", "exp": "4+ years", "age": "36-45", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Wake Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "Art 1201", "Prone": "Art1099", "Wing Foiling": "1300png", "Wake Foiling": "All wings"}}, {"lat": 33.6444, "lng": -118.015, "region": "Americas", "location": "Huntington Beach", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Prone", "Wing Foiling", "Wake Foiling"], "wings": {"Prone": "ART 999 + Spitfire 1100", "Wing Foiling": "ART 899", "Wake Foiling": "PNG 910b, Spitfire 1100"}}, {"lat": -26.3942, "lng": 153.0911, "region": "Oceania", "location": "Noosa", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "56-65", "discs": ["Foil Assist"], "wings": {"Foil Assist": "Surge 950"}}, {"lat": 46.8213, "lng": 8.21, "region": "Europe", "location": "Switzerland", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Dock Start"], "wings": {"Wing Foiling": "Fireball 1070", "Dock Start": "Fireball 1350"}}, {"lat": 46.9047, "lng": 6.8304, "region": "Europe", "location": "Lake Neuchatel", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "36-45", "discs": ["Downwind SUP", "Wing Foiling", "Wake Foiling", "Long Distance Pump", "Dock Start", "Parawing", "Foil Assist"], "wings": {"Long Distance Pump": "Fireball 1500", "Dock Start": "Surge 1010", "Foil Assist": "Fireball 1260"}}, {"lat": -41.2767, "lng": 174.7801, "region": "Oceania", "location": "New Zealand", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "25-35", "discs": ["Downwind SUP", "Prone", "Tow-In Foiling", "Long Distance Pump", "Dock Start", "SUP Foiling"], "wings": {"Downwind SUP": "960 tempo", "Prone": "890 surge", "Tow-In Foiling": "840 surge", "Long Distance Pump": "1750 fireball", "Dock Start": "1750 fireball or 1500 fireball", "SUP Foiling": "890 surge or 950 surge"}}, {"lat": -36.835, "lng": 174.7661, "region": "Oceania", "location": "Auckland, Whangapora ", "weight": "95-105 kg / 209-231 lbs", "exp": "2-4 years", "age": "46-55", "discs": ["Wing Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Surge 950", "Foil Assist": "Surge 950"}}, {"lat": 60.476, "lng": 8.4751, "region": "Europe", "location": "Norway", "weight": "85-95 kg / 187-209 lbs", "exp": "1-2 years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Sf1030"}}, {"lat": 56.2676, "lng": 9.4998, "region": "Europe", "location": "Danemark ", "weight": "95-105 kg / 209-231 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling", "Dock Start", "Parawing"], "wings": {"Wing Foiling": "Png 1300v2, ap 1201, sf 1180, artv1 999", "Dock Start": "Png 1300 v2", "Parawing": "Png 1300v2 and SF 1180"}}, {"lat": 37.7481, "lng": -8.7975, "region": "Europe", "location": "Milfontes, Portugal ", "weight": "65-75 kg / 143-165 lbs", "exp": "4+ years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "Foil Assist"], "wings": {"Downwind SUP": "Tempo 960", "Prone": "Surge 830", "Wing Foiling": "Surge 780", "Foil Assist": "Surge 740"}}, {"lat": 53.7011, "lng": -9.4822, "region": "Europe", "location": "Ireland, Mallorca, Fuerte", "weight": "75-85 kg / 165-187 lbs", "exp": "4+ years", "age": "46-55", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Art Pro 951"}}, {"lat": -31.9689, "lng": 115.8671, "region": "Oceania", "location": "Western Australia", "weight": "65-75 kg / 143-165 lbs", "exp": "2-4 years", "age": "65+", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Art V2 939"}}, {"lat": 59.3205, "lng": 10.6769, "region": "Europe", "location": "Oslofjord Norway", "weight": "75-85 kg / 165-187 lbs", "exp": "1-2 years", "age": "", "discs": ["Downwind SUP", "Wing Foiling"], "wings": {"Downwind SUP": "FB1160", "Wing Foiling": "Surf 830"}}, {"lat": -41.2787, "lng": 174.7703, "region": "Oceania", "location": "Christchurch, New Zealand ", "weight": "75-85 kg / 165-187 lbs", "exp": "2-4 years", "age": "", "discs": ["Prone", "Wing Foiling", "Tow-In Foiling", "Dock Start"], "wings": {"Prone": "Surge 950", "Wing Foiling": "Surge 950", "Tow-In Foiling": "Surge 950", "Dock Start": "Png v2 1300"}}, {"lat": -35.6742, "lng": -71.5542, "region": "Americas", "location": "Matanzas Chile", "weight": "85-95 kg / 187-209 lbs", "exp": "2-4 years", "age": "", "discs": ["Downwind SUP", "Prone", "Wing Foiling", "SUP Foiling"], "wings": {"Downwind SUP": "Fireball 1070", "Prone": "Surge 890", "Wing Foiling": "Surge 890 and surge 780", "SUP Foiling": "Fireball 1250"}}, {"lat": 46.2157, "lng": 2.2146, "region": "Europe", "location": "South West of France", "weight": "Over 105 kg / 231 lbs", "exp": "1-2 years", "age": "36-45", "discs": ["Wing Foiling"], "wings": {"Wing Foiling": "Hps1050"}}, {"lat": 37.7698, "lng": -122.4079, "region": "Americas", "location": "San Francisco Bay", "weight": "85-95 kg / 187-209 lbs", "exp": "4+ years", "age": "", "discs": ["Wing Foiling", "Kite Foiling", "SUP Foiling", "Foil Assist"], "wings": {"Wing Foiling": "Tempo 1090, surge 890", "Kite Foiling": "Surge 830", "SUP Foiling": "Surge 1010", "Foil Assist": "Surge 950"}}];
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-  maxZoom: 19,
-}).addTo(map);
+var REGION_COLORS = {
+  'Americas': '#3b82f6',
+  'Europe': '#10b981',
+  'Oceania': '#f59e0b',
+  'Asia': '#ef4444',
+  'Africa': '#8b5cf6'
+};
 
-var markers = [
-  {lat:-36.7947,lng:174.7799,color:'#f59e0b',region:'Oceania',location:'Lake Pupuke or Manly Auckland, New Zealand',weight:'Over 105 kg / 231 lbs',exp:'2-4 years',discs:'Wing Foiling, Wake Foiling'},
-  {lat:54.5444,lng:15.2485,color:'#10b981',region:'Europe',location:'Europe',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Wing Foiling, Long Distance Pump, SUP Foiling, Parawing, Foil Assist'},
-  {lat:42.0167,lng:-87.4843,color:'#3b82f6',region:'Americas',location:'Colorado Front Range / Lake Michigan',weight:'Over 105 kg / 231 lbs',exp:'2-4 years',discs:'Wing Foiling, Kite Foiling, Foil Assist, Efoil'},
-  {lat:41.5657,lng:-71.4616,color:'#3b82f6',region:'Americas',location:'Rhode Island',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Downwind SUP, Tow-In, SUP Foiling'},
-  {lat:57.0927,lng:12.2582,color:'#10b981',region:'Europe',location:'Varberg, Sweden. Beats most spots😃',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-41.2821,lng:174.7723,color:'#f59e0b',region:'Oceania',location:'New Zealand',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, SUP Foiling, Foil Assist'},
-  {lat:45.7015,lng:-121.5215,color:'#3b82f6',region:'Americas',location:'Everywhere. Anacortes WA, Seattle WA, HR, LV, lots of random places that I travel to',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling'},
-  {lat:47.2282,lng:8.7331,color:'#10b981',region:'Europe',location:'Lake Zurich',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing'},
-  {lat:20.799,lng:-156.3506,color:'#3b82f6',region:'Americas',location:'Maui Art the new Tempo582 and Pro801, tail 360 . Mast ultra Hi Modulus.',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Tow-In'},
-  {lat:36.1955,lng:138.2396,color:'#ef4444',region:'Asia',location:'Japan',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wake Foiling, Long Distance Pump, Dock Start, Foil Assist'},
-  {lat:39.0933,lng:21.8072,color:'#10b981',region:'Europe',location:'Greece',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, SUP Foiling, Parawing'},
-  {lat:50.8075,lng:-1.0003,color:'#10b981',region:'Europe',location:'South Coast UK',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Dock Start'},
-  {lat:20.8168,lng:-156.3238,color:'#3b82f6',region:'Americas',location:'Hawaii',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone'},
-  {lat:45.7146,lng:-121.5167,color:'#3b82f6',region:'Americas',location:'Hood River',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:32.7216,lng:-117.1539,color:'#3b82f6',region:'Americas',location:'San Diego California',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Wing Foiling, Tow-In'},
-  {lat:43.5425,lng:7.0329,color:'#10b981',region:'Europe',location:'Cannes',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling'},
-  {lat:-33.8737,lng:151.2143,color:'#f59e0b',region:'Oceania',location:'Sydney',weight:'Over 105 kg / 231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone'},
-  {lat:57.0124,lng:18.9869,color:'#10b981',region:'Europe',location:'Baltic Sea',weight:'Under 65 kg / 143 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Dock Start, SUP Foiling'},
-  {lat:21.2898,lng:-157.8659,color:'#3b82f6',region:'Americas',location:'Oahu, Hawaii',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Tow-In, Long Distance Pump, Dock Start, Foil Assist'},
-  {lat:47.4978,lng:-3.0191,color:'#10b981',region:'Europe',location:'Southern Brittany - France',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Windsurf Foiling'},
-  {lat:-36.3716,lng:174.7134,color:'#f59e0b',region:'Oceania',location:'Omaha New Zealand East Coast',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:-20.4538,lng:57.3249,color:'#8b5cf6',region:'Africa',location:'Le Morne (Mauritius)',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Parawing'},
-  {lat:-38.3275,lng:144.3144,color:'#f59e0b',region:'Oceania',location:'Torquay Australia',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, SUP Foiling'},
-  {lat:24.0407,lng:-109.9941,color:'#3b82f6',region:'Americas',location:'La ventana',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, Foil Assist, Efoil'},
-  {lat:-42.8858,lng:147.3309,color:'#f59e0b',region:'Oceania',location:'Hobart, Tasmania',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling, Dock Start'},
-  {lat:37.6132,lng:13.9979,color:'#10b981',region:'Europe',location:'Sicily',weight:'85-95 kg / 187-209 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:27.6835,lng:-81.5104,color:'#3b82f6',region:'Americas',location:'Florida',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Wake Foiling, Foil Assist'},
-  {lat:46.2428,lng:2.2226,color:'#10b981',region:'Europe',location:'France',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP'},
-  {lat:48.4179,lng:-123.391,color:'#3b82f6',region:'Americas',location:'Ross Bay, Victoria BC Canada',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, SUP Foiling'},
-  {lat:59.9122,lng:10.7481,color:'#10b981',region:'Europe',location:'Østlandet',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, Foil Assist'},
-  {lat:-31.9682,lng:115.855,color:'#f59e0b',region:'Oceania',location:'West Oz',weight:'Over 105 kg / 231 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Tow-In, Parawing'},
-  {lat:45.6966,lng:-121.533,color:'#3b82f6',region:'Americas',location:'The Gorge',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Wing Foiling, Parawing'},
-  {lat:35.3544,lng:25.1351,color:'#10b981',region:'Europe',location:'Greece, Crete Heraklion',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump'},
-  {lat:26.1469,lng:-81.8024,color:'#3b82f6',region:'Americas',location:'Naples Florida',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, Wake Foiling, SUP Foiling, Foil Assist'},
-  {lat:-37.7986,lng:144.9448,color:'#f59e0b',region:'Oceania',location:'Maui, Australia',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Dock Start, Parawing'},
-  {lat:55.6875,lng:12.5584,color:'#10b981',region:'Europe',location:'Copenhagen and the west coast of Denmark',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Long Distance Pump, Dock Start, SUP Foiling'},
-  {lat:43.1032,lng:6.1192,color:'#10b981',region:'Europe',location:'Hyeres',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Dock Start, Foil Assist'},
-  {lat:44.6858,lng:-69.365,color:'#3b82f6',region:'Americas',location:'Maine',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, Dock Start, SUP Foiling, Parawing, Foil Assist'},
-  {lat:36.96,lng:-122.0138,color:'#3b82f6',region:'Americas',location:'Santa Cruz California',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Tow-In, Dock Start, SUP Foiling, Parawing'},
-  {lat:-37.1697,lng:139.7531,color:'#f59e0b',region:'Oceania',location:'Robe South Australia',weight:'95-105 kg / 209-231 lbs',exp:'2-4 years',discs:'Prone, Foil Assist'},
-  {lat:-17.6422,lng:-149.4164,color:'#3b82f6',region:'Americas',location:'Tahiti French Polynesia',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Prone'},
-  {lat:37.8935,lng:-122.6851,color:'#3b82f6',region:'Americas',location:'NorCal - Bolinas, Crissy Field, Larkspur Landing',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Prone, Wing Foiling'},
-  {lat:48.1906,lng:-2.9414,color:'#10b981',region:'Europe',location:'Bretagne, France',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Windsurf Foiling, Dock Start, Parawing'},
-  {lat:47.7587,lng:-0.7337,color:'#10b981',region:'Europe',location:'France pays de loire Bretagne',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, SUP Foiling, Parawing'},
-  {lat:43.4076,lng:6.1941,color:'#10b981',region:'Europe',location:'Var France',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Tow-In, Parawing, Foil Assist'},
-  {lat:50.7235,lng:-1.9755,color:'#10b981',region:'Europe',location:'Poole',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Long Distance Pump, Dock Start'},
-  {lat:37.7619,lng:-122.43,color:'#3b82f6',region:'Americas',location:'Bay Area/ San Francisco',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling'},
-  {lat:27.9406,lng:-82.4416,color:'#3b82f6',region:'Americas',location:'Tampa,Fl',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Wing Foiling, Wake Foiling, Dock Start'},
-  {lat:-1.8263,lng:-78.1908,color:'#3b82f6',region:'Americas',location:'Ecuador',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Kite Foiling, Tow-In'},
-  {lat:40.7952,lng:-73.1165,color:'#3b82f6',region:'Americas',location:'long island, ny',weight:'95-105 kg / 209-231 lbs',exp:'1-2 years',discs:'Wing Foiling, Foil Assist'},
-  {lat:43.0429,lng:6.1037,color:'#10b981',region:'Europe',location:'Almanarre',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Kite Foiling, Dock Start, Parawing'},
-  {lat:37.7578,lng:-122.4169,color:'#3b82f6',region:'Americas',location:'San Francisco Bay Area',weight:'Over 105 kg / 231 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:43.4133,lng:6.1865,color:'#10b981',region:'Europe',location:'Var',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Kite Foiling, SUP Foiling, Parawing'},
-  {lat:44.488,lng:-73.3478,color:'#3b82f6',region:'Americas',location:'Lake Champlain, NY',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Kite Foiling, Wake Foiling, Tow-In, Long Distance Pump, Dock Start, Parawing, Foil Assist'},
-  {lat:51.0145,lng:0.9953,color:'#10b981',region:'Europe',location:'South East coast of the U.K.',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling'},
-  {lat:41.1043,lng:16.8716,color:'#10b981',region:'Europe',location:'Bari Italy',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Downwind SUP, Long Distance Pump, SUP Foiling'},
-  {lat:46.848,lng:17.7483,color:'#10b981',region:'Europe',location:'Balaton',weight:'75-85 kg / 165-187 lbs',exp:'',discs:'Downwind SUP, Wing Foiling, Parawing'},
-  {lat:43.5861,lng:7.1243,color:'#10b981',region:'Europe',location:'Méditerranée Antibes',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Foil Assist'},
-  {lat:-33.643,lng:114.9746,color:'#f59e0b',region:'Oceania',location:'yallingup',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Prone'},
-  {lat:21.3051,lng:-157.7165,color:'#3b82f6',region:'Americas',location:'Hawaii Kai Oahu',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Long Distance Pump'},
-  {lat:32.7469,lng:-117.2267,color:'#3b82f6',region:'Americas',location:'Mission Bay, San Diego',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, Tow-In'},
-  {lat:-37.814,lng:144.9706,color:'#f59e0b',region:'Oceania',location:'Melbourne',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:40.1351,lng:9.0028,color:'#10b981',region:'Europe',location:'Sardinia',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Wake Foiling, Tow-In'},
-  {lat:-41.2804,lng:173.266,color:'#f59e0b',region:'Oceania',location:'Nelson NZ',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:-43.6046,lng:172.7061,color:'#f59e0b',region:'Oceania',location:'Lyttleton',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Prone, Wing Foiling'},
-  {lat:49.1439,lng:-1.5199,color:'#10b981',region:'Europe',location:'France, Normandie, Cotentin et Calvados',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Long Distance Pump, SUP Foiling'},
-  {lat:12.1989,lng:-68.2466,color:'#3b82f6',region:'Americas',location:'Bonaire',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:41.6759,lng:-70.0173,color:'#3b82f6',region:'Americas',location:'Cape cod',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, SUP Foiling, Parawing, Foil Assist'},
-  {lat:-35.6557,lng:-71.5289,color:'#3b82f6',region:'Americas',location:'Chile',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Wing Foiling, Long Distance Pump, Foil Assist'},
-  {lat:45.4414,lng:-75.6975,color:'#3b82f6',region:'Americas',location:'Ottawa River',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing'},
-  {lat:-31.9545,lng:115.8789,color:'#f59e0b',region:'Oceania',location:'Perth, Western Australia',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Wing Foiling, Wake Foiling, Foil Assist'},
-  {lat:27.7789,lng:-82.6454,color:'#3b82f6',region:'Americas',location:'Florida - St Petersburg',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:37.7725,lng:-122.4322,color:'#3b82f6',region:'Americas',location:'San Francisco',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Kite Foiling, Wake Foiling, Long Distance Pump, Dock Start, Parawing, Foil Assist'},
-  {lat:45.6876,lng:-121.5195,color:'#3b82f6',region:'Americas',location:'Columbia River Gorge',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:37.7908,lng:-122.4683,color:'#3b82f6',region:'Americas',location:'Crissy Field',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Prone, Wing Foiling'},
-  {lat:53.7146,lng:-9.5108,color:'#10b981',region:'Europe',location:'Ireland west coast',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:37.9243,lng:-122.7192,color:'#3b82f6',region:'Americas',location:'Bolinas / Crissy field',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Long Distance Pump, Dock Start, Foil Assist'},
-  {lat:38.0053,lng:-76.1836,color:'#3b82f6',region:'Americas',location:'Chesapeake Bay',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-17.6619,lng:-149.4345,color:'#3b82f6',region:'Americas',location:'Tahiti',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Dock Start, SUP Foiling'},
-  {lat:55.991,lng:3.0116,color:'#10b981',region:'Europe',location:'North Sea',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:56.9137,lng:12.4878,color:'#10b981',region:'Europe',location:'Apelviken, Sweden',weight:'85-95 kg / 187-209 lbs',exp:'1-2 years',discs:'Wing Foiling, SUP Foiling, Parawing'},
-  {lat:45.7254,lng:-121.5214,color:'#3b82f6',region:'Americas',location:'The Gorge, not Hood River :)',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start'},
-  {lat:-33.516,lng:135.4964,color:'#f59e0b',region:'Oceania',location:'Eyre peninsular',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Dock Start, SUP Foiling, Parawing'},
-  {lat:36.095,lng:-75.7419,color:'#3b82f6',region:'Americas',location:'Elizabeth City & Nags Head North Carolina',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling, Wake Foiling, Dock Start, Foil Assist, Efoil'},
-  {lat:51.1677,lng:10.4713,color:'#10b981',region:'Europe',location:'Germany',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-33.9069,lng:18.422,color:'#8b5cf6',region:'Africa',location:'Cape Town',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Kite Foiling, Parawing, Foil Assist'},
-  {lat:46.8157,lng:8.2103,color:'#10b981',region:'Europe',location:'Switzerland',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Long Distance Pump, Dock Start'},
-  {lat:24.0591,lng:-109.9801,color:'#3b82f6',region:'Americas',location:'Long Beach, La Ventana',weight:'Under 65 kg / 143 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-27.4863,lng:153.0205,color:'#f59e0b',region:'Oceania',location:'Brisbane',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, Parawing, Foil Assist'},
-  {lat:34.9855,lng:17.9999,color:'#8b5cf6',region:'Africa',location:'Mediterranean Sea',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, Dock Start, Parawing'},
-  {lat:34.0557,lng:-87.0867,color:'#3b82f6',region:'Americas',location:'Wakefoiling on Lewis smith lake in Alabama',weight:'95-105 kg / 209-231 lbs',exp:'2-4 years',discs:'Wing Foiling, Wake Foiling'},
-  {lat:-41.28,lng:173.2747,color:'#f59e0b',region:'Oceania',location:'Tasman Nelson nz',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Parawing'},
-  {lat:43.4899,lng:-84.0024,color:'#3b82f6',region:'Americas',location:'Great lakes',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Kite Foiling, Wake Foiling, Tow-In'},
-  {lat:-37.6975,lng:176.0836,color:'#f59e0b',region:'Oceania',location:'Western Bay of Plenty',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, Foil Assist'},
-  {lat:62.0158,lng:15.001,color:'#10b981',region:'Europe',location:'Scandinavia',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:51.4374,lng:6.8682,color:'#10b981',region:'Europe',location:'Lakes Baldeneysee and Xanten',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling, Long Distance Pump, Dock Start, Foil Assist'},
-  {lat:19.7592,lng:-70.4238,color:'#3b82f6',region:'Americas',location:'Cabarete',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Parawing'},
-  {lat:42.4944,lng:-70.861,color:'#3b82f6',region:'Americas',location:'Marblehead MA USA',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-26.6326,lng:153.076,color:'#f59e0b',region:'Oceania',location:'sunshine coast australia',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Kite Foiling, Long Distance Pump, Parawing, Foil Assist'},
-  {lat:-31.9619,lng:115.8439,color:'#f59e0b',region:'Oceania',location:'Western Australia',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Tow-In, Long Distance Pump, Dock Start, Parawing'},
-  {lat:45.6862,lng:-121.5107,color:'#3b82f6',region:'Americas',location:'The Gorge and La Ventana',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing'},
-  {lat:23.4106,lng:53.8507,color:'#8b5cf6',region:'Africa',location:'United Arab Emirates',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Kite Foiling, Wake Foiling, Foil Assist'},
-  {lat:37.7849,lng:-122.4642,color:'#3b82f6',region:'Americas',location:'Crissy field',weight:'75-85 kg / 165-187 lbs',exp:'Less than 1 year',discs:'Wing Foiling'},
-  {lat:45.6982,lng:-121.5231,color:'#3b82f6',region:'Americas',location:'Seattle/hood river',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:34.044,lng:-118.7943,color:'#3b82f6',region:'Americas',location:'Los Angeles. Malibu cabrillo seal beach',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Tow-In, Dock Start, SUP Foiling'},
-  {lat:39.2552,lng:-119.7825,color:'#3b82f6',region:'Americas',location:'Washoe Lake NV',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, SUP Foiling, Parawing'},
-  {lat:28.1359,lng:-15.439,color:'#8b5cf6',region:'Africa',location:'Canary Island',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone'},
-  {lat:45.7168,lng:-121.5088,color:'#3b82f6',region:'Americas',location:'Hood river, la Ventana',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Foil Assist, Efoil'},
-  {lat:24.0612,lng:-109.9783,color:'#3b82f6',region:'Americas',location:'La Ventana, SF Bay Area, Gorge',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, SUP Foiling, Parawing'},
-  {lat:50.8072,lng:-0.9802,color:'#10b981',region:'Europe',location:'Uk south coast',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:51.1467,lng:10.4337,color:'#10b981',region:'Europe',location:'Lakes in Germany',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, Dock Start, SUP Foiling, Parawing'},
-  {lat:55.9919,lng:2.9841,color:'#10b981',region:'Europe',location:'North Sea',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:43.5783,lng:7.1376,color:'#10b981',region:'Europe',location:'Méditerranée',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, SUP Foiling, Parawing'},
-  {lat:-36.8408,lng:174.7738,color:'#f59e0b',region:'Oceania',location:'Auckland New Zealand',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Parawing'},
-  {lat:-45.0287,lng:168.6572,color:'#f59e0b',region:'Oceania',location:'Queenstown NZ',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Kite Foiling, Tow-In, SUP Foiling, Foil Assist'},
-  {lat:44.5397,lng:6.3443,color:'#10b981',region:'Europe',location:'Serre Ponçons lake French Alps',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Wing Foiling, Kite Foiling, Wake Foiling, Long Distance Pump, Dock Start, Parawing'},
-  {lat:-41.3055,lng:174.7853,color:'#f59e0b',region:'Oceania',location:'New Zealand',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Downwind SUP, Prone, Dock Start, SUP Foiling, Parawing'},
-  {lat:42.5138,lng:-70.8484,color:'#3b82f6',region:'Americas',location:'Marblehead, MA',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling'},
-  {lat:54.4397,lng:-3.0678,color:'#10b981',region:'Europe',location:'Lake district Uk',weight:'95-105 kg / 209-231 lbs',exp:'2-4 years',discs:'Long Distance Pump, Dock Start, Parawing'},
-  {lat:-36.8406,lng:174.7816,color:'#f59e0b',region:'Oceania',location:'Whangaparaoa, Auckland',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Downwind SUP, Wing Foiling, SUP Foiling'},
-  {lat:-32.0539,lng:115.7415,color:'#f59e0b',region:'Oceania',location:'Fremantle',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing'},
-  {lat:46.2139,lng:2.2203,color:'#10b981',region:'Europe',location:'Vendée France',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Wake Foiling, Tow-In, Dock Start, Foil Assist'},
-  {lat:48.1956,lng:16.3683,color:'#10b981',region:'Europe',location:'Donauinsel (Vienna)',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:45.7176,lng:-121.531,color:'#3b82f6',region:'Americas',location:'Boise Idaho, hood river, cabarete',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Long Distance Pump, Dock Start, Efoil'},
-  {lat:32.7329,lng:-117.1715,color:'#3b82f6',region:'Americas',location:'California',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Wake Foiling, Foil Assist'},
-  {lat:-41.2821,lng:174.7658,color:'#f59e0b',region:'Oceania',location:'Auckland, New Zealand',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Wake Foiling, Foil Assist'},
-  {lat:21.2913,lng:-157.878,color:'#3b82f6',region:'Americas',location:'Oahu',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'SUP Foiling'},
-  {lat:56.4752,lng:-4.197,color:'#10b981',region:'Europe',location:'Scotland',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:39.3933,lng:-9.3104,color:'#10b981',region:'Europe',location:'Milfontes, Ericeira , Peniche',weight:'65-75 kg / 143-165 lbs',exp:'Less than 1 year',discs:'Foil Assist'},
-  {lat:46.8213,lng:8.21,color:'#10b981',region:'Europe',location:'Switzerland',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Wing Foiling, Dock Start, Foil Assist'},
-  {lat:24.0458,lng:-109.9929,color:'#3b82f6',region:'Americas',location:'La Ventana',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:21.3111,lng:-157.8704,color:'#3b82f6',region:'Americas',location:'Honolulu',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Long Distance Pump, SUP Foiling, Parawing'},
-  {lat:37.7883,lng:-122.4161,color:'#3b82f6',region:'Americas',location:'San Francisco',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Foil Assist'},
-  {lat:-35.2333,lng:174.0928,color:'#f59e0b',region:'Oceania',location:'Bay of islands, NZ',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Wing Foiling, Dock Start'},
-  {lat:37.8024,lng:-122.4458,color:'#3b82f6',region:'Americas',location:'The Slot, Crissy',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:-41.267,lng:174.7843,color:'#f59e0b',region:'Oceania',location:'New Plymouth, New Zealand',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Long Distance Pump, Dock Start'},
-  {lat:47.4016,lng:-122.6113,color:'#3b82f6',region:'Americas',location:'Purdy, Tacoma Wa',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Prone, Wing Foiling, Long Distance Pump, Dock Start'},
-  {lat:-15.7916,lng:-47.8473,color:'#3b82f6',region:'Americas',location:'Brasília, lago paranoa, Brazil',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Wake Foiling'},
-  {lat:57.1282,lng:8.6128,color:'#10b981',region:'Europe',location:'Denmark, Hanstholm',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling, Long Distance Pump, Dock Start, SUP Foiling'},
-  {lat:42.0121,lng:-124.0059,color:'#3b82f6',region:'Americas',location:'Nor cal/southern Or coast',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Tow-In'},
-  {lat:55.9113,lng:21.0844,color:'#10b981',region:'Europe',location:'Palanga, Lithuania',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start, Parawing'},
-  {lat:34.7185,lng:-76.7487,color:'#3b82f6',region:'Americas',location:'New Bern & Morehead City, NC',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Wing Foiling, Dock Start'},
-  {lat:47.5113,lng:-122.2731,color:'#3b82f6',region:'Americas',location:'Gorge and Puget Sound',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:48.3914,lng:31.1486,color:'#10b981',region:'Europe',location:'Ukraine',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Wake Foiling, Long Distance Pump, Dock Start, Parawing, Foil Assist'},
-  {lat:39.0933,lng:21.8439,color:'#10b981',region:'Europe',location:'Rhodes, Greece',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing'},
-  {lat:46.8054,lng:8.2376,color:'#10b981',region:'Europe',location:'Lutry, Leman Lake, Switzerland !',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Long Distance Pump, Dock Start, SUP Foiling, Parawing'},
-  {lat:46.2167,lng:2.2242,color:'#10b981',region:'Europe',location:'France océan basque country',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Wing Foiling, SUP Foiling, Parawing'},
-  {lat:-45.8651,lng:170.5142,color:'#f59e0b',region:'Oceania',location:'Dunedin NZ',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Tow-In, Parawing, Foil Assist'},
-  {lat:20.7876,lng:-156.3393,color:'#3b82f6',region:'Americas',location:'Maui',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Tow-In, SUP Foiling, Parawing'},
-  {lat:37.776,lng:-122.4324,color:'#3b82f6',region:'Americas',location:'Bay Area',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Long Distance Pump, SUP Foiling, Parawing'},
-  {lat:46.2217,lng:2.2272,color:'#10b981',region:'Europe',location:'South France',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:33.6535,lng:-117.9902,color:'#3b82f6',region:'Americas',location:'Huntington Beach',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Prone, Dock Start'},
-  {lat:50.9867,lng:1.0094,color:'#10b981',region:'Europe',location:'South East coast of the U.K.',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling'},
-  {lat:-36.8291,lng:174.759,color:'#f59e0b',region:'Oceania',location:'Auckland New Zealand',weight:'95-105 kg / 209-231 lbs',exp:'1-2 years',discs:'Downwind SUP, SUP Foiling, Parawing'},
-  {lat:47.1961,lng:7.5228,color:'#10b981',region:'Europe',location:'Swiss Lakes, Solothurn',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Downwind SUP, Wake Foiling, Long Distance Pump, Dock Start, Foil Assist'},
-  {lat:48.3742,lng:31.158,color:'#10b981',region:'Europe',location:'Ukraine',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, Long Distance Pump, Dock Start, Parawing'},
-  {lat:37.7719,lng:-122.4306,color:'#3b82f6',region:'Americas',location:'San Francisco bay',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling, Parawing'},
-  {lat:-33.8803,lng:151.2083,color:'#f59e0b',region:'Oceania',location:'Sydney australia',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Foil Assist'},
-  {lat:34.0379,lng:-117.7149,color:'#3b82f6',region:'Americas',location:'So Cal',weight:'Under 65 kg / 143 lbs',exp:'4+ years',discs:'Prone, Wake Foiling, Tow-In, Long Distance Pump, Dock Start'},
-  {lat:46.2314,lng:2.2191,color:'#10b981',region:'Europe',location:'France almanare /west cost',weight:'Over 105 kg / 231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wake Foiling, Parawing'},
-  {lat:36.9655,lng:-122.0437,color:'#3b82f6',region:'Americas',location:'santa cruz',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Foil Assist'},
-  {lat:47.3889,lng:8.5466,color:'#10b981',region:'Europe',location:'Zürich',weight:'Under 65 kg / 143 lbs',exp:'2-4 years',discs:'Long Distance Pump, Dock Start'},
-  {lat:46.2253,lng:2.2054,color:'#10b981',region:'Europe',location:'France la Baule',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Dock Start, Parawing'},
-  {lat:43.4089,lng:6.2134,color:'#10b981',region:'Europe',location:'Fréjus - Saint-Raphaël ( Var)',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Downwind SUP, Dock Start'},
-  {lat:53.4934,lng:-9.7848,color:'#10b981',region:'Europe',location:'West coast Ireland',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Tow-In, SUP Foiling, Parawing'},
-  {lat:-36.8356,lng:174.7467,color:'#f59e0b',region:'Oceania',location:'Auckland',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Tow-In, SUP Foiling'},
-  {lat:-43.5063,lng:172.7016,color:'#f59e0b',region:'Oceania',location:'New Brighton, Christchurch',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Foil Assist'},
-  {lat:-31.9689,lng:115.8671,color:'#f59e0b',region:'Oceania',location:'Western Australia',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Tow-In, Foil Assist'},
-  {lat:46.8,lng:8.2341,color:'#10b981',region:'Europe',location:'Seitzerland',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wake Foiling, Long Distance Pump, Dock Start'},
-  {lat:27.6713,lng:-81.5265,color:'#3b82f6',region:'Americas',location:'Pompano beach florida',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Dock Start, SUP Foiling, Parawing'},
-  {lat:-41.2828,lng:174.7896,color:'#f59e0b',region:'Oceania',location:'LA',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:-17.6467,lng:-149.4238,color:'#3b82f6',region:'Americas',location:'Tahiti',weight:'Under 65 kg / 143 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Dock Start'},
-  {lat:20.7845,lng:-156.3309,color:'#3b82f6',region:'Americas',location:'Oahu-Maui',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Tow-In, Long Distance Pump, SUP Foiling, Parawing'},
-  {lat:28.3563,lng:-14.0478,color:'#8b5cf6',region:'Africa',location:'Normandie, Fuerteventura',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Dock Start, SUP Foiling, Parawing'},
-  {lat:48.6686,lng:-2.0063,color:'#10b981',region:'Europe',location:'Saint Malo',weight:'65-75 kg / 143-165 lbs',exp:'1-2 years',discs:'Wing Foiling, SUP Foiling'},
-  {lat:56.9902,lng:18.9979,color:'#10b981',region:'Europe',location:'Baltic sea',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:16.2529,lng:-61.5603,color:'#3b82f6',region:'Americas',location:'Guadeloupe french caribeean island',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, SUP Foiling'},
-  {lat:46.2396,lng:2.2092,color:'#10b981',region:'Europe',location:'Lakes around Paris France, French West Coast (La Tranche sur mer,, Crozon, Normandy)',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start, Parawing, Foil Assist'},
-  {lat:46.2078,lng:2.2171,color:'#10b981',region:'Europe',location:'Nantes, France',weight:'Over 105 kg / 231 lbs',exp:'1-2 years',discs:'Wing Foiling, Dock Start'},
-  {lat:50.5018,lng:4.4631,color:'#10b981',region:'Europe',location:'Belgium',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Kite Foiling, Dock Start, Parawing'},
-  {lat:56.8925,lng:12.4857,color:'#10b981',region:'Europe',location:'Sweden',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wake Foiling, Windsurf Foiling, Long Distance Pump, Dock Start'},
-  {lat:37.7725,lng:-122.4107,color:'#3b82f6',region:'Americas',location:'San francisco',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, SUP Foiling'},
-  {lat:-36.8371,lng:174.7794,color:'#f59e0b',region:'Oceania',location:'Auckland',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, SUP Foiling, Parawing'},
-  {lat:-41.2678,lng:174.7773,color:'#f59e0b',region:'Oceania',location:'New zealand',weight:'75-85 kg / 165-187 lbs',exp:'Less than 1 year',discs:'Wing Foiling, Foil Assist'},
-  {lat:45.6924,lng:-121.5134,color:'#3b82f6',region:'Americas',location:'Seattle',weight:'Over 105 kg / 231 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start'},
-  {lat:-3.7265,lng:-38.5294,color:'#3b82f6',region:'Americas',location:'Brazil, Ceará, Praia do Iguape, Praia do Futuro, Pecem , praia do Cumbuco.',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Tow-In, SUP Foiling, Parawing'},
-  {lat:58.9733,lng:5.7221,color:'#10b981',region:'Europe',location:'Stavanger, Norway',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:27.3352,lng:-82.533,color:'#3b82f6',region:'Americas',location:'Sarasota FL',weight:'Over 105 kg / 231 lbs',exp:'2-4 years',discs:'Wing Foiling, Wake Foiling'},
-  {lat:44.4909,lng:-73.3553,color:'#3b82f6',region:'Americas',location:'Lake Champlain',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, Kite Foiling, Parawing'},
-  {lat:51.1857,lng:10.4406,color:'#10b981',region:'Europe',location:'Auesee Germany',weight:'Under 65 kg / 143 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start'},
-  {lat:-27.4619,lng:153.0196,color:'#f59e0b',region:'Oceania',location:'Brisbane',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Wake Foiling, Windsurf Foiling'},
-  {lat:34.7556,lng:-92.2774,color:'#3b82f6',region:'Americas',location:'Lakes in Arkansas',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Wake Foiling, Foil Assist'},
-  {lat:-33.8623,lng:151.1904,color:'#f59e0b',region:'Oceania',location:'Sydney',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, SUP Foiling, Parawing'},
-  {lat:36.956,lng:-122.0139,color:'#3b82f6',region:'Americas',location:'Santa Cruz - Bay Area',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Parawing, Foil Assist'},
-  {lat:38.0276,lng:-121.7847,color:'#3b82f6',region:'Americas',location:'Sherman Island',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:-41.2732,lng:174.7932,color:'#f59e0b',region:'Oceania',location:'Northland New Zealand',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Parawing'},
-  {lat:45.6866,lng:-121.5128,color:'#3b82f6',region:'Americas',location:'The Gorge/LaVentana',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling, Parawing, Foil Assist'},
-  {lat:-33.8877,lng:151.2261,color:'#f59e0b',region:'Oceania',location:'Sydney Australia',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Downwind SUP, Prone, SUP Foiling'},
-  {lat:40.0117,lng:-82.8967,color:'#3b82f6',region:'Americas',location:'Inland Ohio lake.',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:37.7957,lng:-122.4667,color:'#3b82f6',region:'Americas',location:'3rd Ave',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Prone, Wing Foiling, Tow-In, Parawing, Foil Assist'},
-  {lat:-26.6631,lng:153.0651,color:'#f59e0b',region:'Oceania',location:'Cotton Tree Queensland',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Prone'},
-  {lat:37.2141,lng:-8.5152,color:'#10b981',region:'Europe',location:'Portugal / South',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wake Foiling, SUP Foiling, Parawing'},
-  {lat:9.3497,lng:-82.2506,color:'#3b82f6',region:'Americas',location:'Panama Bocas del Toro',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Wing Foiling, Long Distance Pump, Foil Assist, Efoil'},
-  {lat:20.8084,lng:-156.3378,color:'#3b82f6',region:'Americas',location:'Maui Tunisia',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Downwind SUP, Wing Foiling, SUP Foiling, Parawing'},
-  {lat:34.0318,lng:-87.0629,color:'#3b82f6',region:'Americas',location:'Smith lake, alabama',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wake Foiling, Long Distance Pump, Dock Start'},
-  {lat:39.5393,lng:-119.8265,color:'#3b82f6',region:'Americas',location:'Reno Tahoe',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Wing Foiling'},
-  {lat:-1.851,lng:-78.1668,color:'#3b82f6',region:'Americas',location:'Ecuador',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Wing Foiling, Tow-In'},
-  {lat:-36.8244,lng:174.4631,color:'#f59e0b',region:'Oceania',location:'Muriwai',weight:'Over 105 kg / 231 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Wake Foiling, SUP Foiling'},
-  {lat:33.6444,lng:-118.015,color:'#3b82f6',region:'Americas',location:'Huntington Beach',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Wake Foiling'},
-  {lat:46.9047,lng:6.8304,color:'#10b981',region:'Europe',location:'Lake Neuchatel',weight:'65-75 kg / 143-165 lbs',exp:'2-4 years',discs:'Downwind SUP, Wing Foiling, Wake Foiling, Long Distance Pump, Dock Start, Parawing, Foil Assist'},
-  {lat:-41.2767,lng:174.7801,color:'#f59e0b',region:'Oceania',location:'New Zealand',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Tow-In, Long Distance Pump, Dock Start, SUP Foiling'},
-  {lat:-36.835,lng:174.7661,color:'#f59e0b',region:'Oceania',location:'Auckland, Whangapora',weight:'95-105 kg / 209-231 lbs',exp:'2-4 years',discs:'Wing Foiling, Foil Assist'},
-  {lat:60.476,lng:8.4751,color:'#10b981',region:'Europe',location:'Norway',weight:'85-95 kg / 187-209 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:56.2676,lng:9.4998,color:'#10b981',region:'Europe',location:'Danemark',weight:'95-105 kg / 209-231 lbs',exp:'4+ years',discs:'Wing Foiling, Dock Start, Parawing'},
-  {lat:37.7481,lng:-8.7975,color:'#10b981',region:'Europe',location:'Milfontes, Portugal',weight:'65-75 kg / 143-165 lbs',exp:'4+ years',discs:'Downwind SUP, Prone, Wing Foiling, Foil Assist'},
-  {lat:53.7011,lng:-9.4822,color:'#10b981',region:'Europe',location:'Ireland, Mallorca, Fuerte',weight:'75-85 kg / 165-187 lbs',exp:'4+ years',discs:'Wing Foiling'},
-  {lat:59.3205,lng:10.6769,color:'#10b981',region:'Europe',location:'Oslofjord Norway',weight:'75-85 kg / 165-187 lbs',exp:'1-2 years',discs:'Downwind SUP, Wing Foiling'},
-  {lat:-41.2787,lng:174.7703,color:'#f59e0b',region:'Oceania',location:'Christchurch, New Zealand',weight:'75-85 kg / 165-187 lbs',exp:'2-4 years',discs:'Prone, Wing Foiling, Tow-In, Dock Start'},
-  {lat:-35.6742,lng:-71.5542,color:'#3b82f6',region:'Americas',location:'Matanzas Chile',weight:'85-95 kg / 187-209 lbs',exp:'2-4 years',discs:'Downwind SUP, Prone, Wing Foiling, SUP Foiling'},
-  {lat:46.2157,lng:2.2146,color:'#10b981',region:'Europe',location:'South West of France',weight:'Over 105 kg / 231 lbs',exp:'1-2 years',discs:'Wing Foiling'},
-  {lat:37.7698,lng:-122.4079,color:'#3b82f6',region:'Americas',location:'San Francisco Bay',weight:'85-95 kg / 187-209 lbs',exp:'4+ years',discs:'Wing Foiling, Kite Foiling, SUP Foiling, Foil Assist'},
+var WING_FAMILY_COLORS = {
+  'Surge': '#ef4444',
+  'Fireball': '#f97316',
+  'Spitfire': '#3b82f6',
+  'ART': '#22c55e',
+  'PNG': '#a855f7',
+  'Other': '#6b7280'
+};
+
+var WING_FAMILY_LEGEND = [
+  {name:'Surge', color:'#ef4444'},
+  {name:'Fireball', color:'#f97316'},
+  {name:'Spitfire', color:'#3b82f6'},
+  {name:'ART', color:'#22c55e'},
+  {name:'PNG', color:'#a855f7'},
+  {name:'Other', color:'#6b7280'}
 ];
 
-// Create marker cluster group
-var mcg = L.markerClusterGroup({
-  maxClusterRadius: 40,
-  spiderfyOnMaxZoom: true,
-  showCoverageOnHover: false,
-  zoomToBoundsOnClick: true,
-  iconCreateFunction: function(cluster) {
-    var count = cluster.getChildCount();
-    var size = count < 10 ? 32 : count < 20 ? 38 : 44;
-    return L.divIcon({
-      html: '<div style="background:rgba(0,178,180,0.85);width:' + size + 'px;height:' + size + 'px;border-radius:50%;border:2px solid #fff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:' + (size < 38 ? 12 : 14) + 'px">' + count + '</div>',
-      className: '',
-      iconSize: [size, size],
-      iconAnchor: [size/2, size/2]
+var DISC_EMOJIS = {
+  'Downwind SUP': '🏄',
+  'Prone': '🌊',
+  'Wing Foiling': '🪁',
+  'Kite Foiling': '🪂',
+  'Wake Foiling': '🚤',
+  'Tow-In Foiling': '🛥️',
+  'Windsurf Foiling': '🏄',
+  'Long Distance Pump': '🔄',
+  'Dock Start': '⚓',
+  'SUP Foiling': '🏄',
+  'Parawing': '🪂',
+  'Foil Assist': '⚡',
+  'Efoil': '⚡'
+};
+
+var currentFilter = 'all';
+var wingMode = false;
+var map, mcg, allMarkers = [];
+
+// Init map
+map = L.map('map', {
+  center: [20, 10],
+  zoom: 2,
+  zoomControl: true
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  maxZoom: 19
+}).addTo(map);
+
+function getWingFamily(wingStr) {
+  if (!wingStr) return 'Other';
+  var s = wingStr.toLowerCase();
+  if (s.includes('surge')) return 'Surge';
+  if (s.includes('fireball')) return 'Fireball';
+  if (s.includes('spitfire')) return 'Spitfire';
+  if (s.includes('art')) return 'ART';
+  if (s.includes('png')) return 'PNG';
+  return 'Other';
+}
+
+function getMarkerColor(m) {
+  if (wingMode && currentFilter !== 'all') {
+    var wing = m.wings && m.wings[currentFilter];
+    var family = getWingFamily(wing);
+    return WING_FAMILY_COLORS[family] || WING_FAMILY_COLORS['Other'];
+  }
+  if (wingMode) {
+    // Use primary disc wing for color
+    var primaryDisc = m.discs && m.discs[0];
+    var wing = primaryDisc && m.wings[primaryDisc];
+    var family = getWingFamily(wing);
+    return WING_FAMILY_COLORS[family] || WING_FAMILY_COLORS['Other'];
+  }
+  return REGION_COLORS[m.region] || '#718096';
+}
+
+function buildPopup(m, filterDisc) {
+  var discsHtml = '';
+  if (m.discs && m.discs.length > 0) {
+    m.discs.forEach(function(d) {
+      var wing = m.wings && m.wings[d] ? m.wings[d] : '—';
+      var highlighted = (filterDisc && filterDisc !== 'all' && d === filterDisc);
+      discsHtml += '<div class="popup-disc">' +
+        '<span class="popup-disc-name">' + (DISC_EMOJIS[d] || '🏄') + ' ' + d + '</span>' +
+        '<span class="popup-disc-wing' + (highlighted ? ' highlighted' : '') + '">' + escapeHtml(wing) + '</span>' +
+        '</div>';
     });
   }
-});
+  return '<div class="popup-location">📍 ' + escapeHtml(m.location) + '</div>' +
+    '<div class="popup-meta">⚖️ ' + escapeHtml(m.weight) + ' · ' + escapeHtml(m.exp) + (m.age ? ' · ' + escapeHtml(m.age) : '') + '</div>' +
+    discsHtml;
+}
 
-markers.forEach(function(m) {
-  var circleMarker = L.circleMarker([m.lat, m.lng], {
-    radius: 7,
-    fillColor: m.color,
-    color: '#fff',
-    weight: 1.5,
-    opacity: 0.9,
-    fillOpacity: 0.85,
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function createClusterGroup() {
+  return L.markerClusterGroup({
+    maxClusterRadius: 40,
+    spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true,
+    iconCreateFunction: function(cluster) {
+      var count = cluster.getChildCount();
+      var size = count < 10 ? 32 : count < 20 ? 38 : 44;
+      return L.divIcon({
+        html: '<div style="background:rgba(0,178,180,0.85);width:' + size + 'px;height:' + size + 'px;border-radius:50%;border:2px solid #fff;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:' + (size < 38 ? 12 : 14) + 'px">' + count + '</div>',
+        className: '',
+        iconSize: [size, size],
+        iconAnchor: [size/2, size/2]
+      });
+    }
+  });
+}
+
+function renderMarkers() {
+  if (mcg) {
+    map.removeLayer(mcg);
+  }
+  mcg = createClusterGroup();
+
+  var visibleCount = 0;
+  MARKERS_DATA.forEach(function(m) {
+    // Apply discipline filter
+    if (currentFilter !== 'all' && (!m.discs || m.discs.indexOf(currentFilter) === -1)) {
+      return;
+    }
+    
+    var color = getMarkerColor(m);
+    var cm = L.circleMarker([m.lat, m.lng], {
+      radius: 7,
+      fillColor: color,
+      color: '#fff',
+      weight: 1.5,
+      opacity: 0.9,
+      fillOpacity: 0.85
+    });
+    cm.bindPopup(buildPopup(m, currentFilter), { maxWidth: 300 });
+    mcg.addLayer(cm);
+    visibleCount++;
+  });
+
+  map.addLayer(mcg);
+  updateSummaryPanel();
+  updateSidebar();
+}
+
+function setFilter(disc) {
+  currentFilter = disc;
+  // Update button states
+  document.querySelectorAll('.filter-btn[data-disc]').forEach(function(btn) {
+    btn.classList.toggle('active', btn.dataset.disc === disc);
+  });
+  updateLegend();
+  renderMarkers();
+  if (disc !== 'all') {
+    document.getElementById('summary-panel').style.display = 'block';
+  } else {
+    document.getElementById('summary-panel').style.display = 'none';
+  }
+}
+
+function toggleWingMode() {
+  wingMode = !wingMode;
+  document.getElementById('wingModeBtn').classList.toggle('active', wingMode);
+  updateLegend();
+  renderMarkers();
+}
+
+function updateLegend() {
+  var legend = document.getElementById('legend');
+  if (wingMode) {
+    var html = '';
+    WING_FAMILY_LEGEND.forEach(function(f) {
+      html += '<div class="legend-item"><div class="legend-dot" style="background:' + f.color + '"></div>' + f.name + '</div>';
+    });
+    legend.innerHTML = html;
+  } else {
+    legend.innerHTML =
+      '<div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>Americas</div>' +
+      '<div class="legend-item"><div class="legend-dot" style="background:#10b981"></div>Europe</div>' +
+      '<div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Oceania</div>' +
+      '<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Asia</div>' +
+      '<div class="legend-item"><div class="legend-dot" style="background:#8b5cf6"></div>Africa</div>';
+  }
+}
+
+function updateSummaryPanel() {
+  if (currentFilter === 'all') return;
+  var wingCounts = {};
+  MARKERS_DATA.forEach(function(m) {
+    if (!m.discs || m.discs.indexOf(currentFilter) === -1) return;
+    var wing = (m.wings && m.wings[currentFilter]) || 'Not specified';
+    // Normalize wing name a bit
+    var w = wing.trim();
+    wingCounts[w] = (wingCounts[w] || 0) + 1;
+  });
+  var sorted = Object.entries(wingCounts).sort(function(a,b){return b[1]-a[1];}).slice(0, 8);
+  var total = Object.values(wingCounts).reduce(function(a,b){return a+b;}, 0);
+  
+  document.getElementById('summary-title').textContent = (DISC_EMOJIS[currentFilter] || '🏄') + ' ' + currentFilter + ' — Top Wings (' + total + ' riders)';
+  var html = '';
+  sorted.forEach(function(entry) {
+    html += '<div class="summary-wing"><span>' + escapeHtml(entry[0]) + '</span><span class="cnt">' + entry[1] + '</span></div>';
+  });
+  document.getElementById('summary-body').innerHTML = html;
+}
+
+function closeSummary() {
+  document.getElementById('summary-panel').style.display = 'none';
+}
+
+function updateSidebar() {
+  var regions = {
+    'Americas': {color:'#3b82f6', flag:'🌎'},
+    'Europe': {color:'#10b981', flag:'🌍'},
+    'Oceania': {color:'#f59e0b', flag:'🌏'},
+    'Asia': {color:'#ef4444', flag:'🌏'},
+    'Africa': {color:'#8b5cf6', flag:'🌍'}
+  };
+
+  // Filter relevant markers
+  var visible = MARKERS_DATA.filter(function(m) {
+    if (currentFilter !== 'all' && (!m.discs || m.discs.indexOf(currentFilter) === -1)) return false;
+    return true;
+  });
+
+  var html = '';
+  Object.keys(regions).forEach(function(region) {
+    var info = regions[region];
+    var regionRiders = visible.filter(function(m) { return m.region === region; });
+    if (regionRiders.length === 0) return;
+    
+    // Top disciplines
+    var discCounts = {};
+    regionRiders.forEach(function(m) {
+      if (m.discs) m.discs.forEach(function(d) {
+        discCounts[d] = (discCounts[d] || 0) + 1;
+      });
+    });
+    var topDiscs = Object.entries(discCounts).sort(function(a,b){return b[1]-a[1];}).slice(0,3);
+    
+    // Top wings (for current filter, or overall primary)
+    var wingCounts = {};
+    regionRiders.forEach(function(m) {
+      var discToUse = currentFilter !== 'all' ? currentFilter : (m.discs && m.discs[0]);
+      if (discToUse && m.wings && m.wings[discToUse]) {
+        var w = m.wings[discToUse].trim();
+        wingCounts[w] = (wingCounts[w] || 0) + 1;
+      }
+    });
+    var topWings = Object.entries(wingCounts).sort(function(a,b){return b[1]-a[1];}).slice(0,3);
+    
+    html += '<div class="region-section">';
+    html += '<div class="region-title"><div class="region-dot" style="background:' + info.color + '"></div>' + info.flag + ' ' + region + ' <span style="color:#00b2b4;margin-left:auto;">' + regionRiders.length + '</span></div>';
+    
+    if (topDiscs.length > 0) {
+      html += '<div class="region-subsection"><div class="region-sublabel">Top Disciplines</div>';
+      topDiscs.forEach(function(e) {
+        html += '<div class="region-item"><span>' + (DISC_EMOJIS[e[0]] || '🏄') + ' ' + e[0] + '</span><span class="count">' + e[1] + '</span></div>';
+      });
+      html += '</div>';
+    }
+    
+    if (topWings.length > 0) {
+      html += '<div class="region-subsection"><div class="region-sublabel">Top Wings</div>';
+      topWings.forEach(function(e) {
+        html += '<div class="region-item"><span>' + escapeHtml(e[0].length > 20 ? e[0].slice(0,18)+'…' : e[0]) + '</span><span class="count">' + e[1] + '</span></div>';
+      });
+      html += '</div>';
+    }
+    
+    html += '</div>';
   });
   
-  var popupHtml = '<div class="popup-location">📍 ' + m.location + '</div>' +
-    '<div class="popup-detail">⚖️ ' + m.weight + ' · ' + m.exp + '</div>' +
-    '<div class="popup-discs">🏄 ' + m.discs + '</div>';
-  
-  circleMarker.bindPopup(popupHtml, { maxWidth: 280 });
-  mcg.addLayer(circleMarker);
-});
+  document.getElementById('regional-content').innerHTML = html;
+}
 
-map.addLayer(mcg);
+// Initial render
+renderMarkers();
 </script>
 
 </body>
