@@ -443,24 +443,70 @@ function updateLegend() {
   }
 }
 
+function normalizeWing(raw) {
+  if (!raw) return null;
+  var s = raw.trim();
+  if (!s) return null;
+  // Split multi-wing entries on common separators
+  var parts = s.split(/[,\+\/&]|(?:\band\b)|(?:\bor\b)|(?:\bet\b)/i);
+  var results = [];
+  parts.forEach(function(p) {
+    p = p.trim().replace(/\s+/g, ' ');
+    if (!p || p.length < 3) return;
+    // Normalize known families
+    var families = [
+      {re: /(?:surge)\s*(\d{3,4})/i, fmt: function(m){return 'Surge '+m[1];}},
+      {re: /(?:fireball|fb)\s*(\d{3,4})/i, fmt: function(m){return 'Fireball '+m[1];}},
+      {re: /(?:spitfire|sf)\s*(\d{3,4})/i, fmt: function(m){return 'Spitfire '+m[1];}},
+      {re: /(?:tempo)\s*(\d{3,4})/i, fmt: function(m){return 'Tempo '+m[1];}},
+      {re: /(?:art\s*pro|artpro)\s*(\d{3,4})/i, fmt: function(m){return 'ART Pro '+m[1];}},
+      {re: /(?:art\s*v2|artv2)\s*(\d{3,4})/i, fmt: function(m){return 'ART V2 '+m[1];}},
+      {re: /(\d{3,4})\s*(?:art\s*v2|artv2)/i, fmt: function(m){return 'ART V2 '+m[1];}},
+      {re: /(?:art)\s*(\d{3,4})\s*v2/i, fmt: function(m){return 'ART V2 '+m[1];}},
+      {re: /(?:art)\s*(\d{3,4})\s*(?:v1)?/i, fmt: function(m){return 'ART '+m[1];}},
+      {re: /(?:png)\s*(?:v2\s*)?(\d{3,4})/i, fmt: function(m){return 'PNG '+m[1];}},
+      {re: /(?:bsc)\s*(\d{3,4})/i, fmt: function(m){return 'BSC '+m[1];}},
+      {re: /(?:hps)\s*(\d{3,4})/i, fmt: function(m){return 'HPS '+m[1];}},
+      {re: /(?:ha)\s+(\d{3,4})/i, fmt: function(m){return 'HA '+m[1];}},
+    ];
+    for (var i = 0; i < families.length; i++) {
+      var match = p.match(families[i].re);
+      if (match) { results.push(families[i].fmt(match)); return; }
+    }
+    // If just a number like "1401", keep as-is
+    if (/^\d{3,4}$/.test(p.trim())) { results.push(p.trim()); return; }
+    // Fallback: capitalize first letter
+    results.push(p.charAt(0).toUpperCase() + p.slice(1));
+  });
+  return results.length > 0 ? results : null;
+}
+
 function updateSummaryPanel() {
   if (currentFilter === 'all') return;
   var wingCounts = {};
+  var totalRiders = 0;
   MARKERS_DATA.forEach(function(m) {
     if (!m.discs || m.discs.indexOf(currentFilter) === -1) return;
-    var wing = (m.wings && m.wings[currentFilter]) || 'Not specified';
-    // Normalize wing name a bit
-    var w = wing.trim();
-    wingCounts[w] = (wingCounts[w] || 0) + 1;
+    totalRiders++;
+    var raw = m.wings && m.wings[currentFilter];
+    var wings = normalizeWing(raw);
+    if (!wings) {
+      wingCounts['Not specified'] = (wingCounts['Not specified'] || 0) + 1;
+      return;
+    }
+    wings.forEach(function(w) {
+      wingCounts[w] = (wingCounts[w] || 0) + 1;
+    });
   });
-  var sorted = Object.entries(wingCounts).sort(function(a,b){return b[1]-a[1];}).slice(0, 8);
-  var total = Object.values(wingCounts).reduce(function(a,b){return a+b;}, 0);
+  var sorted = Object.entries(wingCounts).sort(function(a,b){return b[1]-a[1];}).slice(0, 12);
+  var accounted = sorted.reduce(function(a,e){return a+e[1];}, 0);
   
-  document.getElementById('summary-title').textContent = (DISC_EMOJIS[currentFilter] || '🏄') + ' ' + currentFilter + ' — Top Wings (' + total + ' riders)';
+  document.getElementById('summary-title').textContent = (DISC_EMOJIS[currentFilter] || '🏄') + ' ' + currentFilter + ' — Top Wings (' + totalRiders + ' riders)';
   var html = '';
   sorted.forEach(function(entry) {
     html += '<div class="summary-wing"><span>' + escapeHtml(entry[0]) + '</span><span class="cnt">' + entry[1] + '</span></div>';
   });
+  html += '<div style="margin-top:0.4rem;color:#718096;font-size:0.72rem;">Top 12 shown · ' + accounted + ' mentions from ' + totalRiders + ' riders</div>';
   document.getElementById('summary-body').innerHTML = html;
 }
 
@@ -498,13 +544,15 @@ function updateSidebar() {
     });
     var topDiscs = Object.entries(discCounts).sort(function(a,b){return b[1]-a[1];}).slice(0,3);
     
-    // Top wings (for current filter, or overall primary)
+    // Top wings (for current filter, or overall primary) — normalized
     var wingCounts = {};
     regionRiders.forEach(function(m) {
       var discToUse = currentFilter !== 'all' ? currentFilter : (m.discs && m.discs[0]);
       if (discToUse && m.wings && m.wings[discToUse]) {
-        var w = m.wings[discToUse].trim();
-        wingCounts[w] = (wingCounts[w] || 0) + 1;
+        var wings = normalizeWing(m.wings[discToUse]);
+        if (wings) wings.forEach(function(w) {
+          wingCounts[w] = (wingCounts[w] || 0) + 1;
+        });
       }
     });
     var topWings = Object.entries(wingCounts).sort(function(a,b){return b[1]-a[1];}).slice(0,3);
