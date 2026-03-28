@@ -1,0 +1,149 @@
+{
+  "scrape_timestamp": "2026-03-27T18:06:00-07:00",
+  "scrape_window": "last 12 hours (6AM-6PM Pacific)",
+  "sources": {
+    "riders_group": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_page": "https://www.facebook.com/axisfoils"
+  },
+  "riders_group_posts": [
+    {
+      "post_id": "1566387004459585",
+      "poster": "Andrea Fanelli",
+      "badge": "Rising contributor",
+      "timestamp": "about an hour ago",
+      "weight_kg": 85,
+      "discipline": "wingfoiling, downwind SUP",
+      "location": "Seattle, WA",
+      "foils_mentioned": ["ART V2 999", "ART V2 939", "PNG 910B", "Spitfire 1180", "Surge 1010", "ART V2 1099", "Fireball", "PNG 1200 V2"],
+      "content": "Hi all, I'm 85 kg and mainly use my setup for wingfoiling and downwind runs with the wing, mostly on lakes. I consider myself an intermediate winger. Current quiver: ART V2 999 for 14-25mph, ART V2 939 for strong wind (20-25mph). The 999 is my daily driver (90% of the time). Challenge: Seattle light winds (8-14mph) — getting the 999 to take off is exhausting. Also have PNG 910B and Spitfire 1180, but don't enjoy them as much. Looking for a light-wind front wing (8-14 mph) that still feels fun and fast, similar to ART V2. Considering Surge 1010 or ART V2 1099. Could also consider Fireballs or PNG 1200 V2.",
+      "comments_count": 4,
+      "sentiment": "question/seeking advice",
+      "comments": [
+        {
+          "commenter": "Sean Richardson",
+          "badge": "Top contributor",
+          "timestamp": "44m ago",
+          "weight_kg": 85,
+          "foils": ["ART V2 1099", "ART V2 999v1", "ART V2 939v2", "Spitfire 1030", "Surge 1010", "Surge 890", "Surge 830"],
+          "content": "I'm 85kg. Used to ride 1099 and 999v1, 939v2, 1030 spitfire, etc. 1030 was my latest light wind foil for winging with 6.5m and 94ltr 23in wide board, until I made the switch to Surges - 1010, 890, 830, etc. Surge 1010 is my light wind weapon, and the most fun I've had on a big wing. For winging, I would never go bigger - it has incredibly low take off speed - a couple of pumps in 10knots and I'm up and flying. However, I'm an advanced wing foiler so I might get going more easily. Larger Fireball might work too. Choice depends on board. For turning, try shorter fuse and small stab with your 1180. On my 1010, I use a silly short adv++ and ride progressive stab 275 - this setup loosens the big foils up considerably.",
+          "reply": {
+            "commenter": "Sean Richardson",
+            "timestamp": "16m ago",
+            "content": "If you truly want to get going in 8mph... the 1180 does the trick, but it doesn't turn how you want. Probably any other foil in that large span size is not going to turn any better than a spitfire. The Fireballs are not as turny as a similar span Spitfire, nor are the ARTV2s, but both are faster. The Surge sounds like what you're looking for, but maybe you have to wait for a larger one. I'm happy with the 1010 Surge as my light wind foil, generally don't go out unless averaging more than 10 knots."
+          }
+        },
+        {
+          "commenter": "Shaun Henderson",
+          "badge": "Top contributor",
+          "timestamp": "2m ago",
+          "weight_kg": 72,
+          "location": "Tacoma, WA",
+          "foils": ["Spitfire 1180", "Surge 950"],
+          "content": "I'm in Tacoma. 72kg. For true light wind (<8kt) I'm on 1180 but as soon as there is a gust in 10kt range I'm switching to Surge 950. It's amazing how well it pumps off the water and has become my go to for everything but the lightest wind. I have not tried the 1010 but like the others have suggested it would probably replace the 1180."
+        },
+        {
+          "commenter": "Jon Verhoek",
+          "timestamp": "1h ago",
+          "content": "Both the 1010 and 1099 have tonnes more low end than the 999. Try either or both."
+        }
+      ]
+    },
+    {
+      "post_id": "1565624764535809",
+      "poster": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "timestamp": "~24h ago (visible in feed)",
+      "discipline": "general/session report",
+      "foils_mentioned": ["Integrated mast (new)"],
+      "content": "Happy birthday to this Hawaiian hammah Jason foil fever... stoked to get to ride with him all week here in Southern California. New integrated mast so good he won't let...",
+      "reactions": 20,
+      "comments_count": 2,
+      "sentiment": "positive/celebratory",
+      "product_mention": "New integrated mast praised highly",
+      "comments": [
+        {
+          "commenter": "Chad Barr",
+          "timestamp": "5h ago",
+          "content": "That mast is a game changer!"
+        },
+        {
+          "commenter": "Adrian Roper",
+          "badge": "Group expert, All-star contributor",
+          "timestamp": "23h ago",
+          "content": "Happy Birthday Jason, enjoy that California weed...."
+        }
+      ]
+    },
+    {
+      "post_id": "from_feed_doug_pfoiler",
+      "poster": "Doug D PFoiler",
+      "badge": "Top contributor",
+      "timestamp": "within 12h window",
+      "content": "Hybrid Carbon foil boards — Was wondering anyone in the know if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing?",
+      "reactions": 1,
+      "comments_count": 0,
+      "sentiment": "question",
+      "foils_mentioned": ["Axis Hybrid Carbon foil boards"],
+      "discipline": "parawing"
+    }
+  ],
+  "official_page_posts": [
+    {
+      "poster": "AXIS Foils",
+      "timestamp": "4 days ago",
+      "content": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. The results are in, and some of them surprised us. Want your setup counted? Takes 3 minutes. Link to Google Form survey. Top Disciplines: 1. Wing Foiling 2. Downwind SUP 3. Parawing 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge · Fireball · Spitfire. Top Regions: US West Coast · NZ/Australia · Europe. Quote: 'Turns off the back foot like surfing. The Surge is a game changer.'",
+      "reactions": 8,
+      "comments_count": 1,
+      "sentiment": "community engagement/marketing",
+      "comments": [
+        {
+          "commenter": "Katrin Kolo",
+          "timestamp": "3 days ago",
+          "content": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!"
+        },
+        {
+          "commenter": "AXIS Foils",
+          "timestamp": "1 day ago",
+          "content": "Just pulled fresh from the survey (now at 241 responses): [See more - truncated]",
+          "is_author_response": true
+        }
+      ],
+      "unanswered_questions": false
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Baja California Sur, Mexico",
+      "timestamp": "~6 weeks ago",
+      "content": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wide open spaces... [Surge colorway design inspiration post - desert/Baja theme]",
+      "reactions": 33,
+      "comments_count": 3,
+      "shares": 2,
+      "foils_mentioned": ["Surge front wings"],
+      "sentiment": "product/marketing",
+      "comments": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "timestamp": "6 weeks ago",
+          "content": "Wish I had this beauty when I was in Baja!"
+        },
+        {
+          "commenter": "Vangelis Evan Mavridoglou",
+          "timestamp": "4 weeks ago",
+          "content": "Anything we can do to bring you back"
+        }
+      ]
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Düsseldorf, Germany",
+      "timestamp": "recent",
+      "content": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour 🔥🔥🔥 Stoked to see our team getting amongst the good times and podiums 👏 #axisfoils...",
+      "reactions": 27,
+      "shares": 2,
+      "views": "1.7K",
+      "sentiment": "positive/competition",
+      "comments_count": 0,
+      "comments": []
+    }
+  ]
+}

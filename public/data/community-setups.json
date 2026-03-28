@@ -7,7 +7,8 @@
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
     "lastUpdated": "2026-03-27T21:39:00Z",
-    "totalRiders": 140
+    "totalRiders": 140,
+    "updated": "2026-03-27T18:06:00-07:00"
   },
   "riders": [
     {
@@ -347,7 +348,7 @@
         "wing": "5.0"
       },
       "also_rides": "ART V2 879",
-      "conditions": "11-17kn thermal, side off wind, 8°C water (winter)",
+      "conditions": "11-17kn thermal, side off wind, 8\u00b0C water (winter)",
       "notes": "HPS 930 + 380 speed stab at 91kg: super easy early flight, low stall speed, forgiving. Lacks glide vs ART V2 879. Good for messy water and recovery. 'Feels like cheating' for early flight.",
       "sentiment": "positive on HPS 930 for beginner/easy conditions"
     },
@@ -375,7 +376,7 @@
         "art_pro_1401": "15-18",
         "png_1310": "12-16"
       },
-      "conditions": "8°C water, 5/4 wetsuit, dockstart",
+      "conditions": "8\u00b0C water, 5/4 wetsuit, dockstart",
       "note": "First session Fireball 1750 review. 2-3x longer runs vs smaller foils. Easier dockstart than expected. Long-distance foil. Prefers 358/25 over 358/35 stabilizer. Carbon mast over aluminum."
     },
     {
@@ -417,7 +418,7 @@
       "id": "setup_2026_03_19_003",
       "source": "FB post axisfoilriders 2026-03-19",
       "date": "2026-03-19",
-      "rider_name": "Cédric Okp",
+      "rider_name": "C\u00e9dric Okp",
       "experience": "advanced",
       "location": "El Gouna, Egypt",
       "disciplines": [
@@ -1270,10 +1271,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiWxAxf",
       "date": "2026-03-08",
-      "name": "Survey Rider (Varberg, Sweden. Beats most spots😃)",
+      "name": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
       "weight": "85-95 kg / 187-209 lbs",
       "experience": "4+ years",
-      "location": "Varberg, Sweden. Beats most spots😃",
+      "location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
       "disciplines": [
         "Wing Foiling"
       ],
@@ -2245,10 +2246,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNg3H8J9",
       "date": "2026-03-09",
-      "name": "Survey Rider (Vendée France)",
+      "name": "Survey Rider (Vend\u00e9e France)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "4+ years",
-      "location": "Vendée France",
+      "location": "Vend\u00e9e France",
       "disciplines": [
         "Prone Surf",
         "Wing Foiling",
@@ -2781,7 +2782,7 @@
         },
         {
           "discipline": "SUP (Non-DW)",
-          "front_wing": "Art 999 ( fireball 1250 when it’s small)",
+          "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
           "rear_wing": "Skinny 40",
           "mast": "82cm HM carbon",
           "fuselage": "Black ultrashort"
@@ -2801,10 +2802,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiDUf3q",
       "date": "2026-03-09",
-      "name": "Survey Rider (France océan basque country)",
+      "name": "Survey Rider (France oc\u00e9an basque country)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "2-4 years",
-      "location": "France océan basque country",
+      "location": "France oc\u00e9an basque country",
       "disciplines": [
         "Downwind SUP",
         "Prone Surf",
@@ -3044,10 +3045,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNipQpDr",
       "date": "2026-03-09",
-      "name": "Survey Rider (Zürich)",
+      "name": "Survey Rider (Z\u00fcrich)",
       "weight": "Under 65 kg / 143 lbs",
       "experience": "2-4 years",
-      "location": "Zürich",
+      "location": "Z\u00fcrich",
       "disciplines": [
         "Pump/Flat Water",
         "Dock Start"
@@ -4019,9 +4020,9 @@
         "comparison_wing": "ART V2 879",
         "wing_size": "3.0-6.0m",
         "mast_position": "8-9",
-        "shimming": "1° nose down in brutal conditions"
+        "shimming": "1\u00b0 nose down in brutal conditions"
       },
-      "conditions": "11-17 knots thermal, 8°c water",
+      "conditions": "11-17 knots thermal, 8\u00b0c water",
       "notes": "HPS 930 easy/low stall speed vs ART V2 879 better glide. Comparing old vs new setup in light wind. Very detailed session report."
     },
     {
@@ -4044,7 +4045,7 @@
         ]
       },
       "discipline": "wingfoil",
-      "conditions_noted": "11-17 knots, 8°C water",
+      "conditions_noted": "11-17 knots, 8\u00b0C water",
       "notes": "91kg in full wintersuit, HPS 930 still performs excellently vs newer ART V2"
     },
     {
@@ -4300,7 +4301,7 @@
             "mentions": 1
           }
         ],
-        "note": "All high-aspect, 1300+ cm² wings"
+        "note": "All high-aspect, 1300+ cm\u00b2 wings"
       }
     },
     "trends": [
@@ -4382,6 +4383,57 @@
         "flatwater paddle-up"
       ],
       "notes": "Weight-specific stab guidance for FB1750 dockstart vs flatwater"
+    },
+    {
+      "id": "setup_2026_03_27_001",
+      "date": "2026-03-27",
+      "source": "facebook_axis_riders_group",
+      "rider": "Sean Richardson",
+      "weight": 85,
+      "foil": "Surge 1010",
+      "mast": null,
+      "fuse": "adv++ (very short)",
+      "stab_options": [
+        "Progressive stab 275"
+      ],
+      "discipline": "wing_foiling",
+      "notes": "Primary light wind setup. Switched from Spitfire 1030. Uses short fuse + small stab to loosen up the big foil. 6.5m wing, 94ltr board.",
+      "board_size_liters": 94,
+      "wing_size_m": 6.5
+    },
+    {
+      "id": "setup_2026_03_27_002",
+      "date": "2026-03-27",
+      "source": "facebook_axis_riders_group",
+      "rider": "Shaun Henderson",
+      "weight": 72,
+      "location": "Tacoma, WA",
+      "foil": "Surge 950",
+      "mast": null,
+      "fuse": null,
+      "stab_options": [],
+      "discipline": "wing_foiling",
+      "notes": "Primary setup for 10kt+ conditions. Uses Spitfire 1180 for true light wind (<8kt). Surge 950 for 10kt+. Amazed by pumping ability.",
+      "alt_setup": "Spitfire 1180 for <8kt"
+    },
+    {
+      "id": "setup_2026_03_27_003",
+      "date": "2026-03-27",
+      "source": "facebook_axis_riders_group",
+      "rider": "Andrea Fanelli",
+      "weight": 85,
+      "location": "Seattle, WA",
+      "foil": "ART V2 999",
+      "mast": null,
+      "fuse": null,
+      "stab_options": [],
+      "discipline": "wing_foiling",
+      "notes": "Daily driver (90% of rides) for 14-25mph on lake. ART V2 939 for 20-25mph. Has PNG 910B and Spitfire 1180 for lighter wind but prefers ART V2 feel. Looking to upgrade light wind setup to Surge 1010 or ART V2 1099.",
+      "secondary_foils": [
+        "ART V2 939",
+        "Spitfire 1180",
+        "PNG 910B"
+      ]
     }
   ],
   "meta": {
