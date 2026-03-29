@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "scan_time": "2026-03-28T18:00:00-07:00",
+    "scan_type": "scheduled_12h",
+    "scanner": "Herbert (OpenClaw)",
+    "sources": ["AXIS Foil Riders Group", "AXIS Foils Official Page"]
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "members": "10.6K",
+    "sort": "New posts (chronological)",
+    "posts": [
+      {
+        "id": "post_riders_2026_03_28_1730_001",
+        "poster": "Jimmy Jam Foils",
+        "badge": "Group expert",
+        "posted": "30 minutes ago (~5:30 PM PT)",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1567203591044593/",
+        "text": "TBH wish I would have got this mast sooner ... but it's almost a must have if u rocking a foildrive fusion. Riding 1-2 ft surf. First half of the session used my high motor carbon mast and when my buddy went to swap max batteries, I decided to do a quick mast change. And yes u can ride a wave or boat wake with pod drag. Been doing it with my lift efoils for 6 plus years. Why did I wanna ride with extra drag? Well waves were small. Got my fix. And wanted to get foil an rip around as I waited on the sets to roll in. Win win with efoil mast. Same with exploring lakes while on the road. Heard rumors of a fatty integrated efoil mast. Sign me up or Send a proto my way yes please. So stoked on the axis catalog. One of the first brands to release an integrated mast for foildrive (tagging Adrian Roper).",
+        "foils_mentioned": ["Integrated efoil mast", "high motor carbon mast", "Foildrive Fusion", "Fatty mast (rumored)"],
+        "discipline": "efoil/surf",
+        "sentiment": "very positive",
+        "reactions": 1,
+        "comments": 0,
+        "key_intel": "Rider enthusiastic about AXIS integrated efoil mast. Reports RUMORS of a fatty integrated efoil mast in development. High praise for axis catalog direction.",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_27_1700_001",
+        "poster": "Andrea Fanelli",
+        "badge": "Rising contributor",
+        "posted": "~1 day ago",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1566387004459585/",
+        "text": "Hi all, I'm 85 kg and mainly use my setup for wingfoiling and downwind runs with the wing, mostly on lakes. I consider myself an intermediate winger. My current quiver is: ART V2 999 for 14-25mph and ART V2 939 for strong wind days (20-25mph). The 999 is my daily driver (I use it 90% of the time). After an initial adjustment period, I've really come to love the ART V2 wings... The challenge is that I live in Seattle, where the wind can often be quite light (8-14mph). Getting the 999 to take off in such light winds is exhausting and frustrating, so much pumping... I'm looking for a light-wind front wing (8-14 mph) that still feels fun and fast, similar to my ART V2 foils. I am mostly considering the Surge 1010 or the artV2 1099, but I worry they might not be enough for such light winds. Any recommendation? How do they compare in terms of turn ability and low end?",
+        "foils_mentioned": ["ART V2 999", "ART V2 939", "PNG 910B", "Spitfire 1180", "Surge 1010", "ART V2 1099", "PNG 1200 v2", "Fireball"],
+        "rider_weight_kg": 85,
+        "discipline": "wingfoil/downwind",
+        "location": "Seattle",
+        "sentiment": "neutral - seeking advice",
+        "reactions": 0,
+        "comments": 6,
+        "comments_detail": [
+          {
+            "commenter": "Leonardo Loppi",
+            "time": "17h ago",
+            "text": "Go for surge. Art V2 is not friendly in take off. 1180 the best for that, but as you said not that funny. If you can start 999 in light wind, go for Surge 950 and will find how easy it going on. As others says stab is very important too. Progressive for start early, skinny for go faster, surf for be more loose and manovrable",
+            "reactions": 3
+          },
+          {
+            "commenter": "Andrea Fanelli (reply to Leonardo)",
+            "time": "9h ago",
+            "text": "you think 950 is enough for such light winds at my weight? I wish I could demo it in my area"
+          },
+          {
+            "commenter": "Sean Richardson",
+            "badge": "Top contributor",
+            "time": "1 day ago",
+            "text": "I'm 85kg. Used to ride 1099 and 999v1, 939v2, 1030 spitfire, etc. 1030 was my latest light wind foil for winging with 6.5m and 94ltr 23\" wide board, until I made the switch to Surges - 1010, 890, 830, etc. Surge 1010 is my light wind weapon, and the most fun I've had on a big wing. For winging, I would never go bigger - it has incredibly low take off speed - a couple of pumps in 10knots and I'm up and flying. For turning, you will get a lot out of going shorter Fuse and small stab with your 1180, or any large foil. On my 1010, I use a silly short adv++ and ride progressive stab 275 - this set up loosens the big foils up considerably.",
+            "reactions": 1
+          },
+          {
+            "commenter": "Sean Richardson (self-reply)",
+            "time": "1 day ago",
+            "text": "Just thinking some more... if you truly want to get going in 8mph... the Surge sounds like what you are looking for, but maybe you have to wait for a larger one to come out. As mentioned, you might first try a very short fuse, and the right surf stab - maybe 300p, with your 1180 to loosen it up. I am very happy with the 1010 Surge as my light wind foil, but generally don't go out unless it is averaging more than 10knots.",
+            "reactions": 1
+          },
+          {
+            "commenter": "Shaun Henderson",
+            "time": "1 day ago",
+            "text": "I'm in Tacoma. 72kg. For true light wind (<8kt) im on 1180 but as soon as there is a gust in 10kt range im switching to Surge 950. It's amazing how well it pumps off the water and has become my go to for everything but the lightest wind.",
+            "reactions": 1
+          },
+          {
+            "commenter": "Jon Verhoek",
+            "time": "1 day ago",
+            "text": "Both the 1010 and 1099 have tonnes more low end than the 999. Try either or both",
+            "reactions": 1
+          }
+        ],
+        "key_intel": "Community consensus: Surge 1010 is the go-to for 85kg light wind winger. Surge 950 can work from 10kt+. ART V2 not friendly for light wind takeoffs. Stab selection critical. Unanswered: No response from Andrea on whether she'll try Surge 950.",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_27_1500_001",
+        "poster": "Doug D PFoiler",
+        "badge": "Top contributor",
+        "posted": "~1 day ago",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1566289704469315/",
+        "text": "Hybrid Carbon foil boards - Was wondering anyone in the know if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing?",
+        "foils_mentioned": ["Hybrid Carbon foil boards"],
+        "discipline": "parawing",
+        "sentiment": "curious",
+        "reactions": 1,
+        "comments": 1,
+        "comments_detail": [
+          {
+            "commenter": "Adrian Roper",
+            "badges": ["Group expert", "All-star contributor"],
+            "time": "15h ago",
+            "text": "Pre Frank's involvement. I designed the Hybrid and Blasts",
+            "reactions": 2,
+            "notable": true
+          }
+        ],
+        "key_intel": "CONFIRMED: Adrian Roper designed the AXIS Hybrid boards and Blasts (pre-Frank). Important attribution clarification. Boards are being used for parawing.",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_27_1700_002",
+        "poster": "Jimmy Jam Foils",
+        "badge": "Group expert",
+        "posted": "~1 day ago",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1565624764535809/",
+        "text": "Happy birthday to this Hawaiian hammah Jason foil fever - stoked to get to ride with him all week here in Southern California. New integrated mast so good he won't let anyone else demo it.",
+        "foils_mentioned": ["Integrated Mast (new)"],
+        "discipline": "efoil/surf",
+        "sentiment": "positive",
+        "reactions": 24,
+        "comments": 2,
+        "comments_detail": [
+          {
+            "commenter": "Chad Barr",
+            "time": "1 day ago",
+            "text": "That mast is a game changer!",
+            "reactions": 1
+          },
+          {
+            "commenter": "Adrian Roper",
+            "badges": ["Group expert", "All-star contributor"],
+            "time": "1 day ago",
+            "text": "Happy Birthday Jason, enjoy that California weed....",
+            "reactions": 1
+          }
+        ],
+        "key_intel": "Integrated mast being called 'game changer' by community. High engagement post (24 reactions).",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_26_1200_001",
+        "poster": "Josh N Jay",
+        "posted": "~2 days ago",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1564771827954436/",
+        "text": "Axis/Amos Nitro tip - I recently bought an Amos Nitro for prone and noticed straight away it didn't feel right. Mast pushed forward was way too much lift (Surge890) and twitchy as hell. Moving the mast back I noticed the Nitro tapers off (rocker) which causes the board to run nose high when on foil. This also affects takeoffs, pumping and makes foot position unforgiving. The Answer: 1deg Mast shim! Now takeoffs are smooth and predictable, foot position is forgiving.",
+        "foils_mentioned": ["Surge 890"],
+        "boards_mentioned": ["Amos Nitro"],
+        "discipline": "prone",
+        "sentiment": "helpful/advisory",
+        "reactions": 22,
+        "comments": 19,
+        "comments_detail": [
+          {
+            "commenter": "Mike Holland",
+            "time": "2 days ago",
+            "text": "Yep in the early days of foiling, boards still had some tail rocker, it sucked!",
+            "reactions": 0
+          },
+          {
+            "commenter": "Chris Middleton",
+            "badge": "Rising contributor",
+            "time": "2 days ago",
+            "text": "I had axis art v2 with JS Eagle 2 a while back, always wanted to nosedive, even when fully forward in the tracks. Looked like a flat board rocker. Improved with a mast shim but still frustrating. I'm on amos raptor and surge, no shim, seems a much better match.",
+            "reactions": 0
+          }
+        ],
+        "key_intel": "High-engagement post (22 reactions, 19 comments). Key tip: Amos Nitro + AXIS needs 1deg mast shim due to board rocker. Community knowledge gold - useful for Amos board compatibility notes.",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_26_1000_001",
+        "poster": "Mick Evans",
+        "badge": "Rising contributor",
+        "posted": "~2 days ago",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1564746494623636/",
+        "text": "Fatty Mast and foil drive! - Hi legends, Any power athletes at 100kg or about have experience with the fatty mast + fuse with a foil drive, max or fusion they could share please?",
+        "foils_mentioned": ["Fatty Mast", "Foildrive Max", "Foildrive Fusion"],
+        "rider_weight_kg": 100,
+        "discipline": "efoil",
+        "sentiment": "seeking advice",
+        "reactions": 0,
+        "comments": 3,
+        "comments_detail": [
+          {
+            "commenter": "Mark Shinn",
+            "badge": "All-star contributor",
+            "time": "2 days ago",
+            "text": "Not sure I am a power athlete but I am around that weight and have extensive experience with the AXIS Fatty mast and fuse! I have used it with the Fusion, Max and Slim. Not sure the unit you bolt it too makes any difference. The Universal pod...",
+            "reactions": 1,
+            "truncated": true
+          },
+          {
+            "commenter": "Jimmy Jam Foils",
+            "badge": "Group expert",
+            "time": "2 days ago",
+            "text": "Deon Aumaier has a fatty and Foildrives with it I believe. Using 1750",
+            "reactions": 0
+          }
+        ],
+        "key_intel": "Mark Shinn (all-star) confirms fatty mast works with Fusion, Max and Slim - no difference between which foildrive unit you bolt it to.",
+        "scam_flag": false
+      },
+      {
+        "id": "post_riders_2026_03_26_0900_001",
+        "poster": "Niels van der Kaaij",
+        "posted": "~2 days ago",
+        "text": "New name, same data. Enjoy! - foildata.app",
+        "foils_mentioned": [],
+        "discipline": "general",
+        "sentiment": "positive - sharing resource",
+        "reactions": 14,
+        "comments": 5,
+        "comments_detail": [
+          {
+            "commenter": "Stephen Westwood",
+            "badge": "Top contributor",
+            "time": "3 days ago",
+            "text": "The submit review isn't working: Something went wrong. Please try again.",
+            "reactions": 1
+          }
+        ],
+        "key_intel": "foildata.app rebranded. Tool for community data/setups. One user reporting submit bug - unanswered by poster.",
+        "scam_flag": false
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "followers": "6.1K",
+    "posts": [
+      {
+        "id": "official_2026_03_23_001",
+        "posted": "5 days ago (~March 23)",
+        "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. Top Disciplines: 1. Wing Foiling, 2. Downwind SUP, 3. Parawing, 4. Prone. Who's Riding: Mostly 65-85 kg. 60% foiling 4+ years. Average rider does 3+ disciplines. Top Wing Models: Surge · Fireball · Spitfire. Top Regions: US West Coast · NZ/Australia · Europe. 'Turns off the back foot like surfing. The Surge is a game changer.'",
+        "reactions": 8,
+        "comments": 1,
+        "comments_detail": [
+          {
+            "commenter": "Katrin Kolo",
+            "time": "4 days ago",
+            "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+            "reactions": 1,
+            "answered": true,
+            "answer_by": "AXIS Foils",
+            "answer_time": "2 days ago",
+            "answer_text": "Just pulled fresh from the survey (now at 241 responses): [data truncated - see more not clicked]"
+          }
+        ],
+        "key_intel": "AXIS ran community survey - 241 responses from 15+ countries. Surge is #1 wing. Demographic: 65-85kg, 4+ years riding. Survey still live. AXIS responding to comments."
+      },
+      {
+        "id": "official_2026_02_08_001",
+        "posted": "February 8 (Baja California Sur, Mexico)",
+        "text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wind blown grit, hard edges, and zero forgiveness. The palette lives in sun baked yellows, mineral blacks, oxidized reds, and sand neutrals, colors that look earned, not decorated. The textures matter as much as the hue: micro patterns that read like tough skins, custom layered finishes that suggest abrasion resistance, and contrasts that stay legible in harsh light. Because in the real world, performance isn't pristine, it's resilient. #industrialdesign #productdesign #visualengineering",
+        "reactions": 33,
+        "comments": 1,
+        "comments_detail": [
+          {
+            "commenter": "Kyriakos Giakoumaros",
+            "time": "6 weeks ago",
+            "text": "Wish i had this beauty when i was in Baja!"
+          }
+        ],
+        "key_intel": "Surge colorway rationale post. Desert-inspired aesthetic. Product/design philosophy marketing. High reactions (33)."
+      },
+      {
+        "id": "official_2026_01_18_001",
+        "posted": "January 18 (Düsseldorf, Germany - Boot Düsseldorf)",
+        "text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour - Stoked to see our team getting amongst the good times and podiums",
+        "reactions": 27,
+        "comments": 0,
+        "key_intel": "AXIS team at Boot Düsseldorf / Surf Foil World Tour. No recent posts in last 24h on official page."
+      }
+    ]
+  },
+  "scan_summary": {
+    "scam_alerts": [],
+    "posts_within_12h": [
+      "post_riders_2026_03_28_1730_001"
+    ],
+    "posts_within_24h": [
+      "post_riders_2026_03_28_1730_001",
+      "post_riders_2026_03_27_1700_001",
+      "post_riders_2026_03_27_1500_001",
+      "post_riders_2026_03_27_1700_002"
+    ],
+    "high_engagement_posts": [
+      "post_riders_2026_03_26_1200_001",
+      "post_riders_2026_03_27_1700_002"
+    ],
+    "unanswered_questions": [
+      "Andrea Fanelli: 'you think 950 is enough for such light winds at my weight?' - follow-up from Andrea herself to Leonardo, no reply from Leonardo yet",
+      "foildata.app Stephen Westwood: submit bug 'Something went wrong. Please try again.' - not answered by Niels"
+    ],
+    "product_intel": [
+      "RUMOR: Fatty integrated efoil mast in development (per Jimmy Jam Foils)",
+      "Adrian Roper CONFIRMS: He designed the Hybrid boards and Blasts (pre-Frank)",
+      "Community consensus: Surge 1010/950 for 85kg light wind winger",
+      "Amos Nitro + AXIS: requires 1deg mast shim due to board rocker",
+      "Survey: 241 respondents, Surge #1 wing, Fireball #2, Spitfire #3"
+    ]
+  }
+}

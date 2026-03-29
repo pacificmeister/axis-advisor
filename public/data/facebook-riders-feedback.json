@@ -13,9 +13,61 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-28T06:01:00-07:00"
+    "last_updated": "2026-03-28T18:00:00-07:00"
   },
   "posts": [
+    {
+      "id": "post_2026_03_28_PM_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "post_id": "1567203591044593",
+      "text": "TBH wish I would have got this mast sooner ... but it's almost a must have if u rocking a foildrive fusion. Riding 1-2 ft surf. HEARD RUMORS of a fatty integrated efoil mast. Sign me up. So stoked on the axis catalog. One of the first brands to release an integrated mast for foildrive.",
+      "foils_mentioned": ["Integrated efoil mast", "Fatty mast (rumored integrated)", "Foildrive Fusion"],
+      "discipline": "efoil/surf",
+      "sentiment": "very positive",
+      "date": "2026-03-28",
+      "reactions": 1,
+      "comments": 0,
+      "key_intel": "RUMOR: Fatty integrated efoil mast in development. Community expert very excited. AXIS praised as 'one of first brands' to release integrated mast for foildrive.",
+      "tags": ["integrated-mast", "foildrive", "efoil", "fatty-mast", "rumor"]
+    },
+    {
+      "id": "post_2026_03_28_PM_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Doug D PFoiler",
+      "badge": "Top contributor",
+      "post_id": "1566289704469315",
+      "text": "Hybrid Carbon foil boards - Was wondering if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing?",
+      "foils_mentioned": ["Hybrid Carbon boards"],
+      "discipline": "parawing",
+      "sentiment": "curious",
+      "date": "2026-03-27",
+      "reactions": 1,
+      "comments": 1,
+      "key_comment": "Adrian Roper (group expert/all-star): 'Pre Frank's involvement. I designed the Hybrid and Blasts' (confirmed attribution)",
+      "key_intel": "CONFIRMED by Adrian Roper: He designed AXIS Hybrid boards and Blasts before Frank's involvement.",
+      "tags": ["hybrid-board", "designer-attribution", "parawing", "adrian-roper"]
+    },
+    {
+      "id": "post_2026_03_28_PM_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Josh N Jay",
+      "post_id": "1564771827954436",
+      "text": "Axis/Amos Nitro tip - Amos Nitro board has rocker that causes nose-high when on foil. Fix: 1deg Mast shim. Now takeoffs are smooth and predictable, foot position forgiving. Using Surge 890.",
+      "foils_mentioned": ["Surge 890"],
+      "boards_mentioned": ["Amos Nitro"],
+      "discipline": "prone",
+      "sentiment": "helpful tip",
+      "date": "2026-03-26",
+      "reactions": 22,
+      "comments": 19,
+      "key_intel": "High-engagement tip post. Amos Nitro + AXIS Surge 890 requires 1deg mast shim to correct nose-high attitude from board rocker.",
+      "tags": ["amos-nitro", "mast-shim", "board-compatibility", "surge-890", "prone"]
+    },
     {
       "id": "post_2026_03_28_06_002",
       "source": "facebook_axis_riders",
