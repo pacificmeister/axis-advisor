@@ -6,11 +6,50 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-28T18:00:00-07:00",
-    "totalRiders": 145,
+    "lastUpdated": "2026-03-29T18:00:00-07:00",
+    "totalRiders": 147,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_03_29_PM_001",
+      "source": "FB post axisfoilriders 2026-03-29 (PM)",
+      "date": "2026-03-29",
+      "rider_name": "Dmitry Evseev",
+      "discipline": [
+        "boogie foiling",
+        "tow foiling"
+      ],
+      "current_setup": {
+        "front_wing": "Fireball 880",
+        "fuse": "Advanced+ 640",
+        "stab": "Skinny 40",
+        "mast": "Ultra 900"
+      },
+      "notes": "Manawa boogie foiling. 11 reactions, high engagement. Setup reel."
+    },
+    {
+      "id": "setup_2026_03_29_PM_002",
+      "source": "FB post axisfoilriders 2026-03-29 (PM) comment",
+      "date": "2026-03-29",
+      "rider_name": "Sean Richardson",
+      "rider_weight_kg": 85,
+      "discipline": [
+        "wingfoil"
+      ],
+      "current_setup": {
+        "front_wings": [
+          "Surge 1010",
+          "Surge 890",
+          "Surge 830"
+        ],
+        "fuse": "Adv++ (very short)",
+        "stab": "Progressive 275",
+        "board": "94L 23\" wide",
+        "wing": "6.5m"
+      },
+      "notes": "Surge 1010 is light wind weapon. Short fuse + small stab loosens big foils considerably. Transition from ART V2/Spitfire line to all-Surge quiver."
+    },
     {
       "id": "setup_2026_03_28_PM_001",
       "source": "FB post axisfoilriders 2026-03-28 (PM)",
@@ -18,16 +57,29 @@
       "rider_name": "Andrea Fanelli",
       "rider_role": "Rising contributor",
       "rider_weight_kg": 85,
-      "discipline": ["wingfoil", "downwind"],
+      "discipline": [
+        "wingfoil",
+        "downwind"
+      ],
       "location": "Seattle (lakes, light wind 8-14mph)",
       "current_setup": {
-        "front_wings": ["ART V2 999", "ART V2 939", "PNG 910B", "Spitfire 1180"],
+        "front_wings": [
+          "ART V2 999",
+          "ART V2 939",
+          "PNG 910B",
+          "Spitfire 1180"
+        ],
         "primary_wing": "ART V2 999",
         "use_wind_range_mph": "14-25 (999), 20-25 (939)",
         "challenge": "Light wind 8-14mph - ART V2 999 hard to take off"
       },
       "seeking": "Light-wind front wing 8-14mph with fun/fast feel like ART V2",
-      "considering": ["Surge 1010", "ART V2 1099", "Fireball", "PNG 1200 v2"],
+      "considering": [
+        "Surge 1010",
+        "ART V2 1099",
+        "Fireball",
+        "PNG 1200 v2"
+      ],
       "community_advice": "Surge 1010 (Sean Richardson: 'my light wind weapon'). Surge 950 from 10kt+ (Shaun Henderson: 72kg). ART V2 1099 also has more low end than 999.",
       "skill_level": "intermediate",
       "notes": "Interested in dock start. Doesn't love Spitfire 1180 (hard to turn)."
@@ -38,10 +90,15 @@
       "date": "2026-03-28",
       "rider_name": "Shaun Henderson",
       "rider_weight_kg": 72,
-      "discipline": ["wingfoil"],
+      "discipline": [
+        "wingfoil"
+      ],
       "location": "Tacoma, WA",
       "current_setup": {
-        "front_wings": ["Spitfire 1180", "Surge 950"],
+        "front_wings": [
+          "Spitfire 1180",
+          "Surge 950"
+        ],
         "usage": "<8kt: 1180, 10kt+: Surge 950"
       },
       "notes": "Surge 950 at 72kg pumps off water easily in 10kt gusts. Has not tried 1010 but suspects it would replace 1180."
@@ -53,16 +110,26 @@
       "rider_name": "Sean Richardson",
       "rider_role": "Top contributor",
       "rider_weight_kg": 85,
-      "discipline": ["wingfoil"],
+      "discipline": [
+        "wingfoil"
+      ],
       "current_setup": {
-        "front_wings": ["Surge 1010", "Surge 890", "Surge 830"],
+        "front_wings": [
+          "Surge 1010",
+          "Surge 890",
+          "Surge 830"
+        ],
         "primary_wing": "Surge 1010",
         "fuse": "ADV++ (very short)",
         "stab": "Progressive 275",
         "board": "94 ltr, 23\" wide",
         "wing_size": "6.5m"
       },
-      "previous_setup": ["ART V2 999 v1", "ART V2 939 v2", "Spitfire 1030"],
+      "previous_setup": [
+        "ART V2 999 v1",
+        "ART V2 939 v2",
+        "Spitfire 1030"
+      ],
       "notes": "Surge 1010 his light wind weapon. Short ADV++ + progressive 275 stab loosens big foils considerably. Rides 830 in 13-14kt. Generally waits for 10kt+ average."
     },
     {
@@ -72,7 +139,9 @@
       "rider_name": "Mick Evans",
       "rider_role": "Rising contributor",
       "rider_weight_kg": 100,
-      "discipline": ["efoil"],
+      "discipline": [
+        "efoil"
+      ],
       "seeking": "Fatty mast + fuse + Foildrive experience at 100kg",
       "notes": "Mark Shinn confirmed fatty mast works with Fusion/Max/Slim. Deon Aumaier uses fatty + 1750 with Foildrive."
     },

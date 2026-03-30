@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 419,
+    "total_entries": 451,
     "sources": {
-      "facebook_groups": 101,
+      "facebook_groups": 103,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,9 +13,62 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-28T18:00:00-07:00"
+    "last_updated": "2026-03-29T18:00:00-07:00"
   },
   "posts": [
+    {
+      "id": "post_2026_03_29_PM_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "post_id": "1567814730983479",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on the bumps. Small 1-2ft shore break type of day. Local wakesurf Austin Keen also came to rip the shore break. Got tired of waiting for sets so put efoil mast on to rip around flat water while waiting for waves. Been catching waves and boat wakes with Lift efoils for 6+ years.",
+      "foils_mentioned": [
+        "AXIS integrated mast",
+        "Fusion (motor)",
+        "efoil motor pod"
+      ],
+      "discipline": "efoil/surf/wave",
+      "sentiment": "very positive",
+      "date": "2026-03-29",
+      "reactions": 3,
+      "comments": 1,
+      "key_intel": "Demonstrates catching waves with motor off on efoil mast. Shows integrated mast versatility. Unanswered question from Bardy Matias about motor drag and Stoke Boost comparison.",
+      "tags": [
+        "integrated-mast",
+        "efoil",
+        "wave-riding",
+        "motor-off",
+        "fusion"
+      ]
+    },
+    {
+      "id": "post_2026_03_29_PM_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Dmitry Evseev",
+      "post_id": "reel_2325395194614489",
+      "text": "Fireball 880, Adv+ 640, Skinny 40, Ultra 900 \u2014 Manawa Boogie Foiling reel",
+      "foils_mentioned": [
+        "Fireball 880",
+        "Advanced+ 640 fuse",
+        "Skinny 40 stab",
+        "Ultra 900 mast"
+      ],
+      "discipline": "boogie foiling / tow foiling",
+      "sentiment": "positive",
+      "date": "2026-03-29",
+      "reactions": 11,
+      "comments": 0,
+      "key_intel": "High-performance boogie foiling setup. 11 reactions shows strong community interest in this discipline. Manawa brand collaboration.",
+      "tags": [
+        "fireball",
+        "boogie-foiling",
+        "tow-foiling",
+        "setup"
+      ]
+    },
     {
       "id": "post_2026_03_28_PM_001",
       "source": "facebook_axis_riders",
@@ -24,14 +77,24 @@
       "badge": "Group expert",
       "post_id": "1567203591044593",
       "text": "TBH wish I would have got this mast sooner ... but it's almost a must have if u rocking a foildrive fusion. Riding 1-2 ft surf. HEARD RUMORS of a fatty integrated efoil mast. Sign me up. So stoked on the axis catalog. One of the first brands to release an integrated mast for foildrive.",
-      "foils_mentioned": ["Integrated efoil mast", "Fatty mast (rumored integrated)", "Foildrive Fusion"],
+      "foils_mentioned": [
+        "Integrated efoil mast",
+        "Fatty mast (rumored integrated)",
+        "Foildrive Fusion"
+      ],
       "discipline": "efoil/surf",
       "sentiment": "very positive",
       "date": "2026-03-28",
       "reactions": 1,
       "comments": 0,
       "key_intel": "RUMOR: Fatty integrated efoil mast in development. Community expert very excited. AXIS praised as 'one of first brands' to release integrated mast for foildrive.",
-      "tags": ["integrated-mast", "foildrive", "efoil", "fatty-mast", "rumor"]
+      "tags": [
+        "integrated-mast",
+        "foildrive",
+        "efoil",
+        "fatty-mast",
+        "rumor"
+      ]
     },
     {
       "id": "post_2026_03_28_PM_002",
@@ -41,7 +104,9 @@
       "badge": "Top contributor",
       "post_id": "1566289704469315",
       "text": "Hybrid Carbon foil boards - Was wondering if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing?",
-      "foils_mentioned": ["Hybrid Carbon boards"],
+      "foils_mentioned": [
+        "Hybrid Carbon boards"
+      ],
       "discipline": "parawing",
       "sentiment": "curious",
       "date": "2026-03-27",
@@ -49,7 +114,12 @@
       "comments": 1,
       "key_comment": "Adrian Roper (group expert/all-star): 'Pre Frank's involvement. I designed the Hybrid and Blasts' (confirmed attribution)",
       "key_intel": "CONFIRMED by Adrian Roper: He designed AXIS Hybrid boards and Blasts before Frank's involvement.",
-      "tags": ["hybrid-board", "designer-attribution", "parawing", "adrian-roper"]
+      "tags": [
+        "hybrid-board",
+        "designer-attribution",
+        "parawing",
+        "adrian-roper"
+      ]
     },
     {
       "id": "post_2026_03_28_PM_003",
@@ -58,15 +128,25 @@
       "rider": "Josh N Jay",
       "post_id": "1564771827954436",
       "text": "Axis/Amos Nitro tip - Amos Nitro board has rocker that causes nose-high when on foil. Fix: 1deg Mast shim. Now takeoffs are smooth and predictable, foot position forgiving. Using Surge 890.",
-      "foils_mentioned": ["Surge 890"],
-      "boards_mentioned": ["Amos Nitro"],
+      "foils_mentioned": [
+        "Surge 890"
+      ],
+      "boards_mentioned": [
+        "Amos Nitro"
+      ],
       "discipline": "prone",
       "sentiment": "helpful tip",
       "date": "2026-03-26",
       "reactions": 22,
       "comments": 19,
       "key_intel": "High-engagement tip post. Amos Nitro + AXIS Surge 890 requires 1deg mast shim to correct nose-high attitude from board rocker.",
-      "tags": ["amos-nitro", "mast-shim", "board-compatibility", "surge-890", "prone"]
+      "tags": [
+        "amos-nitro",
+        "mast-shim",
+        "board-compatibility",
+        "surge-890",
+        "prone"
+      ]
     },
     {
       "id": "post_2026_03_28_06_002",
