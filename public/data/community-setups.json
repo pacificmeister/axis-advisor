@@ -4225,6 +4225,75 @@
       "role": "Rising contributor",
       "mast": "820mm",
       "notes": "820mm sweet spot for wing, surf, dock, tow in rough seas; extra length for breach prevention"
+    },
+    {
+      "name": "Peter Hanning",
+      "weight_kg": 96,
+      "discipline": "parawing",
+      "foils": [
+        "Surge 1010",
+        "Fireball 1350"
+      ],
+      "board": "125L DW board",
+      "source": "AXIS Foil Riders FB",
+      "date": "2026-03-30",
+      "notes": "Surge 1010 for parawing, Fireball 1350 for light winds"
+    },
+    {
+      "name": "Chris Torckler",
+      "weight_kg": 85,
+      "discipline": "parawing",
+      "foils": [
+        "Surge 1010"
+      ],
+      "board": "6ft hybrid",
+      "wing_size": "4.0m para",
+      "source": "AXIS Foil Riders FB",
+      "date": "2026-03-30",
+      "notes": "Surge 1010 from 15 knots on 4.0 para"
+    },
+    {
+      "name": "Stephen Parker",
+      "weight_kg": 85,
+      "discipline": "parawing",
+      "foils": [
+        "Surge 1010",
+        "Surge 980"
+      ],
+      "board": "85L midlength",
+      "wing_sizes": [
+        "4.3m para",
+        "3.0m para"
+      ],
+      "source": "AXIS Foil Riders FB",
+      "date": "2026-03-30",
+      "notes": "4.3 para needs 18kt min. 3m para needs 28kt. Friend uses 5.4 para at 90kg."
+    },
+    {
+      "name": "James Moolenschot",
+      "weight_kg": 82,
+      "discipline": "parawing",
+      "foils": [
+        "Surge 1010",
+        "ART v2 1099"
+      ],
+      "board": "90L board",
+      "source": "AXIS Foil Riders FB",
+      "date": "2026-03-30",
+      "notes": "ART v2 1099 recommended for learning parawing for extra glide through gybes"
+    },
+    {
+      "name": "Dmitry Evseev",
+      "discipline": "tow/boogie",
+      "foils": [
+        "Fireball 880"
+      ],
+      "board": "Advanced+ 640",
+      "stabilizer": "Skinny 40",
+      "mast": "Ultra 900",
+      "source": "AXIS Foil Riders FB",
+      "date": "2026-03-30",
+      "notes": "Manawa Boogie Foiling setup"
     }
   ],
   "aggregations": {
@@ -4590,6 +4659,6 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-03-24T18:22:00-07:00"
+    "last_updated": "2026-03-30T18:00:00-07:00"
   }
 }

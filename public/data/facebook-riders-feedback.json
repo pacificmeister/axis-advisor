@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 451,
+    "total_entries": 452,
     "sources": {
       "facebook_groups": 103,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-29T18:00:00-07:00"
+    "last_updated": "2026-03-30T18:00:00-07:00"
   },
   "posts": [
     {
@@ -8532,6 +8532,38 @@
       "type": "expert",
       "date": "2025-04-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=AqnKQR3WjYo"
+    },
+    {
+      "id": "fb_riders_20260330_1",
+      "source": "facebook_axisfoilriders",
+      "source_label": "AXIS Foil Riders Group",
+      "date": "2026-03-30",
+      "rider": "Mats Nilsson Hahne",
+      "rider_weight_kg": 80,
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? Owns Surge 950, finds it easy to get up but small for learning parawing. Decent wingfoiler since 2021.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Surge 950",
+        "Spitfire 1030",
+        "Spitfire 1100"
+      ],
+      "discipline": "parawing",
+      "sentiment": "question",
+      "tags": [
+        "parawing",
+        "foil_selection",
+        "learning",
+        "surge_vs_spitfire"
+      ],
+      "comment_highlights": [
+        "Sean Richardson (85kg): Surge 1010 > SF 1030 for glide/bumps/waves",
+        "Doug D PFoiler (100kg): SF 1100 best for learning, learned on 1180",
+        "Peter Hanning (96kg): Surge 1010 awesome for parawing on 125L DW board",
+        "Stephen Parker: Para size matters more - 4.3 para needs 18kt min",
+        "James Moolenschot (82kg): ART v2 1099 best intro for extra glide during gybes",
+        "Chris Torckler (85kg): Surge 1010 on 6ft hybrid from 15kt on 4.0 para",
+        "Mark Shinn: Surge 1010 takes off significantly earlier than ART v2 1099"
+      ]
     }
   ]
 }
