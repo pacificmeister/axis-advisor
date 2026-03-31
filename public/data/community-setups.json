@@ -6,11 +6,58 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-29T18:00:00-07:00",
-    "totalRiders": 147,
+    "lastUpdated": "2026-03-31T06:09:00-07:00",
+    "totalRiders": 155,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_03_31_AM_001",
+      "source": "FB post axisfoilriders 2026-03-31 (AM)",
+      "date": "2026-03-31",
+      "rider_name": "Andrew Clayton",
+      "discipline": [
+        "kite foiling"
+      ],
+      "weight_kg": null,
+      "front_wing": "Surge 740",
+      "mast": "ADV+ Ultra Short",
+      "tail": "P275",
+      "board": "FD Assist+",
+      "notes": "Most playful kite setup. Twitchy pitch on FD Assist+ - fix: 1deg positive shim or bigger stab"
+    },
+    {
+      "id": "setup_2026_03_31_AM_002",
+      "source": "FB post axisfoilriders 2026-03-31 (AM)",
+      "date": "2026-03-31",
+      "rider_name": "Nick Restivo",
+      "discipline": [
+        "SUP foil",
+        "para wing",
+        "dockstart",
+        "downwind"
+      ],
+      "weight_kg": 79,
+      "front_wing": "1300v1 / Art Pro 1201 / 999v2",
+      "tail": "360/45",
+      "board": "Armstrong DW V1 107L",
+      "notes": "Looking for better pump foil. 1300v1 too big for surf. 1201 drops out during pump."
+    },
+    {
+      "id": "setup_2026_03_31_AM_003",
+      "source": "FB post axisfoilriders 2026-03-31 (AM)",
+      "date": "2026-03-31",
+      "rider_name": "Sean Richardson",
+      "badge": "Top contributor",
+      "discipline": [
+        "kite foiling",
+        "wingfoiling"
+      ],
+      "weight_kg": 85,
+      "front_wing": "Surge 780 / 830 / 890 / 1010",
+      "tail": "Progressive stabs (250p on 1010, 275p on 830/890, 300p on 780)",
+      "notes": "Rides progressive stabs across all Surges. 1010 is light wind weapon."
+    },
     {
       "id": "setup_2026_03_29_PM_001",
       "source": "FB post axisfoilriders 2026-03-29 (PM)",

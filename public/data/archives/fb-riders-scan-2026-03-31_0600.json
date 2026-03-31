@@ -1,0 +1,187 @@
+{
+  "scan_timestamp": "2026-03-31T06:09:00-07:00",
+  "scan_utc": "2026-03-31T13:09:00Z",
+  "source": "AXIS Foil Riders Facebook Group + AXIS Foils Official Page",
+  "sort": "New Posts (Chronological)",
+  "riders_group_posts": [
+    {
+      "id": "post_1",
+      "author": "Andrew Clayton",
+      "time_relative": "5 hours ago",
+      "timestamp_approx": "2026-03-31T01:00:00-07:00",
+      "text": "I kite on surge 740, adv+ ultrashort, p275. It's the most playful setup iv ever tried! Decided to try that setup with my FD assist +. I couldn't flat water start it, needed a little bump. Had great glide and super easy to pump for such a small foil but it was super twitchy especially controlling pitch. Any one tried similar setup, would a bigger stab help? Thanks",
+      "reactions": 0,
+      "comments_count": 2,
+      "discipline": "kite foiling",
+      "products_mentioned": ["Surge 740", "ADV+ Ultra Short", "P275 stab", "FD Assist+"],
+      "rider_weight": null,
+      "sentiment": "positive with issue (twitchy pitch on FD Assist+)",
+      "key_comments": [
+        {
+          "author": "Paul Hurley",
+          "badge": "Rising contributor",
+          "time": "4h",
+          "text": "I had the same problem with my surge 830 adv+ultra 320ss. Put a 1 deg positive shim on the tail. Settled down the twitchness and had much better pitch control.",
+          "reactions": 1
+        },
+        {
+          "author": "Sean Richardson",
+          "badge": "Top contributor",
+          "time": "2h",
+          "text": "A bigger stab can help. I ride all the Surges with progressive stabs. Was just out on the 780 and 300p… I use the smaller stabs for bigger foils, so 275p on 830 and 890 and 250p on 1010.",
+          "reactions": 0
+        }
+      ]
+    },
+    {
+      "id": "post_2",
+      "author": "Nick Restivo",
+      "time_relative": "6 hours ago",
+      "timestamp_approx": "2026-03-31T00:00:00-07:00",
+      "title": "Which wings are easy to pump on SUP?",
+      "text": "I'm 175lbs and currently SUP foil, para wing (+dw), and dockstart on the 1300v1. I also have an Art Pro 1201 and a 999v2… but I cannot consistently pump either of them for the life of me. I hear that the 1201 is supposed to be a pump machine, but as soon as I loose speed it'll drop out hard on me. I also can't flat water popup on it, but the 1300 is starting to feel real big in the surf and slow in the bumps. Is there a larger Surge coming that might fill this gap? Does something like a FB 1350 make more sense even though it has the same area as 1201? Or do I just have a gap in technique that not letting me pump my 1201 efficiently on SUP? Thanks for any thoughts here. Also my tail is a 360/45 and I ride the armstrong dw v1 107L if important",
+      "reactions": 1,
+      "comments_count": 3,
+      "discipline": "SUP foil / para wing / dockstart / downwind",
+      "products_mentioned": ["1300v1", "Art Pro 1201", "999v2", "Fireball 1350", "360 tail", "Skinny 45", "Armstrong DW V1 107L board"],
+      "rider_weight": "175 lbs (79 kg)",
+      "sentiment": "frustrated with pumping, asking for guidance",
+      "key_comments": [
+        {
+          "author": "Mark Shinn",
+          "badge": "All-star contributor",
+          "time": "6h",
+          "text": "Hi Nick, Good news and Bad..... the good news.... yes the Fireball 1350 is a very very easy foil to pump. It is amazingly efficient for glide and forward speed. It will air very nicely with your skinny 45. That was the good news. Now the bad.... the 1201 is not the easiest foil to pump but it is a very good pump foil and if you are loosing height on the mast and then dropping out the sky it is unfortunately a technique failure. As a start place In would guess your pump action is to vertical and you are not generating forward motion with the legs..... Will spending money improve things - yes Will spending money fix the under-lying issue - no probably not.",
+          "reactions": 4
+        },
+        {
+          "author": "Jani Hocevar",
+          "badge": null,
+          "time": "5h",
+          "text": "Png 1310",
+          "reactions": 0
+        }
+      ]
+    },
+    {
+      "id": "post_3",
+      "author": "Mats Nilsson Hahne",
+      "badge": "Top contributor",
+      "time_relative": "16 hours ago",
+      "timestamp_approx": "2026-03-30T14:00:00-07:00",
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? I have the Surge 950, even if it gets up real easy I think it is on the small side for me to learn parawing? Edit: I am a fairly decent wingfoiler (gybes, tacks, jumps) and have been foiling since 2021.",
+      "reactions": 3,
+      "comments_count": 12,
+      "discipline": "parawing / wingfoiling",
+      "products_mentioned": ["Surge 1010", "Spitfire 1030", "Spitfire 1100", "Surge 950"],
+      "rider_weight": "80 kg",
+      "sentiment": "seeking advice, positive on Surge 950",
+      "key_comments": [
+        {
+          "author": "Mark Shinn",
+          "badge": "All-star contributor",
+          "time": "8h",
+          "text": "The spitfire is an awesome wing wing and has been for a few years now but the Surge has the benefit of several years more knowledge and R and D and is one of the new high camber foil designs. The early starting, pump and glide and of course playfulness are a level up from the Spitfire. I would go Surge 100% - and I do, at just under 100kg the 1010 is my goto for parawing sessions.",
+          "reactions": 2
+        },
+        {
+          "author": "Sean Richardson",
+          "badge": "Top contributor",
+          "time": "16h",
+          "text": "1010 Surge is my light wind weapon for wingfoiling. I'm 85 kg. I can't comment on Parawing specifically, but if your board gets you going easily enough on your 950, then Surge 1010 could be the ideal wing. I had the Spitfire 1030 previously and like it for super light wind but was a bit slow. Surge 1010 gets going as easily or more so than the SF 1030, and glides so much better - much more fun for bumps and waves.",
+          "reactions": 2
+        }
+      ]
+    },
+    {
+      "id": "post_4",
+      "author": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "tagged": "Austin Keen",
+      "time_relative": "1 day ago",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on the bumps Small 1-2ft shore break type of day.. but nice conditions for filming and had friends wanting to go out. Local wakesurf and first person to have a foil named after them (Austin keen wake model by liquid force for wake in 2017?) also came to rip the shore break (footage at the end). Got tired of waiting for sets so half way through decided to put the efoil mast on to rip around flat water while waiting for waves. Been catching waves and boat wakes with mt lift efoils for over 6 years now and always surprised to hear people think it's not possible to do with motor drag. It's fairly easy with some good coaching and practice.",
+      "reactions": 4,
+      "comments_count": 1,
+      "discipline": "efoil / surf foiling",
+      "products_mentioned": ["AXIS integrated mast", "Fusion", "Lift eFoil"],
+      "sentiment": "positive showcase",
+      "media": "video (3:49) + image",
+      "key_comments": [
+        {
+          "author": "Bardy Matias",
+          "time": "1d",
+          "text": "Can you feel a lot of drag tho? I've never even considered tryna ride motor off? You think a Stoke Boost would be similar?",
+          "reactions": 0,
+          "unanswered": true
+        }
+      ]
+    },
+    {
+      "id": "post_5",
+      "author": "Dmitry Evseev",
+      "time_relative": "Mar 28 (3 days ago)",
+      "text": "Fireball 880, Adv+ 640, Skinny 40, Ultra 900",
+      "reactions": 12,
+      "comments_count": 0,
+      "discipline": "tow foiling / boogie",
+      "products_mentioned": ["Fireball 880", "ADV+ 640", "Skinny 40", "Ultra 900"],
+      "rider_weight": null,
+      "sentiment": "positive (video reel - Manawa Boogie Foiling)",
+      "media": "reel video"
+    }
+  ],
+  "official_page_posts": [
+    {
+      "id": "official_1",
+      "author": "AXIS Foils",
+      "date": "March 23, 2026",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change…",
+      "link": "What's Your Favorite AXIS Setup? (Google Docs survey)",
+      "reactions": 8,
+      "comments_count": 2,
+      "key_comments": [
+        {
+          "author": "Katrin Kolo",
+          "time": "6 days ago",
+          "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+          "replied_by_axis": true,
+          "axis_reply": "Just pulled fresh from the survey (now at 241 responses)…",
+          "axis_reply_time": "4 days ago"
+        }
+      ]
+    },
+    {
+      "id": "official_2",
+      "author": "AXIS Foils",
+      "location": "Baja California Sur, Mexico",
+      "date": "February 8, 2026",
+      "text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wi…",
+      "reactions": 33,
+      "comments_count": 1,
+      "shares": 2,
+      "key_comments": [
+        {
+          "author": "Kyriakos Giakoumaros",
+          "time": "7 weeks ago",
+          "text": "Wish i had this beauty when i was in Baja!",
+          "reply": {
+            "author": "Vangelis Evan Mavridoglou",
+            "time": "4 weeks ago",
+            "text": "Anything we can do to bring you back"
+          }
+        }
+      ]
+    },
+    {
+      "id": "official_3",
+      "author": "AXIS Foils",
+      "location": "Düsseldorf, Germany",
+      "date": "January 18, 2026",
+      "text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour. Stoked to see our team getting amongst the good times and podiums #axisfoils…",
+      "reactions": 27,
+      "shares": 2,
+      "comments_count": 0,
+      "views": "1.8K"
+    }
+  ]
+}

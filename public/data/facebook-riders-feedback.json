@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 452,
+    "total_entries": 428,
     "sources": {
-      "facebook_groups": 103,
+      "facebook_groups": 106,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,9 +13,82 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-30T18:00:00-07:00"
+    "last_updated": "2026-03-31T06:09:00-07:00"
   },
   "posts": [
+    {
+      "id": "post_2026_03_31_AM_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Andrew Clayton",
+      "post_id": "1568909177540701",
+      "text": "I kite on surge 740, adv+ ultrashort, p275. Most playful setup ever tried! Tried same setup with FD assist +. Couldnt flat water start, needed a little bump. Great glide and easy to pump for such a small foil but super twitchy especially controlling pitch.",
+      "foils_mentioned": [
+        "Surge 740",
+        "ADV+ Ultra Short",
+        "P275",
+        "FD Assist+"
+      ],
+      "discipline": "kite foiling",
+      "sentiment": "positive_with_issue",
+      "issue": "Surge 740 too twitchy on pitch with FD Assist+ board",
+      "fix_suggested": "Positive shim on tail (1 deg) or bigger stab (300p)",
+      "engagement": {
+        "reactions": 0,
+        "comments": 2
+      },
+      "date": "2026-03-31",
+      "scan_time": "2026-03-31T06:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_31_AM_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Nick Restivo",
+      "post_id": "1568855884212697",
+      "text": "Which wings are easy to pump on SUP? 175lbs, SUP foil/para wing/dockstart on 1300v1. Also have Art Pro 1201 and 999v2 but cant consistently pump either. 1201 drops out hard when losing speed. Asking about Fireball 1350 or larger Surge.",
+      "foils_mentioned": [
+        "1300v1",
+        "Art Pro 1201",
+        "999v2",
+        "Fireball 1350",
+        "Surge (larger)"
+      ],
+      "discipline": "SUP foil / para wing / dockstart / downwind",
+      "sentiment": "seeking_help",
+      "issue": "Cannot pump Art Pro 1201 or 999v2 consistently on SUP",
+      "expert_response": "Mark Shinn (All-star): FB 1350 very easy to pump but 1201 pumping issue is likely technique - pump action too vertical, not generating forward motion",
+      "engagement": {
+        "reactions": 1,
+        "comments": 3
+      },
+      "date": "2026-03-31",
+      "scan_time": "2026-03-31T06:00:00-07:00"
+    },
+    {
+      "id": "post_2026_03_31_AM_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Mats Nilsson Hahne",
+      "badge": "Top contributor",
+      "post_id": "1568586750906277",
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? Have Surge 950, gets up easy but seems small for learning parawing. Decent wingfoiler since 2021.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030",
+        "Spitfire 1100",
+        "Surge 950"
+      ],
+      "discipline": "parawing / wingfoiling",
+      "sentiment": "seeking_advice",
+      "expert_response": "Mark Shinn: Go Surge 100% over Spitfire. 1010 is his goto for parawing at ~100kg. Sean Richardson: 1010 Surge gets going as easily as SF 1030 but glides much better.",
+      "engagement": {
+        "reactions": 3,
+        "comments": 12
+      },
+      "date": "2026-03-31",
+      "scan_time": "2026-03-31T06:00:00-07:00"
+    },
     {
       "id": "post_2026_03_29_PM_001",
       "source": "facebook_axis_riders",
