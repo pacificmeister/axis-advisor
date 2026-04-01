@@ -4706,6 +4706,51 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-03-30T18:00:00-07:00"
-  }
+    "last_updated": "2026-03-31T18:01:00-07:00"
+  },
+  "new_setups_2026_03_31_PM": [
+    {
+      "rider": "Nick Restivo",
+      "weight_lbs": 175,
+      "disciplines": ["SUP foil", "para wing", "downwind", "dockstart"],
+      "primary_foil": "PNG 1300v1",
+      "other_foils": ["Art Pro 1201", "999v2"],
+      "tail": "360/45",
+      "board": "Armstrong DW v1 107L",
+      "notes": "Can pump 1300v1 but struggling to pump 1201 and 999v2. Considering PNG 1300v2 or Fireball 1350. Community advised: technique improvement needed, bigger stab (Progressive 375 vs Skinny 45) helps dramatically for pumping."
+    },
+    {
+      "rider": "Andrew Clayton",
+      "weight_lbs": null,
+      "disciplines": ["kite foiling", "Foil Drive assist"],
+      "primary_foil": "Surge 740",
+      "fuse": "ADV+ Ultrashort",
+      "tail": "P275",
+      "notes": "Most playful kite setup ever. When switching to FD Assist+, couldn't flat water start, twitchy pitch. Community advised: 1 deg positive shim helps, bigger stab or longer fuse for FD, or just give it more sessions."
+    },
+    {
+      "rider": "Sean Richardson",
+      "weight_kg": 85,
+      "disciplines": ["wingfoil", "kite foil"],
+      "stab_guide": "Progressive stabs on all Surges: 300p on 780, 275p on 830/890, 250p on 1010",
+      "notes": "Surge 1010 is light wind weapon for wingfoiling. Had Spitfire 1030 previously - Surge 1010 gets going as easily, glides much better."
+    },
+    {
+      "rider": "Peter Hanning",
+      "weight_kg": 96,
+      "disciplines": ["parawing"],
+      "primary_foil": "Surge 1010",
+      "board": "125L DW board",
+      "other_foils": ["Fireball 1350"],
+      "notes": "Surge 1010 awesome for parawing. FB 1350 for light winds."
+    },
+    {
+      "rider": "Igor Mayorov",
+      "weight_kg": 92,
+      "disciplines": ["wingfoil", "parawing"],
+      "foils_compared": ["Surge 1010", "ART v2 1099"],
+      "board": "102L midlength",
+      "notes": "Surge 1010 much better in turns and lift-up. ART v2 1099 has better glide. Surge feels nicer even in strong wind."
+    }
+  ]
 }
