@@ -4586,6 +4586,81 @@
   },
   "setups": [
     {
+      "id": "setup_2026_04_01_001",
+      "rider": "Fraser Shaw",
+      "weight": null,
+      "discipline": "pumping / bump riding",
+      "front_wing": "Surge 1010",
+      "tail": null,
+      "mast": null,
+      "fuselage": null,
+      "board": null,
+      "notes": "10 days straight, improved pumping immensely. Easy redirects, promotes stacked stance.",
+      "sentiment": "very_positive",
+      "source": "fb_riders_group",
+      "date": "2026-04-01"
+    },
+    {
+      "id": "setup_2026_04_01_002",
+      "rider": "Darren Kite",
+      "weight": null,
+      "discipline": "general",
+      "front_wing": "Surge 830",
+      "tail": null,
+      "mast": null,
+      "fuselage": null,
+      "board": null,
+      "notes": "New arrival, excited.",
+      "sentiment": "very_positive",
+      "source": "fb_riders_group",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "setup_2026_04_01_003",
+      "rider": "Andrew Clayton",
+      "weight": null,
+      "discipline": "kite foil / foil drive",
+      "front_wing": "Surge 740",
+      "tail": "P275",
+      "mast": null,
+      "fuselage": "ADV+ Ultra Short",
+      "board": "FD Assist+",
+      "notes": "Most playful kite setup ever. Twitchy pitch on FD. Fix: 1deg pos shim on tail (Paul Hurley). Mark Shinn: 740 small for FD, give it time or go bigger stab.",
+      "sentiment": "positive_with_issue",
+      "source": "fb_riders_group",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "setup_2026_04_01_004",
+      "rider": "Nick Restivo",
+      "weight": "175 lbs",
+      "discipline": "SUP foil / parawing / dockstart / DW",
+      "front_wing": "1300v1 / Art Pro 1201 / 999v2",
+      "tail": "360/45",
+      "mast": null,
+      "fuselage": null,
+      "board": "Armstrong DW V1 107L",
+      "notes": "Can't pump 1201 consistently. Mark Shinn says technique, not equipment. Jake David recommends Progressive 375 stab instead of Skinny 45 for SUP pumping on 1201.",
+      "sentiment": "seeking_help",
+      "source": "fb_riders_group",
+      "date": "2026-03-31"
+    },
+    {
+      "id": "setup_2026_04_01_005",
+      "rider": "Dmitry Evseev",
+      "weight": null,
+      "discipline": "tow boogie",
+      "front_wing": "Fireball 880",
+      "tail": "Skinny 40",
+      "mast": "Ultra 900",
+      "fuselage": "ADV+ 640",
+      "board": null,
+      "notes": "Manawa boogie foiling. 13 reactions - high engagement.",
+      "sentiment": "very_positive",
+      "source": "fb_riders_group",
+      "date": "2026-03-28"
+    },
+    {
       "id": "cs_2026_03_24_pm_001",
       "date": "2026-03-24",
       "source": "fb_post_1563789871385965",
@@ -4706,15 +4781,24 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-03-31T18:01:00-07:00"
+    "last_updated": "2026-04-01T06:15:00-07:00",
+    "total_entries": 13
   },
   "new_setups_2026_03_31_PM": [
     {
       "rider": "Nick Restivo",
       "weight_lbs": 175,
-      "disciplines": ["SUP foil", "para wing", "downwind", "dockstart"],
+      "disciplines": [
+        "SUP foil",
+        "para wing",
+        "downwind",
+        "dockstart"
+      ],
       "primary_foil": "PNG 1300v1",
-      "other_foils": ["Art Pro 1201", "999v2"],
+      "other_foils": [
+        "Art Pro 1201",
+        "999v2"
+      ],
       "tail": "360/45",
       "board": "Armstrong DW v1 107L",
       "notes": "Can pump 1300v1 but struggling to pump 1201 and 999v2. Considering PNG 1300v2 or Fireball 1350. Community advised: technique improvement needed, bigger stab (Progressive 375 vs Skinny 45) helps dramatically for pumping."
@@ -4722,7 +4806,10 @@
     {
       "rider": "Andrew Clayton",
       "weight_lbs": null,
-      "disciplines": ["kite foiling", "Foil Drive assist"],
+      "disciplines": [
+        "kite foiling",
+        "Foil Drive assist"
+      ],
       "primary_foil": "Surge 740",
       "fuse": "ADV+ Ultrashort",
       "tail": "P275",
@@ -4731,24 +4818,37 @@
     {
       "rider": "Sean Richardson",
       "weight_kg": 85,
-      "disciplines": ["wingfoil", "kite foil"],
+      "disciplines": [
+        "wingfoil",
+        "kite foil"
+      ],
       "stab_guide": "Progressive stabs on all Surges: 300p on 780, 275p on 830/890, 250p on 1010",
       "notes": "Surge 1010 is light wind weapon for wingfoiling. Had Spitfire 1030 previously - Surge 1010 gets going as easily, glides much better."
     },
     {
       "rider": "Peter Hanning",
       "weight_kg": 96,
-      "disciplines": ["parawing"],
+      "disciplines": [
+        "parawing"
+      ],
       "primary_foil": "Surge 1010",
       "board": "125L DW board",
-      "other_foils": ["Fireball 1350"],
+      "other_foils": [
+        "Fireball 1350"
+      ],
       "notes": "Surge 1010 awesome for parawing. FB 1350 for light winds."
     },
     {
       "rider": "Igor Mayorov",
       "weight_kg": 92,
-      "disciplines": ["wingfoil", "parawing"],
-      "foils_compared": ["Surge 1010", "ART v2 1099"],
+      "disciplines": [
+        "wingfoil",
+        "parawing"
+      ],
+      "foils_compared": [
+        "Surge 1010",
+        "ART v2 1099"
+      ],
       "board": "102L midlength",
       "notes": "Surge 1010 much better in turns and lift-up. ART v2 1099 has better glide. Surge feels nicer even in strong wind."
     }

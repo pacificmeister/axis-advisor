@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 428,
+    "total_entries": 436,
     "sources": {
       "facebook_groups": 106,
       "expert_reviews": 17,
@@ -13,9 +13,147 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-31T18:01:00-07:00"
+    "last_updated": "2026-04-01T06:15:00-07:00"
   },
   "posts": [
+    {
+      "id": "post_2026_04_01_AM_001",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Fraser Shaw",
+      "post_id": "1569812140783738",
+      "text": "Hot take after 10 days on Surge 1010: It will improve your pumping immensely. It redirects so easily. Narrow stance efficient pump position becomes natural. Forces stacked position of feet centred below shoulders. Changed my style in 10 days.",
+      "foils_mentioned": [
+        "Surge 1010"
+      ],
+      "discipline": "pumping",
+      "sentiment": "very_positive",
+      "issue": null,
+      "engagement": {
+        "reactions": 2,
+        "comments": 1
+      },
+      "date": "2026-04-01",
+      "scan_time": "2026-04-01T06:00:00-07:00",
+      "notable_comments": [
+        {
+          "commenter": "Mike Jackson",
+          "text": "Can I ask you how much you weigh.",
+          "unanswered": true
+        }
+      ]
+    },
+    {
+      "id": "post_2026_04_01_AM_002",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Darren Kite",
+      "post_id": "1569431810821771",
+      "text": "My new Surge 830 arrived, yeow",
+      "foils_mentioned": [
+        "Surge 830"
+      ],
+      "discipline": "general",
+      "sentiment": "very_positive",
+      "issue": null,
+      "engagement": {
+        "reactions": 8,
+        "comments": 1
+      },
+      "date": "2026-03-31",
+      "scan_time": "2026-04-01T06:00:00-07:00",
+      "notable_comments": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "text": "Enjoy! Its an insane foil!"
+        }
+      ]
+    },
+    {
+      "id": "post_2026_04_01_AM_003",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Mats Nilsson Hahne",
+      "post_id": "1568586750906277",
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? Have the Surge 950 but think its on the small side for parawing.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030",
+        "Spitfire 1100",
+        "Surge 950"
+      ],
+      "discipline": "parawing",
+      "sentiment": "neutral_inquiry",
+      "issue": null,
+      "rider_weight": "80 kg",
+      "engagement": {
+        "reactions": 3,
+        "comments": 12
+      },
+      "date": "2026-03-31",
+      "scan_time": "2026-04-01T06:00:00-07:00",
+      "notable_comments": [
+        {
+          "commenter": "Mark Shinn",
+          "text": "Surge has benefit of newer R&D, high camber design. Surge 1010 recommended."
+        },
+        {
+          "commenter": "Sean Richardson",
+          "text": "1010 Surge is my light wind weapon for wingfoiling at 85kg."
+        }
+      ]
+    },
+    {
+      "id": "post_2026_04_01_AM_004",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "post_id": "1567814730983479",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on bumps. Small 1-2ft shore break.",
+      "foils_mentioned": [
+        "AXIS Integrated Mast",
+        "Fusion"
+      ],
+      "discipline": "efoil_wave_riding",
+      "sentiment": "positive",
+      "issue": null,
+      "engagement": {
+        "reactions": 5,
+        "comments": 1
+      },
+      "date": "2026-03-30",
+      "scan_time": "2026-04-01T06:00:00-07:00",
+      "notable_comments": [
+        {
+          "commenter": "Bardy Matias",
+          "text": "Can you feel a lot of drag? Never considered riding motor off? Think a Stoke Boost would be similar?",
+          "unanswered": true
+        }
+      ]
+    },
+    {
+      "id": "post_2026_04_01_AM_005",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Dmitry Evseev",
+      "post_id": "reel_2325395194614489",
+      "text": "Fireball 880, Adv+ 640, Skinny 40, Ultra 900 - Manawa Boogie Foiling",
+      "foils_mentioned": [
+        "Fireball 880",
+        "ADV+ 640",
+        "Skinny 40",
+        "Ultra 900"
+      ],
+      "discipline": "tow_boogie",
+      "sentiment": "very_positive",
+      "issue": null,
+      "engagement": {
+        "reactions": 13,
+        "comments": 0
+      },
+      "date": "2026-03-28",
+      "scan_time": "2026-04-01T06:00:00-07:00"
+    },
     {
       "id": "post_2026_03_31_AM_001",
       "source": "facebook_axis_riders",
@@ -8645,7 +8783,11 @@
       "rider": "Jake David",
       "post_id": "1568855884212697",
       "text": "The 1201 is a great SUP surf foil that pumps amazing with the right stab. Problem is too small a stab - on SUP can only pump 2-3 waves with skinny 45 but with progressive 375 can connect 10+ waves. Ride high on the mast, full leg extension, should be breaching occasionally for max efficiency.",
-      "foils_mentioned": ["Art Pro 1201", "Skinny 45", "Progressive 375"],
+      "foils_mentioned": [
+        "Art Pro 1201",
+        "Skinny 45",
+        "Progressive 375"
+      ],
       "discipline": "SUP surf",
       "sentiment": "positive",
       "weight_kg": null,
@@ -8660,7 +8802,11 @@
       "rider": "Angus Mackay",
       "post_id": "1568855884212697",
       "text": "The 1201 doesn't like to go slow - need to keep speed up. Should be able to dockstart and pump it in flat water for 45 seconds. Real question is bump speed - for slow bumps, 1300v2 or FB 1350 is more fun. Rides 1340 sqcm foil 90% of the time where bumps aren't fast.",
-      "foils_mentioned": ["Art Pro 1201", "PNG 1300v2", "Fireball 1350"],
+      "foils_mentioned": [
+        "Art Pro 1201",
+        "PNG 1300v2",
+        "Fireball 1350"
+      ],
       "discipline": "SUP surf, downwind",
       "sentiment": "neutral_advisory",
       "weight_kg": null,
@@ -8675,7 +8821,9 @@
       "rider": "Darren Kite",
       "post_id": "reel_1288911280000222",
       "text": "My new Surge 830 arrived, yeow",
-      "foils_mentioned": ["Surge 830"],
+      "foils_mentioned": [
+        "Surge 830"
+      ],
       "discipline": "unspecified",
       "sentiment": "very_positive",
       "weight_kg": null,
