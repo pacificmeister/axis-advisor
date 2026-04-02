@@ -1,0 +1,259 @@
+{
+  "scan_timestamp": "2026-04-02T13:01:00Z",
+  "scan_type": "12h cron (6AM Pacific)",
+  "source_group": "AXIS Foil Riders (axisfoilriders)",
+  "source_official": "AXIS Foils (axisfoils)",
+  "posts": [
+    {
+      "id": "fb_2026_04_02_001",
+      "poster": "Nikki Prochaska",
+      "posted": "10 hours ago (~3AM PDT)",
+      "type": "marketplace_listing",
+      "listing_id": "34661416486836171",
+      "text": "Axis Fireball 1750 Brand New, never used and purchased new directly from Axis. Comes exactly as it would new with the protective cover and the rubber trailing edge protection. I have decided to go a different direction with my pump foiling. Save $200 over buying new. $1,420 firm. Local pick up near Edmonds, Venmo preferred.",
+      "price": "$1,420",
+      "location": "Mukilteo, WA",
+      "condition": "New - still in bag with full protective cover",
+      "foils_mentioned": ["Fireball 1750"],
+      "reactions": 3,
+      "comments": 0,
+      "scam_flags": "NONE - appears legit. New in bag with cover, buying new price ~$1620, selling $1420. Legitimate change-of-direction reason.",
+      "sentiment": "neutral (resale)"
+    },
+    {
+      "id": "fb_2026_04_02_002",
+      "poster": "Robert Sellar",
+      "posted": "10 hours ago",
+      "type": "unavailable_content",
+      "text": "Content not available right now",
+      "reactions": 1,
+      "scam_flags": "N/A - content removed/restricted",
+      "sentiment": "unknown"
+    },
+    {
+      "id": "fb_2026_04_02_003",
+      "poster": "Ben Felan",
+      "posted": "11 hours ago",
+      "type": "question",
+      "text": "Hi Guys - What sort of rubber and glue do you use to replace the one on the baseplate?",
+      "foils_mentioned": [],
+      "reactions": 0,
+      "comments": 7,
+      "key_comments": [
+        {
+          "commenter": "Shannon Stent",
+          "badge": "Group expert, All-star contributor",
+          "text": "Someone stole my rubber base plate and I never got around to replacing it. Actually don't mind it without it now, in case you needed a plan B",
+          "replies": 3
+        },
+        {
+          "commenter": "Jimmy Jam Foils",
+          "badge": "Group expert",
+          "text": "I used rubber cement for a neighbor. Seems like it u keep mast attached to board this becomes an issue for some",
+          "edited": true
+        }
+      ],
+      "sentiment": "neutral - maintenance question"
+    },
+    {
+      "id": "fb_2026_04_02_004",
+      "poster": "Jon Imhoof",
+      "posted": "18 hours ago",
+      "type": "parts_request",
+      "text": "Anyone in Raglan happen to have a spare set of mast bolts and sliders? I'm in desperate need",
+      "foils_mentioned": [],
+      "reactions": 0,
+      "comments": 1,
+      "key_comments": [
+        {
+          "commenter": "Jon Verhoek",
+          "badge": "Top contributor",
+          "text": "What size? I have some in Hamilton I could short term loan you"
+        }
+      ],
+      "sentiment": "neutral - spare parts need (NZ community helping each other)"
+    },
+    {
+      "id": "fb_2026_04_02_005",
+      "poster": "Ian Lauder",
+      "posted": "22 hours ago",
+      "type": "product_promo",
+      "text": "new scootpump foil board looks sweet on the Fireball 1750 — link to foilingfreaks.com/scootpump",
+      "foils_mentioned": ["Fireball 1750"],
+      "reactions": 32,
+      "comments": 9,
+      "key_comments": [
+        {
+          "commenter": "Dave Harman",
+          "text": "friends don't let friends ride scooters!",
+          "reactions": 1
+        },
+        {
+          "commenter": "Mark Holmstrom",
+          "badge": "Rising contributor",
+          "text": "Wear a cup!",
+          "replies": 1
+        }
+      ],
+      "sentiment": "humorous - scooter foil board getting jokes"
+    },
+    {
+      "id": "fb_2026_04_02_006",
+      "poster": "Fraser Shaw",
+      "posted": "a day ago",
+      "type": "product_review",
+      "badge": "Top contributor",
+      "text": "following on from the pumping question - here is my hot take after 10 days straight on the surge 1010. It will improve your pumping immensely. It redirects so easily - its a zen thing - think it and it happens. This means that the narrow stance, efficient, pump position becomes way way more natural and combining it with a flowy carve style is so, so rewarding. I also kinda forces you into the stacked position of feet centred below shoulders. If you are offset its really hard to pump without wiggling. Getting back onto home turf chaotic lumps riding in wellington boots really showed me how much it changed my style in 10 days.",
+      "foils_mentioned": ["Surge 1010"],
+      "reactions": 8,
+      "comments": 9,
+      "key_comments": [
+        {
+          "commenter": "Mike Jackson",
+          "text": "Can I ask you how much you weigh."
+        },
+        {
+          "commenter": "Mark Shinn",
+          "badge": "All-star contributor",
+          "text": "I've been swapping back and forth between the Surge and the Fireball a lot the last days trying to decide where my heart lies and for wing, parawing and Foil Drive action it is Surge all the way. The fireball is more efficient without a doubt and leaps forwards with every pump and size for size has a slightly better glide path BUT the Surge is so much more playful and forgiving of mistakes that it wins hands down for my riding style. The only exception is SUP foil downwind. Whilst I am a competent DW sup foiler paddling up still gets my heart beating and I tend to go for distance rather than flowy carvy type dw runs. In this the Fireball shows it's true colours (and dare I say it, justifies its place in the line up!)",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "very_positive"
+    },
+    {
+      "id": "fb_2026_04_02_007",
+      "poster": "Darren Kite",
+      "posted": "a day ago (Mar 31)",
+      "type": "new_gear",
+      "badge": "Top contributor",
+      "text": "My new Surge 830 arrived, yeow",
+      "foils_mentioned": ["Surge 830"],
+      "reactions": 10,
+      "comments": 3,
+      "key_comments": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "text": "Enjoy! Its an insane foil!",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "very_positive"
+    },
+    {
+      "id": "fb_2026_04_02_008",
+      "poster": "Andrew Clayton",
+      "posted": "a day ago",
+      "type": "question",
+      "text": "I kite on surge 740, adv+ ultrashort, p275. It's the most playful setup iv ever tried! Decided to try that setup with my FD assist+. I couldn't flat water start it, needed a little bump. Had great glide and super easy to pump for such a small foil but it was super twitchy especially controlling pitch. Any one tried similar setup, would a bigger stab help?",
+      "foils_mentioned": ["Surge 740", "Adv+ ultrashort"],
+      "discipline": "kite foiling, Foil Drive",
+      "stab": "P275",
+      "reactions": 1,
+      "comments": 3,
+      "key_comments": [
+        {
+          "commenter": "Paul Hurley",
+          "text": "I had the same problem with my surge 830 adv+ultra 320ss Put a 1 deg positive shim on the tail Settled down the twichness and had much better pitch control.",
+          "reactions": 2
+        },
+        {
+          "commenter": "Mark Shinn",
+          "text": "There is a huge difference between kite foiling and Foil Drive riding. The kite is like a 3rd leg.... get rid of it and you suddenly notice how unstable foiling can be. Not sure your weight but 740 is a small foil to start on a foil drive for most riders…",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "positive_with_tuning_advice"
+    },
+    {
+      "id": "fb_2026_04_02_009",
+      "poster": "Nick Restivo",
+      "posted": "2 days ago",
+      "type": "question",
+      "text": "Which wings are easy to pump on SUP? I'm 175lbs and currently SUP foil, para wing (+dw), and dockstart on the 1300v1. I also have an Art Pro 1201 and a 999v2 but I cannot consistently pump either of them for the life of me. I hear that the 1201 is supposed to be a pump machine, but as soon as I loose speed it'll drop out hard on me. I also can't flat water popup on it, but the 1300 is starting to feel real big in the surf and slow in the bumps. Is there a larger Surge coming?",
+      "foils_mentioned": ["PNG 1300 V1", "Art Pro 1201", "999 V2"],
+      "rider_weight_lbs": 175,
+      "discipline": "SUP foil, para wing, DW, dockstart",
+      "reactions": 3,
+      "comments": 13,
+      "key_comments": [
+        {
+          "commenter": "Charles Bessard",
+          "text": "Did you try the png1300v2? ...",
+          "reactions": 2
+        },
+        {
+          "commenter": "Jake David",
+          "text": "The 1201 is a great sup surf foil that pumps amazing with the right stab. Your problem is too small a stab. With skinny 45 I can only pump 2-3 waves, with progressive 375 I can connect 10+ waves.",
+          "reactions": 1
+        }
+      ],
+      "unanswered_q": "Is there a larger Surge coming?",
+      "sentiment": "question - stab tuning insight"
+    },
+    {
+      "id": "fb_2026_04_02_010",
+      "poster": "Mats Nilsson Hahne",
+      "posted": "2 days ago",
+      "type": "question",
+      "badge": "Top contributor",
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? I have the Surge 950, even if it gets up real easy I think it is on the small side for me to learn parawing?",
+      "foils_mentioned": ["Surge 1010", "Spitfire 1030", "Spitfire 1100", "Surge 950"],
+      "rider_weight_kg": 80,
+      "discipline": "parawing",
+      "reactions": 3,
+      "comments": 13,
+      "key_comments": [
+        {
+          "commenter": "Mark Shinn",
+          "text": "The spitfire is an awesome wing wing and has been for a few years now but the Surge has the benefit of several years more knowledge and R and D and is one of the new high camber foil designs. The early starting, pump and glide and of course playfulness…",
+          "reactions": 2
+        },
+        {
+          "commenter": "Sean Richardson",
+          "text": "1010 Surge is my light wind weapon for wingfoiling. I'm 85 kg. If your board gets you going easily enough on your 950, then Surge 1010 could be the ideal wing.",
+          "reactions": 2
+        }
+      ],
+      "sentiment": "positive - Surge over Spitfire consensus"
+    },
+    {
+      "id": "fb_2026_04_02_011",
+      "poster": "Jimmy Jam Foils",
+      "posted": "3 days ago",
+      "type": "video",
+      "badge": "Group expert",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on the bumps. Small 1-2ft shore break type of day.",
+      "foils_mentioned": ["Axis integrated mast"],
+      "discipline": "efoil / foil drive",
+      "reactions": 7,
+      "comments": 1,
+      "sentiment": "positive"
+    },
+    {
+      "id": "fb_2026_04_02_012",
+      "poster": "Dmitry Evseev",
+      "posted": "4 days ago",
+      "type": "video",
+      "text": "Manawa Boogie Foiling - Fireball 880, Adv+ 640, Skinny 40, Ultra 900",
+      "foils_mentioned": ["Fireball 880", "Adv+ 640", "Skinny 40", "Ultra 900"],
+      "discipline": "tow boogie / surf",
+      "reactions": 13,
+      "comments": 0,
+      "sentiment": "positive"
+    }
+  ],
+  "official_page_posts": [
+    {
+      "id": "official_2026_03_23_001",
+      "poster": "AXIS Foils",
+      "posted": "March 23",
+      "type": "survey",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change.",
+      "reactions": 9,
+      "comments": 3,
+      "note": "Most recent post on official page - no posts in last 24h",
+      "unanswered_questions": []
+    }
+  ]
+}

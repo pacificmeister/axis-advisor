@@ -20,7 +20,7 @@
       "weight_kg": 105,
       "foil": "Surge 1010",
       "board": "Surf skinny",
-      "setup_notes": "Initially hated Surge 1010 with surf skinny — no front foot resistance. Fixed with +1 degree shin shim to add front foot pressure. Instant improvement. Now loving the 1010.",
+      "setup_notes": "Initially hated Surge 1010 with surf skinny \u2014 no front foot resistance. Fixed with +1 degree shin shim to add front foot pressure. Instant improvement. Now loving the 1010.",
       "tuning_tip": "+1 degree shim in front foot binding for heavier riders on Surge 1010",
       "discipline": "surf / pumping",
       "sentiment": "very_positive_after_tuning"
@@ -4377,6 +4377,43 @@
       "source": "AXIS Foil Riders FB",
       "date": "2026-03-30",
       "notes": "Manawa Boogie Foiling setup"
+    },
+    {
+      "id": "setup_2026_04_02_AM_001",
+      "source": "FB post axisfoilriders 2026-04-02 (AM)",
+      "date": "2026-04-02",
+      "rider_name": "Andrew Clayton",
+      "foil": "Surge 740",
+      "mast": "Adv+ ultrashort",
+      "stab": "P275",
+      "discipline": "kite foiling / Foil Drive",
+      "setup_notes": "Surge 740 + Adv+ ultrashort + P275. Kiting = super playful. Foil Drive = couldn't flat start, needed bump. Very twitchy pitch control.",
+      "tuning_tip": "1 deg positive shim on tail reduces pitch twitchiness for small wings on Foil Drive (Paul Hurley tip)",
+      "sentiment": "positive_with_tuning"
+    },
+    {
+      "id": "setup_2026_04_02_AM_002",
+      "source": "FB post axisfoilriders 2026-04-02 (AM)",
+      "date": "2026-03-29",
+      "rider_name": "Dmitry Evseev",
+      "foil": "Fireball 880",
+      "stab": "Skinny 40",
+      "fuselage": "Ultra 900",
+      "alternate_wing": "Adv+ 640",
+      "discipline": "tow boogie",
+      "setup_notes": "Manawa Boogie Foiling setup: Fireball 880, Adv+ 640, Skinny 40, Ultra 900",
+      "sentiment": "positive"
+    },
+    {
+      "id": "setup_2026_04_02_AM_003",
+      "source": "FB post axisfoilriders 2026-04-02 (AM)",
+      "date": "2026-03-31",
+      "rider_name": "Darren Kite",
+      "badge": "Top contributor",
+      "foil": "Surge 830",
+      "setup_notes": "New Surge 830 arrived",
+      "sentiment": "very_positive",
+      "discipline": "general foiling"
     }
   ],
   "aggregations": {
@@ -4817,8 +4854,8 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-04-01T06:15:00-07:00",
-    "total_entries": 13
+    "last_updated": "2026-04-02T13:01:00Z",
+    "total_entries": 161
   },
   "new_setups_2026_03_31_PM": [
     {
