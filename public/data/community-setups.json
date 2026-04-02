@@ -6,11 +6,47 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-03-31T06:09:00-07:00",
+    "lastUpdated": "2026-04-01T18:01:00-07:00",
     "totalRiders": 155,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_04_01_PM_001",
+      "source": "FB post axisfoilriders 2026-04-01 (PM)",
+      "date": "2026-04-01",
+      "rider_name": "Gary Pickburn",
+      "badge": "Top contributor",
+      "weight_kg": 105,
+      "foil": "Surge 1010",
+      "board": "Surf skinny",
+      "setup_notes": "Initially hated Surge 1010 with surf skinny — no front foot resistance. Fixed with +1 degree shin shim to add front foot pressure. Instant improvement. Now loving the 1010.",
+      "tuning_tip": "+1 degree shim in front foot binding for heavier riders on Surge 1010",
+      "discipline": "surf / pumping",
+      "sentiment": "very_positive_after_tuning"
+    },
+    {
+      "id": "setup_2026_04_01_PM_002",
+      "source": "FB post axisfoilriders 2026-04-01 (PM)",
+      "date": "2026-04-01",
+      "rider_name": "Fraser Shaw",
+      "badge": "Top contributor",
+      "foil": "Surge 1010",
+      "setup_notes": "10-day Surge 1010 intensive. Forces narrow stance efficient pump position. Foot centred below shoulders required. Redirects very easily. Improved pumping style significantly.",
+      "discipline": "pumping",
+      "sentiment": "very_positive"
+    },
+    {
+      "id": "setup_2026_04_01_PM_003",
+      "source": "FB post axisfoilriders 2026-04-01 (PM)",
+      "date": "2026-04-01",
+      "rider_name": "Darren Kite",
+      "badge": "Top contributor",
+      "foil": "Surge 830",
+      "setup_notes": "New arrival. First impressions: insane foil per community reaction.",
+      "discipline": "general",
+      "sentiment": "very_positive"
+    },
     {
       "id": "setup_2026_03_31_AM_001",
       "source": "FB post axisfoilriders 2026-03-31 (AM)",

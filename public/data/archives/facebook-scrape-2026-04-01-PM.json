@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "scrape_time": "2026-04-01T18:01:00-07:00",
+    "scrape_window": "6 AM – 6 PM Pacific (12 hours)",
+    "sources": ["facebook_axis_riders_group", "facebook_axis_official_page"],
+    "group_url": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_url": "https://www.facebook.com/axisfoils"
+  },
+  "riders_group_posts": [
+    {
+      "poster": "Jon Imhoof",
+      "time_ago": "6 hours ago",
+      "post_id": "1570105667421052",
+      "text": "Anyone in Raglan happen to have a spare set of mast bolts and sliders? I'm in desperate need 😭",
+      "foils_mentioned": ["(mast bolts/sliders - unspecified AXIS mast)"],
+      "location": "Raglan, NZ",
+      "sentiment": "urgent_request",
+      "reactions": {},
+      "comments": [
+        {
+          "commenter": "Jon Verhoek",
+          "badge": "Top contributor",
+          "text": "What size? I have some in Hamilton I could short term loan you",
+          "time_ago": "4 hours ago"
+        }
+      ]
+    },
+    {
+      "poster": "Ian Lauder",
+      "time_ago": "10 hours ago",
+      "post_id": "1569944017437217",
+      "text": "Adrian Roper - new scootpump foil board looks sweet on the Fireball 1750. https://www.foilingfreaks.com/.../product.../scootpump/ [link to foilingfreaks scootpump board]",
+      "foils_mentioned": ["Fireball 1750"],
+      "discipline": "pumping / wing",
+      "sentiment": "positive",
+      "reactions": {"Like": 13, "Haha": 10, "total": 24},
+      "comment_count": 9,
+      "comments": [
+        {
+          "commenter": "Dave Harman",
+          "text": "friends don't let friends ride scooters!",
+          "time_ago": "8 hours ago",
+          "reactions": 1
+        },
+        {
+          "commenter": "Mark Holmstrom",
+          "badge": "Rising contributor",
+          "text": "Wear a cup!",
+          "time_ago": "10 hours ago"
+        }
+      ]
+    },
+    {
+      "poster": "Fraser Shaw",
+      "time_ago": "13 hours ago",
+      "post_id": "1569812140783738",
+      "text": "following on from the pumping question - here is my hot take after 10 days straight on the surge 1010. It will improve your pumping immensely. Hey is why. It redirects so easily - its a zen thing - think it and it happens. This means that the narrow stance, efficient, pump position becomes way way more natural and combining it with a flowy carve style is so, so rewarding. I also kinda forces you into the stacked position of feet centred below shoulders. If you are offset its really hard to pump without wiggling. Getting back onto home turf chaotic lumps riding in wellington boots really showed me how much it changed my style in 10 days.",
+      "foils_mentioned": ["Surge 1010"],
+      "discipline": "pumping",
+      "sentiment": "very_positive",
+      "reactions": {"Like": 7, "total": 7},
+      "comment_count": 5,
+      "badge": "Top contributor",
+      "comments": [
+        {
+          "commenter": "Mike Jackson",
+          "text": "Can I ask you how much you weigh.",
+          "time_ago": "12 hours ago"
+        },
+        {
+          "commenter": "Gary Pickburn",
+          "badge": "Top contributor",
+          "text": "I am 105kg and found at first I hated it with the surf skinny, it felt like there was nothing for my front foot to push against. Put in a +1 degree shin to add some front foot pressure and it was an instant change of character. I am loving the 1010 now…",
+          "time_ago": "2 hours ago",
+          "rider_weight_kg": 105
+        }
+      ]
+    },
+    {
+      "poster": "Darren Kite",
+      "time_ago": "a day ago (March 31)",
+      "post_id": "via reel link /reel/1288911280000222/",
+      "text": "My new Surge 830 arrived, yeow",
+      "foils_mentioned": ["Surge 830"],
+      "discipline": "general",
+      "sentiment": "very_positive",
+      "badge": "Top contributor",
+      "reactions": {"Like": 8, "total": 8},
+      "comment_count": 1,
+      "comments": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "badge": "Rising contributor",
+          "text": "Enjoy! Its an insane foil!",
+          "time_ago": "19 hours ago",
+          "reactions": 1
+        }
+      ]
+    }
+  ],
+  "official_page_posts": [
+    {
+      "poster": "AXIS Foils",
+      "date": "March 23, 7:52 AM",
+      "post_text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. [See more] Link to Google Doc: What's Your Favorite AXIS Setup?",
+      "reactions": {"Like": 5, "Love": 3, "total": 8},
+      "comment_count": 2,
+      "recent_24h": false,
+      "comments": [
+        {
+          "commenter": "Katrin Kolo",
+          "badge": "Top fan",
+          "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting). Thanks!",
+          "time_ago": "1 week ago",
+          "AXIS_replied": true,
+          "axis_reply": "Just pulled fresh from the survey (now at 241 responses): [see more - breakdown provided but truncated]",
+          "axis_reply_time": "6 days ago"
+        }
+      ]
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Baja California Sur, Mexico",
+      "post_text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wi… [See more]",
+      "foils_mentioned": ["Surge front wings"],
+      "reactions": {"Like": 28, "Love": 5, "total": 33},
+      "comment_count": "1 visible + replies",
+      "recent_24h": false,
+      "comments": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "text": "Wish i had this beauty when i was in Baja!",
+          "time_ago": "7 weeks ago",
+          "AXIS_replied": false
+        }
+      ]
+    },
+    {
+      "poster": "AXIS Foils",
+      "location": "Düsseldorf, Germany (BOOT Düsseldorf)",
+      "post_text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour. Stoked to see our team getting amongst the good times and podiums. #axisfoils…",
+      "reactions": {"Like": 22, "Love": 5, "total": 27},
+      "video_views": "1.8K",
+      "recent_24h": false,
+      "comments_visible": 0
+    }
+  ]
+}
