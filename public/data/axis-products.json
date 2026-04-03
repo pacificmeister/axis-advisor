@@ -2266,7 +2266,9 @@
             "product_type": "Front Wings",
             "series": "Spitfire",
             "area": 1030
-          }
+          },
+          "area": 1308,
+          "aspectRatio": 8.26
         }
       ]
     },

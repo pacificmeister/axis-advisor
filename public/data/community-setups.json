@@ -6,8 +6,8 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-04-01T18:01:00-07:00",
-    "totalRiders": 155,
+    "lastUpdated": "2026-04-03T14:07:00Z",
+    "totalRiders": 166,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
@@ -4414,6 +4414,114 @@
       "setup_notes": "New Surge 830 arrived",
       "sentiment": "very_positive",
       "discipline": "general foiling"
+    },
+    {
+      "id": "setup_2026_04_03_AM_001",
+      "source": "FB post axisfoilriders 2026-04-03 (AM)",
+      "date": "2026-04-03",
+      "rider_name": "Nick Restivo",
+      "weight_lbs": 175,
+      "weight_kg": 79,
+      "discipline": [
+        "SUP foil",
+        "para wing",
+        "DW",
+        "dockstart"
+      ],
+      "wings": [
+        "Art Pro 1201",
+        "999v2",
+        "1300v1"
+      ],
+      "mast": null,
+      "board": null,
+      "stab": null,
+      "notes": "Cannot pump 1201 consistently. Drops out when speed drops. Asking about larger Surge. 1300v1 feels big in surf.",
+      "sentiment": "frustrated"
+    },
+    {
+      "id": "setup_2026_04_03_AM_002",
+      "source": "FB post axisfoilriders 2026-04-03 (AM)",
+      "date": "2026-04-03",
+      "rider_name": "Mats Nilsson Hahne",
+      "badge": "Top contributor",
+      "weight_kg": 80,
+      "discipline": [
+        "parawing",
+        "wingfoil"
+      ],
+      "wings": [
+        "Surge 950"
+      ],
+      "mast": null,
+      "board": "90L midlength",
+      "stab": null,
+      "notes": "Asking about Surge 1010 vs Spitfire 1030/1100 for parawing. Currently has Surge 950 which feels small for parawing at 80kg.",
+      "sentiment": "upgrade seeking"
+    },
+    {
+      "id": "setup_2026_04_03_AM_003",
+      "source": "FB post axisfoilriders 2026-04-03 (AM)",
+      "date": "2026-04-03",
+      "rider_name": "Andrea Fanelli",
+      "badge": "Rising contributor",
+      "weight_kg": 85,
+      "discipline": [
+        "wingfoil",
+        "DW"
+      ],
+      "wings": [
+        "ART V2 999",
+        "ART V2 939"
+      ],
+      "mast": null,
+      "board": null,
+      "stab": null,
+      "notes": "ART V2 999 is 90% daily driver at 14-25mph, ART V2 939 for 20-25mph. Lakes mostly.",
+      "sentiment": "positive"
+    },
+    {
+      "id": "setup_2026_04_03_AM_004",
+      "source": "FB post axisfoilriders 2026-04-03 (AM)",
+      "date": "2026-04-03",
+      "rider_name": "Sean Richardson",
+      "badge": "Top contributor",
+      "weight_kg": 85,
+      "discipline": [
+        "wingfoil"
+      ],
+      "wings": [
+        "Surge 1010",
+        "Surge 890",
+        "Surge 830"
+      ],
+      "mast": null,
+      "board": "94L 23\" wide",
+      "stab": null,
+      "notes": "Switched from 1030 Spitfire + 1099/999v1/939v2 to full Surge quiver. Surge 1010 is light wind weapon.",
+      "sentiment": "very positive"
+    },
+    {
+      "id": "setup_2026_04_03_AM_005",
+      "source": "FB post axisfoilriders 2026-04-03 (AM)",
+      "date": "2026-04-03",
+      "rider_name": "Andrew D C Earles",
+      "weight_kg": 77,
+      "discipline": [
+        "wakefoil",
+        "wingfoil",
+        "tow foil",
+        "dockstart"
+      ],
+      "wings": [
+        "Art Pro V2 999",
+        "HPS1050"
+      ],
+      "mast": null,
+      "board": null,
+      "stab": null,
+      "notes": "Considering PNGv2 1200 for dock starts. Intermediate winger.",
+      "sentiment": "curious"
     }
   ],
   "aggregations": {

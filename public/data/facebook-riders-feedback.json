@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 415,
+    "total_entries": 421,
     "sources": {
-      "facebook_groups": 101,
+      "facebook_groups": 107,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-02T13:01:00Z"
+    "last_updated": "2026-04-03T14:07:00Z"
   },
   "posts": [
     {
@@ -8263,6 +8263,101 @@
       "sentiment": "positive",
       "type": "rider_setup",
       "date": "2026-03-29T00:00:00"
+    },
+    {
+      "id": "post_416",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Fraser Shaw",
+      "text": "Hot take after 10 days straight on the surge 1010. It will improve your pumping immensely. For wing, parawing and Foil Drive action it is Surge all the way. The fireball is more efficient without a doubt but Surge wins for these disciplines.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Fireball"
+      ],
+      "rider_weight": null,
+      "use_case": "wing, parawing, Foil Drive",
+      "sentiment": "positive",
+      "date": "2026-04-01",
+      "scraped_at": "2026-04-03T14:07:00Z"
+    },
+    {
+      "id": "post_417",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Mark Shinn",
+      "text": "I've been swapping back and forth between the Surge and the Fireball. For wing, parawing and Foil Drive it is Surge all the way. The fireball is more efficient without a doubt and probably leaps better, but Surge wins for fun and versatility.",
+      "foils_mentioned": [
+        "Surge",
+        "Fireball"
+      ],
+      "rider_weight": null,
+      "use_case": "wing, parawing, Foil Drive",
+      "sentiment": "positive",
+      "date": "2026-04-02",
+      "scraped_at": "2026-04-03T14:07:00Z"
+    },
+    {
+      "id": "post_418",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Nick Restivo",
+      "text": "I'm 175lbs on the 1300v1, Art Pro 1201 and 999v2. Cannot consistently pump 1201 - drops out hard. Is there a larger Surge coming?",
+      "foils_mentioned": [
+        "1300v1",
+        "Art Pro 1201",
+        "999v2"
+      ],
+      "rider_weight": "175lbs",
+      "use_case": "SUP foil, para wing, DW, dockstart",
+      "sentiment": "frustrated",
+      "date": "2026-03-31",
+      "scraped_at": "2026-04-03T14:07:00Z"
+    },
+    {
+      "id": "post_419",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jake David",
+      "text": "The 1201 is a great sup surf foil that pumps amazing with the right stab. Your problem is too small a stab. With the skinny 45 I can only pump 2-3 waves but with the progressive 375 I can connect 10+ waves.",
+      "foils_mentioned": [
+        "Art Pro 1201"
+      ],
+      "rider_weight": null,
+      "use_case": "SUP surf",
+      "sentiment": "positive with caveat",
+      "date": "2026-04-01",
+      "scraped_at": "2026-04-03T14:07:00Z"
+    },
+    {
+      "id": "post_420",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Sean Richardson",
+      "rider_weight": "85kg",
+      "text": "1010 Surge is my light wind weapon for wingfoiling. I had the Spitfire 1030 previously. Surge is the upgrade - better light wind performance, more fun.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Spitfire 1030"
+      ],
+      "use_case": "wingfoil",
+      "sentiment": "positive",
+      "date": "2026-03-31",
+      "scraped_at": "2026-04-03T14:07:00Z"
+    },
+    {
+      "id": "post_421",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on the bumps. Small 1-2ft shore break.",
+      "foils_mentioned": [
+        "Axis integrated mast",
+        "Fusion"
+      ],
+      "use_case": "efoil motor-off surf",
+      "sentiment": "positive",
+      "date": "2026-03-31",
+      "scraped_at": "2026-04-03T14:07:00Z"
     }
   ]
 }

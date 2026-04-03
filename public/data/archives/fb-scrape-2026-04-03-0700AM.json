@@ -1,0 +1,338 @@
+{
+  "scan_timestamp": "2026-04-03T14:07:00Z",
+  "scan_time_local": "2026-04-03 07:07 AM Pacific",
+  "sources": {
+    "riders_group": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_page": "https://www.facebook.com/axisfoils"
+  },
+  "riders_group_posts": [
+    {
+      "poster": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "time": "about an hour ago (7:07 AM scan → ~6 AM post)",
+      "type": "Memory share",
+      "text": "Step offs into surf (2 Years Ago memory) — Step offs with the foil board (tagged Foilhub)",
+      "foils_mentioned": [],
+      "reactions": 14,
+      "comments": 1,
+      "shares": 4,
+      "sentiment": "positive/nostalgic"
+    },
+    {
+      "poster": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "time": "21 hours ago",
+      "text": "One of my last sessions with this mast…. Stoked on the custom board I shaped with Grant at 270….hit almost all the right dimensions on this one. Surge 1010 is [truncated - See more]",
+      "foils_mentioned": ["Surge 1010"],
+      "reactions": 2,
+      "comments": 0,
+      "sentiment": "positive, excited about custom board + Surge 1010"
+    },
+    {
+      "poster": "Jon Imhoof",
+      "time": "~1 day ago",
+      "text": "Anyone in Raglan happen to have a spare set of mast bolts and sliders? I'm in desperate need 😭",
+      "foils_mentioned": [],
+      "comments": 3,
+      "comments_detail": [
+        {
+          "commenter": "Jon Verhoek",
+          "badge": "Top contributor",
+          "text": "What size? I have some in Hamilton I could short term loan you",
+          "has_replies": true,
+          "replies_count": 2
+        }
+      ],
+      "sentiment": "urgent parts request, Raglan NZ",
+      "note": "Parts availability concern — mast bolts/sliders needed"
+    },
+    {
+      "poster": "Nikki Prochaska",
+      "time": "~1 day ago",
+      "type": "Marketplace listing",
+      "text": "$1,420 Mukilteo, WA — Axis Fireball 1750 Brand New, never used and purchased new directly from Axis.",
+      "foils_mentioned": ["Fireball 1750"],
+      "reactions": 5,
+      "comments": 0,
+      "listing_url": "/commerce/listing/34661416486836171/",
+      "sentiment": "sale listing",
+      "scam_flags": []
+    },
+    {
+      "poster": "Ian Lauder",
+      "badge": "Rising contributor",
+      "time": "~1 day ago",
+      "text": "new scootpump foil board looks sweet on the Fireball 1750. [See more]",
+      "foils_mentioned": ["Fireball 1750"],
+      "reactions": 37,
+      "comments": 15,
+      "comments_detail": [
+        {
+          "commenter": "Dave Harman",
+          "text": "friends don't let friends ride scooters!",
+          "time": "1 day ago",
+          "reactions": 2
+        },
+        {
+          "commenter": "Dmitry Avramenko",
+          "badge": "Top contributor",
+          "text": "Do you actually attach a board on top of that rail? Or go full minimalist?",
+          "time": "12 hours ago"
+        }
+      ],
+      "sentiment": "humorous/positive — scootpump foil board concept",
+      "note": "HIGH ENGAGEMENT: 37 reactions, 15 comments"
+    },
+    {
+      "poster": "Fraser Shaw",
+      "badge": "Top contributor",
+      "time": "~2 days ago",
+      "text": "following on from the pumping question - here is my hot take after 10 days straight on the surge 1010. It will improve your pumping immensely. [See more]",
+      "foils_mentioned": ["Surge 1010"],
+      "reactions": 8,
+      "comments": 9,
+      "comments_detail": [
+        {
+          "commenter": "Mike Jackson",
+          "text": "Can I ask you how much you weigh.",
+          "time": "2 days ago"
+        },
+        {
+          "commenter": "Mark Shinn",
+          "badge": "All-star contributor",
+          "text": "I've been swapping back and forth between the Surge and the Fireball a lot the last days trying to decide where my heart lies… and for wing, parawing and Foil Drive action it is Surge all the way. The fireball is more efficient without a doubt and leap… [See more]",
+          "time": "1 day ago",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "positive — Surge 1010 pumping advocacy",
+      "product_intel": "Surge 1010 praised for pumping improvement; Surge preferred over Fireball for wing/parawing/Foil Drive; Fireball more efficient"
+    },
+    {
+      "poster": "Darren Kite",
+      "badge": "Top contributor",
+      "time": "March 31",
+      "text": "My new Surge 830 arrived, yeow",
+      "foils_mentioned": ["Surge 830"],
+      "reactions": 10,
+      "comments": 3,
+      "comments_detail": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "badge": "Rising contributor",
+          "text": "Enjoy! Its an insane foil!",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "positive/excited, new purchase"
+    },
+    {
+      "poster": "Nick Restivo",
+      "time": "3 days ago",
+      "text": "Which wings are easy to pump on SUP? I'm 175lbs and currently SUP foil, para wing (+dw), and dockstart on the 1300v1. I also have an Art Pro 1201 and a 999v2… but I cannot consistently pump either of them. I hear that the 1201 is supposed to be a pump machine, but as soon as I loose speed it'll drop out hard on me. I also can't flat water popup on it, but the 1300 is starting to feel real big in the surf and slow in the bumps. Is there a larger Surge coming… [See more]",
+      "rider_weight": "175lbs",
+      "discipline": "SUP foil, para wing, DW, dockstart",
+      "foils_mentioned": ["Art Pro 1201", "999v2", "1300v1"],
+      "reactions": 3,
+      "comments": 14,
+      "comments_detail": [
+        {
+          "commenter": "Chris O'Kieffe",
+          "text": "Nick what happened? You did over a minute on my set up? Was it the set up or the instructor?",
+          "time": "2 days ago",
+          "reactions": 1
+        },
+        {
+          "commenter": "Jake David",
+          "text": "The 1201 is a great sup surf foil that pups amazing with the right stab. Your problem is too small a stab. Not sure why but on the sup I can only pump for 2-3 waves with the skinny 45 but with the progressive 375 I can connect 10+ waves. A large skinn… [See more]",
+          "time": "2 days ago",
+          "reactions": 1
+        }
+      ],
+      "sentiment": "help-seeking, frustrated with pumping",
+      "product_intel": "Art Pro 1201 pumping issues often stab-related (too small stab). Progressive 375 stab recommended over skinny 45 for SUP pumping. Question about larger Surge."
+    },
+    {
+      "poster": "Mats Nilsson Hahne",
+      "badge": "Top contributor",
+      "time": "~3-4 days ago",
+      "text": "80 kgs, looking to learn parawing on 90 litre midlength. Surge 1010 or Spitfire 1030/1100? I have the Surge 950, even if it gets up real easy I think it is on the small side for me to learn parawing? [See more]",
+      "rider_weight": "80kg",
+      "discipline": "parawing",
+      "foils_mentioned": ["Surge 1010", "Spitfire 1030", "Spitfire 1100", "Surge 950"],
+      "reactions": 3,
+      "comments": 13,
+      "comments_detail": [
+        {
+          "commenter": "Mark Shinn",
+          "badge": "All-star contributor",
+          "text": "The spitfire is an awesome wing wing and has been for a few years now but the Surge has the benefit of several years more knowledge and R and D and is one of the new high camber foil designs. The early starting, pump and glide and of course playfulness… [See more]",
+          "time": "3 days ago",
+          "reactions": 2
+        },
+        {
+          "commenter": "Sean Richardson",
+          "badge": "Top contributor",
+          "rider_weight": "85kg",
+          "text": "1010 Surge is my light wind weapon for wingfoiling. I'm 85 kg. I can't comment on Parawing specifically, but if your board gets you going easily enough on your 950, then Surge 1010 could be the ideal wing. I had the Spitfire 1030 previously and like it… [See more]",
+          "time": "3 days ago",
+          "reactions": 2
+        }
+      ],
+      "sentiment": "inquiry, positive toward both options",
+      "product_intel": "Surge 1010 vs Spitfire 1030 debate for parawing. Community consensus leans toward Surge due to newer R&D and high-camber design. Surge 950 considered too small for 80kg parawing learner."
+    },
+    {
+      "poster": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "time": "~4 days ago",
+      "text": "Catching waves with lower motor pod in efoil position on axis integrated mast using fusion. Still can pump and stay on the bumps. Small 1-2ft shore break type of da… [See more] (with Austin Keen)",
+      "foils_mentioned": ["Axis integrated mast", "Fusion"],
+      "reactions": 8,
+      "comments": 1,
+      "comments_detail": [
+        {
+          "commenter": "Bardy Matias",
+          "text": "Can you feel a lot of drag tho? I've never even considered tryna ride motor off? You think a Stoke Boost would be similar?",
+          "time": "4 days ago"
+        }
+      ],
+      "sentiment": "positive, showcasing efoil motor-off riding capability",
+      "product_intel": "Axis integrated mast enables motor-off wave riding. Fusion motor pod used. Stoke Boost comparison raised."
+    },
+    {
+      "poster": "Andrea Fanelli",
+      "badge": "Rising contributor",
+      "time": "~4-6 days ago",
+      "text": "Hi all, I'm 85 kg and mainly use my setup for wingfoiling and downwind runs with the wing, mostly on lakes. I consider myself an intermediate winger. My current quiver is: ART V2 999 for 14–25mph and ART V2 939 for strong wind days (20-25mph). The 999 is my daily driver (I use it 90% of the time). After an initial adjustment period, I've real… [See more]",
+      "rider_weight": "85kg",
+      "discipline": "wingfoil, DW",
+      "foils_mentioned": ["ART V2 999", "ART V2 939"],
+      "comments": 10,
+      "comments_detail": [
+        {
+          "commenter": "Eric Dornbush",
+          "text": "For super light wind like that, also consider your board! I switched from a biscuit board to a 7' F One and it's been awesome. Accelerates, planes, bounces off water. Our 'windy' days are usually have 10-14 knots and it's made great days out of nothin… [See more]",
+          "time": "4 days ago"
+        },
+        {
+          "commenter": "Sean Richardson",
+          "badge": "Top contributor",
+          "rider_weight": "85kg",
+          "text": "I'm 85kg. Used to ride 1099 and 999v1, 939v2, 1030 spitfire, etc. 1030 was my latest light wind foil for winging with 6.5m and 94ltr 23\" wide board, until I made the switch to Surges - 1010, 890, 830, etc. Surge 1010 is my light wind weapon, and the mo… [See more]",
+          "time": "6 days ago",
+          "reactions": 2
+        }
+      ],
+      "sentiment": "help-seeking for quiver upgrade",
+      "product_intel": "ART V2 999 popular daily driver at 85kg. Board choice matters for light wind. Strong advocacy for Surge 1010 as light wind weapon upgrade from traditional wings."
+    },
+    {
+      "poster": "Doug D PFoiler",
+      "badge": "Top contributor",
+      "time": "~5-6 days ago",
+      "text": "Hybrid Carbon foil boards — Was wondering anyone in the know if the green sea foam color Axis hybrid carbon foil boards were designed by Frank that did the darts or another shaper? Anyone using them for parawing",
+      "foils_mentioned": ["Hybrid Carbon"],
+      "reactions": 1,
+      "comments": 4,
+      "comments_detail": [
+        {
+          "commenter": "Mark Shinn",
+          "badge": "All-star contributor",
+          "text": "Hi Doug, I have para-winged the Hybrid 120l in lightish winds. If you have one it works ok but not as well as a more dedicated board like the Mini Dart (which jumps out of the water with amazing ease). However if you are looking for one board to Sup fo… [See more]",
+          "time": "5 days ago",
+          "reactions": 2
+        },
+        {
+          "commenter": "Adrian Roper",
+          "badges": ["Group expert", "All-star contributor"],
+          "text": "Pre Frank's involvement. I designed the Hybrid and Blasts",
+          "time": "6 days ago",
+          "reactions": 4
+        }
+      ],
+      "sentiment": "inquiry/historical",
+      "product_intel": "Adrian Roper confirms he designed the Hybrid and Blast boards (pre-Frank). Hybrid 120l works for parawing but Mini Dart is better dedicated option."
+    },
+    {
+      "poster": "Andrew D C Earles",
+      "time": "~1 week ago",
+      "text": "Hi all. Has anyone got experience using PNGv2 1200 for wake or wing foiling? I'd like to get one for dock starts but would like to know what it's like for other winging and wake foiling. I'm a beginner at dock starts. Intermediate wing foiler and tow foiler. I use art pro v2 999 and HPS1050. I'm 77kg",
+      "rider_weight": "77kg",
+      "discipline": "wakefoil, wingfoil, tow foil, dockstart",
+      "foils_mentioned": ["PNGv2 1200", "Art Pro V2 999", "HPS1050"],
+      "comments": 6,
+      "comments_detail": [
+        {
+          "commenter": "Matthew Ross",
+          "badge": "All-star contributor",
+          "text": "I have used it for both. Wing in sub 10 knot wind. It's very slow and turns have to be deliberate and slow. Wake is fine. You can 15 wakes back but same thing. It likes to go straight and is super hard to turn.",
+          "time": "1 week ago",
+          "reactions": 1
+        },
+        {
+          "commenter": "Ian Lauder",
+          "badge": "Rising contributor",
+          "text": "Wide wings are a PITA to control on boat wakes, too wide to control well. Even the PNG 1150 was hard to ride on a boat wake. The couple times I've tried wider wings it wasn't worth it. Now to pull up in the flats and drop the handle to just pump is… [See more]",
+          "time": "1 week ago",
+          "reactions": 2
+        }
+      ],
+      "sentiment": "inquiry, honest/balanced responses",
+      "product_intel": "PNG 1200 — good for low wind but turns poorly and goes straight. Wide wings difficult for wake riding."
+    }
+  ],
+  "official_page_posts": [
+    {
+      "post": "What's Your Favorite AXIS Setup? Survey",
+      "date": "March 23, 2026",
+      "text": "We surveyed nearly 150 AXIS riders across 15+ countries to find out what they're riding, how they set it up, and what they'd change. [Google Form survey link]",
+      "reactions": 9,
+      "comments": 5,
+      "comment_replies": [
+        {
+          "commenter": "Katrin Kolo",
+          "badge": "Top fan",
+          "text": "Thanks for this survey. I answered already and would be interested what percentage of answers is female riders (in each discipline if possible and especially dockstarting).",
+          "time": "1 week ago"
+        },
+        {
+          "commenter": "AXIS Foils (official reply)",
+          "badge": "Author",
+          "text": "Just pulled fresh from the survey (now at 241 responses): [See more]",
+          "time": "1 week ago",
+          "reactions": 2
+        }
+      ],
+      "unanswered": false
+    },
+    {
+      "post": "Surge Wing Colorway/Design - Baja California Sur",
+      "date": "~7 weeks ago",
+      "text": "When we were working on product visuals, colorways, surface treatment, and textures on the Surge front wings, we kept on coming back to desert environments: high UV, wi… [See more]",
+      "images": "Desert environment photos (ocotillo, agave, Baja)",
+      "reactions": 33,
+      "comments": 1,
+      "comments_detail": [
+        {
+          "commenter": "Kyriakos Giakoumaros",
+          "text": "Wish i had this beauty when i was in Baja!",
+          "time": "7 weeks ago"
+        }
+      ],
+      "unanswered": false
+    },
+    {
+      "post": "Boot Düsseldorf / Surf Foil World Tour",
+      "date": "~7 weeks ago (January)",
+      "text": "It's all happening in the pool at @bootduesseldorf for the @surffoilworldtour. Stoked to see our team getting amongst the good times and podiums. #axisfoils [See more]",
+      "reactions": 27,
+      "views": "1.8K",
+      "comments": 2,
+      "unanswered": false
+    }
+  ],
+  "scam_alerts": [],
+  "no_posts_in_last_12h_on_official_page": true,
+  "official_page_last_post": "March 23, 2026 (survey post)"
+}
