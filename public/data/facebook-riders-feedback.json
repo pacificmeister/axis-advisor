@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 410,
+    "total_entries": 411,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:26:51Z"
+    "last_updated": "2026-04-05T18:30:00Z"
   },
   "posts": [
     {
@@ -8183,6 +8183,23 @@
       "type": "expert",
       "date": "2025-04-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=AqnKQR3WjYo"
+    },
+    {
+      "id": "post_2026_04_05_1130_jimmy_integrated_mast",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (manual scrape 2026-04-05 AM PT)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Didn’t need it but had a bad case of FOMO not having it 🤦🏻‍♂️ ... Integrated mast is 🔥🔥🔥",
+      "foils_mentioned": [
+        "Integrated mast"
+      ],
+      "rider_weight": null,
+      "use_case": "dockstart/general",
+      "sentiment": "very_positive",
+      "type": "community",
+      "reactions": 4,
+      "comments": 0,
+      "date": "2026-04-05T11:30:00-07:00"
     }
   ]
 }

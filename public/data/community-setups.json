@@ -6,8 +6,8 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-04-03T14:07:00Z",
-    "totalRiders": 166,
+    "lastUpdated": "2026-04-05T18:30:00Z",
+    "totalRiders": 167,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
@@ -20,7 +20,7 @@
       "weight_kg": 105,
       "foil": "Surge 1010",
       "board": "Surf skinny",
-      "setup_notes": "Initially hated Surge 1010 with surf skinny \u2014 no front foot resistance. Fixed with +1 degree shin shim to add front foot pressure. Instant improvement. Now loving the 1010.",
+      "setup_notes": "Initially hated Surge 1010 with surf skinny — no front foot resistance. Fixed with +1 degree shin shim to add front foot pressure. Instant improvement. Now loving the 1010.",
       "tuning_tip": "+1 degree shim in front foot binding for heavier riders on Surge 1010",
       "discipline": "surf / pumping",
       "sentiment": "very_positive_after_tuning"
@@ -584,7 +584,7 @@
         "wing": "5.0"
       },
       "also_rides": "ART V2 879",
-      "conditions": "11-17kn thermal, side off wind, 8\u00b0C water (winter)",
+      "conditions": "11-17kn thermal, side off wind, 8°C water (winter)",
       "notes": "HPS 930 + 380 speed stab at 91kg: super easy early flight, low stall speed, forgiving. Lacks glide vs ART V2 879. Good for messy water and recovery. 'Feels like cheating' for early flight.",
       "sentiment": "positive on HPS 930 for beginner/easy conditions"
     },
@@ -612,7 +612,7 @@
         "art_pro_1401": "15-18",
         "png_1310": "12-16"
       },
-      "conditions": "8\u00b0C water, 5/4 wetsuit, dockstart",
+      "conditions": "8°C water, 5/4 wetsuit, dockstart",
       "note": "First session Fireball 1750 review. 2-3x longer runs vs smaller foils. Easier dockstart than expected. Long-distance foil. Prefers 358/25 over 358/35 stabilizer. Carbon mast over aluminum."
     },
     {
@@ -654,7 +654,7 @@
       "id": "setup_2026_03_19_003",
       "source": "FB post axisfoilriders 2026-03-19",
       "date": "2026-03-19",
-      "rider_name": "C\u00e9dric Okp",
+      "rider_name": "Cédric Okp",
       "experience": "advanced",
       "location": "El Gouna, Egypt",
       "disciplines": [
@@ -1507,10 +1507,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiWxAxf",
       "date": "2026-03-08",
-      "name": "Survey Rider (Varberg, Sweden. Beats most spots\ud83d\ude03)",
+      "name": "Survey Rider (Varberg, Sweden. Beats most spots😃)",
       "weight": "85-95 kg / 187-209 lbs",
       "experience": "4+ years",
-      "location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
+      "location": "Varberg, Sweden. Beats most spots😃",
       "disciplines": [
         "Wing Foiling"
       ],
@@ -2482,10 +2482,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNg3H8J9",
       "date": "2026-03-09",
-      "name": "Survey Rider (Vend\u00e9e France)",
+      "name": "Survey Rider (Vendée France)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "4+ years",
-      "location": "Vend\u00e9e France",
+      "location": "Vendée France",
       "disciplines": [
         "Prone Surf",
         "Wing Foiling",
@@ -3018,7 +3018,7 @@
         },
         {
           "discipline": "SUP (Non-DW)",
-          "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
+          "front_wing": "Art 999 ( fireball 1250 when it’s small)",
           "rear_wing": "Skinny 40",
           "mast": "82cm HM carbon",
           "fuselage": "Black ultrashort"
@@ -3038,10 +3038,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNiDUf3q",
       "date": "2026-03-09",
-      "name": "Survey Rider (France oc\u00e9an basque country)",
+      "name": "Survey Rider (France océan basque country)",
       "weight": "65-75 kg / 143-165 lbs",
       "experience": "2-4 years",
-      "location": "France oc\u00e9an basque country",
+      "location": "France océan basque country",
       "disciplines": [
         "Downwind SUP",
         "Prone Surf",
@@ -3281,10 +3281,10 @@
       "source": "AXIS Setup Survey 2026",
       "source_id": "survey-ACYDBNipQpDr",
       "date": "2026-03-09",
-      "name": "Survey Rider (Z\u00fcrich)",
+      "name": "Survey Rider (Zürich)",
       "weight": "Under 65 kg / 143 lbs",
       "experience": "2-4 years",
-      "location": "Z\u00fcrich",
+      "location": "Zürich",
       "disciplines": [
         "Pump/Flat Water",
         "Dock Start"
@@ -4256,9 +4256,9 @@
         "comparison_wing": "ART V2 879",
         "wing_size": "3.0-6.0m",
         "mast_position": "8-9",
-        "shimming": "1\u00b0 nose down in brutal conditions"
+        "shimming": "1° nose down in brutal conditions"
       },
-      "conditions": "11-17 knots thermal, 8\u00b0c water",
+      "conditions": "11-17 knots thermal, 8°c water",
       "notes": "HPS 930 easy/low stall speed vs ART V2 879 better glide. Comparing old vs new setup in light wind. Very detailed session report."
     },
     {
@@ -4281,7 +4281,7 @@
         ]
       },
       "discipline": "wingfoil",
-      "conditions_noted": "11-17 knots, 8\u00b0C water",
+      "conditions_noted": "11-17 knots, 8°C water",
       "notes": "91kg in full wintersuit, HPS 930 still performs excellently vs newer ART V2"
     },
     {
@@ -4522,6 +4522,22 @@
       "stab": null,
       "notes": "Considering PNGv2 1200 for dock starts. Intermediate winger.",
       "sentiment": "curious"
+    },
+    {
+      "id": "setup_2026_04_05_AM_001",
+      "source": "FB post axisfoilriders 2026-04-05 (AM)",
+      "date": "2026-04-05",
+      "rider_name": "Jimmy Jam Foils",
+      "badge": "Group expert",
+      "discipline": [
+        "dockstart",
+        "general"
+      ],
+      "front_wing": null,
+      "mast": "Integrated mast",
+      "board": null,
+      "notes": "Strong positive first-impression style post: \"Integrated mast is 🔥🔥🔥\" with FOMO framing. No detailed dimensions disclosed.",
+      "sentiment": "very_positive"
     }
   ],
   "aggregations": {
@@ -4751,7 +4767,7 @@
             "mentions": 1
           }
         ],
-        "note": "All high-aspect, 1300+ cm\u00b2 wings"
+        "note": "All high-aspect, 1300+ cm² wings"
       }
     },
     "trends": [

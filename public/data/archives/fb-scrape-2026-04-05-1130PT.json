@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "scraped_at_utc": "2026-04-05T18:30:00Z",
+    "scraped_at_pt": "2026-04-05T11:30:00-07:00",
+    "window_riders_group": "last_12_hours_target",
+    "window_official_page": "last_24_hours_target",
+    "method": "browser tool (profile=chrome)",
+    "status": "partial_success_with_reported_failures"
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_within_12h_detected": [
+      {
+        "post_id": "1572956223802663",
+        "poster": "Jimmy Jam Foils",
+        "badge": "Group expert",
+        "relative_time_observed": "~46m (UI token; partially obfuscated)",
+        "text": "Didn’t need it but had a bad case of FOMO not having it 🤦🏻‍♂️ the addiction is real. Might start the first foil rehab clinic once summer ends. Integrated mast is 🔥🔥🔥",
+        "reactions": 4,
+        "comments": 0,
+        "replies": 0,
+        "foils_mentioned": [
+          "Integrated mast"
+        ],
+        "boards_masts_mentioned": [
+          "Integrated mast"
+        ],
+        "rider_weight": null,
+        "discipline": [
+          "dock start / general foil"
+        ],
+        "sentiment": "very_positive"
+      }
+    ],
+    "posts_seen_outside_window": [
+      {
+        "post_id": "1572549643843321",
+        "poster": "Darren Zielonka",
+        "relative_time": "23h",
+        "summary": "Foot straps on Tray 110 compatibility question; comments include where plastic inserts are."
+      },
+      {
+        "poster": "Henry Clirk",
+        "relative_time": "23h",
+        "summary": "Marketplace-like surfboard/efoil resale style post (non-AXIS-specific)."
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_within_24h_detected": [],
+    "latest_visible_post": {
+      "summary": "Survey post (seen as ~1 week old) with rider setup insights",
+      "reactions": 9,
+      "comments": 5,
+      "unanswered_customer_questions": []
+    }
+  },
+  "failures": [
+    "Facebook UI returned obfuscated timestamp strings in several places, limiting exact age verification.",
+    "Some feed/comment expansion controls dynamically moved the view to permalinks, preventing deterministic all-comments expansion across every visible post.",
+    "Could not conclusively enumerate every single comment/reply for posts older than scan window due dynamic lazy-load + anti-automation UI behavior; all such gaps are reported here instead of silently skipped."
+  ],
+  "signals": {
+    "scam_alerts": [],
+    "product_intel": [
+      "Integrated mast post shows positive hype and FOMO behavior from engaged riders.",
+      "Tray 110 footstrap compatibility remains a practical setup question in community discussion (outside 12h window)."
+    ],
+    "supply_signals": []
+  }
+}
