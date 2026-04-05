@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "YouTube Transcripts",
-    "extracted": "2026-03-11",
-    "video_count": 11,
+    "extracted": "2026-04-05",
+    "video_count": 14,
     "videos": [
       {
         "title": "Axis foil range review 2025",
@@ -69,6 +69,24 @@
         "url": "https://www.youtube.com/watch?v=ktZ9cD1djug",
         "date": "2025-06-01",
         "reviewer": "Unknown Reviewer"
+      },
+      {
+        "title": "AXIS Surge Foil Ramblings",
+        "url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+        "date": "2025-12-01",
+        "reviewer": "Freddie (Maxtrack, AXIS UK Distributor)"
+      },
+      {
+        "title": "Whats New in Foiling Feb 2026",
+        "url": "https://www.youtube.com/watch?v=4TFezQjDk9o",
+        "date": "2026-02-01",
+        "reviewer": "John & Guy (Surf FX Australia)"
+      },
+      {
+        "title": "AXIS Foils: What's Hot in 5 at the AWSI",
+        "url": "https://www.youtube.com/watch?v=5m-mMrbOJkc",
+        "date": "2025-09-01",
+        "reviewer": "Adrian Roper (AXIS Designer)"
       }
     ]
   },
@@ -857,6 +875,200 @@
       "sentiment": "positive",
       "use_case": "prone",
       "date": "2025-06-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surge_general",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Surge is the #1 recommendation for UK/Northern Europe riders. 9.5 aspect ratio sits between Spitfire (7-8) and ART V2 (10). After first trying it in America, ran straight to Adrian and said stop building everything else - this is all we need for UK conditions.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "key_insight": "UK distributor endorsement: Surge is the single most useful foil for UK beach break and wing foiling conditions",
+      "sentiment": "positive",
+      "use_case": "winging",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surge_turning",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Best turning Axis foil ever. Previous foils (Spitfire, ART V2) turn on the Y-axis (yaw) but lack smooth roll. Surge has progressive roll - goes as far as you want with as much effort as you put in, like a surfboard. This roll characteristic is the #1 new feature.",
+      "foils_mentioned": [
+        "Surge",
+        "Spitfire",
+        "ART V2"
+      ],
+      "key_insight": "Surge introduces surfboard-like progressive roll that previous AXIS foils lacked - biggest single upgrade",
+      "sentiment": "positive",
+      "use_case": "prone",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surge_pump",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Surge 890 allowed Freddie (80kg, self-described poor pumper) to comfortably link 2-3 waves. Key improvement: forward drive in the pump - borrowed from downwind racing foils. You get forward momentum, not just staying high on the mast. Works across all sizes without needing to go bigger.",
+      "foils_mentioned": [
+        "Surge 890"
+      ],
+      "key_insight": "Surge brings downwind-racing forward drive into a surf foil - pumping accelerates forward, not just maintains height",
+      "sentiment": "positive",
+      "use_case": "prone",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surge_vs_fireball",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Surge vs Fireball: Fireball wins for all-out speed/glide and fast-moving open water swell. Surge is not the fastest but does not need to be. For lake blasting at max speed, Fireball. For beach break waves and most UK conditions, Surge. Both now the two main pillars of the AXIS range.",
+      "foils_mentioned": [
+        "Surge",
+        "Fireball"
+      ],
+      "key_insight": "Surge and Fireball are now the two main AXIS pillars - Surge for surf/waves, Fireball for speed/glide",
+      "sentiment": "positive",
+      "use_case": "allround",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surge_sizing",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Freddie 80kg: 890 for power winging and light wind winging, 830 for powered conditions or bigger surf, 740 on demo for toe foiling when 830 is overpowered. 1010 and 950 getting great reviews from subfoilers and Scottish loch riders on shorter sharper bumps.",
+      "foils_mentioned": [
+        "Surge 890",
+        "Surge 830",
+        "Surge 740",
+        "Surge 1010",
+        "Surge 950"
+      ],
+      "key_insight": "80kg rider sizing: 890 for light wind/power winging, 830 for powered conditions, 1010/950 praised for sub-foil and loch riding",
+      "sentiment": "positive",
+      "use_case": "winging",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_surf_skinny",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Surf Skinny rear wing fills the gap between Skinnies (fast/DW) and Progressives (slow/turning). 280 pairs with big foils needing less tail stability, 300 is the goldilocks sweet spot, 320 for smaller foils at speed needing more stability. Amplifies the Surge forward drive feel in the pump.",
+      "foils_mentioned": [
+        "Surge"
+      ],
+      "key_insight": "Surf Skinny 300 is the goldilocks rear wing for Surge; 280 for big front wings, 320 for small front wings at speed",
+      "sentiment": "positive",
+      "use_case": "prone",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_qB034jY70Y_fuselage",
+      "source": "youtube",
+      "source_label": "AXIS Surge Foil Ramblings (Maxtrack UK)",
+      "source_url": "https://www.youtube.com/watch?v=_qB034jY70Y",
+      "rider": "Freddie (Maxtrack, AXIS UK Distributor)",
+      "rider_authority": "experienced",
+      "text": "Ultra Short Advance Plus fuselage is the goldilocks fuselage for nearly everything: open water winging, prone, toe foiling. Go shorter for quicker turns; go to Short for big span foils or toe foiling big conditions. Otherwise Ultra Short Advance Plus ticks too many boxes.",
+      "foils_mentioned": [],
+      "key_insight": "Ultra Short Advance Plus is the recommended all-around fuselage for most AXIS setups per UK distributor",
+      "sentiment": "positive",
+      "use_case": "allround",
+      "date": "2025-12-01"
+    },
+    {
+      "id": "yt_4TFezQjDk9o_fireball_1750",
+      "source": "youtube",
+      "source_label": "Whats New in Foiling Feb 2026 (Surf FX Australia)",
+      "source_url": "https://www.youtube.com/watch?v=4TFezQjDk9o",
+      "rider": "John & Guy (Surf FX, Australia)",
+      "rider_authority": "experienced",
+      "text": "Fireball 1750 is 170cm wingspan - as tall as a 6'2\" person. Requires the Fatty mast/fuselage for stiffness at that span. Lighter riders will feel flex with regular mast. Sydney rider confirmed: if windy or a lighter rider, definitely get the Fatty.",
+      "foils_mentioned": [
+        "Fireball 1750"
+      ],
+      "key_insight": "Fireball 1750 REQUIRES Fatty mast/fuselage - lighter riders WILL feel flex with standard mast at 170cm wingspan",
+      "sentiment": "positive",
+      "use_case": "pumping",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "yt_4TFezQjDk9o_surge_australia",
+      "source": "youtube",
+      "source_label": "Whats New in Foiling Feb 2026 (Surf FX Australia)",
+      "source_url": "https://www.youtube.com/watch?v=4TFezQjDk9o",
+      "rider": "John & Guy (Surf FX, Australia)",
+      "rider_authority": "experienced",
+      "text": "Surge finally back in stock at Surf FX - first 3 shipments sold out before arrival. Handles tip breaches well with less cavitation - built for aggressive hard surfing with tips out. 80kg rider on Surge 830 in large surf with Foil Drive Fusion performed brilliantly.",
+      "foils_mentioned": [
+        "Surge 830",
+        "Surge"
+      ],
+      "key_insight": "Surge sold out 3 consecutive shipments before arrival at world-leading Australian shop; built for aggressive tip-breach surfing",
+      "sentiment": "positive",
+      "use_case": "prone",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "yt_4TFezQjDk9o_axis_integrated_mast",
+      "source": "youtube",
+      "source_label": "Whats New in Foiling Feb 2026 (Surf FX Australia)",
+      "source_url": "https://www.youtube.com/watch?v=4TFezQjDk9o",
+      "rider": "John & Guy (Surf FX, Australia)",
+      "rider_authority": "experienced",
+      "text": "AXIS integrated mast: first shipment sold out immediately, back in stock after Chinese New Year 2026. Two constructions: High Modulus (lighter riders, smaller span wings) and Ultra High Modulus (bigger span, stiffer). Para-winging demand is driving integrated mast sales hard.",
+      "foils_mentioned": [],
+      "key_insight": "AXIS integrated mast sold out instantly on first shipment; choose HM for smaller/lighter setups, UHM for big span",
+      "sentiment": "positive",
+      "use_case": "winging",
+      "date": "2026-02-01"
+    },
+    {
+      "id": "yt_5mmMrbOJkc_tempo_titanium",
+      "source": "youtube",
+      "source_label": "AXIS Foils: What's Hot in 5 at the AWSI",
+      "source_url": "https://www.youtube.com/watch?v=5m-mMrbOJkc",
+      "rider": "Adrian Roper (AXIS Designer)",
+      "rider_authority": "designer",
+      "text": "Tempo titanium fuselage: development started when Fireball launched. Titanium body with stainless steel top plate, grub screws expand internally to lock wings - no external bolts on foil surface. 16 aspect ratio wings are ultra-high-modulus carbon with no core (too thin). Aluminum adapter included for existing rear wings. AWSI 2025 Hawaii: 9 of top 20 riders on Tempo.",
+      "foils_mentioned": [
+        "Tempo"
+      ],
+      "key_insight": "Tempo titanium fuselage uses internal expansion locking - no surface bolts, 16AR wings too thin for any core material",
+      "sentiment": "positive",
+      "use_case": "downwind",
+      "date": "2025-09-01"
+    },
+    {
+      "id": "yt_5mmMrbOJkc_foil_drive_board",
+      "source": "youtube",
+      "source_label": "AXIS Foils: What's Hot in 5 at the AWSI",
+      "source_url": "https://www.youtube.com/watch?v=5m-mMrbOJkc",
+      "rider": "Adrian Roper (AXIS Designer)",
+      "rider_authority": "designer",
+      "text": "New AXIS Foil Drive pocket trench board: battery slots under flush cover with only 2mm clearance each side - minimal drag. Quick swap: loosen two screws, slide back, lift out, dry, reinsert. Integrated mast in HM and UHM. Fiberglass in battery and mast areas for RF signal. Pre-preg carbon at 130C, closed-cell foam - no vent needed, safe in sun.",
+      "foils_mentioned": [],
+      "key_insight": "New Foil Drive pocket board: 2mm trench clearance, fiberglass signal windows, closed-cell construction - purpose-built for minimal drag",
+      "sentiment": "positive",
+      "use_case": "allround",
+      "date": "2025-09-01"
     }
   ]
 }
