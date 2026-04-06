@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "scraped_at_utc": "2026-04-06T01:01:00Z",
+    "scraped_at_pt": "2026-04-05T18:01:00-07:00",
+    "window_riders_group": "last_12_hours_target",
+    "window_official_page": "last_24_hours_target",
+    "method": "browser tool (profile=chrome)",
+    "status": "partial_success_with_reported_failures"
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_within_12h_detected": [
+      {
+        "post_id": "1573275833770702",
+        "poster": "David Draffan",
+        "relative_time": "3h",
+        "text": "Hi all, Is the surge a big improvement on the Spitfire840 for bump and jump winging...",
+        "reactions": 4,
+        "comments": 4,
+        "foils_mentioned": [
+          "Spitfire 840",
+          "Surge 830",
+          "Surge 890",
+          "Spitfire 720",
+          "ART V2 819",
+          "Fireball 1000"
+        ],
+        "sentiment": "mixed_comparison"
+      },
+      {
+        "post_id": "1573228080442144",
+        "poster": "Henry Clirk",
+        "relative_time": "4h",
+        "text": "Image-only post (board photos). Embedded listing from John lucas efoil.",
+        "reactions": null,
+        "comments": 0,
+        "foils_mentioned": [],
+        "sentiment": "neutral"
+      },
+      {
+        "post_id": "1572956223802663",
+        "poster": "Jimmy Jam Foils",
+        "relative_time": "12h",
+        "text": "Didn’t need it but had a bad case of FOMO... Integrated mast is 🔥🔥🔥",
+        "reactions": 5,
+        "comments": 1,
+        "foils_mentioned": [
+          "Integrated mast"
+        ],
+        "sentiment": "very_positive"
+      }
+    ],
+    "notable_embedded_content": [
+      {
+        "source": "John lucas efoil",
+        "relative_time": "5h",
+        "text": "AK Phazer 90L learner wing/parawing board for riders ~80kg or less; minor paint wear noted.",
+        "type": "gear_listing"
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_within_24h_detected": [],
+    "latest_visible_post_dates": [
+      "March 23 at 7:52 AM",
+      "February 8"
+    ],
+    "unanswered_customer_questions": []
+  },
+  "failures": [
+    "Facebook UI anti-automation behavior made deterministic expansion of every nested reply unreliable across all loaded posts.",
+    "One attempted modal navigation returned to home feed; resumed and continued in group feed.",
+    "Could not confirm any AXIS official page posts inside strict last-24h window; visible feed items were older (March 23, Feb 8).",
+    "John lucas content appeared as embedded/share-style content inside Henry thread; treated as notable listing but full standalone thread context could not be deterministically expanded."
+  ],
+  "signals": {
+    "scam_alerts": [],
+    "product_intel": [
+      "Surge 830 repeatedly framed as direct SF840 replacement for bump/jump winging.",
+      "Counter-signal: one rider reports SF840->Surge830 reduced lift/drive in waves despite lower drag.",
+      "Integrated mast generates strong positive sentiment (FOMO + high stoke)."
+    ],
+    "supply_signals": [
+      "Used AK Phazer 90L listing indicates active secondary-market learner board turnover in UK (Bantham, Devon)."
+    ]
+  }
+}

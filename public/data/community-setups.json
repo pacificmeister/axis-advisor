@@ -6,8 +6,8 @@
     "reportWeek": "2026-03-03/2026-03-09",
     "last_updated": "2026-03-24T01:00:00Z",
     "total_riders": 123,
-    "lastUpdated": "2026-04-05T18:30:00Z",
-    "totalRiders": 167,
+    "lastUpdated": "2026-04-05T18:01:00-07:00",
+    "totalRiders": 170,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
@@ -4538,6 +4538,54 @@
       "board": null,
       "notes": "Strong positive first-impression style post: \"Integrated mast is 🔥🔥🔥\" with FOMO framing. No detailed dimensions disclosed.",
       "sentiment": "very_positive"
+    },
+    {
+      "id": "setup_2026_04_05_PM_001",
+      "source": "FB post axisfoilriders 2026-04-05 (PM)",
+      "date": "2026-04-05",
+      "rider_name": "David Draffan",
+      "discipline": [
+        "wingfoil"
+      ],
+      "front_wings": [
+        "Spitfire 840",
+        "Surge 830",
+        "Surge 890",
+        "Spitfire 720",
+        "ART V2 819",
+        "Fireball 1000"
+      ],
+      "seeking": "Best Surge replacement size for SF840 in bump-and-jump winging",
+      "notes": "Community split: several riders favor Surge 830 as direct replacement; others note reduced lift/drive vs SF in waves."
+    },
+    {
+      "id": "setup_2026_04_05_PM_002",
+      "source": "FB comment axisfoilriders 2026-04-05 (PM)",
+      "date": "2026-04-05",
+      "rider_name": "Harris Chang",
+      "discipline": [
+        "winging waves"
+      ],
+      "current_setup": {
+        "front_wings": [
+          "Spitfire 840",
+          "Surge 830"
+        ]
+      },
+      "notes": "Transitioned SF840 -> Surge 830; reports less lift and less drag; less wave drive but better all-around feel once adapted."
+    },
+    {
+      "id": "setup_2026_04_05_PM_003",
+      "source": "FB listing axisfoilriders 2026-04-05 (PM)",
+      "date": "2026-04-05",
+      "rider_name": "John lucas efoil",
+      "discipline": [
+        "wingfoil",
+        "parawing"
+      ],
+      "rider_weight_kg": 80,
+      "board": "AK Phazer 90L",
+      "notes": "Advertised as learner wing/parawing crossover board for ~80kg or less; mentions light carbon build and minor nose paint wear."
     }
   ],
   "aggregations": {

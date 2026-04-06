@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 411,
+    "total_entries": 414,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,7 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-05T18:30:00Z"
+    "last_updated": "2026-04-06T01:01:00Z"
   },
   "posts": [
     {
@@ -8200,6 +8200,67 @@
       "reactions": 4,
       "comments": 0,
       "date": "2026-04-05T11:30:00-07:00"
+    },
+    {
+      "id": "scan_2026_04_05_pm_david_draffan",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "David Draffan",
+      "text": "Hi all, Is the surge a big improvement on the Spitfire840 for bump and jump winging. Is the 830 or 890 the best size to replace the 840? Other wings are Spitfire 720, ART v2 819 and Fireball 1000, Thanks all.",
+      "foils_mentioned": [
+        "Spitfire 840",
+        "Surge 830",
+        "Surge 890",
+        "Spitfire 720",
+        "ART V2 819",
+        "Fireball 1000"
+      ],
+      "rider_weight": null,
+      "use_case": "wing (bump and jump)",
+      "sentiment": "neutral_question",
+      "type": "community",
+      "date": "2026-04-05T18:01:00-07:00",
+      "reactions": 4,
+      "comments_count": 4,
+      "comments": [
+        "Stephen Westwood: The 830 Surge is a direct replacement of the 840 Spitfire in my experience.",
+        "Chris Pelly: Surge is better than the spitfire at everything.",
+        "Harris Chang: Went from sf840 to surge 830 winging waves. Feels less lift and less drag; less drive from waves; slightly better all-around than sf but still adapting.",
+        "Mick Evans: Has Surge and ART V2 plus SF; says in one recent wave session ART V2 felt best and younger son dislikes Surge and still rides 840/960 SF."
+      ]
+    },
+    {
+      "id": "scan_2026_04_05_pm_jimmy_integrated_mast",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Didn’t need it but had a bad case of FOMO not having it. The addiction is real. Might start the first foil rehab clinic once summer ends. Integrated mast is 🔥🔥🔥",
+      "foils_mentioned": [
+        "Integrated mast"
+      ],
+      "rider_weight": null,
+      "use_case": "general / surf",
+      "sentiment": "very_positive",
+      "type": "community",
+      "date": "2026-04-05T18:01:00-07:00",
+      "reactions": 5,
+      "comments_count": 1,
+      "comments": [
+        "Josh McClure: Start an AA class - Axis Addicts 😂"
+      ]
+    },
+    {
+      "id": "scan_2026_04_05_pm_john_lucas_ak90",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "John lucas efoil",
+      "text": "AK Phazer 90l, ideal learner wingboard for anyone ~80kg or less. A shape well ahead of its time which leans towards a modern mid length with efficient take off, but a bit of width for stability. Works well as a wingfoil/parawing crossover board for anyone doing their initial parawing fumbling. Carbon construction so nice and light. There's a little paint wear on the nose but otherwise in good nick. Collection near Bantham, Devon.",
+      "foils_mentioned": [],
+      "rider_weight": 80,
+      "use_case": "wingfoil/parawing",
+      "sentiment": "positive",
+      "type": "community_listing",
+      "date": "2026-04-05T18:01:00-07:00"
     }
   ]
 }
