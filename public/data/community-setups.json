@@ -4,13 +4,33 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-03-24T01:00:00Z",
-    "total_riders": 123,
-    "lastUpdated": "2026-04-06T18:43:00-07:00",
-    "totalRiders": 171,
+    "last_updated": "2026-04-07T06:02:00-07:00",
+    "total_riders": 172,
+    "lastUpdated": "2026-04-07T06:02:00-07:00",
+    "totalRiders": 172,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_04_07_AM_001",
+      "source": "FB post axisfoilriders 2026-04-07 (AM) comment",
+      "date": "2026-04-07",
+      "rider_name": "Paul Schnetker",
+      "discipline": [
+        "efoil",
+        "surf"
+      ],
+      "rider_weight_kg": 85,
+      "current_setup": {
+        "board": "Fliteboard L2",
+        "board_weight_lb": 40,
+        "front_wing": "Surge 950",
+        "rear_wing": "Fliteboard 245",
+        "adapter": "AXIS adapter / awaiting AXIS rear-wing adapter"
+      },
+      "notes": "Likes Surge 950 with adapter. Requested recommendation whether 320 Surf Skinny is sufficient rear wing for this 85kg intermediate eFoil surf setup.",
+      "open_question": "320 Surf Skinny vs larger rear wing for stability/lift balance on eFoil surf."
+    },
     {
       "id": "setup_2026_04_01_PM_001",
       "source": "FB post axisfoilriders 2026-04-01 (PM)",

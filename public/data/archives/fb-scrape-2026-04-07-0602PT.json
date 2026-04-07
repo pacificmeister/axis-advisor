@@ -1,0 +1,131 @@
+{
+  "scan_meta": {
+    "task": "AXIS FACEBOOK SCRAPE",
+    "scan_time_local": "2026-04-07 06:02 PT",
+    "scan_time_iso": "2026-04-07T06:02:00-07:00",
+    "window_riders_group_hours": 12,
+    "window_official_page_hours": 24,
+    "browser_profile": "chrome",
+    "status": "ok"
+  },
+  "riders_group": {
+    "group": "AXIS Foil Riders",
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_window": [
+      {
+        "post_id": "1574128890352063",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/permalink/1574128890352063/",
+        "poster": "Jimmy Jam Foils",
+        "posted": "10 hours ago",
+        "post_text": "High motor pod vs low motor pod. Who doesn't like a little slow motion of props folding up and props coming out of the water ?",
+        "reactions_total": 8,
+        "comment_count": 9,
+        "comments": [
+          {
+            "author": "Benedicto Espiritu",
+            "time": "8h",
+            "text": "Hopefully it weiighs way way less than an efoil which is 70 lbs"
+          },
+          {
+            "author": "Jimmy Jam Foils",
+            "time": "7h",
+            "text": "it’s like 1/3 the weight of an efoil",
+            "reply_to": "Benedicto Espiritu"
+          },
+          {
+            "author": "Benedicto Espiritu",
+            "time": "9h",
+            "text": "Jimmy how much does everything weigh , board and everything ? Thanks"
+          },
+          {
+            "author": "Jimmy Jam Foils",
+            "time": "9h",
+            "text": "let me get back to you …good question. Loaded up for a sunrise session then a boat photoshoot with a team rider … hopefully get a chance to weigh tomorrow afternoon",
+            "reply_to": "Benedicto Espiritu"
+          },
+          {
+            "author": "Aaron Pilon",
+            "time": "45m",
+            "text": "Fusion? Or Max? What do you recommend for downwinding, some eFoiling and small surf?"
+          },
+          {
+            "author": "Jimmy Jam Foils",
+            "time": "35m",
+            "text": "really loving the fusion. Does it all with extra power and run time. But is 8lbs heavier. But allows me to get across the lake or bay to chase down surf boats, cruise around etc. Max is a lot less run time … but if u wanna got light, and got a near by surf break … and not miles off the coast doing downwinders the max be nice and gets the job done. Need to do some downwinders next month when the gorge warms up and will have better feedback on downwinders but pretty sure fusion gonna get me the longer downwinder runs too. Now can leave from the hatch and power upwind",
+            "reply_to": "Aaron Pilon"
+          },
+          {
+            "author": "Paul Schnetker",
+            "time": "3h",
+            "text": "I have a Fliteboard L2 that weighs about 40 lbs ready to ride. I weight 85kg (185 pounds) and I am intermediate rider. I am getting into Axis Wings. What front wing and rear wing would you suggest for an efoil in the surf? Thanks mate."
+          },
+          {
+            "author": "Jimmy Jam Foils",
+            "time": "1h",
+            "text": "I was riding the spitfires the last few years with my lift efoil. But now loving the surge foils. Haven’t used em yet with my lift efoil but should be good",
+            "reply_to": "Paul Schnetker"
+          },
+          {
+            "author": "Paul Schnetker",
+            "time": "43m",
+            "text": "cool thanks. I bought a 950 Surge and loving it with the adapter. I'm using a Fliteboard 245 rear wing and I have to go way up the front to handle the lifting. I am getting the axis rear wing adapter soon. Do you think the axis 320 surf skinny (I've heard they pair well with the Surge) is big enough or would you recommend something else for the back wing?",
+            "reply_to": "Jimmy Jam Foils",
+            "unanswered_at_scan": true
+          }
+        ],
+        "foils_mentioned": [
+          "Fusion",
+          "Max",
+          "Spitfire",
+          "Surge 950",
+          "320 Surf Skinny",
+          "Fliteboard 245 rear wing"
+        ],
+        "rider_weights_mentioned": [
+          "85kg / 185 lb"
+        ],
+        "disciplines": [
+          "eFoiling",
+          "downwind",
+          "small surf"
+        ],
+        "sentiment": "positive on Fusion/Surge, advisory discussion"
+      }
+    ],
+    "posts_outside_window_seen": [
+      {
+        "poster": "Louis Hulot",
+        "age": "18 hours ago"
+      },
+      {
+        "poster": "David Draffan",
+        "age": "a day ago"
+      },
+      {
+        "poster": "Henry Clirk",
+        "age": "a day ago"
+      }
+    ]
+  },
+  "official_page": {
+    "page": "AXIS Foils",
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_last_24h": [],
+    "latest_posts_seen": [
+      {
+        "posted": "March 23 at 7:52 AM",
+        "summary": "Survey results post (5 comments, all historical)"
+      },
+      {
+        "posted": "older than 24h",
+        "summary": "Surge visuals / Baja post (comments 8 weeks ago)"
+      },
+      {
+        "posted": "older than 24h",
+        "summary": "Dusseldorf event reel"
+      }
+    ],
+    "unanswered_customer_questions": []
+  }
+}

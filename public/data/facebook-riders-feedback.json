@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 418,
+    "total_entries": 421,
     "sources": {
-      "facebook_groups": 101,
+      "facebook_groups": 104,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,9 +13,9 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-06T18:43:00-07:00",
-    "last_scan": "2026-04-06T18:43:00-07:00",
-    "total_posts": 418
+    "last_updated": "2026-04-07T06:02:00-07:00",
+    "last_scan": "2026-04-07T06:02:00-07:00",
+    "total_posts": 421
   },
   "posts": [
     {
@@ -8472,6 +8472,55 @@
           "reactions": 0
         }
       ]
+    },
+    {
+      "id": "post_97",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Aaron Pilon / Jimmy Jam Foils",
+      "text": "Fusion vs Max for downwind + eFoil + small surf: Jimmy reports Fusion has more power/runtime and broader range but about +8 lb; Max lighter with shorter runtime for nearby breaks.",
+      "foils_mentioned": [
+        "Fusion",
+        "Max"
+      ],
+      "rider_weight": null,
+      "use_case": "downwind/efoil/surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-04-07T06:02:00-07:00"
+    },
+    {
+      "id": "post_98",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Paul Schnetker",
+      "text": "Intermediate 85kg rider on Fliteboard L2 (40 lb) asks for AXIS eFoil surf setup. Currently likes Surge 950 with adapter; using Fliteboard 245 rear wing; evaluating AXIS 320 Surf Skinny with AXIS rear-wing adapter.",
+      "foils_mentioned": [
+        "Surge 950",
+        "320 Surf Skinny",
+        "Fliteboard 245 rear wing"
+      ],
+      "rider_weight": 185,
+      "use_case": "efoil surf",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-04-07T06:02:00-07:00"
+    },
+    {
+      "id": "post_99",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Paul Schnetker",
+      "text": "Unanswered follow-up at scan time: asks if AXIS 320 Surf Skinny is sufficient rear wing pairing for Surge 950 eFoil setup, versus larger alternative.",
+      "foils_mentioned": [
+        "Surge 950",
+        "320 Surf Skinny"
+      ],
+      "rider_weight": 185,
+      "use_case": "efoil surf",
+      "sentiment": "question",
+      "type": "community",
+      "date": "2026-04-07T06:02:00-07:00"
     }
   ]
 }
