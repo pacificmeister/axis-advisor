@@ -1,0 +1,108 @@
+{
+  "scan_meta": {
+    "scan_id": "fb-scrape-2026-04-06-1801PT",
+    "started_at_pt": "2026-04-06T18:01:00-07:00",
+    "completed_at_pt": "2026-04-06T18:43:00-07:00",
+    "operator": "Herbert",
+    "browser_profile": "chrome",
+    "scope": {
+      "riders_group_window_hours": 12,
+      "official_page_window_hours": 24
+    }
+  },
+  "part1_axis_riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_window": [
+      {
+        "post_id": "1573915513706734",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/permalink/1573915513706734/",
+        "poster": "Louis Hulot",
+        "posted_ago": "6 hours",
+        "text": "Gear Advice 1201 vs FB ??? Hi everyone, I'm considering switching from my 1201 to a fireball but can't decide the size. I'm mainly doing pumping foil and some wing and surf foil, ideally something I could use in small waves and light wind would be great ! I can't decide the size, any advice ? Thank you",
+        "reactions_summary": "count not visible in captured modal",
+        "equipment_mentions": {
+          "front_wings": [
+            "AP 1201",
+            "Fireball 1250",
+            "Fireball 1070",
+            "Fireball 1160",
+            "Fireball 1350",
+            "Fireball 1500"
+          ],
+          "rear_wings": [
+            "Skinny 25",
+            "tiny stab"
+          ],
+          "boards": []
+        },
+        "rider_weight_kg": null,
+        "discipline": [
+          "pump",
+          "wing",
+          "surf"
+        ],
+        "sentiment": "positive toward Fireball 1250",
+        "comments": [
+          {
+            "name": "Liam Walton",
+            "posted_ago": "6h",
+            "text": "1250. Is ya ticket, less area at the tips so it doesn't kick you around in turbulent water as much.. pumps happy as, the area difference isn't that noticeable",
+            "reactions": 2
+          },
+          {
+            "name": "Tim VR",
+            "posted_ago": "6h",
+            "text": "1250, will work perfectly for that. Just use it on a tiny stab, I use the skinny 25 and it will turn and pump really well. I own and use the Fireball 1070, 1160, 1250, 1350 and 1500",
+            "reactions": 2
+          },
+          {
+            "name": "Mickie Williams",
+            "posted_ago": "5h",
+            "text": "I just got a 1250 FB love it And yes tiny stab",
+            "reactions": 0
+          },
+          {
+            "name": "Peter J Lataille",
+            "posted_ago": "3h",
+            "text": "Oh man! FB 1250 for sure over the AP 1201. Faster, turns easier, better glide, better pumping.",
+            "reactions": 0
+          }
+        ]
+      }
+    ],
+    "scan_notes": [
+      "Feed was set to New posts successfully.",
+      "Scrolled and expanded 'See more' and comment expansion controls on loaded content.",
+      "Next visible feed content encountered was older than 12h in prior feed snapshots (17h+), so only one in-window post captured."
+    ],
+    "failures": []
+  },
+  "part2_axis_official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_in_last_24h": [],
+    "unanswered_questions": [],
+    "scan_notes": [
+      "Timeline loaded and additional scrolling performed.",
+      "Visible comments/posts in captured sections were historical (weeks old), none clearly within 24h."
+    ],
+    "failures": [
+      "Facebook page feed ordering and timestamp rendering made strict 24h verification non-deterministic in this run (obfuscated timestamp strings). No confirmed <=24h post could be positively identified."
+    ]
+  },
+  "part4_flags": {
+    "scam_alerts": [],
+    "product_intel": [
+      "Strong recommendation cluster for Fireball 1250 as upgrade from AP1201 for pump/wing/small-wave crossover.",
+      "Repeated advice to pair FB1250 with smaller rear stabilizers (tiny stab / Skinny 25) for better turning and pump feel.",
+      "Fireball line breadth validation from active rider (1070/1160/1250/1350/1500 ownership) indicates deep quiver adoption."
+    ],
+    "supply_signals": [],
+    "high_engagement": [
+      {
+        "post_id": "1573915513706734",
+        "reason": "rapid expert-style response density within 6h; multi-rider consensus around one SKU"
+      }
+    ]
+  }
+}
