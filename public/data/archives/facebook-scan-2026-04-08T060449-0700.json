@@ -1,0 +1,50 @@
+{
+  "scan": {
+    "ran_at_local": "2026-04-08T06:04:49.810162-07:00",
+    "ran_at_utc": "2026-04-08T13:04:49.810162+00:00",
+    "window_12h_local": {
+      "start": "2026-04-07T18:04:49.810162-07:00",
+      "end": "2026-04-08T06:04:49.810162-07:00"
+    },
+    "window_24h_local": {
+      "start": "2026-04-07T06:04:49.810162-07:00",
+      "end": "2026-04-08T06:04:49.810162-07:00"
+    },
+    "source_profile": "chrome",
+    "riders_group_url": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_page_url": "https://www.facebook.com/axisfoils"
+  },
+  "riders_group": {
+    "sort_mode": "New posts (chronological)",
+    "posts_in_last_12h": [],
+    "closest_visible_post": {
+      "poster": "Garrett Peterson",
+      "relative_age_observed": "~17-18h",
+      "summary": "Reel post: wakefoil crash/near miss at Folsom Lake",
+      "engagement_visible": {
+        "reactions": 1,
+        "comments": 2
+      },
+      "post_link_hint": "/groups/axisfoilriders/posts/1574607546970864/"
+    },
+    "unanswered_questions_last_12h": []
+  },
+  "official_page": {
+    "posts_in_last_24h": [],
+    "closest_visible_post": {
+      "poster": "AXIS Foils",
+      "summary": "Survey post about rider setups (visible comments from 2w and 1w)",
+      "engagement_visible": {
+        "reactions": 9,
+        "comments": 5
+      },
+      "post_id_hint": "pfbid036Xtwbg9Q62d9o66PnigpaATGakpWXyQnUB9HCT4RnfRKhrR8K5BKwVFNCoNBxKGl"
+    },
+    "unanswered_questions_last_24h": []
+  },
+  "failures_or_limits": [
+    "Facebook time strings in feed header were obfuscated; absolute post timestamps were not directly readable from accessible snapshot text.",
+    "No posts appeared within the requested 12h (group) or 24h (official page) windows based on chronological feed order and visible relative times.",
+    "Due to no in-window posts, there were no in-window comments/replies available to expand."
+  ]
+}
