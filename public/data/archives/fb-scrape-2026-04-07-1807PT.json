@@ -1,0 +1,143 @@
+{
+  "scan_meta": {
+    "task": "AXIS FACEBOOK SCRAPE",
+    "scan_time_local": "2026-04-07 18:07 PDT",
+    "scan_time_iso": "2026-04-07T18:07:42-07:00",
+    "window_riders_group_hours": 12,
+    "window_official_page_hours": 24,
+    "profile": "chrome",
+    "account": "Alex Foiler",
+    "status": "completed_with_scope_limits"
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_12h": [
+      {
+        "post_id": "1574607546970864",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1574607546970864",
+        "poster": "Garrett Peterson",
+        "posted": "6 hours ago",
+        "text": "Yikes, could have been bad. That was unexpected 😆😆😆 #folsomlake #wakefoil #dangerous #fly #wild",
+        "reactions": {
+          "total": 4,
+          "breakdown": {
+            "like": 1,
+            "laugh": 3
+          }
+        },
+        "gear_mentioned": [
+          "21ft Chaparral H20 Sport",
+          "250hp Alpha One inboard/outboard"
+        ],
+        "rider_weight": null,
+        "discipline": [
+          "wakefoil"
+        ],
+        "sentiment": "positive / safety-near-miss",
+        "comments": [
+          {
+            "author": "Angus Mackay",
+            "text": "outboard prop?",
+            "posted": "6h",
+            "reactions": 1,
+            "replies": [
+              {
+                "author": "Garrett Peterson",
+                "text": "yep, 21ft h20 sport chaparral, count the swim platform so it’s really only 19 feet. 250 hp Alpha one inboard outboard.",
+                "posted": "4h"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "post_id": "1574497553648530",
+        "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1574497553648530",
+        "poster": "Bill Tanz",
+        "posted": "10 hours ago",
+        "text": "Selling lightly used AXIS setup (fresh water only, ~10 days use), seeking best marketplace and fair price.",
+        "reactions": {
+          "total": 0
+        },
+        "gear_mentioned": [
+          "Dwarfcraft V2 100cm",
+          "PNG Carbon 910",
+          "Rear 460 V2 Pump",
+          "Short Red Fuselage",
+          "680mm Mast 75cm Aluminum",
+          "PNG Carbon 1150 (new in bag)"
+        ],
+        "rider_weight": null,
+        "discipline": [
+          "buy/sell"
+        ],
+        "sentiment": "neutral",
+        "comments": [
+          {
+            "author": "Eric Dornbush",
+            "text": "Use dedicated AXIS buy/sell groups; include clean photos and whether 910 fits black or red fuse.",
+            "posted": "9h",
+            "reactions": 1,
+            "replies": [
+              {
+                "author": "Bill Tanz",
+                "text": "Requested to join AXIS Foils Buy/Sell/Trade US/Canada.",
+                "posted": "9h"
+              }
+            ]
+          },
+          {
+            "author": "John Novembre",
+            "text": "Friend in Bend may be interested; asks price range and if shipping possible.",
+            "posted": "3h",
+            "replies": [
+              {
+                "author": "Bill Tanz",
+                "text": "Can pack/ship; asks fair price; lists full setup and unused 1150 wing.",
+                "posted": "3h"
+              },
+              {
+                "author": "Genevieve Dumoulin",
+                "text": "How much for your 1150 and where are you located?",
+                "posted": "1h"
+              }
+            ]
+          },
+          {
+            "author": "Bill Tanz",
+            "text": "^ (reply to Wake Thief)",
+            "posted": "10h"
+          }
+        ]
+      }
+    ],
+    "outside_window_examples": [
+      {
+        "post_id": "1574128890352063",
+        "poster": "Jimmy Jam Foils",
+        "posted": "22 hours ago",
+        "note": "excluded from 12h window"
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_in_last_24h": [],
+    "unanswered_questions": [],
+    "note": "No posts in the last 24 hours were surfaced on the page during this scan. Visible timeline entries were 2w/8w old."
+  },
+  "alerts": {
+    "scam_signals": [
+      "No obvious counterfeit/scam listing detected in the 12h rider-window posts."
+    ],
+    "supply_signals": [
+      "Active secondary-market liquidity: near-new full setup + unopened PNG 1150 offered in US market.",
+      "Buyer interest includes shipping to Bend, OR and separate inquiry for PNG 1150 wing."
+    ]
+  },
+  "limitations": [
+    "Facebook UI time strings in feed were partially obfuscated; exact post times were confirmed by opening post dialogs.",
+    "This run captured and expanded comments/replies for all posts confirmed inside 12h window (2 posts)."
+  ]
+}

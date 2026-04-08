@@ -4,13 +4,33 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-04-07T06:02:00-07:00",
-    "total_riders": 172,
-    "lastUpdated": "2026-04-07T06:02:00-07:00",
-    "totalRiders": 172,
+    "last_updated": "2026-04-07T18:07:42-07:00",
+    "total_riders": 173,
+    "lastUpdated": "2026-04-07T18:07:42-07:00",
+    "totalRiders": 173,
     "updated": "2026-03-28T18:00:00-07:00"
   },
   "riders": [
+    {
+      "id": "setup_2026_04_07_1807_bill_tanz_sale",
+      "source": "FB post axisfoilriders 2026-04-07 18:07",
+      "date": "2026-04-07",
+      "rider_name": "Bill Tanz",
+      "discipline": [
+        "buy/sell"
+      ],
+      "rider_weight_kg": null,
+      "current_setup": {
+        "board": "Dwarfcraft V2 100cm",
+        "front_wing": "PNG Carbon 910",
+        "rear_wing": "460 V2 Pump",
+        "fuselage": "Short Red",
+        "mast": "75cm Aluminum",
+        "extra_wing": "PNG Carbon 1150 (new in bag)"
+      },
+      "notes": "Near-new freshwater setup listed for sale; seller open to shipping. Strong buyer inquiry for standalone 1150.",
+      "open_question": "Fair pricing for package and optional separate sale of PNG 1150."
+    },
     {
       "id": "setup_2026_04_07_AM_001",
       "source": "FB post axisfoilriders 2026-04-07 (AM) comment",
@@ -4870,6 +4890,21 @@
   },
   "setups": [
     {
+      "id": "setup_card_20260407_1807_bill_tanz",
+      "rider": "Bill Tanz",
+      "weight": null,
+      "discipline": "buy/sell",
+      "front_wing": "PNG 910",
+      "tail": "460 V2 Pump",
+      "mast": "75cm Aluminum",
+      "fuselage": "Short Red",
+      "board": "Dwarfcraft V2 100cm",
+      "notes": "Listing includes unopened PNG 1150; shipping requested by buyer.",
+      "sentiment": "neutral",
+      "source": "facebook_axis_riders",
+      "date": "2026-04-07T18:07:42-07:00"
+    },
+    {
       "id": "setup_2026_04_01_001",
       "rider": "Fraser Shaw",
       "weight": null,
@@ -5113,8 +5148,8 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-04-06T06:07:00-07:00",
-    "total_entries": 161
+    "last_updated": "2026-04-07T18:07:42-07:00",
+    "total_entries": 173
   },
   "new_setups_2026_03_31_PM": [
     {
