@@ -4,11 +4,11 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-04-08T06:04:49.810162-07:00",
+    "last_updated": "2026-04-09T06:05:50.052633-07:00",
     "total_riders": 173,
-    "lastUpdated": "2026-04-08T06:04:49.810162-07:00",
+    "lastUpdated": "2026-04-09T06:05:50.052633-07:00",
     "totalRiders": 173,
-    "updated": "2026-04-08T06:04:49.810162-07:00"
+    "updated": "2026-04-09T06:05:50.052633-07:00"
   },
   "riders": [
     {
@@ -5148,7 +5148,7 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-04-07T18:07:42-07:00",
+    "last_updated": "2026-04-09T06:05:50.052633-07:00",
     "total_entries": 173
   },
   "new_setups_2026_03_31_PM": [

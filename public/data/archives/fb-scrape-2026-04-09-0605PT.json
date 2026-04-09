@@ -1,0 +1,44 @@
+{
+  "scan_meta": {
+    "task": "AXIS FACEBOOK SCRAPE",
+    "scan_time_local": "2026-04-09 06:05 PDT",
+    "scan_time_iso": "2026-04-09T06:05:50.052633-07:00",
+    "window_riders_group_hours": 12,
+    "window_official_page_hours": 24,
+    "profile": "chrome",
+    "account": "Alex Foiler",
+    "status": "completed_with_scope_limits"
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_12h": [],
+    "outside_window_examples": [
+      {
+        "post_id": "1574607546970864",
+        "poster": "Garrett Peterson",
+        "posted": "1d",
+        "note": "Visible newest post in feed; outside 12h window"
+      }
+    ],
+    "note": "No posts newer than 12h were surfaced in New Posts feed during this run."
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_in_last_24h": [],
+    "unanswered_questions": [],
+    "note": "No posts in the last 24 hours were surfaced on the page during this scan. Latest visible timeline post timestamp: March 23 at 7:52 AM."
+  },
+  "alerts": {
+    "scam_signals": [
+      "No new rider-group listings in the last 12h window to evaluate for scam risk."
+    ],
+    "supply_signals": [
+      "No fresh (<=12h) rider-group market listings observed in this run."
+    ]
+  },
+  "limitations": [
+    "Facebook feed timestamp text is obfuscated in some elements; verification relied on visible chronological feed state and surfaced timestamp labels.",
+    "Messenger overlay remained open in this Chrome profile and occasionally obscured page area but did not block feed/page timestamp checks."
+  ]
+}
