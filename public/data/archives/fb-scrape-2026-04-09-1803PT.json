@@ -1,0 +1,67 @@
+{
+  "scan_meta": {
+    "task": "AXIS FACEBOOK SCRAPE",
+    "scan_time_local": "2026-04-09 18:03 PDT",
+    "scan_time_iso": "2026-04-09T18:03:58-07:00",
+    "window_riders_group_hours": 12,
+    "window_official_page_hours": 24,
+    "profile": "chrome",
+    "account": "Alex Foiler",
+    "status": "completed_with_scope_limits"
+  },
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_12h": [],
+    "outside_window_examples": [
+      {
+        "post_id": "1574607546970864",
+        "poster": "Garrett Peterson",
+        "posted": "2d",
+        "text": "Yikes, could have been bad",
+        "comments_observed": 2
+      },
+      {
+        "poster": "Bill Tanz",
+        "posted": "2d",
+        "text": "Near-new setup sale inquiry and where to list",
+        "comments_observed": 13
+      },
+      {
+        "poster": "Jimmy Jam Foils",
+        "posted": "2d",
+        "text": "High motor pod vs low motor pod clip",
+        "comments_observed": 14
+      }
+    ],
+    "note": "No posts newer than 12h were surfaced in New Posts feed during this run. Visible newest thread age was 2 days."
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_in_last_24h": [],
+    "unanswered_questions": [],
+    "outside_window_examples": [
+      {
+        "posted": "2026-03-23 07:52",
+        "summary": "AXIS setup survey post",
+        "engagement": {
+          "reactions": 9,
+          "comments_visible": 5
+        }
+      }
+    ],
+    "note": "No posts in the last 24 hours were surfaced on the AXIS Foils page during this scan."
+  },
+  "alerts": {
+    "scam_signals": [
+      "No new rider-group sale listings in the <=12h window to evaluate for scam risk."
+    ],
+    "supply_signals": [
+      "No fresh (<=12h riders / <=24h official) stock or dealer signals observed."
+    ]
+  },
+  "limitations": [
+    "Facebook obfuscates some timestamp strings in the feed; validation used New Posts sort and explicit visible timestamps where available.",
+    "Messenger overlay remained open in this Chrome profile and occasionally consumed viewport area, but feed/page checks were still completed."
+  ]
+}
