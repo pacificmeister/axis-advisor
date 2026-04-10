@@ -1,0 +1,48 @@
+{
+  "scan": {
+    "job_id": "ac9681df-5abb-4ac1-b6f6-5dd34f28b948",
+    "started_at_local": "2026-04-10T06:01:00-07:00",
+    "started_at_utc": "2026-04-10T13:01:00Z",
+    "completed_at_local": "2026-04-10T06:10:22-07:00",
+    "status": "partial_with_failures"
+  },
+  "targets": {
+    "group": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_page": "https://www.facebook.com/axisfoils"
+  },
+  "captured_group_posts": [
+    {
+      "post_url": "https://www.facebook.com/groups/axisfoilriders/posts/1576487010116251/",
+      "poster": "Chris Conrath",
+      "relative_time": "3h",
+      "text": "I just got an advance + fuse which says to use 32mm m8 in the carbon mast. The mast says 30mm max, but I assume that the + fuse is slightly thicker where the bolts go compared to normal fuse. So my question is can I use th 32 mm bolts in my non + black fuse? I loosely fitted and the bolts do not appear to bottom out",
+      "reactions": 2,
+      "comments_visible": 4,
+      "visible_comments_meta": [
+        "Comment by Chris Conrath 3 hours ago",
+        "Comment by Adrian Roper 3 hours ago",
+        "View 1 reply present but not expandable before timeout"
+      ]
+    }
+  ],
+  "official_page_posts": [],
+  "unanswered_questions": [
+    {
+      "source": "AXIS Foil Riders",
+      "question": "Can 32mm M8 bolts from Advance+ fuse be safely used on a non+ black fuse with carbon mast marked 30mm max?",
+      "status": "not fully resolved in captured window"
+    }
+  ],
+  "failures": [
+    {
+      "stage": "browser.act evaluate (group deep scroll+expand)",
+      "error": "timed out. Restart the OpenClaw gateway. Do NOT retry browser tool.",
+      "impact": "Could not complete full 12h crawl or expand every comment/reply."
+    },
+    {
+      "stage": "web_fetch fallback (group+official page)",
+      "error": "Facebook error page via unauthenticated fetch",
+      "impact": "Could not recover official page 24h posts/comments via fallback."
+    }
+  ]
+}
