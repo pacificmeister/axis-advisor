@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 427,
+    "total_entries": 410,
     "sources": {
-      "facebook_groups": 107,
+      "facebook_groups": 101,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,9 +13,7 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-10T18:00:00-07:00",
-    "last_scan": "2026-04-10T18:00:00-07:00",
-    "total_posts": 427
+    "last_updated": "2026-03-24T08:26:51Z"
   },
   "posts": [
     {
@@ -51,7 +49,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Mark Shinn",
-      "text": "Mark Shinn Hi Hiroki, I think your wish list is exactly what the Surge is designed to do! RIP waves and be easy to pump back out too. The 950 is probably the size for size comparison to the 999 but the Surge has a lot more lift and glide and I suspect you will fi\u2026 See more",
+      "text": "Mark Shinn Hi Hiroki, I think your wish list is exactly what the Surge is designed to do! RIP waves and be easy to pump back out too. The 950 is probably the size for size comparison to the 999 but the Surge has a lot more lift and glide and I suspect you will fi… See more",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "pump",
@@ -64,7 +62,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Sean Richardson",
-      "text": "Sean Richardson Whoa! Sounds like a pretty serious injury/accident\u2026 Awesome that you\u2019re getting back into it after what I can only imagine would have been devastating\u2026 In my experience\u2026 to have the most fun riding swell - Surge for sure. I do wingfoil upwind/dow\u2026 See more 2",
+      "text": "Sean Richardson Whoa! Sounds like a pretty serious injury/accident… Awesome that you’re getting back into it after what I can only imagine would have been devastating… In my experience… to have the most fun riding swell - Surge for sure. I do wingfoil upwind/dow… See more 2",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -77,7 +75,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Charles Chandler",
-      "text": "Charles Chandler I would like to know how the mast drag of the Ultra PRO mast compares with the Fatty when riding high on the mast, say with 1/3 of mast in the water. I see that Yvon is doing very well with the Ultra Pro mast on some of the bigger wings, It's probably\u2026 See more",
+      "text": "Charles Chandler I would like to know how the mast drag of the Ultra PRO mast compares with the Fatty when riding high on the mast, say with 1/3 of mast in the water. I see that Yvon is doing very well with the Ultra Pro mast on some of the bigger wings, It's probably… See more",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -106,7 +104,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Will Hansen",
-      "text": "Will Hansen I'm tossing up between the 950 and 890 at 90 kg to replace my 900 Spitfire for wing and prone. Thinking I might be able to get away with the 890 given the low end but just don't want to lose too much pump for prone wave linking! Is the 950 span too muc\u2026 See more 4",
+      "text": "Will Hansen I'm tossing up between the 950 and 890 at 90 kg to replace my 900 Spitfire for wing and prone. Thinking I might be able to get away with the 890 given the low end but just don't want to lose too much pump for prone wave linking! Is the 950 span too muc… See more 4",
       "foils_mentioned": [],
       "rider_weight": 198,
       "use_case": "wing",
@@ -119,7 +117,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jonathan Robert",
-      "text": "Jonathan Robert I\u2019m similar weight and learning K wing Plume, borrowed a friends 950 Surge recently in about 17 knots and felt way over foiled. I find my Spitfire 840 is super easy but obviously lacks the glide of the Surge or Fireball. Guessing the 890 Surge could be\u2026 See more 2",
+      "text": "Jonathan Robert I’m similar weight and learning K wing Plume, borrowed a friends 950 Surge recently in about 17 knots and felt way over foiled. I find my Spitfire 840 is super easy but obviously lacks the glide of the Surge or Fireball. Guessing the 890 Surge could be… See more 2",
       "foils_mentioned": [
         "SPITFIRE 840"
       ],
@@ -134,7 +132,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jimmy Jam Foils",
-      "text": "Jimmy Jam Foils \u00b7 Follow Surge 1010\u2026. Great Low end , surfy , and great glide. Same with surge 950. I\u2019d probably go with one of those two. 2",
+      "text": "Jimmy Jam Foils · Follow Surge 1010…. Great Low end , surfy , and great glide. Same with surge 950. I’d probably go with one of those two. 2",
       "foils_mentioned": [
         "SURGE 950",
         "SURGE 1010"
@@ -150,7 +148,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Duncan Wallace",
-      "text": "Duncan Wallace Great Question and Answers. Part 2 of this could be what is the easiest wing to foot switch on? I have been winging for quite a while and my foot switches are horrible low percentage. I assumed bigger wing give more time to switch. Like my HPS1050 or S\u2026 See more",
+      "text": "Duncan Wallace Great Question and Answers. Part 2 of this could be what is the easiest wing to foot switch on? I have been winging for quite a while and my foot switches are horrible low percentage. I assumed bigger wing give more time to switch. Like my HPS1050 or S… See more",
       "foils_mentioned": [
         "HPS 1050"
       ],
@@ -165,7 +163,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Mark Shinn",
-      "text": "Mark Shinn Hi Jim Finnigan, Sounds like good progress! I don't think we can class the SF 960 as a \"small\" foil especially for a 75kg rider. Also you don't mention the stab you are using which can also make a large difference. In this case I suspect the largest pa\u2026 See more 4",
+      "text": "Mark Shinn Hi Jim Finnigan, Sounds like good progress! I don't think we can class the SF 960 as a \"small\" foil especially for a 75kg rider. Also you don't mention the stab you are using which can also make a large difference. In this case I suspect the largest pa… See more 4",
       "foils_mentioned": [],
       "rider_weight": 165,
       "use_case": null,
@@ -178,7 +176,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Eric Dornbush",
-      "text": "Eric Dornbush The dock start group is loaded with this\u2014 but people are usually learning on a 460v2 at the very beginning then moving to a 55, 45, and from what I hear, generally like to get down to a 35. People report ones smaller than 35 being the point some people\u2026 See more 2",
+      "text": "Eric Dornbush The dock start group is loaded with this— but people are usually learning on a 460v2 at the very beginning then moving to a 55, 45, and from what I hear, generally like to get down to a 35. People report ones smaller than 35 being the point some people… See more 2",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "pump",
@@ -219,7 +217,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Mickie Williams",
-      "text": "Mickie Williams Mate I\u2019m the same weight and when I started I was in a 105L board. That\u2019s with a full ocean sports background and with out blowing my own trumpet a decent ocean athlete",
+      "text": "Mickie Williams Mate I’m the same weight and when I started I was in a 105L board. That’s with a full ocean sports background and with out blowing my own trumpet a decent ocean athlete",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -273,7 +271,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Sean Richardson",
-      "text": "Sean Richardson I\u2019m from Vancouver (live in Australia now), but have ridden Squamish, gorge, Nit Nat and Maui for all wind sports - windsurf, kite, foil. I\u2019m 86kg and advanced wingfoiler now.\u2026 See more Edited 8",
+      "text": "Sean Richardson I’m from Vancouver (live in Australia now), but have ridden Squamish, gorge, Nit Nat and Maui for all wind sports - windsurf, kite, foil. I’m 86kg and advanced wingfoiler now.… See more Edited 8",
       "foils_mentioned": [],
       "rider_weight": 189,
       "use_case": "wing",
@@ -286,7 +284,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Danny Perez",
-      "text": "Danny Perez 939v2 for FOilDrive/ wing. 325P then 50 skinny, now liking 320 Surf. That sounds like the problem I had with the smaller skinnies. Different low end and different top end. If I was slow (light wind wing, chop FD) it\u2019d porpoise and buck. High speed on\u2026 See more",
+      "text": "Danny Perez 939v2 for FOilDrive/ wing. 325P then 50 skinny, now liking 320 Surf. That sounds like the problem I had with the smaller skinnies. Different low end and different top end. If I was slow (light wind wing, chop FD) it’d porpoise and buck. High speed on… See more",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -299,7 +297,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Tim Stockman",
-      "text": "Tim Stockman The 360x45 skinny would tame those foils. I've got that and the 300x45 surf and found the smaller front wings get really loose with the 300, put the 360 and now tamed! Larger surges and spitfires like the 300 stab. I guess it's all progression. Nice ho\u2026 See more",
+      "text": "Tim Stockman The 360x45 skinny would tame those foils. I've got that and the 300x45 surf and found the smaller front wings get really loose with the 300, put the 360 and now tamed! Larger surges and spitfires like the 300 stab. I guess it's all progression. Nice ho… See more",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -338,7 +336,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Mark Shinn",
-      "text": "Mark Shinn This is an interesting chat as I have a similar feeling on the 1750 for paddling up (and I AM using the fatty mast!) It is very hard to correct your direction when paddling due to the span.... which is not very surprising when standing on a wing that i\u2026 See more 3",
+      "text": "Mark Shinn This is an interesting chat as I have a similar feeling on the 1750 for paddling up (and I AM using the fatty mast!) It is very hard to correct your direction when paddling due to the span.... which is not very surprising when standing on a wing that i… See more 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -364,7 +362,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Brad Gordon",
-      "text": "Brad Gordon At 96kg, Wing foiling La Ventana past ten days, love love 830, with new ultrashort fuse, and surf stab 320, on 75 liter Blast, is killer combo. You'll be one of the fastest, carvest craft on the water. Took me three sessions to find the perfect mas\u2026 See more Edited 7",
+      "text": "Brad Gordon At 96kg, Wing foiling La Ventana past ten days, love love 830, with new ultrashort fuse, and surf stab 320, on 75 liter Blast, is killer combo. You'll be one of the fastest, carvest craft on the water. Took me three sessions to find the perfect mas… See more Edited 7",
       "foils_mentioned": [],
       "rider_weight": 211,
       "use_case": "wing",
@@ -377,7 +375,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "John Morrissey",
-      "text": "John Morrissey 85kg. Tried them all. I use the 830 for winging and 1010 for parawing both on the 320ss. For winging I liked going smaller to get more speed and radical turning. For parawing I found the bigger the better. Easy getup and crazy low stall speed increase\u2026 See more 4",
+      "text": "John Morrissey 85kg. Tried them all. I use the 830 for winging and 1010 for parawing both on the 320ss. For winging I liked going smaller to get more speed and radical turning. For parawing I found the bigger the better. Easy getup and crazy low stall speed increase… See more 4",
       "foils_mentioned": [],
       "rider_weight": 187,
       "use_case": "wing",
@@ -390,7 +388,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Eric Lemay",
-      "text": "Eric Lemay 240lb wingfoil, spitfire 1180 with ultrashort Advance+, I was using progressive 375 but now on skinny 365/55 since a few months, last week tried -0,5\u00b0 shim= perfect!!! Waiting for wind to try my brand new surf skinny 320/48 with the 1180. 2",
+      "text": "Eric Lemay 240lb wingfoil, spitfire 1180 with ultrashort Advance+, I was using progressive 375 but now on skinny 365/55 since a few months, last week tried -0,5° shim= perfect!!! Waiting for wind to try my brand new surf skinny 320/48 with the 1180. 2",
       "foils_mentioned": [
         "SPITFIRE 1180"
       ],
@@ -405,7 +403,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Shaun Henderson",
-      "text": "Shaun Henderson For the last few months I have been really enjoying that same setup (except HM mast) with the advance+20 ultrashort. I previously was on black ultrashort. I tried the +60 ultrashort which I use for Dockstart but didn\u2019t like it winging. But most others \u2026 See more",
+      "text": "Shaun Henderson For the last few months I have been really enjoying that same setup (except HM mast) with the advance+20 ultrashort. I previously was on black ultrashort. I tried the +60 ultrashort which I use for Dockstart but didn’t like it winging. But most others … See more",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -434,7 +432,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jock Harcourt",
-      "text": "Jock Harcourt Youve gone from a slow foil that's nearly 1300 sq cm with an aspect ratio of 6.43 to a fast surfing/DW foil thats 835 sq cm and aspect ratio of 9.5 its probably going to feel different. I know Adrian says you shouldn't consider AR and area as much t\u2026 See more Edited",
+      "text": "Jock Harcourt Youve gone from a slow foil that's nearly 1300 sq cm with an aspect ratio of 6.43 to a fast surfing/DW foil thats 835 sq cm and aspect ratio of 9.5 its probably going to feel different. I know Adrian says you shouldn't consider AR and area as much t… See more Edited",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "downwind",
@@ -447,7 +445,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Adrian Roper",
-      "text": "Adrian Roper All-star contributor The main thing that you have to avoid is bottoming the screw out. If you did this and carried on winding it would destroy the mast completely by splitting it. Most people would feel this and stop screwing but not everyone has engineering nouse. So we w\u2026 See more 9",
+      "text": "Adrian Roper All-star contributor The main thing that you have to avoid is bottoming the screw out. If you did this and carried on winding it would destroy the mast completely by splitting it. Most people would feel this and stop screwing but not everyone has engineering nouse. So we w… See more 9",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -473,7 +471,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Adam Botica",
-      "text": "Adam Botica Agree with the guru. I started on BSC1060 with 440 Freeride and Short Red fuse. Then I went to ART 1099 on Black Short Advance + Fuse with 375 Progressive. I really love the advance + Fuse it feels like you can go down in stabiliser size quite easily.\u2026 See more 3",
+      "text": "Adam Botica Agree with the guru. I started on BSC1060 with 440 Freeride and Short Red fuse. Then I went to ART 1099 on Black Short Advance + Fuse with 375 Progressive. I really love the advance + Fuse it feels like you can go down in stabiliser size quite easily.… See more 3",
       "foils_mentioned": [
         "BSC 1060",
         "ART 1099"
@@ -489,7 +487,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Adrian Roper",
-      "text": "Adrian Roper All-star contributor As foiling has evolved the requirements of the fuselage have changed. Wings have become thinner. This is why we added the Black fuselage and now the new Titanium. The red is not being discontinued but it is very unlikely that new wings going forward wi\u2026 See more 15",
+      "text": "Adrian Roper All-star contributor As foiling has evolved the requirements of the fuselage have changed. Wings have become thinner. This is why we added the Black fuselage and now the new Titanium. The red is not being discontinued but it is very unlikely that new wings going forward wi… See more 15",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -502,7 +500,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Taylor Gautier",
-      "text": "Taylor Gautier Yeah. After 6 months of riding fireballs I can say my synopsis of them is that they are \u201ctechnical\u201d. They require precise input and definitely do not like chaotic water. I put on a surge 830 several weeks ago and haven\u2019t looked back. 3",
+      "text": "Taylor Gautier Yeah. After 6 months of riding fireballs I can say my synopsis of them is that they are “technical”. They require precise input and definitely do not like chaotic water. I put on a surge 830 several weeks ago and haven’t looked back. 3",
       "foils_mentioned": [
         "SURGE 830"
       ],
@@ -517,7 +515,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Duncan Wallace",
-      "text": "Duncan Wallace Sorry if this is a hijack. But if i ride SF 900 when its windy (over 20kts up to 30)and the wind swell is waist to chest high what is the surge equivalent. I'm about 85kg. Is the surge better for downwinding than SF? Main goal is to carve swell but a l\u2026 See more",
+      "text": "Duncan Wallace Sorry if this is a hijack. But if i ride SF 900 when its windy (over 20kts up to 30)and the wind swell is waist to chest high what is the surge equivalent. I'm about 85kg. Is the surge better for downwinding than SF? Main goal is to carve swell but a l… See more",
       "foils_mentioned": [],
       "rider_weight": 187,
       "use_case": "downwind",
@@ -530,7 +528,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Shannon Stent",
-      "text": "Shannon Stent All-star contributor At your weight you\u2019d be better off sizing down your front and rear wing. At 70kg I\u2019d be using the 819 front wing and either the 275 Progressive rear, Skinny 30 or ideally the new 280 Surf Skinny. With shims, if you\u2019re asking \u201cwhat shim do I need\u201d then \u2026 See more 3",
+      "text": "Shannon Stent All-star contributor At your weight you’d be better off sizing down your front and rear wing. At 70kg I’d be using the 819 front wing and either the 275 Progressive rear, Skinny 30 or ideally the new 280 Surf Skinny. With shims, if you’re asking “what shim do I need” then … See more 3",
       "foils_mentioned": [],
       "rider_weight": 154,
       "use_case": "wing",
@@ -543,7 +541,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jimmy Jam Foils",
-      "text": "Jimmy Jam Foils \u00b7 Follow Yeah Jason that runs foil fever Foil Feverand rides axis is on really short fuses like the silly and psycho and ripping Turns on them. Not for everyone and I\u2019d say probably better in smaller surf such as most prone spots. For big tow in I use the \u2026 See more Edited 3",
+      "text": "Jimmy Jam Foils · Follow Yeah Jason that runs foil fever Foil Feverand rides axis is on really short fuses like the silly and psycho and ripping Turns on them. Not for everyone and I’d say probably better in smaller surf such as most prone spots. For big tow in I use the … See more Edited 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "prone",
@@ -556,7 +554,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jimmy Jam Foils",
-      "text": "Jimmy Jam Foils \u00b7 Follow Way better low end on the surge foils and better wing tip breaching on the v2 art.. I use a stiff mast for the 1099 and at first it took a while to dial in. U want to turn more with a hip to shoulder rotation (twist \u2026point ur front hand over back hi\u2026 See more Edited 3",
+      "text": "Jimmy Jam Foils · Follow Way better low end on the surge foils and better wing tip breaching on the v2 art.. I use a stiff mast for the 1099 and at first it took a while to dial in. U want to turn more with a hip to shoulder rotation (twist …point ur front hand over back hi… See more Edited 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -569,7 +567,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Andrew Mitchell",
-      "text": "Andrew Mitchell Agree with Tim - I\u2019m 90kgs and love the 1010 in small bumps for a surfy feel. Got mates that live the big fireballs though in the same conditions for more easy glide and less pumping .",
+      "text": "Andrew Mitchell Agree with Tim - I’m 90kgs and love the 1010 in small bumps for a surfy feel. Got mates that live the big fireballs though in the same conditions for more easy glide and less pumping .",
       "foils_mentioned": [],
       "rider_weight": 198,
       "use_case": "pump",
@@ -595,7 +593,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Alexander James Lewis-Hughes",
-      "text": "Alexander James Lewis-Hughes Nothing wrong with Slingshot, arguably could be credited with being responsible for popularising and growing foiling/ kitefoiling in the early days alongside Naish. Neither have been particularly forward thinking or progressive in the race to better \u2026 See more 6",
+      "text": "Alexander James Lewis-Hughes Nothing wrong with Slingshot, arguably could be credited with being responsible for popularising and growing foiling/ kitefoiling in the early days alongside Naish. Neither have been particularly forward thinking or progressive in the race to better … See more 6",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -608,7 +606,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Sean Adorno",
-      "text": "Sean Adorno Hi Chris I\u2019ve had the spitfires since they came out and probably spent the most sessions on the 1180 (100+). The new Surge 1010 I just received has replaced all of five of my Spitfires. (I also have an 890 but haven\u2019t used it yet)\u2026 See more 2",
+      "text": "Sean Adorno Hi Chris I’ve had the spitfires since they came out and probably spent the most sessions on the 1180 (100+). The new Surge 1010 I just received has replaced all of five of my Spitfires. (I also have an 890 but haven’t used it yet)… See more 2",
       "foils_mentioned": [
         "SURGE 1010"
       ],
@@ -623,7 +621,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Chris Torckler",
-      "text": "Chris Torckler At 85kg on a 100l axis hybrid I have used 1010/950/890 surge.. Still progressing on para but all the are brilliant depending on wind strength for early lift.. nimble and kook proof! Bonus is the pump... You can ease them through any lull and they keep \u2026 See more 2",
+      "text": "Chris Torckler At 85kg on a 100l axis hybrid I have used 1010/950/890 surge.. Still progressing on para but all the are brilliant depending on wind strength for early lift.. nimble and kook proof! Bonus is the pump... You can ease them through any lull and they keep … See more 2",
       "foils_mentioned": [],
       "rider_weight": 187,
       "use_case": "pump",
@@ -662,7 +660,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Paul McDonnell",
-      "text": "Paul McDonnell I\u2019d go with the proven V2 PNG 1300. That way you can paddle up on the way out, paddle up before you even get on a wave, and keep amused in between sets paddling up/pumping in circles. 2",
+      "text": "Paul McDonnell I’d go with the proven V2 PNG 1300. That way you can paddle up on the way out, paddle up before you even get on a wave, and keep amused in between sets paddling up/pumping in circles. 2",
       "foils_mentioned": [
         "PNG 1300"
       ],
@@ -677,7 +675,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jimmy Jam Foils",
-      "text": "Jimmy Jam Foils \u00b7 Follow Paul McDonnell got good advice. 1300 or wait for bigger surge to drop. The 1010 is great but I\u2019m using a 40-50L with foildrive. Might want more foil for the paddle up. 1300 be best to hone your paddle up skills and flat water pumping and connect\u2026 See more Edited 2",
+      "text": "Jimmy Jam Foils · Follow Paul McDonnell got good advice. 1300 or wait for bigger surge to drop. The 1010 is great but I’m using a 40-50L with foildrive. Might want more foil for the paddle up. 1300 be best to hone your paddle up skills and flat water pumping and connect… See more Edited 2",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "sup",
@@ -705,7 +703,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Alex Koutzoukis",
-      "text": "Alex Koutzoukis Robert Sellar I\u2019m currently using the ART999 for prone at 1038cm sq. And can pump and link waves pretty well on that. I have tried to prone my ART899 at 850cm and can barely pump it at all. Have you ridden these older foils and how do they compare to \u2026 See more",
+      "text": "Alex Koutzoukis Robert Sellar I’m currently using the ART999 for prone at 1038cm sq. And can pump and link waves pretty well on that. I have tried to prone my ART899 at 850cm and can barely pump it at all. Have you ridden these older foils and how do they compare to … See more",
       "foils_mentioned": [
         "ART 999",
         "ART 899"
@@ -721,7 +719,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Dave Kissane",
-      "text": "Dave Kissane I can\u2019t wait to get my Surge foils. Did a couple of DW on demo surge foils. They were awesome 3",
+      "text": "Dave Kissane I can’t wait to get my Surge foils. Did a couple of DW on demo surge foils. They were awesome 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "downwind",
@@ -778,7 +776,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Jimmy Jam Foils",
-      "text": "Jimmy Jam Foils \u00b7 Follow The one with less surface area drag and volume \u2026. The smallest hps probably will have higher top end speed than the largest spitfire. That make sense? Spitfires are thinner and have less chord length and surface area for the relative wingspan .. al\u2026 See more Edited 3",
+      "text": "Jimmy Jam Foils · Follow The one with less surface area drag and volume …. The smallest hps probably will have higher top end speed than the largest spitfire. That make sense? Spitfires are thinner and have less chord length and surface area for the relative wingspan .. al… See more Edited 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -791,7 +789,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Marc Masters",
-      "text": "Marc Masters Author Thanks all. The reason I ask is that I currently only have HPS 1050 and 930, using 1050 only on very light days. I'm shopping for Spitfires because I read somewhere they handle tip breaches better. I'm enjoying carving now so if Spitfires can turn bett\u2026 See more 2",
+      "text": "Marc Masters Author Thanks all. The reason I ask is that I currently only have HPS 1050 and 930, using 1050 only on very light days. I'm shopping for Spitfires because I read somewhere they handle tip breaches better. I'm enjoying carving now so if Spitfires can turn bett… See more 2",
       "foils_mentioned": [
         "HPS 1050"
       ],
@@ -862,7 +860,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Deon Aumaier",
-      "text": "Deon Aumaier Wonderful Posts! 68yrs 80kg I just got my Production versions of FB1750/ 80cm Fatty Mast/ Fatty Ultra Short Fuse 640mm/ Surf Skinny 320/58 stab\u2026 See more Edited",
+      "text": "Deon Aumaier Wonderful Posts! 68yrs 80kg I just got my Production versions of FB1750/ 80cm Fatty Mast/ Fatty Ultra Short Fuse 640mm/ Surf Skinny 320/58 stab… See more Edited",
       "foils_mentioned": [],
       "rider_weight": 176,
       "use_case": null,
@@ -875,7 +873,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Bruce Kropelin",
-      "text": "Bruce Kropelin Adrian R posted couple months ago that they\u2019re due out med Feb. Live2Kite in California (major Axis distributor) just lost their business to devastating . That\u2019s going to have an impact on Axis as well unfortunately. Edited",
+      "text": "Bruce Kropelin Adrian R posted couple months ago that they’re due out med Feb. Live2Kite in California (major Axis distributor) just lost their business to devastating . That’s going to have an impact on Axis as well unfortunately. Edited",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "kite",
@@ -888,7 +886,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Steven Floyd",
-      "text": "Steven Floyd Not released to general public yet\u2026. Due January.. My 830 is awesome gets on foil easily winging. \u2026 See more 3",
+      "text": "Steven Floyd Not released to general public yet…. Due January.. My 830 is awesome gets on foil easily winging. … See more 3",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "wing",
@@ -901,7 +899,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Anonymous Rider",
-      "text": "First impressions of the Axis Surge 890. Incredible from the very first wave. Coming off Tempos (16AR, 575/650cm), straight to this bigger area, less span foil \u2014 felt natural to surf on it. Rip it through turns, forehand slashes in 1-2ft waves. Pumps easy, linking 3 waves. AXIS knocked it out of the park. The pump, turning, shape, moustache \u2014 works out of the box.",
+      "text": "First impressions of the Axis Surge 890. Incredible from the very first wave. Coming off Tempos (16AR, 575/650cm), straight to this bigger area, less span foil — felt natural to surf on it. Rip it through turns, forehand slashes in 1-2ft waves. Pumps easy, linking 3 waves. AXIS knocked it out of the park. The pump, turning, shape, moustache — works out of the box.",
       "foils_mentioned": [
         "Surge 890"
       ],
@@ -1325,7 +1323,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Anonymous Rider",
-      "text": "Nico Nico: Je te conseille la 890mm apr\u00e8s la 950mm aura quasiment la m\u00eame portance que ta spitfire 960mm. (Translation: I recommend the 890mm, the 950mm will have nearly the same lift as your spitfire 960mm)",
+      "text": "Nico Nico: Je te conseille la 890mm après la 950mm aura quasiment la même portance que ta spitfire 960mm. (Translation: I recommend the 890mm, the 950mm will have nearly the same lift as your spitfire 960mm)",
       "foils_mentioned": [
         "Surge 890",
         "Surge 950",
@@ -1405,7 +1403,7 @@
       "source": "facebook_axis_riders",
       "source_label": "AXIS Foil Riders (10.5K members)",
       "rider": "Anonymous Rider",
-      "text": "Dylan Fish Bez (Group expert): Totally agree. The fatty mast is a must. Just a little teaser, that there may be bigger surges on the way. \ud83d\ude09\ud83d\ude09\ud83d\ude09",
+      "text": "Dylan Fish Bez (Group expert): Totally agree. The fatty mast is a must. Just a little teaser, that there may be bigger surges on the way. 😉😉😉",
       "foils_mentioned": [
         "Surge",
         "Fatty mast"
@@ -1501,7 +1499,7 @@
       "rider": "Yvon Labarthe",
       "rider_type": "expert",
       "weight_kg": null,
-      "text": "The FB 1750 opens the hour of pumping to everyone. I crossed Lake Ch\u00e2tel with a safety boat, caught headwind of 12 knots with sheep in the middle of the lake. Ultra Pro mast slides super well but bends a lot. With Alu mast I have to stop every 15 minutes because heart rate goes too high.",
+      "text": "The FB 1750 opens the hour of pumping to everyone. I crossed Lake Châtel with a safety boat, caught headwind of 12 knots with sheep in the middle of the lake. Ultra Pro mast slides super well but bends a lot. With Alu mast I have to stop every 15 minutes because heart rate goes too high.",
       "foils_mentioned": [
         "FIREBALL 1750"
       ],
@@ -1517,7 +1515,7 @@
       "rider": "Yvon Labarthe",
       "rider_type": "expert",
       "weight_kg": null,
-      "text": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm\u00b2 less. Turns better, glides better. You absolutely must use the fuselage with integrated tail. Normal stab adapter with Skinny adds crazy brake - not pleasant.",
+      "text": "Tempo 1090: nothing glides better in the world. It looks like the FB 1070 with 200cm² less. Turns better, glides better. You absolutely must use the fuselage with integrated tail. Normal stab adapter with Skinny adds crazy brake - not pleasant.",
       "foils_mentioned": [
         "TEMPO 1090",
         "FIREBALL 1070"
@@ -1551,7 +1549,7 @@
       "rider": "Yvon Labarthe",
       "rider_type": "expert",
       "weight_kg": null,
-      "text": "ART v2 939 turns 10-15% better than FB 1000. ART v2 879 behind a boat in towing - \u00e7a tourne grave! (turns like crazy). For wing, everyone loves ART v2. But when I have to pump, it pushes too much water.",
+      "text": "ART v2 939 turns 10-15% better than FB 1000. ART v2 879 behind a boat in towing - ça tourne grave! (turns like crazy). For wing, everyone loves ART v2. But when I have to pump, it pushes too much water.",
       "foils_mentioned": [
         "ART V2 939",
         "ART V2 879",
@@ -1588,7 +1586,7 @@
       "rider": "Yvon Labarthe",
       "rider_type": "expert",
       "weight_kg": null,
-      "text": "FB 1160: I rode it all summer, it's my favorite foil for riding. Did almost all boats, downwind, super long downwind. Starts in inverted or normal in water >16\u00b0C. FB 1070: amazing in 15 knots+ with gusts to 20-25.",
+      "text": "FB 1160: I rode it all summer, it's my favorite foil for riding. Did almost all boats, downwind, super long downwind. Starts in inverted or normal in water >16°C. FB 1070: amazing in 15 knots+ with gusts to 20-25.",
       "foils_mentioned": [
         "FIREBALL 1160",
         "FIREBALL 1070"
@@ -1670,7 +1668,7 @@
       "rider": "Yvon Labarthe",
       "rider_type": "expert",
       "weight_kg": null,
-      "text": "Skinny Surf 280 (95cm\u00b2): turns super soft, really pleasant for waves/downwind. But for pumping \u00e0 plat, I stay on Skinny normal - it's the most for me.",
+      "text": "Skinny Surf 280 (95cm²): turns super soft, really pleasant for waves/downwind. But for pumping à plat, I stay on Skinny normal - it's the most for me.",
       "foils_mentioned": [],
       "key_insight": "Skinny Surf = soft turns for waves; Skinny normal = best for flat pumping",
       "sentiment": "neutral",
@@ -1686,7 +1684,7 @@
       "foils_mentioned": [
         "PNG 1310"
       ],
-      "key_insight": "World record pump foil \u2014 unmatched glide and light-wind performance",
+      "key_insight": "World record pump foil — unmatched glide and light-wind performance",
       "sentiment": "very_positive",
       "type": "community_consensus",
       "use_case": "pump",
@@ -1698,11 +1696,11 @@
       "source_label": "James Casey (Pro Downwinder)",
       "rider": "James Casey",
       "rider_type": "pro",
-      "text": "James Casey recommends the PNG 1300 for learning downwind \u2014 the big span catches small wind swell that other foils miss.",
+      "text": "James Casey recommends the PNG 1300 for learning downwind — the big span catches small wind swell that other foils miss.",
       "foils_mentioned": [
         "PNG 1300"
       ],
-      "key_insight": "Pro downwinder's top pick for learning \u2014 catches bumps other foils miss",
+      "key_insight": "Pro downwinder's top pick for learning — catches bumps other foils miss",
       "sentiment": "very_positive",
       "type": "expert",
       "use_case": "downwind",
@@ -1718,7 +1716,7 @@
         "PNG 1310",
         "PNG 1300"
       ],
-      "key_insight": "Advance fuselage transforms PNG \u2014 more responsive, 3-4 sessions to adapt",
+      "key_insight": "Advance fuselage transforms PNG — more responsive, 3-4 sessions to adapt",
       "sentiment": "positive",
       "type": "community",
       "date": "2026-02"
@@ -1728,7 +1726,7 @@
       "source": "community_knowledge",
       "source_label": "Community Consensus",
       "rider": "Multiple Riders",
-      "text": "BSC series is the best all-rounder for everything \u2014 wing, SUP, prone, kite, wake. Early pop-up, maneuverable, forgiving. BSC 1060 for 75-90kg, BSC 1120 for 90kg+.",
+      "text": "BSC series is the best all-rounder for everything — wing, SUP, prone, kite, wake. Early pop-up, maneuverable, forgiving. BSC 1060 for 75-90kg, BSC 1120 for 90kg+.",
       "foils_mentioned": [
         "BSC 1060",
         "BSC 1120",
@@ -1749,7 +1747,7 @@
       "foils_mentioned": [
         "BSC 810"
       ],
-      "key_insight": "Popular intermediate crossover \u2014 kite, prone, and high-wind winging",
+      "key_insight": "Popular intermediate crossover — kite, prone, and high-wind winging",
       "sentiment": "positive",
       "type": "community_consensus",
       "use_case": "kite",
@@ -1760,11 +1758,11 @@
       "source": "community_knowledge",
       "source_label": "Community Feedback",
       "rider": "Multiple Riders",
-      "text": "HPS 880 is fast and glidey but some riders report pitch control challenges \u2014 over-correcting up/down. Natural stepping stone from BSC. Pairs well with Progressive and Speed rear wings.",
+      "text": "HPS 880 is fast and glidey but some riders report pitch control challenges — over-correcting up/down. Natural stepping stone from BSC. Pairs well with Progressive and Speed rear wings.",
       "foils_mentioned": [
         "HPS 880"
       ],
-      "key_insight": "Fast but can be pitchy \u2014 pair with Progressive rear to smooth it out",
+      "key_insight": "Fast but can be pitchy — pair with Progressive rear to smooth it out",
       "sentiment": "mixed",
       "type": "community_consensus",
       "date": "2026-01"
@@ -1778,7 +1776,7 @@
       "foils_mentioned": [
         "HPS 1050"
       ],
-      "key_insight": "Beast for SUP foiling \u2014 great paddle-up power",
+      "key_insight": "Beast for SUP foiling — great paddle-up power",
       "sentiment": "very_positive",
       "type": "community_consensus",
       "use_case": "sup",
@@ -1789,13 +1787,13 @@
       "source": "community_knowledge",
       "source_label": "Community Consensus",
       "rider": "Multiple Riders",
-      "text": "ART series delivers frictionless glide with reduced chord and high aspect. Needs Power Carbon mast and Advance fuselage. NOT for turbulent water \u2014 needs skill and smooth conditions.",
+      "text": "ART series delivers frictionless glide with reduced chord and high aspect. Needs Power Carbon mast and Advance fuselage. NOT for turbulent water — needs skill and smooth conditions.",
       "foils_mentioned": [
         "ART 999",
         "ART 899",
         "ART 1099"
       ],
-      "key_insight": "Incredible glide but NOT for choppy water \u2014 needs Power Carbon mast",
+      "key_insight": "Incredible glide but NOT for choppy water — needs Power Carbon mast",
       "sentiment": "positive",
       "type": "community_consensus",
       "date": "2026-01"
@@ -1806,11 +1804,11 @@
       "source_label": "Race Results",
       "rider": "Kai Lenny",
       "rider_type": "pro",
-      "text": "ART Pro 951 is Kai Lenny's race wing \u2014 placed 5th at M2O. Stiffer and more responsive than standard ART. For advanced riders who dictate the foil.",
+      "text": "ART Pro 951 is Kai Lenny's race wing — placed 5th at M2O. Stiffer and more responsive than standard ART. For advanced riders who dictate the foil.",
       "foils_mentioned": [
         "ARTPRO 951"
       ],
-      "key_insight": "Kai Lenny's M2O race wing \u2014 5th place finish. For riders who dictate, not react",
+      "key_insight": "Kai Lenny's M2O race wing — 5th place finish. For riders who dictate, not react",
       "sentiment": "very_positive",
       "type": "expert",
       "use_case": "downwind",
@@ -1821,11 +1819,11 @@
       "source": "community_knowledge",
       "source_label": "Community Consensus",
       "rider": "Multiple Riders",
-      "text": "ART V2 is a more forgiving ART \u2014 like a 'Spitfire Pro'. Spitfire's turn and forgiveness with ART's glide and speed. Better for UK/choppy conditions. Great intermediate downwind option.",
+      "text": "ART V2 is a more forgiving ART — like a 'Spitfire Pro'. Spitfire's turn and forgiveness with ART's glide and speed. Better for UK/choppy conditions. Great intermediate downwind option.",
       "foils_mentioned": [
         "ART V2"
       ],
-      "key_insight": "Forgiving ART \u2014 Spitfire turn + ART glide. Great for choppy downwind",
+      "key_insight": "Forgiving ART — Spitfire turn + ART glide. Great for choppy downwind",
       "sentiment": "very_positive",
       "type": "community_consensus",
       "use_case": "downwind",
@@ -1840,7 +1838,7 @@
       "foils_mentioned": [
         "Spitfire 1180"
       ],
-      "key_insight": "Top pick for downwind progression \u2014 handles chop better than ART",
+      "key_insight": "Top pick for downwind progression — handles chop better than ART",
       "sentiment": "very_positive",
       "type": "community_consensus",
       "use_case": "downwind",
@@ -1857,7 +1855,7 @@
         "Spitfire 900",
         "Spitfire 840"
       ],
-      "key_insight": "Best for choppy/UK conditions \u2014 confident in turbulence",
+      "key_insight": "Best for choppy/UK conditions — confident in turbulence",
       "sentiment": "positive",
       "type": "community_consensus",
       "use_case": "prone",
@@ -1869,13 +1867,13 @@
       "source_label": "Community / Boot 2026",
       "rider": "AXIS Official",
       "rider_type": "manufacturer",
-      "text": "Fireball is the 'F1 of foiling' \u2014 high camber (new for AXIS), ~13 AR, very low stall speed despite high performance. Gets up early, fast top end. Designed for SUP downwind racing.",
+      "text": "Fireball is the 'F1 of foiling' — high camber (new for AXIS), ~13 AR, very low stall speed despite high performance. Gets up early, fast top end. Designed for SUP downwind racing.",
       "foils_mentioned": [
         "Fireball 1000",
         "Fireball 1500",
         "Fireball 1750"
       ],
-      "key_insight": "F1 of foiling \u2014 low stall + fast top end. New camber design unique to AXIS",
+      "key_insight": "F1 of foiling — low stall + fast top end. New camber design unique to AXIS",
       "sentiment": "very_positive",
       "type": "manufacturer",
       "use_case": "downwind",
@@ -1884,17 +1882,17 @@
     {
       "id": "exp_surge_launch",
       "source": "boot_2026",
-      "source_label": "Boot D\u00fcsseldorf 2026 Launch",
+      "source_label": "Boot Düsseldorf 2026 Launch",
       "rider": "AXIS Official",
       "rider_type": "manufacturer",
-      "text": "Surge rejects the surf-foil status quo \u2014 no more choosing between carve and glide. First AXIS wing with 'moustache' tips. Pure surf feel: instant response, shortboard snap, smooth rail-to-rail flow. Handles knee-high mush to outer-reef freight trains.",
+      "text": "Surge rejects the surf-foil status quo — no more choosing between carve and glide. First AXIS wing with 'moustache' tips. Pure surf feel: instant response, shortboard snap, smooth rail-to-rail flow. Handles knee-high mush to outer-reef freight trains.",
       "foils_mentioned": [
         "Surge 830",
         "Surge 890",
         "Surge 950",
         "Surge 1010"
       ],
-      "key_insight": "First moustache-tip AXIS wing \u2014 carve AND glide, no compromise",
+      "key_insight": "First moustache-tip AXIS wing — carve AND glide, no compromise",
       "sentiment": "very_positive",
       "type": "manufacturer",
       "use_case": "prone",
@@ -1903,14 +1901,14 @@
     {
       "id": "exp_tempo_revolution",
       "source": "boot_2026",
-      "source_label": "Boot D\u00fcsseldorf 2026 Launch",
+      "source_label": "Boot Düsseldorf 2026 Launch",
       "rider": "AXIS Official",
       "rider_type": "manufacturer",
-      "text": "Tempo is not a simple upgrade \u2014 a revolution and brand-new approach. Ultra-High Modulus carbon fibre, requires Ti Link titanium fuselage for full potential. Higher aspect ratios, lower volumes. Accessible despite low surface areas.",
+      "text": "Tempo is not a simple upgrade — a revolution and brand-new approach. Ultra-High Modulus carbon fibre, requires Ti Link titanium fuselage for full potential. Higher aspect ratios, lower volumes. Accessible despite low surface areas.",
       "foils_mentioned": [
         "Tempo"
       ],
-      "key_insight": "Revolutionary UHM carbon design \u2014 needs Ti Link fuselage for full potential",
+      "key_insight": "Revolutionary UHM carbon design — needs Ti Link fuselage for full potential",
       "sentiment": "very_positive",
       "type": "manufacturer",
       "use_case": "downwind",
@@ -1943,7 +1941,7 @@
         "Spitfire 1180",
         "ARTPRO 951"
       ],
-      "key_insight": "Downwind ladder: PNG 1300 \u2192 ART Pro 1201/Spitfire 1180 \u2192 Fireball/ART Pro 951",
+      "key_insight": "Downwind ladder: PNG 1300 → ART Pro 1201/Spitfire 1180 → Fireball/ART Pro 951",
       "sentiment": "positive",
       "type": "setup_guide",
       "use_case": "downwind",
@@ -1954,11 +1952,11 @@
       "source": "community_knowledge",
       "source_label": "Community Consensus",
       "rider": "Shaun Henderson",
-      "text": "Advance fuselage is much better for pumping than standard. Takes a session or two to get used to. Same weight rider on 1150 \u2014 Advance transformed the wing feel.",
+      "text": "Advance fuselage is much better for pumping than standard. Takes a session or two to get used to. Same weight rider on 1150 — Advance transformed the wing feel.",
       "foils_mentioned": [
         "PNG 1150"
       ],
-      "key_insight": "Advance fuselage dramatically improves pump \u2014 1-2 sessions to adjust",
+      "key_insight": "Advance fuselage dramatically improves pump — 1-2 sessions to adjust",
       "sentiment": "positive",
       "type": "community",
       "date": "2026-02"
@@ -1968,9 +1966,9 @@
       "source": "community_knowledge",
       "source_label": "Community Consensus",
       "rider": "Multiple Riders",
-      "text": "Power Carbon mast is a game changer \u2014 stiffest connection possible. More positive feel with immediate response. Essential for ART series and big guys.",
+      "text": "Power Carbon mast is a game changer — stiffest connection possible. More positive feel with immediate response. Essential for ART series and big guys.",
       "foils_mentioned": [],
-      "key_insight": "Game-changing stiffness \u2014 essential for ART and heavy riders",
+      "key_insight": "Game-changing stiffness — essential for ART and heavy riders",
       "sentiment": "very_positive",
       "type": "community_consensus",
       "date": "2026-01"
@@ -1981,9 +1979,9 @@
       "source_label": "The Foiling Magazine Review",
       "rider": "The Foiling Magazine",
       "rider_type": "media",
-      "text": "Everything here is very well engineered and thought out with longevity. It's a solid platform built to last. Parts from early AXIS still work with new components \u2014 true buy-once system.",
+      "text": "Everything here is very well engineered and thought out with longevity. It's a solid platform built to last. Parts from early AXIS still work with new components — true buy-once system.",
       "foils_mentioned": [],
-      "key_insight": "Best modularity in industry \u2014 early parts still compatible with new components",
+      "key_insight": "Best modularity in industry — early parts still compatible with new components",
       "sentiment": "very_positive",
       "type": "media_review",
       "date": "2025"
@@ -1994,11 +1992,11 @@
       "source_label": "AXIS Team Rider",
       "rider": "Mark Shinn",
       "rider_type": "team_rider",
-      "text": "Best AXIS foil I've ridden to date. The Surge 1010 is incredible \u2014 instant response, shortboard snap, smooth rail-to-rail flow.",
+      "text": "Best AXIS foil I've ridden to date. The Surge 1010 is incredible — instant response, shortboard snap, smooth rail-to-rail flow.",
       "foils_mentioned": [
         "Surge 1010"
       ],
-      "key_insight": "Mark Shinn's favorite AXIS foil ever \u2014 shortboard snap with smooth flow",
+      "key_insight": "Mark Shinn's favorite AXIS foil ever — shortboard snap with smooth flow",
       "sentiment": "very_positive",
       "type": "expert",
       "date": "2025-11"
@@ -2026,13 +2024,13 @@
       "rider": "Deon Aumaier",
       "rider_type": "community",
       "weight_kg": 79,
-      "text": "Axis Fireball Fatty Extravaganza! Ranking: 1st FB 1070, 2nd FB 1350, 3rd FB 1750. First Foil Drive customer in North America. 67yrs, 79kg, Amos TRS Trench 5'4\" 34L 3.1kg. Gen2 HP battery, motor, 3 bladed prop, pod@20cm. First time riding FB 1070 \u2014 extremely surprised how well that little wing glides. The stiffness of the Axis Fatty Mast/Fuse even with this smaller front wing is amazing.",
+      "text": "Axis Fireball Fatty Extravaganza! Ranking: 1st FB 1070, 2nd FB 1350, 3rd FB 1750. First Foil Drive customer in North America. 67yrs, 79kg, Amos TRS Trench 5'4\" 34L 3.1kg. Gen2 HP battery, motor, 3 bladed prop, pod@20cm. First time riding FB 1070 — extremely surprised how well that little wing glides. The stiffness of the Axis Fatty Mast/Fuse even with this smaller front wing is amazing.",
       "foils_mentioned": [
         "Fireball 1070",
         "Fireball 1350",
         "Fireball 1750"
       ],
-      "key_insight": "FB 1070 surprisingly great glide \u2014 Fatty mast/fuse stiffness amazing even with smaller wing. Ranks FB 1070 #1 over 1350 and 1750",
+      "key_insight": "FB 1070 surprisingly great glide — Fatty mast/fuse stiffness amazing even with smaller wing. Ranks FB 1070 #1 over 1350 and 1750",
       "sentiment": "very_positive",
       "type": "community",
       "use_case": "foil_drive",
@@ -2063,11 +2061,11 @@
       "rider": "Deon Aumaier",
       "rider_type": "community",
       "weight_kg": 79,
-      "text": "Fatty mast and fuselage stiffness is amazing even with smaller front wings like the FB 1070. Not just for big wings \u2014 transforms smaller Fireballs too.",
+      "text": "Fatty mast and fuselage stiffness is amazing even with smaller front wings like the FB 1070. Not just for big wings — transforms smaller Fireballs too.",
       "foils_mentioned": [
         "Fireball 1070"
       ],
-      "key_insight": "Fatty mast/fuse not just for big wings \u2014 transforms smaller Fireballs too",
+      "key_insight": "Fatty mast/fuse not just for big wings — transforms smaller Fireballs too",
       "sentiment": "very_positive",
       "type": "community",
       "date": "2026-03-06"
@@ -2077,14 +2075,14 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #1",
-      "text": "Survey respondent #1 (85-95kg, 4+ years, Varberg, Sweden. Beats most spots\ud83d\ude03) | Discipline: Wing Foiling | Front wing: Surge 890, 1010 desperately waiting for the Surge 1150 | Rear wing: 320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830 | Fuselage: Short advance+ and short advance +20. +20 is used in bigger waves.   | Mast: HM 90 | Why: Gives me lift, turn-ability and glide when flagging out the wing and riding the waves",
+      "text": "Survey respondent #1 (85-95kg, 4+ years, Varberg, Sweden. Beats most spots😃) | Discipline: Wing Foiling | Front wing: Surge 890, 1010 desperately waiting for the Surge 1150 | Rear wing: 320 Surf skinny, Progressive 350,375 waiting for the Surf skinny 340 to pair with an upcoming Surge 830 | Fuselage: Short advance+ and short advance +20. +20 is used in bigger waves.   | Mast: HM 90 | Why: Gives me lift, turn-ability and glide when flagging out the wing and riding the waves",
       "foils_mentioned": [
         "Surge 890",
         "1010 desperately waiting for the Surge 1150"
       ],
       "rider_weight": "85-95kg",
       "rider_experience": "4+ years",
-      "rider_location": "Varberg, Sweden. Beats most spots\ud83d\ude03",
+      "rider_location": "Varberg, Sweden. Beats most spots😃",
       "use_case": "wing",
       "sentiment": "positive",
       "type": "survey",
@@ -2172,7 +2170,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #3",
-      "text": "Survey respondent #3 (65-75kg, 4+ years, Greece ) | Discipline: Wing Foiling | Front wing: Art v2 819 & Surge 890 | Rear wing: Surf skinny 300 | Fuselage: Ultra short AD+ | Mast: HM 900 | Why: Art v2 great for all round/freestyle winging, fast-stable with nice glide. Surge is the choice when it\u2019s about waveriding, turns amazingly, predictable and easy.",
+      "text": "Survey respondent #3 (65-75kg, 4+ years, Greece ) | Discipline: Wing Foiling | Front wing: Art v2 819 & Surge 890 | Rear wing: Surf skinny 300 | Fuselage: Ultra short AD+ | Mast: HM 900 | Why: Art v2 great for all round/freestyle winging, fast-stable with nice glide. Surge is the choice when it’s about waveriding, turns amazingly, predictable and easy.",
       "foils_mentioned": [
         "Art v2 819",
         "Surge 890"
@@ -2380,7 +2378,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #6",
-      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Downwind SUP Foiling | Front wing: Fireball 940 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon | Why: It\u2019s small and fast and works in almost every condition.",
+      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Downwind SUP Foiling | Front wing: Fireball 940 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon | Why: It’s small and fast and works in almost every condition.",
       "foils_mentioned": [
         "Fireball 940"
       ],
@@ -2403,7 +2401,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #6",
-      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Prone Foiling | Front wing: Fireball 100 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It\u2019s good to pump and works for small waves.",
+      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Prone Foiling | Front wing: Fireball 100 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It’s good to pump and works for small waves.",
       "foils_mentioned": [
         "Fireball 100"
       ],
@@ -2426,7 +2424,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #6",
-      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Wing Foiling | Front wing: ART V2 819 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It\u2019s fast and turns good so it\u2019s good in waves.",
+      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Wing Foiling | Front wing: ART V2 819 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It’s fast and turns good so it’s good in waves.",
       "foils_mentioned": [
         "ART V2 819"
       ],
@@ -2449,7 +2447,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #6",
-      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Dock Start | Front wing: Fireball 1070 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It\u2019s not too small and easy to pump.",
+      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: Dock Start | Front wing: Fireball 1070 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It’s not too small and easy to pump.",
       "foils_mentioned": [
         "Fireball 1070"
       ],
@@ -2472,7 +2470,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #6",
-      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Fireball 1160 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It\u2019s easy paddle up and still works for small Bumbs.",
+      "text": "Survey respondent #6 (<65kg, 4+ years, Baltic Sea) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Fireball 1160 | Rear wing: 350 Skinny  | Fuselage: Black Ultrashort  | Mast: 80cm Pro Ultra HM Carbon  | Why: It’s easy paddle up and still works for small Bumbs.",
       "foils_mentioned": [
         "Fireball 1160"
       ],
@@ -2587,7 +2585,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #10",
-      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Prone Foiling | Front wing: 1010 surge  | Rear wing: 320 surf | Fuselage:  short | ultra short Adv + | Mast: Uhm 80 | Why: A 1010 foil usually gives you a really nice balance of:\n\n\u2022 Easy pumping so you can connect waves\n\u2022 Early lift which helps in knee to hip high surf\n\u2022 Enough glide to keep speed through soft sections\n\u2022 Still manageable at shoulder high without feeling too slow\n\nDropping to the 950 when the waves get a bit punchier makes sense. You normally get:\n\n\u2022 More speed and tighter turning\n\u2022 Less front wing drag\n\u2022 Better control when the wave has more push",
+      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Prone Foiling | Front wing: 1010 surge  | Rear wing: 320 surf | Fuselage:  short | ultra short Adv + | Mast: Uhm 80 | Why: A 1010 foil usually gives you a really nice balance of:\n\n• Easy pumping so you can connect waves\n• Early lift which helps in knee to hip high surf\n• Enough glide to keep speed through soft sections\n• Still manageable at shoulder high without feeling too slow\n\nDropping to the 950 when the waves get a bit punchier makes sense. You normally get:\n\n• More speed and tighter turning\n• Less front wing drag\n• Better control when the wave has more push",
       "foils_mentioned": [
         "1010 surge"
       ],
@@ -2610,7 +2608,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #10",
-      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Wing Foiling | Front wing: Surge 890 | Rear wing: 320 surf | Fuselage: Short / ultrashort adv+ | Mast: 90 uhm  | Why: 890 as the main wing for shoulder to head high waves makes a lot of sense. At that size you usually get:\n\n\u2022 Much tighter turning radius\n\u2022 More speed down the line\n\u2022 Better control on steeper faces\n\u2022 Less \u201cover-foiling\u201d feeling when the wave has power\n\nAnd because you\u2019re already an experienced foiler who likes linking waves and riding swell, the 890 is right in that sweet spot where it still pumps but feels really surfy.\n\n\n\n1010\n\u2022 Knee to waist high\n\u2022 Weak / slow waves\n\u2022 Maximum glide and pump for connecting waves\n\n950\n\u2022 Small but clean surf\n\u2022 When you still want early lift but a bit more speed\n\n890\n\u2022 Shoulder to head high\n\u2022 Best carving and most surf-like feeling",
+      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Wing Foiling | Front wing: Surge 890 | Rear wing: 320 surf | Fuselage: Short / ultrashort adv+ | Mast: 90 uhm  | Why: 890 as the main wing for shoulder to head high waves makes a lot of sense. At that size you usually get:\n\n• Much tighter turning radius\n• More speed down the line\n• Better control on steeper faces\n• Less “over-foiling” feeling when the wave has power\n\nAnd because you’re already an experienced foiler who likes linking waves and riding swell, the 890 is right in that sweet spot where it still pumps but feels really surfy.\n\n\n\n1010\n• Knee to waist high\n• Weak / slow waves\n• Maximum glide and pump for connecting waves\n\n950\n• Small but clean surf\n• When you still want early lift but a bit more speed\n\n890\n• Shoulder to head high\n• Best carving and most surf-like feeling",
       "foils_mentioned": [
         "Surge 890"
       ],
@@ -2633,7 +2631,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #10",
-      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Tow-In Foiling | Front wing: Surge 780  | Rear wing: 320 surf | Fuselage: Short adv + | Mast: 90 uhm | Why: I mostly use the 780 for tow foiling at the moment and I really love it. It still holds a pretty good size of swell, feels super turny, and the glide is amazing as long as you keep the speed up. Especially on non breaking waves or rolling swell it\u2019s insane.\n\nI haven\u2019t tried the 740 yet, but I did try the 830. For me the 830 just feels way too lifty. I would only use it in really small waves, like hip to maybe shoulder high fast waves. Otherwise it just feels like too much lift for what I like.\n\nA few tips if you\u2019re choosing a tow foil:\n\n\u2022 Don\u2019t go too big on the front wing. Bigger wings feel easier at the start but once the swell has energy they can feel really lifty and harder to control.\n\u2022 Try to match the foil size to the speed of the swell, not just the wave height. Fast rolling swell usually feels better on a slightly smaller wing.\n\u2022 Keep your speed up after you drop the rope. Smaller wings like the 780 really come alive when you carry speed and use the glide.\n\u2022 If you want tighter turns and a more surfy feeling, going a little smaller on the front wing often makes a huge difference.\n\nFor me the 780 feels like a really nice balance between glide, speed, and turning.",
+      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Tow-In Foiling | Front wing: Surge 780  | Rear wing: 320 surf | Fuselage: Short adv + | Mast: 90 uhm | Why: I mostly use the 780 for tow foiling at the moment and I really love it. It still holds a pretty good size of swell, feels super turny, and the glide is amazing as long as you keep the speed up. Especially on non breaking waves or rolling swell it’s insane.\n\nI haven’t tried the 740 yet, but I did try the 830. For me the 830 just feels way too lifty. I would only use it in really small waves, like hip to maybe shoulder high fast waves. Otherwise it just feels like too much lift for what I like.\n\nA few tips if you’re choosing a tow foil:\n\n• Don’t go too big on the front wing. Bigger wings feel easier at the start but once the swell has energy they can feel really lifty and harder to control.\n• Try to match the foil size to the speed of the swell, not just the wave height. Fast rolling swell usually feels better on a slightly smaller wing.\n• Keep your speed up after you drop the rope. Smaller wings like the 780 really come alive when you carry speed and use the glide.\n• If you want tighter turns and a more surfy feeling, going a little smaller on the front wing often makes a huge difference.\n\nFor me the 780 feels like a really nice balance between glide, speed, and turning.",
       "foils_mentioned": [
         "Surge 780"
       ],
@@ -2656,7 +2654,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #10",
-      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Parawing | Front wing: 1010 surge  | Rear wing: 320 | Fuselage: Short adv + | Mast: Uhm 80 | Why: For parawinging I use most of the time the 1010. It just gives you heaps of glide and makes the whole ride really easy, especially on longer runs where you want a bit of a break in between. You can just let it run and it keeps holding the swell without having to pump much.\n\nIf I\u2019m doing shorter runs or want it to feel a bit more surfy and the swell is really cranking, then I go down to a 950 or even an 890. But most of the time I really enjoy the 1010 because it holds so much swell for downwinding on the Parawing. It gives you those little moments to relax between turns and just glide, which is super fun. I\u2019m really loving that setup.\n\nA few tips for others getting into Parawing downwinding:\n\n\u2022 Don\u2019t go too small on the foil at the start. A bit more surface like a 1300ish wing helps a lot with glide and connecting bumps.\n\u2022 Focus on linking swell instead of pumping. Bigger wings make it easier to just read the ocean and flow from bump to bump.\n\u2022 Choose the foil based on the energy of the swell. On strong windy days you can go smaller, but on weaker days the extra glide is gold.\n\u2022 Let the foil work. Sometimes the best thing is to relax, keep your speed, and let the wing glide instead of forcing turns or pumps.\n\nOnce you get the feeling of just flowing with the swell, that\u2019s when Parawinging becomes really addictive.",
+      "text": "Survey respondent #10 (>105kg, 4+ years, West Oz) | Discipline: Parawing | Front wing: 1010 surge  | Rear wing: 320 | Fuselage: Short adv + | Mast: Uhm 80 | Why: For parawinging I use most of the time the 1010. It just gives you heaps of glide and makes the whole ride really easy, especially on longer runs where you want a bit of a break in between. You can just let it run and it keeps holding the swell without having to pump much.\n\nIf I’m doing shorter runs or want it to feel a bit more surfy and the swell is really cranking, then I go down to a 950 or even an 890. But most of the time I really enjoy the 1010 because it holds so much swell for downwinding on the Parawing. It gives you those little moments to relax between turns and just glide, which is super fun. I’m really loving that setup.\n\nA few tips for others getting into Parawing downwinding:\n\n• Don’t go too small on the foil at the start. A bit more surface like a 1300ish wing helps a lot with glide and connecting bumps.\n• Focus on linking swell instead of pumping. Bigger wings make it easier to just read the ocean and flow from bump to bump.\n• Choose the foil based on the energy of the swell. On strong windy days you can go smaller, but on weaker days the extra glide is gold.\n• Let the foil work. Sometimes the best thing is to relax, keep your speed, and let the wing glide instead of forcing turns or pumps.\n\nOnce you get the feeling of just flowing with the swell, that’s when Parawinging becomes really addictive.",
       "foils_mentioned": [
         "1010 surge"
       ],
@@ -2679,7 +2677,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #11",
-      "text": "Survey respondent #11 (<65kg, 2-4 years, The Gorge) | Discipline: Wing Foiling | Front wing: ART v2 819 | Rear wing: Surf 280 | Fuselage: Black ultrashort advanced plus | Mast: 82 high modulus | Why: It\u2019s super fast, very responsive, and very fun on swells",
+      "text": "Survey respondent #11 (<65kg, 2-4 years, The Gorge) | Discipline: Wing Foiling | Front wing: ART v2 819 | Rear wing: Surf 280 | Fuselage: Black ultrashort advanced plus | Mast: 82 high modulus | Why: It’s super fast, very responsive, and very fun on swells",
       "foils_mentioned": [
         "ART v2 819"
       ],
@@ -2795,7 +2793,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #12",
-      "text": "Survey respondent #12 (75-85kg, 2-4 years, Maui, Australia) | Discipline: Parawing | Front wing: 830 | Rear wing: 300 surf skinny  | Fuselage: Black ultrashort | Mast: 78 kaiwi | Why: It\u2019s my go to in surf so I don\u2019t bother trying anything else ",
+      "text": "Survey respondent #12 (75-85kg, 2-4 years, Maui, Australia) | Discipline: Parawing | Front wing: 830 | Rear wing: 300 surf skinny  | Fuselage: Black ultrashort | Mast: 78 kaiwi | Why: It’s my go to in surf so I don’t bother trying anything else ",
       "foils_mentioned": [
         "830"
       ],
@@ -2933,7 +2931,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #15",
-      "text": "Survey respondent #15 (95-105kg, 4+ years, Mission Bay, San Diego ) | Discipline: Wake Foiling | Front wing: HPS980  | Rear wing: 365/55 skinny  | Fuselage: Advanced short  | Mast: 82 HMPC | Why: It feels great on the wake, fun to carve on, and it\u2019s the size I need for my weight. ",
+      "text": "Survey respondent #15 (95-105kg, 4+ years, Mission Bay, San Diego ) | Discipline: Wake Foiling | Front wing: HPS980  | Rear wing: 365/55 skinny  | Fuselage: Advanced short  | Mast: 82 HMPC | Why: It feels great on the wake, fun to carve on, and it’s the size I need for my weight. ",
       "foils_mentioned": [
         "HPS980"
       ],
@@ -3699,7 +3697,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #27",
-      "text": "Survey respondent #27 (85-95kg, 4+ years, United Arab Emirates) | Discipline: Wing Foiling | Front wing: Previously spitfire 960 and recently surge 890 and 1100 | Rear wing: Surf skinny 320 and 300 | Fuselage: Ultra | Mast: HM 82cm and alum 82cm | Why: Same as prone. It\u2019s solid for heavier riders and modular. And I really love the performance of the new surges",
+      "text": "Survey respondent #27 (85-95kg, 4+ years, United Arab Emirates) | Discipline: Wing Foiling | Front wing: Previously spitfire 960 and recently surge 890 and 1100 | Rear wing: Surf skinny 320 and 300 | Fuselage: Ultra | Mast: HM 82cm and alum 82cm | Why: Same as prone. It’s solid for heavier riders and modular. And I really love the performance of the new surges",
       "foils_mentioned": [
         "Previously spitfire 960",
         "recently surge 890",
@@ -3724,7 +3722,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #27",
-      "text": "Survey respondent #27 (85-95kg, 4+ years, United Arab Emirates) | Discipline: Kite Foiling | Front wing: Previously spit 840 and recently surge 780 and 890 | Rear wing: Surf skinn 320 and 300 (I haven\u2019t tried any others) | Fuselage: Ultra | Mast: HM 82cm and alum 82cm | Why: Same as prone and wing. Love that it\u2019s strong for heavy riders and great performance.",
+      "text": "Survey respondent #27 (85-95kg, 4+ years, United Arab Emirates) | Discipline: Kite Foiling | Front wing: Previously spit 840 and recently surge 780 and 890 | Rear wing: Surf skinn 320 and 300 (I haven’t tried any others) | Fuselage: Ultra | Mast: HM 82cm and alum 82cm | Why: Same as prone and wing. Love that it’s strong for heavy riders and great performance.",
       "foils_mentioned": [
         "Previously spit 840",
         "recently surge 780",
@@ -3739,7 +3737,7 @@
       "date": "2026-03-10T00:00:00",
       "setup": {
         "front_wing": "Previously spit 840 and recently surge 780 and 890",
-        "rear_wing": "Surf skinn 320 and 300 (I haven\u2019t tried any others)",
+        "rear_wing": "Surf skinn 320 and 300 (I haven’t tried any others)",
         "fuselage": "Ultra",
         "mast": "HM 82cm and alum 82cm"
       }
@@ -3980,7 +3978,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #30",
-      "text": "Survey respondent #30 (65-75kg, 1-2 years, New Zealand ) | Discipline: Downwind SUP Foiling | Front wing: FB 1070 | Rear wing: Skinny 45 | Fuselage: Ultrashort | Mast: 80 UHM | Why: When conditions are good bc it\u2019s fast and still turns good just has a nice feel to it",
+      "text": "Survey respondent #30 (65-75kg, 1-2 years, New Zealand ) | Discipline: Downwind SUP Foiling | Front wing: FB 1070 | Rear wing: Skinny 45 | Fuselage: Ultrashort | Mast: 80 UHM | Why: When conditions are good bc it’s fast and still turns good just has a nice feel to it",
       "foils_mentioned": [
         "FB 1070"
       ],
@@ -4189,7 +4187,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Prone Foiling | Front wing: Art v2 939 , surge 830 /890 , fireball 1070 | Rear wing: Skinny 40/50 et surf 300 | Fuselage: Short -20 703 / short Ad 700 et ultra 640  | Mast: UHM pro 800  | Why: Yes lot of ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Prone Foiling | Front wing: Art v2 939 , surge 830 /890 , fireball 1070 | Rear wing: Skinny 40/50 et surf 300 | Fuselage: Short -20 703 / short Ad 700 et ultra 640  | Mast: UHM pro 800  | Why: Yes lot of ",
       "foils_mentioned": [
         "Art v2 939",
         "surge 830",
@@ -4198,7 +4196,7 @@
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "prone",
       "sentiment": "positive",
       "type": "survey",
@@ -4215,7 +4213,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Wing Foiling | Front wing: Fireball 1070 / png v2 1200 / v2 939  | Rear wing: Prog 375 / skinny 50 | Fuselage: Short 700  | Mast: Uhm pro 800 | Why: Yes ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Wing Foiling | Front wing: Fireball 1070 / png v2 1200 / v2 939  | Rear wing: Prog 375 / skinny 50 | Fuselage: Short 700  | Mast: Uhm pro 800 | Why: Yes ",
       "foils_mentioned": [
         "Fireball 1070",
         "png v2 1200",
@@ -4223,7 +4221,7 @@
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "wing",
       "sentiment": "positive",
       "type": "survey",
@@ -4240,7 +4238,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Wake Foiling | Front wing: Art 799 / art v2 939 /surge 830  | Rear wing: Surf 300 / prog 375  | Fuselage: Ultra short 640  | Mast: UHM Pro 800 | Why: Yes ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Wake Foiling | Front wing: Art 799 / art v2 939 /surge 830  | Rear wing: Surf 300 / prog 375  | Fuselage: Ultra short 640  | Mast: UHM Pro 800 | Why: Yes ",
       "foils_mentioned": [
         "Art 799",
         "art v2 939",
@@ -4248,7 +4246,7 @@
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "wake",
       "sentiment": "positive",
       "type": "survey",
@@ -4265,7 +4263,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Tow-In Foiling | Front wing: Art 799 / v2 939 / surge 830  | Rear wing: Prog 375 / surf 300  | Fuselage: Ultra short adv | Mast: UHM Pro 800 | Why: Yes ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Tow-In Foiling | Front wing: Art 799 / v2 939 / surge 830  | Rear wing: Prog 375 / surf 300  | Fuselage: Ultra short adv | Mast: UHM Pro 800 | Why: Yes ",
       "foils_mentioned": [
         "Art 799",
         "v2 939",
@@ -4273,7 +4271,7 @@
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "tow",
       "sentiment": "positive",
       "type": "survey",
@@ -4290,13 +4288,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Dock Start | Front wing: PNG 1200 v2  | Rear wing: Skinny 40  | Fuselage: Ultra short adv  | Mast: UHM Pro 800 | Why: Yes ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Dock Start | Front wing: PNG 1200 v2  | Rear wing: Skinny 40  | Fuselage: Ultra short adv  | Mast: UHM Pro 800 | Why: Yes ",
       "foils_mentioned": [
         "PNG 1200 v2"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "dock_start",
       "sentiment": "positive",
       "type": "survey",
@@ -4313,14 +4311,14 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #33",
-      "text": "Survey respondent #33 (65-75kg, 4+ years, Vend\u00e9e France ) | Discipline: Foil Assist | Front wing: Surge 890 / fireball 1070  | Rear wing: Prog 375  | Fuselage: Short -20  | Mast: UHM Pro 800  | Why: Yes ",
+      "text": "Survey respondent #33 (65-75kg, 4+ years, Vendée France ) | Discipline: Foil Assist | Front wing: Surge 890 / fireball 1070  | Rear wing: Prog 375  | Fuselage: Short -20  | Mast: UHM Pro 800  | Why: Yes ",
       "foils_mentioned": [
         "Surge 890",
         "fireball 1070"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "4+ years",
-      "rider_location": "Vend\u00e9e France ",
+      "rider_location": "Vendée France ",
       "use_case": "foil_assist",
       "sentiment": "positive",
       "type": "survey",
@@ -4406,7 +4404,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #35",
-      "text": "Survey respondent #35 (75-85kg, 4+ years, Boise Idaho, hood river, cabarete) | Discipline: Dock Start | Front wing: PNG 1150 | Rear wing: Still figuring it out | Fuselage: Red short | Mast: 90 cm aluminum | Why: I don\u2019t but it\u2019s what I have. Still learning and saving for a bigger wing. ",
+      "text": "Survey respondent #35 (75-85kg, 4+ years, Boise Idaho, hood river, cabarete) | Discipline: Dock Start | Front wing: PNG 1150 | Rear wing: Still figuring it out | Fuselage: Red short | Mast: 90 cm aluminum | Why: I don’t but it’s what I have. Still learning and saving for a bigger wing. ",
       "foils_mentioned": [
         "PNG 1150"
       ],
@@ -4429,7 +4427,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #35",
-      "text": "Survey respondent #35 (75-85kg, 4+ years, Boise Idaho, hood river, cabarete) | Discipline: Long Distance Pump | Front wing: PNG 1150 | Rear wing: Still figuring it out | Fuselage: Red short | Mast: 90cm alum | Why: I don\u2019t but it\u2019s what I have. Still learning and saving for a bigger wing. ",
+      "text": "Survey respondent #35 (75-85kg, 4+ years, Boise Idaho, hood river, cabarete) | Discipline: Long Distance Pump | Front wing: PNG 1150 | Rear wing: Still figuring it out | Fuselage: Red short | Mast: 90cm alum | Why: I don’t but it’s what I have. Still learning and saving for a bigger wing. ",
       "foils_mentioned": [
         "PNG 1150"
       ],
@@ -4754,7 +4752,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #40",
-      "text": "Survey respondent #40 (<65kg, 2-4 years, Bay of islands, NZ) | Discipline: Wing Foiling | Front wing: ART pro 751 | Rear wing: Skinny 40 | Fuselage: Black short | Mast: Hm carbon 102 | Why: It\u2019s fast",
+      "text": "Survey respondent #40 (<65kg, 2-4 years, Bay of islands, NZ) | Discipline: Wing Foiling | Front wing: ART pro 751 | Rear wing: Skinny 40 | Fuselage: Black short | Mast: Hm carbon 102 | Why: It’s fast",
       "foils_mentioned": [
         "ART pro 751"
       ],
@@ -5054,7 +5052,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #44",
-      "text": "Survey respondent #44 (75-85kg, 4+ years, Ukraine ) | Discipline: Downwind SUP Foiling | Front wing: Fireball | Rear wing: 370 | Fuselage: Ultrashort | Mast: 90 | Why: It\u2019s cool setap ",
+      "text": "Survey respondent #44 (75-85kg, 4+ years, Ukraine ) | Discipline: Downwind SUP Foiling | Front wing: Fireball | Rear wing: 370 | Fuselage: Ultrashort | Mast: 90 | Why: It’s cool setap ",
       "foils_mentioned": [
         "Fireball"
       ],
@@ -5285,7 +5283,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #46",
-      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Downwind SUP Foiling | Front wing: fireball 1250 (art 1401 for the flat) | Rear wing: Skinny 35 but changing to skinny surf 43 (which work SO good with fireball 1250!!) | Fuselage: Black ultrashort | Mast: 82 HM Carbon | Why: For our conditions in Switzerland it\u2019s the must have. You can turn and have a lot of glide in the wave. I use the same set up (1250) for pumping in the flat. \nFor wakethiefing, I use the 1401 to assure my starts and catch the boat waves. With the weight of the board (SUP) it works good. But I plan to use also the 1250 on the flat days. I already use it on the small small days (quite small in Switzerland \ud83d\ude05) and it works already good. ",
+      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Downwind SUP Foiling | Front wing: fireball 1250 (art 1401 for the flat) | Rear wing: Skinny 35 but changing to skinny surf 43 (which work SO good with fireball 1250!!) | Fuselage: Black ultrashort | Mast: 82 HM Carbon | Why: For our conditions in Switzerland it’s the must have. You can turn and have a lot of glide in the wave. I use the same set up (1250) for pumping in the flat. \nFor wakethiefing, I use the 1401 to assure my starts and catch the boat waves. With the weight of the board (SUP) it works good. But I plan to use also the 1250 on the flat days. I already use it on the small small days (quite small in Switzerland 😅) and it works already good. ",
       "foils_mentioned": [
         "fireball 1250 (art 1401 for the flat)"
       ],
@@ -5308,7 +5306,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #46",
-      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Dock Start | Front wing: Fireball 1250 | Rear wing: Surf skinny 43 | Fuselage: Black ultrashort | Mast: 82cm HM Carbob | Why: It\u2019s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What\u2019s also interesting is that I also find the glide and the front projection, like the skinny 35. So it\u2019s very good cause I found all the points I was searching for with a set up ",
+      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Dock Start | Front wing: Fireball 1250 | Rear wing: Surf skinny 43 | Fuselage: Black ultrashort | Mast: 82cm HM Carbob | Why: It’s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What’s also interesting is that I also find the glide and the front projection, like the skinny 35. So it’s very good cause I found all the points I was searching for with a set up ",
       "foils_mentioned": [
         "Fireball 1250"
       ],
@@ -5331,9 +5329,9 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #46",
-      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Art 999 ( fireball 1250 when it\u2019s small) | Rear wing: Skinny 40 | Fuselage: Black ultrashort  | Mast: 82cm HM carbon | Why: When there\u2019s some waves by us (strong wind), I use the artpro999 which allows me more fault with speed. I put the skinny 40 to increase  bit the drag and have more control. But it\u2019s not the set up I use the most. Sometimes I use also the fireball 1250, which is really my allround wing \n",
+      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Art 999 ( fireball 1250 when it’s small) | Rear wing: Skinny 40 | Fuselage: Black ultrashort  | Mast: 82cm HM carbon | Why: When there’s some waves by us (strong wind), I use the artpro999 which allows me more fault with speed. I put the skinny 40 to increase  bit the drag and have more control. But it’s not the set up I use the most. Sometimes I use also the fireball 1250, which is really my allround wing \n",
       "foils_mentioned": [
-        "Art 999 ( fireball 1250 when it\u2019s small)"
+        "Art 999 ( fireball 1250 when it’s small)"
       ],
       "rider_weight": "75-85kg",
       "rider_experience": "2-4 years",
@@ -5343,7 +5341,7 @@
       "type": "survey",
       "date": "2026-03-10T00:00:00",
       "setup": {
-        "front_wing": "Art 999 ( fireball 1250 when it\u2019s small)",
+        "front_wing": "Art 999 ( fireball 1250 when it’s small)",
         "rear_wing": "Skinny 40",
         "fuselage": "Black ultrashort ",
         "mast": "82cm HM carbon"
@@ -5354,7 +5352,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #46",
-      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Parawing | Front wing: Art999 / fireball 1250 in small conditions  | Rear wing: Skinny 35 / surf skinny 43 | Fuselage: Black ultrashort | Mast: 82cm HM Carbon | Why: In small conditions, fireball goes well. The limit is 18-20knot in a 4m parading (for me). I also use the art 999 but I don\u2019t do so much parawing. Much more SUP DW / SUP foiling",
+      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Parawing | Front wing: Art999 / fireball 1250 in small conditions  | Rear wing: Skinny 35 / surf skinny 43 | Fuselage: Black ultrashort | Mast: 82cm HM Carbon | Why: In small conditions, fireball goes well. The limit is 18-20knot in a 4m parading (for me). I also use the art 999 but I don’t do so much parawing. Much more SUP DW / SUP foiling",
       "foils_mentioned": [
         "Art999",
         "fireball 1250 in small conditions"
@@ -5378,7 +5376,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #46",
-      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Long Distance Pump | Front wing: Fireball 1250 | Rear wing: Surf skinny 43 | Fuselage: Black ultrashort  | Mast: 82 HM Carbon | Why: It\u2019s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What\u2019s also interesting is that I also find the glide and the front projection, like the skinny 35. So it\u2019s very good cause I found all the points I was searching for with a set up ",
+      "text": "Survey respondent #46 (75-85kg, 2-4 years, Lutry, Leman Lake, Switzerland ! ) | Discipline: Long Distance Pump | Front wing: Fireball 1250 | Rear wing: Surf skinny 43 | Fuselage: Black ultrashort  | Mast: 82 HM Carbon | Why: It’s the setup for all conditions in pumping. You can start easily everywhere, pump mid distance, turn in the small waves, do a little bit of freestyle. I used to ride the skinny 35 with it but I tried the surf skinny 43, which totally unlocked my set up in powerful curves . I have much more back foot and can be more violent/ sharp when I turn. With the same turn, I would overfoil/fall with the skinny 35. What’s also interesting is that I also find the glide and the front projection, like the skinny 35. So it’s very good cause I found all the points I was searching for with a set up ",
       "foils_mentioned": [
         "Fireball 1250"
       ],
@@ -5401,13 +5399,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #47",
-      "text": "Survey respondent #47 (65-75kg, 2-4 years, France oc\u00e9an basque country ) | Discipline: Downwind SUP Foiling | Front wing: Fireball 1070 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80cm | Why: The glide is insane !",
+      "text": "Survey respondent #47 (65-75kg, 2-4 years, France océan basque country ) | Discipline: Downwind SUP Foiling | Front wing: Fireball 1070 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80cm | Why: The glide is insane !",
       "foils_mentioned": [
         "Fireball 1070"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "2-4 years",
-      "rider_location": "France oc\u00e9an basque country ",
+      "rider_location": "France océan basque country ",
       "use_case": "downwind",
       "sentiment": "positive",
       "type": "survey",
@@ -5424,13 +5422,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #47",
-      "text": "Survey respondent #47 (65-75kg, 2-4 years, France oc\u00e9an basque country ) | Discipline: Prone Foiling | Front wing: Surge 840 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80 | Why: Can Andle the strong carving ",
+      "text": "Survey respondent #47 (65-75kg, 2-4 years, France océan basque country ) | Discipline: Prone Foiling | Front wing: Surge 840 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80 | Why: Can Andle the strong carving ",
       "foils_mentioned": [
         "Surge 840"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "2-4 years",
-      "rider_location": "France oc\u00e9an basque country ",
+      "rider_location": "France océan basque country ",
       "use_case": "prone",
       "sentiment": "positive",
       "type": "survey",
@@ -5447,13 +5445,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #47",
-      "text": "Survey respondent #47 (65-75kg, 2-4 years, France oc\u00e9an basque country ) | Discipline: Wing Foiling | Front wing: Surge 890 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80 | Why: Nice in every conditions",
+      "text": "Survey respondent #47 (65-75kg, 2-4 years, France océan basque country ) | Discipline: Wing Foiling | Front wing: Surge 890 | Rear wing: 320 skinny surf  | Fuselage: Short advance | Mast: Uhm 80 | Why: Nice in every conditions",
       "foils_mentioned": [
         "Surge 890"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "2-4 years",
-      "rider_location": "France oc\u00e9an basque country ",
+      "rider_location": "France océan basque country ",
       "use_case": "wing",
       "sentiment": "positive",
       "type": "survey",
@@ -5470,13 +5468,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #47",
-      "text": "Survey respondent #47 (65-75kg, 2-4 years, France oc\u00e9an basque country ) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Fireball 1070",
+      "text": "Survey respondent #47 (65-75kg, 2-4 years, France océan basque country ) | Discipline: SUP Foiling (Non-Downwind) | Front wing: Fireball 1070",
       "foils_mentioned": [
         "Fireball 1070"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "2-4 years",
-      "rider_location": "France oc\u00e9an basque country ",
+      "rider_location": "France océan basque country ",
       "use_case": "sup",
       "sentiment": "neutral",
       "type": "survey",
@@ -5493,13 +5491,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #47",
-      "text": "Survey respondent #47 (65-75kg, 2-4 years, France oc\u00e9an basque country ) | Discipline: Parawing | Front wing: Fireball 1070",
+      "text": "Survey respondent #47 (65-75kg, 2-4 years, France océan basque country ) | Discipline: Parawing | Front wing: Fireball 1070",
       "foils_mentioned": [
         "Fireball 1070"
       ],
       "rider_weight": "65-75kg",
       "rider_experience": "2-4 years",
-      "rider_location": "France oc\u00e9an basque country ",
+      "rider_location": "France océan basque country ",
       "use_case": "parawing",
       "sentiment": "neutral",
       "type": "survey",
@@ -5516,7 +5514,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #48",
-      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Downwind SUP Foiling | Front wing: Tempo 960 | Rear wing: 35 | Fuselage: Ti Link | Mast: 82 cm HM Carbon | Why: It\u2019s incredibly fast, stiff and can keep up with open ocean swells and has plenty of low end for less than ideal days",
+      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Downwind SUP Foiling | Front wing: Tempo 960 | Rear wing: 35 | Fuselage: Ti Link | Mast: 82 cm HM Carbon | Why: It’s incredibly fast, stiff and can keep up with open ocean swells and has plenty of low end for less than ideal days",
       "foils_mentioned": [
         "Tempo 960"
       ],
@@ -5539,7 +5537,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #48",
-      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Prone Foiling | Front wing: Surge 830 | Rear wing: Progressive 280 | Fuselage: Black Ultrashort | Mast: 82cm HM Carbon | Why: I can take it down winding, it\u2019s also my favorite in the surf. The wing turns incredibly well and has plenty of low end for me to link multiple waves together.",
+      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Prone Foiling | Front wing: Surge 830 | Rear wing: Progressive 280 | Fuselage: Black Ultrashort | Mast: 82cm HM Carbon | Why: I can take it down winding, it’s also my favorite in the surf. The wing turns incredibly well and has plenty of low end for me to link multiple waves together.",
       "foils_mentioned": [
         "Surge 830"
       ],
@@ -5631,7 +5629,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #48",
-      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Parawing | Front wing: Surge 890 | Rear wing: Progressive 280 | Fuselage: Black Ultrashort | Mast: 82cm HM Carbon | Why: What I love most with this setup parawing is its ability to fly at high speeds and turning on a dime. Once I\u2019m up on foil I\u2019m able to stash the parawing and have full confidence in the low end of the front wing anywhere from 15-35 mph wind. I have used this setup in some rather large surf while on the parawing and it never ceases to amaze me.\n",
+      "text": "Survey respondent #48 (75-85kg, 4+ years, Maui) | Discipline: Parawing | Front wing: Surge 890 | Rear wing: Progressive 280 | Fuselage: Black Ultrashort | Mast: 82cm HM Carbon | Why: What I love most with this setup parawing is its ability to fly at high speeds and turning on a dime. Once I’m up on foil I’m able to stash the parawing and have full confidence in the low end of the front wing anywhere from 15-35 mph wind. I have used this setup in some rather large surf while on the parawing and it never ceases to amaze me.\n",
       "foils_mentioned": [
         "Surge 890"
       ],
@@ -6008,14 +6006,14 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #53",
-      "text": "Survey respondent #53 (<65kg, 2-4 years, Z\u00fcrich) | Discipline: Dock Start | Front wing: Fb 1350/1250 | Rear wing: other brand | Fuselage: Advance+ crazy short | Mast: 80 uhm pro | Why: 1350 is easy to start from almost anywhere and also difficult conditions, 1250 is much more agile and fun to ride ",
+      "text": "Survey respondent #53 (<65kg, 2-4 years, Zürich) | Discipline: Dock Start | Front wing: Fb 1350/1250 | Rear wing: other brand | Fuselage: Advance+ crazy short | Mast: 80 uhm pro | Why: 1350 is easy to start from almost anywhere and also difficult conditions, 1250 is much more agile and fun to ride ",
       "foils_mentioned": [
         "Fb 1350",
         "1250"
       ],
       "rider_weight": "<65kg",
       "rider_experience": "2-4 years",
-      "rider_location": "Z\u00fcrich",
+      "rider_location": "Zürich",
       "use_case": "dock_start",
       "sentiment": "positive",
       "type": "survey",
@@ -6032,13 +6030,13 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #53",
-      "text": "Survey respondent #53 (<65kg, 2-4 years, Z\u00fcrich) | Discipline: Long Distance Pump | Front wing: Fb 1500 | Rear wing: Other brand | Fuselage: Crazy short | Mast: 80 uhm pro | Why: Lower energy needed than other foils with rather high speed and good maneuverability",
+      "text": "Survey respondent #53 (<65kg, 2-4 years, Zürich) | Discipline: Long Distance Pump | Front wing: Fb 1500 | Rear wing: Other brand | Fuselage: Crazy short | Mast: 80 uhm pro | Why: Lower energy needed than other foils with rather high speed and good maneuverability",
       "foils_mentioned": [
         "Fb 1500"
       ],
       "rider_weight": "<65kg",
       "rider_experience": "2-4 years",
-      "rider_location": "Z\u00fcrich",
+      "rider_location": "Zürich",
       "use_case": "pump",
       "sentiment": "positive",
       "type": "survey",
@@ -6241,7 +6239,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #56",
-      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Wake Foiling | Front wing: Spifire 840 | Rear wing: Skinny 40/359 | Fuselage: Black Silly Advance+ | Mast: 80cm UHM Pro | Why: Carving on wakesurf waves with this setup is incredibly fun. The shorter fuselage makes the foil more pitch-sensitive, but it also gives it a very lively and responsive feel. As a result, the foil turns extremely quickly and allows for tight, dynamic carves on the wave.\n\nI\u2019m really looking forward to testing the new Surge wings behind the wakeboat as well. Unfortunately, I haven\u2019t had the opportunity yet, but I\u2019m excited to see how they perform in that kind of wave.",
+      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Wake Foiling | Front wing: Spifire 840 | Rear wing: Skinny 40/359 | Fuselage: Black Silly Advance+ | Mast: 80cm UHM Pro | Why: Carving on wakesurf waves with this setup is incredibly fun. The shorter fuselage makes the foil more pitch-sensitive, but it also gives it a very lively and responsive feel. As a result, the foil turns extremely quickly and allows for tight, dynamic carves on the wave.\n\nI’m really looking forward to testing the new Surge wings behind the wakeboat as well. Unfortunately, I haven’t had the opportunity yet, but I’m excited to see how they perform in that kind of wave.",
       "foils_mentioned": [
         "Spifire 840"
       ],
@@ -6264,7 +6262,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #56",
-      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Dock Start | Front wing: Surge 1010 and Png 1300 | Rear wing: Skinny 30/360 or Surf Skinny 43/280 | Fuselage: Silly Short Advence + | Mast: UHM Pro 80 | Why: The PNG 1300 is one of the most versatile pump foil wings. It offers excellent glide, smooth and predictable turns, and performs surprisingly well even in small waves.\n\nThe Surge 1010 is better suited for shorter runs and riders who want to practice tight, aggressive turns. It\u2019s incredibly fun and fast, but also more challenging for dock starts.",
+      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Dock Start | Front wing: Surge 1010 and Png 1300 | Rear wing: Skinny 30/360 or Surf Skinny 43/280 | Fuselage: Silly Short Advence + | Mast: UHM Pro 80 | Why: The PNG 1300 is one of the most versatile pump foil wings. It offers excellent glide, smooth and predictable turns, and performs surprisingly well even in small waves.\n\nThe Surge 1010 is better suited for shorter runs and riders who want to practice tight, aggressive turns. It’s incredibly fun and fast, but also more challenging for dock starts.",
       "foils_mentioned": [
         "Surge 1010",
         "Png 1300"
@@ -6288,7 +6286,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #56",
-      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Long Distance Pump | Front wing: 1500 Fireball or 1750 Fireball | Rear wing: Skinny 30/360 | Fuselage: Silly Short Advance + | Mast: Fatty 80 | Why: With the 1500, I can easily do runs of over 10 minutes. It has incredible glide, and for a wing with a 1500 span it still turns surprisingly well. It even works in small waves.\n\nWith the bigger 1750, I managed to complete my one-hour challenge. It\u2019s an amazing glider, but these wings are quite pitch-sensitive and not the easiest to start. However, once you manage the start, it feels like you can pump forever.",
+      "text": "Survey respondent #56 (85-95kg, 4+ years, Seitzerland) | Discipline: Long Distance Pump | Front wing: 1500 Fireball or 1750 Fireball | Rear wing: Skinny 30/360 | Fuselage: Silly Short Advance + | Mast: Fatty 80 | Why: With the 1500, I can easily do runs of over 10 minutes. It has incredible glide, and for a wing with a 1500 span it still turns surprisingly well. It even works in small waves.\n\nWith the bigger 1750, I managed to complete my one-hour challenge. It’s an amazing glider, but these wings are quite pitch-sensitive and not the easiest to start. However, once you manage the start, it feels like you can pump forever.",
       "foils_mentioned": [
         "1500 Fireball",
         "1750 Fireball"
@@ -6800,12 +6798,12 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #62",
-      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: Prone Foiling | Front wing: Spitfire 840/ but now since a week the Surge 890, and even Surge 950, for wen it\u2019s super small with mid lengt board, so mutch fun | Rear wing: At the moment skiny35, because skiny surf has not arrived yet | Fuselage: Ultrashort for Surge , Crazyshort for Spitfire  | Mast: UHM Pro 80 | Why: Super turny, very easy roll, Surge as super glide,  more pump frendly, prone has just got even better",
+      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: Prone Foiling | Front wing: Spitfire 840/ but now since a week the Surge 890, and even Surge 950, for wen it’s super small with mid lengt board, so mutch fun | Rear wing: At the moment skiny35, because skiny surf has not arrived yet | Fuselage: Ultrashort for Surge , Crazyshort for Spitfire  | Mast: UHM Pro 80 | Why: Super turny, very easy roll, Surge as super glide,  more pump frendly, prone has just got even better",
       "foils_mentioned": [
         "Spitfire 840",
         "but now since a week the Surge 890",
         "even Surge 950",
-        "for wen it\u2019s super small with mid lengt board",
+        "for wen it’s super small with mid lengt board",
         "so mutch fun"
       ],
       "rider_weight": "75-85kg",
@@ -6816,7 +6814,7 @@
       "type": "survey",
       "date": "2026-03-10T00:00:00",
       "setup": {
-        "front_wing": "Spitfire 840/ but now since a week the Surge 890, and even Surge 950, for wen it\u2019s super small with mid lengt board, so mutch fun",
+        "front_wing": "Spitfire 840/ but now since a week the Surge 890, and even Surge 950, for wen it’s super small with mid lengt board, so mutch fun",
         "rear_wing": "At the moment skiny35, because skiny surf has not arrived yet",
         "fuselage": "Ultrashort for Surge , Crazyshort for Spitfire ",
         "mast": "UHM Pro 80"
@@ -6850,7 +6848,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #62",
-      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: SUP Foiling (Non-Downwind) | Front wing:  Surge 950 or fireball 1070 | Rear wing: Skiny 35 | Fuselage: Ultrashort | Mast: UHMPro 80 | Why: Wen it\u2019s super Small Sup wave",
+      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: SUP Foiling (Non-Downwind) | Front wing:  Surge 950 or fireball 1070 | Rear wing: Skiny 35 | Fuselage: Ultrashort | Mast: UHMPro 80 | Why: Wen it’s super Small Sup wave",
       "foils_mentioned": [
         "Surge 950",
         "fireball 1070"
@@ -6874,7 +6872,7 @@
       "source": "axis_setup_survey_2026",
       "source_label": "AXIS Setup Survey (68 respondents, Mar 2026)",
       "rider": "Survey #62",
-      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: Parawing | Front wing: Tempo 1090 fireball 1070 | Rear wing: Skiny 35 | Fuselage: Short | Mast: UHMPro 80 | Why: Use Parawing, to get out, were it\u2019s downwind able, pack the parawing and paddle up the Sup, downwind, and in case it\u2019s a long way in, or go back up wind, I use parawing.\nThese Foils have good top speed for there size, so I can fly up wind No problem, and I can start them up with the Paddle, my perfect Downwind set up",
+      "text": "Survey respondent #62 (75-85kg, 4+ years, Portugal / South) | Discipline: Parawing | Front wing: Tempo 1090 fireball 1070 | Rear wing: Skiny 35 | Fuselage: Short | Mast: UHMPro 80 | Why: Use Parawing, to get out, were it’s downwind able, pack the parawing and paddle up the Sup, downwind, and in case it’s a long way in, or go back up wind, I use parawing.\nThese Foils have good top speed for there size, so I can fly up wind No problem, and I can start them up with the Paddle, my perfect Downwind set up",
       "foils_mentioned": [
         "Tempo 1090 fireball 1070"
       ],
@@ -7451,9 +7449,9 @@
     {
       "id": "surffx-kai-thompson-1",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
-      "text": "Kai Thompson (80kg, AXIS team rider, DW racer): Tempo 1020 is go-to travel race wing, covers 10-30+ knots. 'Insanely overpowered at 30 and they handle it \u2014 no question in riding ability because they're so stiff.' Pairs with 360 T25 tail, 72cm UHM mast, Advance Plus Ultrashort fuse. Steps to 960 then 890 as wind increases.",
+      "text": "Kai Thompson (80kg, AXIS team rider, DW racer): Tempo 1020 is go-to travel race wing, covers 10-30+ knots. 'Insanely overpowered at 30 and they handle it — no question in riding ability because they're so stiff.' Pairs with 360 T25 tail, 72cm UHM mast, Advance Plus Ultrashort fuse. Steps to 960 then 890 as wind increases.",
       "foils_mentioned": [
         "Tempo 1020",
         "Tempo 960",
@@ -7468,9 +7466,9 @@
     {
       "id": "surffx-kai-thompson-2",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
-      "text": "Kai Thompson: Adrian redesigned the entire fuselage system for Tempos \u2014 wing design didn't fit existing fuselages. Post-Hawaii switched from weave carbon exterior to unicarbon all-through, gaining 24% more stiffness over prototype.",
+      "text": "Kai Thompson: Adrian redesigned the entire fuselage system for Tempos — wing design didn't fit existing fuselages. Post-Hawaii switched from weave carbon exterior to unicarbon all-through, gaining 24% more stiffness over prototype.",
       "foils_mentioned": [
         "Tempo"
       ],
@@ -7483,7 +7481,7 @@
     {
       "id": "surffx-kai-thompson-3",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
       "text": "Kai Thompson (80kg): Surge 830 is daily driver for surf, winging, downwind, Foil Drive. 'I take it everywhere.' 80cm mast + Ultrashort fuse, pairs with 345 tail. Goes bigger rear wing for dock starts or cruisy surf.",
       "foils_mentioned": [
@@ -7498,9 +7496,9 @@
     {
       "id": "surffx-kai-thompson-4",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
-      "text": "Kai Thompson (80kg): Used Surge 950 for dock start comp at Boot D\u00fcsseldorf \u2014 beat riders with dedicated starting foils. 'Made a few people think differently.' 830+950 covers everything including dock starts.",
+      "text": "Kai Thompson (80kg): Used Surge 950 for dock start comp at Boot Düsseldorf — beat riders with dedicated starting foils. 'Made a few people think differently.' 830+950 covers everything including dock starts.",
       "foils_mentioned": [
         "Surge 950",
         "Surge 830"
@@ -7514,7 +7512,7 @@
     {
       "id": "surffx-kai-thompson-5",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
       "text": "Kai Thompson: Surge has forward drive from Fireball DNA. Riders from ART V2 surprised they don't need as big a Surge as expected. Forward drive is #1 unexpected selling point, not just roll/turn.",
       "foils_mentioned": [
@@ -7531,9 +7529,9 @@
     {
       "id": "surffx-kai-thompson-6",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
-      "text": "Kai Thompson: Surge on Foil Drive is awesome \u2014 really nice efficient glide cruising without drag. 'Way more freedom' than typical surf setups. Pairs well with all foil assist stuff.",
+      "text": "Kai Thompson: Surge on Foil Drive is awesome — really nice efficient glide cruising without drag. 'Way more freedom' than typical surf setups. Pairs well with all foil assist stuff.",
       "foils_mentioned": [
         "Surge"
       ],
@@ -7546,7 +7544,7 @@
     {
       "id": "surffx-kai-thompson-7",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
       "text": "Kai Thompson (80kg): Fireball 1500 for pump/flat water/dock starts. Pairs with 30 skinny tail, Advance Plus Ultrashort fuse. At 80kg doesn't need fatty mast system.",
       "foils_mentioned": [
@@ -7561,7 +7559,7 @@
     {
       "id": "surffx-kai-thompson-8",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
       "text": "Kai Thompson: Fatty mast = 95mm profile mast cut down, fatter from base all through. MUST pair with fatty fuselage. For heavier riders on Fireballs. Nicolas Iten did ~5 hours / ~70km on Fireball 1750 around a lake.",
       "foils_mentioned": [
@@ -7576,9 +7574,9 @@
     {
       "id": "surffx-kai-thompson-9",
       "source": "youtube_interview",
-      "source_label": "SurfFX YouTube \u2014 What's New at Axis with Kai Thompson (Mar 2026)",
+      "source_label": "SurfFX YouTube — What's New at Axis with Kai Thompson (Mar 2026)",
       "rider": "Kai Thompson",
-      "text": "Kai Thompson: Tahitian Foil Fest coming May 8-17 \u2014 surf foiling, downwind, dock starting, wake foiling. Training for all Hawaii races.",
+      "text": "Kai Thompson: Tahitian Foil Fest coming May 8-17 — surf foiling, downwind, dock starting, wake foiling. Training for all Hawaii races.",
       "foils_mentioned": [],
       "rider_weight": "80kg",
       "use_case": "events",
@@ -7615,7 +7613,7 @@
       "source": "youtube_foil_shop",
       "source_label": "The Foil Shop - Tempo & Surge Deep Dive (Nov 2025)",
       "rider": "Luke Atkinson",
-      "text": "Surge 1010 for dock start \u2014 Kai, myself, and Gray Morris (all ~100kg) rode the 1010 in Croisic and Crozon dock start events. Made finals. Best dock start wing we tried. Yvon Labarthe also said it was the best wing he'd used for engaging from a dock start.",
+      "text": "Surge 1010 for dock start — Kai, myself, and Gray Morris (all ~100kg) rode the 1010 in Croisic and Crozon dock start events. Made finals. Best dock start wing we tried. Yvon Labarthe also said it was the best wing he'd used for engaging from a dock start.",
       "foils_mentioned": [
         "Surge 1010"
       ],
@@ -7631,7 +7629,7 @@
       "source": "youtube_foil_shop",
       "source_label": "The Foil Shop - Surge Discussion with Adrian & Mark (Nov 2025)",
       "rider": "Mark Shinn",
-      "text": "The Surge resolves everything I wanted from the Fireball \u2014 the glide and pump are there, but now you can make aggressive turns. You feel the Fireball in the Surge \u2014 every pump pays forward and drives you forward. The roll never ends. I'm still trying to find the limit.",
+      "text": "The Surge resolves everything I wanted from the Fireball — the glide and pump are there, but now you can make aggressive turns. You feel the Fireball in the Surge — every pump pays forward and drives you forward. The roll never ends. I'm still trying to find the limit.",
       "foils_mentioned": [
         "Surge 1010",
         "Fireball"
@@ -7648,7 +7646,7 @@
       "source": "youtube_foil_shop",
       "source_label": "The Foil Shop - Surge Discussion with Adrian & Mark (Nov 2025)",
       "rider": "Mark Shinn",
-      "text": "Surge 950 is my lighter-wind option now. The 890 (830cm2) gets up so early \u2014 even in patchy winds. I was stuck between ART V2 999 and 1099 with Foil Drive. The 1010 and 950 Surge resolved that \u2014 they get going so early I can ride the foils I want, not the ones I have to ride.",
+      "text": "Surge 950 is my lighter-wind option now. The 890 (830cm2) gets up so early — even in patchy winds. I was stuck between ART V2 999 and 1099 with Foil Drive. The 1010 and 950 Surge resolved that — they get going so early I can ride the foils I want, not the ones I have to ride.",
       "foils_mentioned": [
         "Surge 950",
         "Surge 890",
@@ -7668,7 +7666,7 @@
       "source": "youtube_awsi_2025",
       "source_label": "AWSI 2026 - New Products (Sep 2025)",
       "rider": "Adrian Roper",
-      "text": "Niko Iten set a world record on the Fireball 1500 \u2014 dock start pumped for 1 hour and covered 20.12km, averaging 20.12km/h for the full hour.",
+      "text": "Niko Iten set a world record on the Fireball 1500 — dock start pumped for 1 hour and covered 20.12km, averaging 20.12km/h for the full hour.",
       "foils_mentioned": [
         "Fireball 1500"
       ],
@@ -7684,7 +7682,7 @@
       "source": "youtube_awsi_2025",
       "source_label": "AWSI 2026 - New Products (Sep 2025)",
       "rider": "Adrian Roper",
-      "text": "Tempo 890 \u2014 what Kai Thompson and the twins raced at Maui race series. 16 aspect, 495cm2 area, 25mm rear. Really fast setup. 9 out of top 20 at the race were on AXIS Tempo.",
+      "text": "Tempo 890 — what Kai Thompson and the twins raced at Maui race series. 16 aspect, 495cm2 area, 25mm rear. Really fast setup. 9 out of top 20 at the race were on AXIS Tempo.",
       "foils_mentioned": [
         "Tempo 890"
       ],
@@ -7716,7 +7714,7 @@
       "source": "youtube_awsi_2024",
       "source_label": "AWSI 2024 - New Products (Sep 2024)",
       "rider": "Adrian Roper",
-      "text": "Fireball 1000 (773cm2): Gets up same as ART Pro 1051, top end almost as good as ART Pro 951. The 1070 pumps insanely well in flat water. Dylan uses 1070 with 25 rear for prone surfing, downwind \u2014 everything.",
+      "text": "Fireball 1000 (773cm2): Gets up same as ART Pro 1051, top end almost as good as ART Pro 951. The 1070 pumps insanely well in flat water. Dylan uses 1070 with 25 rear for prone surfing, downwind — everything.",
       "foils_mentioned": [
         "Fireball 1000",
         "Fireball 1070"
@@ -7733,7 +7731,7 @@
       "source": "youtube_blue_planet_2022",
       "source_label": "Blue Planet Show - Adrian Roper Interview (Jun 2022)",
       "rider": "Adrian Roper",
-      "text": "For beginners: BSC 1060 or 970 (over/under 75kg). SES package simplifies it to over/under 80kg. Find sheltered non-choppy conditions to learn. Board matters too \u2014 start big and volume-rich.",
+      "text": "For beginners: BSC 1060 or 970 (over/under 75kg). SES package simplifies it to over/under 80kg. Find sheltered non-choppy conditions to learn. Board matters too — start big and volume-rich.",
       "foils_mentioned": [
         "BSC 1060",
         "BSC 970"
@@ -7764,7 +7762,7 @@
       "source": "youtube_wing_server",
       "source_label": "Wing Server - Surge vs ART V2 vs Spitfire vs Fireball (Feb 2026)",
       "rider": "Christian (Wing Server)",
-      "text": "Surge 890 fits perfectly between Spitfire and ART V2. Very forgiving in messy water \u2014 can adjust foil angle continuously without stalling. Great for hard turns using wave energy. For fast-moving waves where you need pocket performance, ART V2 879 is better.",
+      "text": "Surge 890 fits perfectly between Spitfire and ART V2. Very forgiving in messy water — can adjust foil angle continuously without stalling. Great for hard turns using wave energy. For fast-moving waves where you need pocket performance, ART V2 879 is better.",
       "foils_mentioned": [
         "Surge 890",
         "ART V2 879",
@@ -7782,7 +7780,7 @@
       "source": "youtube_wing_server",
       "source_label": "Wing Server - Surge vs ART V2 vs Spitfire vs Fireball (Feb 2026)",
       "rider": "Christian (Wing Server)",
-      "text": "Size transition guide: Coming from ART V2 999 \u2192 Surge 890 or 950. From ART V2 819 \u2192 Surge 830. Use wingspan comparison, not area. Surge 890 more forgiving than Spitfire 780 despite being bigger span.",
+      "text": "Size transition guide: Coming from ART V2 999 → Surge 890 or 950. From ART V2 819 → Surge 830. Use wingspan comparison, not area. Surge 890 more forgiving than Spitfire 780 despite being bigger span.",
       "foils_mentioned": [
         "Surge 890",
         "Surge 950",
@@ -7802,7 +7800,7 @@
       "source": "youtube_dominic_hoskins",
       "source_label": "Full AXIS Range Review 2025 (Dominic Hoskins, Oct 2025)",
       "rider": "Dominic Hoskins",
-      "text": "ART V2 is the Swiss Army knife of the AXIS range \u2014 does everything well. In Dutch North Sea (messy, inconsistent, fast-ramping), the 979 and 879 are my go-to. They cut through chaos without wobble. Not surfy-feeling despite working well in surf.",
+      "text": "ART V2 is the Swiss Army knife of the AXIS range — does everything well. In Dutch North Sea (messy, inconsistent, fast-ramping), the 979 and 879 are my go-to. They cut through chaos without wobble. Not surfy-feeling despite working well in surf.",
       "foils_mentioned": [
         "ART V2 979",
         "ART V2 879"
@@ -7819,7 +7817,7 @@
       "source": "youtube_dominic_hoskins",
       "source_label": "Full AXIS Range Review 2025 (Dominic Hoskins, Oct 2025)",
       "rider": "Dominic Hoskins",
-      "text": "Tempo 1020 with Ti Link fuselage and Skinny 30 \u2014 blown away by how easy it was. Not just for elites. BUT: it keeps rolling until you stop it. Different from surf foils. Takes 10-20 min to adapt. Not a surf foil but amazingly fun for DW, power wing, foil drive.",
+      "text": "Tempo 1020 with Ti Link fuselage and Skinny 30 — blown away by how easy it was. Not just for elites. BUT: it keeps rolling until you stop it. Different from surf foils. Takes 10-20 min to adapt. Not a surf foil but amazingly fun for DW, power wing, foil drive.",
       "foils_mentioned": [
         "Tempo 1020"
       ],
@@ -7841,7 +7839,7 @@
       "source": "youtube_meton_foil",
       "source_label": "Honest Review Fireball 1500 & 1750 (Meton Foil, ~Feb 2026)",
       "rider": "Meton Foil reviewer",
-      "text": "Fireball 1750: AR 20.12, truly insane glide. Use Fatty Mast \u2014 essential for control. Super pitch-sensitive, NOT a beginner foil. Small movements only. World record holder Nicolai Iten uses custom smaller stab. If I choose: Fireball 1500 with Psycho Short fuse + smaller tail for best efficiency balance.",
+      "text": "Fireball 1750: AR 20.12, truly insane glide. Use Fatty Mast — essential for control. Super pitch-sensitive, NOT a beginner foil. Small movements only. World record holder Nicolai Iten uses custom smaller stab. If I choose: Fireball 1500 with Psycho Short fuse + smaller tail for best efficiency balance.",
       "foils_mentioned": [
         "Fireball 1750",
         "Fireball 1500"
@@ -7864,7 +7862,7 @@
       "source": "youtube_competitive_intel",
       "source_label": "Why I changed from Axis to Duotone (Ash, Dec 2024)",
       "rider": "Ash (UK wing rider)",
-      "text": "3 years on AXIS, progressed BSC 890 \u2192 HPS range (1050/980/930/830). ART V1 didn't work in our choppy tidal waters \u2014 aggressive stall, hard to get up, excessive front foot pressure at speed. ART Pro 1051 even worse. Spitfire 840 needed bigger waves than available locally. Eventually switched to Duotone Glide 2.0.",
+      "text": "3 years on AXIS, progressed BSC 890 → HPS range (1050/980/930/830). ART V1 didn't work in our choppy tidal waters — aggressive stall, hard to get up, excessive front foot pressure at speed. ART Pro 1051 even worse. Spitfire 840 needed bigger waves than available locally. Eventually switched to Duotone Glide 2.0.",
       "foils_mentioned": [
         "BSC 890",
         "HPS 1050",
@@ -7888,7 +7886,7 @@
       "source": "youtube_competitive_intel",
       "source_label": "Why I changed from Axis to Duotone (Ash, Dec 2024)",
       "rider": "Ash (UK wing rider)",
-      "text": "AXIS criticisms: 1) ART V1 couldn't handle choppy water. 2) Fuselage design requires expensive ultra-HM carbon. 3) Ultra-HM tapered mast at \u00a33000 \u2014 no cheaper tapered option for small winging foils. 4) Brand direction seemed to go toward DW/prone, not winging. ART V2 might have solved some issues but never tried due to appearance and cost.",
+      "text": "AXIS criticisms: 1) ART V1 couldn't handle choppy water. 2) Fuselage design requires expensive ultra-HM carbon. 3) Ultra-HM tapered mast at £3000 — no cheaper tapered option for small winging foils. 4) Brand direction seemed to go toward DW/prone, not winging. ART V2 might have solved some issues but never tried due to appearance and cost.",
       "foils_mentioned": [
         "ART V2"
       ],
@@ -7904,7 +7902,7 @@
       "source": "youtube_foil_drive_integrated",
       "source_label": "AXIS Foil Drive Integrated Mast (Jul 2024)",
       "rider": "AXIS reviewer",
-      "text": "AXIS Foil Drive Integrated Mast: uses 82cm aluminum mast with cables built inside. Works with Foil Drive Max and Slim Gen 2. Motor pod available at 15cm, 20cm, 25cm from base plate \u2014 or 75cm from base plate for efoiling/cruising. Makes deployment much faster for family use.",
+      "text": "AXIS Foil Drive Integrated Mast: uses 82cm aluminum mast with cables built inside. Works with Foil Drive Max and Slim Gen 2. Motor pod available at 15cm, 20cm, 25cm from base plate — or 75cm from base plate for efoiling/cruising. Makes deployment much faster for family use.",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "foil drive",
@@ -7918,7 +7916,7 @@
       "source": "youtube_mark_shinn",
       "source_label": "Mark Shinn on PNG 1300 V2 (Nov 2024)",
       "rider": "Mark Shinn",
-      "text": "PNG V2 1300 is my session saver. First wing into my bag on any trip. The old 1300 was too slow \u2014 V2 rides 22-25 km/h, up to 30 km/h in waves. Control is a level above \u2014 mind-of-its-own feeling is gone. Setup: 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer.",
+      "text": "PNG V2 1300 is my session saver. First wing into my bag on any trip. The old 1300 was too slow — V2 rides 22-25 km/h, up to 30 km/h in waves. Control is a level above — mind-of-its-own feeling is gone. Setup: 82cm HM Power Carbon mast, Crazy Short Advance Plus fuse, Skinny 40 stabilizer.",
       "foils_mentioned": [
         "PNG V2 1300"
       ],
@@ -7940,7 +7938,7 @@
       "source": "youtube_mark_shinn",
       "source_label": "Mark Shinn on PNG 1300 V2 (Nov 2024)",
       "rider": "Mark Shinn",
-      "text": "PNG V2 1300 vs ART Pro 1401: the 1401 has more glide and is easier to suck energy from, but it's a handful in complicated conditions. PNG V2 1300 is more versatile. When conditions are complicated \u2192 1300. When water is clear \u2192 1401. Only taking one? PNG V2 1300.",
+      "text": "PNG V2 1300 vs ART Pro 1401: the 1401 has more glide and is easier to suck energy from, but it's a handful in complicated conditions. PNG V2 1300 is more versatile. When conditions are complicated → 1300. When water is clear → 1401. Only taking one? PNG V2 1300.",
       "foils_mentioned": [
         "PNG V2 1300",
         "ART Pro 1401"
@@ -7957,7 +7955,7 @@
       "source": "youtube_luke_spitfire",
       "source_label": "Luke Atkinson introduces Spitfire (Jun 2023)",
       "rider": "Luke Atkinson",
-      "text": "Spitfire 840: incredibly sharp turns, so responsive in waves. My go-to setup: Advance Plus Crazy Short fuse + 250 Progressive rear. For more speed and downwinding: swap to Skinny rears \u2014 opens a whole new world of glide.",
+      "text": "Spitfire 840: incredibly sharp turns, so responsive in waves. My go-to setup: Advance Plus Crazy Short fuse + 250 Progressive rear. For more speed and downwinding: swap to Skinny rears — opens a whole new world of glide.",
       "foils_mentioned": [
         "Spitfire 840",
         "Spitfire 900"
@@ -7980,7 +7978,7 @@
       "source": "youtube_foil_drive_podcast",
       "source_label": "Luke Atkinson - Foil Drive Podcast (Jun 2025)",
       "rider": "Luke Atkinson",
-      "text": "For Foil Drive comp at Point Plumber: rode Axis prone board 29L/43cm (personal prone board), 90cm mast (want more clearance from pod), Foil Drive Max battery + 3-blade prop, prototype Surge-family wing ~900-1000 span. 95kg so 29L is challenging \u2014 need a dedicated FD board.",
+      "text": "For Foil Drive comp at Point Plumber: rode Axis prone board 29L/43cm (personal prone board), 90cm mast (want more clearance from pod), Foil Drive Max battery + 3-blade prop, prototype Surge-family wing ~900-1000 span. 95kg so 29L is challenging — need a dedicated FD board.",
       "foils_mentioned": [],
       "rider_weight": 95,
       "use_case": "foil drive, wave riding",
@@ -7992,9 +7990,9 @@
     {
       "id": "post_86",
       "source": "youtube_olivia_athlete",
-      "source_label": "Olivia Piana - From Athlete to AXIS Role (Boot D\u00fcsseldorf, Feb 2025)",
+      "source_label": "Olivia Piana - From Athlete to AXIS Role (Boot Düsseldorf, Feb 2025)",
       "rider": "Olivia Piana",
-      "text": "New job at AXIS: developing AXIS in Europe. First time at Boot D\u00fcsseldorf show for AXIS (last time was 10 years ago). Challenge: 60+ front wings is a lot to explain to customers. Pump foiling growing in landlocked European markets \u2014 accessible for kids, no wind dependency.",
+      "text": "New job at AXIS: developing AXIS in Europe. First time at Boot Düsseldorf show for AXIS (last time was 10 years ago). Challenge: 60+ front wings is a lot to explain to customers. Pump foiling growing in landlocked European markets — accessible for kids, no wind dependency.",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "market development",
@@ -8008,7 +8006,7 @@
       "source": "youtube_olivia_maliko",
       "source_label": "Olivia Piana DW Foiling on Maui (Jul 2025)",
       "rider": "Olivia Piana",
-      "text": "Raced Maliko on the 'new 650 axis foil' (Tempo 1020, 650cm\u00b2 area). Was a bit too big for the bumps \u2014 average speed slightly lower. Chosen for endurance/pumping through the flat section at the end. The Fireball is the top-demand AXIS product in Europe right now.",
+      "text": "Raced Maliko on the 'new 650 axis foil' (Tempo 1020, 650cm² area). Was a bit too big for the bumps — average speed slightly lower. Chosen for endurance/pumping through the flat section at the end. The Fireball is the top-demand AXIS product in Europe right now.",
       "foils_mentioned": [
         "Tempo 1020",
         "Fireball"
@@ -8025,7 +8023,7 @@
       "source": "youtube_olivia_maliko",
       "source_label": "Olivia Piana DW Foiling on Maui (Jul 2025)",
       "rider": "Olivia Piana",
-      "text": "On AXIS European market: Axis is making the best gear. It's a niche market for people who want the best stuff. We need to give a lot of attention to passionate riders who want this kind of gear. Adrian is able to make foils that work from super light wind to strong conditions \u2014 the range of conditions is incredible.",
+      "text": "On AXIS European market: Axis is making the best gear. It's a niche market for people who want the best stuff. We need to give a lot of attention to passionate riders who want this kind of gear. Adrian is able to make foils that work from super light wind to strong conditions — the range of conditions is incredible.",
       "foils_mentioned": [],
       "rider_weight": null,
       "use_case": "general",
@@ -8039,7 +8037,7 @@
       "source": "youtube_frank_fiji",
       "source_label": "Frank Boards Fiji Recap (Dec 2024)",
       "rider": "Frank Maffei (Frank Boards)",
-      "text": "Just got Fireballs \u2014 they are downwind weapons. Slick, fast, great bottom end, roll freely for high-aspect. Clear inputs teaching me to foil better. Haven't found the stall point yet. Sweet spot: Skinny 40 rear + Short (70cm) Advance Plus fuse. 25 Skinny was too cerebral \u2014 can't feel it.",
+      "text": "Just got Fireballs — they are downwind weapons. Slick, fast, great bottom end, roll freely for high-aspect. Clear inputs teaching me to foil better. Haven't found the stall point yet. Sweet spot: Skinny 40 rear + Short (70cm) Advance Plus fuse. 25 Skinny was too cerebral — can't feel it.",
       "foils_mentioned": [
         "Fireball"
       ],
@@ -8061,7 +8059,7 @@
       "source": "youtube_frank_fiji",
       "source_label": "Frank Boards Fiji Recap (Dec 2024)",
       "rider": "Frank Maffei (Frank Boards)",
-      "text": "Shimming guide: Max +0.5\u00b0 positive shim before it gets porpoisy. Max -0.25\u00b0 negative shim at 80kg+ before system pulls nose-down at speed. Negative shimming is like taking 2 clicks off a handbrake \u2014 more glide, rear wing still active for pumps/turns.",
+      "text": "Shimming guide: Max +0.5° positive shim before it gets porpoisy. Max -0.25° negative shim at 80kg+ before system pulls nose-down at speed. Negative shimming is like taking 2 clicks off a handbrake — more glide, rear wing still active for pumps/turns.",
       "foils_mentioned": [],
       "rider_weight": 82,
       "use_case": "setup tuning",
@@ -8093,7 +8091,7 @@
       "source": "youtube_olivia_png_fr",
       "source_label": "Olivia Piana on AXIS PNG V1 & V2 (French, Dec 2024)",
       "rider": "Olivia Piana",
-      "text": "PNG V2 1300 vs V1: Same slight improvement in surface (1632cm\u00b2) but the GLIDE is completely different. 'C'est une vraie \u00e9volution' (true evolution). Better turning too. For dock start: use Ultrashort fuse + 375 stab. DW beginners: move mast back or PNG will lift too early.",
+      "text": "PNG V2 1300 vs V1: Same slight improvement in surface (1632cm²) but the GLIDE is completely different. 'C'est une vraie évolution' (true evolution). Better turning too. For dock start: use Ultrashort fuse + 375 stab. DW beginners: move mast back or PNG will lift too early.",
       "foils_mentioned": [
         "PNG V2 1300",
         "PNG 1150"
@@ -8134,7 +8132,7 @@
       "source": "youtube_gamme_axis_2025_fr",
       "source_label": "Gamme AXIS 2025 - Philippe Apman (French, Dec 2024)",
       "rider": "Philippe Apman",
-      "text": "Fireball 940 is my daily DW foil at 70kg. AR 13-14, 3.7% camber. Don't compare by area! 1000 span Fireball (773cm\u00b2) performs like 900-950cm\u00b2 equivalence. Rear wing: Skinny 30 with Short 70cm fuse. Can go to 25 but that's extreme \u2014 must add +0.25\u00b0 positive shim.",
+      "text": "Fireball 940 is my daily DW foil at 70kg. AR 13-14, 3.7% camber. Don't compare by area! 1000 span Fireball (773cm²) performs like 900-950cm² equivalence. Rear wing: Skinny 30 with Short 70cm fuse. Can go to 25 but that's extreme — must add +0.25° positive shim.",
       "foils_mentioned": [
         "Fireball 940",
         "Fireball 1000",
@@ -8158,7 +8156,7 @@
       "source": "youtube_yvon_pngv2",
       "source_label": "Yvon Labarthe - PNG V2 1200 & 1400 Review (French, Apr 2025)",
       "rider": "Yvon Labarthe",
-      "text": "PNG V2 1200 (120cm span): Perfect for complete beginners 85-120kg. Uses BLACK fuselage. Very beginner, lots of lift, very maneuverable. If under 85kg with experience \u2192 PNG V2 1300 is better. Heavier riders (95-100kg+) make it faster = more fun.",
+      "text": "PNG V2 1200 (120cm span): Perfect for complete beginners 85-120kg. Uses BLACK fuselage. Very beginner, lots of lift, very maneuverable. If under 85kg with experience → PNG V2 1300 is better. Heavier riders (95-100kg+) make it faster = more fun.",
       "foils_mentioned": [
         "PNG V2 1200"
       ],
@@ -8174,7 +8172,7 @@
       "source": "youtube_yvon_pngv2",
       "source_label": "Yvon Labarthe - PNG V2 1200 & 1400 Review (French, Apr 2025)",
       "rider": "Yvon Labarthe",
-      "text": "PNG V2 1400 \u2014 huge surprise! (140cm span, cruises 13.8-13.9 km/h). With Fireball 1350 in winter I last 3 minutes. With the 1400 \u2192 7-8 minutes below 160 BPM. Recovers the ease-of-use from PNG V1 1300 that PNG V2 1300 lost. Patrick at 112kg gets 15-16 km/h on it.",
+      "text": "PNG V2 1400 — huge surprise! (140cm span, cruises 13.8-13.9 km/h). With Fireball 1350 in winter I last 3 minutes. With the 1400 → 7-8 minutes below 160 BPM. Recovers the ease-of-use from PNG V1 1300 that PNG V2 1300 lost. Patrick at 112kg gets 15-16 km/h on it.",
       "foils_mentioned": [
         "PNG V2 1400",
         "Fireball 1350"
@@ -8185,438 +8183,6 @@
       "type": "expert",
       "date": "2025-04-01T00:00:00",
       "source_url": "https://www.youtube.com/watch?v=AqnKQR3WjYo"
-    },
-    {
-      "id": "scan_2026_04_06_AM_001",
-      "poster": "David Draffan",
-      "timestamp": "2026-04-05T15:00:00",
-      "age_at_capture": "15h",
-      "text": "Is the surge a big improvement on the Spitfire840 for bump and jump winging. Is the 830 or 890 the best size to replace the 840? Other wings are Spitfire 720, ART v2 819 and Fireball 1000.",
-      "discipline": "winging",
-      "foils_mentioned": [
-        "Surge 830",
-        "Surge 890",
-        "Spitfire 840",
-        "Spitfire 720",
-        "ART v2 819",
-        "Fireball 1000"
-      ],
-      "reactions": 7,
-      "comment_count": 8,
-      "sentiment": "neutral/curious",
-      "comments": [
-        {
-          "author": "Stephen Westwood",
-          "role": "Top contributor",
-          "text": "The 830 Surge is a direct replacement of the 840 Spitfire in my experience.",
-          "reactions": 5
-        },
-        {
-          "author": "Mick Evans",
-          "text": "I have surge and art V2 and SF. I enjoy the surge but in a recent wave session for me the best foil for that session was a Art V2, my younger son doesn't like the surge at all and continues to charge on our 840 960 SF.",
-          "reactions": 3
-        },
-        {
-          "author": "Harris Chang",
-          "text": "Went from sf840 to surge 830 winging waves. I feel like it's less lift. And less drag. Because it's less drag i also don't get as much drive from waves. I feel like it's a little bit better all around than the sf. But just slightly. Sometimes I consider going back to the sf.",
-          "reactions": 1
-        },
-        {
-          "author": "Chris Pelly",
-          "text": "Surge is better than the spitfire at everything",
-          "reactions": 1
-        },
-        {
-          "author": "Robby Robby",
-          "text": "I don't see the point in changing your SF for bump and jump.",
-          "reactions": 0
-        },
-        {
-          "author": "Dan Cleary",
-          "text": "Surge 830 is an exceptional foil. Definitely improved from previous axis foils. Surfs, pumps, isn't just hype.",
-          "reactions": 0
-        },
-        {
-          "author": "Perry Hughes",
-          "text": "Surge 830 replaced my SF 840, pumps much better and is faster, but the SF 840 is still great foil, surge is 20% better at most things in my opinion.",
-          "reactions": 0
-        },
-        {
-          "author": "Nathan Coffman",
-          "text": "Yes 890 Love the 830 too for head high or bigger",
-          "reactions": 0
-        }
-      ],
-      "tags": [
-        "surge",
-        "spitfire",
-        "winging",
-        "bump-and-jump",
-        "product-comparison"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_002",
-      "poster": "Louis Hulot",
-      "timestamp": "2026-04-04T22:00:00",
-      "age_at_capture": "1 day",
-      "text": "My second-hand 1201 feels rough and performs much worse than an identical setup I tested. The foil surface feels quite harsh to the touch. Any advice on how to polish it and what to use?",
-      "discipline": "unknown",
-      "foils_mentioned": [
-        "1201"
-      ],
-      "reactions": 2,
-      "comment_count": 2,
-      "sentiment": "negative/concerned",
-      "scam_alert": true,
-      "scam_alert_detail": "Top contributor Charles Bessard advises checking serial number - 'There are unfortunately some bad copies circulating'. Henry Clirk pointed to John lucas efoil page as a known scam source.",
-      "comments": [
-        {
-          "author": "Charles Bessard",
-          "role": "Top contributor",
-          "text": "Maybe check with axis the serial number. There are unfortunately some bad copies circulating",
-          "reactions": 0
-        },
-        {
-          "author": "Henry Clirk",
-          "text": "Check [John lucas efoil]",
-          "reactions": 0,
-          "note": "Links to known suspected counterfeit vendor"
-        }
-      ],
-      "tags": [
-        "counterfeit",
-        "1201",
-        "surface-quality",
-        "scam-alert",
-        "second-hand"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_003",
-      "poster": "Darren Zielonka",
-      "timestamp": "2026-04-05T06:00:00",
-      "age_at_capture": "1 day",
-      "text": "Foot straps on a tray 110. What are people using? Does the tray have specific straps different from the Wingfoil boards?",
-      "discipline": "tray/sup-foil",
-      "foils_mentioned": [
-        "Tray 110"
-      ],
-      "reactions": 0,
-      "comment_count": 7,
-      "sentiment": "neutral/curious",
-      "comments": [
-        {
-          "author": "Jon Verhoek",
-          "role": "Top contributor",
-          "text": "Where are your plastic inserts?",
-          "reactions": 0
-        },
-        {
-          "author": "John Richard Valentine",
-          "text": "I used 2 single straps along the centreline on the same model board",
-          "reactions": 0
-        }
-      ],
-      "tags": [
-        "tray-110",
-        "foot-straps",
-        "setup",
-        "accessories"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_004",
-      "poster": "Henry Clirk",
-      "timestamp": "2026-04-05T14:00:00",
-      "age_at_capture": "16h",
-      "text": "AK Phazer 90l, ideal learner wingboard for anyone ~80kg or less. A shape well ahead of its time which leans towards a modern mid length with efficient take off. [Board for sale post]",
-      "discipline": "winging",
-      "foils_mentioned": [
-        "AK Phazer 90l"
-      ],
-      "rider_weight": "~80kg or less",
-      "reactions": 0,
-      "comment_count": 0,
-      "sentiment": "neutral/selling",
-      "tags": [
-        "board-sale",
-        "AK-Phazer",
-        "learner-board",
-        "winging"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_005",
-      "poster": "Jimmy Jam Foils",
-      "timestamp": "2026-04-05T13:00:00",
-      "age_at_capture": "17h",
-      "text": "Didn't need it but had a bad case of FOMO not having it. The addiction is real. Might start the first foil rehab clinic once summer ends. Integrated mast is \ud83d\udd25\ud83d\udd25\ud83d\udd25",
-      "discipline": "general",
-      "foils_mentioned": [
-        "Integrated mast"
-      ],
-      "reactions": 8,
-      "comment_count": 1,
-      "sentiment": "positive/excited",
-      "comments": [
-        {
-          "author": "Josh McClure",
-          "text": "Start an AA class - Axis Addicts \ud83d\ude02",
-          "reactions": 1
-        }
-      ],
-      "tags": [
-        "integrated-mast",
-        "GX800-pro-carbon",
-        "stoke",
-        "community"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_006",
-      "poster": "Lucas Varain",
-      "timestamp": "2026-04-04T22:00:00",
-      "age_at_capture": "1 day",
-      "text": "Some spring riding! 75 mast Spitfire 780 Crazy short fuse",
-      "discipline": "wakefoiling",
-      "foils_mentioned": [
-        "75 mast",
-        "Spitfire 780"
-      ],
-      "reactions": 30,
-      "comment_count": 6,
-      "sentiment": "positive",
-      "comments": [
-        {
-          "author": "Matthew Ross",
-          "role": "All-star contributor",
-          "text": "Can't believe you're on a SF 780. I can't ride anything below a 900 on wake. I weigh 215.",
-          "rider_weight_lbs": 215,
-          "reactions": 2
-        },
-        {
-          "author": "Jimmy Jam Foils",
-          "role": "Group expert",
-          "text": "Let's ride next weekend \u2026 get a group together",
-          "reactions": 2
-        }
-      ],
-      "tags": [
-        "spitfire-780",
-        "75-mast",
-        "wakefoiling",
-        "spring-riding",
-        "high-engagement"
-      ]
-    },
-    {
-      "id": "scan_2026_04_06_AM_007",
-      "poster": "Jimmy Jam Foils",
-      "timestamp": "2026-04-05T12:00:00",
-      "age_at_capture": "18h",
-      "text": "One of my last sessions with this mast. Stoked on the custom board I shaped with Grant at 270. Hit almost all the right dimensions on this one. Surge 1010 is \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
-      "discipline": "surffoiling",
-      "foils_mentioned": [
-        "Surge 1010"
-      ],
-      "board_volume": "270L custom",
-      "reactions": 3,
-      "comment_count": 0,
-      "sentiment": "positive",
-      "tags": [
-        "surge-1010",
-        "custom-board",
-        "shaping",
-        "transition-mast"
-      ]
-    },
-    {
-      "id": "post_fb_20260406_1801_louis_hulot_fireball1250",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Louis Hulot",
-      "text": "Gear Advice 1201 vs FB ??? Considering switching from AP 1201 to Fireball for pumping + wing + surf in small waves/light wind. Comment consensus: Fireball 1250, often with tiny stab / Skinny 25 for better turn and pump.",
-      "foils_mentioned": [
-        "AP 1201",
-        "FIREBALL 1250",
-        "FIREBALL 1070",
-        "FIREBALL 1160",
-        "FIREBALL 1350",
-        "FIREBALL 1500"
-      ],
-      "rider_weight": null,
-      "use_case": "pump",
-      "sentiment": "positive",
-      "type": "community",
-      "date": "2026-04-06T18:43:00-07:00",
-      "comments_summary": [
-        {
-          "name": "Liam Walton",
-          "text": "1250 is the ticket, stable in turbulence, still pumps well",
-          "reactions": 2
-        },
-        {
-          "name": "Tim VR",
-          "text": "1250 + skinny 25/tiny stab turns and pumps well; owns FB 1070/1160/1250/1350/1500",
-          "reactions": 2
-        },
-        {
-          "name": "Mickie Williams",
-          "text": "Got 1250 FB, loves it, also recommends tiny stab",
-          "reactions": 0
-        },
-        {
-          "name": "Peter J Lataille",
-          "text": "FB1250 over AP1201 for speed, turning, glide, pumping",
-          "reactions": 0
-        }
-      ]
-    },
-    {
-      "id": "post_97",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Aaron Pilon / Jimmy Jam Foils",
-      "text": "Fusion vs Max for downwind + eFoil + small surf: Jimmy reports Fusion has more power/runtime and broader range but about +8 lb; Max lighter with shorter runtime for nearby breaks.",
-      "foils_mentioned": [
-        "Fusion",
-        "Max"
-      ],
-      "rider_weight": null,
-      "use_case": "downwind/efoil/surf",
-      "sentiment": "positive",
-      "type": "community",
-      "date": "2026-04-07T06:02:00-07:00"
-    },
-    {
-      "id": "post_98",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Paul Schnetker",
-      "text": "Intermediate 85kg rider on Fliteboard L2 (40 lb) asks for AXIS eFoil surf setup. Currently likes Surge 950 with adapter; using Fliteboard 245 rear wing; evaluating AXIS 320 Surf Skinny with AXIS rear-wing adapter.",
-      "foils_mentioned": [
-        "Surge 950",
-        "320 Surf Skinny",
-        "Fliteboard 245 rear wing"
-      ],
-      "rider_weight": 185,
-      "use_case": "efoil surf",
-      "sentiment": "neutral",
-      "type": "community",
-      "date": "2026-04-07T06:02:00-07:00"
-    },
-    {
-      "id": "post_99",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Paul Schnetker",
-      "text": "Unanswered follow-up at scan time: asks if AXIS 320 Surf Skinny is sufficient rear wing pairing for Surge 950 eFoil setup, versus larger alternative.",
-      "foils_mentioned": [
-        "Surge 950",
-        "320 Surf Skinny"
-      ],
-      "rider_weight": 185,
-      "use_case": "efoil surf",
-      "sentiment": "question",
-      "type": "community",
-      "date": "2026-04-07T06:02:00-07:00"
-    },
-    {
-      "id": "post_fb_20260407_1807_garrett_safety",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Garrett Peterson",
-      "text": "Yikes, could have been bad. Wakefoil near-miss around outboard prop. Reply confirms 21ft Chaparral H20 Sport with 250hp Alpha One inboard/outboard.",
-      "foils_mentioned": [],
-      "rider_weight": null,
-      "use_case": "wake",
-      "sentiment": "neutral",
-      "type": "community",
-      "date": "2026-04-07T18:07:42-07:00"
-    },
-    {
-      "id": "post_fb_20260407_1807_bill_tanz_sale",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Bill Tanz",
-      "text": "Selling near-new AXIS setup (~10 freshwater days): Dwarfcraft V2 100cm, PNG 910, rear 460 V2 Pump, Short Red fuselage, 75cm alu mast, plus unopened PNG 1150. Buyer asks include shipping to Bend and standalone 1150 pricing.",
-      "foils_mentioned": [
-        "PNG 910",
-        "PNG 1150",
-        "460 V2 Pump",
-        "Short Red Fuselage"
-      ],
-      "rider_weight": null,
-      "use_case": "buy_sell",
-      "sentiment": "neutral",
-      "type": "community",
-      "date": "2026-04-07T18:07:42-07:00"
-    },
-    {
-      "id": "post_2026_04_10_0601_chris_conrath_bolt_length",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Chris Conrath",
-      "text": "Advance+ fuse bolt-length question: post asks if 32mm M8 bolts can be used on non+ black fuse despite carbon mast marking 30mm max; rider says loose fit did not appear to bottom out.",
-      "foils_mentioned": [
-        "Advance+ fuse",
-        "Black fuse",
-        "Carbon mast"
-      ],
-      "rider_weight": null,
-      "use_case": "hardware setup",
-      "sentiment": "neutral",
-      "type": "community",
-      "date": "2026-04-10T06:01:00-07:00",
-      "reactions": 2,
-      "comments_count": 4,
-      "scan_quality": "partial_capture_comments_not_fully_expanded"
-    },
-    {
-      "id": "scan_failure_2026_04_10_0601PT",
-      "source": "axis_scan_system",
-      "source_label": "AXIS FB scrape cron",
-      "rider": "system",
-      "text": "Scan failed to complete due browser evaluate timeout; official page 24h comments/questions could not be fully captured. See archive fb-scrape-2026-04-10-0601PT.json.",
-      "foils_mentioned": [],
-      "rider_weight": null,
-      "use_case": "meta",
-      "sentiment": "neutral",
-      "type": "scan_failure",
-      "date": "2026-04-10T06:10:22-07:00"
-    },
-    {
-      "id": "post_2026_04_10_1800_jimmy_jam_surge1010_foildrive",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "Jimmy Jam Foils",
-      "text": "Surge 1010 with Foildrive ... allowing rider to score on 1-2ft non-breaking surf days.",
-      "foils_mentioned": [
-        "Surge 1010",
-        "Foildrive"
-      ],
-      "rider_weight": null,
-      "use_case": "foildrive surf",
-      "sentiment": "positive",
-      "type": "community",
-      "date": "2026-04-10T18:00:00-07:00",
-      "reactions": 4,
-      "comments_count": 0,
-      "post_id": "1576717120093240"
-    },
-    {
-      "id": "scan_failure_2026_04_10_1800PT_official_timestamp_obfuscation",
-      "source": "axis_scan_system",
-      "source_label": "AXIS FB scrape cron",
-      "rider": "system",
-      "text": "Official AXIS Foils page scan partially limited: post timestamps rendered as obfuscated strings in automation view; <24h verification not fully reliable. Archive: fb-scrape-2026-04-10-1800PT.json",
-      "foils_mentioned": [],
-      "rider_weight": null,
-      "use_case": "meta",
-      "sentiment": "neutral",
-      "type": "scan_failure",
-      "date": "2026-04-10T18:00:00-07:00"
     }
   ]
 }
