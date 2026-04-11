@@ -1,0 +1,37 @@
+{
+  "scan": {
+    "job_id": "ac9681df-5abb-4ac1-b6f6-5dd34f28b948",
+    "started_at_local": "2026-04-11T06:01:00-07:00",
+    "started_at_utc": "2026-04-11T13:01:00Z",
+    "completed_at_local": "2026-04-11T06:19:00-07:00",
+    "status": "failed_blocked"
+  },
+  "targets": {
+    "group": "https://www.facebook.com/groups/axisfoilriders/",
+    "official_page": "https://www.facebook.com/axisfoils"
+  },
+  "captured_group_posts": [],
+  "official_page_posts": [],
+  "unanswered_questions": [],
+  "data_updates": {
+    "facebook_riders_feedback_json": "not_updated",
+    "community_setups_json": "not_updated"
+  },
+  "failures": [
+    {
+      "stage": "browser.start profile=chrome",
+      "error": "Chrome CDP websocket for profile \"chrome\" is not reachable after start.",
+      "impact": "Could not open authenticated Facebook session via browser tool."
+    },
+    {
+      "stage": "browser.open host navigation",
+      "error": "Navigation blocked by strict browser SSRF policy requiring IP-literal URL for hostname navigation.",
+      "impact": "Could not navigate to facebook.com URLs with the browser tool."
+    },
+    {
+      "stage": "fallback attempts",
+      "error": "No compliant browser-tool path available for authenticated group/page scraping in this run.",
+      "impact": "Unable to execute required post-by-post expansion (See more, comments, replies)."
+    }
+  ]
+}
