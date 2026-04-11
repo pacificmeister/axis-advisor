@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 425,
+    "total_entries": 427,
     "sources": {
-      "facebook_groups": 106,
+      "facebook_groups": 107,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,9 +13,9 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-10T06:10:22-07:00",
-    "last_scan": "2026-04-10T06:10:22-07:00",
-    "total_posts": 425
+    "last_updated": "2026-04-10T18:00:00-07:00",
+    "last_scan": "2026-04-10T18:00:00-07:00",
+    "total_posts": 427
   },
   "posts": [
     {
@@ -8585,6 +8585,38 @@
       "sentiment": "neutral",
       "type": "scan_failure",
       "date": "2026-04-10T06:10:22-07:00"
+    },
+    {
+      "id": "post_2026_04_10_1800_jimmy_jam_surge1010_foildrive",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (10.6K members)",
+      "rider": "Jimmy Jam Foils",
+      "text": "Surge 1010 with Foildrive ... allowing rider to score on 1-2ft non-breaking surf days.",
+      "foils_mentioned": [
+        "Surge 1010",
+        "Foildrive"
+      ],
+      "rider_weight": null,
+      "use_case": "foildrive surf",
+      "sentiment": "positive",
+      "type": "community",
+      "date": "2026-04-10T18:00:00-07:00",
+      "reactions": 4,
+      "comments_count": 0,
+      "post_id": "1576717120093240"
+    },
+    {
+      "id": "scan_failure_2026_04_10_1800PT_official_timestamp_obfuscation",
+      "source": "axis_scan_system",
+      "source_label": "AXIS FB scrape cron",
+      "rider": "system",
+      "text": "Official AXIS Foils page scan partially limited: post timestamps rendered as obfuscated strings in automation view; <24h verification not fully reliable. Archive: fb-scrape-2026-04-10-1800PT.json",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "meta",
+      "sentiment": "neutral",
+      "type": "scan_failure",
+      "date": "2026-04-10T18:00:00-07:00"
     }
   ]
 }

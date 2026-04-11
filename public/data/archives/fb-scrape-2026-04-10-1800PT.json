@@ -1,0 +1,64 @@
+{
+  "scan": {
+    "id": "axis_fb_scrape_2026_04_10_1800PT",
+    "captured_at": "2026-04-10T18:00:00-07:00",
+    "timezone": "America/Los_Angeles",
+    "window": {
+      "riders_group_hours": 12,
+      "official_page_hours": 24
+    },
+    "browser_profile": "chrome",
+    "sources": [
+      "https://www.facebook.com/groups/axisfoilriders/",
+      "https://www.facebook.com/axisfoils"
+    ]
+  },
+  "riders_group": {
+    "posts_last_12h": [
+      {
+        "post_id": "1576717120093240",
+        "poster": "Jimmy Jam Foils",
+        "timestamp_local": "Friday, April 10, 2026 at 9:24 AM",
+        "age_at_capture": "8h",
+        "text": "Surge 1010 with Foildrive \u2026 allowing u to still score on those 1~2ft non breaking surf days",
+        "reactions": {
+          "total": 4,
+          "breakdown": {
+            "like": 4
+          }
+        },
+        "comments": [],
+        "foils_mentioned": [
+          "Surge 1010",
+          "Foildrive"
+        ],
+        "board_mast_mentioned": [],
+        "rider_weight": null,
+        "discipline": "foildrive surf",
+        "sentiment": "positive"
+      }
+    ],
+    "boundary_check_older_posts_seen": [
+      {
+        "poster": "Chris Conrath",
+        "age_at_capture": "15h",
+        "outside_window": true,
+        "note": "Advance+ fuse bolt-length thread remains active but outside 12h window"
+      }
+    ]
+  },
+  "official_page": {
+    "posts_last_24h": [],
+    "unanswered_questions": [],
+    "notes": [
+      "Visible AXIS Foils posts/comments on capture were older (2w/8w indicators), not within last 24h.",
+      "Facebook timestamp rendering was obfuscated in automation view; no additional verifiable <24h post timestamps were exposed in snapshot output."
+    ],
+    "scan_limitations": [
+      "Could not extract clean timestamp metadata for all visible page posts due Facebook obfuscated/encoded timestamp text in automated DOM snapshots."
+    ]
+  },
+  "failures": [
+    "Official page 24h verification partially blocked by obfuscated timestamps; reported explicitly and preserved in archive."
+  ]
+}

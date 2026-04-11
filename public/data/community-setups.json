@@ -4,11 +4,11 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-04-10T06:10:22-07:00",
-    "total_riders": 174,
-    "lastUpdated": "2026-04-09T18:03:58-07:00",
-    "totalRiders": 174,
-    "updated": "2026-04-10T06:10:22-07:00"
+    "last_updated": "2026-04-10T18:00:00-07:00",
+    "total_riders": 175,
+    "lastUpdated": "2026-04-10T18:00:00-07:00",
+    "totalRiders": 175,
+    "updated": "2026-04-10T18:00:00-07:00"
   },
   "riders": [
     {
@@ -4664,6 +4664,24 @@
       "notes": "Question-based setup capture from latest visible post. Full thread expansion failed due browser timeout.",
       "open_question": "Safe bolt length on non+ black fuse when mast is marked 30mm max.",
       "scan_quality": "partial"
+    },
+    {
+      "id": "setup_2026_04_10_1800_jimmy_jam_surge1010_foildrive_smallsurf",
+      "source": "FB post axisfoilriders 2026-04-10 18:00",
+      "date": "2026-04-10",
+      "rider_name": "Jimmy Jam Foils",
+      "discipline": [
+        "foildrive",
+        "surf"
+      ],
+      "rider_weight_kg": null,
+      "current_setup": {
+        "front_wing": "Surge 1010",
+        "assist": "Foildrive",
+        "conditions": "1-2ft non-breaking surf"
+      },
+      "notes": "Positive field report: setup still scores on very small non-breaking surf days.",
+      "open_question": null
     }
   ],
   "aggregations": {
