@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "scraped_at": "2026-04-12T13:10:20.217Z",
+    "method": "puppeteer-cdp-mbasic",
+    "cdpPort": 18793,
+    "window_group_hours": 12,
+    "window_page_hours": 24
+  },
+  "failures": [],
+  "riders_group": {
+    "url": "https://mbasic.facebook.com/groups/axisfoilriders/?sorting_setting=CHRONOLOGICAL",
+    "posts": []
+  },
+  "official_page": {
+    "url": "https://mbasic.facebook.com/axisfoils",
+    "posts": [],
+    "unanswered_questions": []
+  },
+  "notes": [
+    "No group posts <=12h detected from accessible feed snapshot.",
+    "No official page posts <=24h detected from accessible feed snapshot."
+  ]
+}
