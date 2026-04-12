@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 410,
+    "total_entries": 413,
     "sources": {
       "facebook_groups": 101,
       "expert_reviews": 17,
@@ -13,9 +13,51 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-03-24T08:26:51Z"
+    "last_updated": "2026-04-12T01:06:13Z"
   },
   "posts": [
+    {
+      "id": "scan_2026_04_12_1",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (CDP scan)",
+      "rider": "Chris Conrath",
+      "text": "Chris Conrath\nAuthor\nThanks Adrian, will it cause an issue if I keep the 32 mm in and use them on the non advanced fuse?\n1d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "negative",
+      "type": "community",
+      "date": "2026-04-12T01:06:13Z",
+      "scan_archive": "fb-scan-2026-04-12T01-06-13.json"
+    },
+    {
+      "id": "scan_2026_04_12_2",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (CDP scan)",
+      "rider": "Stephen Hewitt",
+      "text": "Stephen Hewitt\nHi dude , What foil set up u riding ? , surge and progressive tail?\n4d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": null,
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-04-12T01:06:13Z",
+      "scan_archive": "fb-scan-2026-04-12T01-06-13.json"
+    },
+    {
+      "id": "scan_2026_04_12_3",
+      "source": "facebook_axis_riders",
+      "source_label": "AXIS Foil Riders (CDP scan)",
+      "rider": "Aaron Pilon",
+      "text": "Aaron Pilon\nFusion? Or Max? What do you recommend for downwinding, some eFoiling and small surf?\n4d\nLike\nReply",
+      "foils_mentioned": [],
+      "rider_weight": null,
+      "use_case": "downwind",
+      "sentiment": "neutral",
+      "type": "community",
+      "date": "2026-04-12T01:06:13Z",
+      "scan_archive": "fb-scan-2026-04-12T01-06-13.json"
+    },
     {
       "id": "post_0",
       "source": "facebook_axis_riders",

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "scraped_at": "2026-04-12T01:06:13.999Z",
+    "method": "puppeteer-cdp",
+    "cdpPort": 18793
+  },
+  "failures": [],
+  "riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "captured_posts": 6,
+    "posts": [
+      {
+        "source": "axis_riders_group",
+        "index": 0,
+        "text": "Adrian Roper\nGroup expert\nAll-star contributor\nYeah. Fuselage slightly thicker so better with 32mm bolts. Mast will be fine\n1d\nLike\nReply\n4",
+        "poster": "Adrian Roper",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1576487010116251/?comment_id=1576488623449423&__cft__[0]=AZbb-BfOB7mkiBSa2M5sY3zJm2FK6XgmUy31_HE9kz6snm5zbOfHtvTOA1Z3dd7hL5-tilpE5kEQGYMYzeig2D_k9hdkMDDvKpwtuIabNxD5NiwDXawqM1RLyPSgNXJUlGftcuqu5z3PPEhz6ra4eDYbqwZYXQFueA-DkzDusZcdmL6o8eSCySDSbQPVVLRie9va_omjUqYbFSsnvEyce_oI&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "neutral"
+      },
+      {
+        "source": "axis_riders_group",
+        "index": 1,
+        "text": "Chris Conrath\nAuthor\nThanks Adrian, will it cause an issue if I keep the 32 mm in and use them on the non advanced fuse?\n1d\nLike\nReply",
+        "poster": "Chris Conrath",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1576487010116251/?comment_id=1576493160115636&__cft__[0]=AZbb-BfOB7mkiBSa2M5sY3zJm2FK6XgmUy31_HE9kz6snm5zbOfHtvTOA1Z3dd7hL5-tilpE5kEQGYMYzeig2D_k9hdkMDDvKpwtuIabNxD5NiwDXawqM1RLyPSgNXJUlGftcuqu5z3PPEhz6ra4eDYbqwZYXQFueA-DkzDusZcdmL6o8eSCySDSbQPVVLRie9va_omjUqYbFSsnvEyce_oI&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "negative"
+      },
+      {
+        "source": "axis_riders_group",
+        "index": 2,
+        "text": "Stephen Hewitt\nHi dude , What foil set up u riding ? , surge and progressive tail?\n4d\nLike\nReply",
+        "poster": "Stephen Hewitt",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1574128890352063/?comment_id=1574490090315943&__cft__[0]=AZYp-FJbjk_rVyj23VDTyqXqOwiizl_ucht_1kPM4AOgiODSjZzcKMdH6eetaKGWlUkekfIvpeD5ukF9hEklpm12UCEcaScWRKs9EA5I0aDsSO9UXM-rgoJ2U9cwTxK6Ov89Wahf_xM9j7rhgsWPrfO0S7IvS5wB9qqhbxf6GzYv1-3sIzfcZ1Rs0fHsHM0ZXPRwVKiXIERM_riEBqd3JXSW&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "neutral"
+      },
+      {
+        "source": "axis_riders_group",
+        "index": 3,
+        "text": "Aaron Pilon\nFusion? Or Max? What do you recommend for downwinding, some eFoiling and small surf?\n4d\nLike\nReply",
+        "poster": "Aaron Pilon",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1574128890352063/?comment_id=1574404263657859&__cft__[0]=AZYp-FJbjk_rVyj23VDTyqXqOwiizl_ucht_1kPM4AOgiODSjZzcKMdH6eetaKGWlUkekfIvpeD5ukF9hEklpm12UCEcaScWRKs9EA5I0aDsSO9UXM-rgoJ2U9cwTxK6Ov89Wahf_xM9j7rhgsWPrfO0S7IvS5wB9qqhbxf6GzYv1-3sIzfcZ1Rs0fHsHM0ZXPRwVKiXIERM_riEBqd3JXSW&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": "downwind",
+        "sentiment": "neutral"
+      },
+      {
+        "source": "axis_riders_group",
+        "index": 4,
+        "text": "John Novembre\nI have a friend who might be interested in your Axis setup. Do you have a ballpark price range and are you willing to package it up for shipping? He's in Bend, Oregon.\n4d\nLike\nReply",
+        "poster": "John Novembre",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1574497553648530/?comment_id=1574700710294881&__cft__[0]=AZbFifzr2bz8hNKGxbNC5KOrlDJcgQdbgGs0fvGnsTg8eJ6-CCMFYCaaPsPQy1EKTx59-PGQTK7_DCtbucwfaLi2B-UCVIKiNXRhbjm-hGGSvDU1H2gruiuKVa9pAEGFgbEMpIdrV2V0Orh6My_x95iiEtcFCmke_0qbfikP8NKmg6K_1rxosJ9GaHeos63Z4N950F9OazVWKkYjo2wT7zvR&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "neutral"
+      },
+      {
+        "source": "axis_riders_group",
+        "index": 5,
+        "text": "Eric Dornbush\nThere’s Facebook groups dedicated to buy/sell axis gear. Depends what country you’re in.\nTake some pictures of the foil without your bike in it. … See more\n4d\nLike\nReply\n1",
+        "poster": "Eric Dornbush",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/posts/1574497553648530/?comment_id=1574513346980284&__cft__[0]=AZbFifzr2bz8hNKGxbNC5KOrlDJcgQdbgGs0fvGnsTg8eJ6-CCMFYCaaPsPQy1EKTx59-PGQTK7_DCtbucwfaLi2B-UCVIKiNXRhbjm-hGGSvDU1H2gruiuKVa9pAEGFgbEMpIdrV2V0Orh6My_x95iiEtcFCmke_0qbfikP8NKmg6K_1rxosJ9GaHeos63Z4N950F9OazVWKkYjo2wT7zvR&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "captured_posts": 1,
+    "unanswered_candidates": 1,
+    "posts": [
+      {
+        "source": "axis_official_page",
+        "index": 1,
+        "text": "Max Toft\nHi AXIS, any chance of a reply to either my emails or Facebook messages?\n12w\nLike\nReply",
+        "poster": "Max Toft",
+        "permalink": "https://www.facebook.com/axisfoils/posts/pfbid02mu6gZbcJru8j8uF8S5q4DHU6KowBzSnJVpV8yaNucrBm8bYWktJFz5a9jcjbgbLhl?comment_id=1416622790098732&__cft__[0]=AZZRiTqScqBv-pm6WejW8QAK-L6uL66phjH1QCw5h7dgcTWHhhHKgnctSen4qfae-7o7YYA0S-H5YnmadIcta3iRydDZiMctVBGeEaod1aAPHfwLtTK5RpGQmHFY_jkBo58TPPGp7VifNxQZB6Cd9HVePfLctT6av4EzyDwmXDKhI3dqpnGuqZFENUA_d0kHUyU&__tn__=R-R",
+        "reactions": [
+          "Like"
+        ],
+        "foils_mentioned": [],
+        "rider_weight_kg": null,
+        "discipline": null,
+        "sentiment": "neutral"
+      }
+    ]
+  }
+}
