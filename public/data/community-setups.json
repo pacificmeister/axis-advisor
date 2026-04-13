@@ -4,17 +4,19 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-04-12T13:10:20Z",
+    "last_updated": "2026-04-13T01:05:14Z",
     "total_riders": 176,
     "lastUpdated": "2026-04-10T18:00:00-07:00",
     "totalRiders": 176,
-    "updated": "2026-04-12T13:10:20Z",
+    "updated": "2026-04-13T01:05:14Z",
     "latest_scan": {
-      "timestamp": "2026-04-12T13:10:20Z",
-      "archive": "public/data/archives/fb-scan-2026-04-12T13-10-20.json",
+      "timestamp": "2026-04-13T01:05:14Z",
+      "archive": "public/data/archives/fb-scan-2026-04-13T01-05-14.json",
       "window_hours_group": 12,
+      "window_hours_official": 24,
       "new_setups_added": 0,
-      "note": "No new rider setups in last-12h window were detected from accessible feed snapshot."
+      "browser_tool_profile": "chrome",
+      "note": "Browser tool with profile=chrome was attempted but blocked by CDP start/SSRF policy; executed via attached Chrome CDP fallback. No posts/comments in requested <=12h (group) and <=24h (official page) windows were detectable in accessible snapshot."
     }
   },
   "riders": [
@@ -5210,9 +5212,18 @@
     }
   ],
   "meta": {
-    "last_updated": "2026-04-10T06:10:22-07:00",
+    "last_updated": "2026-04-13T01:05:14Z",
     "total_entries": 174,
-    "updated": "2026-04-10T06:10:22-07:00"
+    "updated": "2026-04-13T01:05:14Z",
+    "latest_scan": {
+      "timestamp": "2026-04-13T01:05:14Z",
+      "archive": "public/data/archives/fb-scan-2026-04-13T01-05-14.json",
+      "window_hours_group": 12,
+      "window_hours_official": 24,
+      "new_setups_added": 0,
+      "browser_tool_profile": "chrome",
+      "note": "Browser tool with profile=chrome was attempted but blocked by CDP start/SSRF policy; executed via attached Chrome CDP fallback. No posts/comments in requested <=12h (group) and <=24h (official page) windows were detectable in accessible snapshot."
+    }
   },
   "new_setups_2026_03_31_PM": [
     {

@@ -13,13 +13,15 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-12T13:10:20Z",
+    "last_updated": "2026-04-13T01:05:14Z",
     "latest_scan": {
-      "timestamp": "2026-04-12T13:10:20Z",
-      "archive": "public/data/archives/fb-scan-2026-04-12T13-10-20.json",
+      "timestamp": "2026-04-13T01:05:14Z",
+      "archive": "public/data/archives/fb-scan-2026-04-13T01-05-14.json",
       "window_hours_group": 12,
+      "window_hours_official": 24,
       "new_posts_captured": 0,
-      "note": "No AXIS Riders posts <=12h were detectable in accessible chronological feed snapshot."
+      "browser_tool_profile": "chrome",
+      "note": "Browser tool with profile=chrome was attempted but blocked by CDP start/SSRF policy; executed via attached Chrome CDP fallback. No posts/comments in requested <=12h (group) and <=24h (official page) windows were detectable in accessible snapshot."
     }
   },
   "posts": [
