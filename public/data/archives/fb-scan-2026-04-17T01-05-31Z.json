@@ -1,0 +1,54 @@
+{
+  "scan": {
+    "timestamp": "2026-04-17T01:05:31Z",
+    "timezone": "America/Los_Angeles",
+    "window_hours_group": 12,
+    "window_hours_official": 24,
+    "browser_profile": "chrome",
+    "status": "completed_with_limits"
+  },
+  "axis_riders_group": {
+    "url": "https://www.facebook.com/groups/axisfoilriders/",
+    "sort": "New posts",
+    "posts_in_window": [
+      {
+        "post_id": "1581244256307193",
+        "permalink": "https://www.facebook.com/groups/axisfoilriders/permalink/1581244256307193/",
+        "poster": "James Owen",
+        "posted_ago": "7 hours ago",
+        "text": "I need to do some touch ups on my PC HM carbon mast. Does anyone know the type of red paint that is used on the mast? A link from home depot or amazon would be great. Thanks",
+        "comments": [
+          {
+            "author": "Dana Dinsmore",
+            "posted_ago": "1h",
+            "text": "Pantone 185C",
+            "replies": []
+          }
+        ],
+        "engagement": {
+          "comments": 1,
+          "reactions": 0,
+          "shares": null
+        },
+        "foils_or_gear_mentioned": [
+          "PC HM carbon mast"
+        ],
+        "rider_weight_kg": null,
+        "discipline": "gear maintenance",
+        "sentiment": "neutral"
+      }
+    ],
+    "first_out_of_window_post_seen": {
+      "poster": "Garrett Peterson",
+      "posted_ago": "16 hours ago",
+      "note": "Used as stop marker for 12h scan window."
+    }
+  },
+  "axis_official_page": {
+    "url": "https://www.facebook.com/axisfoils",
+    "posts_in_last_24h": [],
+    "unanswered_customer_questions": [],
+    "note": "Visible newest official post timestamp on page was 4 days ago, no in-window posts to expand."
+  },
+  "failures": []
+}

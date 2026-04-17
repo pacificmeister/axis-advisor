@@ -4,19 +4,19 @@
     "totalResponses": 20,
     "formId": "1BtQ-PDGDdJ6OZlDRuGZ83hHScfCDLpLz9Jv3dx2kS28",
     "reportWeek": "2026-03-03/2026-03-09",
-    "last_updated": "2026-04-13T13:11:54.768Z",
+    "last_updated": "2026-04-17T01:05:31Z",
     "total_riders": 177,
     "lastUpdated": "2026-04-10T18:00:00-07:00",
     "totalRiders": 177,
-    "updated": "2026-04-13T13:11:54.768Z",
+    "updated": "2026-04-17T01:05:31Z",
     "latest_scan": {
-      "timestamp": "2026-04-13T13:11:54.768Z",
-      "archive": "public/data/archives/fb-scan-2026-04-13T13-11-54-768Z.json",
+      "timestamp": "2026-04-17T01:05:31Z",
+      "archive": "public/data/archives/fb-scan-2026-04-17T01-05-31Z.json",
       "window_hours_group": 12,
       "window_hours_official": 24,
-      "new_setups_added": 1,
+      "new_setups_added": 0,
       "browser_tool_profile": "chrome",
-      "note": "Scan executed via attached Chrome CDP fallback because browser tool open/snapshot actions were blocked by SSRF/CDP start restrictions. Added 1 new setup from in-window AXIS Riders thread. Official AXIS page had no parseable posts in accessible 24h DOM."
+      "note": "No new rider setup configurations were posted in-window. Captured one maintenance question thread only."
     }
   },
   "riders": [
