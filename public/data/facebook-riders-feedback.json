@@ -2,9 +2,9 @@
   "meta": {
     "version": "2.0",
     "built_at": "2026-03-07T08:23:14.164588",
-    "total_entries": 412,
+    "total_entries": 410,
     "sources": {
-      "facebook_groups": 102,
+      "facebook_groups": 101,
       "expert_reviews": 17,
       "community_consensus": 10,
       "manufacturer": 3,
@@ -13,75 +13,9 @@
       "setup_survey": 231
     },
     "description": "Comprehensive rider feedback from FB groups, expert reviews, community knowledge, and AXIS official sources",
-    "last_updated": "2026-04-17T01:05:31Z",
-    "latest_scan": {
-      "timestamp": "2026-04-17T01:05:31Z",
-      "archive": "public/data/archives/fb-scan-2026-04-17T01-05-31Z.json",
-      "window_hours_group": 12,
-      "window_hours_official": 24,
-      "new_posts_captured": 1,
-      "browser_tool_profile": "chrome",
-      "note": "Riders group scan complete via Chrome profile. 1 in-window post captured with full visible comments/replies expanded. Official AXIS page showed no posts in last 24h (newest visible post was 4 days old)."
-    }
+    "last_updated": "2026-03-24T08:26:51Z"
   },
   "posts": [
-    {
-      "id": "post_fb_20260417_001",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.6K members)",
-      "rider": "James Owen",
-      "text": "PC HM carbon mast touch-up paint question. Community answer: Pantone 185C.",
-      "foils_mentioned": [
-        "PC HM carbon mast"
-      ],
-      "rider_weight": null,
-      "use_case": "gear_maintenance",
-      "sentiment": "neutral",
-      "type": "community",
-      "date": "2026-04-17T01:05:31Z",
-      "engagement": {
-        "comments": 1,
-        "reactions": 0,
-        "shares": null
-      },
-      "comments": [
-        {
-          "author": "Dana Dinsmore",
-          "text": "Pantone 185C",
-          "age": "1h",
-          "replies": []
-        }
-      ]
-    },
-    {
-      "id": "post_fb_20260413_001",
-      "source": "facebook_axis_riders",
-      "source_label": "AXIS Foil Riders (10.5K members)",
-      "rider": "Eric Dornbush",
-      "text": "75kg rider on ART Pro 1201 + PNG 1300v2 asks for help with inconsistent jibe foot switches and downhill/tail-heavy feel on F-ONE 7' downwinder (10-16kn). Thread advice converges on longer/Advance+ fuse, larger Progressive stab (375-425), and possible mast/base shim for board rocker.",
-      "foils_mentioned": [
-        "ART Pro 1201",
-        "PNG 1300 v2",
-        "Progressive 375",
-        "Progressive 425",
-        "Skinny 360/45",
-        "Speed 380",
-        "Spitfire 960",
-        "Spitfire 1030",
-        "Spitfire 1180",
-        "HPS 1050"
-      ],
-      "rider_weight": 165,
-      "use_case": "wing",
-      "sentiment": "mixed",
-      "type": "community",
-      "date": "2026-04-13T13:11:54.768Z",
-      "engagement": {
-        "comments": 7,
-        "reactions": null,
-        "shares": null
-      }
-    },
     {
       "id": "post_0",
       "source": "facebook_axis_riders",
